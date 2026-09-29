@@ -56,8 +56,9 @@ const PROVIDER_URLS=[
 ];
 function providerUrl(name){const hit=PROVIDER_URLS.find(([rx])=>rx.test(name));return hit?hit[1]:null}
 function providerBadge(c,g){
-  const url=providerUrl(c),free=g.groups.includes("free");
-  if(url)return '<a class="badge '+(free?'free':'')+'" href="'+url+'" target="_blank" rel="noopener noreferrer" title="'+c+' öffnen">'+c+'<span class="ext">↗</span></a>';
+  const direct=g.channelLinks&&g.channelLinks[c]?g.channelLinks[c]:null;
+  const url=direct||providerUrl(c),free=g.groups.includes("free");
+  if(url)return '<a class="badge '+(free?'free':'')+'" href="'+url+'" target="_blank" rel="noopener noreferrer" title="'+(direct?c+' – direkt zum Spiel/Stream':c+' – Anbieter öffnen')+'">'+c+'<span class="ext">↗</span></a>';
   return '<span class="badge '+(free?'free':'')+'">'+c+'</span>'
 }
 function match(g){return '<article class="match"><div class="time">'+g.time+'</div><div><div class="teams">'+g.home+' – '+g.away+'</div><div class="meta">'+g.competition+' · '+g.country+'</div></div><div class="providers">'+g.channels.map(c=>providerBadge(c,g)).join("")+'</div></article>'}
