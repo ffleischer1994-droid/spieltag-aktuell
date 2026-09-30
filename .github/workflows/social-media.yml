@@ -1,0 +1,38 @@
+name: Social Media Daily
+
+on:
+  schedule:
+    # GitHub cron is UTC. 03:00 UTC = 05:00 CEST.
+    # The script guards Europe/Berlin local time so DST is handled.
+    - cron: "0 3 * * *"
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  instagram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run only at 05:00 Europe/Berlin
+        if: github.event_name == 'workflow_dispatch' || true
+        run: |
+          HOUR=$(TZ=Europe/Berlin date +%H)
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$HOUR" != "05" ]; then
+            echo "Not 05:00 Europe/Berlin; skipping."
+            echo "SKIP_SOCIAL=1" >> "$GITHUB_ENV"
+          fi
+      - name: Build daily social assets
+        if: env.SKIP_SOCIAL != '1'
+        run: node scripts/social/build-social.mjs
+      - name: Publish Instagram feed + story
+        if: env.SKIP_SOCIAL != '1'
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+        run: node scripts/social/publish-instagram.mjs
