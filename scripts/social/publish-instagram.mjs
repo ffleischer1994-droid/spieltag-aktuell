@@ -19,10 +19,20 @@ try{
  id=page.instagram_business_account.id; host="https://graph.facebook.com";
  console.log("Using Facebook Login Instagram account",page.instagram_business_account.username||id);
 }
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 async function publish(data){
  const c=await post(host+"/"+id+"/media",data);
- const result=await post(host+"/"+id+"/media_publish",{creation_id:c.id});
- return result.id;
+ for(let i=0;i<12;i++){
+   await sleep(i===0?5000:3000);
+   const s=await get(host+"/"+c.id+"?fields=status_code,status&access_token="+encodeURIComponent(token));
+   console.log("Media container",c.id,"status:",s.status_code||s.status||"unknown");
+   if(s.status_code==="FINISHED"){
+     const result=await post(host+"/"+id+"/media_publish",{creation_id:c.id});
+     return result.id;
+   }
+   if(s.status_code==="ERROR"||s.status_code==="EXPIRED") throw new Error("Instagram media container failed: "+JSON.stringify(s));
+ }
+ throw new Error("Instagram media container was not ready after waiting.");
 }
 const feed=await publish({image_url:feedUrl,caption});
 console.log("Feed published:",feed);
