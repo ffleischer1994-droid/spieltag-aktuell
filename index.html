@@ -74,13 +74,13 @@
 </nav>
 </main>
 <script>
-let GAMES=[];let senderFilter="all",countryFilter="all",competitionFilter="all";
+let GAMES=[];let senderFilter="all",countryFilter="all",competitionFilter="all",teamFilter=new URLSearchParams(location.search).get("team")||"";
 const weekdaysShort=["So","Mo","Di","Mi","Do","Fr","Sa"],weekdaysLong=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
 function localISO(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
 const today=new Date();today.setHours(12,0,0,0);const DAY_DATES=Array.from({length:7},(_,i)=>{const d=new Date(today);d.setDate(d.getDate()+i);return localISO(d)});let selectedDate=DAY_DATES[0];
 function fmt(s){const d=new Date(s+"T12:00:00");return{short:d.getDate()+"."+(d.getMonth()+1)+".",dow:weekdaysShort[d.getDay()],long:weekdaysLong[d.getDay()]+", "+String(d.getDate()).padStart(2,"0")+"."+String(d.getMonth()+1).padStart(2,"0")+"."}}
 function renderDays(){days.innerHTML=DAY_DATES.map(ds=>{const p=fmt(ds);return '<button class="day '+(ds===selectedDate?'active':'')+'" data-date="'+ds+'"><span class="dow">'+(ds===DAY_DATES[0]?'Heute':p.dow)+'</span><span class="date">'+p.short+'</span></button>'}).join("");days.querySelectorAll(".day").forEach(b=>b.onclick=()=>{selectedDate=b.dataset.date;renderAll()});const active=days.querySelector(".day.active");if(active&&window.matchMedia("(max-width:850px)").matches)requestAnimationFrame(()=>active.scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"}))}
-function visible(){return GAMES.filter(g=>g.date===selectedDate&&(senderFilter==="all"||g.groups.includes(senderFilter))&&(countryFilter==="all"||g.country===countryFilter)&&(competitionFilter==="all"||g.competition===competitionFilter)).sort((a,b)=>a.time.localeCompare(b.time))}
+function visible(){return GAMES.filter(g=>g.date===selectedDate&&(!teamFilter||g.home.replace(" ♀","")===teamFilter||g.away.replace(" ♀","")===teamFilter)&&(senderFilter==="all"||g.groups.includes(senderFilter))&&(countryFilter==="all"||g.country===countryFilter)&&(competitionFilter==="all"||g.competition===competitionFilter)).sort((a,b)=>a.time.localeCompare(b.time))}
 function period(t){const[h,m]=t.split(":").map(Number),v=h*60+m;return v<720?"morning":v<1020?"afternoon":"evening"}
 function selects(){const day=GAMES.filter(g=>g.date===selectedDate),cs=[...new Set(day.map(g=>g.country))].sort(),ws=[...new Set(day.map(g=>g.competition))].sort();countryFilter=cs.includes(countryFilter)?countryFilter:"all";competitionFilter=ws.includes(competitionFilter)?competitionFilter:"all";document.getElementById("country-filter").innerHTML='<option value="all">Alle Länder</option>'+cs.map(x=>'<option>'+x+'</option>').join("");document.getElementById("competition-filter").innerHTML='<option value="all">Alle Wettbewerbe</option>'+ws.map(x=>'<option>'+x+'</option>').join("");document.getElementById("country-filter").value=countryFilter;document.getElementById("competition-filter").value=competitionFilter}
 const PROVIDER_URLS=[
@@ -127,7 +127,7 @@ function renderGames(){const a=visible(),g={morning:a.filter(x=>period(x.time)==
 function renderAll(){renderDays();selects();renderGames()}
 document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("active"));c.classList.add("active");senderFilter=c.dataset.filter;renderGames()});
 document.getElementById("country-filter").onchange=e=>{countryFilter=e.target.value;renderGames()};document.getElementById("competition-filter").onchange=e=>{competitionFilter=e.target.value;renderGames()};
-document.getElementById("reset").onclick=()=>{senderFilter=countryFilter=competitionFilter="all";document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("active",x.dataset.filter==="all"));selects();renderGames()};
+document.getElementById("reset").onclick=()=>{senderFilter=countryFilter=competitionFilter="all";teamFilter="";history.replaceState(null,"",location.pathname);document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("active",x.dataset.filter==="all"));selects();renderGames()};
 document.getElementById("prev-day").onclick=()=>{let i=DAY_DATES.indexOf(selectedDate);if(i>0){selectedDate=DAY_DATES[i-1];renderAll()}};
 document.getElementById("next-day").onclick=()=>{let i=DAY_DATES.indexOf(selectedDate);if(i<DAY_DATES.length-1){selectedDate=DAY_DATES[i+1];renderAll()}};
 
@@ -146,6 +146,6 @@ document.getElementById("quick-free").onclick=()=>{senderFilter="free";document.
 document.getElementById("mobile-filter-toggle").onclick=e=>{const f=document.querySelector(".filters");f.classList.toggle("mobile-collapsed");e.target.textContent=f.classList.contains("mobile-collapsed")?"Filter anzeigen +":"Filter schließen −"};
 renderFavorites();
 
-fetch("games.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{GAMES=d;renderAll()}).catch(()=>{renderAll();document.getElementById("game-list").innerHTML='<div class="empty-state">Spieldaten konnten gerade nicht geladen werden.</div>'});
+fetch("games.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{GAMES=d;if(teamFilter){const hit=GAMES.find(g=>g.home.replace(" ♀","")===teamFilter||g.away.replace(" ♀","")===teamFilter);if(hit&&DAY_DATES.includes(hit.date))selectedDate=hit.date}renderAll()}).catch(()=>{renderAll();document.getElementById("game-list").innerHTML='<div class="empty-state">Spieldaten konnten gerade nicht geladen werden.</div>'});
 </script>
 </body></html>
