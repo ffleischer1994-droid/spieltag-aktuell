@@ -444,6 +444,48 @@
   },
   {
     "date": "2026-09-30",
+    "time": "18:45",
+    "competition": "Champions League (Frauen)",
+    "country": "Europa",
+    "home": "AS Rom ♀",
+    "away": "FC Barcelona ♀",
+    "channels": [
+      "Disney+"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "time": "18:45",
+    "competition": "Champions League (Frauen)",
+    "country": "Europa",
+    "home": "BK Häcken ♀",
+    "away": "Juventus Turin ♀",
+    "channels": [
+      "Disney+"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "time": "18:45",
+    "competition": "Champions League (Frauen)",
+    "country": "Europa",
+    "home": "Paris FC ♀",
+    "away": "FC Arsenal ♀",
+    "channels": [
+      "Disney+"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-09-30",
     "time": "19:30",
     "competition": "Arabian Gulf Cup",
     "country": "International",
@@ -453,6 +495,36 @@
       "Sportdigital Fussball"
     ],
     "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "time": "21:00",
+    "competition": "Champions League (Frauen)",
+    "country": "Europa",
+    "home": "Olympique Lyon ♀",
+    "away": "FC Chelsea ♀",
+    "channels": [
+      "Disney+"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "time": "21:00",
+    "competition": "Champions League (Frauen)",
+    "country": "Europa",
+    "home": "Benfica Lissabon ♀",
+    "away": "FC Bayern München ♀",
+    "channels": [
+      "Disney+",
+      "ZDF Livestream"
+    ],
+    "groups": [
+      "free",
       "other"
     ]
   },
