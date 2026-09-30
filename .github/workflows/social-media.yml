@@ -56,6 +56,8 @@ jobs:
             social-output/feed.png
             social-output/story.png
             social-output/caption.txt
-      - name: Preview safety stop
+      - name: Publish Instagram feed + story
         if: env.SKIP_SOCIAL != '1'
-        run: echo "Instagram publishing intentionally disabled until visual approval."
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/social/publish-instagram.mjs
