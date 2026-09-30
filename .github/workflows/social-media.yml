@@ -47,7 +47,8 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add social/latest-feed.jpg social/latest-story.jpg
           git commit -m "Update daily Instagram assets" || true
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
           sleep 15
       - name: Publish Instagram feed + story
         if: env.SKIP_SOCIAL != '1'
