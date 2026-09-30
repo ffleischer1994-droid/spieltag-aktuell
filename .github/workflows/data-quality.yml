@@ -1,0 +1,34 @@
+name: Data quality
+on:
+  push:
+    paths:
+      - "games.json"
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate games.json
+        run: |
+          python - <<'PY'
+          import json, datetime, pathlib
+          p=pathlib.Path("games.json")
+          data=json.loads(p.read_text())
+          required={"date","time","home","away","competition","country","channels","groups"}
+          assert isinstance(data,list), "games.json must contain a list"
+          seen=set()
+          for i,g in enumerate(data):
+              missing=required-set(g)
+              assert not missing, f"row {i}: missing {sorted(missing)}"
+              datetime.date.fromisoformat(g["date"])
+              datetime.time.fromisoformat(g["time"])
+              assert isinstance(g["channels"],list) and g["channels"], f"row {i}: channels empty"
+              key=(g["date"],g["time"],g["home"],g["away"])
+              assert key not in seen, f"duplicate fixture: {key}"
+              seen.add(key)
+          print(f"Validated {len(data)} fixtures")
+          PY
