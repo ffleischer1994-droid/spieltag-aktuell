@@ -2,14 +2,12 @@ name: Social Media Daily
 
 on:
   schedule:
-    # GitHub cron is UTC. 03:00 UTC = 05:00 CEST.
-    # The script guards Europe/Berlin local time so DST is handled.
     - cron: "0 3 * * *"
     - cron: "0 4 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   instagram:
@@ -20,16 +18,37 @@ jobs:
         with:
           node-version: "22"
       - name: Run only at 05:00 Europe/Berlin
-        if: github.event_name == 'workflow_dispatch' || true
         run: |
           HOUR=$(TZ=Europe/Berlin date +%H)
           if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$HOUR" != "05" ]; then
-            echo "Not 05:00 Europe/Berlin; skipping."
             echo "SKIP_SOCIAL=1" >> "$GITHUB_ENV"
           fi
-      - name: Build daily social assets
+      - name: Build social package
         if: env.SKIP_SOCIAL != '1'
         run: node scripts/social/build-social.mjs
+      - name: Install renderer
+        if: env.SKIP_SOCIAL != '1'
+        run: |
+          npm install --no-save sharp
+          CSS=$(curl -sL -A "Mozilla/5.0" "https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;700&display=swap")
+          mkdir -p ~/.local/share/fonts
+          echo "$CSS" | grep -o 'https://fonts.gstatic.com[^)]*' | sort -u | while read URL; do curl -sL "$URL" -o ~/.local/share/fonts/font-$(date +%s%N).woff2; done
+          fc-cache -f
+      - name: Render feed and story
+        if: env.SKIP_SOCIAL != '1'
+        run: node scripts/social/render-social.mjs
+      - name: Publish media URLs
+        if: env.SKIP_SOCIAL != '1'
+        run: |
+          mkdir -p social
+          cp social-output/feed.jpg social/latest-feed.jpg
+          cp social-output/story.jpg social/latest-story.jpg
+          git config user.name "spieltag-aktuell-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add social/latest-feed.jpg social/latest-story.jpg
+          git commit -m "Update daily Instagram assets" || true
+          git push
+          sleep 15
       - name: Publish Instagram feed + story
         if: env.SKIP_SOCIAL != '1'
         env:
