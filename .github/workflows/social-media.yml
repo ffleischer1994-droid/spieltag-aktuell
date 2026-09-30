@@ -29,11 +29,8 @@ jobs:
       - name: Install renderer
         if: env.SKIP_SOCIAL != '1'
         run: |
-          npm install --no-save sharp
-          CSS=$(curl -sL -A "Mozilla/5.0" "https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;700&display=swap")
-          mkdir -p ~/.local/share/fonts
-          echo "$CSS" | grep -o 'https://fonts.gstatic.com[^)]*' | sort -u | while read URL; do curl -sL "$URL" -o ~/.local/share/fonts/font-$(date +%s%N).woff2; done
-          fc-cache -f
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
       - name: Render feed and story
         if: env.SKIP_SOCIAL != '1'
         run: node scripts/social/render-social.mjs
@@ -41,17 +38,24 @@ jobs:
         if: env.SKIP_SOCIAL != '1'
         run: |
           mkdir -p social
-          cp social-output/feed.jpg social/latest-feed.jpg
-          cp social-output/story.jpg social/latest-story.jpg
+          cp social-output/feed.png social/latest-feed.png
+          cp social-output/story.png social/latest-story.png
           git config user.name "spieltag-aktuell-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add social/latest-feed.jpg social/latest-story.jpg
+          git add social/latest-feed.png social/latest-story.png
           git commit -m "Update daily Instagram assets" || true
           git pull --rebase origin main
           git push origin HEAD:main
           sleep 15
-      - name: Publish Instagram feed + story
+      - name: Upload rendered preview
         if: env.SKIP_SOCIAL != '1'
-        env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: node scripts/social/publish-instagram.mjs
+        uses: actions/upload-artifact@v4
+        with:
+          name: instagram-preview
+          path: |
+            social-output/feed.png
+            social-output/story.png
+            social-output/caption.txt
+      - name: Preview safety stop
+        if: env.SKIP_SOCIAL != '1'
+        run: echo "Instagram publishing intentionally disabled until visual approval."
