@@ -1,0 +1,40 @@
+name: Instagram Publish Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Instagram media container
+        id: create
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: "17841424388458822"
+          IMAGE_URL: "https://spieltagaktuell.de/instagram/generated/api-test.jpg"
+          CAPTION: "Spieltag Aktuell – API-Test"
+        run: |
+          set -euo pipefail
+          response=$(curl --fail-with-body -sS -X POST "https://graph.instagram.com/v26.0/${IG_USER_ID}/media" \
+            -H "Authorization: Bearer ${IG_ACCESS_TOKEN}" \
+            --data-urlencode "image_url=${IMAGE_URL}" \
+            --data-urlencode "caption=${CAPTION}")
+          echo "$response"
+          container_id=$(python3 -c 'import json,sys; print(json.load(sys.stdin)["id"])' <<< "$response")
+          echo "container_id=$container_id" >> "$GITHUB_OUTPUT"
+
+      - name: Publish Instagram media
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: "17841424388458822"
+          CONTAINER_ID: ${{ steps.create.outputs.container_id }}
+        run: |
+          set -euo pipefail
+          response=$(curl --fail-with-body -sS -X POST "https://graph.instagram.com/v26.0/${IG_USER_ID}/media_publish" \
+            -H "Authorization: Bearer ${IG_ACCESS_TOKEN}" \
+            --data-urlencode "creation_id=${CONTAINER_ID}")
+          echo "$response"
