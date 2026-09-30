@@ -2,8 +2,8 @@ name: Social Media Daily
 
 on:
   schedule:
-    - cron: "0 3 * * *"
-    - cron: "0 4 * * *"
+    - cron: "0 6 * * *"
+    - cron: "0 7 * * *"
   workflow_dispatch:
 
 permissions:
@@ -17,10 +17,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Run only at 05:00 Europe/Berlin
+      - name: Run only at 08:00 Europe/Berlin
         run: |
           HOUR=$(TZ=Europe/Berlin date +%H)
-          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$HOUR" != "05" ]; then
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$HOUR" != "08" ]; then
             echo "SKIP_SOCIAL=1" >> "$GITHUB_ENV"
           fi
       - name: Build social package
