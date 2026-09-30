@@ -46,7 +46,7 @@
 <div class="menu-panel" id="menu-panel"><div class="panel-inner"><nav class="menu-grid"><a href="/free-tv/">Fußball im Free-TV</a><a href="/fussball-heute/">Fußball heute</a><a href="/bundesliga/">Bundesliga</a><a href="/champions-league/">Champions League</a><a href="/frauenfussball/">Frauenfußball</a><a href="/verein/deutschland/">Deutschland</a></nav></div></div>
 <div class="search-panel" id="search-panel"><div class="panel-inner"><input class="search-input" id="site-search" type="search" placeholder="Verein oder Nationalmannschaft suchen …" autocomplete="off"><div class="search-results" id="search-results"></div></div></div>
 <main class="wrap">
-<div class="fav-bar" id="fav-bar"></div><a class="free-cta" href="/free-tv/"><strong>Fußball im Free-TV →</strong><span>Kein Sky, DAZN oder WOW? Hier siehst du, was heute kostenlos im Free-TV oder Gratis-Stream läuft.</span></a><nav class="day-nav"><button class="arrow" id="prev-day">‹</button><div class="days" id="days"></div><button class="arrow" id="next-day">›</button></nav>
+<div class="fav-bar" id="fav-bar"></div><a class="free-cta" href="/free-tv/"><strong>Fußball im Free-TV →</strong><span>Kein Sky, DAZN oder WOW? Hier siehst du, was heute kostenlos im Free-TV oder Gratis-Stream läuft.</span></a><button id="quick-free" class="chip" style="margin:0 0 4px">Nur Free-TV anzeigen</button><nav class="day-nav"><button class="arrow" id="prev-day">‹</button><div class="days" id="days"></div><button class="arrow" id="next-day">›</button></nav>
 <section class="filters mobile-collapsed"><button class="mobile-filter-toggle" id="mobile-filter-toggle">Filter anzeigen +</button>
 <div class="filter-top"><div class="filter-title">Filtern</div><button class="reset" id="reset">Alles zurücksetzen</button></div>
 <div class="filter-grid">
@@ -142,6 +142,7 @@ const menuPanel=document.getElementById("menu-panel"),searchPanel=document.getEl
 document.getElementById("menu-btn").onclick=()=>{searchPanel.classList.remove("open");menuPanel.classList.toggle("open")};
 document.getElementById("search-btn").onclick=()=>searchPanel.classList.contains("open")?searchPanel.classList.remove("open"):openSearch();
 siteSearch.oninput=e=>showSearch(e.target.value);
+document.getElementById("quick-free").onclick=()=>{senderFilter="free";document.querySelectorAll(".chip[data-filter]").forEach(x=>x.classList.toggle("active",x.dataset.filter==="free"));renderGames();document.querySelector(".list-head").scrollIntoView({behavior:"smooth",block:"start"})};
 document.getElementById("mobile-filter-toggle").onclick=e=>{const f=document.querySelector(".filters");f.classList.toggle("mobile-collapsed");e.target.textContent=f.classList.contains("mobile-collapsed")?"Filter anzeigen +":"Filter schließen −"};
 renderFavorites();
 
