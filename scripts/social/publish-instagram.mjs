@@ -4,7 +4,7 @@ if(!token){console.error("IG_ACCESS_TOKEN missing");process.exit(1)}
 if(!fs.existsSync("social-output/today.json")){console.log("No social package today.");process.exit(0)}
 const caption=fs.readFileSync("social-output/caption.txt","utf8");
 const base="https://raw.githubusercontent.com/ffleischer1994-droid/spieltag-aktuell/main/social/";
-const feedUrl=base+"latest-feed.jpg?ts="+Date.now(), storyUrl=base+"latest-story.jpg?ts="+Date.now();
+const feedUrl=base+"latest-feed.png?ts="+Date.now(), storyUrl=base+"latest-story.png?ts="+Date.now();
 const get=async u=>{const r=await fetch(u);if(!r.ok)throw new Error(await r.text());return r.json()};
 const post=async(u,data)=>{const r=await fetch(u,{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded"},body:new URLSearchParams({...data,access_token:token})});if(!r.ok)throw new Error(await r.text());return r.json()};
 let host,id;
