@@ -133,7 +133,7 @@ document.getElementById("next-day").onclick=()=>{let i=DAY_DATES.indexOf(selecte
 
 const SEARCH_PAGES=[
 ["Deutschland","/verein/deutschland/"],["Deutschland U21","/verein/deutschland-u21/"],["FC Bayern München Frauen","/verein/fc-bayern-muenchen-frauen/"],["Eintracht Frankfurt Frauen","/verein/eintracht-frankfurt-frauen/"],
-["Bundesliga","/bundesliga/"],["Champions League","/champions-league/"],["Frauenfußball","/frauenfussball/"],["Fußball im Free-TV","/free-tv/"]
+["Bundesliga","/bundesliga/"],["Champions League","/champions-league/"],["Frauenfußball","/frauenfussball/"],["Fußball im Free-TV","/free-tv/"],["FC Bayern München","/verein/fc-bayern-muenchen/"],["Borussia Dortmund","/verein/borussia-dortmund/"],["VfB Stuttgart","/verein/vfb-stuttgart/"],["Eintracht Frankfurt","/verein/eintracht-frankfurt/"],["Bayer 04 Leverkusen","/verein/bayer-04-leverkusen/"],["RB Leipzig","/verein/rb-leipzig/"],["Hamburger SV","/verein/hamburger-sv/"],["1. FC Köln","/verein/1-fc-koeln/"],["Borussia Mönchengladbach","/verein/borussia-moenchengladbach/"],["FC Schalke 04","/verein/fc-schalke-04/"],["SV Werder Bremen","/verein/werder-bremen/"]
 ];
 function searchItems(q){const names=new Set();GAMES.forEach(g=>{names.add(g.home.replace(" ♀",""));names.add(g.away.replace(" ♀",""))});const base=[...SEARCH_PAGES,...[...names].map(n=>[n,"/?team="+encodeURIComponent(n)])];return base.filter(([n])=>n.toLowerCase().includes(q.toLowerCase())).slice(0,10)}
 function showSearch(q=""){const r=document.getElementById("search-results");r.innerHTML=q?searchItems(q).map(([n,u])=>'<a href="'+u+'">'+esc(n)+'</a>').join(""):'<a href="/free-tv/">Fußball im Free-TV</a><a href="/bundesliga/">Bundesliga</a><a href="/champions-league/">Champions League</a>'}
