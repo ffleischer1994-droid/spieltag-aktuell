@@ -8,7 +8,8 @@ function hydrate(path){
  let html=fs.readFileSync(path,"utf8").replace("{{DATE}}",pretty);
  const block=highlights.map(g=>'<article class="game"><div class="time">'+esc(g.time)+' Uhr</div><div class="teams">'+esc(g.home)+' – '+esc(g.away)+'</div><div class="sender">'+esc(g.channels.join(" · "))+'</div></article>').join("");
  html=html.replace(/<!-- Repeat \.game only for verified highlight matches\. No club logos\. -->[\s\S]*?<article class="game">[\s\S]*?<\/article>/,block);
- html=html.replace('src="/logo.svg"','src="'+new URL("../../logo.svg",import.meta.url).href+'"');
+ const logoData="data:image/svg+xml;base64,"+fs.readFileSync("logo.svg").toString("base64");
+ html=html.replace('src="/logo.svg"','src="'+logoData+'"');
  return html;
 }
 const browser=await chromium.launch({headless:true});
