@@ -1,0 +1,53 @@
+name: Render Instagram test image
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'instagram/template/index.html'
+      - 'logo.svg'
+      - '.github/workflows/render-instagram-test.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright
+        run: |
+          npm init -y
+          npm install playwright
+          npx playwright install --with-deps chromium
+      - name: Render 1080x1350 JPEG
+        run: |
+          mkdir -p instagram/generated
+          node <<'NODE'
+          const { chromium } = require('playwright');
+          const path = require('path');
+          (async () => {
+            const browser = await chromium.launch({headless:true});
+            const page = await browser.newPage({viewport:{width:1080,height:1350}, deviceScaleFactor:1});
+            const url = 'file://' + path.resolve('instagram/template/index.html');
+            await page.goto(url, {waitUntil:'networkidle'});
+            await page.evaluate(() => document.fonts.ready);
+            await page.screenshot({path:'instagram/generated/api-test.jpg', type:'jpeg', quality:94, fullPage:false});
+            await browser.close();
+          })();
+          NODE
+      - name: Commit rendered image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add instagram/generated/api-test.jpg
+          if git diff --cached --quiet; then
+            echo "No image changes"
+          else
+            git commit -m "Render Instagram API test image"
+            git push
+          fi
