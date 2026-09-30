@@ -36,8 +36,8 @@
     "time": "15:00",
     "competition": "Afrika-Cup",
     "country": "Afrika",
-    "home": "Lesotho",
-    "away": "Marokko",
+    "home": "Äthiopien",
+    "away": "Senegal",
     "channels": [
       "DAZN"
     ],
@@ -50,8 +50,8 @@
     "time": "15:00",
     "competition": "Afrika-Cup",
     "country": "Afrika",
-    "home": "Äthiopien",
-    "away": "Senegal",
+    "home": "Lesotho",
+    "away": "Marokko",
     "channels": [
       "DAZN"
     ],
@@ -109,20 +109,6 @@
     "time": "18:00",
     "competition": "Nations League",
     "country": "Europa",
-    "home": "Republik Moldau",
-    "away": "Färöer Inseln",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-09-29",
-    "time": "18:00",
-    "competition": "Nations League",
-    "country": "Europa",
     "home": "Finnland",
     "away": "Belarus",
     "channels": [
@@ -152,8 +138,22 @@
     "time": "18:00",
     "competition": "Afrika-Cup",
     "country": "Afrika",
-    "home": "Sambia",
-    "away": "Togo",
+    "home": "Kap Verde",
+    "away": "Ruanda",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "time": "18:00",
+    "competition": "Nations League",
+    "country": "Europa",
+    "home": "Republik Moldau",
+    "away": "Färöer Inseln",
     "channels": [
       "DAZN"
     ],
@@ -166,8 +166,8 @@
     "time": "18:00",
     "competition": "Afrika-Cup",
     "country": "Afrika",
-    "home": "Kap Verde",
-    "away": "Ruanda",
+    "home": "Sambia",
+    "away": "Togo",
     "channels": [
       "DAZN"
     ],
@@ -224,22 +224,6 @@
     "time": "20:45",
     "competition": "Nations League",
     "country": "Europa",
-    "home": "Luxemburg",
-    "away": "Island",
-    "channels": [
-      "DAZN",
-      "L'Équipe"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ]
-  },
-  {
-    "date": "2026-09-29",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
     "home": "Bulgarien",
     "away": "Estland",
     "channels": [
@@ -254,8 +238,8 @@
     "time": "20:45",
     "competition": "Nations League",
     "country": "Europa",
-    "home": "Slowakei",
-    "away": "Kasachstan",
+    "home": "Luxemburg",
+    "away": "Island",
     "channels": [
       "DAZN",
       "L'Équipe"
@@ -284,20 +268,6 @@
     "time": "20:45",
     "competition": "Nations League",
     "country": "Europa",
-    "home": "Slowenien",
-    "away": "Nordmazedonien",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-09-29",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
     "home": "Schottland",
     "away": "Schweiz",
     "channels": [
@@ -314,10 +284,25 @@
     "time": "20:45",
     "competition": "Nations League",
     "country": "Europa",
-    "home": "Tschechien",
-    "away": "England",
+    "home": "Slowakei",
+    "away": "Kasachstan",
     "channels": [
-      "DAZN 2",
+      "DAZN",
+      "L'Équipe"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "Europa",
+    "home": "Slowenien",
+    "away": "Nordmazedonien",
+    "channels": [
       "DAZN"
     ],
     "groups": [
@@ -332,6 +317,21 @@
     "home": "Spanien",
     "away": "Kroatien",
     "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "Europa",
+    "home": "Tschechien",
+    "away": "England",
+    "channels": [
+      "DAZN 2",
       "DAZN"
     ],
     "groups": [
@@ -384,6 +384,20 @@
   },
   {
     "date": "2026-09-30",
+    "time": "11:15",
+    "competition": "Länderspiel (U19)",
+    "country": "International",
+    "home": "Finnland (U19)",
+    "away": "Deutschland (U19)",
+    "channels": [
+      "Sender-Option"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-09-30",
     "time": "14:00",
     "competition": "FIFA ASEAN Cup",
     "country": "International",
@@ -396,6 +410,20 @@
     "groups": [
       "dazn",
       "other"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "time": "18:00",
+    "competition": "Länderspiel (Herren)",
+    "country": "Europa",
+    "home": "Litauen",
+    "away": "Andorra",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
     ]
   },
   {
@@ -416,16 +444,32 @@
   },
   {
     "date": "2026-09-30",
-    "time": "18:00",
-    "competition": "Länderspiel (Herren)",
+    "time": "18:30",
+    "competition": "UEFA Women's Europa Cup",
     "country": "Europa",
-    "home": "Litauen",
-    "away": "Andorra",
+    "home": "Eintracht Frankfurt ♀",
+    "away": "FH Hafnarfjördur ♀",
     "channels": [
-      "DAZN"
+      "EintrachtTV+"
     ],
     "groups": [
-      "dazn"
+      "other"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "time": "18:30",
+    "competition": "UEFA Women's Europa Cup",
+    "country": "Europa",
+    "home": "SK Sturm Graz ♀",
+    "away": "VfL Wolfsburg ♀",
+    "channels": [
+      "VfL Wolfsburg YouTube",
+      "Wölfe TV"
+    ],
+    "groups": [
+      "free",
+      "other"
     ]
   },
   {
@@ -436,7 +480,7 @@
     "home": "VfB Oldenburg",
     "away": "TSV Havelse",
     "channels": [
-      "Livestream"
+      "Leagues"
     ],
     "groups": [
       "other"
@@ -489,10 +533,26 @@
     "time": "19:30",
     "competition": "Arabian Gulf Cup",
     "country": "International",
-    "home": "Ver. Arabische Emirate",
-    "away": "Katar",
+    "home": "Bahrain",
+    "away": "Jemen",
     "channels": [
-      "Sportdigital Fussball"
+      "Sportdigital Fussball 2",
+      "Sportdigital.de",
+      "OneFootball PPV"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "time": "19:30",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "SC Wiedenbrück",
+    "away": "Sportfreunde Siegen",
+    "channels": [
+      "Leagues"
     ],
     "groups": [
       "other"
@@ -517,27 +577,16 @@
     "time": "19:30",
     "competition": "Arabian Gulf Cup",
     "country": "International",
-    "home": "Bahrain",
-    "away": "Jemen",
+    "home": "Ver. Arabische Emirate",
+    "away": "Katar",
     "channels": [
-      "Sportdigital Fussball 2",
-      "Sportdigital.de"
+      "DAZN",
+      "Sportdigital Fussball",
+      "Sportdigital.de",
+      "OneFootball PPV"
     ],
     "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-09-30",
-    "time": "21:00",
-    "competition": "Champions League (Frauen)",
-    "country": "Europa",
-    "home": "Olympique Lyon ♀",
-    "away": "FC Chelsea ♀",
-    "channels": [
-      "Disney+"
-    ],
-    "groups": [
+      "dazn",
       "other"
     ]
   },
@@ -554,6 +603,20 @@
     ],
     "groups": [
       "free",
+      "other"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "time": "21:00",
+    "competition": "Champions League (Frauen)",
+    "country": "Europa",
+    "home": "Olympique Lyon ♀",
+    "away": "FC Chelsea ♀",
+    "channels": [
+      "Disney+"
+    ],
+    "groups": [
       "other"
     ]
   },
@@ -724,8 +787,8 @@
     "time": "19:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
-    "home": "SV Sandhausen",
-    "away": "1. FC Kaiserslautern II",
+    "home": "Stuttgarter Kickers",
+    "away": "Kickers Offenbach",
     "channels": [
       "Leagues",
       "OneFootball"
@@ -739,8 +802,8 @@
     "time": "19:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
-    "home": "Stuttgarter Kickers",
-    "away": "Kickers Offenbach",
+    "home": "SV Sandhausen",
+    "away": "1. FC Kaiserslautern II",
     "channels": [
       "Leagues",
       "OneFootball"
@@ -1025,15 +1088,15 @@
   {
     "date": "2026-10-05",
     "time": "20:45",
-    "competition": "Länderspiel (Herren)",
+    "competition": "Nations League",
     "country": "Europa",
-    "home": "Liechtenstein",
-    "away": "Gibraltar",
+    "home": "Frankreich",
+    "away": "Belgien",
     "channels": [
-      "DAZN"
+      "Sender unbekannt"
     ],
     "groups": [
-      "dazn"
+      "other"
     ]
   },
   {
@@ -1053,15 +1116,15 @@
   {
     "date": "2026-10-05",
     "time": "20:45",
-    "competition": "Nations League",
+    "competition": "Länderspiel (Herren)",
     "country": "Europa",
-    "home": "Frankreich",
-    "away": "Belgien",
+    "home": "Liechtenstein",
+    "away": "Gibraltar",
     "channels": [
-      "Sender unbekannt"
+      "DAZN"
     ],
     "groups": [
-      "other"
+      "dazn"
     ]
   }
 ]
