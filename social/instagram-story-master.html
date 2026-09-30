@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080">
+<title>Spieltag Aktuell – Instagram Story Master</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden}
+body{background:#F2AFC0;color:#000;font-family:Roboto,Arial,sans-serif}
+.post{width:1080px;height:1920px;position:relative;background:#F2AFC0;padding:110px 90px 80px;display:flex;flex-direction:column}
+.logo{width:380px;height:auto;display:block;margin:0 auto}
+.content{flex:1;display:flex;flex-direction:column;justify-content:center;width:100%;padding:30px 0 10px}
+h1{font-family:"Archivo Black",Arial,sans-serif;font-size:78px;line-height:.92;letter-spacing:-2px;text-transform:uppercase;margin:0 0 18px}
+.date{display:inline-flex;align-items:center;justify-content:center;align-self:flex-start;background:#000;color:#F2AFC0;border-radius:999px;min-width:300px;height:72px;padding:0 32px;font-family:"Archivo Black",Arial,sans-serif;font-size:29px;margin-bottom:24px}
+.games{width:100%}
+.game{display:grid;grid-template-columns:190px minmax(0,1fr);column-gap:20px;padding:19px 0 20px;border-bottom:3px solid #000}
+.game:first-child{border-top:0}
+.time{font-family:"Archivo Black",Arial,sans-serif;font-size:32px;line-height:1.08;white-space:nowrap}
+.teams{font-family:"Archivo Black",Arial,sans-serif;font-size:32px;line-height:1.08;overflow-wrap:anywhere}
+.sender{grid-column:2;margin-top:8px;font-size:22px;line-height:1.15}
+.footer{text-align:center;font-family:"Archivo Black",Arial,sans-serif;font-size:29px;letter-spacing:.2px;margin-top:26px}
+</style>
+</head>
+<body>
+<main class="post">
+  <img class="logo" src="/logo.svg" alt="Spieltag Aktuell">
+  <section class="content">
+    <h1>FUSSBALL-<br>HIGHLIGHTS<br>HEUTE</h1>
+    <div class="date">{{DATE}}</div>
+    <div class="games">
+      <!-- Repeat .game only for verified highlight matches. No club logos. -->
+      <article class="game">
+        <div class="time">{{TIME}} Uhr</div>
+        <div class="teams">{{HOME}} – {{AWAY}}</div>
+        <div class="sender">{{BROADCASTERS}}</div>
+      </article>
+    </div>
+  </section>
+  <footer class="footer">SPIELTAGAKTUELL.DE</footer>
+</main>
+</body>
+</html>
