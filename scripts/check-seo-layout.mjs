@@ -7,7 +7,7 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
 await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
 const config=JSON.parse(fs.readFileSync('seo/config.json'));
 const registry=JSON.parse(fs.readFileSync('seo/matches.json'));
-const paths=[...config.map(c=>c.path),...Object.values(registry).map(x=>x.path)];
+const paths=['vereine','sender',...config.map(c=>c.path),...Object.values(registry).map(x=>x.path)];
 const browser=await chromium.launch();fs.mkdirSync('/tmp/seo-layout',{recursive:true});
 try{
 for(const [width,dark] of [[320,false],[1440,false],[1024,true]]){

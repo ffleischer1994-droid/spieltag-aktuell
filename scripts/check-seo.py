@@ -10,7 +10,7 @@ class Parser(HTMLParser):
   if t=='h1':self.h1+=1
   if t=='a' and d.get('href','').startswith('/'):self.links.append(d['href'])
   if t=='link' and d.get('rel')=='canonical':self.canon.append(d['href'])
-config=json.loads((root/'seo/config.json').read_text());files=[root/c['path']/'index.html' for c in config]+list((root/'spiel').glob('*/index.html'))+[root/'index.html']
+config=json.loads((root/'seo/config.json').read_text());files=[root/'vereine/index.html',root/'sender/index.html']+[root/c['path']/'index.html' for c in config]+list((root/'spiel').glob('*/index.html'))+[root/'index.html']
 for f in files:
  s=f.read_text();p=Parser();p.feed(s)
  assert len(p.canon)==1,(f,'canonical')

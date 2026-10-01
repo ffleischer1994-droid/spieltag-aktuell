@@ -27,14 +27,14 @@ def main():
  known={key(g):g for g in window if valid(g)}
  # Keep existing editorial choices; add at most 8 useful, confirmed fixtures per run.
  selected=sorted([g for g in window if valid(g) and (('free' in g.get('groups',[]) and ('Deutschland' in g['home']+' '+g['away'] or 'Bundesliga' in g['competition'])) or (g['competition'].lower().find('bundesliga')>=0 and 'frauen' in (g['competition']+' '+g['home']+' '+g['away']).lower()))],key=lambda g:(g['date'],g['time']))[:8]
- for g in selected:registry.setdefault(key(g),{'path':'spiel/'+slug(g['home'])+'-'+slug(g['away'])+'-'+g['date'],'game':g})
+ for g in selected:registry.setdefault(key(g),{'path':'spiel/'+slug(g['home'])+'-'+slug(g['away'])+'-'+g['date'],'game':g,'dataUpdated':data_date})
  for k in list(registry):
-  if k in known:registry[k]['game']=known[k]
+  if k in known:registry[k]['game']=known[k];registry[k]['dataUpdated']=data_date
  match_links={k:v['path'] for k,v in registry.items() if k in known}
  team_links={c['team']:c['path'] for c in config if c['kind']=='team'}
  written=set()
  def links(items):return '<nav class="links">'+''.join('<a href="/'+p.strip('/')+'/">'+E(t)+'</a>' if p else '<a href="/">'+E(t)+'</a>' for p,t in items)+'</nav>'
- common=[('','Alle Spiele'),('fussball-heute','Heute'),('fussball-morgen','Morgen'),('free-tv','Free-TV'),('free-tv/wochenende','Wochenende')]
+ common=[('','Alle Spiele'),('fussball-heute','Heute'),('fussball-morgen','Morgen'),('free-tv','Free-TV'),('free-tv/wochenende','Wochenende'),('vereine','Vereine'),('sender','Sender')]
  def page(path,title,description,body,schema=None,index=True):
   schemas=[{'@context':'https://schema.org','@type':'WebPage','name':title,'url':url(path),'description':description,'inLanguage':'de','publisher':{'@type':'Organization','@id':BASE+'/#organization','name':'Spieltag Aktuell','url':BASE+'/'}},{'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Spieltag Aktuell','item':BASE+'/'},{'@type':'ListItem','position':2,'name':title,'item':url(path)}]}]
   if schema:schemas.append(schema)
@@ -46,7 +46,9 @@ def main():
   for c in g['channels']:
    target=g.get('channelLinks',{}).get(c)
    if target and target.startswith('https://'):parts.append('<a class="badge" href="'+E(target)+'" target="_blank" rel="noopener noreferrer">'+E(c)+' ↗</a>')
-   else:parts.append('<span class="badge">'+E(c)+'</span>')
+   else:
+    overview=next((x['path'] for x in config if x['kind']=='sender' and re.search(x['pattern'],c,re.I)),None)
+    parts.append('<a class="badge" href="/'+overview+'/" title="Senderübersicht">'+E(c)+'</a>' if overview else '<span class="badge">'+E(c)+'</span>')
   return '<div class="providers">'+''.join(parts)+'</div>'
  def rows(items):
   if not items:return '<div class="box">Im aktuell erfassten Zeitraum ist kein passendes Spiel eingetragen. Das bedeutet nicht, dass außerhalb unseres Datenfensters keine Spiele stattfinden.</div>'
@@ -54,6 +56,8 @@ def main():
   for g in items:
    name=E(g['home']+' – '+g['away']);p=match_links.get(key(g));name='<a href="/'+p+'/">'+name+'</a>' if p else name
    ts=[(team_links[t],t.replace(' ♀',' Frauen')) for t in (g['home'],g['away']) if t in team_links]
+   comp=next((c for c in config if c['kind']=='competition' and re.search(c['pattern'],g['competition'],re.I)),None)
+   if comp:ts.append((comp['path'],comp['title']))
    out.append('<article class="game"><div class="when">'+pretty(g['date'])+'<br>'+E(g['time'])+' Uhr</div><div><div class="teams">'+name+'</div><div class="meta">'+E(g['competition']+' · '+g['country'])+'</div>'+badges(g)+(links(ts) if ts else '')+'</div></article>')
   return ''.join(out)
  def status():return '<p class="status">Datenstand: <time datetime="'+E(data_date)+'">'+pretty(data_date)+'</time>. Alle Anstoßzeiten in Europe/Berlin. Erfasst: '+pretty(today.isoformat())+' bis '+pretty((today+dt.timedelta(days=6)).isoformat())+'. Übertragungen können sich kurzfristig ändern. <a href="/datenquellen/">So prüfen wir die Angaben</a>.</p>'
@@ -77,11 +81,20 @@ def main():
   if kind=='team':body+='<section class="box"><h2>Wo läuft '+E(c['team'].replace(' ♀',' Frauen'))+'?</h2><p>Die Übertragung richtet sich nach der konkreten Partie und dem Wettbewerb. Oben findest du die aktuell erfassten Spiele mit ihren Sendern. Ein leeres Datenfenster ist keine Aussage über spätere Termine.</p><a href="/?team='+E(__import__('urllib.parse',fromlist=['quote']).quote(c['team']))+'">Verein im interaktiven Spielplan öffnen</a></section>'
   schema={'@context':'https://schema.org','@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':g['home']+' – '+g['away'],'url':url(match_links[key(g)]) if key(g) in match_links else BASE+'/?team='+__import__('urllib.parse',fromlist=['quote']).quote(g['home'])} for i,g in enumerate(items)]}
   page(c['path'],title,intro,body,schema)
+ for kind,path,title in [('team','vereine','Vereine: Spiele, TV & Stream'),('sender','sender','Fußballsender und Streaminganbieter')]:
+  entries=[(c['path'],c['title'].split(':')[0]) for c in config if c['kind']==kind]
+  page(path,title,'Wähle eine Übersicht mit aktuell erfassten Fußballspielen, Anstoßzeiten und Übertragungen.','<p class="intro">Wähle eine Übersicht. Die Spielangaben werden aus derselben Datenbasis wie unser täglicher Spielplan erzeugt.</p>'+links(entries)+status())
  for k,v in registry.items():
   g=v['game'];current=k in known;past=g['date']<today.isoformat();name=g['home']+' – '+g['away'];title=name+': TV, Stream & Uhrzeit'
   body=('<p class="box">Archiv: Diese Partie liegt in der Vergangenheit. Die Angaben unten beziehen sich auf den damaligen Datenstand.</p>' if past else '<p class="box">Diese Partie ist im aktuellen Datenfenster nicht bestätigt. Die gespeicherten Angaben können überholt sein.</p>' if not current else '')
   body+='<div class="box facts">'+''.join('<div class="fact"><span class="label">'+l+'</span><strong>'+E(t)+'</strong></div>' for l,t in [('Datum',pretty(g['date'])),('Anstoß',g['time']+' Uhr (Europe/Berlin)'),('Wettbewerb',g['competition']),('Region',g['country'])])+'</div><section class="box"><h2>Wo läuft '+E(name)+'?</h2><p>'+E('Laut unserem '+('aktuellen' if current else 'gespeicherten')+' Datenstand: '+', '.join(g['channels']))+'.</p>'+badges(g)+'</section><section class="box"><h2>Ist das Spiel kostenlos in Deutschland zu sehen?</h2><p>'+('Mindestens ein kostenloses Angebot in Deutschland ist in unseren Spieldaten erfasst. Die Senderliste kann zusätzlich kostenpflichtige oder regionale Angebote enthalten.' if 'free' in g.get('groups',[]) else 'In unseren Spieldaten ist kein kostenloses Angebot für Deutschland bestätigt.')+'</p></section>'
   if current:body+=status()
+  elif v.get('dataUpdated'):body+='<p class="status">Gespeicherter Datenstand: '+pretty(v['dataUpdated'])+'</p>'
+  if g.get('verifiedAt'):
+   try:
+    check=dt.datetime.fromisoformat(g['verifiedAt']).astimezone(ZoneInfo('Europe/Berlin'))
+    body+='<p class="status">Einzelprüfung dokumentiert: <time datetime="'+E(g['verifiedAt'])+'">'+check.strftime('%d.%m.%Y, %H:%M')+' Uhr</time>.</p>'
+   except ValueError:pass
   sources=[(u,'Direkter Anbieterlink: '+c) for c,u in g.get('channelLinks',{}).items() if u.startswith('https://')]
   sources +=[(s['url'],s.get('name','Quelle')) for s in g.get('sources',[]) if isinstance(s,dict) and s.get('url','').startswith('https://')]
   body+='<section class="source"><h2>Quellen und Datenstand</h2><p>Die Übertragungsangaben stammen aus unserem recherchierten Spielplan. <a href="/datenquellen/">Recherche und Korrekturen</a>.</p>'+''.join('<p><a href="'+E(u)+'" rel="noopener noreferrer">'+E(t)+'</a></p>' for u,t in sources)+'</section>'+links([(team_links[t],t.replace(' ♀',' Frauen')) for t in (g['home'],g['away']) if t in team_links])
@@ -106,6 +119,7 @@ def main():
  if '<!-- seo-data-status -->' in text:text=re.sub(r'<!-- seo-data-status -->[\s\S]*?<!-- /seo-data-status -->','<!-- seo-data-status -->'+status()+'<!-- /seo-data-status -->',text,count=1)
  else:text=text.replace('</main>','<!-- seo-data-status -->'+status()+'<!-- /seo-data-status --></main>',1)
  text=text.replace('heute und den nächsten 7 Tagen','heute und den nächsten sechs Tagen')
+ if '/vereine/' not in text:text=text.replace('<a href="/ueber/">Über uns</a>','<a href="/vereine/">Vereine</a><a href="/sender/">Senderübersicht</a><a href="/ueber/">Über uns</a>',1)
  p.write_text(text)
  # Only publish indexable public pages; no social previews or expired fixtures.
  urls=[]
