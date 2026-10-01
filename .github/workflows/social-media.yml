@@ -5,6 +5,16 @@ on:
     - cron: "0 6 * * *"
     - cron: "0 7 * * *"
   workflow_dispatch:
+    inputs:
+      publish_mode:
+        description: "Publish feed, story or both"
+        required: false
+        default: "both"
+        type: choice
+        options:
+          - both
+          - feed
+          - story
 
 permissions:
   contents: write
@@ -60,4 +70,5 @@ jobs:
         if: env.SKIP_SOCIAL != '1'
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_PUBLISH_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_mode || 'both' }}
         run: node scripts/social/publish-instagram.mjs
