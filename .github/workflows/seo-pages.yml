@@ -1,0 +1,96 @@
+name: SEO pages
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'games.json'
+      - 'seo/**'
+      - 'scripts/build-seo.py'
+      - 'scripts/check-seo*'
+      - '.github/workflows/seo-pages.yml'
+  schedule:
+    - cron: '50 5 * * *'
+    - cron: '50 6 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: seo-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      run: ${{ steps.guard.outputs.run }}
+    steps:
+      - id: guard
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = schedule ] && [ "$(TZ=Europe/Berlin date +%H)" != 07 ]; then
+            echo 'run=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'run=true' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.guard.outputs.run == 'true'
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        if: steps.guard.outputs.run == 'true'
+        with:
+          python-version: '3.x'
+      - uses: actions/setup-node@v4
+        if: steps.guard.outputs.run == 'true'
+        with:
+          node-version: '22'
+      - name: Build from current shared data
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          git pull --ff-only origin main
+          python scripts/build-seo.py --data-updated "$(git log -1 --format=%cI -- games.json)"
+          python scripts/check-seo.py
+      - name: Install layout renderer
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Check mobile, desktop and dark layouts
+        if: steps.guard.outputs.run == 'true'
+        run: node scripts/check-seo-layout.mjs
+      - name: Save generated pages
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          git config user.name 'spieltag-aktuell-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add '*.html' sitemap.xml seo/matches.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh static SEO pages from broadcast data'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Prepare static website artifact
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          mkdir -p /tmp/seo-site
+          git ls-files -z | tar --null -T - -cf - | tar -xf - -C /tmp/seo-site
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.guard.outputs.run == 'true'
+        with:
+          path: /tmp/seo-site
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.guard.outputs.run == 'true'
+        with:
+          name: seo-layout-preview
+          path: /tmp/seo-layout/
+  deploy:
+    needs: build
+    if: needs.build.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

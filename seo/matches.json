@@ -1,0 +1,185 @@
+{
+  "2026-10-01|Deutschland|Serbien": {
+    "path": "spiel/deutschland-serbien-2026-10-01",
+    "game": {
+      "date": "2026-10-01",
+      "time": "20:45",
+      "competition": "Nations League",
+      "country": "Europa",
+      "home": "Deutschland",
+      "away": "Serbien",
+      "channels": [
+        "ZDF",
+        "ZDFmediathek",
+        "DAZN (AT)",
+        "DAZN (CH)"
+      ],
+      "groups": [
+        "free",
+        "other"
+      ]
+    }
+  },
+  "2026-10-04|Griechenland|Deutschland": {
+    "path": "spiel/griechenland-deutschland-2026-10-04",
+    "game": {
+      "date": "2026-10-04",
+      "time": "20:45",
+      "competition": "Nations League",
+      "country": "Europa",
+      "home": "Griechenland",
+      "away": "Deutschland",
+      "channels": [
+        "RTL",
+        "RTL+",
+        "DAZN (AT)",
+        "DAZN (CH)"
+      ],
+      "groups": [
+        "free",
+        "other"
+      ]
+    }
+  },
+  "2026-10-01|Deutschland (U16)|Griechenland (U16)": {
+    "path": "spiel/deutschland-u16-griechenland-u16-2026-10-01",
+    "game": {
+      "date": "2026-10-01",
+      "time": "11:00",
+      "competition": "Länderspiel (U16)",
+      "country": "International",
+      "home": "Deutschland (U16)",
+      "away": "Griechenland (U16)",
+      "channels": [
+        "DFB (YouTube)"
+      ],
+      "groups": [
+        "free",
+        "other"
+      ]
+    }
+  },
+  "2026-10-01|Deutschland (U17)|Israel (U17)": {
+    "path": "spiel/deutschland-u17-israel-u17-2026-10-01",
+    "game": {
+      "date": "2026-10-01",
+      "time": "16:00",
+      "competition": "Länderspiel (U17)",
+      "country": "International",
+      "home": "Deutschland (U17)",
+      "away": "Israel (U17)",
+      "channels": [
+        "DFB.TV",
+        "DAZN",
+        "DFB (YouTube)"
+      ],
+      "groups": [
+        "free",
+        "dazn",
+        "other"
+      ]
+    }
+  },
+  "2026-10-02|Bayer Leverkusen ♀|SV Werder Bremen ♀": {
+    "path": "spiel/bayer-leverkusen-frauen-sv-werder-bremen-frauen-2026-10-02",
+    "game": {
+      "date": "2026-10-02",
+      "time": "18:30",
+      "competition": "Frauen-Bundesliga",
+      "country": "Deutschland",
+      "home": "Bayer Leverkusen ♀",
+      "away": "SV Werder Bremen ♀",
+      "channels": [
+        "MagentaSport",
+        "DAZN",
+        "OneFootball"
+      ],
+      "groups": [
+        "dazn",
+        "other"
+      ]
+    }
+  },
+  "2026-10-03|RB Leipzig ♀|1. FSV Mainz 05 ♀": {
+    "path": "spiel/rb-leipzig-frauen-1-fsv-mainz-05-frauen-2026-10-03",
+    "game": {
+      "date": "2026-10-03",
+      "time": "14:00",
+      "competition": "Frauen-Bundesliga",
+      "country": "Deutschland",
+      "home": "RB Leipzig ♀",
+      "away": "1. FSV Mainz 05 ♀",
+      "channels": [
+        "MagentaSport",
+        "DAZN",
+        "OneFootball"
+      ],
+      "groups": [
+        "dazn",
+        "other"
+      ]
+    }
+  },
+  "2026-10-03|1. FC Köln ♀|SC Freiburg ♀": {
+    "path": "spiel/1-fc-koeln-frauen-sc-freiburg-frauen-2026-10-03",
+    "game": {
+      "date": "2026-10-03",
+      "time": "16:00",
+      "competition": "Frauen-Bundesliga",
+      "country": "Deutschland",
+      "home": "1. FC Köln ♀",
+      "away": "SC Freiburg ♀",
+      "channels": [
+        "MagentaSport",
+        "DAZN",
+        "OneFootball"
+      ],
+      "groups": [
+        "dazn",
+        "other"
+      ]
+    }
+  },
+  "2026-10-03|England (U20)|Deutschland (U20)": {
+    "path": "spiel/england-u20-deutschland-u20-2026-10-03",
+    "game": {
+      "date": "2026-10-03",
+      "time": "17:30",
+      "competition": "Länderspiel (U20)",
+      "country": "International",
+      "home": "England (U20)",
+      "away": "Deutschland (U20)",
+      "channels": [
+        "DFB.TV",
+        "DAZN",
+        "DFB (YouTube)"
+      ],
+      "groups": [
+        "free",
+        "dazn",
+        "other"
+      ]
+    }
+  },
+  "2026-10-03|Eintracht Frankfurt ♀|FC Bayern München ♀": {
+    "path": "spiel/eintracht-frankfurt-frauen-fc-bayern-muenchen-frauen-2026-10-03",
+    "game": {
+      "date": "2026-10-03",
+      "time": "17:55",
+      "competition": "Frauen-Bundesliga",
+      "country": "Deutschland",
+      "home": "Eintracht Frankfurt ♀",
+      "away": "FC Bayern München ♀",
+      "channels": [
+        "Das Erste",
+        "MagentaSport",
+        "DAZN"
+      ],
+      "groups": [
+        "free",
+        "dazn",
+        "other"
+      ]
+    }
+  }
+}
