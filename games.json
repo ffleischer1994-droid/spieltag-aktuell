@@ -652,6 +652,50 @@
   },
   {
     "date": "2026-10-01",
+    "time": "14:30",
+    "competition": "FIFA ASEAN Cup",
+    "country": "International",
+    "home": "Malaysia",
+    "away": "Singapur",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "time": "16:00",
+    "competition": "Länderspiel (U17)",
+    "country": "International",
+    "home": "Deutschland (U17)",
+    "away": "Israel (U17)",
+    "channels": [
+      "Sender unbekannt"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "time": "17:30",
+    "competition": "Freundschaftsspiel",
+    "country": "Deutschland",
+    "home": "VfB Stuttgart",
+    "away": "SpVgg Greuther Fürth",
+    "channels": [
+      "Sender unbekannt"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-01",
     "time": "18:00",
     "competition": "Nations League",
     "country": "Europa",
@@ -680,6 +724,36 @@
   },
   {
     "date": "2026-10-01",
+    "time": "18:45",
+    "competition": "Champions League (Frauen)",
+    "country": "Europa",
+    "home": "HB Köge ♀",
+    "away": "Servette FC Chênois ♀",
+    "channels": [
+      "RTS 2",
+      "RTS Sport",
+      "Disney+"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "Europa",
+    "home": "Dänemark",
+    "away": "Portugal",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-01",
     "time": "20:45",
     "competition": "Nations League",
     "country": "Europa",
@@ -691,6 +765,108 @@
     ],
     "groups": [
       "free",
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "Europa",
+    "home": "Griechenland",
+    "away": "Niederlande",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "Europa",
+    "home": "Irland",
+    "away": "Österreich",
+    "channels": [
+      "ORF 1",
+      "ORF ON",
+      "DAZN"
+    ],
+    "groups": [
+      "free",
+      "dazn",
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "Europa",
+    "home": "Israel",
+    "away": "Kosovo",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "Europa",
+    "home": "Malta",
+    "away": "Gibraltar",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "Europa",
+    "home": "Wales",
+    "away": "Norwegen",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "time": "21:00",
+    "competition": "Champions League (Frauen)",
+    "country": "Europa",
+    "home": "Manchester City ♀",
+    "away": "Real Madrid ♀",
+    "channels": [
+      "Disney+"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "time": "21:00",
+    "competition": "Champions League (Frauen)",
+    "country": "Europa",
+    "home": "Paris St. Germain ♀",
+    "away": "Oud-Heverlee Leuven ♀",
+    "channels": [
+      "Disney+"
+    ],
+    "groups": [
       "other"
     ]
   },
