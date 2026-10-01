@@ -19,11 +19,20 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: instagram-daily-publisher
+  cancel-in-progress: false
+
 jobs:
   instagram:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Refresh latest data and publication state
+        run: git pull --ff-only origin main
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
@@ -48,15 +57,15 @@ jobs:
         if: env.SKIP_SOCIAL != '1'
         run: |
           mkdir -p social
-          cp social-output/feed.png social/latest-feed.png
-          cp social-output/story.png social/latest-story.png
+          cp social-output/feed.jpg social/latest-feed.jpg
+          cp social-output/story.jpg social/latest-story.jpg
           git config user.name "spieltag-aktuell-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add social/latest-feed.png social/latest-story.png
+          git add social/latest-feed.jpg social/latest-story.jpg
           git commit -m "Update daily Instagram assets" || true
           git pull --rebase origin main
           git push origin HEAD:main
-          sleep 15
+          echo "IG_ASSET_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
       - name: Upload rendered preview
         if: env.SKIP_SOCIAL != '1'
         uses: actions/upload-artifact@v4
@@ -72,3 +81,16 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_PUBLISH_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_mode || 'both' }}
         run: node scripts/social/publish-instagram.mjs
+      - name: Save publication receipts even after partial failure
+        if: always() && env.SKIP_SOCIAL != '1'
+        run: |
+          if [ -d social/published ]; then
+            git config user.name "spieltag-aktuell-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add social/published/
+            if ! git diff --cached --quiet; then
+              git commit -m "Record Instagram feed and story publication"
+              git pull --rebase origin main
+              git push origin HEAD:main
+            fi
+          fi

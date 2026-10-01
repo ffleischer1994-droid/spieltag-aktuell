@@ -1,0 +1,26 @@
+name: Instagram layout preflight
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/social/**'
+      - 'social/*master.html'
+      - '.github/workflows/instagram-preflight.yml'
+permissions:
+  contents: read
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/social/build-social.mjs
+      - run: node scripts/social/render-social.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: instagram-preflight
+          path: social-output/
