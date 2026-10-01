@@ -34,7 +34,22 @@ async function publish(data){
  }
  throw new Error("Instagram media container was not ready after waiting.");
 }
+async function verifyPublished(mediaId,expectedType,label){
+  let last=null;
+  for(let i=0;i<10;i++){
+    await sleep(i===0?3000:2000);
+    try{
+      last=await get(host+"/"+mediaId+"?fields=id,media_type,permalink,timestamp&access_token="+encodeURIComponent(token));
+      if(last?.id&&(!expectedType||last.media_type===expectedType)){
+        console.log(label+" verified:",last.id,last.media_type,last.permalink||"");
+        return last;
+      }
+    }catch(e){last={error:String(e)}}
+  }
+  throw new Error(label+" was accepted by media_publish but could not be verified as published: "+JSON.stringify(last));
+}
 const feed=await publish({image_url:feedUrl,caption});
-console.log("Feed published:",feed);
+await verifyPublished(feed,"IMAGE","Feed");
 const story=await publish({media_type:"STORIES",image_url:storyUrl});
-console.log("Story published:",story);
+await verifyPublished(story,"STORY","Story");
+console.log("Instagram publish verified: feed + story");
