@@ -48,8 +48,14 @@ async function verifyPublished(mediaId,expectedType,label){
   }
   throw new Error(label+" was accepted by media_publish but could not be verified as published: "+JSON.stringify(last));
 }
-const feed=await publish({image_url:feedUrl,caption});
-await verifyPublished(feed,"IMAGE","Feed");
-const story=await publish({media_type:"STORIES",image_url:storyUrl});
-await verifyPublished(story,"STORY","Story");
-console.log("Instagram publish verified: feed + story");
+const publishMode=(process.env.IG_PUBLISH_MODE||"both").toLowerCase();
+if(!["both","feed","story"].includes(publishMode))throw new Error("Invalid IG_PUBLISH_MODE: "+publishMode);
+if(publishMode==="both"||publishMode==="feed"){
+  const feed=await publish({image_url:feedUrl,caption});
+  await verifyPublished(feed,"IMAGE","Feed");
+}
+if(publishMode==="both"||publishMode==="story"){
+  const story=await publish({media_type:"STORIES",image_url:storyUrl});
+  await verifyPublished(story,"STORY","Story");
+}
+console.log("Instagram publish verified:",publishMode);
