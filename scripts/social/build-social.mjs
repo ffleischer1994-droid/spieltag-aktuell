@@ -4,7 +4,7 @@ const today=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Berlin",year:"nume
 const day=games.filter(g=>g.date===today).sort((a,b)=>a.time.localeCompare(b.time));
 if(!day.length){console.log("No games today; nothing to publish.");process.exit(1)}
 const uncertain=g=>!(g.channels||[]).length||(g.channels||[]).some(c=>/unbekannt|option/i.test(c));
-const score=g=>((g.groups||[]).includes("free")?120:0)+(/Deutschland|Bayern|Bundesliga|Champions League/i.test(g.home+" "+g.away+" "+g.competition)?60:0)+(g.time>="17:00"?15:0);
+const score=g=>(g.country==="Deutschland"?120:0)+(/Deutschland|Bayern|Bundesliga|DFB|Champions League/i.test(g.home+" "+g.away+" "+g.competition)?80:0)+((g.groups||[]).includes("free")?35:0)+(/Nations League/i.test(g.competition)?20:0)+(g.time>="17:00"?15:0);
 const highlights=day.filter(g=>!uncertain(g)).sort((a,b)=>score(b)-score(a)||a.time.localeCompare(b.time)).slice(0,4).sort((a,b)=>a.time.localeCompare(b.time));
 if(!highlights.length) throw new Error("No verified highlights today");
 fs.mkdirSync("social-output",{recursive:true});
