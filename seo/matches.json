@@ -41,7 +41,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-01"
+    "dataUpdated": "2026-10-02"
   },
   "2026-10-01|Deutschland (U16)|Griechenland (U16)": {
     "path": "spiel/deutschland-u16-griechenland-u16-2026-10-01",
@@ -103,7 +103,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-01"
+    "dataUpdated": "2026-10-02"
   },
   "2026-10-03|RB Leipzig ♀|1. FSV Mainz 05 ♀": {
     "path": "spiel/rb-leipzig-frauen-1-fsv-mainz-05-frauen-2026-10-03",
@@ -124,7 +124,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-01"
+    "dataUpdated": "2026-10-02"
   },
   "2026-10-03|1. FC Köln ♀|SC Freiburg ♀": {
     "path": "spiel/1-fc-koeln-frauen-sc-freiburg-frauen-2026-10-03",
@@ -145,7 +145,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-01"
+    "dataUpdated": "2026-10-02"
   },
   "2026-10-03|England (U20)|Deutschland (U20)": {
     "path": "spiel/england-u20-deutschland-u20-2026-10-03",
@@ -167,7 +167,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-01"
+    "dataUpdated": "2026-10-02"
   },
   "2026-10-03|Eintracht Frankfurt ♀|FC Bayern München ♀": {
     "path": "spiel/eintracht-frankfurt-frauen-fc-bayern-muenchen-frauen-2026-10-03",
@@ -189,6 +189,63 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-01"
+    "dataUpdated": "2026-10-02"
+  },
+  "2026-10-04|Deutschland (U16)|Österreich (U16)": {
+    "path": "spiel/deutschland-u16-osterreich-u16-2026-10-04",
+    "game": {
+      "date": "2026-10-04",
+      "time": "11:00",
+      "competition": "Länderspiel (U16)",
+      "country": "International",
+      "home": "Deutschland (U16)",
+      "away": "Österreich (U16)",
+      "channels": [
+        "DFB (YouTube)"
+      ],
+      "groups": [
+        "free",
+        "other"
+      ]
+    },
+    "dataUpdated": "2026-10-02"
+  },
+  "2026-10-04|FC Ingolstadt 04 ♀|VfL Bochum ♀": {
+    "path": "spiel/fc-ingolstadt-04-frauen-vfl-bochum-frauen-2026-10-04",
+    "game": {
+      "date": "2026-10-04",
+      "time": "11:00",
+      "competition": "2. Frauen-Bundesliga",
+      "country": "Deutschland",
+      "home": "FC Ingolstadt 04 ♀",
+      "away": "VfL Bochum ♀",
+      "channels": [
+        "Leagues"
+      ],
+      "groups": [
+        "free",
+        "other"
+      ]
+    },
+    "dataUpdated": "2026-10-02"
+  },
+  "2026-10-04|FK Austria Wien ♀|SK Rapid Wien ♀": {
+    "path": "spiel/fk-austria-wien-frauen-sk-rapid-wien-frauen-2026-10-04",
+    "game": {
+      "date": "2026-10-04",
+      "time": "13:00",
+      "competition": "ÖFB Frauen Bundesliga",
+      "country": "Österreich",
+      "home": "FK Austria Wien ♀",
+      "away": "SK Rapid Wien ♀",
+      "channels": [
+        "ORF Sport+ (AT)",
+        "ORF ON (AT)"
+      ],
+      "groups": [
+        "other"
+      ]
+    },
+    "dataUpdated": "2026-10-02"
   }
 }
