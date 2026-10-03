@@ -75,6 +75,19 @@ function basicModeration(name, message) {
     return { allow: false, category: "spam" };
   }
 
+  if (/\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/i.test(joined)) {
+    return { allow: false, category: "personal_data" };
+  }
+  if (/(?:\+49|0049|0)[\s()/-]*(?:\d[\s()/-]*){8,}/.test(joined)) {
+    return { allow: false, category: "personal_data" };
+  }
+  if (/\b(?:ich bring dich um|ich töte dich|ich erschieße dich|ich stech dich ab)\b/i.test(joined)) {
+    return { allow: false, category: "harassment" };
+  }
+  if (/\b(?:sieg heil|heil hitler)\b/i.test(joined)) {
+    return { allow: false, category: "extremism" };
+  }
+
   return { allow: true, category: "ok" };
 }
 
@@ -202,22 +215,21 @@ export default async function handler(request) {
     );
   }
 
-  let aiVerdict;
-  try {
-    aiVerdict = await aiModeration({ name, message, drawingPreview });
-  } catch (error) {
-    console.error("guestbook:moderation", error);
-    return json(
-      { error: "Die automatische Moderation ist gerade nicht erreichbar. Bitte später erneut versuchen." },
-      { status: 503 },
-    );
-  }
+  let moderationVerdict = localVerdict;
+  let moderationModel = "local-rules";
 
-  if (!aiVerdict.allow) {
-    return json(
-      { error: "Dieser Eintrag wurde von der automatischen Moderation nicht freigegeben." },
-      { status: 422 },
-    );
+  try {
+    const aiVerdict = await aiModeration({ name, message, drawingPreview });
+    if (!aiVerdict.allow) {
+      return json(
+        { error: "Dieser Eintrag wurde von der automatischen Moderation nicht freigegeben." },
+        { status: 422 },
+      );
+    }
+    moderationVerdict = aiVerdict;
+    moderationModel = "gpt-4o-mini";
+  } catch (error) {
+    console.warn("guestbook:optional-ai-moderation", error);
   }
 
   const id = randomUUID();
@@ -233,8 +245,8 @@ export default async function handler(request) {
         ...entry,
         moderation: {
           checkedAt: createdAt,
-          model: "gpt-4o-mini",
-          category: aiVerdict.category,
+          model: moderationModel,
+          category: moderationVerdict.category,
         },
       },
       { onlyIfNew: true },
