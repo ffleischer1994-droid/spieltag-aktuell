@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "0 6 * * *"
     - cron: "0 7 * * *"
+    - cron: "17,37 6-8 * * *"
   workflow_dispatch:
     inputs:
       publish_mode:
@@ -36,12 +37,24 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Run only at 08:00 Europe/Berlin
+      - name: Check Berlin morning window and daily receipts
         run: |
           HOUR=$(TZ=Europe/Berlin date +%H)
-          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$HOUR" != "08" ]; then
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && { [ "$HOUR" -lt "08" ] || [ "$HOUR" -ge "12" ]; }; then
             echo "SKIP_SOCIAL=1" >> "$GITHUB_ENV"
           fi
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const date = new Intl.DateTimeFormat('en-CA', {timeZone:'Europe/Berlin', year:'numeric', month:'2-digit', day:'2-digit'}).format(new Date());
+          const path = `social/published/${date}.json`;
+          if (process.env.GITHUB_EVENT_NAME === 'schedule' && fs.existsSync(path)) {
+            const state = JSON.parse(fs.readFileSync(path, 'utf8'));
+            if (state.feed?.id && state.story?.id) {
+              fs.appendFileSync(process.env.GITHUB_ENV, 'SKIP_SOCIAL=1\n');
+              console.log('Feed and story already published for', date);
+            }
+          }
+          NODE
       - name: Build social package
         if: env.SKIP_SOCIAL != '1'
         run: node scripts/social/build-social.mjs
