@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://spieltagaktuell.de/</loc></url>
   <url><loc>https://spieltagaktuell.de/2-bundesliga/</loc></url>
+  <url><loc>https://spieltagaktuell.de/2-frauen-bundesliga/</loc></url>
+  <url><loc>https://spieltagaktuell.de/3-liga/</loc></url>
   <url><loc>https://spieltagaktuell.de/bundesliga/</loc></url>
   <url><loc>https://spieltagaktuell.de/champions-league/</loc></url>
   <url><loc>https://spieltagaktuell.de/conference-league/</loc></url>
@@ -9,7 +11,9 @@
   <url><loc>https://spieltagaktuell.de/datenschutz/</loc></url>
   <url><loc>https://spieltagaktuell.de/dazn/</loc></url>
   <url><loc>https://spieltagaktuell.de/dfb-pokal/</loc></url>
+  <url><loc>https://spieltagaktuell.de/eredivisie/</loc></url>
   <url><loc>https://spieltagaktuell.de/europa-league/</loc></url>
+  <url><loc>https://spieltagaktuell.de/frauen-bundesliga/</loc></url>
   <url><loc>https://spieltagaktuell.de/frauenfussball/</loc></url>
   <url><loc>https://spieltagaktuell.de/free-tv/</loc></url>
   <url><loc>https://spieltagaktuell.de/free-tv/diese-woche/</loc></url>
@@ -18,19 +22,35 @@
   <url><loc>https://spieltagaktuell.de/fussball-morgen/</loc></url>
   <url><loc>https://spieltagaktuell.de/heute-abend/</loc></url>
   <url><loc>https://spieltagaktuell.de/impressum/</loc></url>
+  <url><loc>https://spieltagaktuell.de/la-liga/</loc></url>
+  <url><loc>https://spieltagaktuell.de/ligue-1/</loc></url>
   <url><loc>https://spieltagaktuell.de/nations-league/</loc></url>
+  <url><loc>https://spieltagaktuell.de/oesterreich-bundesliga/</loc></url>
+  <url><loc>https://spieltagaktuell.de/premier-league/</loc></url>
+  <url><loc>https://spieltagaktuell.de/regionalliga/</loc></url>
+  <url><loc>https://spieltagaktuell.de/schweiz-super-league/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/</loc></url>
+  <url><loc>https://spieltagaktuell.de/sender/ard-mediathek/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/ard/</loc></url>
+  <url><loc>https://spieltagaktuell.de/sender/br24sport/</loc></url>
+  <url><loc>https://spieltagaktuell.de/sender/dfb-tv/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/disney-plus/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/fifa-plus/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/joyn/</loc></url>
+  <url><loc>https://spieltagaktuell.de/sender/laola1/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/magenta-sport/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/onefootball/</loc></url>
+  <url><loc>https://spieltagaktuell.de/sender/orf/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/prime-video/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/prosieben-maxx/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/rtl/</loc></url>
+  <url><loc>https://spieltagaktuell.de/sender/sky-sport/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/sportdigital/</loc></url>
+  <url><loc>https://spieltagaktuell.de/sender/srf/</loc></url>
+  <url><loc>https://spieltagaktuell.de/sender/wow/</loc></url>
   <url><loc>https://spieltagaktuell.de/sender/zdf/</loc></url>
+  <url><loc>https://spieltagaktuell.de/sender/zdfmediathek/</loc></url>
+  <url><loc>https://spieltagaktuell.de/serie-a/</loc></url>
   <url><loc>https://spieltagaktuell.de/sky-wow/</loc></url>
   <url><loc>https://spieltagaktuell.de/spiel/1-fc-koeln-frauen-sc-freiburg-frauen-2026-10-03/</loc></url>
   <url><loc>https://spieltagaktuell.de/spiel/deutschland-u16-osterreich-u16-2026-10-04/</loc></url>
@@ -41,29 +61,54 @@
   <url><loc>https://spieltagaktuell.de/spiel/griechenland-deutschland-2026-10-04/</loc></url>
   <url><loc>https://spieltagaktuell.de/spiel/rb-leipzig-frauen-1-fsv-mainz-05-frauen-2026-10-03/</loc></url>
   <url><loc>https://spieltagaktuell.de/spiel/vfl-wolfsburg-frauen-hamburger-sv-frauen-2026-10-04/</loc></url>
+  <url><loc>https://spieltagaktuell.de/u21/</loc></url>
   <url><loc>https://spieltagaktuell.de/ueber/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/1-fc-heidenheim/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/1-fc-kaiserslautern/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/1-fc-koeln-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/1-fc-koeln/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/1-fc-nuernberg/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/bayer-04-leverkusen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/borussia-dortmund/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/borussia-moenchengladbach/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/deutschland-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/deutschland-u21/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/deutschland/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/dynamo-dresden/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/eintracht-braunschweig/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/eintracht-frankfurt-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/eintracht-frankfurt/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/fc-augsburg/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/fc-bayern-muenchen-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/fc-bayern-muenchen/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/fc-ingolstadt-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/fc-schalke-04/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/fc-st-pauli/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/fortuna-duesseldorf/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/hamburger-sv-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/hamburger-sv/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/hannover-96/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/hertha-bsc/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/holstein-kiel/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/karlsruher-sc/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/mainz-05-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/mainz-05/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/preussen-muenster/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/rb-leipzig-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/rb-leipzig/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/rot-weiss-essen/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/sc-freiburg-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/sc-freiburg/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/sv-darmstadt-98/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/tsg-hoffenheim-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/tsg-hoffenheim/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/union-berlin/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/vfb-stuttgart/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/vfl-bochum/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/vfl-wolfsburg-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/vfl-wolfsburg/</loc></url>
+  <url><loc>https://spieltagaktuell.de/verein/werder-bremen-frauen/</loc></url>
   <url><loc>https://spieltagaktuell.de/verein/werder-bremen/</loc></url>
   <url><loc>https://spieltagaktuell.de/vereine/</loc></url>
+  <url><loc>https://spieltagaktuell.de/wm-qualifikation/</loc></url>
 </urlset>
