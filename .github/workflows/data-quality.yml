@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - "games.json"
+      - "scripts/audit-data.py"
+      - ".github/workflows/data-quality.yml"
   workflow_dispatch:
 jobs:
   validate:
@@ -12,23 +14,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Validate games.json
-        run: |
-          python - <<'PY'
-          import json, datetime, pathlib
-          p=pathlib.Path("games.json")
-          data=json.loads(p.read_text())
-          required={"date","time","home","away","competition","country","channels","groups"}
-          assert isinstance(data,list), "games.json must contain a list"
-          seen=set()
-          for i,g in enumerate(data):
-              missing=required-set(g)
-              assert not missing, f"row {i}: missing {sorted(missing)}"
-              datetime.date.fromisoformat(g["date"])
-              datetime.time.fromisoformat(g["time"])
-              assert isinstance(g["channels"],list) and g["channels"], f"row {i}: channels empty"
-              key=(g["date"],g["time"],g["home"],g["away"])
-              assert key not in seen, f"duplicate fixture: {key}"
-              seen.add(key)
-          print(f"Validated {len(data)} fixtures")
-          PY
+      - name: Deep data quality check
+        run: python scripts/audit-data.py --report data-quality-report.md
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: data-quality-report
+          path: data-quality-report.md

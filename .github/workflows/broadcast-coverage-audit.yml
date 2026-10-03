@@ -15,35 +15,40 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Europe/Berlin
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
       - name: Run only once at 04:15 Germany time
         id: guard
         run: |
-          if [ "$(TZ=Europe/Berlin date +%H)" != "04" ]; then echo "run=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$(TZ=Europe/Berlin date +%H)" != "04" ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           echo "run=true" >> "$GITHUB_OUTPUT"
-      - name: Validate broadcast dataset
+      - name: Audit current 7-day broadcast dataset
+        id: quality
         if: steps.guard.outputs.run == 'true'
+        continue-on-error: true
+        run: python scripts/audit-data.py --report data-quality-report.md
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.guard.outputs.run == 'true'
+        with:
+          name: daily-broadcast-quality
+          path: data-quality-report.md
+      - name: Open or update issue on hard failure
+        if: steps.guard.outputs.run == 'true' && steps.quality.outcome == 'failure'
         run: |
-          python3 <<'PY'
-          import json,datetime,sys
-          games=json.load(open('games.json'))
-          today=datetime.datetime.now().astimezone().date().isoformat()
-          rows=[g for g in games if g.get('date')==today]
-          errors=[]
-          seen=set()
-          for g in rows:
-            key=(g.get('date'),g.get('time'),g.get('home'),g.get('away'))
-            if key in seen: errors.append('duplicate: '+str(key))
-            seen.add(key)
-            if not g.get('channels'): errors.append('no channel: '+str(key))
-            if any('unbekannt' in str(c).lower() for c in g.get('channels',[])):
-              errors.append('unknown channel: '+str(key))
-          print(f'{today}: {len(rows)} broadcast games')
-          if errors:
-            print('\n'.join(errors))
-            sys.exit(1)
-          if not rows:
-            print('No German broadcast games loaded for today')
-            sys.exit(1)
-          PY
+          TITLE="Datenqualität: $(TZ=Europe/Berlin date +%d.%m.%Y)"
+          NUMBER=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$NUMBER" ]; then
+            gh issue comment "$NUMBER" --body-file data-quality-report.md
+          else
+            gh issue create --title "$TITLE" --body-file data-quality-report.md --label "data-quality" ||             gh issue create --title "$TITLE" --body-file data-quality-report.md
+          fi
+      - name: Fail when hard errors were found
+        if: steps.guard.outputs.run == 'true' && steps.quality.outcome == 'failure'
+        run: exit 1
