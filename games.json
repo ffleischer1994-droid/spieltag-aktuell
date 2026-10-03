@@ -2129,6 +2129,37 @@
   {
     "date": "2026-10-09",
     "time": "19:00",
+    "competition": "Regionalliga Bayern",
+    "country": "Deutschland",
+    "home": "FC Bayern München II",
+    "away": "SpVgg Unterhaching",
+    "channels": [
+      "BR24Sport",
+      "ARD Mediathek",
+      "BR24 (YouTube)"
+    ],
+    "groups": [
+      "free"
+    ],
+    "sources": [
+      {
+        "url": "https://fcbayern.com/en/match-center/matchplan/amateure",
+        "name": "FC Bayern – Spielplan Amateure"
+      },
+      {
+        "url": "https://datencenter.dfb.de/teams/bayern-muenchen-ii?datacenter_name=datencenter",
+        "name": "DFB Datencenter"
+      },
+      {
+        "url": "https://www.bfv.de/news/regionalliga-bayern/2026/09/live-ubertragungen-oktober-2026",
+        "name": "BFV – Liveübertragungen Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-03T06:34:47Z"
+  },
+  {
+    "date": "2026-10-09",
+    "time": "19:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
     "home": "Kickers Offenbach",
