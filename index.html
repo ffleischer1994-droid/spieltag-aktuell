@@ -65,7 +65,7 @@ a{color:inherit}.status{margin:18px 0 0;font-size:12px;font-weight:400;line-heig
 <div class="footer-col"><strong>Spieltag Aktuell</strong><a href="/vereine/">Vereine</a><a href="/sender/">Senderübersicht</a><a href="/gaestebuch/">Gästebuch</a><a href="/ueber/">Über uns</a><a href="/datenquellen/">Daten & Recherche</a><a href="/impressum/">Impressum</a><a href="/datenschutz/">Datenschutz</a></div>
 </div></footer>
 <script>
-let GAMES=[];let senderFilter="all",countryFilter="all",competitionFilter="all",teamFilter=new URLSearchParams(location.search).get("team")||"",timeFilter=new URLSearchParams(location.search).get("zeit")||"",searchText="";
+let GAMES=[];let senderFilter="all",countryFilter="all",competitionFilter="all",teamFilter=new URLSearchParams(location.search).get("team")||"",timeFilter=new URLSearchParams(location.search).get("zeit")||"",searchText=new URLSearchParams(location.search).get("search")||"";
 const weekdaysShort=["So","Mo","Di","Mi","Do","Fr","Sa"],weekdaysLong=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
 function localISO(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
 const today=new Date();today.setHours(12,0,0,0);const DAY_DATES=Array.from({length:7},(_,i)=>{const d=new Date(today);d.setDate(d.getDate()+i);return localISO(d)});let selectedDate=DAY_DATES[0];
@@ -124,7 +124,7 @@ const SEARCH_PAGES=[
 ["Bundesliga","/bundesliga/"],["Champions League","/champions-league/"],["Frauenfußball","/frauenfussball/"],["Fußball im Free-TV","/free-tv/"],["FC Bayern München","/verein/fc-bayern-muenchen/"],["Borussia Dortmund","/verein/borussia-dortmund/"],["VfB Stuttgart","/verein/vfb-stuttgart/"],["Eintracht Frankfurt","/verein/eintracht-frankfurt/"],["Bayer 04 Leverkusen","/verein/bayer-04-leverkusen/"],["RB Leipzig","/verein/rb-leipzig/"],["Hamburger SV","/verein/hamburger-sv/"],["1. FC Köln","/verein/1-fc-koeln/"],["Borussia Mönchengladbach","/verein/borussia-moenchengladbach/"],["FC Schalke 04","/verein/fc-schalke-04/"],["SV Werder Bremen","/verein/werder-bremen/"],["2. Bundesliga","/2-bundesliga/"],["DFB-Pokal","/dfb-pokal/"],["Europa League","/europa-league/"],["Nations League","/nations-league/"],["ARD / Das Erste","/sender/ard/"],["ZDF","/sender/zdf/"],["RTL","/sender/rtl/"],["ProSieben MAXX","/sender/prosieben-maxx/"]
 ];
 function searchItems(q){const names=new Set();GAMES.forEach(g=>{names.add(g.home.replace(" ♀",""));names.add(g.away.replace(" ♀",""))});const base=[...SEARCH_PAGES,...[...names].map(n=>[n,"/?team="+encodeURIComponent(n)])];return base.filter(([n])=>n.toLowerCase().includes(q.toLowerCase())).slice(0,10)}
-const menuPanel=document.getElementById("menu-panel"),siteSearch=document.getElementById("site-search"),themeBtn=document.getElementById("theme-btn");
+const menuPanel=document.getElementById("menu-panel"),siteSearch=document.getElementById("site-search"),themeBtn=document.getElementById("theme-btn");siteSearch.value=searchText;
 function setTheme(dark){document.body.classList.toggle("dark-mode",dark);themeBtn.setAttribute("aria-pressed",String(dark));themeBtn.setAttribute("aria-label",dark?"Light Mode aktivieren":"Dark Mode aktivieren");localStorage.setItem("sa-theme",dark?"dark":"light")}
 setTheme(localStorage.getItem("sa-theme")==="dark");themeBtn.onclick=()=>setTheme(!document.body.classList.contains("dark-mode"));
 document.getElementById("menu-btn").onclick=()=>menuPanel.classList.toggle("open");

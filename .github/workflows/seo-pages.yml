@@ -7,6 +7,7 @@ on:
       - 'seo/**'
       - 'scripts/build-seo.py'
       - 'scripts/check-seo*'
+      - 'scripts/sync-static-shell.py'
       - '.github/workflows/seo-pages.yml'
   schedule:
     - cron: '50 5 * * *'
@@ -50,6 +51,7 @@ jobs:
         run: |
           git pull --ff-only origin main
           python scripts/build-seo.py --data-updated "$(git log -1 --format=%cI -- games.json)"
+          python scripts/sync-static-shell.py
           python scripts/check-seo.py
       - name: Install layout renderer
         if: steps.guard.outputs.run == 'true'
@@ -64,7 +66,7 @@ jobs:
         run: |
           git config user.name 'spieltag-aktuell-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add '*.html' sitemap.xml seo/matches.json
+          git add -- ':(glob)**/*.html' sitemap.xml seo/matches.json
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh static SEO pages from broadcast data'
             git pull --rebase origin main
