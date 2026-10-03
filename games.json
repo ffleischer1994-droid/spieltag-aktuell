@@ -80,6 +80,27 @@
   },
   {
     "date": "2026-10-03",
+    "time": "12:00",
+    "competition": "Premjer Liha (Ukraine)",
+    "country": "Ukraine",
+    "home": "FC Veres Rivne",
+    "away": "FC Kudrivka",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "name": "fussballgucken.info",
+        "url": "https://fussballgucken.info/match/192476/premjer-liha-ukraine/fc-veres-rivne-fc-kudrivka"
+      }
+    ],
+    "verifiedAt": "2026-10-03T17:02:00Z"
+  },
+  {
+    "date": "2026-10-03",
     "time": "13:30",
     "competition": "Freundschaftsspiel",
     "country": "International",
@@ -150,27 +171,6 @@
   {
     "date": "2026-10-03",
     "time": "14:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "Eintracht Norderstedt",
-    "away": "Bremer SV",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://datencenter.dfb.de/teams/eintracht-norderstedt",
-        "name": "DFB Datencenter"
-      }
-    ],
-    "verifiedAt": "2026-10-03T16:58:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
     "home": "Eintracht Trier",
@@ -203,6 +203,28 @@
   {
     "date": "2026-10-03",
     "time": "14:00",
+    "competition": "Freundschaftsspiel",
+    "country": "Deutschland",
+    "home": "FC Viktoria Köln",
+    "away": "1. FC Köln",
+    "channels": [
+      "1. FC Köln (YouTube)"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "name": "fussballgucken.info",
+        "url": "https://fussballgucken.info/match/195714/freundschaftsspiel/fc-viktoria-koeln-1-fc-koeln"
+      }
+    ],
+    "verifiedAt": "2026-10-03T17:02:00Z"
+  },
+  {
+    "date": "2026-10-03",
+    "time": "14:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
     "home": "KSV Hessen Kassel",
@@ -214,6 +236,33 @@
     "groups": [
       "other"
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "time": "14:00",
+    "competition": "ÖFB Frauen Bundesliga",
+    "country": "Österreich",
+    "home": "Linzer ASK ♀",
+    "away": "SpG Südburgenland/TSV Hartberg ♀",
+    "channels": [
+      "LAOLA1",
+      "ÖFB TV"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "name": "LAOLA1",
+        "url": "https://www.laola1.at/de/red/fussball/frauen-bundesliga/frauen-bundesliga-im-live-stream--die-spiele-der-9--runde/"
+      },
+      {
+        "name": "fussballgucken.info",
+        "url": "https://fussballgucken.info/match/195431/oefb-frauen-bundesliga/linzer-ask-frauen-spg-suedburgenland-tsv-hartberg-frauen"
+      }
+    ],
+    "verifiedAt": "2026-10-03T17:02:00Z"
   },
   {
     "date": "2026-10-03",
@@ -256,6 +305,33 @@
       }
     ],
     "verifiedAt": "2026-10-03T16:58:00Z"
+  },
+  {
+    "date": "2026-10-03",
+    "time": "14:00",
+    "competition": "ÖFB Frauen Bundesliga",
+    "country": "Österreich",
+    "home": "SCR Altach ♀",
+    "away": "FC Blau Weiß Linz/Union Kleinmünchen ♀",
+    "channels": [
+      "LAOLA1",
+      "ÖFB TV"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "name": "ÖFB",
+        "url": "https://www.oefb.at/oefb/Mediainfo/OeFB-MediaInfo-235-2026-9-Runde-der-ADMIRAL-Frauen-Bundesliga-bringt-erstes-Wiener-Derby"
+      },
+      {
+        "name": "fussballgucken.info",
+        "url": "https://fussballgucken.info/match/195432/oefb-frauen-bundesliga/scr-altach-frauen-fc-blau-weiss-linz-union-kleinmuenchen-frauen"
+      }
+    ],
+    "verifiedAt": "2026-10-03T17:02:00Z"
   },
   {
     "date": "2026-10-03",
@@ -573,6 +649,33 @@
   },
   {
     "date": "2026-10-03",
+    "time": "17:00",
+    "competition": "ÖFB Frauen Bundesliga",
+    "country": "Österreich",
+    "home": "Red Bull Salzburg ♀",
+    "away": "First Vienna FC 1894 ♀",
+    "channels": [
+      "LAOLA1",
+      "ÖFB TV"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "name": "ÖFB",
+        "url": "https://www.oefb.at/oefb/Mediainfo/OeFB-MediaInfo-235-2026-9-Runde-der-ADMIRAL-Frauen-Bundesliga-bringt-erstes-Wiener-Derby"
+      },
+      {
+        "name": "fussballgucken.info",
+        "url": "https://fussballgucken.info/match/195430/oefb-frauen-bundesliga/red-bull-salzburg-frauen-first-vienna-fc-1894-frauen"
+      }
+    ],
+    "verifiedAt": "2026-10-03T17:02:00Z"
+  },
+  {
+    "date": "2026-10-03",
     "time": "17:30",
     "competition": "Länderspiel (U20)",
     "country": "International",
@@ -764,6 +867,27 @@
   },
   {
     "date": "2026-10-03",
+    "time": "18:30",
+    "competition": "Première Ligue (Frankreich)",
+    "country": "Frankreich",
+    "home": "FC Nantes ♀",
+    "away": "HSC Montpellier ♀",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "name": "fussballgucken.info",
+        "url": "https://fussballgucken.info/match/195315/premiere-ligue-frankreich/fc-nantes-frauen-hsc-montpellier-frauen"
+      }
+    ],
+    "verifiedAt": "2026-10-03T17:02:00Z"
+  },
+  {
+    "date": "2026-10-03",
     "time": "20:30",
     "competition": "Arabian Gulf Cup",
     "country": "International",
@@ -837,6 +961,27 @@
     "groups": [
       "dazn"
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "time": "21:00",
+    "competition": "Première Ligue (Frankreich)",
+    "country": "Frankreich",
+    "home": "Paris FC ♀",
+    "away": "RC Lens ♀",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "name": "fussballgucken.info",
+        "url": "https://fussballgucken.info/match/195312/premiere-ligue-frankreich/paris-fc-frauen-rc-lens-frauen"
+      }
+    ],
+    "verifiedAt": "2026-10-03T17:02:00Z"
   },
   {
     "date": "2026-10-03",
