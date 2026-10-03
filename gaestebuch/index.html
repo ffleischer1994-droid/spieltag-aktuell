@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gästebuch | Spieltag Aktuell</title>
+<meta name="description" content="Das Spieltag-Aktuell-Gästebuch: hinterlass eine Nachricht und kritzel direkt im Browser – im Retro-Look der späten 90er.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://spieltagaktuell.de/gaestebuch/">
+<meta name="theme-color" content="#F2AFC0">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Spieltag Aktuell">
+<meta property="og:title" content="Gästebuch | Spieltag Aktuell">
+<meta property="og:description" content="Nachricht da lassen, rumkritzeln, Internet wie früher.">
+<meta property="og:url" content="https://spieltagaktuell.de/gaestebuch/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#F2AFC0;--black:#000;--bg:var(--pink);--ink:var(--black);--r:16px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Roboto,Arial,sans-serif}
+a[href],button,input,textarea,[role="button"]{cursor:pointer}
+button,input,textarea{font:inherit}
+header{border-bottom:1px solid var(--ink);position:sticky;top:0;z-index:100;background:var(--bg);transition:.22s ease}
+.header-inner{max-width:1120px;margin:auto;padding:14px 22px;display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;transition:padding .22s ease}
+.header-inner>a{justify-self:center;grid-column:2;grid-row:1}
+.mobile-head-actions{display:contents}
+.mobile-head-actions>.search-input{justify-self:start;grid-column:1;grid-row:1;width:250px;transition:width .22s ease}
+.mobile-head-actions>.search-input:focus{width:min(360px,100%)}
+.mobile-head-actions>.theme-btn,.mobile-head-actions>#menu-btn{grid-column:3;grid-row:1;justify-self:end}
+.mobile-head-actions>.theme-btn{margin-right:54px}
+.logo{width:270px;display:block;margin:auto;transition:width .22s ease}
+header.scrolled .logo{width:190px}
+header.scrolled .header-inner{padding-top:8px;padding-bottom:8px}
+.head-btn{width:46px;height:46px;border:2px solid var(--ink);border-radius:999px;background:var(--bg);color:var(--ink);font-size:0;font-weight:900;line-height:1;display:grid;place-items:center;padding:0;position:relative}
+.head-btn::before,.head-btn::after{content:"";display:block;position:absolute}
+.head-btn#menu-btn::before{width:24px;height:4px;background:var(--ink);box-shadow:0 -8px 0 var(--ink),0 8px 0 var(--ink);left:50%;top:50%;transform:translate(-50%,-50%)}
+.theme-btn .moon{width:22px;height:22px;border-radius:50%;background:var(--ink);position:relative;display:block}
+.theme-btn .moon::after{content:"";position:absolute;width:18px;height:18px;border-radius:50%;background:var(--bg);left:7px;top:-3px}
+.theme-btn .sun{display:none;font-size:28px;line-height:1;font-weight:900;transform:scale(1.08)}
+.search-input{height:46px;border:2px solid var(--ink);border-radius:999px;background-color:var(--bg);padding:0 48px 0 18px;font:700 16px Roboto;color:var(--ink);outline:none;background-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27%23000%27 stroke-width=%273%27 stroke-linecap=%27round%27%3E%3Ccircle cx=%2710.5%27 cy=%2710.5%27 r=%276.5%27/%3E%3Cpath d=%27M15.5 15.5L21 21%27/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 15px center;background-size:23px 23px}
+.search-input::placeholder{color:var(--ink);opacity:.55}
+.search-popover{position:fixed;top:72px;left:22px;width:min(360px,calc(100vw - 44px));z-index:102;border:2px solid var(--ink);background:var(--bg);box-shadow:5px 5px 0 var(--ink);padding:8px;display:none}
+.search-popover.open{display:grid;gap:5px}
+.search-popover a{border:1px solid var(--ink);padding:9px 11px;text-decoration:none;font-weight:900}
+.search-popover a:hover,.search-popover a:focus{background:var(--ink);color:var(--bg)}
+.menu-panel{display:none;position:fixed;inset:75px 0 0;z-index:99;background:var(--bg);padding:40px 22px;overflow-y:auto}
+.menu-panel.open{display:flex;align-items:center;justify-content:center}
+.panel-inner{width:100%;max-width:1076px;margin:auto}
+.menu-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.menu-grid a{min-height:112px;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:"Archivo Black";font-size:24px;line-height:1.05;border:2px solid var(--ink);border-radius:20px;padding:20px;color:var(--ink);text-decoration:none;transition:.15s}
+.menu-grid a::after{content:"↗";font-family:Roboto,Arial,sans-serif;font-size:32px;font-weight:400;line-height:1;flex:0 0 auto}
+.menu-grid a:hover{background:var(--ink);color:var(--bg)}
+
+.guest-wrap{max-width:1120px;margin:auto;padding:48px 22px 20px}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.48fr);gap:32px;align-items:end;margin-bottom:34px}
+.eyebrow{font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}
+h1{font-family:"Archivo Black";font-size:clamp(54px,9vw,112px);letter-spacing:-.055em;line-height:.82;margin:0;text-transform:uppercase}
+.hero p{font-size:18px;font-weight:700;line-height:1.45;margin:0 0 4px}
+.retro-window{border:3px solid var(--ink);background:var(--bg);box-shadow:8px 8px 0 var(--ink);margin-bottom:46px}
+.titlebar{min-height:48px;background:var(--ink);color:var(--bg);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:6px 7px 6px 12px;font:900 15px "Courier New",monospace;text-transform:uppercase}
+.titlebar-controls{display:flex;gap:5px}
+.win-control{width:34px;height:32px;border:2px solid var(--bg);background:var(--ink);color:var(--bg);display:grid;place-items:center;font:900 18px Arial,sans-serif;padding:0}
+.win-control:last-child{font-size:20px}
+.tabs{display:flex;border-bottom:3px solid var(--ink);overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{min-width:max-content;border:0;border-right:2px solid var(--ink);background:var(--bg);color:var(--ink);padding:11px 16px;font:900 13px "Courier New",monospace;text-decoration:none}
+.tab.active,.tab:hover{background:var(--ink);color:var(--bg)}
+.win-body{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr)}
+.win-pane{padding:24px}
+.win-pane+ .win-pane{border-left:3px solid var(--ink)}
+.pane-title{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:9px;margin-bottom:18px;font:900 15px "Courier New",monospace;text-transform:uppercase}
+.field{display:grid;gap:7px;margin-bottom:16px}
+.field label{font:900 13px "Courier New",monospace;text-transform:uppercase}
+.field input,.field textarea{width:100%;border:2px solid var(--ink);border-radius:0;background:var(--bg);color:var(--ink);padding:12px 13px;outline:none;box-shadow:inset 3px 3px 0 var(--ink)}
+.field input{height:48px}
+.field textarea{min-height:150px;resize:vertical}
+.field input:focus,.field textarea:focus{outline:3px solid var(--ink);outline-offset:3px}
+.charcount{text-align:right;font:700 11px "Courier New",monospace;margin-top:-3px}
+.canvas-shell{border:2px solid var(--ink);padding:7px;background:var(--bg);box-shadow:inset 4px 4px 0 var(--ink)}
+#doodle{width:100%;height:320px;display:block;background:var(--bg);touch-action:none;cursor:crosshair}
+.toolbar{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 10px}
+.retro-btn{border:2px solid var(--ink);border-radius:0;background:var(--bg);color:var(--ink);padding:10px 13px;font:900 12px "Courier New",monospace;box-shadow:3px 3px 0 var(--ink);text-transform:uppercase}
+.retro-btn:hover,.retro-btn.active,.retro-btn.primary{background:var(--ink);color:var(--bg)}
+.retro-btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.form-actions{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-top:20px}
+.form-status{font:700 12px "Courier New",monospace;line-height:1.35}
+.primary{font-size:14px;padding:13px 18px}
+.statusbar{border-top:3px solid var(--ink);display:grid;grid-template-columns:auto 1fr auto;gap:0;font:900 11px "Courier New",monospace;text-transform:uppercase}
+.statusbar span{padding:8px 10px;border-right:2px solid var(--ink)}
+.statusbar span:last-child{border-right:0}
+.entries-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin:0 0 15px}
+.entries-head h2{font-family:"Archivo Black";font-size:clamp(30px,5vw,52px);letter-spacing:-.04em;line-height:.95;margin:0;text-transform:uppercase}
+.entries-count{font:900 13px "Courier New",monospace}
+.entries{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.entry{border:3px solid var(--ink);background:var(--bg);box-shadow:5px 5px 0 var(--ink)}
+.entry-title{background:var(--ink);color:var(--bg);padding:8px 10px;display:flex;justify-content:space-between;gap:12px;align-items:center;font:900 12px "Courier New",monospace;text-transform:uppercase}
+.entry-body{padding:18px}
+.entry-message{font-size:18px;font-weight:700;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere}
+.entry-drawing{margin-top:15px;border:2px solid var(--ink);padding:5px}
+.entry-drawing canvas{width:100%;height:170px;display:block;background:var(--bg)}
+.empty{grid-column:1/-1;border:3px solid var(--ink);padding:26px;font:900 17px "Courier New",monospace;box-shadow:5px 5px 0 var(--ink);text-transform:uppercase}
+.prototype-note{margin-top:16px;font:700 12px "Courier New",monospace;line-height:1.4;text-transform:uppercase}
+
+.site-footer{background:#000;color:var(--pink);margin-top:64px;padding:42px 24px 46px}
+.footer-inner{max-width:1120px;margin:auto;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:42px}
+.footer-brand img{width:230px;filter:brightness(0) saturate(100%) invert(83%) sepia(18%) saturate(1034%) hue-rotate(294deg) brightness(99%) contrast(92%);opacity:.95}
+.footer-col{display:flex;flex-direction:column;gap:7px}
+.footer-col strong{font-family:"Archivo Black",sans-serif;font-size:14px;margin-bottom:5px}
+.footer-col a{color:var(--pink);font-size:14px;font-weight:400;line-height:1.3;text-decoration:none}
+.footer-col a:hover{text-decoration:underline}
+
+body.dark-mode{--bg:#000;--ink:var(--pink)}
+body.dark-mode .logo{filter:brightness(0) saturate(100%) invert(83%) sepia(18%) saturate(1034%) hue-rotate(294deg) brightness(99%) contrast(92%)}
+body.dark-mode .theme-btn .moon{display:none}
+body.dark-mode .theme-btn .sun{display:block}
+body.dark-mode .search-input{background-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27%23F2AFC0%27 stroke-width=%273%27 stroke-linecap=%27round%27%3E%3Ccircle cx=%2710.5%27 cy=%2710.5%27 r=%276.5%27/%3E%3Cpath d=%27M15.5 15.5L21 21%27/%3E%3C/svg%3E")}
+body.dark-mode .site-footer{background:var(--pink);color:#000}
+body.dark-mode .footer-brand img{filter:none}
+body.dark-mode .footer-col a{color:#000}
+
+@media(max-width:850px){
+.menu-panel{inset:67px 0 0;padding:24px 12px}.menu-panel.open{align-items:flex-start}
+.menu-grid{grid-template-columns:1fr 1fr;gap:10px}.menu-grid a{min-height:auto;font-family:Roboto;font-size:16px;border-width:1px;padding:14px}
+.logo{width:220px}header.scrolled .logo{width:180px}
+.hero{grid-template-columns:1fr;gap:18px}
+.win-body{grid-template-columns:1fr}.win-pane+.win-pane{border-left:0;border-top:3px solid var(--ink)}
+.entries{grid-template-columns:1fr}
+}
+@media(max-width:700px){.site-footer{padding:34px 20px}.footer-inner{grid-template-columns:1fr 1fr;gap:32px}.footer-brand{grid-column:1/-1}}
+@media(max-width:560px){
+.header-inner{padding:10px 12px;grid-template-columns:minmax(0,1fr) auto;gap:10px}
+.header-inner>a{display:block;justify-self:start;grid-column:1;grid-row:1}
+.logo{width:150px;margin:0}
+.mobile-head-actions{display:flex;grid-column:2;grid-row:1;justify-self:end;gap:6px;align-items:center}
+.mobile-head-actions>.theme-btn,.mobile-head-actions>#menu-btn{margin:0}
+.search-input{width:46px!important;height:46px;justify-self:auto;padding:0;border-radius:999px;background-position:center;background-size:23px 23px;cursor:pointer;color:transparent;caret-color:transparent}
+.search-input:not(.mobile-open){font-size:0}
+.search-input.mobile-open{position:fixed;left:12px;right:12px;top:10px;width:auto!important;z-index:103;background-position:right 13px center;padding:0 45px 0 15px;color:var(--ink);caret-color:var(--ink);font-size:16px}
+.header-inner:has(.search-input.mobile-open) a,.header-inner:has(.search-input.mobile-open) .theme-btn,.header-inner:has(.search-input.mobile-open) #menu-btn{visibility:hidden}
+.search-popover{top:64px;left:12px;width:calc(100vw - 24px)}
+.menu-grid{grid-template-columns:1fr}.menu-panel{top:67px}
+.guest-wrap{padding:32px 12px 18px}.hero{margin-bottom:24px}h1{font-size:clamp(48px,18vw,76px)}
+.retro-window{box-shadow:5px 5px 0 var(--ink)}
+.titlebar{font-size:12px}.win-control{width:30px;height:29px}
+.win-pane{padding:16px}.statusbar{grid-template-columns:1fr 1fr}.statusbar span:nth-child(2){display:none}
+#doodle{height:260px}.form-actions{align-items:stretch;flex-direction:column}.primary{width:100%}
+.entry-title{align-items:flex-start;flex-direction:column;gap:3px}
+}
+@media(max-width:430px){.footer-inner{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <a href="/"><img class="logo" src="/logo.svg" alt="Spieltag Aktuell"></a>
+    <div class="mobile-head-actions">
+      <input class="search-input" id="site-search" type="search" placeholder="" autocomplete="off" aria-label="Seite und Vereine durchsuchen">
+      <button class="head-btn theme-btn" id="theme-btn" type="button" aria-label="Dark Mode aktivieren" aria-pressed="false"><span class="moon" aria-hidden="true"></span><span class="sun" aria-hidden="true">☀</span></button>
+      <button class="head-btn" id="menu-btn" type="button" aria-label="Menü öffnen" aria-expanded="false"></button>
+    </div>
+  </div>
+</header>
+<div class="search-popover" id="search-popover" aria-live="polite"></div>
+<div class="menu-panel" id="menu-panel">
+  <div class="panel-inner">
+    <nav class="menu-grid">
+      <a href="/free-tv/">Fußball im Free-TV</a>
+      <a href="/fussball-heute/">Fußball heute</a>
+      <a href="/bundesliga/">Bundesliga</a>
+      <a href="/champions-league/">Champions League</a>
+      <a href="/frauenfussball/">Frauenfußball</a>
+      <a href="/verein/deutschland/">Deutschland</a>
+      <a href="/2-bundesliga/">2. Bundesliga</a>
+      <a href="/dfb-pokal/">DFB-Pokal</a>
+      <a href="/europa-league/">Europa League</a>
+      <a href="/conference-league/">Conference League</a>
+      <a href="/nations-league/">Nations League</a>
+      <a href="/gaestebuch/">Gästebuch</a>
+    </nav>
+  </div>
+</div>
+
+<main class="guest-wrap">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Spieltag Aktuell / Community / Gästebuch.exe</div>
+      <h1>Gästebuch</h1>
+    </div>
+    <p>Internet wie früher: Namen reinschreiben, Nachricht dalassen und mit dem Stift ein bisschen Quatsch machen.</p>
+  </section>
+
+  <section class="retro-window" aria-labelledby="window-title">
+    <div class="titlebar">
+      <span id="window-title">C:\SPIELTAG\GAESTEBUCH.EXE</span>
+      <div class="titlebar-controls" aria-hidden="true">
+        <span class="win-control">—</span><span class="win-control">□</span><span class="win-control">×</span>
+      </div>
+    </div>
+    <nav class="tabs" aria-label="Gästebuch Bereiche">
+      <a class="tab active" href="#neuer-eintrag">NEUER EINTRAG</a>
+      <a class="tab" href="#zeichnen">ZEICHNEN</a>
+      <a class="tab" href="#eintraege">EINTRÄGE</a>
+    </nav>
+
+    <form id="guest-form">
+      <div class="win-body">
+        <section class="win-pane" id="neuer-eintrag">
+          <div class="pane-title"><span>Nachricht schreiben</span><span>01</span></div>
+          <div class="field">
+            <label for="guest-name">Dein Name / Nickname</label>
+            <input id="guest-name" name="name" type="text" maxlength="24" required autocomplete="name">
+            <div class="charcount"><span id="name-count">0</span>/24</div>
+          </div>
+          <div class="field">
+            <label for="guest-message">Deine Nachricht</label>
+            <textarea id="guest-message" name="message" maxlength="500" required></textarea>
+            <div class="charcount"><span id="message-count">0</span>/500</div>
+          </div>
+          <div class="form-actions">
+            <div class="form-status" id="form-status" aria-live="polite">BEREIT.</div>
+            <button class="retro-btn primary" type="submit">Eintrag speichern</button>
+          </div>
+        </section>
+
+        <section class="win-pane" id="zeichnen">
+          <div class="pane-title"><span>Kritzel hier rum (optional)</span><span>02</span></div>
+          <div class="toolbar" aria-label="Zeichenwerkzeuge">
+            <button class="retro-btn active width-btn" type="button" data-width="3">Stift dünn</button>
+            <button class="retro-btn width-btn" type="button" data-width="6">Stift mittel</button>
+            <button class="retro-btn width-btn" type="button" data-width="11">Stift dick</button>
+            <button class="retro-btn" id="undo-doodle" type="button">↶ Zurück</button>
+            <button class="retro-btn" id="clear-doodle" type="button">Alles löschen</button>
+          </div>
+          <div class="canvas-shell">
+            <canvas id="doodle" aria-label="Zeichenfläche. Mit Maus oder Finger zeichnen."></canvas>
+          </div>
+        </section>
+      </div>
+    </form>
+    <div class="statusbar">
+      <span id="status-count">0 Einträge</span>
+      <span>Spieltag Aktuell Guestbook</span>
+      <span>V1.0 / lokal</span>
+    </div>
+  </section>
+
+  <section id="eintraege">
+    <div class="entries-head">
+      <h2>Letzte Einträge</h2>
+      <div class="entries-count" id="entries-count">0 EINTRÄGE</div>
+    </div>
+    <div class="entries" id="entries"></div>
+    <p class="prototype-note">Diese erste Version speichert Gästebucheinträge nur in deinem Browser. Die öffentliche gemeinsame Version folgt später.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand"><img src="/logo.svg" alt="Spieltag Aktuell"></div>
+    <div class="footer-col"><strong>Fußball</strong><a href="/fussball-heute/">Fußball heute</a><a href="/fussball-morgen/">Fußball morgen</a><a href="/free-tv/wochenende/">Free-TV am Wochenende</a><a href="/frauenfussball/">Frauenfußball</a><a href="/bundesliga/">Bundesliga</a><a href="/champions-league/">Champions League</a></div>
+    <div class="footer-col"><strong>Sender</strong><a href="/free-tv/">Free-TV</a><a href="/sender/ard/">ARD</a><a href="/sender/zdf/">ZDF</a><a href="/sender/rtl/">RTL / RTL+</a><a href="/dazn/">DAZN</a><a href="/sky-wow/">Sky / WOW</a><a href="/sender/magenta-sport/">MagentaSport</a></div>
+    <div class="footer-col"><strong>Spieltag Aktuell</strong><a href="/vereine/">Vereine</a><a href="/sender/">Senderübersicht</a><a href="/gaestebuch/">Gästebuch</a><a href="/ueber/">Über uns</a><a href="/datenquellen/">Daten & Recherche</a><a href="/impressum/">Impressum</a><a href="/datenschutz/">Datenschutz</a></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var STORAGE_KEY="sa-guestbook-v1";
+  var form=document.getElementById("guest-form");
+  var nameInput=document.getElementById("guest-name");
+  var messageInput=document.getElementById("guest-message");
+  var nameCount=document.getElementById("name-count");
+  var messageCount=document.getElementById("message-count");
+  var status=document.getElementById("form-status");
+  var entriesEl=document.getElementById("entries");
+  var entriesCount=document.getElementById("entries-count");
+  var statusCount=document.getElementById("status-count");
+  var canvas=document.getElementById("doodle");
+  var ctx=canvas.getContext("2d");
+  var strokes=[];
+  var currentStroke=null;
+  var penWidth=3;
+  var drawing=false;
+
+  function ink(){return getComputedStyle(document.body).getPropertyValue("--ink").trim()||"#000"}
+  function bg(){return getComputedStyle(document.body).getPropertyValue("--bg").trim()||"#F2AFC0"}
+  function safeEntries(){try{var d=JSON.parse(localStorage.getItem(STORAGE_KEY)||"[]");return Array.isArray(d)?d:[]}catch(e){return []}}
+  function saveEntries(list){localStorage.setItem(STORAGE_KEY,JSON.stringify(list.slice(0,20)))}
+  function fitCanvas(){
+    var r=canvas.getBoundingClientRect();
+    var d=Math.min(window.devicePixelRatio||1,2);
+    canvas.width=Math.max(1,Math.round(r.width*d));
+    canvas.height=Math.max(1,Math.round(r.height*d));
+    ctx.setTransform(d,0,0,d,0,0);
+    redraw(canvas,ctx,strokes);
+  }
+  function redraw(target,targetCtx,data){
+    var r=target.getBoundingClientRect();
+    var d=target===canvas?Math.min(window.devicePixelRatio||1,2):Math.min(window.devicePixelRatio||1,2);
+    targetCtx.save();
+    targetCtx.setTransform(d,0,0,d,0,0);
+    targetCtx.clearRect(0,0,r.width,r.height);
+    targetCtx.fillStyle=bg();
+    targetCtx.fillRect(0,0,r.width,r.height);
+    targetCtx.lineCap="round";
+    targetCtx.lineJoin="round";
+    targetCtx.strokeStyle=ink();
+    (data||[]).forEach(function(s){
+      if(!s.points||!s.points.length)return;
+      targetCtx.lineWidth=s.width||3;
+      targetCtx.beginPath();
+      s.points.forEach(function(p,i){
+        var x=p.x*r.width,y=p.y*r.height;
+        if(i===0)targetCtx.moveTo(x,y);else targetCtx.lineTo(x,y);
+      });
+      if(s.points.length===1){
+        var p=s.points[0],x=p.x*r.width,y=p.y*r.height;
+        targetCtx.moveTo(x,y);targetCtx.lineTo(x+.1,y+.1);
+      }
+      targetCtx.stroke();
+    });
+    targetCtx.restore();
+  }
+  function point(e){
+    var r=canvas.getBoundingClientRect();
+    return {x:Math.max(0,Math.min(1,(e.clientX-r.left)/r.width)),y:Math.max(0,Math.min(1,(e.clientY-r.top)/r.height))}
+  }
+  canvas.addEventListener("pointerdown",function(e){
+    e.preventDefault();drawing=true;canvas.setPointerCapture(e.pointerId);
+    currentStroke={width:penWidth,points:[point(e)]};strokes.push(currentStroke);fitCanvas();
+  });
+  canvas.addEventListener("pointermove",function(e){
+    if(!drawing||!currentStroke)return;e.preventDefault();currentStroke.points.push(point(e));fitCanvas();
+  });
+  function endDraw(){drawing=false;currentStroke=null}
+  canvas.addEventListener("pointerup",endDraw);
+  canvas.addEventListener("pointercancel",endDraw);
+  document.querySelectorAll(".width-btn").forEach(function(b){
+    b.addEventListener("click",function(){
+      penWidth=Number(b.dataset.width)||3;
+      document.querySelectorAll(".width-btn").forEach(function(x){x.classList.toggle("active",x===b)});
+    });
+  });
+  document.getElementById("undo-doodle").addEventListener("click",function(){strokes.pop();fitCanvas()});
+  document.getElementById("clear-doodle").addEventListener("click",function(){strokes=[];fitCanvas()});
+
+  function formatDate(iso){
+    try{return new Intl.DateTimeFormat("de-DE",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"}).format(new Date(iso))}catch(e){return ""}
+  }
+  function drawEntryCanvas(c,data){
+    var r=c.getBoundingClientRect(),d=Math.min(window.devicePixelRatio||1,2);
+    c.width=Math.max(1,Math.round(r.width*d));c.height=Math.max(1,Math.round(r.height*d));
+    var x=c.getContext("2d");redraw(c,x,data);
+  }
+  function renderEntries(){
+    var list=safeEntries();
+    entriesEl.innerHTML="";
+    if(!list.length){
+      var empty=document.createElement("div");
+      empty.className="empty";
+      empty.textContent="Noch keine Einträge auf diesem Gerät. Sei der Erste.";
+      entriesEl.appendChild(empty);
+    }else{
+      list.forEach(function(entry,i){
+        var article=document.createElement("article");article.className="entry";
+        var title=document.createElement("div");title.className="entry-title";
+        var who=document.createElement("strong");who.textContent=entry.name||"ANONYM";
+        var when=document.createElement("span");when.textContent=formatDate(entry.createdAt);
+        title.appendChild(who);title.appendChild(when);article.appendChild(title);
+        var body=document.createElement("div");body.className="entry-body";
+        var msg=document.createElement("div");msg.className="entry-message";msg.textContent=entry.message||"";body.appendChild(msg);
+        if(entry.strokes&&entry.strokes.length){
+          var dwrap=document.createElement("div");dwrap.className="entry-drawing";
+          var c=document.createElement("canvas");c.setAttribute("aria-label","Zeichnung von "+(entry.name||"Gast"));
+          dwrap.appendChild(c);body.appendChild(dwrap);
+          requestAnimationFrame(function(){drawEntryCanvas(c,entry.strokes)});
+        }
+        article.appendChild(body);entriesEl.appendChild(article);
+      });
+    }
+    var label=list.length+" "+(list.length===1?"EINTRAG":"EINTRÄGE");
+    entriesCount.textContent=label;statusCount.textContent=label;
+  }
+  function updateCounts(){nameCount.textContent=nameInput.value.length;messageCount.textContent=messageInput.value.length}
+  nameInput.addEventListener("input",updateCounts);messageInput.addEventListener("input",updateCounts);
+  form.addEventListener("submit",function(e){
+    e.preventDefault();
+    var name=nameInput.value.trim(),message=messageInput.value.trim();
+    if(!name||!message){status.textContent="FEHLER: NAME UND NACHRICHT FEHLEN.";return}
+    var list=safeEntries();
+    list.unshift({id:String(Date.now()),name:name,message:message,createdAt:new Date().toISOString(),strokes:JSON.parse(JSON.stringify(strokes))});
+    try{
+      saveEntries(list);status.textContent="GESPEICHERT. DANKE!";
+      form.reset();strokes=[];updateCounts();fitCanvas();renderEntries();
+      document.getElementById("eintraege").scrollIntoView({behavior:"smooth",block:"start"});
+    }catch(err){status.textContent="SPEICHER VOLL. BITTE ALTE BROWSERDATEN PRÜFEN."}
+  });
+
+  var themeBtn=document.getElementById("theme-btn");
+  function setTheme(dark){
+    document.body.classList.toggle("dark-mode",dark);
+    themeBtn.setAttribute("aria-pressed",String(dark));
+    themeBtn.setAttribute("aria-label",dark?"Light Mode aktivieren":"Dark Mode aktivieren");
+    localStorage.setItem("sa-theme",dark?"dark":"light");
+    document.querySelector('meta[name="theme-color"]').setAttribute("content",dark?"#000000":"#F2AFC0");
+    requestAnimationFrame(function(){fitCanvas();renderEntries()});
+  }
+  setTheme(localStorage.getItem("sa-theme")==="dark");
+  themeBtn.addEventListener("click",function(){setTheme(!document.body.classList.contains("dark-mode"))});
+
+  var menuPanel=document.getElementById("menu-panel");
+  var menuBtn=document.getElementById("menu-btn");
+  menuBtn.addEventListener("click",function(){
+    var open=menuPanel.classList.toggle("open");
+    menuBtn.setAttribute("aria-expanded",String(open));
+    menuBtn.setAttribute("aria-label",open?"Menü schließen":"Menü öffnen");
+  });
+
+  var siteSearch=document.getElementById("site-search");
+  var searchPopover=document.getElementById("search-popover");
+  var staticPages=[
+    ["Gästebuch","/gaestebuch/"],["Fußball heute","/fussball-heute/"],["Fußball im Free-TV","/free-tv/"],["Bundesliga","/bundesliga/"],["2. Bundesliga","/2-bundesliga/"],["DFB-Pokal","/dfb-pokal/"],["Champions League","/champions-league/"],["Europa League","/europa-league/"],["Frauenfußball","/frauenfussball/"],["Deutschland","/verein/deutschland/"],["Senderübersicht","/sender/"]
+  ];
+  var teams=[];
+  fetch("/games.json",{cache:"no-store"}).then(function(r){return r.json()}).then(function(games){
+    var seen={};(games||[]).forEach(function(g){[g.home,g.away].forEach(function(n){n=String(n||"").replace(" ♀","");if(n&&!seen[n]){seen[n]=1;teams.push([n,"/?team="+encodeURIComponent(n)])}})});
+  }).catch(function(){});
+  function search(q){
+    q=q.trim().toLowerCase();
+    if(!q){searchPopover.classList.remove("open");searchPopover.innerHTML="";return}
+    var hits=staticPages.concat(teams).filter(function(x){return x[0].toLowerCase().indexOf(q)!==-1}).slice(0,8);
+    searchPopover.innerHTML="";
+    hits.forEach(function(x){var a=document.createElement("a");a.href=x[1];a.textContent=x[0];searchPopover.appendChild(a)});
+    searchPopover.classList.toggle("open",hits.length>0);
+  }
+  siteSearch.addEventListener("pointerdown",function(e){
+    if(window.matchMedia("(max-width:560px)").matches&&!siteSearch.classList.contains("mobile-open")){e.preventDefault();siteSearch.classList.add("mobile-open");setTimeout(function(){siteSearch.focus()},0)}
+  });
+  siteSearch.addEventListener("input",function(){search(siteSearch.value)});
+  siteSearch.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){siteSearch.value="";search("");siteSearch.classList.remove("mobile-open");siteSearch.blur()}
+  });
+  siteSearch.addEventListener("blur",function(){setTimeout(function(){if(window.matchMedia("(max-width:560px)").matches&&!siteSearch.value)siteSearch.classList.remove("mobile-open");searchPopover.classList.remove("open")},140)});
+
+  var siteHeader=document.querySelector("header");
+  function syncHeaderSize(){if(window.matchMedia("(min-width:851px)").matches)siteHeader.classList.toggle("scrolled",window.scrollY>24);else siteHeader.classList.remove("scrolled")}
+  syncHeaderSize();addEventListener("scroll",syncHeaderSize,{passive:true});addEventListener("resize",function(){syncHeaderSize();fitCanvas();renderEntries()});
+  updateCounts();renderEntries();requestAnimationFrame(fitCanvas);
+  if("serviceWorker" in navigator)navigator.serviceWorker.register("/sw.js").catch(function(){});
+})();
+</script>
+</body>
+</html>
