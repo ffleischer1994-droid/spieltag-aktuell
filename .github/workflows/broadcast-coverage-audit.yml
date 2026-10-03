@@ -21,6 +21,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+      - name: Install source-audit dependencies
+        run: pip install requests beautifulsoup4
       - name: Run only once at 04:15 Germany time
         id: guard
         run: |
@@ -34,13 +36,20 @@ jobs:
         if: steps.guard.outputs.run == 'true'
         continue-on-error: true
         run: python scripts/audit-data.py --report data-quality-report.md
+      - name: Cross-check fussballgucken.info
+        id: sourceaudit
+        if: steps.guard.outputs.run == 'true'
+        continue-on-error: true
+        run: python scripts/check-source-coverage.py --report source-coverage-report.md
       - uses: actions/upload-artifact@v4
         if: always() && steps.guard.outputs.run == 'true'
         with:
           name: daily-broadcast-quality
-          path: data-quality-report.md
-      - name: Open or update issue on hard failure
-        if: steps.guard.outputs.run == 'true' && steps.quality.outcome == 'failure'
+          path: |
+            data-quality-report.md
+            source-coverage-report.md
+      - name: Open or update issue on data/source differences
+        if: steps.guard.outputs.run == 'true' && (steps.quality.outcome == 'failure' || steps.sourceaudit.outcome == 'failure')
         run: |
           TITLE="Datenqualität: $(TZ=Europe/Berlin date +%d.%m.%Y)"
           NUMBER=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')
@@ -49,6 +58,6 @@ jobs:
           else
             gh issue create --title "$TITLE" --body-file data-quality-report.md --label "data-quality" ||             gh issue create --title "$TITLE" --body-file data-quality-report.md
           fi
-      - name: Fail when hard errors were found
-        if: steps.guard.outputs.run == 'true' && steps.quality.outcome == 'failure'
+      - name: Fail when hard errors or source differences were found
+        if: steps.guard.outputs.run == 'true' && (steps.quality.outcome == 'failure' || steps.sourceaudit.outcome == 'failure')
         run: exit 1
