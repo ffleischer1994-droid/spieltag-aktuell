@@ -19,6 +19,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: instagram-daily-publisher
@@ -27,7 +28,9 @@ concurrency:
 jobs:
   instagram:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
+    env:
+      TZ: Europe/Berlin
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,23 +40,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Maintain renewable Instagram authorization
-        env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: |
-          node scripts/social/instagram-token.mjs
-          git config user.name "spieltag-aktuell-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add social/auth/instagram-token.enc.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Maintain encrypted Instagram authorization"
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
-      - name: Check Berlin morning window and daily receipts
+
+      - name: Check Berlin morning window and daily receipts first
         run: |
           HOUR=$(TZ=Europe/Berlin date +%H)
-          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && { [ "$HOUR" -lt "08" ] || [ "$HOUR" -ge "12" ]; }; then
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && { [ "$HOUR" -lt "08" ] || [ "$HOUR" -ge "11" ]; }; then
             echo "SKIP_SOCIAL=1" >> "$GITHUB_ENV"
           fi
           node --input-type=module <<'NODE'
@@ -68,17 +59,36 @@ jobs:
             }
           }
           NODE
+
+      - name: Maintain renewable Instagram authorization
+        if: env.SKIP_SOCIAL != '1'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          node scripts/social/instagram-token.mjs
+          git config user.name "spieltag-aktuell-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add social/auth/instagram-token.enc.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Maintain encrypted Instagram authorization"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
       - name: Build social package
         if: env.SKIP_SOCIAL != '1'
         run: node scripts/social/build-social.mjs
+
       - name: Install renderer
         if: env.SKIP_SOCIAL != '1'
         run: |
           npm install --no-save playwright
           npx playwright install --with-deps chromium
+
       - name: Render feed and story
         if: env.SKIP_SOCIAL != '1'
         run: node scripts/social/render-social.mjs
+
       - name: Publish media URLs
         if: env.SKIP_SOCIAL != '1'
         run: |
@@ -89,12 +99,11 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add social/latest-feed.jpg social/latest-story.jpg
           git commit -m "Update daily Instagram assets" || true
-          # Build/render creates temporary working files; do not let them block the rebase.
-          # Keep social-output available for the publisher; only stash unrelated tracked changes.
           git stash push --keep-index -m "social-render-temp" || true
           git pull --rebase origin main
           git push origin HEAD:main
           echo "IG_ASSET_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
       - name: Upload rendered preview
         if: env.SKIP_SOCIAL != '1'
         uses: actions/upload-artifact@v4
@@ -104,12 +113,25 @@ jobs:
             social-output/feed.png
             social-output/story.png
             social-output/caption.txt
-      - name: Publish Instagram feed + story
+            social-output/selection.json
+
+      - name: Publish Instagram feed + story with retries
         if: env.SKIP_SOCIAL != '1'
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_PUBLISH_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_mode || 'both' }}
-        run: node scripts/social/publish-instagram.mjs
+        run: |
+          for ATTEMPT in 1 2 3; do
+            echo "Instagram publish attempt $ATTEMPT/3"
+            if node scripts/social/publish-instagram.mjs; then
+              exit 0
+            fi
+            if [ "$ATTEMPT" -lt 3 ]; then
+              sleep $((ATTEMPT * 45))
+            fi
+          done
+          exit 1
+
       - name: Save publication receipts even after partial failure
         if: always() && env.SKIP_SOCIAL != '1'
         run: |
@@ -122,4 +144,24 @@ jobs:
               git pull --rebase origin main
               git push origin HEAD:main
             fi
+          fi
+
+      - name: Open failure ticket
+        if: failure() && env.SKIP_SOCIAL != '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          DATE=$(TZ=Europe/Berlin date +%d.%m.%Y)
+          TITLE="Instagram-Automation fehlgeschlagen: $DATE"
+          RUN_URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          BODY="Der automatische 08:00-Publisher ist nach den eingebauten Wiederholungsversuchen fehlgeschlagen.
+
+          Run: $RUN_URL
+
+          Veröffentlichungsempfang in social/published prüfen; erfolgreiche Feed-/Story-IDs werden beim nächsten Lauf nicht doppelt gepostet."
+          NUMBER=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$NUMBER" ]; then
+            gh issue comment "$NUMBER" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY"
           fi
