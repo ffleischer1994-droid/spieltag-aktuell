@@ -348,5 +348,320 @@
     "title": "Fußball am Wochenende im Free-TV",
     "intro": "Kostenlose Fußballübertragungen am Samstag und Sonntag.",
     "free": true
+  },
+  {
+    "path": "3-liga",
+    "kind": "competition",
+    "pattern": "^3\\. Liga$",
+    "title": "3. Liga im TV & Stream",
+    "intro": "3. Liga im TV & Stream: die aktuell erfassten Spiele mit Anstoßzeiten und konkreten TV- und Streaminganbietern."
+  },
+  {
+    "path": "regionalliga",
+    "kind": "competition",
+    "pattern": "Regionalliga",
+    "title": "Regionalliga im TV & Stream",
+    "intro": "Regionalliga im TV & Stream: aktuell erfasste Live-Spiele aus den deutschen Regionalligen mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "frauen-bundesliga",
+    "kind": "competition",
+    "pattern": "Bundesliga.*Frauen|Frauen.*Bundesliga",
+    "title": "Frauen-Bundesliga im TV & Stream",
+    "intro": "Frauen-Bundesliga im TV & Stream: die aktuell erfassten Spiele mit Anstoßzeiten und konkreten TV- und Streaminganbietern."
+  },
+  {
+    "path": "2-frauen-bundesliga",
+    "kind": "competition",
+    "pattern": "2\\. Bundesliga.*Frauen|2\\. Frauen-Bundesliga",
+    "title": "2. Frauen-Bundesliga im TV & Stream",
+    "intro": "2. Frauen-Bundesliga im TV & Stream: die aktuell erfassten Spiele mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "la-liga",
+    "kind": "competition",
+    "pattern": "La Liga",
+    "title": "La Liga im TV & Stream",
+    "intro": "La Liga im TV & Stream: die aktuell erfassten Spiele aus Spanien mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "premier-league",
+    "kind": "competition",
+    "pattern": "Premier League",
+    "title": "Premier League im TV & Stream",
+    "intro": "Premier League im TV & Stream: die aktuell erfassten Spiele aus England mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "serie-a",
+    "kind": "competition",
+    "pattern": "Serie A",
+    "title": "Serie A im TV & Stream",
+    "intro": "Serie A im TV & Stream: die aktuell erfassten Spiele aus Italien mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "ligue-1",
+    "kind": "competition",
+    "pattern": "Ligue 1",
+    "title": "Ligue 1 im TV & Stream",
+    "intro": "Ligue 1 im TV & Stream: die aktuell erfassten Spiele aus Frankreich mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "eredivisie",
+    "kind": "competition",
+    "pattern": "Eredivisie",
+    "title": "Eredivisie im TV & Stream",
+    "intro": "Eredivisie im TV & Stream: die aktuell erfassten Spiele aus den Niederlanden mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "oesterreich-bundesliga",
+    "kind": "competition",
+    "pattern": "Bundesliga.*Österreich|Österreich.*Bundesliga",
+    "title": "Österreichische Bundesliga im TV & Stream",
+    "intro": "Österreichische Bundesliga im TV & Stream: die aktuell erfassten Spiele mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "schweiz-super-league",
+    "kind": "competition",
+    "pattern": "Super League.*Schweiz|Schweiz.*Super League",
+    "title": "Schweizer Super League im TV & Stream",
+    "intro": "Schweizer Super League im TV & Stream: die aktuell erfassten Spiele mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "wm-qualifikation",
+    "kind": "competition",
+    "pattern": "WM.*Quali|WM-Quali",
+    "title": "WM-Qualifikation im TV & Stream",
+    "intro": "WM-Qualifikation im TV & Stream: aktuell erfasste Spiele mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "u21",
+    "kind": "competition",
+    "pattern": "U21|\\(U21\\)",
+    "title": "U21-Fußball im TV & Stream",
+    "intro": "U21-Fußball im TV & Stream: aktuell erfasste Länderspiele und Wettbewerbe mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "sender/sky-sport",
+    "kind": "sender",
+    "pattern": "Sky Sport",
+    "title": "Fußball auf Sky Sport",
+    "intro": "Fußball auf Sky Sport: Spiele, die in unserem aktuellen Datenfenster bei Sky Sport erfasst sind."
+  },
+  {
+    "path": "sender/wow",
+    "kind": "sender",
+    "pattern": "^WOW$",
+    "title": "Fußball auf WOW",
+    "intro": "Fußball auf WOW: Spiele, die in unserem aktuellen Datenfenster bei WOW erfasst sind."
+  },
+  {
+    "path": "sender/dfb-tv",
+    "kind": "sender",
+    "pattern": "DFB\\.TV",
+    "title": "Fußball auf DFB.TV",
+    "intro": "Fußball auf DFB.TV: Spiele, die in unserem aktuellen Datenfenster bei DFB.TV erfasst sind."
+  },
+  {
+    "path": "sender/ard-mediathek",
+    "kind": "sender",
+    "pattern": "ARD Mediathek",
+    "title": "Fußball in der ARD Mediathek",
+    "intro": "Fußball in der ARD Mediathek: aktuell erfasste Spiele und Livestreams."
+  },
+  {
+    "path": "sender/zdfmediathek",
+    "kind": "sender",
+    "pattern": "ZDFmediathek",
+    "title": "Fußball in der ZDFmediathek",
+    "intro": "Fußball in der ZDFmediathek: aktuell erfasste Spiele und Livestreams."
+  },
+  {
+    "path": "sender/orf",
+    "kind": "sender",
+    "pattern": "ORF",
+    "title": "Fußball im ORF",
+    "intro": "Fußball im ORF: aktuell erfasste Spiele und Streams für Österreich."
+  },
+  {
+    "path": "sender/srf",
+    "kind": "sender",
+    "pattern": "SRF|Play SRF",
+    "title": "Fußball im SRF",
+    "intro": "Fußball im SRF: aktuell erfasste Spiele und Streams für die Schweiz."
+  },
+  {
+    "path": "sender/laola1",
+    "kind": "sender",
+    "pattern": "LAOLA1",
+    "title": "Fußball bei LAOLA1",
+    "intro": "Fußball bei LAOLA1: Spiele, die in unserem aktuellen Datenfenster bei LAOLA1 erfasst sind."
+  },
+  {
+    "path": "sender/br24sport",
+    "kind": "sender",
+    "pattern": "BR24",
+    "title": "Fußball bei BR24Sport",
+    "intro": "Fußball bei BR24Sport: aktuell erfasste Spiele und Livestreams."
+  },
+  {
+    "path": "verein/1-fc-kaiserslautern",
+    "kind": "team",
+    "team": "1. FC Kaiserslautern",
+    "title": "1. FC Kaiserslautern: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt 1. FC Kaiserslautern und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/hertha-bsc",
+    "kind": "team",
+    "team": "Hertha BSC",
+    "title": "Hertha BSC: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Hertha BSC und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/1-fc-nuernberg",
+    "kind": "team",
+    "team": "1. FC Nürnberg",
+    "title": "1. FC Nürnberg: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt 1. FC Nürnberg und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/hannover-96",
+    "kind": "team",
+    "team": "Hannover 96",
+    "title": "Hannover 96: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Hannover 96 und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/fortuna-duesseldorf",
+    "kind": "team",
+    "team": "Fortuna Düsseldorf",
+    "title": "Fortuna Düsseldorf: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Fortuna Düsseldorf und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/karlsruher-sc",
+    "kind": "team",
+    "team": "Karlsruher SC",
+    "title": "Karlsruher SC: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Karlsruher SC und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/vfl-bochum",
+    "kind": "team",
+    "team": "VfL Bochum",
+    "title": "VfL Bochum: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt VfL Bochum und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/sv-darmstadt-98",
+    "kind": "team",
+    "team": "SV Darmstadt 98",
+    "title": "SV Darmstadt 98: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt SV Darmstadt 98 und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/eintracht-braunschweig",
+    "kind": "team",
+    "team": "Eintracht Braunschweig",
+    "title": "Eintracht Braunschweig: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Eintracht Braunschweig und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/holstein-kiel",
+    "kind": "team",
+    "team": "Holstein Kiel",
+    "title": "Holstein Kiel: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Holstein Kiel und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/preussen-muenster",
+    "kind": "team",
+    "team": "SC Preußen Münster",
+    "title": "SC Preußen Münster: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt SC Preußen Münster und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/rot-weiss-essen",
+    "kind": "team",
+    "team": "Rot-Weiss Essen",
+    "title": "Rot-Weiss Essen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Rot-Weiss Essen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/dynamo-dresden",
+    "kind": "team",
+    "team": "Dynamo Dresden",
+    "title": "Dynamo Dresden: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Dynamo Dresden und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/vfl-wolfsburg-frauen",
+    "kind": "team",
+    "team": "VfL Wolfsburg ♀",
+    "title": "VfL Wolfsburg Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt VfL Wolfsburg Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/sc-freiburg-frauen",
+    "kind": "team",
+    "team": "SC Freiburg ♀",
+    "title": "SC Freiburg Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt SC Freiburg Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/1-fc-koeln-frauen",
+    "kind": "team",
+    "team": "1. FC Köln ♀",
+    "title": "1. FC Köln Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt 1. FC Köln Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/werder-bremen-frauen",
+    "kind": "team",
+    "team": "SV Werder Bremen ♀",
+    "title": "SV Werder Bremen Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt SV Werder Bremen Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/rb-leipzig-frauen",
+    "kind": "team",
+    "team": "RB Leipzig ♀",
+    "title": "RB Leipzig Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt RB Leipzig Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/tsg-hoffenheim-frauen",
+    "kind": "team",
+    "team": "TSG Hoffenheim ♀",
+    "title": "TSG Hoffenheim Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt TSG Hoffenheim Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/hamburger-sv-frauen",
+    "kind": "team",
+    "team": "Hamburger SV ♀",
+    "title": "Hamburger SV Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Hamburger SV Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/mainz-05-frauen",
+    "kind": "team",
+    "team": "1. FSV Mainz 05 ♀",
+    "title": "1. FSV Mainz 05 Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt 1. FSV Mainz 05 Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/fc-ingolstadt-frauen",
+    "kind": "team",
+    "team": "FC Ingolstadt 04 ♀",
+    "title": "FC Ingolstadt 04 Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt FC Ingolstadt 04 Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/deutschland-frauen",
+    "kind": "team",
+    "team": "Deutschland ♀",
+    "title": "Deutschland Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Deutschland Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
   }
 ]
