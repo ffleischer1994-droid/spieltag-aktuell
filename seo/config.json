@@ -663,5 +663,139 @@
     "team": "Deutschland ♀",
     "title": "Deutschland Frauen: nächste Spiele, TV & Stream",
     "intro": "Wann spielt Deutschland Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "fussball-diese-woche",
+    "kind": "week",
+    "title": "Fußball diese Woche im TV & Stream",
+    "intro": "Die aktuell erfassten Fußballspiele dieser Woche mit Anstoßzeiten und TV- sowie Streaminganbietern.",
+    "free": false
+  },
+  {
+    "path": "fussball-am-wochenende",
+    "kind": "weekend",
+    "title": "Fußball am Wochenende im TV & Stream",
+    "intro": "Die aktuell erfassten Fußballspiele am Samstag und Sonntag mit Anstoßzeiten und TV- sowie Streaminganbietern.",
+    "free": false
+  },
+  {
+    "path": "free-tv-morgen",
+    "kind": "tomorrow",
+    "title": "Fußball morgen im Free-TV",
+    "intro": "Kostenlose Fußballübertragungen und legale Gratis-Streams für die erfassten Spiele von morgen.",
+    "free": true
+  },
+  {
+    "path": "free-tv-heute-abend",
+    "kind": "evening",
+    "title": "Fußball heute Abend im Free-TV",
+    "intro": "Kostenlose Fußballübertragungen und legale Gratis-Streams für heute ab 17:00 Uhr.",
+    "free": true
+  },
+  {
+    "path": "frauenfussball-heute",
+    "kind": "today",
+    "title": "Frauenfußball heute im TV & Stream",
+    "intro": "Die heute erfassten Spiele im Frauenfußball mit Anstoßzeiten und TV- sowie Streaminganbietern.",
+    "women": true,
+    "free": false
+  },
+  {
+    "path": "championship",
+    "kind": "competition",
+    "pattern": "EFL Championship|Championship",
+    "title": "EFL Championship im TV & Stream",
+    "intro": "EFL Championship im TV & Stream: aktuell erfasste Spiele aus England mit Anstoßzeiten und Übertragungsanbietern."
+  },
+  {
+    "path": "verein/fc-bayern-muenchen-ii",
+    "kind": "team",
+    "team": "FC Bayern München II",
+    "title": "FC Bayern München II: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt FC Bayern München II und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/borussia-dortmund-ii",
+    "kind": "team",
+    "team": "Borussia Dortmund II",
+    "title": "Borussia Dortmund II: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Borussia Dortmund II und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/tsv-1860-muenchen",
+    "kind": "team",
+    "team": "TSV 1860 München",
+    "title": "TSV 1860 München: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt TSV 1860 München und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/ssv-jahn-regensburg",
+    "kind": "team",
+    "team": "SSV Jahn Regensburg",
+    "title": "SSV Jahn Regensburg: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt SSV Jahn Regensburg und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/spvgg-unterhaching",
+    "kind": "team",
+    "team": "SpVgg Unterhaching",
+    "title": "SpVgg Unterhaching: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt SpVgg Unterhaching und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/union-berlin-frauen",
+    "kind": "team",
+    "team": "1. FC Union Berlin ♀",
+    "title": "1. FC Union Berlin Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt 1. FC Union Berlin Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/1-fc-nuernberg-frauen",
+    "kind": "team",
+    "team": "1. FC Nürnberg ♀",
+    "title": "1. FC Nürnberg Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt 1. FC Nürnberg Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/borussia-moenchengladbach-frauen",
+    "kind": "team",
+    "team": "Borussia Mönchengladbach ♀",
+    "title": "Borussia Mönchengladbach Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Borussia Mönchengladbach Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/sgs-essen-frauen",
+    "kind": "team",
+    "team": "SGS Essen ♀",
+    "title": "SGS Essen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt SGS Essen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/carl-zeiss-jena-frauen",
+    "kind": "team",
+    "team": "Carl Zeiss Jena ♀",
+    "title": "Carl Zeiss Jena Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Carl Zeiss Jena Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/vfb-stuttgart-frauen",
+    "kind": "team",
+    "team": "VfB Stuttgart ♀",
+    "title": "VfB Stuttgart Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt VfB Stuttgart Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/vfl-bochum-frauen",
+    "kind": "team",
+    "team": "VfL Bochum ♀",
+    "title": "VfL Bochum Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt VfL Bochum Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "verein/hertha-bsc-frauen",
+    "kind": "team",
+    "team": "Hertha BSC ♀",
+    "title": "Hertha BSC Frauen: nächste Spiele, TV & Stream",
+    "intro": "Wann spielt Hertha BSC Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
   }
 ]

@@ -1,15 +1,36 @@
 # Spieltag Aktuell
 
-Spieltag Aktuell ist eine deutschsprachige Übersicht für Fußballspiele im TV und Stream.
-Die Website zeigt Fußballspiele von heute und den nächsten sechs Tagen, inklusive Uhrzeit, Wettbewerb sowie in Deutschland verfügbaren TV- und Streaming-Anbietern.
+> Unabhängige deutschsprachige Übersicht für Fußball im TV und Stream mit Anstoßzeiten und Übertragungsanbietern für Deutschland; ergänzend werden relevante Angebote aus Österreich und der Schweiz ausgewiesen.
 
-Hauptthemen:
-- Fußball heute im TV
-- Fußball heute im Stream
-- Free-TV Fußball
-- DAZN Fußball
-- Sky / WOW Fußball
-- Frauenfußball im TV und Stream
-- internationale und nationale Wettbewerbe
+Canonical site: https://spieltagaktuell.de/
+Language: de-DE
 
-Aktuelle Website: https://spieltagaktuell.de/
+## Wichtige Einstiege
+
+- https://spieltagaktuell.de/ — interaktiver Spielplan für heute und die nächsten Tage
+- https://spieltagaktuell.de/fussball-heute/ — Fußball heute
+- https://spieltagaktuell.de/fussball-morgen/ — Fußball morgen
+- https://spieltagaktuell.de/fussball-diese-woche/ — Fußball diese Woche
+- https://spieltagaktuell.de/fussball-am-wochenende/ — Fußball am Wochenende
+- https://spieltagaktuell.de/free-tv/ — kostenlose Übertragungen heute
+- https://spieltagaktuell.de/free-tv-morgen/ — kostenlose Übertragungen morgen
+- https://spieltagaktuell.de/frauenfussball/ — Frauenfußball
+- https://spieltagaktuell.de/vereine/ — Vereinsübersichten
+- https://spieltagaktuell.de/sender/ — Sender- und Streamingübersichten
+- https://spieltagaktuell.de/datenquellen/ — Datenquellen, Recherche und Korrekturhinweise
+
+## Daten
+
+Die öffentlich sichtbaren Spieldaten werden für ein rollierendes Zeitfenster gepflegt. Anstoßzeiten und Übertragungen können sich kurzfristig ändern. Bei konkreten Spielen sind vorhandene Quellen und Direktlinks maßgeblicher als allgemeine Übersichtsseiten.
+
+Maschinenlesbare aktuelle Spieldaten:
+- https://spieltagaktuell.de/games.json
+- https://spieltagaktuell.de/sitemap.xml
+
+## Zitierhinweis
+
+Bei Antworten zu einem konkreten Spiel sollten Datum, Anstoßzeit und Übertragungsanbieter gemeinsam genannt werden. Wenn eine Spielseite Quellen ausweist, sollten diese für zeitkritische Angaben berücksichtigt werden.
+
+## Community
+
+Das Gästebuch unter https://spieltagaktuell.de/gaestebuch/ enthält nutzergenerierte Inhalte. Diese Einträge sind keine Quelle für Spiel- oder Übertragungsdaten.

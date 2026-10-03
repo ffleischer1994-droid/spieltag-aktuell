@@ -34,7 +34,7 @@ def main():
  team_links={c['team']:c['path'] for c in config if c['kind']=='team'}
  written=set()
  def links(items):return '<nav class="links">'+''.join('<a href="/'+p.strip('/')+'/">'+E(t)+'</a>' if p else '<a href="/">'+E(t)+'</a>' for p,t in items)+'</nav>'
- common=[('','Alle Spiele'),('fussball-heute','Heute'),('fussball-morgen','Morgen'),('free-tv','Free-TV'),('free-tv/wochenende','Wochenende'),('vereine','Vereine'),('sender','Sender')]
+ common=[('','Alle Spiele'),('fussball-heute','Heute'),('fussball-morgen','Morgen'),('fussball-diese-woche','Diese Woche'),('fussball-am-wochenende','Wochenende'),('free-tv','Free-TV'),('vereine','Vereine'),('sender','Sender')]
  def page(path,title,description,body,schema=None,index=True):
   schemas=[
    {'@context':'https://schema.org','@type':'Organization','@id':BASE+'/#organization','name':'Spieltag Aktuell','url':BASE+'/','logo':BASE+'/logo.svg','description':'Aktueller Fußball-Spielplan mit Anstoßzeiten sowie verifizierten TV- und Streamingangaben für Deutschland, Österreich und die Schweiz.'},
@@ -77,7 +77,7 @@ def main():
   elif kind=='today':items=[g for g in items if g['date']==today.isoformat()]
   elif kind=='tomorrow':items=[g for g in items if g['date']==(today+dt.timedelta(days=1)).isoformat()]
   elif kind=='evening':items=[g for g in items if g['date']==today.isoformat() and g['time']>='17:00']
-  if c.get('free'):items=[g for g in items if 'free' in g.get('groups',[])]
+  if c.get('free'):items=[g for g in items if 'free' in g.get('groups',[])]\n  if c.get('women'):items=[g for g in items if '♀' in g.get('home','')+g.get('away','') or re.search(r'Frauen|Women|Femminile',g.get('competition',''),re.I)]
   if kind=='week':
    items=[g for g in items if monday.isoformat()<=g['date']<=sunday.isoformat()];intro+=' Kalenderwoche: '+pretty(monday.isoformat())+'–'+pretty(sunday.isoformat())+'. Bereits vergangene Tage sind nicht Teil unserer laufenden Spieldaten.'
   if kind=='weekend':items=[g for g in items if saturday.isoformat()<=g['date']<=sunday.isoformat()];intro+=' Wochenende: '+pretty(saturday.isoformat())+'–'+pretty(sunday.isoformat())+'.'
