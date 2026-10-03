@@ -27,8 +27,9 @@ export function activeToken(){return read().token;}
 export async function maintainToken(){
  let state=read();
  const secret=seed();
- if(fs.existsSync(statePath)&&Date.now()-state.refreshedAt<7*86400000)return;
- if(!fs.existsSync(statePath)){
+ const initialized=fs.existsSync(statePath)&&JSON.parse(fs.readFileSync(statePath,'utf8')).seed===fingerprint(secret);
+ if(initialized&&Date.now()-state.refreshedAt<7*86400000)return;
+ if(!initialized){
   fs.mkdirSync('social/auth',{recursive:true});
   fs.writeFileSync(statePath,JSON.stringify(seal(state,secret),null,2));
   console.log('Token renewal initialized; first renewal after seven days.');
