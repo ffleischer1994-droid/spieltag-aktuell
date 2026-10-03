@@ -37,6 +37,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Maintain renewable Instagram authorization
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          node scripts/social/instagram-token.mjs
+          git config user.name "spieltag-aktuell-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add social/auth/instagram-token.enc.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Maintain encrypted Instagram authorization"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
       - name: Check Berlin morning window and daily receipts
         run: |
           HOUR=$(TZ=Europe/Berlin date +%H)
