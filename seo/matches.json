@@ -41,7 +41,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-02"
+    "dataUpdated": "2026-10-03"
   },
   "2026-10-01|Deutschland (U16)|Griechenland (U16)": {
     "path": "spiel/deutschland-u16-griechenland-u16-2026-10-01",
@@ -124,7 +124,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-02"
+    "dataUpdated": "2026-10-03"
   },
   "2026-10-03|1. FC Köln ♀|SC Freiburg ♀": {
     "path": "spiel/1-fc-koeln-frauen-sc-freiburg-frauen-2026-10-03",
@@ -145,7 +145,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-02"
+    "dataUpdated": "2026-10-03"
   },
   "2026-10-03|England (U20)|Deutschland (U20)": {
     "path": "spiel/england-u20-deutschland-u20-2026-10-03",
@@ -167,7 +167,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-02"
+    "dataUpdated": "2026-10-03"
   },
   "2026-10-03|Eintracht Frankfurt ♀|FC Bayern München ♀": {
     "path": "spiel/eintracht-frankfurt-frauen-fc-bayern-muenchen-frauen-2026-10-03",
@@ -189,7 +189,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-02"
+    "dataUpdated": "2026-10-03"
   },
   "2026-10-04|Deutschland (U16)|Österreich (U16)": {
     "path": "spiel/deutschland-u16-osterreich-u16-2026-10-04",
@@ -208,7 +208,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-02"
+    "dataUpdated": "2026-10-03"
   },
   "2026-10-04|FC Ingolstadt 04 ♀|VfL Bochum ♀": {
     "path": "spiel/fc-ingolstadt-04-frauen-vfl-bochum-frauen-2026-10-04",
@@ -227,7 +227,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-02"
+    "dataUpdated": "2026-10-03"
   },
   "2026-10-04|FK Austria Wien ♀|SK Rapid Wien ♀": {
     "path": "spiel/fk-austria-wien-frauen-sk-rapid-wien-frauen-2026-10-04",
@@ -246,6 +246,29 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-02"
+    "dataUpdated": "2026-10-03"
+  },
+  "2026-10-04|VfL Wolfsburg ♀|Hamburger SV ♀": {
+    "path": "spiel/vfl-wolfsburg-frauen-hamburger-sv-frauen-2026-10-04",
+    "game": {
+      "date": "2026-10-04",
+      "time": "13:45",
+      "competition": "Frauen-Bundesliga",
+      "country": "Deutschland",
+      "home": "VfL Wolfsburg ♀",
+      "away": "Hamburger SV ♀",
+      "channels": [
+        "Sport1",
+        "MagentaSport",
+        "DAZN",
+        "OneFootball"
+      ],
+      "groups": [
+        "free",
+        "dazn",
+        "other"
+      ]
+    },
+    "dataUpdated": "2026-10-03"
   }
 }
