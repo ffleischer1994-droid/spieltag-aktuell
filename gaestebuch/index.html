@@ -58,54 +58,54 @@ header.scrolled .header-inner{padding-top:8px;padding-bottom:8px}
 .menu-grid a:hover{background:var(--ink);color:var(--bg)}
 
 .guest-wrap{max-width:1120px;margin:auto;padding:48px 22px 20px}
-.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.48fr);gap:32px;align-items:end;margin-bottom:34px}
-.eyebrow{font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}
-h1{font-family:"Archivo Black";font-size:clamp(54px,9vw,112px);letter-spacing:-.055em;line-height:.82;margin:0;text-transform:uppercase}
-.hero p{font-size:18px;font-weight:700;line-height:1.45;margin:0 0 4px}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.46fr);gap:42px;align-items:end;margin-bottom:46px}
+.eyebrow{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px}
+h1{font-family:"Archivo Black";font-size:clamp(42px,7.2vw,86px);letter-spacing:-.04em;line-height:.9;margin:0;text-transform:uppercase}
+.hero p{font-size:18px;font-weight:700;line-height:1.45;margin:0 0 10px;max-width:520px}
 .retro-window{border:3px solid var(--ink);background:var(--bg);box-shadow:8px 8px 0 var(--ink);margin-bottom:46px}
-.titlebar{min-height:48px;background:var(--ink);color:var(--bg);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:6px 7px 6px 12px;font:900 15px "Courier New",monospace;text-transform:uppercase}
+.titlebar{min-height:48px;background:var(--ink);color:var(--bg);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:6px 7px 6px 12px;font:900 14px Roboto,Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase}
 .titlebar-controls{display:flex;gap:5px}
-.win-control{width:34px;height:32px;border:2px solid var(--bg);background:var(--ink);color:var(--bg);display:grid;place-items:center;font:900 18px Arial,sans-serif;padding:0}
+.win-control{width:34px;height:32px;border:2px solid var(--bg);background:var(--ink);color:var(--bg);display:grid;place-items:center;font:900 18px Roboto,Arial,sans-serif;padding:0}
 .win-control:last-child{font-size:20px}
 .tabs{display:flex;border-bottom:3px solid var(--ink);overflow-x:auto;scrollbar-width:none}
 .tabs::-webkit-scrollbar{display:none}
-.tab{min-width:max-content;border:0;border-right:2px solid var(--ink);background:var(--bg);color:var(--ink);padding:11px 16px;font:900 13px "Courier New",monospace;text-decoration:none}
+.tab{min-width:max-content;border:0;border-right:2px solid var(--ink);background:var(--bg);color:var(--ink);padding:11px 16px;font:700 13px Roboto,Arial,sans-serif;letter-spacing:.03em;text-transform:uppercase;text-decoration:none}
 .tab.active,.tab:hover{background:var(--ink);color:var(--bg)}
 .win-body{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr)}
 .win-pane{padding:24px}
 .win-pane+ .win-pane{border-left:3px solid var(--ink)}
-.pane-title{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:9px;margin-bottom:18px;font:900 15px "Courier New",monospace;text-transform:uppercase}
+.pane-title{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:9px;margin-bottom:18px;font-family:"Archivo Black",sans-serif;font-size:20px;line-height:1;letter-spacing:-.02em;text-transform:uppercase}
 .field{display:grid;gap:7px;margin-bottom:16px}
-.field label{font:900 13px "Courier New",monospace;text-transform:uppercase}
+.field label{font:700 13px Roboto,Arial,sans-serif;letter-spacing:.03em;text-transform:uppercase}
 .field input,.field textarea{width:100%;border:2px solid var(--ink);border-radius:0;background:var(--bg);color:var(--ink);padding:12px 13px;outline:none;box-shadow:inset 3px 3px 0 var(--ink)}
 .field input{height:48px}
 .field textarea{min-height:150px;resize:vertical}
 .field input:focus,.field textarea:focus{outline:3px solid var(--ink);outline-offset:3px}
-.charcount{text-align:right;font:700 11px "Courier New",monospace;margin-top:-3px}
+.charcount{text-align:right;font:700 11px Roboto,Arial,sans-serif;margin-top:-3px}
 .canvas-shell{border:2px solid var(--ink);padding:7px;background:var(--bg);box-shadow:inset 4px 4px 0 var(--ink)}
 #doodle{width:100%;height:320px;display:block;background:var(--bg);touch-action:none;cursor:crosshair}
-.toolbar{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 10px}
-.retro-btn{border:2px solid var(--ink);border-radius:0;background:var(--bg);color:var(--ink);padding:10px 13px;font:900 12px "Courier New",monospace;box-shadow:3px 3px 0 var(--ink);text-transform:uppercase}
+.toolbar{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 10px}.tool-btn{width:56px;height:48px;display:grid;place-items:center;padding:0}.tool-btn svg{width:24px;height:24px;display:block}.tool-btn.wide{width:64px}
+.retro-btn{border:2px solid var(--ink);border-radius:0;background:var(--bg);color:var(--ink);padding:10px 13px;font:700 12px Roboto,Arial,sans-serif;letter-spacing:.03em;box-shadow:3px 3px 0 var(--ink);text-transform:uppercase}
 .retro-btn:hover,.retro-btn.active,.retro-btn.primary{background:var(--ink);color:var(--bg)}
 .retro-btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
 .form-actions{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-top:20px}
-.form-status{font:700 12px "Courier New",monospace;line-height:1.35}
+.form-status{font:700 12px Roboto,Arial,sans-serif;letter-spacing:.03em;line-height:1.35}
 .primary{font-size:14px;padding:13px 18px}
-.statusbar{border-top:3px solid var(--ink);display:grid;grid-template-columns:auto 1fr auto;gap:0;font:900 11px "Courier New",monospace;text-transform:uppercase}
+.statusbar{border-top:3px solid var(--ink);display:grid;grid-template-columns:auto 1fr auto;gap:0;font:700 11px Roboto,Arial,sans-serif;letter-spacing:.03em;text-transform:uppercase}
 .statusbar span{padding:8px 10px;border-right:2px solid var(--ink)}
 .statusbar span:last-child{border-right:0}
 .entries-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin:0 0 15px}
 .entries-head h2{font-family:"Archivo Black";font-size:clamp(30px,5vw,52px);letter-spacing:-.04em;line-height:.95;margin:0;text-transform:uppercase}
-.entries-count{font:900 13px "Courier New",monospace}
+.entries-count{font:700 13px Roboto,Arial,sans-serif;letter-spacing:.03em}
 .entries{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 .entry{border:3px solid var(--ink);background:var(--bg);box-shadow:5px 5px 0 var(--ink)}
-.entry-title{background:var(--ink);color:var(--bg);padding:8px 10px;display:flex;justify-content:space-between;gap:12px;align-items:center;font:900 12px "Courier New",monospace;text-transform:uppercase}
+.entry-title{background:var(--ink);color:var(--bg);padding:8px 10px;display:flex;justify-content:space-between;gap:12px;align-items:center;font:700 12px Roboto,Arial,sans-serif;letter-spacing:.03em;text-transform:uppercase}
 .entry-body{padding:18px}
 .entry-message{font-size:18px;font-weight:700;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere}
 .entry-drawing{margin-top:15px;border:2px solid var(--ink);padding:5px}
 .entry-drawing canvas{width:100%;height:170px;display:block;background:var(--bg)}
-.empty{grid-column:1/-1;border:3px solid var(--ink);padding:26px;font:900 17px "Courier New",monospace;box-shadow:5px 5px 0 var(--ink);text-transform:uppercase}
-.prototype-note{margin-top:16px;font:700 12px "Courier New",monospace;line-height:1.4;text-transform:uppercase}
+.empty{grid-column:1/-1;border:3px solid var(--ink);padding:26px;font:700 16px Roboto,Arial,sans-serif;letter-spacing:.03em;box-shadow:5px 5px 0 var(--ink);text-transform:uppercase}
+.prototype-note{margin-top:16px;font:700 12px Roboto,Arial,sans-serif;letter-spacing:.03em;line-height:1.4;text-transform:uppercase}
 
 .site-footer{background:#000;color:var(--pink);margin-top:64px;padding:42px 24px 46px}
 .footer-inner{max-width:1120px;margin:auto;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:42px}
@@ -145,10 +145,10 @@ body.dark-mode .footer-col a{color:#000}
 .header-inner:has(.search-input.mobile-open) a,.header-inner:has(.search-input.mobile-open) .theme-btn,.header-inner:has(.search-input.mobile-open) #menu-btn{visibility:hidden}
 .search-popover{top:64px;left:12px;width:calc(100vw - 24px)}
 .menu-grid{grid-template-columns:1fr}.menu-panel{top:67px}
-.guest-wrap{padding:32px 12px 18px}.hero{margin-bottom:24px}h1{font-size:clamp(48px,18vw,76px)}
+.guest-wrap{padding:32px 12px 18px}.hero{margin-bottom:28px;gap:16px}h1{font-size:clamp(40px,15vw,62px)}
 .retro-window{box-shadow:5px 5px 0 var(--ink)}
 .titlebar{font-size:12px}.win-control{width:30px;height:29px}
-.win-pane{padding:16px}.statusbar{grid-template-columns:1fr 1fr}.statusbar span:nth-child(2){display:none}
+.win-pane{padding:18px}.statusbar{grid-template-columns:1fr 1fr}.statusbar span:nth-child(2){display:none}
 #doodle{height:260px}.form-actions{align-items:stretch;flex-direction:column}.primary{width:100%}
 .entry-title{align-items:flex-start;flex-direction:column;gap:3px}
 }
@@ -231,11 +231,21 @@ body.dark-mode .footer-col a{color:#000}
         <section class="win-pane" id="zeichnen">
           <div class="pane-title"><span>Kritzel hier rum (optional)</span><span>02</span></div>
           <div class="toolbar" aria-label="Zeichenwerkzeuge">
-            <button class="retro-btn active width-btn" type="button" data-width="3">Stift dünn</button>
-            <button class="retro-btn width-btn" type="button" data-width="6">Stift mittel</button>
-            <button class="retro-btn width-btn" type="button" data-width="11">Stift dick</button>
-            <button class="retro-btn" id="undo-doodle" type="button">↶ Zurück</button>
-            <button class="retro-btn" id="clear-doodle" type="button">Alles löschen</button>
+            <button class="retro-btn tool-btn active width-btn" type="button" data-width="3" aria-label="Dünner Stift" title="Dünner Stift">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 24L22 9l3 3L10 27H7v-3Z" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/><path d="M20 11l3 3" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><path d="M7 27l5-1-4-4-1 5Z" fill="currentColor"/></svg>
+            </button>
+            <button class="retro-btn tool-btn width-btn" type="button" data-width="6" aria-label="Mittlerer Stift" title="Mittlerer Stift">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 24L22 9l3 3L10 27H7v-3Z" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linejoin="round"/><path d="M7 27l5-1-4-4-1 5Z" fill="currentColor"/></svg>
+            </button>
+            <button class="retro-btn tool-btn width-btn" type="button" data-width="11" aria-label="Dicker Stift" title="Dicker Stift">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 24L22 9l3 3L10 27H7v-3Z" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/><path d="M7 27l6-1-5-5-1 6Z" fill="currentColor"/></svg>
+            </button>
+            <button class="retro-btn tool-btn wide" id="undo-doodle" type="button" aria-label="Letzten Strich zurück" title="Zurück">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M13 10L7 16l6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 16h10c4.5 0 7 2.2 7 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>
+            </button>
+            <button class="retro-btn tool-btn wide" id="clear-doodle" type="button" aria-label="Zeichnung löschen" title="Alles löschen">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M10 11h12M13 11V8h6v3" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><rect x="11" y="11" width="10" height="13" fill="none" stroke="currentColor" stroke-width="2.3"/><path d="M15 14v7M18 14v7" stroke="currentColor" stroke-width="2"/></svg>
+            </button>
           </div>
           <div class="canvas-shell">
             <canvas id="doodle" aria-label="Zeichenfläche. Mit Maus oder Finger zeichnen."></canvas>
