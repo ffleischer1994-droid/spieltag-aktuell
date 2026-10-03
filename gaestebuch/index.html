@@ -58,10 +58,10 @@ header.scrolled .header-inner{padding-top:8px;padding-bottom:8px}
 .menu-grid a:hover{background:var(--ink);color:var(--bg)}
 
 .guest-wrap{max-width:1120px;margin:auto;padding:48px 22px 20px}
-.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.46fr);gap:42px;align-items:end;margin-bottom:46px}
+.guest-kicker{margin:0 0 18px}
 .eyebrow{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px}
-h1{font-family:"Archivo Black";font-size:clamp(42px,7.2vw,86px);letter-spacing:-.04em;line-height:.9;margin:0;text-transform:uppercase}
-.hero p{font-size:18px;font-weight:700;line-height:1.45;margin:0 0 10px;max-width:520px}
+
+
 .retro-window{border:3px solid var(--ink);background:var(--bg);box-shadow:8px 8px 0 var(--ink);margin-bottom:46px}
 .titlebar{min-height:48px;background:var(--ink);color:var(--bg);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:6px 7px 6px 12px;font:900 14px Roboto,Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase}
 .titlebar-controls{display:flex;gap:5px}
@@ -128,7 +128,7 @@ body.dark-mode .footer-col a{color:#000}
 .menu-panel{inset:67px 0 0;padding:24px 12px}.menu-panel.open{align-items:flex-start}
 .menu-grid{grid-template-columns:1fr 1fr;gap:10px}.menu-grid a{min-height:auto;font-family:Roboto;font-size:16px;border-width:1px;padding:14px}
 .logo{width:220px}header.scrolled .logo{width:180px}
-.hero{grid-template-columns:1fr;gap:18px}
+
 .win-body{grid-template-columns:1fr}.win-pane+.win-pane{border-left:0;border-top:3px solid var(--ink)}
 .entries{grid-template-columns:1fr}
 }
@@ -145,7 +145,7 @@ body.dark-mode .footer-col a{color:#000}
 .header-inner:has(.search-input.mobile-open) a,.header-inner:has(.search-input.mobile-open) .theme-btn,.header-inner:has(.search-input.mobile-open) #menu-btn{visibility:hidden}
 .search-popover{top:64px;left:12px;width:calc(100vw - 24px)}
 .menu-grid{grid-template-columns:1fr}.menu-panel{top:67px}
-.guest-wrap{padding:32px 12px 18px}.hero{margin-bottom:28px;gap:16px}h1{font-size:clamp(40px,15vw,62px)}
+.guest-wrap{padding:32px 12px 18px}.guest-kicker{margin-bottom:16px}
 .retro-window{box-shadow:5px 5px 0 var(--ink)}
 .titlebar{font-size:12px}.win-control{width:30px;height:29px}
 .win-pane{padding:18px}.statusbar{grid-template-columns:1fr 1fr}.statusbar span:nth-child(2){display:none}
@@ -187,13 +187,7 @@ body.dark-mode .footer-col a{color:#000}
 </div>
 
 <main class="guest-wrap">
-  <section class="hero">
-    <div>
-      <div class="eyebrow">Spieltag Aktuell / Community / Gästebuch.exe</div>
-      <h1>Gästebuch</h1>
-    </div>
-    <p>Internet wie früher: Namen reinschreiben, Nachricht dalassen und mit dem Stift ein bisschen Quatsch machen.</p>
-  </section>
+  <div class="eyebrow guest-kicker">Spieltag Aktuell / Community / Gästebuch.exe</div>
 
   <section class="retro-window" aria-labelledby="window-title">
     <div class="titlebar">
