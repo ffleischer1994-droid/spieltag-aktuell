@@ -105,7 +105,7 @@ header.scrolled .header-inner{padding-top:8px;padding-bottom:8px}
 .entry-drawing{margin-top:15px;border:2px solid var(--ink);padding:5px}
 .entry-drawing canvas{width:100%;height:170px;display:block;background:var(--bg)}
 .empty{grid-column:1/-1;border:3px solid var(--ink);padding:26px;font:700 16px Roboto,Arial,sans-serif;letter-spacing:.03em;box-shadow:5px 5px 0 var(--ink);text-transform:uppercase}
-.prototype-note{margin-top:16px;font:700 12px Roboto,Arial,sans-serif;letter-spacing:.03em;line-height:1.4;text-transform:uppercase}
+.prototype-note{margin-top:16px;font:700 12px Roboto,Arial,sans-serif;letter-spacing:.03em;line-height:1.4;text-transform:uppercase}.hp-field{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 
 .site-footer{background:#000;color:var(--pink);margin-top:64px;padding:42px 24px 46px}
 .footer-inner{max-width:1120px;margin:auto;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:42px}
@@ -216,9 +216,10 @@ body.dark-mode .footer-col a{color:#000}
             <textarea id="guest-message" name="message" maxlength="500" required></textarea>
             <div class="charcount"><span id="message-count">0</span>/500</div>
           </div>
+          <div class="hp-field" aria-hidden="true"><label for="guest-website">Website</label><input id="guest-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
           <div class="form-actions">
             <div class="form-status" id="form-status" aria-live="polite">BEREIT.</div>
-            <button class="retro-btn primary" type="submit">Eintrag speichern</button>
+            <button class="retro-btn primary" id="submit-entry" type="submit">Eintrag speichern</button>
           </div>
         </section>
 
@@ -250,7 +251,7 @@ body.dark-mode .footer-col a{color:#000}
     <div class="statusbar">
       <span id="status-count">0 Einträge</span>
       <span>Spieltag Aktuell Guestbook</span>
-      <span>V1.0 / lokal</span>
+      <span>V1.0 / öffentlich</span>
     </div>
   </section>
 
@@ -260,7 +261,7 @@ body.dark-mode .footer-col a{color:#000}
       <div class="entries-count" id="entries-count">0 EINTRÄGE</div>
     </div>
     <div class="entries" id="entries"></div>
-    <p class="prototype-note">Diese erste Version speichert Gästebucheinträge nur in deinem Browser. Die öffentliche gemeinsame Version folgt später.</p>
+    <p class="prototype-note">Alle freigegebenen Einträge sind öffentlich sichtbar. Neueste Einträge stehen oben.</p>
   </section>
 </main>
 
@@ -275,10 +276,11 @@ body.dark-mode .footer-col a{color:#000}
 
 <script>
 (function(){
-  var STORAGE_KEY="sa-guestbook-v1";
   var form=document.getElementById("guest-form");
   var nameInput=document.getElementById("guest-name");
   var messageInput=document.getElementById("guest-message");
+  var websiteInput=document.getElementById("guest-website");
+  var submitButton=document.getElementById("submit-entry");
   var nameCount=document.getElementById("name-count");
   var messageCount=document.getElementById("message-count");
   var status=document.getElementById("form-status");
@@ -291,11 +293,13 @@ body.dark-mode .footer-col a{color:#000}
   var currentStroke=null;
   var penWidth=3;
   var drawing=false;
+  var entries=[];
+  var entriesLoading=true;
+  var entriesError="";
 
   function ink(){return getComputedStyle(document.body).getPropertyValue("--ink").trim()||"#000"}
   function bg(){return getComputedStyle(document.body).getPropertyValue("--bg").trim()||"#F2AFC0"}
-  function safeEntries(){try{var d=JSON.parse(localStorage.getItem(STORAGE_KEY)||"[]");return Array.isArray(d)?d:[]}catch(e){return []}}
-  function saveEntries(list){localStorage.setItem(STORAGE_KEY,JSON.stringify(list.slice(0,20)))}
+
   function fitCanvas(){
     var r=canvas.getBoundingClientRect();
     var d=Math.min(window.devicePixelRatio||1,2);
@@ -304,9 +308,10 @@ body.dark-mode .footer-col a{color:#000}
     ctx.setTransform(d,0,0,d,0,0);
     redraw(canvas,ctx,strokes);
   }
+
   function redraw(target,targetCtx,data){
     var r=target.getBoundingClientRect();
-    var d=target===canvas?Math.min(window.devicePixelRatio||1,2):Math.min(window.devicePixelRatio||1,2);
+    var d=Math.min(window.devicePixelRatio||1,2);
     targetCtx.save();
     targetCtx.setTransform(d,0,0,d,0,0);
     targetCtx.clearRect(0,0,r.width,r.height);
@@ -331,79 +336,212 @@ body.dark-mode .footer-col a{color:#000}
     });
     targetCtx.restore();
   }
+
   function point(e){
     var r=canvas.getBoundingClientRect();
-    return {x:Math.max(0,Math.min(1,(e.clientX-r.left)/r.width)),y:Math.max(0,Math.min(1,(e.clientY-r.top)/r.height))}
+    return {
+      x:Math.max(0,Math.min(1,(e.clientX-r.left)/r.width)),
+      y:Math.max(0,Math.min(1,(e.clientY-r.top)/r.height))
+    };
   }
+
   canvas.addEventListener("pointerdown",function(e){
-    e.preventDefault();drawing=true;canvas.setPointerCapture(e.pointerId);
-    currentStroke={width:penWidth,points:[point(e)]};strokes.push(currentStroke);fitCanvas();
+    e.preventDefault();
+    drawing=true;
+    canvas.setPointerCapture(e.pointerId);
+    currentStroke={width:penWidth,points:[point(e)]};
+    strokes.push(currentStroke);
+    fitCanvas();
   });
+
   canvas.addEventListener("pointermove",function(e){
-    if(!drawing||!currentStroke)return;e.preventDefault();currentStroke.points.push(point(e));fitCanvas();
+    if(!drawing||!currentStroke)return;
+    e.preventDefault();
+    var p=point(e);
+    var last=currentStroke.points[currentStroke.points.length-1];
+    if(!last||Math.abs(p.x-last.x)+Math.abs(p.y-last.y)>.0015){
+      currentStroke.points.push(p);
+      fitCanvas();
+    }
   });
+
   function endDraw(){drawing=false;currentStroke=null}
   canvas.addEventListener("pointerup",endDraw);
   canvas.addEventListener("pointercancel",endDraw);
+
   document.querySelectorAll(".width-btn").forEach(function(b){
     b.addEventListener("click",function(){
       penWidth=Number(b.dataset.width)||3;
-      document.querySelectorAll(".width-btn").forEach(function(x){x.classList.toggle("active",x===b)});
+      document.querySelectorAll(".width-btn").forEach(function(x){
+        x.classList.toggle("active",x===b);
+      });
     });
   });
-  document.getElementById("undo-doodle").addEventListener("click",function(){strokes.pop();fitCanvas()});
-  document.getElementById("clear-doodle").addEventListener("click",function(){strokes=[];fitCanvas()});
+
+  document.getElementById("undo-doodle").addEventListener("click",function(){
+    strokes.pop();
+    fitCanvas();
+  });
+
+  document.getElementById("clear-doodle").addEventListener("click",function(){
+    strokes=[];
+    fitCanvas();
+  });
 
   function formatDate(iso){
-    try{return new Intl.DateTimeFormat("de-DE",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"}).format(new Date(iso))}catch(e){return ""}
+    try{
+      return new Intl.DateTimeFormat("de-DE",{
+        day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"
+      }).format(new Date(iso));
+    }catch(e){return ""}
   }
+
   function drawEntryCanvas(c,data){
     var r=c.getBoundingClientRect(),d=Math.min(window.devicePixelRatio||1,2);
-    c.width=Math.max(1,Math.round(r.width*d));c.height=Math.max(1,Math.round(r.height*d));
-    var x=c.getContext("2d");redraw(c,x,data);
+    c.width=Math.max(1,Math.round(r.width*d));
+    c.height=Math.max(1,Math.round(r.height*d));
+    redraw(c,c.getContext("2d"),data);
   }
+
   function renderEntries(){
-    var list=safeEntries();
     entriesEl.innerHTML="";
-    if(!list.length){
+
+    if(entriesLoading){
+      var loading=document.createElement("div");
+      loading.className="empty";
+      loading.textContent="Einträge werden geladen ...";
+      entriesEl.appendChild(loading);
+    }else if(entriesError){
+      var error=document.createElement("div");
+      error.className="empty";
+      error.textContent=entriesError;
+      entriesEl.appendChild(error);
+    }else if(!entries.length){
       var empty=document.createElement("div");
       empty.className="empty";
-      empty.textContent="Noch keine Einträge auf diesem Gerät. Sei der Erste.";
+      empty.textContent="Noch keine Einträge. Sei der Erste.";
       entriesEl.appendChild(empty);
     }else{
-      list.forEach(function(entry,i){
-        var article=document.createElement("article");article.className="entry";
-        var title=document.createElement("div");title.className="entry-title";
-        var who=document.createElement("strong");who.textContent=entry.name||"ANONYM";
-        var when=document.createElement("span");when.textContent=formatDate(entry.createdAt);
-        title.appendChild(who);title.appendChild(when);article.appendChild(title);
-        var body=document.createElement("div");body.className="entry-body";
-        var msg=document.createElement("div");msg.className="entry-message";msg.textContent=entry.message||"";body.appendChild(msg);
+      entries.forEach(function(entry){
+        var article=document.createElement("article");
+        article.className="entry";
+
+        var title=document.createElement("div");
+        title.className="entry-title";
+        var who=document.createElement("strong");
+        who.textContent=entry.name||"ANONYM";
+        var when=document.createElement("span");
+        when.textContent=formatDate(entry.createdAt);
+        title.appendChild(who);
+        title.appendChild(when);
+        article.appendChild(title);
+
+        var body=document.createElement("div");
+        body.className="entry-body";
+        var msg=document.createElement("div");
+        msg.className="entry-message";
+        msg.textContent=entry.message||"";
+        body.appendChild(msg);
+
         if(entry.strokes&&entry.strokes.length){
-          var dwrap=document.createElement("div");dwrap.className="entry-drawing";
-          var c=document.createElement("canvas");c.setAttribute("aria-label","Zeichnung von "+(entry.name||"Gast"));
-          dwrap.appendChild(c);body.appendChild(dwrap);
+          var dwrap=document.createElement("div");
+          dwrap.className="entry-drawing";
+          var c=document.createElement("canvas");
+          c.setAttribute("aria-label","Zeichnung von "+(entry.name||"Gast"));
+          dwrap.appendChild(c);
+          body.appendChild(dwrap);
           requestAnimationFrame(function(){drawEntryCanvas(c,entry.strokes)});
         }
-        article.appendChild(body);entriesEl.appendChild(article);
+
+        article.appendChild(body);
+        entriesEl.appendChild(article);
       });
     }
-    var label=list.length+" "+(list.length===1?"EINTRAG":"EINTRÄGE");
-    entriesCount.textContent=label;statusCount.textContent=label;
+
+    var label=entries.length+" "+(entries.length===1?"EINTRAG":"EINTRÄGE");
+    entriesCount.textContent=label;
+    statusCount.textContent=label;
   }
-  function updateCounts(){nameCount.textContent=nameInput.value.length;messageCount.textContent=messageInput.value.length}
-  nameInput.addEventListener("input",updateCounts);messageInput.addEventListener("input",updateCounts);
-  form.addEventListener("submit",function(e){
-    e.preventDefault();
-    var name=nameInput.value.trim(),message=messageInput.value.trim();
-    if(!name||!message){status.textContent="FEHLER: NAME UND NACHRICHT FEHLEN.";return}
-    var list=safeEntries();
-    list.unshift({id:String(Date.now()),name:name,message:message,createdAt:new Date().toISOString(),strokes:JSON.parse(JSON.stringify(strokes))});
+
+  async function loadEntries(){
+    entriesLoading=true;
+    entriesError="";
+    renderEntries();
+
     try{
-      saveEntries(list);status.textContent="GESPEICHERT. DANKE!";
-      form.reset();strokes=[];updateCounts();fitCanvas();renderEntries();
+      var response=await fetch("/api/guestbook",{cache:"no-store"});
+      var data=await response.json().catch(function(){return {}});
+      if(!response.ok)throw new Error(data.error||"Einträge konnten nicht geladen werden.");
+      entries=Array.isArray(data.entries)?data.entries:[];
+    }catch(error){
+      entriesError="Einträge konnten gerade nicht geladen werden.";
+    }finally{
+      entriesLoading=false;
+      renderEntries();
+    }
+  }
+
+  function updateCounts(){
+    nameCount.textContent=nameInput.value.length;
+    messageCount.textContent=messageInput.value.length;
+  }
+
+  nameInput.addEventListener("input",updateCounts);
+  messageInput.addEventListener("input",updateCounts);
+
+  form.addEventListener("submit",async function(e){
+    e.preventDefault();
+    var name=nameInput.value.trim();
+    var message=messageInput.value.trim();
+
+    if(!name||!message){
+      status.textContent="FEHLER: NAME UND NACHRICHT FEHLEN.";
+      return;
+    }
+
+    submitButton.disabled=true;
+    submitButton.textContent="WIRD GEPRÜFT ...";
+    status.textContent="AUTOMATISCHE MODERATION LÄUFT ...";
+
+    var drawingPreview=null;
+    if(strokes.length){
+      try{drawingPreview=canvas.toDataURL("image/png")}catch(e){}
+    }
+
+    try{
+      var response=await fetch("/api/guestbook/submit",{
+        method:"POST",
+        headers:{"content-type":"application/json"},
+        body:JSON.stringify({
+          name:name,
+          message:message,
+          website:websiteInput.value,
+          strokes:strokes,
+          drawingPreview:drawingPreview
+        })
+      });
+
+      var data=await response.json().catch(function(){return {}});
+      if(!response.ok)throw new Error(data.error||"Eintrag konnte nicht gespeichert werden.");
+
+      if(data.entry){
+        entries.unshift(data.entry);
+        entries.sort(function(a,b){return String(b.createdAt).localeCompare(String(a.createdAt))});
+      }
+
+      status.textContent="FREIGEGEBEN UND VERÖFFENTLICHT.";
+      form.reset();
+      strokes=[];
+      updateCounts();
+      fitCanvas();
+      renderEntries();
       document.getElementById("eintraege").scrollIntoView({behavior:"smooth",block:"start"});
-    }catch(err){status.textContent="SPEICHER VOLL. BITTE ALTE BROWSERDATEN PRÜFEN."}
+    }catch(error){
+      status.textContent=String(error.message||"Eintrag konnte nicht gespeichert werden.").toUpperCase();
+    }finally{
+      submitButton.disabled=false;
+      submitButton.textContent="Eintrag speichern";
+    }
   });
 
   var themeBtn=document.getElementById("theme-btn");
@@ -415,8 +553,11 @@ body.dark-mode .footer-col a{color:#000}
     document.querySelector('meta[name="theme-color"]').setAttribute("content",dark?"#000000":"#F2AFC0");
     requestAnimationFrame(function(){fitCanvas();renderEntries()});
   }
+
   setTheme(localStorage.getItem("sa-theme")==="dark");
-  themeBtn.addEventListener("click",function(){setTheme(!document.body.classList.contains("dark-mode"))});
+  themeBtn.addEventListener("click",function(){
+    setTheme(!document.body.classList.contains("dark-mode"));
+  });
 
   var menuPanel=document.getElementById("menu-panel");
   var menuBtn=document.getElementById("menu-btn");
@@ -429,34 +570,100 @@ body.dark-mode .footer-col a{color:#000}
   var siteSearch=document.getElementById("site-search");
   var searchPopover=document.getElementById("search-popover");
   var staticPages=[
-    ["Gästebuch","/gaestebuch/"],["Fußball heute","/fussball-heute/"],["Fußball im Free-TV","/free-tv/"],["Bundesliga","/bundesliga/"],["2. Bundesliga","/2-bundesliga/"],["DFB-Pokal","/dfb-pokal/"],["Champions League","/champions-league/"],["Europa League","/europa-league/"],["Frauenfußball","/frauenfussball/"],["Deutschland","/verein/deutschland/"],["Senderübersicht","/sender/"]
+    ["Gästebuch","/gaestebuch/"],["Fußball heute","/fussball-heute/"],["Fußball im Free-TV","/free-tv/"],
+    ["Bundesliga","/bundesliga/"],["2. Bundesliga","/2-bundesliga/"],["DFB-Pokal","/dfb-pokal/"],
+    ["Champions League","/champions-league/"],["Europa League","/europa-league/"],
+    ["Frauenfußball","/frauenfussball/"],["Deutschland","/verein/deutschland/"],["Senderübersicht","/sender/"]
   ];
   var teams=[];
-  fetch("/games.json",{cache:"no-store"}).then(function(r){return r.json()}).then(function(games){
-    var seen={};(games||[]).forEach(function(g){[g.home,g.away].forEach(function(n){n=String(n||"").replace(" ♀","");if(n&&!seen[n]){seen[n]=1;teams.push([n,"/?team="+encodeURIComponent(n)])}})});
-  }).catch(function(){});
+
+  fetch("/games.json",{cache:"no-store"})
+    .then(function(r){return r.json()})
+    .then(function(games){
+      var seen={};
+      (games||[]).forEach(function(g){
+        [g.home,g.away].forEach(function(n){
+          n=String(n||"").replace(" ♀","");
+          if(n&&!seen[n]){
+            seen[n]=1;
+            teams.push([n,"/?team="+encodeURIComponent(n)]);
+          }
+        });
+      });
+    })
+    .catch(function(){});
+
   function search(q){
     q=q.trim().toLowerCase();
-    if(!q){searchPopover.classList.remove("open");searchPopover.innerHTML="";return}
-    var hits=staticPages.concat(teams).filter(function(x){return x[0].toLowerCase().indexOf(q)!==-1}).slice(0,8);
+    if(!q){
+      searchPopover.classList.remove("open");
+      searchPopover.innerHTML="";
+      return;
+    }
+    var hits=staticPages.concat(teams).filter(function(x){
+      return x[0].toLowerCase().indexOf(q)!==-1;
+    }).slice(0,8);
     searchPopover.innerHTML="";
-    hits.forEach(function(x){var a=document.createElement("a");a.href=x[1];a.textContent=x[0];searchPopover.appendChild(a)});
+    hits.forEach(function(x){
+      var a=document.createElement("a");
+      a.href=x[1];
+      a.textContent=x[0];
+      searchPopover.appendChild(a);
+    });
     searchPopover.classList.toggle("open",hits.length>0);
   }
+
   siteSearch.addEventListener("pointerdown",function(e){
-    if(window.matchMedia("(max-width:560px)").matches&&!siteSearch.classList.contains("mobile-open")){e.preventDefault();siteSearch.classList.add("mobile-open");setTimeout(function(){siteSearch.focus()},0)}
+    if(window.matchMedia("(max-width:560px)").matches&&!siteSearch.classList.contains("mobile-open")){
+      e.preventDefault();
+      siteSearch.classList.add("mobile-open");
+      setTimeout(function(){siteSearch.focus()},0);
+    }
   });
+
   siteSearch.addEventListener("input",function(){search(siteSearch.value)});
   siteSearch.addEventListener("keydown",function(e){
-    if(e.key==="Escape"){siteSearch.value="";search("");siteSearch.classList.remove("mobile-open");siteSearch.blur()}
+    if(e.key==="Escape"){
+      siteSearch.value="";
+      search("");
+      siteSearch.classList.remove("mobile-open");
+      siteSearch.blur();
+    }
   });
-  siteSearch.addEventListener("blur",function(){setTimeout(function(){if(window.matchMedia("(max-width:560px)").matches&&!siteSearch.value)siteSearch.classList.remove("mobile-open");searchPopover.classList.remove("open")},140)});
+  siteSearch.addEventListener("blur",function(){
+    setTimeout(function(){
+      if(window.matchMedia("(max-width:560px)").matches&&!siteSearch.value){
+        siteSearch.classList.remove("mobile-open");
+      }
+      searchPopover.classList.remove("open");
+    },140);
+  });
 
   var siteHeader=document.querySelector("header");
-  function syncHeaderSize(){if(window.matchMedia("(min-width:851px)").matches)siteHeader.classList.toggle("scrolled",window.scrollY>24);else siteHeader.classList.remove("scrolled")}
-  syncHeaderSize();addEventListener("scroll",syncHeaderSize,{passive:true});addEventListener("resize",function(){syncHeaderSize();fitCanvas();renderEntries()});
-  updateCounts();renderEntries();requestAnimationFrame(fitCanvas);
-  if("serviceWorker" in navigator)navigator.serviceWorker.register("/sw.js").catch(function(){});
+  function syncHeaderSize(){
+    if(window.matchMedia("(min-width:851px)").matches){
+      siteHeader.classList.toggle("scrolled",window.scrollY>24);
+    }else{
+      siteHeader.classList.remove("scrolled");
+    }
+  }
+
+  syncHeaderSize();
+  addEventListener("scroll",syncHeaderSize,{passive:true});
+  addEventListener("resize",function(){
+    syncHeaderSize();
+    fitCanvas();
+    renderEntries();
+  });
+
+  updateCounts();
+  renderEntries();
+  requestAnimationFrame(fitCanvas);
+  loadEntries();
+
+  if("serviceWorker" in navigator){
+    navigator.serviceWorker.register("/sw.js").catch(function(){});
+  }
 })();
 </script>
 </body>
