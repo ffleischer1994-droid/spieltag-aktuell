@@ -94,7 +94,14 @@
     ],
     "channelLinks": {
       "FCEnergieTV (Cottbus)": "https://www.youtube.com/fcenergietv"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://www.fcenergie.de/spielplan.html",
+        "name": "FC Energie Cottbus"
+      }
+    ],
+    "verifiedAt": "2026-10-03T16:58:00Z"
   },
   {
     "date": "2026-10-03",
@@ -139,6 +146,27 @@
     "groups": [
       "other"
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "Eintracht Norderstedt",
+    "away": "Bremer SV",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://datencenter.dfb.de/teams/eintracht-norderstedt",
+        "name": "DFB Datencenter"
+      }
+    ],
+    "verifiedAt": "2026-10-03T16:58:00Z"
   },
   {
     "date": "2026-10-03",
@@ -207,6 +235,31 @@
   {
     "date": "2026-10-03",
     "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "SC Weiche Flensburg",
+    "away": "VfB Oldenburg",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://weiche-liga.de/",
+        "name": "SC Weiche Flensburg 08"
+      },
+      {
+        "url": "https://datencenter.dfb.de/competitions/regionalliga-nord/seasons/2026-2027/teams/sc-weiche-flensburg-08",
+        "name": "DFB Datencenter"
+      }
+    ],
+    "verifiedAt": "2026-10-03T16:58:00Z"
+  },
+  {
+    "date": "2026-10-03",
+    "time": "14:00",
     "competition": "Regionalliga West",
     "country": "Deutschland",
     "home": "SG Wattenscheid 09",
@@ -265,6 +318,31 @@
   {
     "date": "2026-10-03",
     "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "SV Drochtersen/Assel",
+    "away": "SSV Jeddeloh II",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://www.fussball.de/mannschaft/sv-drochtersen-assel-sv-drochtersen-assel-niedersachsen/-/saison/2627/team-id/011MIBR9US000000VTVG0001VTR8C1K7",
+        "name": "FUSSBALL.DE"
+      },
+      {
+        "url": "https://datencenter.dfb.de/global_referee_schedule",
+        "name": "DFB Datencenter"
+      }
+    ],
+    "verifiedAt": "2026-10-03T16:58:00Z"
+  },
+  {
+    "date": "2026-10-03",
+    "time": "14:00",
     "competition": "Regionalliga West",
     "country": "Deutschland",
     "home": "SV Rödinghausen",
@@ -299,12 +377,25 @@
     "home": "TSV 1860 München",
     "away": "SpVgg Ansbach",
     "channels": [
-      "BR24 Sport"
+      "BR Fernsehen",
+      "BR24Sport",
+      "ARD Mediathek"
     ],
     "groups": [
       "free",
       "other"
-    ]
+    ],
+    "sources": [
+      {
+        "url": "https://www.br.de/nachrichten/sport/fussball-regionalliga-bayern-tsv-1860-muenchen-spvgg-ansbach-09-im-tv-und-livestream%2CVWsz8YI",
+        "name": "BR24"
+      },
+      {
+        "url": "https://www.br.de/br-fernsehen/programmkalender/sendung-4525928.html",
+        "name": "BR Fernsehen"
+      }
+    ],
+    "verifiedAt": "2026-10-03T16:58:00Z"
   },
   {
     "date": "2026-10-03",
@@ -395,41 +486,7 @@
   },
   {
     "date": "2026-10-03",
-    "time": "15:30",
-    "competition": "Freundschaftsspiel",
-    "country": "Deutschland",
-    "home": "FC St. Pauli",
-    "away": "Borussia Mönchengladbach",
-    "channels": [
-      "Borussia Mönchengladbach (YouTube)",
-      "FC St. Pauli TV (YouTube)"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "channelLinks": {
-      "Borussia Mönchengladbach (YouTube)": "https://www.youtube.com/live/Gw7ja3pq7ls",
-      "FC St. Pauli TV (YouTube)": "https://www.youtube.com/live/Gw7ja3pq7ls"
-    }
-  },
-  {
-    "date": "2026-10-03",
-    "time": "15:30",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "Hamburger SV II",
-    "away": "SV Werder Bremen II",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "15:30",
+    "time": "15:00",
     "competition": "Regionalliga Nord",
     "country": "Deutschland",
     "home": "Hannover 96 II",
@@ -439,77 +496,49 @@
     ],
     "groups": [
       "other"
-    ]
+    ],
+    "sources": [
+      {
+        "url": "https://www.hannover96.de/newscenter/news/details/37187-ticketinfos-fuer-die-naechsten-spiele-unserer-u23-1.html",
+        "name": "Hannover 96"
+      },
+      {
+        "url": "https://datencenter.dfb.de/teams/hannover-96-ii",
+        "name": "DFB Datencenter"
+      }
+    ],
+    "verifiedAt": "2026-10-03T16:58:00Z"
   },
   {
     "date": "2026-10-03",
     "time": "15:30",
-    "competition": "Regionalliga Nord",
+    "competition": "Freundschaftsspiel",
     "country": "Deutschland",
-    "home": "HSC Hannover",
-    "away": "FSV Schöningen",
+    "home": "FC St. Pauli",
+    "away": "Borussia Mönchengladbach",
     "channels": [
-      "Leagues"
+      "Sky Sport Bundesliga",
+      "Sky Sport News",
+      "Sky Sport (YouTube)",
+      "Borussia Mönchengladbach (YouTube)",
+      "FC St. Pauli TV (YouTube)"
     ],
     "groups": [
+      "free",
+      "sky",
       "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "15:30",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "Kickers Emden",
-    "away": "SV Todesfelde",
-    "channels": [
-      "Leagues"
     ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "15:30",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "SC Weiche Flensburg",
-    "away": "VfB Oldenburg",
-    "channels": [
-      "Leagues"
+    "channelLinks": {
+      "Borussia Mönchengladbach (YouTube)": "https://www.youtube.com/live/Gw7ja3pq7ls",
+      "FC St. Pauli TV (YouTube)": "https://www.youtube.com/live/Gw7ja3pq7ls"
+    },
+    "sources": [
+      {
+        "url": "https://sport.sky.de/fussball/artikel/bundesliga-testspiele-live-im-stream-und-tv-uebertragung-auf-sky/12129058/34174",
+        "name": "Sky Sport"
+      }
     ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "15:30",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "SV Drochtersen/Assel",
-    "away": "SSV Jeddeloh II",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "15:30",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "VfB Lübeck",
-    "away": "Eimsbütteler TV",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ]
+    "verifiedAt": "2026-10-03T16:58:00Z"
   },
   {
     "date": "2026-10-03",
@@ -649,6 +678,31 @@
     "groups": [
       "dazn"
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "time": "18:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "Kickers Emden",
+    "away": "SV Todesfelde",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://www.kickers.de/",
+        "name": "BSV Kickers Emden"
+      },
+      {
+        "url": "https://datencenter.dfb.de/teams/SV-Todesfelde",
+        "name": "DFB Datencenter"
+      }
+    ],
+    "verifiedAt": "2026-10-03T16:58:00Z"
   },
   {
     "date": "2026-10-03",
@@ -1028,6 +1082,27 @@
       "free",
       "other"
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "HSC Hannover",
+    "away": "FSV Schöningen",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://datencenter.dfb.de/global_referee_schedule",
+        "name": "DFB Datencenter"
+      }
+    ],
+    "verifiedAt": "2026-10-03T16:58:00Z"
   },
   {
     "date": "2026-10-04",
