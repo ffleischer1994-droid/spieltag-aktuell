@@ -1,1030 +1,5 @@
 [
   {
-    "date": "2026-10-03",
-    "time": "01:00",
-    "competition": "Campeonato Brasileiro Série A (Brasilien)",
-    "country": "Brasilien",
-    "home": "FC Sao Paulo",
-    "away": "FC Santos",
-    "channels": [
-      "Sportdigital Fussball",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/match/195318/campeonato-brasileiro-serie-a-brasilien/fc-sao-paulo-fc-santos",
-        "name": "Fußballgucken.info"
-      },
-      {
-        "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/02-10-2026/sao-paulo-santos.ghtml",
-        "name": "Globo Esporte"
-      }
-    ],
-    "verifiedAt": "2026-10-02T05:29:05.871Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "02:00",
-    "competition": "National Women’s Soccer League (NWSL)",
-    "country": "USA",
-    "home": "Orlando Pride ♀",
-    "away": "San Diego Wave FC ♀",
-    "channels": [
-      "NWSL+"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "04:00",
-    "competition": "National Women’s Soccer League (NWSL)",
-    "country": "USA",
-    "home": "OL Reign ♀",
-    "away": "North Carolina Courage ♀",
-    "channels": [
-      "NWSL+"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "11:00",
-    "competition": "Länderspiel (U20)",
-    "country": "International",
-    "home": "Italien (U20)",
-    "away": "Frankreich (U20)",
-    "channels": [
-      "DFB.TV",
-      "DAZN"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/match/195324/laenderspiel-u20/italien-u20-frankreich-u20",
-        "name": "Fußballgucken.info"
-      }
-    ],
-    "verifiedAt": "2026-10-02T05:29:05.871Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "12:00",
-    "competition": "Premjer Liha (Ukraine)",
-    "country": "Ukraine",
-    "home": "FC Veres Rivne",
-    "away": "FC Kudrivka",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "name": "fussballgucken.info",
-        "url": "https://fussballgucken.info/match/192476/premjer-liha-ukraine/fc-veres-rivne-fc-kudrivka"
-      }
-    ],
-    "verifiedAt": "2026-10-03T17:02:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "13:30",
-    "competition": "Freundschaftsspiel",
-    "country": "International",
-    "home": "Lech Posen",
-    "away": "Energie Cottbus",
-    "channels": [
-      "FCEnergieTV (Cottbus)"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "channelLinks": {
-      "FCEnergieTV (Cottbus)": "https://www.youtube.com/fcenergietv"
-    },
-    "sources": [
-      {
-        "url": "https://www.fcenergie.de/spielplan.html",
-        "name": "FC Energie Cottbus"
-      }
-    ],
-    "verifiedAt": "2026-10-03T16:58:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "1. FC Bocholt 1900",
-    "away": "FC Gütersloh",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/match/195288/regionalliga-west/1-fc-bocholt-1900-fc-guetersloh",
-        "name": "Fußballgucken.info"
-      },
-      {
-        "url": "https://wdfv.de/der-wdfv/aktuelles/1153/richtungsweisendes-duell-fuer-sv-roedinghausen-und-sf-lotte",
-        "name": "WDFV"
-      },
-      {
-        "url": "https://www.leagues.football/rlwest",
-        "name": "Leagues Football"
-      }
-    ],
-    "verifiedAt": "2026-10-02T05:29:05.871Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga Südwest",
-    "country": "Deutschland",
-    "home": "1. FSV Mainz 05 II",
-    "away": "SC Freiburg II",
-    "channels": [
-      "Leagues",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga Südwest",
-    "country": "Deutschland",
-    "home": "Eintracht Trier",
-    "away": "FC Astoria Walldorf",
-    "channels": [
-      "DFB.TV",
-      "DAZN",
-      "DFB (YouTube)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga Südwest",
-    "country": "Deutschland",
-    "home": "FC 08 Homburg",
-    "away": "SG Barockstadt Fulda-Lehnerz",
-    "channels": [
-      "Leagues",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Freundschaftsspiel",
-    "country": "Deutschland",
-    "home": "FC Viktoria Köln",
-    "away": "1. FC Köln",
-    "channels": [
-      "1. FC Köln (YouTube)"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "sources": [
-      {
-        "name": "fussballgucken.info",
-        "url": "https://fussballgucken.info/match/195714/freundschaftsspiel/fc-viktoria-koeln-1-fc-koeln"
-      }
-    ],
-    "verifiedAt": "2026-10-03T17:02:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga Südwest",
-    "country": "Deutschland",
-    "home": "KSV Hessen Kassel",
-    "away": "SSV Ulm",
-    "channels": [
-      "Leagues",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "ÖFB Frauen Bundesliga",
-    "country": "Österreich",
-    "home": "Linzer ASK ♀",
-    "away": "SpG Südburgenland/TSV Hartberg ♀",
-    "channels": [
-      "LAOLA1",
-      "ÖFB TV"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "sources": [
-      {
-        "name": "LAOLA1",
-        "url": "https://www.laola1.at/de/red/fussball/frauen-bundesliga/frauen-bundesliga-im-live-stream--die-spiele-der-9--runde/"
-      },
-      {
-        "name": "fussballgucken.info",
-        "url": "https://fussballgucken.info/match/195431/oefb-frauen-bundesliga/linzer-ask-frauen-spg-suedburgenland-tsv-hartberg-frauen"
-      }
-    ],
-    "verifiedAt": "2026-10-03T17:02:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Frauen-Bundesliga",
-    "country": "Deutschland",
-    "home": "RB Leipzig ♀",
-    "away": "1. FSV Mainz 05 ♀",
-    "channels": [
-      "MagentaSport",
-      "DAZN",
-      "OneFootball"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "SC Weiche Flensburg",
-    "away": "VfB Oldenburg",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://weiche-liga.de/",
-        "name": "SC Weiche Flensburg 08"
-      },
-      {
-        "url": "https://datencenter.dfb.de/competitions/regionalliga-nord/seasons/2026-2027/teams/sc-weiche-flensburg-08",
-        "name": "DFB Datencenter"
-      }
-    ],
-    "verifiedAt": "2026-10-03T16:58:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "ÖFB Frauen Bundesliga",
-    "country": "Österreich",
-    "home": "SCR Altach ♀",
-    "away": "FC Blau Weiß Linz/Union Kleinmünchen ♀",
-    "channels": [
-      "LAOLA1",
-      "ÖFB TV"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "sources": [
-      {
-        "name": "ÖFB",
-        "url": "https://www.oefb.at/oefb/Mediainfo/OeFB-MediaInfo-235-2026-9-Runde-der-ADMIRAL-Frauen-Bundesliga-bringt-erstes-Wiener-Derby"
-      },
-      {
-        "name": "fussballgucken.info",
-        "url": "https://fussballgucken.info/match/195432/oefb-frauen-bundesliga/scr-altach-frauen-fc-blau-weiss-linz-union-kleinmuenchen-frauen"
-      }
-    ],
-    "verifiedAt": "2026-10-03T17:02:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "SG Wattenscheid 09",
-    "away": "SC Wiedenbrück 2000",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/match/195286/regionalliga-west/sg-wattenscheid-09-sc-wiedenbrueck-2000",
-        "name": "Fußballgucken.info"
-      },
-      {
-        "url": "https://wdfv.de/der-wdfv/aktuelles/1153/richtungsweisendes-duell-fuer-sv-roedinghausen-und-sf-lotte",
-        "name": "WDFV"
-      },
-      {
-        "url": "https://www.leagues.football/rlwest",
-        "name": "Leagues Football"
-      }
-    ],
-    "verifiedAt": "2026-10-02T05:29:05.871Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga Südwest",
-    "country": "Deutschland",
-    "home": "SGV Freiberg",
-    "away": "TSV Steinbach Haiger",
-    "channels": [
-      "Leagues",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga Bayern",
-    "country": "Deutschland",
-    "home": "SpVgg Greuther Fürth II",
-    "away": "FC Bayern München II",
-    "channels": [
-      "FC Bayern.tv plus"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "SV Drochtersen/Assel",
-    "away": "SSV Jeddeloh II",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://www.fussball.de/mannschaft/sv-drochtersen-assel-sv-drochtersen-assel-niedersachsen/-/saison/2627/team-id/011MIBR9US000000VTVG0001VTR8C1K7",
-        "name": "FUSSBALL.DE"
-      },
-      {
-        "url": "https://datencenter.dfb.de/global_referee_schedule",
-        "name": "DFB Datencenter"
-      }
-    ],
-    "verifiedAt": "2026-10-03T16:58:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "SV Rödinghausen",
-    "away": "Sportfreunde Lotte",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/match/195290/regionalliga-west/sv-roedinghausen-sportfreunde-lotte",
-        "name": "Fußballgucken.info"
-      },
-      {
-        "url": "https://wdfv.de/der-wdfv/aktuelles/1153/richtungsweisendes-duell-fuer-sv-roedinghausen-und-sf-lotte",
-        "name": "WDFV"
-      },
-      {
-        "url": "https://www.leagues.football/rlwest",
-        "name": "Leagues Football"
-      }
-    ],
-    "verifiedAt": "2026-10-02T05:29:05.871Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga Bayern",
-    "country": "Deutschland",
-    "home": "TSV 1860 München",
-    "away": "SpVgg Ansbach",
-    "channels": [
-      "BR Fernsehen",
-      "BR24Sport",
-      "ARD Mediathek"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://www.br.de/nachrichten/sport/fussball-regionalliga-bayern-tsv-1860-muenchen-spvgg-ansbach-09-im-tv-und-livestream%2CVWsz8YI",
-        "name": "BR24"
-      },
-      {
-        "url": "https://www.br.de/br-fernsehen/programmkalender/sendung-4525928.html",
-        "name": "BR Fernsehen"
-      }
-    ],
-    "verifiedAt": "2026-10-03T16:58:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "VfB 03 Hilden",
-    "away": "Bergisch Gladbach 09",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/match/195285/regionalliga-west/vfb-03-hilden-bergisch-gladbach-09",
-        "name": "Fußballgucken.info"
-      },
-      {
-        "url": "https://wdfv.de/der-wdfv/aktuelles/1153/richtungsweisendes-duell-fuer-sv-roedinghausen-und-sf-lotte",
-        "name": "WDFV"
-      },
-      {
-        "url": "https://www.leagues.football/rlwest",
-        "name": "Leagues Football"
-      }
-    ],
-    "verifiedAt": "2026-10-02T05:29:05.871Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:00",
-    "competition": "Regionalliga Südwest",
-    "country": "Deutschland",
-    "home": "VfR Aalen",
-    "away": "FSV Frankfurt",
-    "channels": [
-      "Leagues",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "14:30",
-    "competition": "WSL - Women's Super League (England)",
-    "country": "England",
-    "home": "Manchester United ♀",
-    "away": "FC Liverpool ♀",
-    "channels": [
-      "Sportdigital1+",
-      "Sportdigital+"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "15:00",
-    "competition": "Serie A Femminile (Italien)",
-    "country": "Italien",
-    "home": "AC Florenz ♀",
-    "away": "US Sassuolo Calcio ♀",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "15:00",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Finnland",
-    "away": "Albanien",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "15:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "Hannover 96 II",
-    "away": "1. FC Phönix Lübeck",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://www.hannover96.de/newscenter/news/details/37187-ticketinfos-fuer-die-naechsten-spiele-unserer-u23-1.html",
-        "name": "Hannover 96"
-      },
-      {
-        "url": "https://datencenter.dfb.de/teams/hannover-96-ii",
-        "name": "DFB Datencenter"
-      }
-    ],
-    "verifiedAt": "2026-10-03T16:58:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "15:30",
-    "competition": "Freundschaftsspiel",
-    "country": "Deutschland",
-    "home": "FC St. Pauli",
-    "away": "Borussia Mönchengladbach",
-    "channels": [
-      "Sky Sport Bundesliga",
-      "Sky Sport News",
-      "Sky Sport (YouTube)",
-      "Borussia Mönchengladbach (YouTube)",
-      "FC St. Pauli TV (YouTube)"
-    ],
-    "groups": [
-      "free",
-      "sky",
-      "other"
-    ],
-    "channelLinks": {
-      "Borussia Mönchengladbach (YouTube)": "https://www.youtube.com/live/Gw7ja3pq7ls",
-      "FC St. Pauli TV (YouTube)": "https://www.youtube.com/live/Gw7ja3pq7ls"
-    },
-    "sources": [
-      {
-        "url": "https://sport.sky.de/fussball/artikel/bundesliga-testspiele-live-im-stream-und-tv-uebertragung-auf-sky/12129058/34174",
-        "name": "Sky Sport"
-      }
-    ],
-    "verifiedAt": "2026-10-03T16:58:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "16:00",
-    "competition": "Frauen-Bundesliga",
-    "country": "Deutschland",
-    "home": "1. FC Köln ♀",
-    "away": "SC Freiburg ♀",
-    "channels": [
-      "MagentaSport",
-      "DAZN",
-      "OneFootball"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "17:00",
-    "competition": "Women's Super League (Schweiz)",
-    "country": "Schweiz",
-    "home": "BSC Young Boys ♀",
-    "away": "FC Luzern ♀",
-    "channels": [
-      "AWSL Play (CH)"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "17:00",
-    "competition": "ÖFB Frauen Bundesliga",
-    "country": "Österreich",
-    "home": "Red Bull Salzburg ♀",
-    "away": "First Vienna FC 1894 ♀",
-    "channels": [
-      "LAOLA1",
-      "ÖFB TV"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "sources": [
-      {
-        "name": "ÖFB",
-        "url": "https://www.oefb.at/oefb/Mediainfo/OeFB-MediaInfo-235-2026-9-Runde-der-ADMIRAL-Frauen-Bundesliga-bringt-erstes-Wiener-Derby"
-      },
-      {
-        "name": "fussballgucken.info",
-        "url": "https://fussballgucken.info/match/195430/oefb-frauen-bundesliga/red-bull-salzburg-frauen-first-vienna-fc-1894-frauen"
-      }
-    ],
-    "verifiedAt": "2026-10-03T17:02:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "17:30",
-    "competition": "Länderspiel (U20)",
-    "country": "International",
-    "home": "England (U20)",
-    "away": "Deutschland (U20)",
-    "channels": [
-      "DFB.TV",
-      "DAZN",
-      "DFB (YouTube)"
-    ],
-    "groups": [
-      "free",
-      "dazn",
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "17:55",
-    "competition": "Frauen-Bundesliga",
-    "country": "Deutschland",
-    "home": "Eintracht Frankfurt ♀",
-    "away": "FC Bayern München ♀",
-    "channels": [
-      "Das Erste",
-      "MagentaSport",
-      "DAZN"
-    ],
-    "groups": [
-      "free",
-      "dazn",
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "18:00",
-    "competition": "Serie A Femminile (Italien)",
-    "country": "Italien",
-    "home": "AS Rom ♀",
-    "away": "Lazio Rom ♀",
-    "channels": [
-      "DAZN",
-      "DAZN RISE"
-    ],
-    "groups": [
-      "free",
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "18:00",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Belarus",
-    "away": "San Marino",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "18:00",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Estland",
-    "away": "Luxemburg",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "18:00",
-    "competition": "Women's Super League (Schweiz)",
-    "country": "Schweiz",
-    "home": "FC Rapperswil-Jona ♀",
-    "away": "FC Aarau ♀",
-    "channels": [
-      "AWSL Play (CH)"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "18:00",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Island",
-    "away": "Bulgarien",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "18:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "Kickers Emden",
-    "away": "SV Todesfelde",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://www.kickers.de/",
-        "name": "BSV Kickers Emden"
-      },
-      {
-        "url": "https://datencenter.dfb.de/teams/SV-Todesfelde",
-        "name": "DFB Datencenter"
-      }
-    ],
-    "verifiedAt": "2026-10-03T16:58:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "18:00",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Kroatien",
-    "away": "England",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "18:00",
-    "competition": "Arabian Gulf Cup",
-    "country": "International",
-    "home": "Saudi-Arabien",
-    "away": "Katar",
-    "channels": [
-      "Sportdigital Fussball",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-03",
-        "name": "Fußballgucken.info"
-      },
-      {
-        "url": "https://www.espn.com/soccer/match/_/gameId/401927872/qatar-saudi-arabia",
-        "name": "ESPN"
-      },
-      {
-        "url": "https://start.sportdigital.de/newsletter/cacc16336f/der-gulf-cup-bei-sportdigital",
-        "name": "Sportdigital"
-      }
-    ],
-    "verifiedAt": "2026-10-02T05:29:05.871Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "18:00",
-    "competition": "Women's Super League (Schweiz)",
-    "country": "Schweiz",
-    "home": "Yverdon-Sport FC ♀",
-    "away": "FC Basel ♀",
-    "channels": [
-      "AWSL Play (CH)"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "18:30",
-    "competition": "Première Ligue (Frankreich)",
-    "country": "Frankreich",
-    "home": "FC Nantes ♀",
-    "away": "HSC Montpellier ♀",
-    "channels": [
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "name": "fussballgucken.info",
-        "url": "https://fussballgucken.info/match/195315/premiere-ligue-frankreich/fc-nantes-frauen-hsc-montpellier-frauen"
-      }
-    ],
-    "verifiedAt": "2026-10-03T17:02:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "20:30",
-    "competition": "Arabian Gulf Cup",
-    "country": "International",
-    "home": "Ver. Arabische Emirate",
-    "away": "Oman",
-    "channels": [
-      "Sportdigital Fussball",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/match/195311/arabian-gulf-cup/ver-arabische-emirate-oman",
-        "name": "Fußballgucken.info"
-      },
-      {
-        "url": "https://start.sportdigital.de/newsletter/cacc16336f/der-gulf-cup-bei-sportdigital",
-        "name": "Sportdigital"
-      }
-    ],
-    "verifiedAt": "2026-10-02T05:29:05.871Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Nordmazedonien",
-    "away": "Schottland",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Schweiz",
-    "away": "Slowenien",
-    "channels": [
-      "RSI LA 2 (CH)",
-      "RTS 2 (CH)",
-      "SRF zwei (CH)",
-      "DAZN",
-      "Play RSI (CH)",
-      "Play SRF",
-      "Play SRF (App)",
-      "SRF Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Spanien",
-    "away": "Tschechien",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "21:00",
-    "competition": "Première Ligue (Frankreich)",
-    "country": "Frankreich",
-    "home": "Paris FC ♀",
-    "away": "RC Lens ♀",
-    "channels": [
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "name": "fussballgucken.info",
-        "url": "https://fussballgucken.info/match/195312/premiere-ligue-frankreich/paris-fc-frauen-rc-lens-frauen"
-      }
-    ],
-    "verifiedAt": "2026-10-03T17:02:00Z"
-  },
-  {
-    "date": "2026-10-03",
-    "time": "22:00",
-    "competition": "National Women’s Soccer League (NWSL)",
-    "country": "USA",
-    "home": "Racing Louisville FC ♀",
-    "away": "Utah Royals FC ♀",
-    "channels": [
-      "NWSL+"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "time": "23:30",
-    "competition": "Campeonato Brasileiro Série A (Brasilien)",
-    "country": "Brasilien",
-    "home": "Atletico Mineiro",
-    "away": "Red Bull Bragantino",
-    "channels": [
-      "Sportdigital Fussball",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-03",
-        "name": "Fußballgucken.info"
-      },
-      {
-        "url": "https://www.foxsports.com/soccer/brazil-serie-a-atletico-mineiro-vs-red-bull-bragantino-sp-oct-03-2026-game-boxscore-1030443",
-        "name": "FOX Sports"
-      }
-    ],
-    "verifiedAt": "2026-10-02T05:29:05.871Z"
-  },
-  {
     "date": "2026-10-04",
     "time": "00:30",
     "competition": "National Women’s Soccer League (NWSL)",
@@ -1324,6 +299,31 @@
   },
   {
     "date": "2026-10-04",
+    "time": "14:00",
+    "competition": "ÖFB Frauen Bundesliga",
+    "country": "Österreich",
+    "home": "SKN St. Pölten ♀",
+    "away": "SK Sturm Graz ♀",
+    "channels": [
+      "ÖFB TV (AT)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://www.skn-stpoelten.at/frauen/?ical=1",
+        "name": "SKN St. Pölten – Frauen-Spielplan"
+      },
+      {
+        "url": "https://www.oefb.tv/de/live",
+        "name": "ÖFB TV – Livestreams"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-04",
     "time": "15:00",
     "competition": "Nations League",
     "country": "Europa",
@@ -1427,6 +427,33 @@
   },
   {
     "date": "2026-10-04",
+    "time": "15:30",
+    "competition": "Freundschaftsspiel",
+    "country": "Deutschland",
+    "home": "Hamburger SV",
+    "away": "FC Kopenhagen",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Sport News",
+      "Sky Go"
+    ],
+    "groups": [
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://www.hsv.de/tickets/ticketinfos",
+        "name": "Hamburger SV – Freundschaftsspiel im Volkspark"
+      },
+      {
+        "url": "https://sport.sky.de/fussball/artikel/bundesliga-testspiele-live-im-stream-und-tv-uebertragung-auf-sky/12129058/34174",
+        "name": "Sky Sport – Testspiele live"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-04",
     "time": "16:00",
     "competition": "Frauen-Bundesliga",
     "country": "Deutschland",
@@ -1441,6 +468,31 @@
       "dazn",
       "other"
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "time": "17:00",
+    "competition": "Regionalliga West (Frauen)",
+    "country": "Deutschland",
+    "home": "FC Schalke 04 ♀",
+    "away": "VfR Schwarz-Weiß Warbeyen ♀",
+    "channels": [
+      "S04TV+"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://schalke04.de/frauen-regionalliga/team1-live-warbeyen/",
+        "name": "FC Schalke 04 – S04TV+ live"
+      },
+      {
+        "url": "https://schalke04.de/frauen-regionalliga/team1-vorbericht-warbeyen/",
+        "name": "FC Schalke 04 – Spielvorschau"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
   },
   {
     "date": "2026-10-04",
@@ -1886,6 +938,50 @@
   },
   {
     "date": "2026-10-06",
+    "time": "16:00",
+    "competition": "Länderspiel (U19)",
+    "country": "International",
+    "home": "Portugal (U19)",
+    "away": "Österreich (U19)",
+    "channels": [
+      "ÖFB TV (AT)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://www.oefb.tv/de/live",
+        "name": "ÖFB TV – U19-Livestream"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-06",
+    "time": "17:30",
+    "competition": "EM 2027 (U21)",
+    "country": "Europa",
+    "home": "Nordirland (U21)",
+    "away": "Griechenland (U21)",
+    "channels": [
+      "DFB.TV",
+      "DAZN"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-06",
+        "name": "Fußballgucken.info – 06.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-06",
     "time": "18:00",
     "competition": "EM 2027 (U21)",
     "country": "Europa",
@@ -2081,6 +1177,62 @@
   },
   {
     "date": "2026-10-07",
+    "time": "02:30",
+    "competition": "Major League Soccer",
+    "country": "USA/Kanada",
+    "home": "Chicago Fire",
+    "away": "Vancouver Whitecaps",
+    "channels": [
+      "Apple TV"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "time": "14:00",
+    "competition": "ASEAN Club Championship",
+    "country": "Asien",
+    "home": "Buriram United",
+    "away": "Borneo FC",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "time": "14:00",
+    "competition": "ASEAN Club Championship",
+    "country": "Asien",
+    "home": "Kuching City FC",
+    "away": "Tampines Rovers",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "time": "14:00",
+    "competition": "ASEAN Club Championship",
+    "country": "Asien",
+    "home": "Ratchaburi FC",
+    "away": "Ho Chi Minh City FC",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-07",
     "time": "18:00",
     "competition": "Veikkausliiga (Finnland)",
     "country": "Finnland",
@@ -2122,6 +1274,54 @@
       }
     ],
     "verifiedAt": "2026-10-02T05:29:05.871Z"
+  },
+  {
+    "date": "2026-10-08",
+    "time": "19:30",
+    "competition": "SuperLiga",
+    "country": "Rumänien",
+    "home": "CFR Cluj",
+    "away": "Universitatea Cluj",
+    "channels": [
+      "Digi Sport 1 (RO)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://www.digisport.ro/fotbal/liga-1/22-milioane-de-euro-pentru-cfr-cluj-4502881",
+        "name": "Digi Sport – CFR Cluj gegen Universitatea Cluj"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-08",
+    "time": "20:00",
+    "competition": "Länderspiel (U23 Frauen)",
+    "country": "International",
+    "home": "Schottland ♀ (U23)",
+    "away": "Deutschland ♀ (U23)",
+    "channels": [
+      "DF1",
+      "DFB.TV"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://www.dfb.de/frauen/nationalmannschaften/u-23/spiele-und-termine",
+        "name": "DFB – U23-Frauen Spiele und Termine"
+      },
+      {
+        "url": "https://de.linkedin.com/posts/df1-medien-gmbh_fussball-dfb-nationalmannschaft-activity-7511346198457544704-NRJt",
+        "name": "DF1 – Live-Übertragung"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
   },
   {
     "date": "2026-10-09",
@@ -2593,5 +1793,1346 @@
       }
     ],
     "verifiedAt": "2026-10-03T05:33:41.885Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "00:30",
+    "competition": "Liga Profesional",
+    "country": "Argentinien",
+    "home": "Instituto AC Córdoba",
+    "away": "Boca Juniors",
+    "channels": [
+      "Sportdigital Fussball",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "12:00",
+    "competition": "Premjer Liha",
+    "country": "Ukraine",
+    "home": "Chornomorets Odessa",
+    "away": "Metalist Charkiw",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "12:00",
+    "competition": "Premjer Liha",
+    "country": "Ukraine",
+    "home": "Kolos Kowaliwka",
+    "away": "Epitsentr Kamianets-Podilskyi",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "13:00",
+    "competition": "2. Bundesliga",
+    "country": "Deutschland",
+    "home": "1. FC Magdeburg",
+    "away": "Hannover 96",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
+        "name": "Bundesliga – TV-Plan"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "13:00",
+    "competition": "Virslīga",
+    "country": "Lettland",
+    "home": "FK Tukums 2000",
+    "away": "Riga FC",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "13:00",
+    "competition": "2. Bundesliga",
+    "country": "Deutschland",
+    "home": "SV Darmstadt 98",
+    "away": "Energie Cottbus",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
+        "name": "Bundesliga – TV-Plan"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "13:00",
+    "competition": "2. Bundesliga",
+    "country": "Deutschland",
+    "home": "VfL Osnabrück",
+    "away": "Dynamo Dresden",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
+        "name": "Bundesliga – TV-Plan"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "13:30",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "FC Arsenal",
+    "away": "Leeds United",
+    "channels": [
+      "Sky Sport Premier League",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "1. FC Kaiserslautern II",
+    "away": "KSV Hessen Kassel",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "Borussia Dortmund II",
+    "away": "SG Wattenscheid 09",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "FC Astoria Walldorf",
+    "away": "1. FSV Mainz 05 II",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga Nordost",
+    "country": "Deutschland",
+    "home": "FC Carl Zeiss Jena",
+    "away": "1. FC Magdeburg II",
+    "channels": [
+      "MDR Fernsehen",
+      "ARD Mediathek"
+    ],
+    "groups": [
+      "free"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "FC Gütersloh",
+    "away": "Sportfreunde Siegen",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "FC Würzburger Kickers",
+    "away": "Hansa Rostock",
+    "channels": [
+      "BR Fernsehen",
+      "NDR Fernsehen",
+      "MagentaSport"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
+        "name": "DFB Datencenter – 3. Liga"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "Fortuna Köln",
+    "away": "1. FC Saarbrücken",
+    "channels": [
+      "WDR Fernsehen",
+      "MagentaSport"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
+        "name": "DFB Datencenter – 3. Liga"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "FSV Frankfurt",
+    "away": "SV Sandhausen",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga Bayern",
+    "country": "Deutschland",
+    "home": "FV Illertissen",
+    "away": "TSV 1860 München",
+    "channels": [
+      "DF1",
+      "DFB.TV",
+      "DAZN"
+    ],
+    "groups": [
+      "free",
+      "dazn",
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "Jahn Regensburg",
+    "away": "TSV Havelse",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
+        "name": "DFB Datencenter – 3. Liga"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "La Liga",
+    "country": "Spanien",
+    "home": "Rayo Vallecano",
+    "away": "Athletic Bilbao",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "Rot-Weiß Oberhausen",
+    "away": "1. FC Bocholt",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "SG Barockstadt Fulda-Lehnerz",
+    "away": "VfR Aalen",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "SG Sonnenhof Großaspach",
+    "away": "SV Waldhof Mannheim",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
+        "name": "DFB Datencenter – 3. Liga"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "Sportfreunde Lotte",
+    "away": "SC Paderborn 07 II",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "SSV Ulm",
+    "away": "Eintracht Frankfurt II",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "SV Bergisch Gladbach 09",
+    "away": "FC Schalke 04 II",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "SV Meppen",
+    "away": "VfB Stuttgart II",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
+        "name": "DFB Datencenter – 3. Liga"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "TSV Steinbach Haiger",
+    "away": "Eintracht Trier",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "VfR Mannheim",
+    "away": "Stuttgarter Kickers",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "Westfalia Rhynern",
+    "away": "VfB 03 Hilden",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:30",
+    "competition": "Premjer Liha",
+    "country": "Ukraine",
+    "home": "Obolon Kiew",
+    "away": "Kryvbas Kryvyi Rih",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:00",
+    "competition": "Serie B",
+    "country": "Italien",
+    "home": "Benevento Calcio",
+    "away": "Cesena FC",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:00",
+    "competition": "Serie A",
+    "country": "Italien",
+    "home": "CFC Genua",
+    "away": "AC Florenz",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:00",
+    "competition": "Serie B",
+    "country": "Italien",
+    "home": "FC Empoli",
+    "away": "Palermo FC",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:00",
+    "competition": "Serie B",
+    "country": "Italien",
+    "home": "FC Südtirol",
+    "away": "Ascoli Calcio",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:00",
+    "competition": "Virslīga",
+    "country": "Lettland",
+    "home": "SK Super Nova",
+    "away": "Grobinas SC",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:00",
+    "competition": "Serie B",
+    "country": "Italien",
+    "home": "Virtus Entella",
+    "away": "Juve Stabia",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "1. FC Union Berlin",
+    "away": "SV Elversberg",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "DAZN",
+      "WOW"
+    ],
+    "groups": [
+      "sky",
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
+        "name": "Bundesliga – TV-Plan"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "1. FSV Mainz 05",
+    "away": "Bayer 04 Leverkusen",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "DAZN",
+      "WOW"
+    ],
+    "groups": [
+      "sky",
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
+        "name": "Bundesliga – TV-Plan"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:30",
+    "competition": "2. Liga",
+    "country": "Österreich",
+    "home": "Austria Salzburg",
+    "away": "Floridsdorfer AC",
+    "channels": [
+      "LAOLA1",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "FC Augsburg",
+    "away": "FC Bayern München",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "DAZN",
+      "WOW"
+    ],
+    "groups": [
+      "sky",
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
+        "name": "Bundesliga – TV-Plan"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:30",
+    "competition": "2. Liga",
+    "country": "Österreich",
+    "home": "FC Hertha Wels",
+    "away": "SW Bregenz",
+    "channels": [
+      "LAOLA1",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:30",
+    "competition": "2. Liga",
+    "country": "Österreich",
+    "home": "FC Liefering",
+    "away": "Sturm Graz II",
+    "channels": [
+      "LAOLA1",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "SC Paderborn 07",
+    "away": "VfB Stuttgart",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "DAZN",
+      "WOW"
+    ],
+    "groups": [
+      "sky",
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
+        "name": "Bundesliga – TV-Plan"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:30",
+    "competition": "2. Liga",
+    "country": "Österreich",
+    "home": "SK Rapid Wien II",
+    "away": "Wacker Innsbruck",
+    "channels": [
+      "LAOLA1",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "15:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "TSG Hoffenheim",
+    "away": "Hamburger SV",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "DAZN",
+      "WOW"
+    ],
+    "groups": [
+      "sky",
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
+        "name": "Bundesliga – TV-Plan"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "16:00",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "Aston Villa",
+    "away": "Brentford FC",
+    "channels": [
+      "Sky Sport Premier League",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "16:00",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "Chelsea FC",
+    "away": "AFC Bournemouth",
+    "channels": [
+      "Sky Sport Premier League",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "16:00",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "Ipswich Town",
+    "away": "Fulham FC",
+    "channels": [
+      "Sky Sport Premier League",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "16:00",
+    "competition": "Besta deild karla",
+    "country": "Island",
+    "home": "Stjarnan",
+    "away": "KA Akureyri",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "16:00",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "Sunderland AFC",
+    "away": "Brighton & Hove Albion",
+    "channels": [
+      "Sky Sport Premier League",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "16:00",
+    "competition": "Besta deild karla",
+    "country": "Island",
+    "home": "Thor Akureyri",
+    "away": "ÍBV Vestmannaeyjar",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "16:00",
+    "competition": "Veikkausliiga",
+    "country": "Finnland",
+    "home": "Turun Palloseura",
+    "away": "FF Jaro",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "16:00",
+    "competition": "Besta deild karla",
+    "country": "Island",
+    "home": "Valur Reykjavík",
+    "away": "FH Hafnarfjörður",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "16:15",
+    "competition": "La Liga",
+    "country": "Spanien",
+    "home": "Deportivo Alavés",
+    "away": "Atlético Madrid",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "16:30",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "MSV Duisburg",
+    "away": "TSG Hoffenheim II",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
+        "name": "DFB Datencenter – 3. Liga"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "17:00",
+    "competition": "Bundesliga",
+    "country": "Österreich",
+    "home": "Grazer AK",
+    "away": "Red Bull Salzburg",
+    "channels": [
+      "Sky Sport Austria 1 (AT)",
+      "Sky Go (AT)"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "17:00",
+    "competition": "Bundesliga",
+    "country": "Österreich",
+    "home": "WSG Tirol",
+    "away": "SV Ried",
+    "channels": [
+      "Sky Sport Austria 1 (AT)",
+      "Sky Go (AT)"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "17:15",
+    "competition": "Serie B",
+    "country": "Italien",
+    "home": "LR Vicenza",
+    "away": "Pisa SC",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "17:15",
+    "competition": "Ligue 1",
+    "country": "Frankreich",
+    "home": "OSC Lille",
+    "away": "Le Havre AC",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "18:00",
+    "competition": "Super League",
+    "country": "Schweiz",
+    "home": "FC Lugano",
+    "away": "FC Luzern",
+    "channels": [
+      "RSI LA 2 (CH)",
+      "RTS 2 (CH)",
+      "SRF zwei (CH)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "18:00",
+    "competition": "Super League",
+    "country": "Schweiz",
+    "home": "FC Zürich",
+    "away": "FC Thun",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "18:00",
+    "competition": "Veikkausliiga",
+    "country": "Finnland",
+    "home": "IFK Mariehamn",
+    "away": "Ilves Tampere",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "18:00",
+    "competition": "Serie A",
+    "country": "Italien",
+    "home": "Inter Mailand",
+    "away": "Parma Calcio",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "18:00",
+    "competition": "Super League",
+    "country": "Schweiz",
+    "home": "Servette FC",
+    "away": "FC Sion",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "18:30",
+    "competition": "La Liga",
+    "country": "Spanien",
+    "home": "FC Barcelona",
+    "away": "Getafe CF",
+    "channels": [
+      "DAZN",
+      "DAZN FAST+"
+    ],
+    "groups": [
+      "free",
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "18:30",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "Manchester United",
+    "away": "Tottenham Hotspur",
+    "channels": [
+      "Sky Sport Premier League",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "18:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "RB Leipzig",
+    "away": "Eintracht Frankfurt",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
+        "name": "Bundesliga – TV-Plan"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "18:45",
+    "competition": "Eredivisie",
+    "country": "Niederlande",
+    "home": "Feyenoord Rotterdam",
+    "away": "AZ Alkmaar",
+    "channels": [
+      "Sportdigital Fussball",
+      "blue Sport (CH)",
+      "DAZN"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "19:00",
+    "competition": "Major League Soccer",
+    "country": "USA/Kanada",
+    "home": "Toronto FC",
+    "away": "CF Montréal",
+    "channels": [
+      "Apple TV"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "19:30",
+    "competition": "Bundesliga",
+    "country": "Österreich",
+    "home": "Austria Wien",
+    "away": "Sturm Graz",
+    "channels": [
+      "Sky Sport Austria 1 (AT)",
+      "Sky Go (AT)"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "19:30",
+    "competition": "Serie B",
+    "country": "Italien",
+    "home": "SS Arezzo",
+    "away": "US Cremonese",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "20:00",
+    "competition": "Saudi Professional League",
+    "country": "Saudi-Arabien",
+    "home": "Al-Hilal",
+    "away": "Al-Ittihad",
+    "channels": [
+      "DAZN",
+      "Sportdigital Fussball 2"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "20:30",
+    "competition": "2. Bundesliga",
+    "country": "Deutschland",
+    "home": "1. FC Nürnberg",
+    "away": "VfL Wolfsburg",
+    "channels": [
+      "NITRO",
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "free",
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
+        "name": "Bundesliga – TV-Plan"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "20:30",
+    "competition": "Major League Soccer",
+    "country": "USA/Kanada",
+    "home": "Chicago Fire",
+    "away": "New York City FC",
+    "channels": [
+      "Apple TV"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "20:45",
+    "competition": "Ligue 1",
+    "country": "Frankreich",
+    "home": "AS Monaco",
+    "away": "Toulouse FC",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "20:45",
+    "competition": "Ligue 1",
+    "country": "Frankreich",
+    "home": "FC Lorient",
+    "away": "Paris FC",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "20:45",
+    "competition": "Ligue 1",
+    "country": "Frankreich",
+    "home": "Paris Saint-Germain",
+    "away": "Le Mans FC",
+    "channels": [
+      "TV5MONDE Europe",
+      "DAZN"
+    ],
+    "groups": [
+      "free",
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "20:45",
+    "competition": "Serie A",
+    "country": "Italien",
+    "home": "SSC Neapel",
+    "away": "Frosinone Calcio",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "20:45",
+    "competition": "Ligue 1",
+    "country": "Frankreich",
+    "home": "Stade Brest",
+    "away": "Angers SCO",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "21:00",
+    "competition": "Eredivisie",
+    "country": "Niederlande",
+    "home": "Ajax Amsterdam",
+    "away": "NEC Nijmegen",
+    "channels": [
+      "Sportdigital Fussball",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "21:00",
+    "competition": "La Liga",
+    "country": "Spanien",
+    "home": "Real Madrid",
+    "away": "FC Villarreal",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "21:15",
+    "competition": "Besta deild karla",
+    "country": "Island",
+    "home": "Fram Reykjavík",
+    "away": "KR Reykjavík",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ]
   }
 ]
