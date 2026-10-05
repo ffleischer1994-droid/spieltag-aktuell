@@ -53,14 +53,6 @@ jobs:
           python scripts/build-seo.py --data-updated "$(git log -1 --format=%cI -- games.json)"
           python scripts/sync-static-shell.py
           python scripts/check-seo.py
-      - name: Install layout renderer
-        if: steps.guard.outputs.run == 'true'
-        run: |
-          npm install --no-save playwright
-          npx playwright install --with-deps chromium
-      - name: Check mobile, desktop and dark layouts
-        if: steps.guard.outputs.run == 'true'
-        run: node scripts/check-seo-layout.mjs
       - name: Save generated pages
         if: steps.guard.outputs.run == 'true'
         run: |
@@ -72,6 +64,14 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+      - name: Install layout renderer
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Check mobile, desktop and dark layouts
+        if: steps.guard.outputs.run == 'true'
+        run: node scripts/check-seo-layout.mjs
       - name: Prepare static website artifact
         if: steps.guard.outputs.run == 'true'
         run: |
