@@ -1,274 +1,127 @@
 {
-  "2026-10-01|Deutschland|Serbien": {
-    "path": "spiel/deutschland-serbien-2026-10-01",
+  "2026-10-05|Italien|Türkei": {
+    "path": "spiel/italien-tuerkei-2026-10-05",
     "game": {
-      "date": "2026-10-01",
+      "date": "2026-10-05",
       "time": "20:45",
       "competition": "Nations League",
       "country": "Europa",
-      "home": "Deutschland",
-      "away": "Serbien",
+      "home": "Italien",
+      "away": "Türkei",
       "channels": [
-        "ZDF",
-        "ZDFmediathek",
-        "DAZN (AT)",
-        "DAZN (CH)"
-      ],
-      "groups": [
-        "free",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-01"
-  },
-  "2026-10-04|Griechenland|Deutschland": {
-    "path": "spiel/griechenland-deutschland-2026-10-04",
-    "game": {
-      "date": "2026-10-04",
-      "time": "20:45",
-      "competition": "Nations League",
-      "country": "Europa",
-      "home": "Griechenland",
-      "away": "Deutschland",
-      "channels": [
-        "RTL",
-        "RTL+",
-        "DAZN (AT)",
-        "DAZN (CH)"
-      ],
-      "groups": [
-        "free",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-03"
-  },
-  "2026-10-01|Deutschland (U16)|Griechenland (U16)": {
-    "path": "spiel/deutschland-u16-griechenland-u16-2026-10-01",
-    "game": {
-      "date": "2026-10-01",
-      "time": "11:00",
-      "competition": "Länderspiel (U16)",
-      "country": "International",
-      "home": "Deutschland (U16)",
-      "away": "Griechenland (U16)",
-      "channels": [
-        "DFB (YouTube)"
-      ],
-      "groups": [
-        "free",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-01"
-  },
-  "2026-10-01|Deutschland (U17)|Israel (U17)": {
-    "path": "spiel/deutschland-u17-israel-u17-2026-10-01",
-    "game": {
-      "date": "2026-10-01",
-      "time": "16:00",
-      "competition": "Länderspiel (U17)",
-      "country": "International",
-      "home": "Deutschland (U17)",
-      "away": "Israel (U17)",
-      "channels": [
-        "DFB.TV",
-        "DAZN",
-        "DFB (YouTube)"
-      ],
-      "groups": [
-        "free",
-        "dazn",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-01"
-  },
-  "2026-10-02|Bayer Leverkusen ♀|SV Werder Bremen ♀": {
-    "path": "spiel/bayer-leverkusen-frauen-sv-werder-bremen-frauen-2026-10-02",
-    "game": {
-      "date": "2026-10-02",
-      "time": "18:30",
-      "competition": "Frauen-Bundesliga",
-      "country": "Deutschland",
-      "home": "Bayer Leverkusen ♀",
-      "away": "SV Werder Bremen ♀",
-      "channels": [
-        "MagentaSport",
-        "DAZN",
-        "OneFootball"
-      ],
-      "groups": [
-        "dazn",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-02"
-  },
-  "2026-10-03|RB Leipzig ♀|1. FSV Mainz 05 ♀": {
-    "path": "spiel/rb-leipzig-frauen-1-fsv-mainz-05-frauen-2026-10-03",
-    "game": {
-      "date": "2026-10-03",
-      "time": "14:00",
-      "competition": "Frauen-Bundesliga",
-      "country": "Deutschland",
-      "home": "RB Leipzig ♀",
-      "away": "1. FSV Mainz 05 ♀",
-      "channels": [
-        "MagentaSport",
-        "DAZN",
-        "OneFootball"
-      ],
-      "groups": [
-        "dazn",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-03"
-  },
-  "2026-10-03|1. FC Köln ♀|SC Freiburg ♀": {
-    "path": "spiel/1-fc-koeln-frauen-sc-freiburg-frauen-2026-10-03",
-    "game": {
-      "date": "2026-10-03",
-      "time": "16:00",
-      "competition": "Frauen-Bundesliga",
-      "country": "Deutschland",
-      "home": "1. FC Köln ♀",
-      "away": "SC Freiburg ♀",
-      "channels": [
-        "MagentaSport",
-        "DAZN",
-        "OneFootball"
-      ],
-      "groups": [
-        "dazn",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-03"
-  },
-  "2026-10-03|England (U20)|Deutschland (U20)": {
-    "path": "spiel/england-u20-deutschland-u20-2026-10-03",
-    "game": {
-      "date": "2026-10-03",
-      "time": "17:30",
-      "competition": "Länderspiel (U20)",
-      "country": "International",
-      "home": "England (U20)",
-      "away": "Deutschland (U20)",
-      "channels": [
-        "DFB.TV",
-        "DAZN",
-        "DFB (YouTube)"
-      ],
-      "groups": [
-        "free",
-        "dazn",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-03"
-  },
-  "2026-10-03|Eintracht Frankfurt ♀|FC Bayern München ♀": {
-    "path": "spiel/eintracht-frankfurt-frauen-fc-bayern-muenchen-frauen-2026-10-03",
-    "game": {
-      "date": "2026-10-03",
-      "time": "17:55",
-      "competition": "Frauen-Bundesliga",
-      "country": "Deutschland",
-      "home": "Eintracht Frankfurt ♀",
-      "away": "FC Bayern München ♀",
-      "channels": [
-        "Das Erste",
-        "MagentaSport",
         "DAZN"
       ],
       "groups": [
-        "free",
-        "dazn",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-03"
-  },
-  "2026-10-04|Deutschland (U16)|Österreich (U16)": {
-    "path": "spiel/deutschland-u16-osterreich-u16-2026-10-04",
-    "game": {
-      "date": "2026-10-04",
-      "time": "11:00",
-      "competition": "Länderspiel (U16)",
-      "country": "International",
-      "home": "Deutschland (U16)",
-      "away": "Österreich (U16)",
-      "channels": [
-        "DFB (YouTube)"
+        "dazn"
       ],
-      "groups": [
-        "free",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-03"
-  },
-  "2026-10-04|FC Ingolstadt 04 ♀|VfL Bochum ♀": {
-    "path": "spiel/fc-ingolstadt-04-frauen-vfl-bochum-frauen-2026-10-04",
-    "game": {
-      "date": "2026-10-04",
-      "time": "11:00",
-      "competition": "2. Frauen-Bundesliga",
-      "country": "Deutschland",
-      "home": "FC Ingolstadt 04 ♀",
-      "away": "VfL Bochum ♀",
-      "channels": [
-        "Leagues"
+      "featuredPage": true,
+      "channelLinks": {
+        "DAZN": "https://www.dazn.com/de-DE/news/fussball/italien-tuerkei-die-uebertragung-der-nations-league-auf-dazn/1n35zyef6z1t11s86lp0qlajms"
+      },
+      "sources": [
+        {
+          "url": "https://de.uefa.com/uefanationsleague/match/2047938--italy-vs-turkiye/",
+          "name": "UEFA – Spielseite"
+        },
+        {
+          "url": "https://de.uefa.com/uefanationsleague/news/02a2-1fea28f5875c-5534d7603493-1000--uefa-nations-league-2026-27-alle-spiele-und-ergebnisse-der/",
+          "name": "UEFA – Spielplan und Ergebnisse"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/news/fussball/italien-tuerkei-die-uebertragung-der-nations-league-auf-dazn/1n35zyef6z1t11s86lp0qlajms",
+          "name": "DAZN – Übertragung"
+        },
+        {
+          "url": "https://www.reuters.com/sports/soccer/france-snatch-late-winner-belgium-italy-thrash-turkey-4-1-away-2026-09-28/",
+          "name": "Reuters – Hinspielbericht"
+        }
       ],
-      "groups": [
-        "free",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-03"
-  },
-  "2026-10-04|FK Austria Wien ♀|SK Rapid Wien ♀": {
-    "path": "spiel/fk-austria-wien-frauen-sk-rapid-wien-frauen-2026-10-04",
-    "game": {
-      "date": "2026-10-04",
-      "time": "13:00",
-      "competition": "ÖFB Frauen Bundesliga",
-      "country": "Österreich",
-      "home": "FK Austria Wien ♀",
-      "away": "SK Rapid Wien ♀",
-      "channels": [
-        "ORF Sport+ (AT)",
-        "ORF ON (AT)"
+      "verifiedAt": "2026-10-05T04:33:00Z",
+      "venue": {
+        "name": "Stadio Renato Dall'Ara",
+        "city": "Bologna",
+        "country": "IT"
+      },
+      "pageIntro": "Italien gegen die Türkei ist am Montagabend eines der auffälligsten Spiele des 4. Spieltags der UEFA Nations League. Für die Türkei ist die Lage nach drei Niederlagen bereits angespannt, während Italien nach dem Fehlstart gegen Belgien wieder Anschluss an die Spitze der Gruppe A1 gefunden hat.",
+      "pageSections": [
+        {
+          "heading": "Italien – Türkei heute: Uhrzeit, Wettbewerb und Übertragung",
+          "paragraphs": [
+            "Anstoß ist am Montag, 5. Oktober 2026, um 20:45 Uhr deutscher Zeit. Gespielt wird im Stadio Renato Dall'Ara in Bologna. Die Partie gehört zum 4. Spieltag der Liga A, Gruppe 1, in der UEFA Nations League.",
+            "In Deutschland läuft Italien gegen die Türkei nach aktuellem Stand live bei DAZN. Ein deutsches Free-TV-Angebot ist in unserem geprüften Datenstand nicht bestätigt."
+          ]
+        },
+        {
+          "heading": "Ausgangslage in Gruppe A1",
+          "paragraphs": [
+            "Nach den ersten drei Spielen steht Frankreich bei 7 Punkten, Belgien bei 6 Punkten und Italien bei 4 Punkten. Die Türkei wartet noch auf den ersten Punkt. Damit braucht die türkische Mannschaft in Bologna dringend ein Ergebnis, während Italien mit einem Sieg im Rennen um die vorderen Plätze bleiben kann.",
+            "Die bisherigen Ergebnisse Italiens: 0:2 gegen Belgien, 4:1 in der Türkei und 1:1 in Frankreich. Die Türkei verlor 0:1 gegen Frankreich, 1:4 gegen Italien und 0:3 in Belgien."
+          ]
+        },
+        {
+          "heading": "Das Hinspiel: Türkei – Italien 1:4",
+          "paragraphs": [
+            "Erst eine Woche vor dem Rückspiel trafen beide Teams in Bursa aufeinander. Italien gewann am 28. September mit 4:1. Für Italien trafen Alessandro Bastoni, Davide Frattesi, Michael Kayode und Pio Esposito.",
+            "Das klare Ergebnis erhöht den Druck auf die Türkei vor dem Rückspiel. Gleichzeitig ist es für Italien eine Warnung, das Duell nicht allein wegen des Hinspielergebnisses als entschieden zu betrachten."
+          ]
+        },
+        {
+          "heading": "Direkter Vergleich Italien gegen Türkei",
+          "paragraphs": [
+            "Der historische direkte Vergleich spricht deutlich für Italien. Laut UEFA hat Italien gegen die Türkei bislang 10 Spiele gewonnen, viermal gab es ein Unentschieden und die Türkei wartet noch auf den ersten Sieg. Das Torverhältnis liegt bei 28:8 für Italien.",
+            "Auch das jüngste Duell ging klar an Italien: 4:1 am 28. September 2026 in Bursa."
+          ]
+        },
+        {
+          "heading": "Wo wird Italien – Türkei gespielt?",
+          "paragraphs": [
+            "Austragungsort ist das Stadio Renato Dall'Ara in Bologna. Die UEFA führt Bologna als Spielort für diese Nations-League-Partie.",
+            "Für Zuschauer in Deutschland gilt die angegebene Anstoßzeit von 20:45 Uhr in der Zeitzone Europe/Berlin."
+          ]
+        },
+        {
+          "heading": "Wie geht es für beide Teams danach weiter?",
+          "paragraphs": [
+            "Nach dem Oktober-Spieltag folgt die nächste Nations-League-Phase im November. Italien empfängt am 12. November Frankreich und spielt am 15. November auswärts gegen Belgien.",
+            "Die Türkei empfängt am 12. November Belgien und tritt am 15. November in Frankreich an."
+          ]
+        }
       ],
-      "groups": [
-        "other"
+      "faq": [
+        {
+          "question": "Wann spielt Italien gegen die Türkei?",
+          "answer": "Am Montag, 5. Oktober 2026. Anstoß ist um 20:45 Uhr deutscher Zeit."
+        },
+        {
+          "question": "Wo läuft Italien – Türkei live im TV oder Stream?",
+          "answer": "In Deutschland zeigt DAZN die Partie live. Ein deutsches Free-TV-Angebot ist aktuell nicht bestätigt."
+        },
+        {
+          "question": "Ist Italien gegen die Türkei im Free-TV zu sehen?",
+          "answer": "Nach dem aktuell geprüften Datenstand nein. Für Deutschland ist DAZN als Übertragungsanbieter bestätigt."
+        },
+        {
+          "question": "Wo findet Italien – Türkei statt?",
+          "answer": "Im Stadio Renato Dall'Ara in Bologna, Italien."
+        },
+        {
+          "question": "Welcher Wettbewerb ist Italien – Türkei?",
+          "answer": "UEFA Nations League 2026/27, Liga A, Gruppe 1, 4. Spieltag."
+        },
+        {
+          "question": "Wie endete das Hinspiel Türkei – Italien?",
+          "answer": "Italien gewann am 28. September 2026 in Bursa mit 4:1."
+        },
+        {
+          "question": "Wie ist die Ausgangslage in der Gruppe?",
+          "answer": "Vor dem Spiel führt Frankreich mit 7 Punkten vor Belgien mit 6 und Italien mit 4 Punkten. Die Türkei hat nach drei Spielen noch 0 Punkte."
+        },
+        {
+          "question": "Wie ist der direkte Vergleich zwischen Italien und der Türkei?",
+          "answer": "Laut UEFA kommt Italien auf 10 Siege, dazu gab es vier Unentschieden. Die Türkei hat in diesem Vergleich bislang noch nicht gewonnen."
+        }
       ]
     },
-    "dataUpdated": "2026-10-03"
-  },
-  "2026-10-04|VfL Wolfsburg ♀|Hamburger SV ♀": {
-    "path": "spiel/vfl-wolfsburg-frauen-hamburger-sv-frauen-2026-10-04",
-    "game": {
-      "date": "2026-10-04",
-      "time": "13:45",
-      "competition": "Frauen-Bundesliga",
-      "country": "Deutschland",
-      "home": "VfL Wolfsburg ♀",
-      "away": "Hamburger SV ♀",
-      "channels": [
-        "Sport1",
-        "MagentaSport",
-        "DAZN",
-        "OneFootball"
-      ],
-      "groups": [
-        "free",
-        "dazn",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-03"
+    "dataUpdated": "2026-10-05"
   }
 }
