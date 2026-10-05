@@ -63,8 +63,13 @@ def main():
         channel_text=" ".join(g.get("channels",[]))
         if re.search(r"DAZN",channel_text,re.I) and "dazn" not in groups:
             errors.append(f"Zeile {i}: DAZN-Sender ohne group=dazn")
-        if re.search(r"Sky|WOW",channel_text,re.I) and "sky" not in groups:
-            errors.append(f"Zeile {i}: Sky/WOW-Sender ohne group=sky")
+        german_sky=any(
+            re.search(r"Sky|WOW",c,re.I)
+            and not re.search(r"\((?:AT|CH|Austria|Schweiz)\)|Sky Sport Austria",c,re.I)
+            for c in g.get("channels",[])
+        )
+        if german_sky and "sky" not in groups:
+            errors.append(f"Zeile {i}: deutscher Sky/WOW-Sender ohne group=sky")
         if re.search(r"Prime",channel_text,re.I) and "prime" not in groups:
             warnings.append(f"Zeile {i}: Prime-Sender ohne group=prime")
 
