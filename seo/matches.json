@@ -123,5 +123,137 @@
       ]
     },
     "dataUpdated": "2026-10-05"
+  },
+  "2026-10-06|Deutschland (U21)|Georgien (U21)": {
+    "path": "spiel/deutschland-u21-georgien-u21-2026-10-06",
+    "game": {
+      "date": "2026-10-06",
+      "time": "18:00",
+      "competition": "EM 2027 (U21)",
+      "country": "Europa",
+      "home": "Deutschland (U21)",
+      "away": "Georgien (U21)",
+      "channels": [
+        "ProSieben MAXX",
+        "Joyn"
+      ],
+      "groups": [
+        "free",
+        "other"
+      ]
+    },
+    "dataUpdated": "2026-10-05"
+  },
+  "2026-10-08|Schottland ♀ (U23)|Deutschland ♀ (U23)": {
+    "path": "spiel/schottland-frauen-u23-deutschland-frauen-u23-2026-10-08",
+    "game": {
+      "date": "2026-10-08",
+      "time": "20:00",
+      "competition": "Länderspiel (U23 Frauen)",
+      "country": "International",
+      "home": "Schottland ♀ (U23)",
+      "away": "Deutschland ♀ (U23)",
+      "channels": [
+        "DF1",
+        "DFB.TV"
+      ],
+      "groups": [
+        "free",
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dfb.de/frauen/nationalmannschaften/u-23/spiele-und-termine",
+          "name": "DFB – U23-Frauen Spiele und Termine"
+        },
+        {
+          "url": "https://de.linkedin.com/posts/df1-medien-gmbh_fussball-dfb-nationalmannschaft-activity-7511346198457544704-NRJt",
+          "name": "DF1 – Live-Übertragung"
+        }
+      ],
+      "verifiedAt": "2026-10-04T05:39:52.312Z"
+    },
+    "dataUpdated": "2026-10-05"
+  },
+  "2026-10-09|Deutschland ♀ (U17)|Kasachstan ♀ (U17)": {
+    "path": "spiel/deutschland-frauen-u17-kasachstan-frauen-u17-2026-10-09",
+    "game": {
+      "date": "2026-10-09",
+      "time": "12:30",
+      "competition": "U17-EM (Frauen)",
+      "country": "Europa",
+      "home": "Deutschland ♀ (U17)",
+      "away": "Kasachstan ♀ (U17)",
+      "channels": [
+        "DFB.TV",
+        "DAZN",
+        "DFB (YouTube)"
+      ],
+      "groups": [
+        "free",
+        "dazn",
+        "other"
+      ]
+    },
+    "dataUpdated": "2026-10-05"
+  },
+  "2026-10-09|Deutschland ♀|Australien ♀": {
+    "path": "spiel/deutschland-frauen-australien-frauen-2026-10-09",
+    "game": {
+      "date": "2026-10-09",
+      "time": "20:30",
+      "competition": "Länderspiel (Frauen)",
+      "country": "International",
+      "home": "Deutschland ♀",
+      "away": "Australien ♀",
+      "channels": [
+        "ZDF",
+        "ZDFmediathek"
+      ],
+      "groups": [
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-09",
+          "name": "Fußballgucken.info – 09.10.2026"
+        },
+        {
+          "url": "https://www.dfb.de/frauen/nationalmannschaften/nationalmannschaft/spiele-und-termine",
+          "name": "DFB – Frauen-Nationalmannschaft"
+        }
+      ],
+      "verifiedAt": "2026-10-03T05:33:41.885Z"
+    },
+    "dataUpdated": "2026-10-05"
+  },
+  "2026-10-10|1. FC Nürnberg|VfL Wolfsburg": {
+    "path": "spiel/1-fc-nuernberg-vfl-wolfsburg-2026-10-10",
+    "game": {
+      "date": "2026-10-10",
+      "time": "20:30",
+      "competition": "2. Bundesliga",
+      "country": "Deutschland",
+      "home": "1. FC Nürnberg",
+      "away": "VfL Wolfsburg",
+      "channels": [
+        "NITRO",
+        "Sky Sport Bundesliga",
+        "Sky Go",
+        "WOW"
+      ],
+      "groups": [
+        "free",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
+          "name": "Bundesliga – TV-Plan"
+        }
+      ],
+      "verifiedAt": "2026-10-04T05:39:52.312Z"
+    },
+    "dataUpdated": "2026-10-05"
   }
 }
