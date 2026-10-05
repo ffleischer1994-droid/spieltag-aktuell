@@ -35,7 +35,7 @@ def main():
  spiel_root=ROOT/'spiel'
  if spiel_root.is_dir():
   for d in spiel_root.iterdir():
-   m=re.search(r'-(\d{4}-\d{2}-\d{2})
+   m=re.search(r'-(\d{4}-\d{2}-\d{2})$',d.name)
    if d.is_dir() and m and m.group(1)<today.isoformat():shutil.rmtree(d)
  known={key(g):g for g in window if valid(g)}
  # Keep editorial/featured choices; featured fixtures are guaranteed, then fill up to 8 with useful confirmed fixtures.
