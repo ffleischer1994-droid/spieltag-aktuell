@@ -1421,29 +1421,6 @@
   {
     "date": "2026-10-10",
     "time": "14:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "Fortuna Köln",
-    "away": "1. FC Saarbrücken",
-    "channels": [
-      "WDR Fernsehen",
-      "MagentaSport"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
-        "name": "DFB Datencenter – 3. Liga"
-      }
-    ],
-    "verifiedAt": "2026-10-04T05:39:52.312Z"
-  },
-  {
-    "date": "2026-10-10",
-    "time": "14:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
     "home": "FSV Frankfurt",
@@ -1473,6 +1450,29 @@
       "dazn",
       "other"
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "Fortuna Köln",
+    "away": "1. FC Saarbrücken",
+    "channels": [
+      "WDR Fernsehen",
+      "MagentaSport"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
+        "name": "DFB Datencenter – 3. Liga"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
   },
   {
     "date": "2026-10-10",
@@ -1564,20 +1564,6 @@
   {
     "date": "2026-10-10",
     "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "Sportfreunde Lotte",
-    "away": "SC Paderborn 07 II",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-10",
-    "time": "14:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
     "home": "SSV Ulm",
@@ -1625,6 +1611,20 @@
       }
     ],
     "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "Sportfreunde Lotte",
+    "away": "SC Paderborn 07 II",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ]
   },
   {
     "date": "2026-10-10",
