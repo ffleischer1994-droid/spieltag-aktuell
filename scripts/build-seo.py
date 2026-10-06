@@ -98,7 +98,22 @@ def main():
    items=[g for g in items if monday.isoformat()<=g['date']<=sunday.isoformat()];intro+=' Kalenderwoche: '+pretty(monday.isoformat())+'–'+pretty(sunday.isoformat())+'. Bereits vergangene Tage sind nicht Teil unserer laufenden Spieldaten.'
   if kind=='weekend':items=[g for g in items if saturday.isoformat()<=g['date']<=sunday.isoformat()];intro+=' Wochenende: '+pretty(saturday.isoformat())+'–'+pretty(sunday.isoformat())+'.'
   if c.get('free'):intro+=' Kostenlos in Deutschland empfangbare Angebote; österreichische und Schweizer Sender allein zählen hier nicht als deutsches Free-TV.'
-  body='<p class="intro">'+E(intro)+'</p>'+status()+links(common)+rows(items)
+  body='<p class="intro">'+E(intro)+'</p>'
+  if c.get('editorial'):
+   guide=c['editorial']
+   body+='<p class="status">Übertragungsrechte geprüft: '+pretty(guide['verifiedAt'])+'. Gilt für die Männer-Wettbewerbe in Deutschland, Saison 2026/27.</p>'
+   body+=links(guide['related'])
+   body+='<section class="box"><h2>'+E(guide['answerHeading'])+'</h2><p>'+E(guide['answer'])+'</p></section>'
+   body+='<h2>Bestätigte kostenlose Liveübertragungen im Datenfenster</h2>'+status()
+   body+=rows(items) if items else '<p class="box">Für die kommenden sieben Tage ist in unserem Spielplan keine kostenlose Video-Liveübertragung dieses Wettbewerbs in Deutschland bestätigt. Das ist keine Aussage über spätere Termine. Audio und Highlights findest du weiter unten.</p>'
+   for sec in guide['sections']:
+    body+='<section class="box"><h2>'+E(sec['heading'])+'</h2>'+''.join('<p>'+E(p)+'</p>' for p in sec['paragraphs'])
+    body+=''.join('<p><a href="'+E(u)+'" rel="noopener noreferrer">'+E(label)+' ↗</a></p>' for u,label in sec.get('links',[]))+'</section>'
+   body+='<section class="box"><h2>Häufige Fragen</h2>'+''.join('<h3>'+E(f['question'])+'</h3><p>'+E(f['answer'])+'</p>' for f in guide['faq'])+'</section>'
+   body+='<section class="source"><h2>Quellen zu Rechten und kostenlosen Angeboten</h2>'+''.join('<p><a href="'+E(u)+'" rel="noopener noreferrer">'+E(label)+'</a></p>' for u,label in guide['sources'])+'</section>'
+  else:body+=status()+links(common)+rows(items)
+  if c['path'] in ('bundesliga','champions-league','free-tv','free-tv/diese-woche','free-tv/wochenende'):
+   body+=links([('bundesliga-kostenlos-schauen','Bundesliga kostenlos schauen'),('champions-league-kostenlos-schauen','Champions League kostenlos schauen')])
   if kind=='team':body+='<section class="box"><h2>Wo läuft '+E(c['team'].replace(' ♀',' Frauen'))+'?</h2><p>Die Übertragung richtet sich nach der konkreten Partie und dem Wettbewerb. Oben findest du die aktuell erfassten Spiele mit ihren Sendern. Ein leeres Datenfenster ist keine Aussage über spätere Termine.</p><a href="/?team='+E(__import__('urllib.parse',fromlist=['quote']).quote(c['team']))+'">Verein im interaktiven Spielplan öffnen</a></section>'
   schema={'@context':'https://schema.org','@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':g['home']+' – '+g['away'],'url':url(match_links[key(g)]) if key(g) in match_links else BASE+'/?team='+__import__('urllib.parse',fromlist=['quote']).quote(g['home'])} for i,g in enumerate(items)]}
   page(c['path'],title,intro,body,schema)
