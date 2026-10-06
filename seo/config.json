@@ -797,5 +797,287 @@
     "team": "Hertha BSC ♀",
     "title": "Hertha BSC Frauen: nächste Spiele, TV & Stream",
     "intro": "Wann spielt Hertha BSC Frauen und wo läuft die Übertragung? Hier stehen die aktuell erfassten Partien mit Datum, Anstoßzeit und Sendern."
+  },
+  {
+    "path": "bundesliga-kostenlos-schauen",
+    "kind": "competition",
+    "pattern": "^Bundesliga$",
+    "free": true,
+    "title": "Bundesliga kostenlos schauen: Free-TV & legale Streams",
+    "intro": "Wo kann ich die Bundesliga kostenlos live sehen? Hier findest du bestätigte Free-TV-Spiele, legale Gratis-Streams und Alternativen ohne kostenpflichtiges TV-Abo.",
+    "editorial": {
+      "verifiedAt": "2026-10-06",
+      "related": [
+        [
+          "free-tv",
+          "Fußball heute im Free-TV"
+        ],
+        [
+          "bundesliga",
+          "Bundesliga: alle Sender"
+        ],
+        [
+          "champions-league",
+          "Champions League: alle Sender"
+        ],
+        [
+          "champions-league-kostenlos-schauen",
+          "Champions League kostenlos schauen"
+        ]
+      ],
+      "answerHeading": "Kann man die Bundesliga kostenlos live streamen?",
+      "answer": "Ja, ausgewählte Partien laufen in Deutschland kostenlos bei SAT.1. Für die gesamte Bundesliga gibt es jedoch keinen dauerhaften kostenlosen legalen Video-Livestream. Die regulären Live-Rechte liegen bei Sky und DAZN. Ob dein Spiel kostenlos zu sehen ist, hängt von der konkreten Übertragung ab.",
+      "sections": [
+        {
+          "heading": "Bundesliga im Free-TV: SAT.1 und der Online-Stream",
+          "paragraphs": [
+            "SAT.1 besitzt für die Rechteperiode 2025/26 bis 2028/29 ein Paket mit ausgewählten Liveübertragungen. Dazu gehören auch der Saisonauftakt, Relegation und Supercup. Das Paket umfasst unterschiedliche Wettbewerbe; daraus folgt nicht, dass neun reguläre Erstliga-Spiele kostenlos laufen.",
+            "Der SAT.1-Livestream ist über Joyn kostenlos verfügbar. Prüfe für das konkrete Spiel die Programmansage und die Verfügbarkeit auf deinem Gerät. Ein kostenloser Account kann je nach Angebot erforderlich sein; ein Gratis-Stream bedeutet nicht automatisch „ohne Anmeldung“."
+          ],
+          "links": [
+            [
+              "https://www.joyn.de/mediatheken/sat1",
+              "SAT.1 bei Joyn"
+            ]
+          ]
+        },
+        {
+          "heading": "Wo laufen die übrigen Bundesliga-Spiele?",
+          "paragraphs": [
+            "Für die Rechteperiode bis 2028/29 zeigt Sky die Einzelspiele am Freitag und Samstag. DAZN überträgt die Samstagskonferenz und die Sonntagsspiele. Diese regulären Angebote sind kostenpflichtig.",
+            "Die Bundesliga-Konferenz ist also kein kostenloses Videoangebot. Kontrolliere vor einem Abo, ob das gewählte Paket genau deine Partie enthält. Aktuelle Preise und Vertragsbedingungen stehen direkt beim Anbieter."
+          ],
+          "links": [
+            [
+              "https://www.sky.de/sport/bundesliga",
+              "Bundesliga bei Sky"
+            ],
+            [
+              "https://www.dazn.com/de-DE/home",
+              "DAZN"
+            ]
+          ]
+        },
+        {
+          "heading": "Bundesliga ohne Abo live hören",
+          "paragraphs": [
+            "Wenn du live dabei sein willst und auf das Bild verzichten kannst: Die Sportschau bietet in der Saison 2026/27 alle Bundesliga-Spiele kostenlos als Audio-Livereportagen über die volle Spieldauer an. Bei zeitgleichen Partien gibt es auch eine Audiokonferenz.",
+            "Das ist Radio über das Internet, kein Video-Livestream. Die Angebote findest du im Sportschau-Livecenter, in der Sportschau-App und bei ARD Sounds."
+          ],
+          "links": [
+            [
+              "https://www.sportschau.de/audio",
+              "Kostenlose Audio-Livestreams"
+            ]
+          ]
+        },
+        {
+          "heading": "Kostenlose Bundesliga-Highlights statt Livebilder",
+          "paragraphs": [
+            "Die Sportschau bietet Bundesliga-Zusammenfassungen im Free-TV und online an. Damit siehst du Tore und wichtige Szenen nach dem Spiel, nicht die Begegnung live in voller Länge.",
+            "Veröffentlichungszeiten und Online-Verfügbarkeit unterscheiden sich je nach Partie. Suche das Spiel im offiziellen Angebot und achte darauf, ob die Sendung bereits abrufbar ist."
+          ],
+          "links": [
+            [
+              "https://www.sportschau.de/fussball/bundesliga",
+              "Bundesliga bei der Sportschau"
+            ]
+          ]
+        },
+        {
+          "heading": "Bayern oder Dortmund kostenlos im Stream?",
+          "paragraphs": [
+            "Es gibt keinen eigenen dauerhaften kostenlosen Bundesliga-Livestream für Bayern, Dortmund oder einen anderen Verein. Entscheidend ist, ob die jeweilige Partie für eine kostenlose Übertragung ausgewählt wurde.",
+            "Unsere Vereinsseiten zeigen die erfassten Spiele und Sender. Prüfe außerdem den Wettbewerb: Bundesliga, DFB-Pokal und Champions League haben unterschiedliche Rechte."
+          ],
+          "links": []
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kann ich heute die Bundesliga kostenlos schauen?",
+          "answer": "Oben stehen die im aktuellen Siebentagefenster bestätigten kostenlosen Videoübertragungen. Eine leere Liste bedeutet, dass in unseren Daten keine solche Übertragung bestätigt ist. Für alle erfassten Spiele und kostenpflichtigen Sender nutze die Bundesliga-Übersicht."
+        },
+        {
+          "question": "Ist die Bundesliga auf DAZN kostenlos?",
+          "answer": "Die regulären Bundesliga-Liveübertragungen auf DAZN sind kostenpflichtig. Ein kostenloser DAZN-Account allein schaltet diese Spiele nicht frei."
+        },
+        {
+          "question": "Kann ich die Bundesliga ohne Anmeldung streamen?",
+          "answer": "Das hängt vom konkreten kostenlosen Angebot und dem Gerät ab. Prüfe die Zugangsvoraussetzungen direkt beim Sender. Wir versprechen keinen Zugang ohne Registrierung."
+        },
+        {
+          "question": "Kann ich ohne Sky und DAZN live dabei sein?",
+          "answer": "Bei ausgewählten Free-TV-Partien ja, mit Bild. Für alle Bundesliga-Spiele gibt es in der Saison 2026/27 kostenlose Audio-Livereportagen der Sportschau. Highlights zeigen später die wichtigsten Szenen."
+        },
+        {
+          "question": "Sind ausländische Gratis-Streams in Deutschland verfügbar?",
+          "answer": "Übertragungsrechte gelten regional. Ein kostenloses Angebot in Österreich oder der Schweiz ist kein bestätigter kostenloser Stream für Deutschland. Maßgeblich ist die Freigabe des Anbieters für deinen Standort."
+        }
+      ],
+      "sources": [
+        [
+          "https://www.bundesliga.com/de/bundesliga/news/dfl-medienrechte-vergabe-tv-partner-clubs-saison-25-26-28-29-29352",
+          "Bundesliga: nationale Medienrechte 2025/26 bis 2028/29"
+        ],
+        [
+          "https://www.joyn.de/mediatheken/sat1",
+          "Joyn: kostenloser SAT.1-Livestream"
+        ],
+        [
+          "https://www.sportschau.de/fussball/bundesliga-und-2-bundesliga-live-bei-der-sportschau%2Chow-to-audio-netcast-100.html",
+          "Sportschau: kostenlose Audio-Livereportagen 2026/27"
+        ],
+        [
+          "https://www.sportschau.de/fussball/bundesliga/sportschau-sendungen-und-highlights-zur-fussball-bundesliga%2Cdie-bundesliga-in-der-sportschau-100.html",
+          "Sportschau: Sendungen und Highlights"
+        ]
+      ]
+    }
+  },
+  {
+    "path": "champions-league-kostenlos-schauen",
+    "kind": "competition",
+    "pattern": "^Champions League$",
+    "free": true,
+    "title": "Champions League kostenlos schauen: Free-TV & Streams",
+    "intro": "Champions League kostenlos und legal sehen: Was läuft live im Free-TV, wo gibt es Gratis-Highlights und wie kannst du ohne kostenpflichtiges Abo dabei sein?",
+    "editorial": {
+      "verifiedAt": "2026-10-06",
+      "related": [
+        [
+          "free-tv",
+          "Fußball heute im Free-TV"
+        ],
+        [
+          "bundesliga",
+          "Bundesliga: alle Sender"
+        ],
+        [
+          "champions-league",
+          "Champions League: alle Sender"
+        ],
+        [
+          "bundesliga-kostenlos-schauen",
+          "Bundesliga kostenlos schauen"
+        ]
+      ],
+      "answerHeading": "Gibt es einen kostenlosen Champions-League-Livestream?",
+      "answer": "Für die regulären Männer-Partien gibt es in Deutschland keinen dauerhaften kostenlosen legalen Video-Livestream. In der Saison 2026/27 liegen die Liveübertragungen überwiegend bei DAZN und Prime Video. Das Finale ist die wichtige Free-TV-Ausnahme: Die ZDF-Vereinbarung bis 2027 umfasst dessen Liveübertragung. Kostenlose Highlights und Audio-Livereportagen sind weitere Möglichkeiten.",
+      "sections": [
+        {
+          "heading": "Champions League im Free-TV: das Finale",
+          "paragraphs": [
+            "Der ZDF-Vertrag für die Spielzeiten bis einschließlich 2026/27 enthält die Liveübertragung des Männer-Finales sowie Highlight-Rechte. Daraus ergibt sich kein kostenloser Livezugang zu allen Spielen der Ligaphase oder K.-o.-Runden.",
+            "Für die konkrete Übertragung und den Online-Zugang ist die ZDF-Programmansage maßgeblich. Diese Einordnung gilt für 2026/27; spätere Rechteperioden müssen gesondert geprüft werden."
+          ],
+          "links": [
+            [
+              "https://www.zdf.de/sport",
+              "ZDF-Sport und Streamingangebot"
+            ]
+          ]
+        },
+        {
+          "heading": "DAZN und Prime Video: live, aber kostenpflichtig",
+          "paragraphs": [
+            "DAZN und Prime Video teilen sich die regulären Liveübertragungen in Deutschland. Prime Video zeigt in der bis 2027 geltenden Rechteperiode ausgewählte Dienstag-Topspiele; DAZN überträgt die meisten übrigen Partien.",
+            "Bei Prime-Mitgliedern ist das ausgewählte Spiel in der Mitgliedschaft enthalten. „Ohne Zusatzkosten“ bedeutet deshalb nicht „ohne kostenpflichtige Mitgliedschaft“. Ein kostenloser DAZN-Account ist ebenfalls kein Zugang zu den regulären Champions-League-Livespielen."
+          ],
+          "links": [
+            [
+              "https://www.primevideo.com",
+              "Prime Video"
+            ],
+            [
+              "https://www.dazn.com/de-DE/home",
+              "DAZN"
+            ]
+          ]
+        },
+        {
+          "heading": "Champions-League-Highlights kostenlos ansehen",
+          "paragraphs": [
+            "Das ZDF bietet in seiner Vereinbarung bis 2027 Zusammenfassungen und Clips, jeweils mittwochs ab 23 Uhr. Das sind nachträgliche Spielszenen, keine Liveübertragung der gesamten Partie.",
+            "DAZN nennt Champions-League-Highlights für Deutschland auch in seinem kostenlosen Angebot. Welche Clips verfügbar sind und ob ein Account erforderlich ist, prüfst du direkt beim Anbieter."
+          ],
+          "links": [
+            [
+              "https://www.zdf.de/sport",
+              "Highlights beim ZDF"
+            ],
+            [
+              "https://www.dazn.com/de-DE/help/articles/16738769256733-free-angebot",
+              "Das kostenlose DAZN-Angebot"
+            ]
+          ]
+        },
+        {
+          "heading": "Deutsche Teams ohne Abo live hören",
+          "paragraphs": [
+            "Die Sportschau bietet in der Saison 2026/27 Champions-League-Partien der deutschen Teams als kostenlose Audio-Livereportagen in voller Länge an. Bei mehreren gleichzeitigen Spielen gibt es auch eine Konferenz.",
+            "So kannst du ein Spiel live verfolgen, obwohl kein kostenloser Videostream bestätigt ist. Das Angebot liefert Ton und Kommentar, kein Livebild."
+          ],
+          "links": [
+            [
+              "https://www.sportschau.de/audio",
+              "Champions League im Audio-Livestream"
+            ]
+          ]
+        },
+        {
+          "heading": "Bayern, Dortmund & Co.: wo läuft mein Spiel?",
+          "paragraphs": [
+            "Der übertragende Anbieter richtet sich nach der konkreten Partie. Ein Spiel eines deutschen Vereins läuft nicht automatisch im Free-TV und nicht automatisch bei Prime Video.",
+            "Unsere Champions-League-Übersicht zeigt alle im Datenfenster erfassten Spiele mit Sendern. Diese Seite konzentriert sich auf kostenlose Videoübertragungen und nennt separat Audio und Highlights. Die Frauen-Champions-League ist ein eigener Wettbewerb mit gesonderten Rechten."
+          ],
+          "links": []
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kann ich die Champions League heute kostenlos live sehen?",
+          "answer": "Für den konkreten Spieltag müssen kostenlose Videoangebote einzeln bestätigt sein. Oben findest du solche Partien im aktuellen Datenfenster. Ohne bestätigten Gratissender bieten sich Highlights oder bei deutschen Teams kostenlose Audio-Livereportagen an."
+        },
+        {
+          "question": "Läuft die Champions League im ZDF?",
+          "answer": "In der Saison 2026/27 bietet das ZDF Zusammenfassungen und Clips sowie die Liveübertragung des Männer-Finales. Die regulären Spiele werden dadurch nicht zu kostenlosen ZDF-Liveübertragungen."
+        },
+        {
+          "question": "Ist Champions League bei Amazon Prime kostenlos?",
+          "answer": "Das ausgewählte Spiel ist ohne zusätzliche Sportgebühr in der kostenpflichtigen Prime-Mitgliedschaft enthalten. Das ist kein dauerhaft kostenloses Angebot ohne Mitgliedschaft."
+        },
+        {
+          "question": "Gibt es einen kostenlosen Probemonat für mein Spiel?",
+          "answer": "Verlasse dich nicht auf ein pauschales Gratisversprechen. Ob ein Anbieter aktuell einen Testzugang anbietet, ob du dafür berechtigt bist und ob dein Spiel enthalten ist, steht in seinen aktuellen Bedingungen. Ein Testangebot ist kein dauerhafter Gratiszugang."
+        },
+        {
+          "question": "Wie schaue ich ohne DAZN oder Prime?",
+          "answer": "Für das Finale kommt in der Saison 2026/27 das ZDF infrage. Bei regulären Spielen gibt es kostenlose Highlights; deutsche Teams kannst du über die Sportschau live hören. Ohne bestätigte Free-TV-Ausnahme ist kein kostenloser deutscher Videostream in unseren Daten belegt."
+        },
+        {
+          "question": "Ist ein österreichischer oder Schweizer Free-TV-Sender eine Alternative?",
+          "answer": "Solche Angebote haben regionale Übertragungsrechte. Ihre kostenlose Verfügbarkeit vor Ort belegt keinen kostenlosen Zugang in Deutschland. Prüfe die tatsächliche Empfangsregion beim Anbieter."
+        }
+      ],
+      "sources": [
+        [
+          "https://presseportal.zdf.de/pressemitteilung/sportstudio-uefa-champions-league-bis-2027-im-zdf",
+          "ZDF: Highlight-Rechte und Finale live bis 2027"
+        ],
+        [
+          "https://www.aboutamazon.de/news/entertainment/live-sport-bei-prime-video",
+          "Amazon: Live-Sport und Champions-League-Rechte bis 2027"
+        ],
+        [
+          "https://www.dazn.com/de-DE/help/articles/16738769256733-free-angebot",
+          "DAZN: kostenloses Angebot und Champions-League-Highlights"
+        ],
+        [
+          "https://www.sportschau.de/fussball/bundesliga-und-2-bundesliga-live-bei-der-sportschau%2Chow-to-audio-netcast-100.html",
+          "Sportschau: deutsche Champions-League-Teams kostenlos live hören"
+        ]
+      ]
+    }
   }
 ]
