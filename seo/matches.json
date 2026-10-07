@@ -1,24 +1,4 @@
 {
-  "2026-10-06|Deutschland (U21)|Georgien (U21)": {
-    "path": "spiel/deutschland-u21-georgien-u21-2026-10-06",
-    "game": {
-      "date": "2026-10-06",
-      "time": "18:00",
-      "competition": "EM 2027 (U21)",
-      "country": "Europa",
-      "home": "Deutschland (U21)",
-      "away": "Georgien (U21)",
-      "channels": [
-        "ProSieben MAXX",
-        "Joyn"
-      ],
-      "groups": [
-        "free",
-        "other"
-      ]
-    },
-    "dataUpdated": "2026-10-06"
-  },
   "2026-10-08|Schottland ♀ (U23)|Deutschland ♀ (U23)": {
     "path": "spiel/schottland-frauen-u23-deutschland-frauen-u23-2026-10-08",
     "game": {
@@ -48,7 +28,7 @@
       ],
       "verifiedAt": "2026-10-04T05:39:52.312Z"
     },
-    "dataUpdated": "2026-10-06"
+    "dataUpdated": "2026-10-07"
   },
   "2026-10-09|Deutschland ♀ (U17)|Kasachstan ♀ (U17)": {
     "path": "spiel/deutschland-frauen-u17-kasachstan-frauen-u17-2026-10-09",
@@ -70,7 +50,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-06"
+    "dataUpdated": "2026-10-07"
   },
   "2026-10-09|Deutschland ♀|Australien ♀": {
     "path": "spiel/deutschland-frauen-australien-frauen-2026-10-09",
@@ -100,7 +80,7 @@
       ],
       "verifiedAt": "2026-10-03T05:33:41.885Z"
     },
-    "dataUpdated": "2026-10-06"
+    "dataUpdated": "2026-10-07"
   },
   "2026-10-10|1. FC Nürnberg|VfL Wolfsburg": {
     "path": "spiel/1-fc-nuernberg-vfl-wolfsburg-2026-10-10",
@@ -129,120 +109,36 @@
       ],
       "verifiedAt": "2026-10-04T05:39:52.312Z"
     },
-    "dataUpdated": "2026-10-06"
+    "dataUpdated": "2026-10-07"
   },
-  "2026-10-06|SpVgg Unterhaching|SSV Jahn Regensburg": {
-    "path": "spiel/spvgg-unterhaching-ssv-jahn-regensburg-2026-10-06",
+  "2026-10-13|Deutschland ♀|Japan ♀": {
+    "path": "spiel/deutschland-frauen-japan-frauen-2026-10-13",
     "game": {
-      "date": "2026-10-06",
-      "time": "19:00",
-      "competition": "Landespokal Bayern",
-      "country": "Deutschland",
-      "home": "SpVgg Unterhaching",
-      "away": "SSV Jahn Regensburg",
+      "date": "2026-10-13",
+      "time": "17:45",
+      "competition": "Länderspiel (Frauen)",
+      "country": "International",
+      "home": "Deutschland ♀",
+      "away": "Japan ♀",
       "channels": [
-        "münchen.tv"
+        "Das Erste",
+        "ARD Mediathek"
       ],
       "groups": [
-        "free",
-        "other"
+        "free"
       ],
-      "featuredPage": true,
-      "venue": {
-        "name": "Hachinger Sportpark",
-        "city": "Unterhaching",
-        "country": "DE"
-      },
-      "channelLinks": {
-        "münchen.tv": "https://www.muenchen.tv/livestream/"
-      },
-      "verifiedAt": "2026-10-06T12:47:40.626073+00:00",
       "sources": [
         {
-          "name": "BFV – Übertragung und Spielvorschau",
-          "url": "https://www.bfv.de/news/toto-pokal/2026-27/10/toto-pokal-viertelfinale-unterhaching-regensburg-live-tv"
+          "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+          "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
         },
         {
-          "name": "BFV – aktueller Spieltagshinweis",
-          "url": "https://www.bfv.de/news/toto-pokal/2026-27/10/toto-pokal-halbfinalticket-unterhaching-regensburg"
-        },
-        {
-          "name": "SpVgg Unterhaching – Besucherinformationen",
-          "url": "https://www.spvggunterhaching.de/profisverein/infos-zum-toto-pokal-viertelfinale-gegen-den-ssv-jahn-regensburg/"
-        },
-        {
-          "name": "münchen.tv – offizieller Livestream",
-          "url": "https://www.muenchen.tv/livestream/"
-        },
-        {
-          "name": "Fußballgucken.info – Übertragungsabgleich 06.10.2026",
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-06"
+          "url": "https://jfa.jp/nadeshikojapan/20261013/",
+          "name": "JFA – Deutschland gegen Japan am 13.10.2026"
         }
       ],
-      "pageIntro": "Haching gegen Jahn Regensburg: Am Dienstag, 6. Oktober 2026, wird im Hachinger Sportpark das letzte Halbfinalticket im bayerischen Toto-Pokal vergeben. Anstoß ist um 19:00 Uhr deutscher Zeit. münchen.tv zeigt die Begegnung live im Free-TV und im offiziellen Livestream.",
-      "pageSections": [
-        {
-          "heading": "Unterhaching – Regensburg live: Sender und Übertragungsbeginn",
-          "paragraphs": [
-            "Das Pokalviertelfinale läuft bei münchen.tv. Der BFV kündigt den Beginn der TV-Übertragung für 18:30 Uhr an; der Anstoß folgt um 19:00 Uhr. Wer erst zur Anstoßzeit einschaltet, verpasst damit die angekündigte Vorberichterstattung.",
-            "Über den verlinkten Sender-Livestream kannst du das Programm auch auf Computer, Smartphone oder Tablet verfolgen. Ein Sky-, DAZN- oder MagentaSport-Abonnement wird für dieses Angebot nicht benötigt. Spieltag Aktuell verlinkt zum offiziellen Anbieter und zeigt selbst keinen Videostream."
-          ]
-        },
-        {
-          "heading": "Viertelfinale im Toto-Pokal: Worum geht es?",
-          "paragraphs": [
-            "Der Sieger erreicht das Halbfinale des bayerischen Verbandspokals 2026/27. Aubstadt, Schweinfurt und Ingolstadt haben sich bereits qualifiziert. Es handelt sich um ein Pokalspiel und nicht um eine Ligapartie.",
-            "Der spätere Toto-Pokal-Sieger erhält einen Platz im DFB-Pokal 2027/28. Das heutige Viertelfinale bringt also noch keine direkte DFB-Pokal-Qualifikation, hält diese Chance aber offen."
-          ]
-        },
-        {
-          "heading": "Spielvorschau: Heimvorteil für Haching, Klassenvergleich für den Jahn",
-          "paragraphs": [
-            "Regionalligist Unterhaching empfängt mit Regensburg einen Drittligisten. Die höhere Spielklasse spricht zunächst für den Jahn; daraus lässt sich aber kein sicherer Favoritensieg ableiten.",
-            "Laut BFV blieb Haching zuletzt sieben Pflichtspiele ungeschlagen. Die jüngsten drei Partien endeten jeweils unentschieden. Regensburg wartet dagegen nach dem Auftaktsieg in Köln auf den zweiten Ligaerfolg und kommt mit fünf Punkten aus sieben Ligaspielen.",
-            "Eine Prognose muss diese unterschiedlichen Voraussetzungen berücksichtigen: Haching kann im eigenen Stadion auf seine stabile Serie bauen, während Regensburg im Pokal ein Erfolgserlebnis sucht. Eine bestätigte Startelf liegt unserer Seite zum Zeitpunkt der Recherche nicht vor."
-          ]
-        },
-        {
-          "heading": "Tickets, Einlass und Anreise zum Sportpark",
-          "paragraphs": [
-            "Die Tageskassen öffnen um 17:15 Uhr, der Einlass beginnt um 17:30 Uhr. Heimtickets gibt es an der Osttribüne, Gästetickets an der Nordtribüne. Der Verein empfiehlt den Vorverkauf und eine Ankunft am Eingang bis spätestens 18:45 Uhr. Jahreskarten gelten für dieses Pokalspiel nicht.",
-            "Wegen der Fantrennung empfiehlt Unterhaching Heimfans und neutralen Besuchern die S-Bahn-Station Unterhaching, Gästefans die Station Fasanenpark. Von beiden Stationen beträgt der jeweilige Fußweg ungefähr zehn Minuten. Für Jahn-Fans ist die Parkfläche S3 am Infineon Campeon vorgesehen.",
-            "Rund um den Sportpark sind Zufahrten ab 17:00 Uhr gesperrt. P1 und P2 stehen nicht öffentlich zur Verfügung. Bitte beachte die verlinkten Vereinsinfos zu den getrennten Zugangswegen. An Kiosken und Garderoben ist ausschließlich Barzahlung möglich."
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "question": "Wann spielt Haching gegen Regensburg?",
-          "answer": "Am Dienstag, 6. Oktober 2026, um 19:00 Uhr deutscher Zeit im Hachinger Sportpark."
-        },
-        {
-          "question": "Wo kann ich Unterhaching gegen Jahn Regensburg kostenlos schauen?",
-          "answer": "Bei münchen.tv im Free-TV und über den offiziellen Sender-Livestream. Der Anbieterlink steht direkt bei der Senderangabe oben."
-        },
-        {
-          "question": "Wann beginnt die Übertragung?",
-          "answer": "Laut BFV beginnt die Liveübertragung um 18:30 Uhr. Anstoß ist um 19:00 Uhr."
-        },
-        {
-          "question": "Ist Haching – Regensburg ein Spiel der 3. Liga?",
-          "answer": "Nein. Diese Begegnung gehört zum Viertelfinale des Toto-Pokals Bayern 2026/27."
-        },
-        {
-          "question": "Sind die Aufstellungen schon bekannt?",
-          "answer": "Zum dokumentierten Recherchezeitpunkt sind auf dieser Seite noch keine bestätigten Startaufstellungen hinterlegt."
-        },
-        {
-          "question": "Kann ich mit meiner Haching-Jahreskarte ins Stadion?",
-          "answer": "Nein. Nach den Besucherinformationen des Vereins gelten Jahreskarten für diese Pokalpartie nicht."
-        },
-        {
-          "question": "Wo finde ich weitere kostenlose Fußballübertragungen?",
-          "answer": "In der Übersicht Fußball im Free-TV auf Spieltag Aktuell findest du weitere Spiele mit bestätigten kostenlosen Angeboten in Deutschland."
-        }
-      ]
+      "verifiedAt": "2026-10-07T05:30:06.508Z"
     },
-    "dataUpdated": "2026-10-06"
+    "dataUpdated": "2026-10-07"
   }
 }
