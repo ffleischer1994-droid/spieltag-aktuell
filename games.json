@@ -1,367 +1,5 @@
 [
   {
-    "date": "2026-10-06",
-    "time": "14:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "SV Werder Bremen II",
-    "away": "Hannover 96 II",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "16:00",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Kasachstan",
-    "away": "Färöer Inseln",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "16:00",
-    "competition": "Länderspiel (U19)",
-    "country": "International",
-    "home": "Portugal (U19)",
-    "away": "Österreich (U19)",
-    "channels": [
-      "ÖFB TV (AT)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://www.oefb.tv/de/live",
-        "name": "ÖFB TV – U19-Livestream"
-      }
-    ],
-    "verifiedAt": "2026-10-04T05:39:52.312Z"
-  },
-  {
-    "date": "2026-10-06",
-    "time": "17:30",
-    "competition": "EM 2027 (U21)",
-    "country": "Europa",
-    "home": "Nordirland (U21)",
-    "away": "Griechenland (U21)",
-    "channels": [
-      "DFB.TV",
-      "DAZN"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-06",
-        "name": "Fußballgucken.info – 06.10.2026"
-      }
-    ],
-    "verifiedAt": "2026-10-04T05:39:52.312Z"
-  },
-  {
-    "date": "2026-10-06",
-    "time": "18:00",
-    "competition": "EM 2027 (U21)",
-    "country": "Europa",
-    "home": "Deutschland (U21)",
-    "away": "Georgien (U21)",
-    "channels": [
-      "ProSieben MAXX",
-      "Joyn"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "18:00",
-    "competition": "EM 2027 (U21)",
-    "country": "Europa",
-    "home": "Wales (U21)",
-    "away": "Österreich (U21)",
-    "channels": [
-      "ORF Sport+ (AT)",
-      "ORF ON (AT)"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "19:00",
-    "competition": "EM 2027 (U21)",
-    "country": "Europa",
-    "home": "Frankreich (U21)",
-    "away": "Schweiz (U21)",
-    "channels": [
-      "RSI LA 2 (CH)",
-      "Play RSI (CH)"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "19:00",
-    "competition": "Landespokal Bayern",
-    "country": "Deutschland",
-    "home": "SpVgg Unterhaching",
-    "away": "SSV Jahn Regensburg",
-    "channels": [
-      "münchen.tv"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "featuredPage": true,
-    "venue": {
-      "name": "Hachinger Sportpark",
-      "city": "Unterhaching",
-      "country": "DE"
-    },
-    "channelLinks": {
-      "münchen.tv": "https://www.muenchen.tv/livestream/"
-    },
-    "verifiedAt": "2026-10-06T12:47:40.626073+00:00",
-    "sources": [
-      {
-        "name": "BFV – Übertragung und Spielvorschau",
-        "url": "https://www.bfv.de/news/toto-pokal/2026-27/10/toto-pokal-viertelfinale-unterhaching-regensburg-live-tv"
-      },
-      {
-        "name": "BFV – aktueller Spieltagshinweis",
-        "url": "https://www.bfv.de/news/toto-pokal/2026-27/10/toto-pokal-halbfinalticket-unterhaching-regensburg"
-      },
-      {
-        "name": "SpVgg Unterhaching – Besucherinformationen",
-        "url": "https://www.spvggunterhaching.de/profisverein/infos-zum-toto-pokal-viertelfinale-gegen-den-ssv-jahn-regensburg/"
-      },
-      {
-        "name": "münchen.tv – offizieller Livestream",
-        "url": "https://www.muenchen.tv/livestream/"
-      },
-      {
-        "name": "Fußballgucken.info – Übertragungsabgleich 06.10.2026",
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-06"
-      }
-    ],
-    "pageIntro": "Haching gegen Jahn Regensburg: Am Dienstag, 6. Oktober 2026, wird im Hachinger Sportpark das letzte Halbfinalticket im bayerischen Toto-Pokal vergeben. Anstoß ist um 19:00 Uhr deutscher Zeit. münchen.tv zeigt die Begegnung live im Free-TV und im offiziellen Livestream.",
-    "pageSections": [
-      {
-        "heading": "Unterhaching – Regensburg live: Sender und Übertragungsbeginn",
-        "paragraphs": [
-          "Das Pokalviertelfinale läuft bei münchen.tv. Der BFV kündigt den Beginn der TV-Übertragung für 18:30 Uhr an; der Anstoß folgt um 19:00 Uhr. Wer erst zur Anstoßzeit einschaltet, verpasst damit die angekündigte Vorberichterstattung.",
-          "Über den verlinkten Sender-Livestream kannst du das Programm auch auf Computer, Smartphone oder Tablet verfolgen. Ein Sky-, DAZN- oder MagentaSport-Abonnement wird für dieses Angebot nicht benötigt. Spieltag Aktuell verlinkt zum offiziellen Anbieter und zeigt selbst keinen Videostream."
-        ]
-      },
-      {
-        "heading": "Viertelfinale im Toto-Pokal: Worum geht es?",
-        "paragraphs": [
-          "Der Sieger erreicht das Halbfinale des bayerischen Verbandspokals 2026/27. Aubstadt, Schweinfurt und Ingolstadt haben sich bereits qualifiziert. Es handelt sich um ein Pokalspiel und nicht um eine Ligapartie.",
-          "Der spätere Toto-Pokal-Sieger erhält einen Platz im DFB-Pokal 2027/28. Das heutige Viertelfinale bringt also noch keine direkte DFB-Pokal-Qualifikation, hält diese Chance aber offen."
-        ]
-      },
-      {
-        "heading": "Spielvorschau: Heimvorteil für Haching, Klassenvergleich für den Jahn",
-        "paragraphs": [
-          "Regionalligist Unterhaching empfängt mit Regensburg einen Drittligisten. Die höhere Spielklasse spricht zunächst für den Jahn; daraus lässt sich aber kein sicherer Favoritensieg ableiten.",
-          "Laut BFV blieb Haching zuletzt sieben Pflichtspiele ungeschlagen. Die jüngsten drei Partien endeten jeweils unentschieden. Regensburg wartet dagegen nach dem Auftaktsieg in Köln auf den zweiten Ligaerfolg und kommt mit fünf Punkten aus sieben Ligaspielen.",
-          "Eine Prognose muss diese unterschiedlichen Voraussetzungen berücksichtigen: Haching kann im eigenen Stadion auf seine stabile Serie bauen, während Regensburg im Pokal ein Erfolgserlebnis sucht. Eine bestätigte Startelf liegt unserer Seite zum Zeitpunkt der Recherche nicht vor."
-        ]
-      },
-      {
-        "heading": "Tickets, Einlass und Anreise zum Sportpark",
-        "paragraphs": [
-          "Die Tageskassen öffnen um 17:15 Uhr, der Einlass beginnt um 17:30 Uhr. Heimtickets gibt es an der Osttribüne, Gästetickets an der Nordtribüne. Der Verein empfiehlt den Vorverkauf und eine Ankunft am Eingang bis spätestens 18:45 Uhr. Jahreskarten gelten für dieses Pokalspiel nicht.",
-          "Wegen der Fantrennung empfiehlt Unterhaching Heimfans und neutralen Besuchern die S-Bahn-Station Unterhaching, Gästefans die Station Fasanenpark. Von beiden Stationen beträgt der jeweilige Fußweg ungefähr zehn Minuten. Für Jahn-Fans ist die Parkfläche S3 am Infineon Campeon vorgesehen.",
-          "Rund um den Sportpark sind Zufahrten ab 17:00 Uhr gesperrt. P1 und P2 stehen nicht öffentlich zur Verfügung. Bitte beachte die verlinkten Vereinsinfos zu den getrennten Zugangswegen. An Kiosken und Garderoben ist ausschließlich Barzahlung möglich."
-        ]
-      }
-    ],
-    "faq": [
-      {
-        "question": "Wann spielt Haching gegen Regensburg?",
-        "answer": "Am Dienstag, 6. Oktober 2026, um 19:00 Uhr deutscher Zeit im Hachinger Sportpark."
-      },
-      {
-        "question": "Wo kann ich Unterhaching gegen Jahn Regensburg kostenlos schauen?",
-        "answer": "Bei münchen.tv im Free-TV und über den offiziellen Sender-Livestream. Der Anbieterlink steht direkt bei der Senderangabe oben."
-      },
-      {
-        "question": "Wann beginnt die Übertragung?",
-        "answer": "Laut BFV beginnt die Liveübertragung um 18:30 Uhr. Anstoß ist um 19:00 Uhr."
-      },
-      {
-        "question": "Ist Haching – Regensburg ein Spiel der 3. Liga?",
-        "answer": "Nein. Diese Begegnung gehört zum Viertelfinale des Toto-Pokals Bayern 2026/27."
-      },
-      {
-        "question": "Sind die Aufstellungen schon bekannt?",
-        "answer": "Zum dokumentierten Recherchezeitpunkt sind auf dieser Seite noch keine bestätigten Startaufstellungen hinterlegt."
-      },
-      {
-        "question": "Kann ich mit meiner Haching-Jahreskarte ins Stadion?",
-        "answer": "Nein. Nach den Besucherinformationen des Vereins gelten Jahreskarten für diese Pokalpartie nicht."
-      },
-      {
-        "question": "Wo finde ich weitere kostenlose Fußballübertragungen?",
-        "answer": "In der Übersicht Fußball im Free-TV auf Spieltag Aktuell findest du weitere Spiele mit bestätigten kostenlosen Angeboten in Deutschland."
-      }
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Albanien",
-    "away": "San Marino",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Belarus",
-    "away": "Finnland",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "England",
-    "away": "Tschechien",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Estland",
-    "away": "Island",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Kroatien",
-    "away": "Spanien",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Luxemburg",
-    "away": "Bulgarien",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Republik Moldau",
-    "away": "Slowakei",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Schottland",
-    "away": "Slowenien",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "time": "20:45",
-    "competition": "Nations League",
-    "country": "Europa",
-    "home": "Schweiz",
-    "away": "Nordmazedonien",
-    "channels": [
-      "RSI LA 2 (CH)",
-      "RTS 2 (CH)",
-      "SRF zwei (CH)",
-      "DAZN",
-      "Play RSI (CH)",
-      "Play SRF",
-      "Play SRF (App)",
-      "SRF Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ]
-  },
-  {
     "date": "2026-10-07",
     "time": "02:30",
     "competition": "Major League Soccer",
@@ -538,6 +176,56 @@
       }
     ],
     "verifiedAt": "2026-10-06T05:32:50.160Z"
+  },
+  {
+    "date": "2026-10-08",
+    "time": "17:00",
+    "competition": "Veikkausliiga (Finnland)",
+    "country": "Finnland",
+    "home": "HJK Helsinki",
+    "away": "Vaasan PS",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://www.hjk.fi/ottelut",
+        "name": "HJK Helsinki – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-08",
+    "time": "18:00",
+    "competition": "Veikkausliiga (Finnland)",
+    "country": "Finnland",
+    "home": "Kuopion PS",
+    "away": "AC Oulu",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://www.veikkausliiga.com/tilastot/2026/veikkausliiga/ottelut/4353563/",
+        "name": "Veikkausliiga – offizieller Spielbericht KuPS–AC Oulu"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
   },
   {
     "date": "2026-10-08",
@@ -3744,5 +3432,495 @@
       }
     ],
     "verifiedAt": "2026-10-06T05:32:50.160Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "17:45",
+    "competition": "Länderspiel (Frauen)",
+    "country": "International",
+    "home": "Deutschland ♀",
+    "away": "Japan ♀",
+    "channels": [
+      "Das Erste",
+      "ARD Mediathek"
+    ],
+    "groups": [
+      "free"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://jfa.jp/nadeshikojapan/20261013/",
+        "name": "JFA – Deutschland gegen Japan am 13.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "18:00",
+    "competition": "WM 2027 (Frauen)",
+    "country": "Europa",
+    "home": "Österreich ♀",
+    "away": "Kosovo ♀",
+    "channels": [
+      "ORF 1 (AT)",
+      "ORF ON (AT)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "channelLinks": {
+      "ORF 1 (AT)": "https://tv.orf.at/fifafrauen328.html",
+      "ORF ON (AT)": "https://tv.orf.at/fifafrauen328.html"
+    },
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://www.oefb.at/oefb/Spiel/4070925/?Oesterreich-vs-Kosovo=",
+        "name": "ÖFB – Österreich gegen Kosovo"
+      },
+      {
+        "url": "https://tv.orf.at/fifafrauen328.html",
+        "name": "ORF – Liveübertragung Österreich gegen Kosovo"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "18:45",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "RC Lens",
+    "away": "Sporting Lissabon",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://www.transfermarkt.com/spielbericht/index/spielbericht/5035988",
+        "name": "Transfermarkt – RC Lens gegen Sporting CP"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "18:45",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "Sabah FK",
+    "away": "Slavia Prag",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://www.eurosport.es/futbol/champions-league/2026-2027/sabah-fk-slavia-praga_mtc21878455/live.shtml",
+        "name": "Eurosport – Sabah FK gegen Slavia Prag"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "19:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "1. FC Saarbrücken",
+    "away": "MSV Duisburg",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/de/competitions/3-liga/seasons/2026-2027/matchday/9",
+        "name": "DFB-Datencenter – 3. Liga, 9. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "19:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "Hansa Rostock",
+    "away": "SV Meppen",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/de/competitions/3-liga/seasons/2026-2027/matchday/9",
+        "name": "DFB-Datencenter – 3. Liga, 9. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "19:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "Rot-Weiss Essen",
+    "away": "Fortuna Köln",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/de/competitions/3-liga/seasons/2026-2027/matchday/9",
+        "name": "DFB-Datencenter – 3. Liga, 9. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "19:00",
+    "competition": "Regionalliga Bayern",
+    "country": "Deutschland",
+    "home": "TSV 1860 München",
+    "away": "SpVgg Bayreuth",
+    "channels": [
+      "BR24 Sport (Livestream)",
+      "BR24 Sport (YouTube)",
+      "ARD Mediathek"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "19:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "TSV Havelse",
+    "away": "FC Würzburger Kickers",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/de/competitions/3-liga/seasons/2026-2027/matchday/9",
+        "name": "DFB-Datencenter – 3. Liga, 9. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "19:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "VfB Stuttgart II",
+    "away": "1899 Hoffenheim II",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/de/competitions/3-liga/seasons/2026-2027/matchday/9",
+        "name": "DFB-Datencenter – 3. Liga, 9. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "19:30",
+    "competition": "WM 2027 (Frauen)",
+    "country": "Europa",
+    "home": "Schweiz ♀",
+    "away": "Israel ♀",
+    "channels": [
+      "SRF zwei (CH)",
+      "RTS 2 (CH)",
+      "RSI La 2 (CH)",
+      "SFV Play (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://www.axawomenscup.ch/sfv/nationalteams/a-team/eventinfo/tabid5381.aspx",
+        "name": "SFV – Eventinfos Schweiz gegen Israel"
+      },
+      {
+        "url": "https://www.srf.ch/sport/fussball/frauen-nationalteam/wm-playoffs-am-9-13-oktober-der-fahrplan-so-naehert-sich-die-frauen-nati-dem-israel-duell-an",
+        "name": "SRF – WM-Playoff Schweiz gegen Israel"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "Atletico Madrid",
+    "away": "Manchester United",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "FC Arsenal",
+    "away": "OSC Lille",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://www.espn.com/soccer/match/_/gameId/401915417/lille-arsenal",
+        "name": "ESPN – Arsenal gegen Lille"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "FC Villarreal",
+    "away": "SSC Neapel",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://www.espn.com/soccer/match/_/gameId/401915410/napoli-villarreal",
+        "name": "ESPN – Villarreal gegen Napoli"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "Galatasaray Istanbul",
+    "away": "FC Barcelona",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://ru.uefa.com/uefachampionsleague/match/2049576--galatasaray-vs-barcelona/",
+        "name": "UEFA – Galatasaray gegen Barcelona"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "Inter Mailand",
+    "away": "Club Brügge",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "RB Leipzig",
+    "away": "PSV Eindhoven",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "Viking Stavanger FK",
+    "away": "FC Bayern München",
+    "channels": [
+      "Prime Video",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "prime",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+      },
+      {
+        "url": "https://pt.uefa.com/uefachampionsleague/match/2049578--viking-vs-bayern-munchen/",
+        "name": "UEFA – Viking gegen Bayern München"
+      },
+      {
+        "url": "https://www.primevideo.com/-/pt/detail/0P1OIE2JUQ43S0RIIZIIPPT4W6",
+        "name": "Prime Video – Viking gegen Bayern München"
+      }
+    ],
+    "verifiedAt": "2026-10-07T05:30:06.508Z"
   }
 ]
