@@ -1,35 +1,4 @@
 {
-  "2026-10-08|Schottland ♀ (U23)|Deutschland ♀ (U23)": {
-    "path": "spiel/schottland-frauen-u23-deutschland-frauen-u23-2026-10-08",
-    "game": {
-      "date": "2026-10-08",
-      "time": "20:00",
-      "competition": "Länderspiel (U23 Frauen)",
-      "country": "International",
-      "home": "Schottland ♀ (U23)",
-      "away": "Deutschland ♀ (U23)",
-      "channels": [
-        "DF1",
-        "DFB.TV"
-      ],
-      "groups": [
-        "free",
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://www.dfb.de/frauen/nationalmannschaften/u-23/spiele-und-termine",
-          "name": "DFB – U23-Frauen Spiele und Termine"
-        },
-        {
-          "url": "https://de.linkedin.com/posts/df1-medien-gmbh_fussball-dfb-nationalmannschaft-activity-7511346198457544704-NRJt",
-          "name": "DF1 – Live-Übertragung"
-        }
-      ],
-      "verifiedAt": "2026-10-04T05:39:52.312Z"
-    },
-    "dataUpdated": "2026-10-08"
-  },
   "2026-10-09|Deutschland ♀ (U17)|Kasachstan ♀ (U17)": {
     "path": "spiel/deutschland-frauen-u17-kasachstan-frauen-u17-2026-10-09",
     "game": {
@@ -50,7 +19,7 @@
         "other"
       ]
     },
-    "dataUpdated": "2026-10-08"
+    "dataUpdated": "2026-10-09"
   },
   "2026-10-09|Deutschland ♀|Australien ♀": {
     "path": "spiel/deutschland-frauen-australien-frauen-2026-10-09",
@@ -80,7 +49,7 @@
       ],
       "verifiedAt": "2026-10-03T05:33:41.885Z"
     },
-    "dataUpdated": "2026-10-08"
+    "dataUpdated": "2026-10-09"
   },
   "2026-10-10|1. FC Nürnberg|VfL Wolfsburg": {
     "path": "spiel/1-fc-nuernberg-vfl-wolfsburg-2026-10-10",
@@ -109,7 +78,7 @@
       ],
       "verifiedAt": "2026-10-04T05:39:52.312Z"
     },
-    "dataUpdated": "2026-10-08"
+    "dataUpdated": "2026-10-09"
   },
   "2026-10-13|Deutschland ♀|Japan ♀": {
     "path": "spiel/deutschland-frauen-japan-frauen-2026-10-13",
@@ -139,6 +108,39 @@
       ],
       "verifiedAt": "2026-10-07T05:30:06.508Z"
     },
-    "dataUpdated": "2026-10-08"
+    "dataUpdated": "2026-10-09"
+  },
+  "2026-10-15|Tschechien ♀ (U17)|Deutschland ♀ (U17)": {
+    "path": "spiel/tschechien-frauen-u17-deutschland-frauen-u17-2026-10-15",
+    "game": {
+      "date": "2026-10-15",
+      "time": "12:30",
+      "competition": "U17-EM (Frauen)",
+      "country": "Europa",
+      "home": "Tschechien ♀ (U17)",
+      "away": "Deutschland ♀ (U17)",
+      "channels": [
+        "DFB.TV",
+        "DAZN",
+        "DFB (YouTube)"
+      ],
+      "groups": [
+        "free",
+        "dazn",
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
+          "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
+        },
+        {
+          "url": "https://www.uefa.com/womensunder17/teams/2600043--germany/matches/",
+          "name": "UEFA – Deutschland U17-Frauen Spielplan"
+        }
+      ],
+      "verifiedAt": "2026-10-09T05:30:28.609Z"
+    },
+    "dataUpdated": "2026-10-09"
   }
 }
