@@ -241,29 +241,6 @@
   {
     "date": "2026-10-10",
     "time": "14:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "Fortuna Köln",
-    "away": "1. FC Saarbrücken",
-    "channels": [
-      "WDR Fernsehen",
-      "MagentaSport"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
-        "name": "DFB Datencenter – 3. Liga"
-      }
-    ],
-    "verifiedAt": "2026-10-04T05:39:52.312Z"
-  },
-  {
-    "date": "2026-10-10",
-    "time": "14:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
     "home": "FSV Frankfurt",
@@ -293,6 +270,29 @@
       "dazn",
       "other"
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "Fortuna Köln",
+    "away": "1. FC Saarbrücken",
+    "channels": [
+      "WDR Fernsehen",
+      "MagentaSport"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
+        "name": "DFB Datencenter – 3. Liga"
+      }
+    ],
+    "verifiedAt": "2026-10-04T05:39:52.312Z"
   },
   {
     "date": "2026-10-10",
@@ -384,20 +384,6 @@
   {
     "date": "2026-10-10",
     "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "Sportfreunde Lotte",
-    "away": "SC Paderborn 07 II",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ]
-  },
-  {
-    "date": "2026-10-10",
-    "time": "14:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
     "home": "SSV Ulm",
@@ -445,6 +431,20 @@
       }
     ],
     "verifiedAt": "2026-10-04T05:39:52.312Z"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "14:00",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "Sportfreunde Lotte",
+    "away": "SC Paderborn 07 II",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ]
   },
   {
     "date": "2026-10-10",
@@ -4954,32 +4954,6 @@
   {
     "date": "2026-10-16",
     "time": "19:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "Fortuna Köln",
-    "away": "VfB Stuttgart II",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.dfb.de/news/spieltage-8-bis-15-in-der-3-liga-terminiert",
-        "name": "DFB – zeitgenaue Ansetzung und Medienrechte"
-      }
-    ],
-    "verifiedAt": "2026-10-10T05:38:30.458Z"
-  },
-  {
-    "date": "2026-10-16",
-    "time": "19:00",
     "competition": "Regionalliga Bayern",
     "country": "Deutschland",
     "home": "FV Illertissen",
@@ -5007,12 +4981,13 @@
   {
     "date": "2026-10-16",
     "time": "19:00",
-    "competition": "Women's Super League",
-    "country": "Schweiz",
-    "home": "Servette FC Chênois ♀",
-    "away": "FC Luzern ♀",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "Fortuna Köln",
+    "away": "VfB Stuttgart II",
     "channels": [
-      "AWSL Play (CH)"
+      "MagentaSport",
+      "OneFootball"
     ],
     "groups": [
       "other"
@@ -5023,8 +4998,8 @@
         "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
       },
       {
-        "url": "https://matchcenter-sfl.football.ch/Default.aspx?a=pt&lng=1&ls=25615&oid=2&sg=69929&t=63182&v=777835",
-        "name": "Swiss Football League – Matchcenter"
+        "url": "https://www.dfb.de/news/spieltage-8-bis-15-in-der-3-liga-terminiert",
+        "name": "DFB – zeitgenaue Ansetzung und Medienrechte"
       }
     ],
     "verifiedAt": "2026-10-10T05:38:30.458Z"
@@ -5050,6 +5025,31 @@
       {
         "url": "https://wdfv.de/spielbetrieb/herren-regionalliga-west",
         "name": "WDFV – Regionalliga West"
+      }
+    ],
+    "verifiedAt": "2026-10-10T05:38:30.458Z"
+  },
+  {
+    "date": "2026-10-16",
+    "time": "19:00",
+    "competition": "Women's Super League",
+    "country": "Schweiz",
+    "home": "Servette FC Chênois ♀",
+    "away": "FC Luzern ♀",
+    "channels": [
+      "AWSL Play (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://matchcenter-sfl.football.ch/Default.aspx?a=pt&lng=1&ls=25615&oid=2&sg=69929&t=63182&v=777835",
+        "name": "Swiss Football League – Matchcenter"
       }
     ],
     "verifiedAt": "2026-10-10T05:38:30.458Z"
