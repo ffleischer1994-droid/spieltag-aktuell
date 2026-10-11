@@ -1,33 +1,4 @@
 {
-  "2026-10-10|1. FC Nürnberg|VfL Wolfsburg": {
-    "path": "spiel/1-fc-nuernberg-vfl-wolfsburg-2026-10-10",
-    "game": {
-      "date": "2026-10-10",
-      "time": "20:30",
-      "competition": "2. Bundesliga",
-      "country": "Deutschland",
-      "home": "1. FC Nürnberg",
-      "away": "VfL Wolfsburg",
-      "channels": [
-        "NITRO",
-        "Sky Sport Bundesliga",
-        "Sky Go",
-        "WOW"
-      ],
-      "groups": [
-        "free",
-        "sky"
-      ],
-      "sources": [
-        {
-          "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
-          "name": "Bundesliga – TV-Plan"
-        }
-      ],
-      "verifiedAt": "2026-10-04T05:39:52.312Z"
-    },
-    "dataUpdated": "2026-10-10"
-  },
   "2026-10-13|Deutschland ♀|Japan ♀": {
     "path": "spiel/deutschland-frauen-japan-frauen-2026-10-13",
     "game": {
@@ -56,7 +27,7 @@
       ],
       "verifiedAt": "2026-10-07T05:30:06.508Z"
     },
-    "dataUpdated": "2026-10-10"
+    "dataUpdated": "2026-10-11"
   },
   "2026-10-15|Tschechien ♀ (U17)|Deutschland ♀ (U17)": {
     "path": "spiel/tschechien-frauen-u17-deutschland-frauen-u17-2026-10-15",
@@ -89,7 +60,7 @@
       ],
       "verifiedAt": "2026-10-09T05:30:28.609Z"
     },
-    "dataUpdated": "2026-10-10"
+    "dataUpdated": "2026-10-11"
   },
   "2026-10-16|SC Freiburg ♀|RB Leipzig ♀": {
     "path": "spiel/sc-freiburg-frauen-rb-leipzig-frauen-2026-10-16",
@@ -120,6 +91,148 @@
       ],
       "verifiedAt": "2026-10-10T05:38:30.458Z"
     },
-    "dataUpdated": "2026-10-10"
+    "dataUpdated": "2026-10-11"
+  },
+  "2026-10-17|1. FC Köln ♀|Hamburger SV ♀": {
+    "path": "spiel/1-fc-koeln-frauen-hamburger-sv-frauen-2026-10-17",
+    "game": {
+      "date": "2026-10-17",
+      "time": "12:00",
+      "competition": "Frauen-Bundesliga",
+      "country": "Deutschland",
+      "home": "1. FC Köln ♀",
+      "away": "Hamburger SV ♀",
+      "channels": [
+        "DAZN",
+        "MagentaSport",
+        "OneFootball"
+      ],
+      "groups": [
+        "dazn",
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+          "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+        },
+        {
+          "url": "https://datencenter.dfb.de/competitions/14/seasons/current",
+          "name": "DFB Datencenter – Frauen-Bundesliga"
+        }
+      ],
+      "verifiedAt": "2026-10-11T05:31:00.640Z"
+    },
+    "dataUpdated": "2026-10-11"
+  },
+  "2026-10-17|Bayer 04 Leverkusen ♀|Eintracht Frankfurt ♀": {
+    "path": "spiel/bayer-04-leverkusen-frauen-eintracht-frankfurt-frauen-2026-10-17",
+    "game": {
+      "date": "2026-10-17",
+      "time": "14:00",
+      "competition": "Frauen-Bundesliga",
+      "country": "Deutschland",
+      "home": "Bayer 04 Leverkusen ♀",
+      "away": "Eintracht Frankfurt ♀",
+      "channels": [
+        "DAZN",
+        "MagentaSport",
+        "OneFootball"
+      ],
+      "groups": [
+        "dazn",
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+          "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+        },
+        {
+          "url": "https://datencenter.dfb.de/competitions/14/seasons/current",
+          "name": "DFB Datencenter – Frauen-Bundesliga"
+        }
+      ],
+      "verifiedAt": "2026-10-11T05:31:00.640Z"
+    },
+    "dataUpdated": "2026-10-11"
+  },
+  "2026-10-17|Linzer ASK ♀|FC Blau Weiß Linz/Union Kleinmünchen ♀": {
+    "path": "spiel/linzer-ask-frauen-fc-blau-weiss-linz-union-kleinmuenchen-frauen-2026-10-17",
+    "game": {
+      "date": "2026-10-17",
+      "time": "14:00",
+      "competition": "ÖFB Frauen Bundesliga",
+      "country": "Österreich",
+      "home": "Linzer ASK ♀",
+      "away": "FC Blau Weiß Linz/Union Kleinmünchen ♀",
+      "channels": [
+        "LAOLA1",
+        "ÖFB TV (AT)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+          "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+        }
+      ],
+      "verifiedAt": "2026-10-11T05:31:00.640Z"
+    },
+    "dataUpdated": "2026-10-11"
+  },
+  "2026-10-17|SpG Südburgenland/TSV Hartberg ♀|Red Bull Salzburg ♀": {
+    "path": "spiel/spg-suedburgenland-tsv-hartberg-frauen-red-bull-salzburg-frauen-2026-10-17",
+    "game": {
+      "date": "2026-10-17",
+      "time": "14:30",
+      "competition": "ÖFB Frauen Bundesliga",
+      "country": "Österreich",
+      "home": "SpG Südburgenland/TSV Hartberg ♀",
+      "away": "Red Bull Salzburg ♀",
+      "channels": [
+        "LAOLA1",
+        "ÖFB TV (AT)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+          "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+        }
+      ],
+      "verifiedAt": "2026-10-11T05:31:00.640Z"
+    },
+    "dataUpdated": "2026-10-11"
+  },
+  "2026-10-17|SK Rapid Wien ♀|First Vienna FC 1894 ♀": {
+    "path": "spiel/sk-rapid-wien-frauen-first-vienna-fc-1894-frauen-2026-10-17",
+    "game": {
+      "date": "2026-10-17",
+      "time": "17:00",
+      "competition": "ÖFB Frauen Bundesliga",
+      "country": "Österreich",
+      "home": "SK Rapid Wien ♀",
+      "away": "First Vienna FC 1894 ♀",
+      "channels": [
+        "LAOLA1",
+        "ÖFB TV (AT)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+          "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+        }
+      ],
+      "verifiedAt": "2026-10-11T05:31:00.640Z"
+    },
+    "dataUpdated": "2026-10-11"
   }
 }
