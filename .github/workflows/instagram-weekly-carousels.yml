@@ -76,8 +76,8 @@ jobs:
           git config user.email actions@users.noreply.github.com
           git add social/weekly-generated
           git commit -m "Render weekly Instagram carousel for $DATE" || true
-          git stash push --include-untracked -m "weekly-render-temp" || true
-          git pull --rebase origin main
+          # Rebase tracked npm changes without deleting node_modules or rendered images.
+          git -c rebase.autoStash=true pull --rebase origin main
           git push origin HEAD:main
           echo "IG_ASSET_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
       - name: Publish Instagram carousel
@@ -91,7 +91,7 @@ jobs:
           git add social/published/
           if ! git diff --cached --quiet; then
             git commit -m "Record weekly Instagram publication"
-            git pull --rebase origin main
+            git -c rebase.autoStash=true pull --rebase origin main
             git push origin HEAD:main
           fi
       - name: Upload preview
