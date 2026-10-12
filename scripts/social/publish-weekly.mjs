@@ -16,7 +16,13 @@ const games=JSON.parse(fs.readFileSync("games.json","utf8"));
 const valid=g=>g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/unbekannt|option|tba|noch offen/i.test(c));
 const isFree=g=>(g.groups||[]).includes("free")||g.channels.some(c=>/^(ARD|Das Erste|ZDF|RTL|Nitro|Sat\.?1|ProSieben|Sport1|3sat|Arte|One|WDR|NDR|BR|MDR|SWR|RBB|HR|ORF|SRF)(\b|$)/i.test(c));
 const score=g=>{let s=0,t=(g.home+" "+g.away+" "+(g.competition||""));if(g.country==="Deutschland")s+=100;if(/Bundesliga|DFB-Pokal|Champions League|Europa League|Conference League|Nations League|Serie A|Premier League|La Liga|Frauen-Bundesliga/i.test(t))s+=80;if(/Deutschland|Bayern|Dortmund|Stuttgart|Leverkusen|Frankfurt|Leipzig|Schalke|Hamburg|Köln|Bremen/i.test(t))s+=60;if(/Saudi|Arabia|Al-Nassr|Al-Hilal/i.test(t))s-=120;return s};
-const byDate=dates.map(date=>({date,games:games.filter(g=>g.date===date&&valid(g)&& (mode==="weekend"||isFree(g))).sort((a,b)=>a.time.localeCompare(b.time))}));
+const byDate=dates.map(date=>{
+ const candidates=games.filter(g=>g.date===date&&valid(g)&&(mode==="weekend"||isFree(g)));
+ const selected=mode==="weekend"
+ ?candidates.filter(g=>score(g)>=60).sort((a,b)=>score(b)-score(a)||a.time.localeCompare(b.time)).slice(0,6)
+ :candidates;
+ return {date,games:selected.sort((a,b)=>a.time.localeCompare(b.time))};
+});
 if(!byDate.some(d=>d.games.length))throw Error("No verified matches for "+mode+" "+localDate);
 const caption=mode==="free-tv"?"Fußball im Free-TV diese Woche":"Fußballhighlights am Wochenende";
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -32,7 +38,7 @@ const fullHtml=(blocks,heading)=>'<!doctype html><html lang="de"><head><meta cha
 fs.mkdirSync("social-output/weekly",{recursive:true});
 const browser=await chromium.launch({headless:true});
 const page=await browser.newPage({viewport:{width:1080,height:1350},deviceScaleFactor:1});
-const fits=async (blocks,heading)=>{await page.setContent(fullHtml(blocks,heading),{waitUntil:"networkidle"});await page.evaluate(()=>document.fonts.ready);return page.evaluate(()=>{let content=document.querySelector(".content"),footer=document.querySelector(".footer"),r=content.getBoundingClientRect();return r.top>=0&&r.bottom<=footer.getBoundingClientRect().top&&content.scrollHeight<=content.clientHeight+1&&[...document.querySelectorAll(".day-group")].every(x=>x.getBoundingClientRect().bottom<=footer.getBoundingClientRect().top-15)});};
+const fits=async (blocks,heading)=>{await page.setContent(fullHtml(blocks,heading),{waitUntil:"networkidle"});await page.evaluate(()=>document.fonts.ready);return page.evaluate(()=>{const footer=document.querySelector(".footer").getBoundingClientRect(),logo=document.querySelector(".logo").getBoundingClientRect(),groups=[...document.querySelectorAll(".day-group")],title=document.querySelector("h1");return (!title||title.getBoundingClientRect().top>logo.bottom+10)&&groups.every((x,i)=>{let r=x.getBoundingClientRect();return r.left>=85&&r.right<=995&&r.top>logo.bottom+10&&r.bottom<footer.top-15&&(i===0||r.top>groups[i-1].getBoundingClientRect().bottom+8)})});};
 const pages=[];let buffer=[],first=true;
 for(const day of daysWithGames){
  if(await fits([...buffer,day],first)){buffer.push(day);continue}
