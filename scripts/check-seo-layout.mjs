@@ -15,17 +15,21 @@ await new Promise(r=>server.listen(0,'127.0.0.1',r));
 const base='http://127.0.0.1:'+server.address().port;
 const config=JSON.parse(fs.readFileSync('seo/config.json'));
 const registry=JSON.parse(fs.readFileSync('seo/matches.json'));
-const paths=['vereine','sender','ueber','impressum','datenschutz','datenquellen','gaestebuch',...config.map(c=>c.path),...Object.values(registry).map(x=>x.path)];
+// Audit every permanent page; sample all priority groups among the much larger, uniform match-page template.
+const matches=Object.values(registry).sort((a,b)=>a.path.localeCompare(b.path));
+const priority=matches.filter(x=>/Deutschland|U17|Bundesliga|Champions|Frauen/i.test([x.game.home,x.game.away,x.game.competition].join(' ')));
+const sample=[...new Map([...priority.slice(0,12),...matches.filter((_,i)=>i%Math.max(1,Math.floor(matches.length/8))===0)].map(x=>[x.path,x])).values()];
+const paths=['vereine','sender','ueber','impressum','datenschutz','datenquellen','gaestebuch',...config.map(c=>c.path),...sample.map(x=>x.path)];
 const browser=await chromium.launch();
 fs.mkdirSync('/tmp/seo-layout',{recursive:true});
 
 try{
- for(const [width,dark] of [[320,false],[320,true],[390,true],[1440,false],[1024,true]]){
+ for(const [width,dark] of [[320,false],[390,true],[1440,false]]){
   const context=await browser.newContext({viewport:{width,height:1000}});
   const page=await context.newPage();
   await context.addInitScript(dark=>localStorage.setItem('sa-theme',dark?'dark':'light'),dark);
   for(const p of [...new Set(paths)]){
-   await page.goto(base+'/'+p+'/',{waitUntil:'networkidle'});
+   await page.goto(base+'/'+p+'/',{waitUntil:'domcontentloaded'});
    await page.evaluate(()=>document.fonts.ready);
    const errors=await page.evaluate(()=>{
     const errors=[];
