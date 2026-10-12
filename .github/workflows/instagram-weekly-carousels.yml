@@ -48,7 +48,7 @@ jobs:
           else echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; exit 0; fi
           echo "WEEKLY_FORMAT=$FORMAT" >> "$GITHUB_ENV"
           if [ -f "social/published/$FORMAT-$DATE.json" ] && grep -q '"id"' "social/published/$FORMAT-$DATE.json"; then echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; fi
-          if [ ! -f "social/weekly-assets/$FORMAT-cover.png" ]; then
+          if [ ! -f "social/weekly-assets/$FORMAT-keyvisual.png" ]; then
             echo "::warning::Approved cover missing; publication safely skipped"
             echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"
           fi
