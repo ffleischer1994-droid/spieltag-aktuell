@@ -22,7 +22,16 @@ const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-keyvisual.png":"w
 if(!fs.existsSync(cover))throw Error("Missing approved ORIGINAL cover: "+cover);
 const games=JSON.parse(fs.readFileSync("games.json","utf8"));
 const valid=g=>g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/unbekannt|option|tba|noch offen/i.test(c));
-const isFree=g=>(g.groups||[]).includes("free")||g.channels.some(c=>/^(ARD|Das Erste|ZDF|RTL|Nitro|Sat\.?1|ProSieben|Sport1|3sat|Arte|One|WDR|NDR|BR|MDR|SWR|RBB|HR|ORF|SRF)(\b|$)/i.test(c));
+// Only German-market free-to-air television and freely accessible official streams.
+// A "free" group can coexist with paid channels; never print the paid alternatives.
+const freeChannel=c=>{
+ const name=String(c).trim();
+ if(/RTL\+|DAZN|Sky|Magenta|Disney\+|Amazon|Prime Video|blue Sport|OneFootball/i.test(name))return false;
+ if(/\((?:AT|CH)\)/i.test(name))return false;
+ return /^(?:ARD|Das Erste|ARD Mediathek|ZDF|ZDFheute|ZDFmediathek|RTL(?: HD)?$|Nitro|Sat\.?1|ProSieben|Sport1|3sat|Arte|One(?:\s|$)|WDR|NDR|BR24?\b|BR24Sport|MDR|SWR|RBB|HR(?:\s|$)|DF1|DFB\.TV|DFB \(YouTube\)|DFB \(YouTube\)|DFB TV)(?:\b|$)/i.test(name);
+};
+const freeChannels=g=>g.channels.filter(freeChannel);
+const isFree=g=>freeChannels(g).length>0;
 const traditional=/Schalke|Hamburger SV|HSV|Werder Bremen|VfB Stuttgart|1\. FC Köln|FC St\. Pauli|Kaiserslautern|Nürnberg|Hertha BSC|Bochum|Hannover 96|Dynamo Dresden|Arminia Bielefeld|1860 München|Rot-Weiss Essen|Hansa Rostock|Alemannia Aachen|Magdeburg|Karlsruher SC|Eintracht Braunschweig|Fortuna Düsseldorf|Preußen Münster|MSV Duisburg|Borussia Mönchengladbach|Borussia Dortmund|Eintracht Frankfurt|Union Berlin|Bayer 04 Leverkusen|FC Bayern München/i;
 const score=g=>{
  const teams=g.home+" "+g.away, competition=g.competition||"";
@@ -41,7 +50,7 @@ const byDate=dates.map(date=>{
  const candidates=games.filter(g=>g.date===date&&valid(g)&&(mode==="weekend"||isFree(g)));
  const selected=mode==="weekend"
  ?candidates.filter(g=>score(g)>=95).sort((a,b)=>score(b)-score(a)||a.time.localeCompare(b.time)).slice(0,5)
- :candidates;
+ :candidates.map(g=>({...g,channels:freeChannels(g)}));
  return {date,games:selected.sort((a,b)=>a.time.localeCompare(b.time))};
 });
 if(!byDate.some(d=>d.games.length))throw Error("No verified matches for "+mode+" "+localDate);
