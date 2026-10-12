@@ -59,7 +59,9 @@ jobs:
             echo "WEEKLY_ASSET_SUFFIX=-corrected" >> "$GITHUB_ENV"
           fi
           echo "WEEKLY_FORMAT=$FORMAT" >> "$GITHUB_ENV"
-          if [ "$MANUAL_DRY_RUN" != "true" ] && [ -f "social/published/$FORMAT-$DATE${WEEKLY_ASSET_SUFFIX:-}.json" ] && grep -q '"id"' "social/published/$FORMAT-$DATE.json"; then echo "::notice::Already published $FORMAT for $DATE; duplicate post blocked"; echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; fi
+          RECEIPT="social/published/$FORMAT-$DATE.json"
+          if [ "$MANUAL_REPOST" = "true" ]; then RECEIPT="social/published/$FORMAT-$DATE-corrected.json"; fi
+          if [ "$MANUAL_DRY_RUN" != "true" ] && [ -f "$RECEIPT" ] && grep -q '"id"' "$RECEIPT"; then echo "::notice::Already published $FORMAT for $DATE; duplicate post blocked"; echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; fi
           if [ "$FORMAT" = "weekend" ]; then COVER="social/weekly-assets/weekend-keyvisual (1).png"; else COVER="social/weekly-assets/free-tv-keyvisual.png"; fi
           if [ ! -f "$COVER" ]; then
             echo "::warning::Approved cover missing; publication safely skipped"
