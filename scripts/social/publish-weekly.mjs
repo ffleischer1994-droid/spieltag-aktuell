@@ -42,9 +42,11 @@ for(const day of daysWithGames){
 }
 if(buffer.length)pages.push({days:buffer,heading:first});
 const coverData=fs.readFileSync(cover);
+const displayDate=d=>d.slice(8,10)+"."+d.slice(5,7)+"."+d.slice(2,4);
+const dateText=displayDate(dates[0])+" - "+displayDate(dates.at(-1));
 const coverExt=cover.endsWith(".png")?"png":"jpeg";
 const coverPage=await browser.newPage({viewport:{width:1080,height:1350},deviceScaleFactor:1});
-await coverPage.setContent('<html><body style="margin:0"><img style="width:1080px;height:1350px;object-fit:cover" src="data:image/'+coverExt+';base64,'+coverData.toString("base64")+'"></body></html>');
+await coverPage.setContent('<html><body style="margin:0;position:relative;width:1080px;height:1350px;overflow:hidden"><img style="width:1080px;height:1350px;object-fit:cover" src="data:image/'+coverExt+';base64,'+coverData.toString("base64")+'"><div style="position:absolute;left:303px;top:1204px;width:476px;height:56px;background:#F2AFC0;color:#000;display:flex;align-items:center;justify-content:center;font:700 39px Arial,sans-serif;letter-spacing:1px">'+dateText+'</div></body></html>');
 await coverPage.screenshot({path:"social-output/weekly/00.jpg",type:"jpeg",quality:95});
 await coverPage.close();
 for(let i=0;i<pages.length;i++){await page.setContent(fullHtml(pages[i].days,pages[i].heading),{waitUntil:"networkidle"});await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:"social-output/weekly/"+String(i+1).padStart(2,"0")+".jpg",type:"jpeg",quality:95})}
