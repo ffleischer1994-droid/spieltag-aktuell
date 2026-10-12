@@ -10,7 +10,7 @@ const desired=mode==="free-tv"?"Monday":"Friday",hour=mode==="free-tv"?17:15;
 if(process.env.GITHUB_EVENT_NAME==="schedule"&&(parts.weekday!==desired||Number(parts.hour)<hour||Number(parts.hour)>=hour+2)){console.log("Outside Berlin publishing window");process.exit(0)}
 const plus=(day,n)=>{let d=new Date(day+"T12:00:00Z");d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)};
 const dates=Array.from({length:mode==="free-tv"?5:3},(_,i)=>plus(localDate,i));
-const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-cover.png":"weekend-cover.png");
+const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-keyvisual.png":"weekend-keyvisual.png");
 if(!fs.existsSync(cover))throw Error("Missing approved ORIGINAL cover: "+cover);
 const games=JSON.parse(fs.readFileSync("games.json","utf8"));
 const valid=g=>g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/unbekannt|option|tba|noch offen/i.test(c));
@@ -44,9 +44,9 @@ if(buffer.length)pages.push({days:buffer,heading:first});
 const coverData=fs.readFileSync(cover);
 const displayDate=d=>d.slice(8,10)+"."+d.slice(5,7)+"."+d.slice(2,4);
 const dateText=displayDate(dates[0])+" - "+displayDate(dates.at(-1));
-const coverExt=cover.endsWith(".png")?"png":"jpeg";
 const coverPage=await browser.newPage({viewport:{width:1080,height:1350},deviceScaleFactor:1});
-await coverPage.setContent('<html><body style="margin:0;position:relative;width:1080px;height:1350px;overflow:hidden"><img style="width:1080px;height:1350px;object-fit:cover" src="data:image/'+coverExt+';base64,'+coverData.toString("base64")+'"><div style="position:absolute;left:303px;top:1204px;width:476px;height:56px;background:#F2AFC0;color:#000;display:flex;align-items:center;justify-content:center;font:700 39px Arial,sans-serif;letter-spacing:1px">'+dateText+'</div></body></html>');
+const coverHTML='<!doctype html><html><head><meta charset="utf-8"><style>*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden}body{background:#F2AFC0;position:relative}.visual{position:absolute;inset:0;width:1080px;height:1350px;object-fit:contain}.pill{position:absolute;left:281px;top:1195px;width:518px;height:74px;border:4px solid #000;border-radius:100px;background:#F2AFC0;display:flex;align-items:center;justify-content:center;font:700 39px Arial,sans-serif;color:#000;letter-spacing:1px}</style></head><body><img class="visual" src="data:image/png;base64,'+coverData.toString("base64")+'"><div class="pill">'+dateText+'</div></body></html>';
+await coverPage.setContent(coverHTML,{waitUntil:"load"});
 await coverPage.screenshot({path:"social-output/weekly/00.jpg",type:"jpeg",quality:95});
 await coverPage.close();
 for(let i=0;i<pages.length;i++){await page.setContent(fullHtml(pages[i].days,pages[i].heading),{waitUntil:"networkidle"});await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:"social-output/weekly/"+String(i+1).padStart(2,"0")+".jpg",type:"jpeg",quality:95})}
