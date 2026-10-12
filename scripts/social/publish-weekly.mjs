@@ -111,7 +111,10 @@ for(let i=0;i<pages.length;i++){const check=await validateLayout(pages[i].days,p
 await browser.close();
 const slideFiles=Array.from({length:pages.length+1},(_,i)=>"social-output/weekly/"+String(i).padStart(2,"0")+".jpg");
 if(slideFiles.length>10)throw Error("Instagram allows at most 10 carousel items");
-const publishedPath="social/published/"+mode+"-"+localDate+".json";
+const repost=process.env.WEEKLY_REPOST==="1";
+if(repost&&(mode!=="free-tv"||localDate!=="2026-10-12"||process.env.GITHUB_EVENT_NAME!=="workflow_dispatch"))throw Error("Repost only authorized for 2026-10-12 free-tv");
+const suffix=repost?"-corrected":"";
+const publishedPath="social/published/"+mode+"-"+localDate+suffix+".json";
 if(fs.existsSync(publishedPath)){const state=JSON.parse(fs.readFileSync(publishedPath,"utf8"));if(state.id){console.log("Already published "+state.id);process.exit(0)}if(state.attempted)throw Error("Previous publish uncertain. Manual review required.");}
 if(process.env.WEEKLY_DRY_RUN==="1"){console.log(JSON.stringify({mode,dates,pages:pages.map(x=>x.days.map(d=>d.date)),slides:slideFiles},null,2));process.exit(0)}
 const token=activeToken();if(!token)throw Error("Instagram token missing");
@@ -124,7 +127,7 @@ const state={date:localDate,mode};const save=()=>{fs.mkdirSync("social/published
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const wait=async cid=>{for(let j=0;j<20;j++){await sleep(3000);let st=await get(api+"/"+cid+"?fields=status_code,status&access_token="+encodeURIComponent(token));if(st.status_code==="FINISHED")return;if(["ERROR","EXPIRED"].includes(st.status_code))throw Error("Media container failed "+JSON.stringify(st))}throw Error("Media container not ready")};
 const childIds=[];
-for(let i=0;i<slideFiles.length;i++){let url="https://raw.githubusercontent.com/"+process.env.GITHUB_REPOSITORY+"/"+sha+"/social/weekly-generated/"+mode+"-"+localDate+"-"+String(i).padStart(2,"0")+".jpg";let child=await post(api+"/"+id+"/media",{image_url:url,is_carousel_item:"true"});childIds.push(child.id);await wait(child.id)}
+for(let i=0;i<slideFiles.length;i++){let url="https://raw.githubusercontent.com/"+process.env.GITHUB_REPOSITORY+"/"+sha+"/social/weekly-generated/"+mode+"-"+localDate+suffix+"-"+String(i).padStart(2,"0")+".jpg";let child=await post(api+"/"+id+"/media",{image_url:url,is_carousel_item:"true"});childIds.push(child.id);await wait(child.id)}
 const parent=await post(api+"/"+id+"/media",{media_type:"CAROUSEL",children:childIds.join(","),caption:caption+" ("+dates[0].split("-").reverse().join(".")+" – "+dates.at(-1).split("-").reverse().join(".")+")\nAlle Spiele und Sender: spieltagaktuell.de\n\n#fußball #fußballimtv #spieltagaktuell"});
 state.container=parent.id;state.children=childIds;save();await wait(parent.id);
 state.attempted=true;save();let result=await post(api+"/"+id+"/media_publish",{creation_id:parent.id});state.id=result.id;save();
