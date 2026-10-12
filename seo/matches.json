@@ -245,10 +245,13 @@
       "home": "Deutschland ♀ (U23)",
       "away": "Schweden ♀ (U23)",
       "channels": [
-        "Sender unbekannt"
+        "DF1",
+        "DFB.TV (über DAZN empfangbar)",
+        "DFB (YouTube)"
       ],
       "groups": [
-        "other"
+        "free",
+        "dazn"
       ],
       "sources": [
         {
@@ -256,11 +259,16 @@
           "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
         },
         {
-          "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/mit-den-nationalteams-unterwegs",
-          "name": "VfL Wolfsburg – Länderspiele der Nationalspielerinnen"
+          "url": "https://www.dfb.de/news/faq-die-wichtigsten-infos-zu-den-u-23-frauen-in-der-saison-2026/2027",
+          "name": "DFB – bestätigte Übertragungen Deutschland gegen Schweden (08.10.2026)"
+        },
+        {
+          "url": "https://www.dfb.de/news/aufgebot-steht-u-23-startet-in-schottland-und-bremen-in-die-neue-saison",
+          "name": "DFB – DF1, DFB.TV und YouTube (29.09.2026)"
         }
       ],
-      "verifiedAt": "2026-10-06T05:32:50.160Z"
+      "verifiedAt": "2026-10-12T17:11:47Z",
+      "pageIntro": "Die deutschen U23-Frauen empfangen Schweden am 12. Oktober 2026 um 18:15 Uhr im Stadion Platz 11 in Bremen. Die Partie ist kostenlos auf DF1 und dem DFB-YouTube-Kanal zu sehen. DFB.TV wird auch über DAZN verbreitet."
     },
     "dataUpdated": "2026-10-12"
   },
