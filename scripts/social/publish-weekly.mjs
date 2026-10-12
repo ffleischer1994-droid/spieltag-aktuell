@@ -113,8 +113,10 @@ await browser.close();
 const slideFiles=Array.from({length:pages.length+1},(_,i)=>"social-output/weekly/"+String(i).padStart(2,"0")+".jpg");
 if(slideFiles.length>10)throw Error("Instagram allows at most 10 carousel items");
 const repost=process.env.WEEKLY_REPOST==="1";
-if(repost&&(mode!=="free-tv"||localDate!=="2026-10-12"||process.env.GITHUB_EVENT_NAME!=="workflow_dispatch"))throw Error("Repost only authorized for 2026-10-12 free-tv");
-const suffix=repost?"-corrected":"";
+const finalRepost=process.env.WEEKLY_FINAL_REPOST==="1";
+if(repost&&finalRepost)throw Error("Repost modes are mutually exclusive");
+if((repost||finalRepost)&&(mode!=="free-tv"||localDate!=="2026-10-12"||process.env.GITHUB_EVENT_NAME!=="workflow_dispatch"))throw Error("Repost only authorized for 2026-10-12 free-tv");
+const suffix=finalRepost?"-full-week":repost?"-corrected":"";
 const publishedPath="social/published/"+mode+"-"+localDate+suffix+".json";
 if(fs.existsSync(publishedPath)){const state=JSON.parse(fs.readFileSync(publishedPath,"utf8"));if(state.id){console.log("Already published "+state.id);process.exit(0)}if(state.attempted)throw Error("Previous publish uncertain. Manual review required.");}
 if(process.env.WEEKLY_DRY_RUN==="1"){console.log(JSON.stringify({mode,dates,pages:pages.map(x=>x.days.map(d=>d.date)),slides:slideFiles},null,2));process.exit(0)}
