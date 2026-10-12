@@ -17,7 +17,8 @@ const weekendFriday=()=>{
  return plus(localDate,offset);
 };
 const periodStart=mode==="weekend"?weekendFriday():localDate;
-const dates=Array.from({length:mode==="free-tv"?5:3},(_,i)=>plus(periodStart,i));
+// Free-TV previews cover the entire calendar week (Monday through Sunday).
+const dates=Array.from({length:mode==="free-tv"?7:3},(_,i)=>plus(periodStart,i));
 const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-keyvisual.png":"weekend-keyvisual (1).png");
 if(!fs.existsSync(cover))throw Error("Missing approved ORIGINAL cover: "+cover);
 const games=JSON.parse(fs.readFileSync("games.json","utf8"));
