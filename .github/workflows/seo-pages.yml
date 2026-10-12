@@ -10,6 +10,8 @@ on:
       - 'scripts/sync-static-shell.py'
       - '.github/workflows/seo-pages.yml'
   schedule:
+    - cron: '50 23 * * *'
+    - cron: '50 0 * * *'
     - cron: '50 5 * * *'
     - cron: '50 6 * * *'
 permissions:
@@ -28,7 +30,7 @@ jobs:
     steps:
       - id: guard
         run: |
-          if [ "$GITHUB_EVENT_NAME" = schedule ] && [ "$(TZ=Europe/Berlin date +%H)" != 07 ]; then
+          if [ "$GITHUB_EVENT_NAME" = schedule ] && [ "$(TZ=Europe/Berlin date +%H)" != 01 ] && [ "$(TZ=Europe/Berlin date +%H)" != 07 ]; then
             echo 'run=false' >> "$GITHUB_OUTPUT"
           else
             echo 'run=true' >> "$GITHUB_OUTPUT"
