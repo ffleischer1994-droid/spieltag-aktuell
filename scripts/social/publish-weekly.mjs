@@ -89,5 +89,9 @@ for(let i=0;i<slideFiles.length;i++){let url="https://raw.githubusercontent.com/
 const parent=await post(api+"/"+id+"/media",{media_type:"CAROUSEL",children:childIds.join(","),caption:caption+" ("+dates[0].split("-").reverse().join(".")+" – "+dates.at(-1).split("-").reverse().join(".")+")\nAlle Spiele und Sender: spieltagaktuell.de\n\n#fußball #fußballimtv #spieltagaktuell"});
 state.container=parent.id;state.children=childIds;save();await wait(parent.id);
 state.attempted=true;save();let result=await post(api+"/"+id+"/media_publish",{creation_id:parent.id});state.id=result.id;save();
-let confirmation=await get(api+"/"+result.id+"?fields=id,media_type,permalink&access_token="+encodeURIComponent(token));if(confirmation.media_type!=="CAROUSEL")throw Error("Published item is not confirmed carousel");
-console.log("Published "+mode+" "+confirmation.permalink);
+let confirmation;
+try { confirmation=await get(api+"/"+result.id+"?fields=id,media_type,permalink&access_token="+encodeURIComponent(token)); }
+catch (error) { console.warn("Instagram accepted media_publish and returned id; follow-up lookup failed:",String(error)); confirmation={id:result.id}; }
+if(confirmation.id!==result.id)throw Error("Instagram returned a mismatched media id");
+if(confirmation.media_type&&confirmation.media_type!=="CAROUSEL"&&confirmation.media_type!=="CAROUSEL_ALBUM")console.warn("Unexpected Instagram media_type after successful publish:",confirmation.media_type);
+console.log("Instagram media_publish succeeded:",result.id,confirmation.media_type||"type not supplied",confirmation.permalink||"");
