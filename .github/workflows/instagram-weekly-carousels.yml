@@ -1,0 +1,101 @@
+name: Instagram Weekly Carousels
+on:
+  schedule:
+    - cron: "0,20,40 15-17 * * 1"
+    - cron: "0,20,40 13-15 * * 5"
+  workflow_dispatch:
+    inputs:
+      format:
+        type: choice
+        required: true
+        options: [free-tv, weekend]
+      dry_run:
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency:
+  group: instagram-weekly-carousels
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: Europe/Berlin
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: git pull --ff-only origin main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Determine local format and check receipt
+        env:
+          MANUAL_FORMAT: ${{ inputs.format }}
+          MANUAL_DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          DAY=$(TZ=Europe/Berlin date +%u)
+          HOUR=$(TZ=Europe/Berlin date +%H)
+          DATE=$(TZ=Europe/Berlin date +%F)
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            FORMAT="$MANUAL_FORMAT"
+            if [ "$MANUAL_DRY_RUN" = "true" ]; then echo "WEEKLY_DRY_RUN=1" >> "$GITHUB_ENV"; fi
+          elif [ "$DAY" = "1" ] && [ "$HOUR" -ge 17 ] && [ "$HOUR" -lt 19 ]; then FORMAT="free-tv"
+          elif [ "$DAY" = "5" ] && [ "$HOUR" -ge 15 ] && [ "$HOUR" -lt 17 ]; then FORMAT="weekend"
+          else echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; exit 0; fi
+          echo "WEEKLY_FORMAT=$FORMAT" >> "$GITHUB_ENV"
+          if [ -f "social/published/$FORMAT-$DATE.json" ] && grep -q '"id"' "social/published/$FORMAT-$DATE.json"; then echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; fi
+          if [ ! -f "social/weekly-assets/$FORMAT-cover.png" ]; then
+            echo "::warning::Approved cover missing; publication safely skipped"
+            echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"
+          fi
+      - name: Install Chromium
+        if: env.SKIP_WEEKLY != '1'
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Validate and render carousel
+        if: env.SKIP_WEEKLY != '1'
+        run: WEEKLY_DRY_RUN=1 node scripts/social/publish-weekly.mjs
+      - name: Commit carousel images
+        if: env.SKIP_WEEKLY != '1' && env.WEEKLY_DRY_RUN != '1'
+        run: |
+          DATE=$(TZ=Europe/Berlin date +%F)
+          mkdir -p social/weekly-generated
+          N=0
+          for F in social-output/weekly/*.jpg; do
+            printf -v INDEX "%02d" "$N"
+            cp "$F" "social/weekly-generated/$WEEKLY_FORMAT-$DATE-$INDEX.jpg"
+            N=$((N+1))
+          done
+          git config user.name spieltag-aktuell-bot
+          git config user.email actions@users.noreply.github.com
+          git add social/weekly-generated
+          git commit -m "Render weekly Instagram carousel for $DATE" || true
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "IG_ASSET_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Publish Instagram carousel
+        if: env.SKIP_WEEKLY != '1' && env.WEEKLY_DRY_RUN != '1'
+        run: node scripts/social/publish-weekly.mjs
+      - name: Save publication receipts
+        if: always() && env.SKIP_WEEKLY != '1' && env.WEEKLY_DRY_RUN != '1'
+        run: |
+          git config user.name spieltag-aktuell-bot
+          git config user.email actions@users.noreply.github.com
+          git add social/published/
+          if ! git diff --cached --quiet; then
+            git commit -m "Record weekly Instagram publication"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Upload preview
+        if: always() && env.SKIP_WEEKLY != '1'
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-carousel-preview
+          path: social-output/weekly/
+          if-no-files-found: ignore
