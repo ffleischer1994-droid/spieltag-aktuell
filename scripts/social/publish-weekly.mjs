@@ -15,11 +15,24 @@ if(!fs.existsSync(cover))throw Error("Missing approved ORIGINAL cover: "+cover);
 const games=JSON.parse(fs.readFileSync("games.json","utf8"));
 const valid=g=>g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/unbekannt|option|tba|noch offen/i.test(c));
 const isFree=g=>(g.groups||[]).includes("free")||g.channels.some(c=>/^(ARD|Das Erste|ZDF|RTL|Nitro|Sat\.?1|ProSieben|Sport1|3sat|Arte|One|WDR|NDR|BR|MDR|SWR|RBB|HR|ORF|SRF)(\b|$)/i.test(c));
-const score=g=>{let s=0,t=(g.home+" "+g.away+" "+(g.competition||""));if(g.country==="Deutschland")s+=100;if(/Bundesliga|DFB-Pokal|Champions League|Europa League|Conference League|Nations League|Serie A|Premier League|La Liga|Frauen-Bundesliga/i.test(t))s+=80;if(/Deutschland|Bayern|Dortmund|Stuttgart|Leverkusen|Frankfurt|Leipzig|Schalke|Hamburg|Köln|Bremen/i.test(t))s+=60;if(/Saudi|Arabia|Al-Nassr|Al-Hilal/i.test(t))s-=120;return s};
+const traditional=/Schalke|Hamburger SV|HSV|Werder Bremen|VfB Stuttgart|1\. FC Köln|FC St\. Pauli|Kaiserslautern|Nürnberg|Hertha BSC|Bochum|Hannover 96|Dynamo Dresden|Arminia Bielefeld|1860 München|Rot-Weiss Essen|Hansa Rostock|Alemannia Aachen|Magdeburg|Karlsruher SC|Eintracht Braunschweig|Fortuna Düsseldorf|Preußen Münster|MSV Duisburg|Borussia Mönchengladbach|Borussia Dortmund|Eintracht Frankfurt|Union Berlin|Bayer 04 Leverkusen|FC Bayern München/i;
+const score=g=>{
+ const teams=g.home+" "+g.away, competition=g.competition||"";
+ let s=0;
+ if(g.country==="Deutschland")s+=70;
+ if(/^(Bundesliga|2\. Bundesliga)$/.test(competition))s+=160;
+ else if(/^(3\. Liga|Frauen-Bundesliga|DFB-Pokal)$/.test(competition))s+=105;
+ else if(/Champions League|Europa League|Conference League|Nations League|WM-Qualifikation/i.test(competition))s+=105;
+ else if(/Premier League|Serie A|La Liga/i.test(competition))s+=45;
+ if(traditional.test(teams))s+=125;
+ if(/Deutschland|Nationalmannschaft/i.test(teams))s+=90;
+ if(/Saudi|Arabia|Al-Nassr|Al-Hilal/i.test(teams+" "+competition))s-=180;
+ return s;
+};
 const byDate=dates.map(date=>{
  const candidates=games.filter(g=>g.date===date&&valid(g)&&(mode==="weekend"||isFree(g)));
  const selected=mode==="weekend"
- ?candidates.filter(g=>score(g)>=60).sort((a,b)=>score(b)-score(a)||a.time.localeCompare(b.time)).slice(0,6)
+ ?candidates.filter(g=>score(g)>=95).sort((a,b)=>score(b)-score(a)||a.time.localeCompare(b.time)).slice(0,5)
  :candidates;
  return {date,games:selected.sort((a,b)=>a.time.localeCompare(b.time))};
 });
