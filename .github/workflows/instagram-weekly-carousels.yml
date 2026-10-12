@@ -16,6 +16,10 @@ on:
         description: "Einmalige korrigierte Free-TV-Veröffentlichung (nur 12.10.2026)"
         type: boolean
         default: false
+      full_week_final_repost:
+        description: "Finaler Free-TV-Post Mo–So (nur 12.10.2026)"
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -41,6 +45,7 @@ jobs:
           MANUAL_FORMAT: ${{ inputs.format }}
           MANUAL_DRY_RUN: ${{ inputs.dry_run }}
           MANUAL_REPOST: ${{ inputs.corrected_free_tv_repost }}
+          MANUAL_FINAL: ${{ inputs.full_week_final_repost }}
         run: |
           DAY=$(TZ=Europe/Berlin date +%u)
           HOUR=$(TZ=Europe/Berlin date +%H)
@@ -51,6 +56,14 @@ jobs:
           elif [ "$DAY" = "1" ] && [ "$HOUR" -ge 17 ] && [ "$HOUR" -lt 19 ]; then FORMAT="free-tv"
           elif [ "$DAY" = "5" ] && [ "$HOUR" -ge 15 ] && [ "$HOUR" -lt 17 ]; then FORMAT="weekend"
           else echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; exit 0; fi
+          if [ "$MANUAL_REPOST" = "true" ] && [ "$MANUAL_FINAL" = "true" ]; then echo "::error::Choose only one repost type"; exit 1; fi
+          if [ "$MANUAL_FINAL" = "true" ]; then
+            if [ "$GITHUB_EVENT_NAME" != "workflow_dispatch" ] || [ "$FORMAT" != "free-tv" ] || [ "$DATE" != "2026-10-12" ] || [ "$MANUAL_DRY_RUN" = "true" ]; then
+              echo "::error::Final repost only permitted for public Free-TV on 2026-10-12"; exit 1
+            fi
+            echo "WEEKLY_FINAL_REPOST=1" >> "$GITHUB_ENV"
+            echo "WEEKLY_ASSET_SUFFIX=-full-week" >> "$GITHUB_ENV"
+          fi
           if [ "$MANUAL_REPOST" = "true" ]; then
             if [ "$GITHUB_EVENT_NAME" != "workflow_dispatch" ] || [ "$FORMAT" != "free-tv" ] || [ "$DATE" != "2026-10-12" ] || [ "$MANUAL_DRY_RUN" = "true" ]; then
               echo "::error::Corrected repost only allowed for public Free-TV on 2026-10-12"; exit 1
@@ -61,6 +74,7 @@ jobs:
           echo "WEEKLY_FORMAT=$FORMAT" >> "$GITHUB_ENV"
           RECEIPT="social/published/$FORMAT-$DATE.json"
           if [ "$MANUAL_REPOST" = "true" ]; then RECEIPT="social/published/$FORMAT-$DATE-corrected.json"; fi
+          if [ "$MANUAL_FINAL" = "true" ]; then RECEIPT="social/published/$FORMAT-$DATE-full-week.json"; fi
           if [ "$MANUAL_DRY_RUN" != "true" ] && [ -f "$RECEIPT" ] && grep -q '"id"' "$RECEIPT"; then echo "::notice::Already published $FORMAT for $DATE; duplicate post blocked"; echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; fi
           if [ "$FORMAT" = "weekend" ]; then COVER="social/weekly-assets/weekend-keyvisual (1).png"; else COVER="social/weekly-assets/free-tv-keyvisual.png"; fi
           if [ ! -f "$COVER" ]; then
