@@ -43,7 +43,7 @@ const days=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Sam
 const label=d=>{const v=new Date(d+"T12:00:00Z");return days[v.getUTCDay()]+", "+d.slice(8,10)+"."+d.slice(5,7)+"."};
 const logo="data:image/svg+xml;base64,"+fs.readFileSync("logo.svg").toString("base64");
 const css=fs.readFileSync("social/instagram-feed-master.html","utf8").match(/<style>([\s\S]*?)<\/style>/)?.[1]||"";
-const extra='.content{justify-content:center}.day-group{break-inside:avoid;page-break-inside:avoid}.day-group+.day-group{margin-top:20px}.date{margin:0 0 18px}.game{padding:13px 0 14px}.game .sender{margin-top:5px}.content h1{margin-bottom:30px}';
+const extra='.post{overflow:hidden}.content{justify-content:center;min-height:0;overflow:visible}.day-group{break-inside:avoid;page-break-inside:avoid;flex-shrink:0}.day-group+.day-group{margin-top:20px}.date{margin:0 0 18px}.game{padding:13px 0 14px}.game .sender{margin-top:5px}.content h1{margin-bottom:30px;flex-shrink:0}';
 const row=g=>'<article class="game"><div class="time">'+esc(g.time)+' Uhr</div><div class="teams">'+esc(g.home)+' – '+esc(g.away)+'</div><div class="sender">'+esc(g.channels.join(" · "))+'</div></article>';
 const block=day=>'<section class="day-group"><div class="date">'+esc(label(day.date))+'</div><div class="games">'+day.games.map(row).join("")+'</div></section>';
 const daysWithGames=byDate.filter(d=>d.games.length);
@@ -51,7 +51,29 @@ const fullHtml=(blocks,heading)=>'<!doctype html><html lang="de"><head><meta cha
 fs.mkdirSync("social-output/weekly",{recursive:true});
 const browser=await chromium.launch({headless:true});
 const page=await browser.newPage({viewport:{width:1080,height:1350},deviceScaleFactor:1});
-const fits=async (blocks,heading)=>{await page.setContent(fullHtml(blocks,heading),{waitUntil:"networkidle"});await page.evaluate(()=>document.fonts.ready);return page.evaluate(()=>{const footer=document.querySelector(".footer").getBoundingClientRect(),logo=document.querySelector(".logo").getBoundingClientRect(),groups=[...document.querySelectorAll(".day-group")],title=document.querySelector("h1");return (!title||title.getBoundingClientRect().top>logo.bottom+10)&&groups.every((x,i)=>{let r=x.getBoundingClientRect();return r.left>=85&&r.right<=995&&r.top>logo.bottom+10&&r.bottom<footer.top-15&&(i===0||r.top>groups[i-1].getBoundingClientRect().bottom+8)})});};
+const validateLayout=async (blocks,heading)=>{
+ await page.setContent(fullHtml(blocks,heading),{waitUntil:"networkidle"});
+ await page.evaluate(()=>document.fonts.ready);
+ return page.evaluate(()=>{
+  const rect=s=>document.querySelector(s).getBoundingClientRect();
+  const post=rect(".post"),logo=rect(".logo"),content=rect(".content"),footer=rect(".footer");
+  const groups=[...document.querySelectorAll(".day-group")];
+  const headingEl=document.querySelector("h1");
+  const safeBottom=1265; // 85px breathing room, independent of a displaced footer
+  const errors=[];
+  if(post.bottom>1350||footer.bottom>1320||footer.top<1190)errors.push("Footer outside safe area");
+  if(content.bottom>footer.top-25||content.scrollHeight>content.clientHeight+2)errors.push("Content exceeds available flex region");
+  if(headingEl){let r=headingEl.getBoundingClientRect();if(r.top<logo.bottom+16||r.bottom>safeBottom)errors.push("Heading intersects safe area")}
+  groups.forEach((g,i)=>{
+   const r=g.getBoundingClientRect();
+   if(r.left<85||r.right>995||r.top<logo.bottom+12||r.bottom>Math.min(safeBottom,footer.top-25))errors.push("Day "+i+" outside safe area");
+   if(i&&r.top<groups[i-1].getBoundingClientRect().bottom+12)errors.push("Days overlap");
+   for(const item of g.querySelectorAll(".game"))if(item.getBoundingClientRect().bottom>r.bottom+2)errors.push("Game clipped within day");
+  });
+  return {ok:errors.length===0,errors};
+ });
+};
+const fits=async(blocks,heading)=>(await validateLayout(blocks,heading)).ok;
 const pages=[];let buffer=[],first=true;
 for(const day of daysWithGames){
  if(await fits([...buffer,day],first)){buffer.push(day);continue}
@@ -64,11 +86,11 @@ const coverData=fs.readFileSync(cover);
 const displayDate=d=>d.slice(8,10)+"."+d.slice(5,7)+"."+d.slice(2,4);
 const dateText=displayDate(dates[0])+" - "+displayDate(dates.at(-1));
 const coverPage=await browser.newPage({viewport:{width:1080,height:1350},deviceScaleFactor:1});
-const coverHTML='<!doctype html><html><head><meta charset="utf-8"><style>*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden}body{background:#F2AFC0;position:relative}.visual{position:absolute;inset:0;width:1080px;height:1350px;object-fit:contain}.pill{position:absolute;left:281px;top:1195px;width:518px;height:74px;border:4px solid #000;border-radius:100px;background:#F2AFC0;display:flex;align-items:center;justify-content:center;font:700 39px Arial,sans-serif;color:#000;letter-spacing:1px}</style></head><body><img class="visual" src="data:image/png;base64,'+coverData.toString("base64")+'"><div class="pill">'+dateText+'</div></body></html>';
+const coverHTML='<!doctype html><html><head><meta charset="utf-8"><style>*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden}body{background:#F2AFC0;position:relative}.visual{position:absolute;inset:0;width:1080px;height:1350px;object-fit:contain;mix-blend-mode:multiply}.pill{position:absolute;left:281px;top:1195px;width:518px;height:74px;border:4px solid #000;border-radius:100px;background:#F2AFC0;display:flex;align-items:center;justify-content:center;font:700 39px Arial,sans-serif;color:#000;letter-spacing:1px}</style></head><body><img class="visual" src="data:image/png;base64,'+coverData.toString("base64")+'"><div class="pill">'+dateText+'</div></body></html>';
 await coverPage.setContent(coverHTML,{waitUntil:"load"});
 await coverPage.screenshot({path:"social-output/weekly/00.jpg",type:"jpeg",quality:95});
 await coverPage.close();
-for(let i=0;i<pages.length;i++){await page.setContent(fullHtml(pages[i].days,pages[i].heading),{waitUntil:"networkidle"});await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:"social-output/weekly/"+String(i+1).padStart(2,"0")+".jpg",type:"jpeg",quality:95})}
+for(let i=0;i<pages.length;i++){const check=await validateLayout(pages[i].days,pages[i].heading);if(!check.ok)throw Error("Refusing to render clipped slide "+i+": "+check.errors.join(", "));await page.screenshot({path:"social-output/weekly/"+String(i+1).padStart(2,"0")+".jpg",type:"jpeg",quality:95})}
 await browser.close();
 const slideFiles=Array.from({length:pages.length+1},(_,i)=>"social-output/weekly/"+String(i).padStart(2,"0")+".jpg");
 if(slideFiles.length>10)throw Error("Instagram allows at most 10 carousel items");
