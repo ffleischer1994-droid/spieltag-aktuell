@@ -10,7 +10,7 @@ const desired=mode==="free-tv"?"Monday":"Friday",hour=mode==="free-tv"?17:15;
 if(process.env.GITHUB_EVENT_NAME==="schedule"&&(parts.weekday!==desired||Number(parts.hour)<hour||Number(parts.hour)>=hour+2)){console.log("Outside Berlin publishing window");process.exit(0)}
 const plus=(day,n)=>{let d=new Date(day+"T12:00:00Z");d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)};
 const dates=Array.from({length:mode==="free-tv"?5:3},(_,i)=>plus(localDate,i));
-const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-keyvisual.png":"weekend-keyvisual.png");
+const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-keyvisual.png":"weekend-keyvisual (1).png");
 if(!fs.existsSync(cover))throw Error("Missing approved ORIGINAL cover: "+cover);
 const games=JSON.parse(fs.readFileSync("games.json","utf8"));
 const valid=g=>g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/unbekannt|option|tba|noch offen/i.test(c));
