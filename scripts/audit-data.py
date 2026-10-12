@@ -60,6 +60,11 @@ def main():
             unknown=set(groups)-ALLOWED_GROUPS
             if unknown: errors.append(f"Zeile {i}: unbekannte groups {sorted(unknown)}")
 
+        if (g.get("date")==today.isoformat()
+            and "Deutschland" in (g.get("home","")+" "+g.get("away",""))
+            and any(re.search(r"unbekannt|option",c,re.I) for c in g.get("channels",[]))):
+            warnings.append(f"DRINGEND: Deutsche Nationalmannschaft heute ohne bestätigten Sender: {g['home']} – {g['away']} ({g['time']})")
+
         channel_text=" ".join(g.get("channels",[]))
         if re.search(r"DAZN",channel_text,re.I) and "dazn" not in groups:
             errors.append(f"Zeile {i}: DAZN-Sender ohne group=dazn")
