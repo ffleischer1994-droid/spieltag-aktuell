@@ -1,271 +1,5 @@
 [
   {
-    "date": "2026-10-12",
-    "time": "01:00",
-    "competition": "Major League Soccer (MLS)",
-    "country": "USA",
-    "home": "St. Louis City",
-    "away": "LA Galaxy",
-    "channels": [
-      "Apple TV"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://tv.apple.com/us/channel/mls/tvs.sbd.7000",
-        "name": "Apple TV – MLS: St. Louis City SC vs. LA Galaxy"
-      }
-    ],
-    "verifiedAt": "2026-10-06T05:32:50.160Z"
-  },
-  {
-    "date": "2026-10-12",
-    "time": "12:00",
-    "competition": "Premjer Liha",
-    "country": "Ukraine",
-    "home": "FC Livyi Bereh",
-    "away": "FK Sorja Luhansk",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-06T05:32:50.160Z"
-  },
-  {
-    "date": "2026-10-12",
-    "time": "17:00",
-    "competition": "Virsliga",
-    "country": "Lettland",
-    "home": "FK Liepāja",
-    "away": "Auda Riga",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-06T05:32:50.160Z"
-  },
-  {
-    "date": "2026-10-12",
-    "time": "17:00",
-    "competition": "Veikkausliiga",
-    "country": "Finnland",
-    "home": "Vaasan PS",
-    "away": "IF Gnistan",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-06T05:32:50.160Z"
-  },
-  {
-    "date": "2026-10-12",
-    "time": "18:00",
-    "competition": "Veikkausliiga",
-    "country": "Finnland",
-    "home": "AC Oulu",
-    "away": "HJK Helsinki",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.flashscoreusa.com/team/ac-oulu/Y35Jer59/",
-        "name": "Flashscore – AC Oulu Spielplan"
-      }
-    ],
-    "verifiedAt": "2026-10-06T05:32:50.160Z"
-  },
-  {
-    "date": "2026-10-12",
-    "time": "18:15",
-    "competition": "Länderspiel (U23 Frauen)",
-    "country": "Deutschland",
-    "home": "Deutschland ♀ (U23)",
-    "away": "Schweden ♀ (U23)",
-    "channels": [
-      "DF1",
-      "DFB.TV (über DAZN empfangbar)",
-      "DFB (YouTube)"
-    ],
-    "groups": [
-      "free",
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.dfb.de/news/faq-die-wichtigsten-infos-zu-den-u-23-frauen-in-der-saison-2026/2027",
-        "name": "DFB – bestätigte Übertragungen Deutschland gegen Schweden (08.10.2026)"
-      },
-      {
-        "url": "https://www.dfb.de/news/aufgebot-steht-u-23-startet-in-schottland-und-bremen-in-die-neue-saison",
-        "name": "DFB – DF1, DFB.TV und YouTube (29.09.2026)"
-      }
-    ],
-    "verifiedAt": "2026-10-12T17:11:47Z",
-    "pageIntro": "Die deutschen U23-Frauen empfangen Schweden am 12. Oktober 2026 um 18:15 Uhr im Stadion Platz 11 in Bremen. Die Partie ist kostenlos auf DF1 und dem DFB-YouTube-Kanal zu sehen. DFB.TV wird auch über DAZN verbreitet."
-  },
-  {
-    "date": "2026-10-12",
-    "time": "18:30",
-    "competition": "Serie A",
-    "country": "Italien",
-    "home": "Atalanta Bergamo",
-    "away": "Venedig FC",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.eurosport.de/fussball/serie-a/2026-2027/atalanta-bergamo-fc-venedig_mtc21874395/live.shtml",
-        "name": "Eurosport – Atalanta Bergamo vs. FC Venedig"
-      }
-    ],
-    "verifiedAt": "2026-10-06T05:32:50.160Z"
-  },
-  {
-    "date": "2026-10-12",
-    "time": "20:15",
-    "competition": "AFC Champions League Elite",
-    "country": "Asien",
-    "home": "Al-Nassr FC",
-    "away": "Neftchi Fergana",
-    "channels": [
-      "Sportdigital1+",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-06T05:32:50.160Z"
-  },
-  {
-    "date": "2026-10-12",
-    "time": "20:45",
-    "competition": "Serie A",
-    "country": "Italien",
-    "home": "FC Turin",
-    "away": "Udinese Calcio",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-06T05:32:50.160Z"
-  },
-  {
-    "date": "2026-10-12",
-    "time": "21:00",
-    "competition": "Premier League",
-    "country": "England",
-    "home": "Coventry City",
-    "away": "Newcastle United",
-    "channels": [
-      "Sky Sport Premier League",
-      "Sky Go",
-      "WOW"
-    ],
-    "groups": [
-      "sky"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.newcastleunited.com/en/news/coventry-city-a-premier-league-ticket-news-2026-27",
-        "name": "Newcastle United – Coventry-Auswärtsspiel am 12. Oktober"
-      }
-    ],
-    "verifiedAt": "2026-10-06T05:32:50.160Z"
-  },
-  {
-    "date": "2026-10-12",
-    "time": "21:00",
-    "competition": "La Liga",
-    "country": "Spanien",
-    "home": "UD Levante",
-    "away": "FC Sevilla",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.levanteud.com/noticias/plan-de-trabajo-del-levante-ud-5-a-12-de-octubre",
-        "name": "Levante UD – Wochenplan mit Sevilla-Spiel"
-      }
-    ],
-    "verifiedAt": "2026-10-06T05:32:50.160Z"
-  },
-  {
     "date": "2026-10-13",
     "time": "14:00",
     "competition": "UEFA Youth League",
@@ -6920,5 +6654,254 @@
       }
     ],
     "verifiedAt": "2026-10-12T05:31:19.789Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "01:00",
+    "competition": "National Women’s Soccer League (NWSL)",
+    "country": "USA",
+    "home": "Chicago Stars FC ♀",
+    "away": "Seattle Reign FC ♀",
+    "channels": [
+      "Sender unbekannt"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www1.nwslsoccer.com/match/e534e76ce881470eaef01614b88d69d5/chicago-stars-vs-seattle-reign/index",
+        "name": "NWSL – Chicago Stars FC gegen Seattle Reign FC"
+      }
+    ],
+    "verifiedAt": "2026-10-13T05:35:27.327Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "12:00",
+    "competition": "Premjer Liha",
+    "country": "Ukraine",
+    "home": "Metalist Charkiw",
+    "away": "FC Livyi Bereh",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-13T05:35:27.327Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "17:00",
+    "competition": "Virslīga",
+    "country": "Lettland",
+    "home": "BFC Daugavpils",
+    "away": "Auda Riga",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-13T05:35:27.327Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "18:00",
+    "competition": "Frauen-Bundesliga",
+    "country": "Deutschland",
+    "home": "FC Bayern München ♀",
+    "away": "VfB Stuttgart ♀",
+    "channels": [
+      "Sport1",
+      "MagentaSport",
+      "DAZN"
+    ],
+    "groups": [
+      "free",
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.dfb.de/news/spieltage-7-bis-11-zeitgenau-angesetzt",
+        "name": "DFB – Frauen-Bundesliga, Spieltage 7 bis 11"
+      },
+      {
+        "url": "https://www.sport1.de/tv-video/stream/frauen-bundesliga-live-fc-bayern-muenchen-vfb-stuttgart-7-spieltag__2339639",
+        "name": "Sport1 – FC Bayern München gegen VfB Stuttgart"
+      },
+      {
+        "url": "https://www.vfb.de/de/1893/frauen/frauen/bundesliga/2026-2027/bundesliga/spieltage/",
+        "name": "VfB Stuttgart – Frauen-Bundesliga-Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-13T05:35:27.327Z",
+    "channelLinks": {
+      "Sport1": "https://www.sport1.de/tv-video/stream/frauen-bundesliga-live-fc-bayern-muenchen-vfb-stuttgart-7-spieltag__2339639"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "time": "18:00",
+    "competition": "Virslīga",
+    "country": "Lettland",
+    "home": "Rīgas FS",
+    "away": "FK Tukums 2000",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-13T05:35:27.327Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "18:30",
+    "competition": "Serie A",
+    "country": "Italien",
+    "home": "AC Monza",
+    "away": "Cagliari Calcio",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/italien-serie-a/se122406/2026-2027/ro322065/spieltag/md7/spiele-und-ergebnisse",
+        "name": "Sportschau – Serie A, 7. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-13T05:35:27.327Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "20:45",
+    "competition": "Serie A",
+    "country": "Italien",
+    "home": "Parma Calcio 1913",
+    "away": "FC Turin",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-13T05:35:27.327Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "20:45",
+    "competition": "Ligue 2",
+    "country": "Frankreich",
+    "home": "Rodez AF",
+    "away": "HSC Montpellier",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://fbref.com/en/squads/9130bd3b/2026-2027/matchlogs/c60/schedule/Rodez-AF-Scores-and-Fixtures-Ligue-2",
+        "name": "FBref – Rodez AF, Ligue-2-Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-13T05:35:27.327Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "21:00",
+    "competition": "La Liga",
+    "country": "Spanien",
+    "home": "Getafe CF",
+    "away": "Rayo Vallecano",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
+        "name": "LaLiga – Getafe CF gegen Rayo Vallecano"
+      }
+    ],
+    "verifiedAt": "2026-10-13T05:35:27.327Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "21:00",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "Tottenham Hotspur",
+    "away": "Coventry City",
+    "channels": [
+      "Sender unbekannt"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de//datencenter/premier-league/2026-2027/7",
+        "name": "DFB Datencenter – Premier League, 7. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-13T05:35:27.327Z"
   }
 ]
