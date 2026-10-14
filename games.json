@@ -1,575 +1,5 @@
 [
   {
-    "date": "2026-10-13",
-    "time": "14:00",
-    "competition": "UEFA Youth League",
-    "country": "Europa",
-    "home": "RB Leipzig U19",
-    "away": "PSV Eindhoven U19",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://api-p.rbleipzig.com/de/news/youth-league-rb-leipzig-nachwuchs-spiele-tickets",
-        "name": "RB Leipzig – Youth-League-Spiel gegen PSV"
-      }
-    ],
-    "verifiedAt": "2026-10-08T05:32:51.343Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "16:00",
-    "competition": "UEFA Youth League",
-    "country": "Europa",
-    "home": "FC Villarreal U19",
-    "away": "SSC Neapel U19",
-    "channels": [
-      "UEFA.tv",
-      "Sky Sport Austria (AT)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.uefa.com/uefayouthleague/clubs/2607408--villarreal/matches/",
-        "name": "UEFA – Villarreal U19 Spielplan"
-      }
-    ],
-    "verifiedAt": "2026-10-08T05:32:51.343Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "17:45",
-    "competition": "Länderspiel (Frauen)",
-    "country": "International",
-    "home": "Deutschland ♀",
-    "away": "Japan ♀",
-    "channels": [
-      "Das Erste",
-      "ARD Mediathek"
-    ],
-    "groups": [
-      "free"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://jfa.jp/nadeshikojapan/20261013/",
-        "name": "JFA – Deutschland gegen Japan am 13.10.2026"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "18:00",
-    "competition": "WM 2027 (Frauen)",
-    "country": "Europa",
-    "home": "Österreich ♀",
-    "away": "Kosovo ♀",
-    "channels": [
-      "ORF 1 (AT)",
-      "ORF ON (AT)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "channelLinks": {
-      "ORF 1 (AT)": "https://tv.orf.at/fifafrauen328.html",
-      "ORF ON (AT)": "https://tv.orf.at/fifafrauen328.html"
-    },
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.oefb.at/oefb/Spiel/4070925/?Oesterreich-vs-Kosovo=",
-        "name": "ÖFB – Österreich gegen Kosovo"
-      },
-      {
-        "url": "https://tv.orf.at/fifafrauen328.html",
-        "name": "ORF – Liveübertragung Österreich gegen Kosovo"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "18:45",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "RC Lens",
-    "away": "Sporting Lissabon",
-    "channels": [
-      "DAZN",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.transfermarkt.com/spielbericht/index/spielbericht/5035988",
-        "name": "Transfermarkt – RC Lens gegen Sporting CP"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "18:45",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "Sabah FK",
-    "away": "Slavia Prag",
-    "channels": [
-      "DAZN",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.eurosport.es/futbol/champions-league/2026-2027/sabah-fk-slavia-praga_mtc21878455/live.shtml",
-        "name": "Eurosport – Sabah FK gegen Slavia Prag"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "19:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "1. FC Saarbrücken",
-    "away": "MSV Duisburg",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/de/competitions/3-liga/seasons/2026-2027/matchday/9",
-        "name": "DFB-Datencenter – 3. Liga, 9. Spieltag"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "19:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "Hansa Rostock",
-    "away": "SV Meppen",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/de/competitions/3-liga/seasons/2026-2027/matchday/9",
-        "name": "DFB-Datencenter – 3. Liga, 9. Spieltag"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "19:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "Rot-Weiss Essen",
-    "away": "Fortuna Köln",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/de/competitions/3-liga/seasons/2026-2027/matchday/9",
-        "name": "DFB-Datencenter – 3. Liga, 9. Spieltag"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "19:00",
-    "competition": "Regionalliga Bayern",
-    "country": "Deutschland",
-    "home": "TSV 1860 München",
-    "away": "SpVgg Bayreuth",
-    "channels": [
-      "BR24 Sport (Livestream)",
-      "BR24 Sport (YouTube)",
-      "ARD Mediathek"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "19:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "TSV Havelse",
-    "away": "FC Würzburger Kickers",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/de/competitions/3-liga/seasons/2026-2027/matchday/9",
-        "name": "DFB-Datencenter – 3. Liga, 9. Spieltag"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "19:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "VfB Stuttgart II",
-    "away": "1899 Hoffenheim II",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/de/competitions/3-liga/seasons/2026-2027/matchday/9",
-        "name": "DFB-Datencenter – 3. Liga, 9. Spieltag"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "19:30",
-    "competition": "WM 2027 (Frauen)",
-    "country": "Europa",
-    "home": "Schweiz ♀",
-    "away": "Israel ♀",
-    "channels": [
-      "SRF zwei (CH)",
-      "RTS 2 (CH)",
-      "RSI La 2 (CH)",
-      "SFV Play (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.axawomenscup.ch/sfv/nationalteams/a-team/eventinfo/tabid5381.aspx",
-        "name": "SFV – Eventinfos Schweiz gegen Israel"
-      },
-      {
-        "url": "https://www.srf.ch/sport/fussball/frauen-nationalteam/wm-playoffs-am-9-13-oktober-der-fahrplan-so-naehert-sich-die-frauen-nati-dem-israel-duell-an",
-        "name": "SRF – WM-Playoff Schweiz gegen Israel"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "20:45",
-    "competition": "WM 2027 (Frauen)",
-    "country": "Europa",
-    "home": "Niederlande ♀",
-    "away": "Ungarn ♀",
-    "channels": [
-      "Sportdigital1+",
-      "Sportdigital+ (Livestream)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "channelLinks": {
-      "Sportdigital+ (Livestream)": "https://start.sportdigital.de/mediathek/36522/Niederlande%2BF%2B-%2BUngarn%2BF"
-    },
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://start.sportdigital.de/mediathek/36522/Niederlande%2BF%2B-%2BUngarn%2BF",
-        "name": "Sportdigital – Niederlande gegen Ungarn"
-      }
-    ],
-    "verifiedAt": "2026-10-08T05:32:51.343Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "21:00",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "Atletico Madrid",
-    "away": "Manchester United",
-    "channels": [
-      "DAZN",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "21:00",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "FC Arsenal",
-    "away": "OSC Lille",
-    "channels": [
-      "DAZN",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.espn.com/soccer/match/_/gameId/401915417/lille-arsenal",
-        "name": "ESPN – Arsenal gegen Lille"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "21:00",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "FC Villarreal",
-    "away": "SSC Neapel",
-    "channels": [
-      "DAZN",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://www.espn.com/soccer/match/_/gameId/401915410/napoli-villarreal",
-        "name": "ESPN – Villarreal gegen Napoli"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "21:00",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "Galatasaray Istanbul",
-    "away": "FC Barcelona",
-    "channels": [
-      "DAZN",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://ru.uefa.com/uefachampionsleague/match/2049576--galatasaray-vs-barcelona/",
-        "name": "UEFA – Galatasaray gegen Barcelona"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "21:00",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "Inter Mailand",
-    "away": "Club Brügge",
-    "channels": [
-      "DAZN",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "21:00",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "RB Leipzig",
-    "away": "PSV Eindhoven",
-    "channels": [
-      "DAZN",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "21:00",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "Viking Stavanger FK",
-    "away": "FC Bayern München",
-    "channels": [
-      "Prime Video",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "prime",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-09",
-        "name": "fußballgucken.info – Wochenplan 9.–15. Oktober 2026"
-      },
-      {
-        "url": "https://pt.uefa.com/uefachampionsleague/match/2049578--viking-vs-bayern-munchen/",
-        "name": "UEFA – Viking gegen Bayern München"
-      },
-      {
-        "url": "https://www.primevideo.com/-/pt/detail/0P1OIE2JUQ43S0RIIZIIPPT4W6",
-        "name": "Prime Video – Viking gegen Bayern München"
-      }
-    ],
-    "verifiedAt": "2026-10-07T05:30:06.508Z"
-  },
-  {
     "date": "2026-10-14",
     "time": "02:30",
     "competition": "Copa Sudamericana",
@@ -6903,5 +6333,336 @@
       }
     ],
     "verifiedAt": "2026-10-13T05:35:27.327Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "14:00",
+    "competition": "UEFA Youth League",
+    "country": "Europa",
+    "home": "Paris Saint-Germain U19",
+    "away": "FC Barcelona U19",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefayouthleague/news/02a9-217f1797a7df-a124ba203d2c-1000--uefa-youth-league-psv-slavia-villarreal-perfect-as-vikin/",
+        "name": "UEFA – Youth-League-Spielplan, 20. Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "14:00",
+    "competition": "UEFA Youth League",
+    "country": "Europa",
+    "home": "Manchester City U19",
+    "away": "AEK Athen U19",
+    "channels": [
+      "Sender unbekannt"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefayouthleague/news/02a9-217f1797a7df-a124ba203d2c-1000--uefa-youth-league-psv-slavia-villarreal-perfect-as-vikin/",
+        "name": "UEFA – Youth-League-Spielplan, 20. Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "16:00",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "FC Schalke 04 II",
+    "away": "1. FC Köln II",
+    "channels": [
+      "Sender unbekannt"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://fc.de/aktuelles/news/u21-gewinnt-torreiches-heimspiel",
+        "name": "1. FC Köln – Nachholspiel bei Schalke am 20. Oktober 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "18:45",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "Sabah FK",
+    "away": "Borussia Dortmund",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "18:45",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "Fenerbahçe Istanbul",
+    "away": "Slavia Prag",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "VfB Stuttgart",
+    "away": "Atletico Madrid",
+    "channels": [
+      "Prime Video",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "prime",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      },
+      {
+        "url": "https://www.primevideo.com/-/pt/tournament/amzn1.dv.icid.f40b96cd-f09e-48db-a9ec-0b0e298a39c8?jic=16%7CCgNCSE0SA2FsbA%3D%3D&tr=de",
+        "name": "Prime Video – VfB Stuttgart gegen Atlético Madrid"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "SSC Neapel",
+    "away": "FK Bodø/Glimt",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "Paris Saint-Germain",
+    "away": "FC Barcelona",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "Manchester City",
+    "away": "AEK Athen",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "FC Liverpool",
+    "away": "FC Villarreal",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "FC Porto",
+    "away": "PSV Eindhoven",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "AS Rom",
+    "away": "Slovan Bratislava",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
   }
 ]
