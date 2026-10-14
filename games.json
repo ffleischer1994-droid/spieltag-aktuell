@@ -6339,13 +6339,13 @@
     "time": "14:00",
     "competition": "UEFA Youth League",
     "country": "Europa",
-    "home": "Paris Saint-Germain U19",
-    "away": "FC Barcelona U19",
+    "home": "Manchester City U19",
+    "away": "AEK Athen U19",
     "channels": [
-      "DAZN"
+      "Sender unbekannt"
     ],
     "groups": [
-      "dazn"
+      "other"
     ],
     "sources": [
       {
@@ -6364,13 +6364,13 @@
     "time": "14:00",
     "competition": "UEFA Youth League",
     "country": "Europa",
-    "home": "Manchester City U19",
-    "away": "AEK Athen U19",
+    "home": "Paris Saint-Germain U19",
+    "away": "FC Barcelona U19",
     "channels": [
-      "Sender unbekannt"
+      "DAZN"
     ],
     "groups": [
-      "other"
+      "dazn"
     ],
     "sources": [
       {
@@ -6414,8 +6414,8 @@
     "time": "18:45",
     "competition": "UEFA Champions League",
     "country": "Europa",
-    "home": "Sabah FK",
-    "away": "Borussia Dortmund",
+    "home": "Fenerbahçe Istanbul",
+    "away": "Slavia Prag",
     "channels": [
       "DAZN",
       "Sky Sport Austria (AT)",
@@ -6442,8 +6442,8 @@
     "time": "18:45",
     "competition": "UEFA Champions League",
     "country": "Europa",
-    "home": "Fenerbahçe Istanbul",
-    "away": "Slavia Prag",
+    "home": "Sabah FK",
+    "away": "Borussia Dortmund",
     "channels": [
       "DAZN",
       "Sky Sport Austria (AT)",
@@ -6470,96 +6470,8 @@
     "time": "21:00",
     "competition": "UEFA Champions League",
     "country": "Europa",
-    "home": "VfB Stuttgart",
-    "away": "Atletico Madrid",
-    "channels": [
-      "Prime Video",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "prime",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
-        "name": "UEFA – Champions-League-Spielplan 2026/27"
-      },
-      {
-        "url": "https://www.primevideo.com/-/pt/tournament/amzn1.dv.icid.f40b96cd-f09e-48db-a9ec-0b0e298a39c8?jic=16%7CCgNCSE0SA2FsbA%3D%3D&tr=de",
-        "name": "Prime Video – VfB Stuttgart gegen Atlético Madrid"
-      }
-    ],
-    "verifiedAt": "2026-10-14T05:28:00Z"
-  },
-  {
-    "date": "2026-10-20",
-    "time": "21:00",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "SSC Neapel",
-    "away": "FK Bodø/Glimt",
-    "channels": [
-      "DAZN",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
-        "name": "UEFA – Champions-League-Spielplan 2026/27"
-      }
-    ],
-    "verifiedAt": "2026-10-14T05:28:00Z"
-  },
-  {
-    "date": "2026-10-20",
-    "time": "21:00",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "Paris Saint-Germain",
-    "away": "FC Barcelona",
-    "channels": [
-      "DAZN",
-      "Sky Sport Austria (AT)",
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
-        "name": "UEFA – Champions-League-Spielplan 2026/27"
-      }
-    ],
-    "verifiedAt": "2026-10-14T05:28:00Z"
-  },
-  {
-    "date": "2026-10-20",
-    "time": "21:00",
-    "competition": "UEFA Champions League",
-    "country": "Europa",
-    "home": "Manchester City",
-    "away": "AEK Athen",
+    "home": "AS Rom",
+    "away": "Slovan Bratislava",
     "channels": [
       "DAZN",
       "Sky Sport Austria (AT)",
@@ -6642,8 +6554,8 @@
     "time": "21:00",
     "competition": "UEFA Champions League",
     "country": "Europa",
-    "home": "AS Rom",
-    "away": "Slovan Bratislava",
+    "home": "Manchester City",
+    "away": "AEK Athen",
     "channels": [
       "DAZN",
       "Sky Sport Austria (AT)",
@@ -6661,6 +6573,94 @@
       {
         "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
         "name": "UEFA – Champions-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "Paris Saint-Germain",
+    "away": "FC Barcelona",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "SSC Neapel",
+    "away": "FK Bodø/Glimt",
+    "channels": [
+      "DAZN",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "21:00",
+    "competition": "UEFA Champions League",
+    "country": "Europa",
+    "home": "VfB Stuttgart",
+    "away": "Atletico Madrid",
+    "channels": [
+      "Prime Video",
+      "Sky Sport Austria (AT)",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "prime",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "name": "UEFA – Champions-League-Spielplan 2026/27"
+      },
+      {
+        "url": "https://www.primevideo.com/-/pt/tournament/amzn1.dv.icid.f40b96cd-f09e-48db-a9ec-0b0e298a39c8?jic=16%7CCgNCSE0SA2FsbA%3D%3D&tr=de",
+        "name": "Prime Video – VfB Stuttgart gegen Atlético Madrid"
       }
     ],
     "verifiedAt": "2026-10-14T05:28:00Z"
