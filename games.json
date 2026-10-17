@@ -5345,11 +5345,18 @@
         "name": "fußballgucken.info – Sturm Graz Frauen gegen LASK Frauen"
       },
       {
-        "url": "https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News",
-        "name": "ÖFB – offizieller Spielplan der Frauen-Bundesliga"
+        "url": "https://tv.orf.at/livefussba1772.html",
+        "name": "ORF SPORT+ – Sturm Graz Frauen gegen LASK live"
+      },
+      {
+        "url": "https://sksturm.at/t/damen/spielplan",
+        "name": "SK Sturm Graz – offizieller Frauen-Spielplan"
       }
     ],
-    "verifiedAt": "2026-10-17T05:34:17.226Z"
+    "verifiedAt": "2026-10-17T05:34:17.226Z",
+    "channelLinks": {
+      "ORF Sport+ (AT)": "https://tv.orf.at/livefussba1772.html"
+    }
   },
   {
     "date": "2026-10-23",
