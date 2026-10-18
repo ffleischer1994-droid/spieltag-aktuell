@@ -20,6 +20,13 @@ const score=g=>{
   if((g.groups||[]).includes("free"))value+=20;
   if(/Nations League/i.test(competition))value+=15;
   if(g.time>="17:00")value+=10;
+  // Editorial relevance: strong traditional clubs and genuine rivalry matches
+  // can outrank routine top-division fixtures, regardless of league level.
+  if(/(?:TSV\s*)?1860\s*München|München\s*1860|Schalke|Hamburger SV|1\. FC Nürnberg|1\. FC Kaiserslautern|Werder Bremen|FC St\. Pauli|Dynamo Dresden|Rot-Weiss Essen/i.test(teams))value+=65;
+  const bayern=/(?:FC\s*)?Bayern\s*München(?:\s*(?:II|2|U23))?|Bayern\s*(?:II|2|U23)/i;
+  const lions=/(?:TSV\s*)?1860\s*München|München\s*1860/i;
+  if((bayern.test(g.home)&&lions.test(g.away))||(lions.test(g.home)&&bayern.test(g.away)))value+=260;
+  if(/Derby|Stadtduell|Stadtderby/i.test(g.title||g.description||""))value+=90;
   return value;
 };
 
