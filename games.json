@@ -797,7 +797,9 @@
     "country": "Deutschland",
     "home": "BFC Dynamo",
     "away": "Chemnitzer FC",
-    "channels": [],
+    "channels": [
+      "Gellert-Welle (Chemnitzer FC)"
+    ],
     "groups": [
       "other"
     ],
@@ -809,6 +811,10 @@
       {
         "url": "https://www.nofv-online.de/index.php/regionalliga/spielplan.html",
         "name": "NOFV – Regionalliga Nordost, Spielplan"
+      },
+      {
+        "url": "https://fussballgucken.info/match/196285/regionalliga-nordost/bfc-dynamo-chemnitzer-fc",
+        "name": "fußballgucken.info – BFC Dynamo gegen Chemnitzer FC"
       }
     ],
     "verifiedAt": "2026-10-18T05:40:29.667Z"
@@ -1556,14 +1562,20 @@
     "country": "England",
     "home": "Newcastle United ♀",
     "away": "AFC Sunderland ♀",
-    "channels": [],
+    "channels": [
+      "Barclays Women's Super League (YouTube)"
+    ],
     "groups": [
-      "other"
+      "free"
     ],
     "sources": [
       {
         "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
         "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://fussballgucken.info/wettbewerb/wsl-players-cup-england",
+        "name": "fußballgucken.info – WSL Players Cup"
       }
     ],
     "verifiedAt": "2026-10-18T05:40:29.667Z"
@@ -1659,14 +1671,20 @@
     "country": "Deutschland",
     "home": "Vorwärts Spoho Köln ♀",
     "away": "Borussia Dortmund ♀",
-    "channels": [],
+    "channels": [
+      "Pluto TV"
+    ],
     "groups": [
-      "other"
+      "free"
     ],
     "sources": [
       {
         "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
         "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://fussballgucken.info/fussball-live-frei-empfangen?date=2026-10-16&page=5",
+        "name": "fußballgucken.info – kostenlose Übertragungen am 18. Oktober 2026"
       }
     ],
     "verifiedAt": "2026-10-18T05:40:29.667Z"
@@ -3611,14 +3629,20 @@
     "country": "England",
     "home": "FC Liverpool ♀",
     "away": "Manchester United ♀",
-    "channels": [],
+    "channels": [
+      "Barclays Women's Super League (YouTube)"
+    ],
     "groups": [
-      "other"
+      "free"
     ],
     "sources": [
       {
         "url": "https://fussballgucken.info/fussball-heute?date=2026-10-21",
         "name": "fußballgucken.info – Tagesplan 21.10.2026"
+      },
+      {
+        "url": "https://fussballgucken.info/match/196397/wsl-players-cup-england/fc-liverpool-frauen-manchester-united-frauen",
+        "name": "fußballgucken.info – Liverpool gegen Manchester United im WSL Players Cup"
       }
     ],
     "verifiedAt": "2026-10-18T05:40:29.667Z"
