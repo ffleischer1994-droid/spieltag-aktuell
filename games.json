@@ -1,1879 +1,5 @@
 [
   {
-    "date": "2026-10-17",
-    "time": "02:00",
-    "competition": "National Women’s Soccer League (NWSL)",
-    "country": "USA",
-    "home": "Boston Legacy FC ♀",
-    "away": "Racing Louisville FC ♀",
-    "channels": [
-      "NWSL+"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "12:00",
-    "competition": "Frauen-Bundesliga",
-    "country": "Deutschland",
-    "home": "1. FC Köln ♀",
-    "away": "Hamburger SV ♀",
-    "channels": [
-      "DAZN",
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/competitions/14/seasons/current",
-        "name": "DFB Datencenter – Frauen-Bundesliga"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "12:00",
-    "competition": "Premjer Liha",
-    "country": "Ukraine",
-    "home": "FK Sorja Luhansk",
-    "away": "Chornomorets Odessa",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "12:30",
-    "competition": "Serie A Femminile",
-    "country": "Italien",
-    "home": "US Sassuolo Calcio ♀",
-    "away": "SSC Neapel ♀",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "13:00",
-    "competition": "2. Bundesliga",
-    "country": "Deutschland",
-    "home": "1. FC Kaiserslautern",
-    "away": "VfL Bochum",
-    "channels": [
-      "Sky Sport Bundesliga",
-      "Sky Go",
-      "WOW"
-    ],
-    "groups": [
-      "sky"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
-        "name": "Bundesliga – TV-Plan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "13:00",
-    "competition": "Veikkausliiga",
-    "country": "Finnland",
-    "home": "FC Lahti",
-    "away": "Turun PS",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "13:00",
-    "competition": "Veikkausliiga",
-    "country": "Finnland",
-    "home": "FF Jaro",
-    "away": "IFK Mariehamn",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "13:00",
-    "competition": "Virslīga",
-    "country": "Lettland",
-    "home": "Grobinas Sporta Centrs",
-    "away": "FK Ogre United",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "13:00",
-    "competition": "Veikkausliiga",
-    "country": "Finnland",
-    "home": "Ilves Tampere",
-    "away": "SJK Seinäjoki",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "13:00",
-    "competition": "2. Bundesliga",
-    "country": "Deutschland",
-    "home": "SpVgg Greuther Fürth",
-    "away": "Eintracht Braunschweig",
-    "channels": [
-      "Sky Sport Bundesliga",
-      "Sky Go",
-      "WOW"
-    ],
-    "groups": [
-      "sky"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
-        "name": "Bundesliga – TV-Plan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "13:00",
-    "competition": "2. Bundesliga",
-    "country": "Deutschland",
-    "home": "VfL Wolfsburg",
-    "away": "1. FC Heidenheim 1846",
-    "channels": [
-      "Sky Sport Bundesliga",
-      "Sky Go",
-      "WOW"
-    ],
-    "groups": [
-      "sky"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
-        "name": "Bundesliga – TV-Plan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "13:30",
-    "competition": "Premier League",
-    "country": "England",
-    "home": "FC Everton",
-    "away": "FC Chelsea",
-    "channels": [
-      "Sky (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "13:45",
-    "competition": "Women's Super League",
-    "country": "England",
-    "home": "FC Arsenal WFC ♀",
-    "away": "Birmingham City FC ♀",
-    "channels": [
-      "Sportdigital1+"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "1. FC Bocholt 1900",
-    "away": "Sportfreunde Lotte",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://wdfv.de/spielbetrieb/herren-regionalliga-west",
-        "name": "WDFV – Regionalliga West"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "Alemannia Aachen",
-    "away": "Hansa Rostock",
-    "channels": [
-      "NDR Fernsehen",
-      "MagentaSport"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
-        "name": "DFB Datencenter – 3. Liga"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "Frauen-Bundesliga",
-    "country": "Deutschland",
-    "home": "Bayer 04 Leverkusen ♀",
-    "away": "Eintracht Frankfurt ♀",
-    "channels": [
-      "DAZN",
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "dazn",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/competitions/14/seasons/current",
-        "name": "DFB Datencenter – Frauen-Bundesliga"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "Bonner SC",
-    "away": "VfB 03 Hilden",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://wdfv.de/spielbetrieb/herren-regionalliga-west",
-        "name": "WDFV – Regionalliga West"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "Borussia Mönchengladbach II",
-    "away": "Bergisch Gladbach 09",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://wdfv.de/spielbetrieb/herren-regionalliga-west",
-        "name": "WDFV – Regionalliga West"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "La Liga",
-    "country": "Spanien",
-    "home": "Espanyol Barcelona",
-    "away": "Atlético Madrid",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "FC Ingolstadt 04",
-    "away": "Rot-Weiss Essen",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
-        "name": "DFB Datencenter – 3. Liga"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "Fortuna Düsseldorf",
-    "away": "1. FC Saarbrücken",
-    "channels": [
-      "WDR Fernsehen",
-      "MagentaSport"
-    ],
-    "groups": [
-      "free",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
-        "name": "DFB Datencenter – 3. Liga"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "ÖFB Frauen Bundesliga",
-    "country": "Österreich",
-    "home": "Linzer ASK ♀",
-    "away": "FC Blau Weiß Linz/Union Kleinmünchen ♀",
-    "channels": [
-      "LAOLA1",
-      "ÖFB TV (AT)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "SC Wiedenbrück 2000",
-    "away": "Borussia Dortmund II",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://wdfv.de/spielbetrieb/herren-regionalliga-west",
-        "name": "WDFV – Regionalliga West"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "SF Siegen",
-    "away": "RW Oberhausen",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://wdfv.de/spielbetrieb/herren-regionalliga-west",
-        "name": "WDFV – Regionalliga West"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "SG Sonnenhof Großaspach",
-    "away": "SC Preußen Münster",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
-        "name": "DFB Datencenter – 3. Liga"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "SSV Jahn Regensburg",
-    "away": "SV Wehen Wiesbaden",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
-        "name": "DFB Datencenter – 3. Liga"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:30",
-    "competition": "Premjer Liha",
-    "country": "Ukraine",
-    "home": "FC Kudrivka",
-    "away": "Bukowina Czernowitz",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "14:30",
-    "competition": "ÖFB Frauen Bundesliga",
-    "country": "Österreich",
-    "home": "SpG Südburgenland/TSV Hartberg ♀",
-    "away": "Red Bull Salzburg ♀",
-    "channels": [
-      "LAOLA1",
-      "ÖFB TV (AT)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:00",
-    "competition": "Serie B",
-    "country": "Italien",
-    "home": "Ascoli Calcio",
-    "away": "FC Empoli",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:00",
-    "competition": "Serie B",
-    "country": "Italien",
-    "home": "Benevento Calcio",
-    "away": "L.R. Vicenza",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:00",
-    "competition": "Serie B",
-    "country": "Italien",
-    "home": "Calcio Padova",
-    "away": "ACD Virtus Entella",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:00",
-    "competition": "Serie B",
-    "country": "Italien",
-    "home": "Carrarese Calcio",
-    "away": "Modena FC",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:00",
-    "competition": "Veikkausliiga",
-    "country": "Finnland",
-    "home": "HJK Helsinki",
-    "away": "IF Gnistan",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:00",
-    "competition": "Serie A",
-    "country": "Italien",
-    "home": "Venedig FC",
-    "away": "SSC Neapel",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:30",
-    "competition": "Bundesliga",
-    "country": "Deutschland",
-    "home": "1. FC Union Berlin",
-    "away": "Borussia Dortmund",
-    "channels": [
-      "Sky Sport Bundesliga",
-      "DAZN",
-      "WOW"
-    ],
-    "groups": [
-      "sky",
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
-        "name": "Bundesliga – TV-Plan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:30",
-    "competition": "Bundesliga",
-    "country": "Deutschland",
-    "home": "FC Schalke 04",
-    "away": "1. FSV Mainz 05",
-    "channels": [
-      "Sky Sport Bundesliga",
-      "DAZN",
-      "WOW"
-    ],
-    "groups": [
-      "sky",
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
-        "name": "Bundesliga – TV-Plan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:30",
-    "competition": "2. Liga",
-    "country": "Österreich",
-    "home": "Floridsdorfer AC Wien",
-    "away": "FC Admira Wacker",
-    "channels": [
-      "LAOLA1",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.2liga.at/de/spielplan",
-        "name": "ADMIRAL 2. Liga – offizieller Spielplan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:30",
-    "competition": "Bundesliga",
-    "country": "Deutschland",
-    "home": "Hamburger SV",
-    "away": "VfB Stuttgart",
-    "channels": [
-      "Sky Sport Bundesliga",
-      "DAZN",
-      "WOW"
-    ],
-    "groups": [
-      "sky",
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
-        "name": "Bundesliga – TV-Plan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:30",
-    "competition": "Bundesliga",
-    "country": "Deutschland",
-    "home": "SV Elversberg",
-    "away": "FC Augsburg",
-    "channels": [
-      "Sky Sport Bundesliga",
-      "DAZN",
-      "WOW"
-    ],
-    "groups": [
-      "sky",
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
-        "name": "Bundesliga – TV-Plan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:30",
-    "competition": "Bundesliga",
-    "country": "Deutschland",
-    "home": "SV Werder Bremen",
-    "away": "SC Paderborn 07",
-    "channels": [
-      "Sky Sport Bundesliga",
-      "DAZN",
-      "WOW"
-    ],
-    "groups": [
-      "sky",
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
-        "name": "Bundesliga – TV-Plan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:30",
-    "competition": "2. Liga",
-    "country": "Österreich",
-    "home": "Schwarz-Weiß Bregenz",
-    "away": "SKU Amstetten",
-    "channels": [
-      "LAOLA1",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.2liga.at/de/spielplan",
-        "name": "ADMIRAL 2. Liga – offizieller Spielplan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "16:00",
-    "competition": "Premier League",
-    "country": "England",
-    "home": "Brentford FC",
-    "away": "FC Liverpool",
-    "channels": [
-      "RTL+",
-      "Sky (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "16:00",
-    "competition": "Schweizer Cup",
-    "country": "Schweiz",
-    "home": "FC Bulle",
-    "away": "FC Wil",
-    "channels": [
-      "Sender unbekannt"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.schweizercup.ch/schweizer-cup/spiele-resultate.aspx",
-        "name": "Schweizer Cup – Spiele & Resultate"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "16:00",
-    "competition": "Premier League",
-    "country": "England",
-    "home": "FC Fulham",
-    "away": "Hull City AFC",
-    "channels": [
-      "Sky (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "16:00",
-    "competition": "Schweizer Cup",
-    "country": "Schweiz",
-    "home": "FC Köniz",
-    "away": "SC Brühl",
-    "channels": [
-      "Sender unbekannt"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.schweizercup.ch/schweizer-cup/spiele-resultate.aspx",
-        "name": "Schweizer Cup – Spiele & Resultate"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "16:00",
-    "competition": "Besta deild karla",
-    "country": "Island",
-    "home": "IB Vestmannaeyjar",
-    "away": "FH Hafnarfjördur",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "16:00",
-    "competition": "Besta deild karla",
-    "country": "Island",
-    "home": "IF Keflavik",
-    "away": "KR Reykjavik",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "16:00",
-    "competition": "Premier League",
-    "country": "England",
-    "home": "Manchester City",
-    "away": "Ipswich Town",
-    "channels": [
-      "Sky (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "16:00",
-    "competition": "Besta deild karla",
-    "country": "Island",
-    "home": "Thor Akureyri",
-    "away": "UMF Stjarnan",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "16:00",
-    "competition": "Besta deild karla",
-    "country": "Island",
-    "home": "Valur Reykjavik",
-    "away": "KA Akureyri",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "16:15",
-    "competition": "La Liga",
-    "country": "Spanien",
-    "home": "FC Villarreal",
-    "away": "Elche C.F.",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "16:30",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "FC Würzburger Kickers",
-    "away": "Waldhof Mannheim",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://datencenter.dfb.de/competitions/4/seasons/current",
-        "name": "DFB Datencenter – 3. Liga"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:00",
-    "competition": "Women's Super League",
-    "country": "Schweiz",
-    "home": "BSC Young Boys ♀",
-    "away": "Grasshopper Club Zürich ♀",
-    "channels": [
-      "AWSL Play (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:00",
-    "competition": "Women's Super League",
-    "country": "Schweiz",
-    "home": "FC Aarau ♀",
-    "away": "FC Basel ♀",
-    "channels": [
-      "AWSL Play (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:00",
-    "competition": "Schweizer Cup",
-    "country": "Schweiz",
-    "home": "FC Grenchen",
-    "away": "Grasshopper Club Zürich",
-    "channels": [
-      "Sender unbekannt"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.schweizercup.ch/schweizer-cup/spiele-resultate.aspx",
-        "name": "Schweizer Cup – Spiele & Resultate"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:00",
-    "competition": "Veikkausliiga",
-    "country": "Finnland",
-    "home": "Inter Turku",
-    "away": "AC Oulu",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:00",
-    "competition": "Bundesliga",
-    "country": "Österreich",
-    "home": "SC Austria Lustenau",
-    "away": "Linzer ASK",
-    "channels": [
-      "Sky Sport Austria 1 (AT)",
-      "Sky Go (AT)",
-      "WOW (AT)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.at/de/spielplan",
-        "name": "ADMIRAL Bundesliga – offizieller Spielplan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:00",
-    "competition": "Schweizer Cup",
-    "country": "Schweiz",
-    "home": "SC Cham",
-    "away": "FC Sion",
-    "channels": [
-      "Sender unbekannt"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.schweizercup.ch/schweizer-cup/spiele-resultate.aspx",
-        "name": "Schweizer Cup – Spiele & Resultate"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:00",
-    "competition": "ÖFB Frauen Bundesliga",
-    "country": "Österreich",
-    "home": "SK Rapid Wien ♀",
-    "away": "First Vienna FC 1894 ♀",
-    "channels": [
-      "LAOLA1",
-      "ÖFB TV (AT)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:00",
-    "competition": "Premjer Liha",
-    "country": "Ukraine",
-    "home": "Schachtjor Donezk",
-    "away": "Kolos Kowaliwka",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:15",
-    "competition": "Serie B",
-    "country": "Italien",
-    "home": "Mantova 1911",
-    "away": "FC Palermo",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:15",
-    "competition": "Ligue 1",
-    "country": "Frankreich",
-    "home": "Racing Straßburg",
-    "away": "Paris Saint-Germain",
-    "channels": [
-      "DAZN",
-      "DAZN FAST+"
-    ],
-    "groups": [
-      "free",
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-12T05:31:19.789Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:30",
-    "competition": "2. Liga",
-    "country": "Österreich",
-    "home": "FC Blau-Weiß Linz",
-    "away": "FC Liefering",
-    "channels": [
-      "LAOLA1",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.2liga.at/de/spielplan",
-        "name": "ADMIRAL 2. Liga – offizieller Spielplan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "18:00",
-    "competition": "Serie A",
-    "country": "Italien",
-    "home": "FC Bologna",
-    "away": "Inter Mailand",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "18:00",
-    "competition": "Schweizer Cup",
-    "country": "Schweiz",
-    "home": "FC Winterthur",
-    "away": "FC Luzern",
-    "channels": [
-      "Sender unbekannt"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.schweizercup.ch/schweizer-cup/spiele-resultate.aspx",
-        "name": "Schweizer Cup – Spiele & Resultate"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "18:30",
-    "competition": "Bundesliga",
-    "country": "Deutschland",
-    "home": "FC Bayern München",
-    "away": "RB Leipzig",
-    "channels": [
-      "Sky Sport Bundesliga",
-      "Sky Go",
-      "WOW"
-    ],
-    "groups": [
-      "sky"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
-        "name": "Bundesliga – TV-Plan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "18:30",
-    "competition": "Premier League",
-    "country": "England",
-    "home": "Newcastle United",
-    "away": "Aston Villa",
-    "channels": [
-      "Sky (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "18:30",
-    "competition": "La Liga",
-    "country": "Spanien",
-    "home": "Real Betis Balompié",
-    "away": "FC Barcelona",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "18:30",
-    "competition": "National Women’s Soccer League (NWSL)",
-    "country": "USA",
-    "home": "Washington Spirit ♀",
-    "away": "NJ/NY Gotham FC ♀",
-    "channels": [
-      "NWSL+"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "19:00",
-    "competition": "Schweizer Cup",
-    "country": "Schweiz",
-    "home": "Old Boys Basel",
-    "away": "Yverdon-Sport FC",
-    "channels": [
-      "Sender unbekannt"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.schweizercup.ch/schweizer-cup/spiele-resultate.aspx",
-        "name": "Schweizer Cup – Spiele & Resultate"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "19:30",
-    "competition": "Serie B",
-    "country": "Italien",
-    "home": "Pisa Sporting Club",
-    "away": "US Cremonese",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "19:30",
-    "competition": "Bundesliga",
-    "country": "Österreich",
-    "home": "SV Ried",
-    "away": "FK Austria Wien",
-    "channels": [
-      "Sky Sport Austria 1 (AT)",
-      "Sky Go (AT)",
-      "WOW (AT)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.at/de/spielplan",
-        "name": "ADMIRAL Bundesliga – offizieller Spielplan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "20:00",
-    "competition": "Ligue 2",
-    "country": "Frankreich",
-    "home": "Red Star FC",
-    "away": "AS Saint-Étienne",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "20:30",
-    "competition": "2. Bundesliga",
-    "country": "Deutschland",
-    "home": "Hannover 96",
-    "away": "FC St. Pauli",
-    "channels": [
-      "NITRO",
-      "RTL+",
-      "Sky Sport Bundesliga",
-      "Sky Go",
-      "WOW"
-    ],
-    "groups": [
-      "free",
-      "sky",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.bundesliga.com/de/bundesliga/news/bundesliga-spiele-im-fernsehen-tv-sender-rtl-dazn-sky-prime-363",
-        "name": "Bundesliga – TV-Plan"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "20:30",
-    "competition": "Major League Soccer (MLS)",
-    "country": "USA",
-    "home": "Philadelphia Union",
-    "away": "Charlotte FC",
-    "channels": [
-      "Apple TV"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "20:45",
-    "competition": "Serie A",
-    "country": "Italien",
-    "home": "AS Rom",
-    "away": "CFC Genua",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "20:45",
-    "competition": "Ligue 1",
-    "country": "Frankreich",
-    "home": "ES Troyes AC",
-    "away": "RC Lens",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "20:45",
-    "competition": "Ligue 1",
-    "country": "Frankreich",
-    "home": "OSC Lille",
-    "away": "Stade Brest",
-    "channels": [
-      "TV5 Monde Europe",
-      "DAZN"
-    ],
-    "groups": [
-      "free",
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "21:00",
-    "competition": "La Liga",
-    "country": "Spanien",
-    "home": "FC Valencia",
-    "away": "Athletic Bilbao",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
-    "date": "2026-10-17",
-    "time": "22:30",
-    "competition": "Major League Soccer (MLS)",
-    "country": "USA",
-    "home": "Minnesota United FC",
-    "away": "St. Louis City",
-    "channels": [
-      "Apple TV"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      }
-    ],
-    "verifiedAt": "2026-10-11T05:31:00.640Z"
-  },
-  {
     "date": "2026-10-18",
     "time": "00:30",
     "competition": "National Women’s Soccer League (NWSL)",
@@ -2325,6 +451,29 @@
   },
   {
     "date": "2026-10-18",
+    "time": "12:15",
+    "competition": "Ekstraklasa",
+    "country": "Polen",
+    "home": "Gornik Zabrze",
+    "away": "Piast Gliwice",
+    "channels": [
+      "Sportdigital Fußball",
+      "blue Sport (CH)",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
     "time": "12:30",
     "competition": "Serie A Femminile",
     "country": "Italien",
@@ -2386,6 +535,77 @@
       }
     ],
     "verifiedAt": "2026-10-12T05:31:19.789Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "13:00",
+    "competition": "Women's Super League",
+    "country": "England",
+    "home": "Crystal Palace ♀",
+    "away": "West Ham United ♀",
+    "channels": [
+      "Sportdigital1+"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://womensleagues.thefa.com/fixtures/",
+        "name": "The FA – Women’s Super League, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "13:00",
+    "competition": "Women's Super League",
+    "country": "England",
+    "home": "FC Chelsea LFC ♀",
+    "away": "Tottenham Hotspur ♀",
+    "channels": [
+      "Sportdigital1+"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://womensleagues.thefa.com/fixtures/",
+        "name": "The FA – Women’s Super League, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "13:00",
+    "competition": "Première Ligue (Frankreich)",
+    "country": "Frankreich",
+    "home": "Olympique Marseille ♀",
+    "away": "FC Fleury 91 ♀",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-18",
@@ -2519,6 +739,32 @@
   {
     "date": "2026-10-18",
     "time": "14:00",
+    "competition": "Regionalliga Nordost",
+    "country": "Deutschland",
+    "home": "1. FC Magdeburg II",
+    "away": "Greifswalder FC",
+    "channels": [
+      "BR"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://www.nofv-online.de/index.php/regionalliga/spielplan.html",
+        "name": "NOFV – Regionalliga Nordost, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "14:00",
     "competition": "Frauen-Bundesliga",
     "country": "Deutschland",
     "home": "1. FC Union Berlin ♀",
@@ -2543,6 +789,29 @@
       }
     ],
     "verifiedAt": "2026-10-12T05:31:19.789Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "14:00",
+    "competition": "Regionalliga Nordost",
+    "country": "Deutschland",
+    "home": "BFC Dynamo",
+    "away": "Chemnitzer FC",
+    "channels": [],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://www.nofv-online.de/index.php/regionalliga/spielplan.html",
+        "name": "NOFV – Regionalliga Nordost, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-18",
@@ -2589,6 +858,84 @@
       }
     ],
     "verifiedAt": "2026-10-12T05:31:19.789Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "Eintracht Norderstedt",
+    "away": "Eimsbütteler TV",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://www.nordfv.de/spielbetrieb/regionalliga-herren/spielplan",
+        "name": "Norddeutscher Fußball-Verband – Regionalliga Nord, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "Eintracht Trier",
+    "away": "FSV Frankfurt",
+    "channels": [
+      "DFB.TV",
+      "DAZN"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://www.dfb.de/datencenter/regionalliga-suedwest/spieltag",
+        "name": "DFB Datencenter – Regionalliga Südwest"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "FC 08 Homburg",
+    "away": "SC Freiburg II",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://www.dfb.de/datencenter/regionalliga-suedwest/spieltag",
+        "name": "DFB Datencenter – Regionalliga Südwest"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-18",
@@ -2691,6 +1038,56 @@
       }
     ],
     "verifiedAt": "2026-10-12T05:31:19.789Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "HSC Hannover",
+    "away": "SV Todesfelde",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://www.nordfv.de/spielbetrieb/regionalliga-herren/spielplan",
+        "name": "Norddeutscher Fußball-Verband – Regionalliga Nord, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "Hamburger SV II",
+    "away": "VfB Oldenburg",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://www.nordfv.de/spielbetrieb/regionalliga-herren/spielplan",
+        "name": "Norddeutscher Fußball-Verband – Regionalliga Nord, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-18",
@@ -2870,6 +1267,29 @@
   {
     "date": "2026-10-18",
     "time": "14:30",
+    "competition": "Eredivisie",
+    "country": "Niederlande",
+    "home": "SC Cambuur-Leeuwarden",
+    "away": "AZ Alkmaar",
+    "channels": [
+      "Sportdigital Fußball 2",
+      "Sportdigital Fußball",
+      "Sportdigital1+"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "14:30",
     "competition": "Bundesliga",
     "country": "Österreich",
     "home": "Wolfsberger AC",
@@ -2960,6 +1380,33 @@
   {
     "date": "2026-10-18",
     "time": "15:00",
+    "competition": "Women's Super League",
+    "country": "England",
+    "home": "Aston Villa ♀",
+    "away": "FC Liverpool ♀",
+    "channels": [
+      "Sportdigital1+",
+      "Barclays Women's Super League (YouTube)"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://womensleagues.thefa.com/fixtures/",
+        "name": "The FA – Women’s Super League, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "15:00",
     "competition": "Premier League",
     "country": "England",
     "home": "Brighton & Hove Albion",
@@ -2977,6 +1424,31 @@
       }
     ],
     "verifiedAt": "2026-10-12T05:31:19.789Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "15:00",
+    "competition": "Women's Super League",
+    "country": "England",
+    "home": "Charlton Athletic ♀",
+    "away": "Manchester United ♀",
+    "channels": [
+      "Sportdigital1+"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://womensleagues.thefa.com/fixtures/",
+        "name": "The FA – Women’s Super League, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-18",
@@ -3049,6 +1521,52 @@
       }
     ],
     "verifiedAt": "2026-10-12T05:31:19.789Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "15:00",
+    "competition": "Women's Super League",
+    "country": "England",
+    "home": "London City Lionesses ♀",
+    "away": "LFC Everton ♀",
+    "channels": [
+      "Sportdigital1+",
+      "Barclays Women's Super League (YouTube)"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://womensleagues.thefa.com/fixtures/",
+        "name": "The FA – Women’s Super League, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "15:00",
+    "competition": "WSL Players Cup (England)",
+    "country": "England",
+    "home": "Newcastle United ♀",
+    "away": "AFC Sunderland ♀",
+    "channels": [],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-18",
@@ -3136,6 +1654,25 @@
   },
   {
     "date": "2026-10-18",
+    "time": "15:00",
+    "competition": "Frauen-Regionalliga West",
+    "country": "Deutschland",
+    "home": "Vorwärts Spoho Köln ♀",
+    "away": "Borussia Dortmund ♀",
+    "channels": [],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
     "time": "15:30",
     "competition": "Bundesliga",
     "country": "Deutschland",
@@ -3206,6 +1743,29 @@
       }
     ],
     "verifiedAt": "2026-10-12T05:31:19.789Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "16:00",
+    "competition": "Scottish Premiership",
+    "country": "Schottland",
+    "home": "Celtic Glasgow",
+    "away": "Heart of Midlothian FC",
+    "channels": [
+      "Sportdigital Fußball",
+      "blue Sport (CH)",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-18",
@@ -3306,6 +1866,86 @@
       }
     ],
     "verifiedAt": "2026-10-12T05:31:19.789Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "16:45",
+    "competition": "Eredivisie",
+    "country": "Niederlande",
+    "home": "FC Groningen",
+    "away": "Ajax Amsterdam",
+    "channels": [
+      "OneFootball",
+      "Sportdigital Fußball 2",
+      "Sportdigital Fußball",
+      "Sportdigital1+"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Japan ♀ (U17)",
+    "away": "Sambia ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Kanada ♀ (U17)",
+    "away": "Brasilien ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-18",
@@ -3509,6 +2149,29 @@
   {
     "date": "2026-10-18",
     "time": "18:00",
+    "competition": "Chance Liga (Tschechien)",
+    "country": "Tschechien",
+    "home": "FK Jablonec",
+    "away": "Viktoria Pilsen",
+    "channels": [
+      "Sportdigital Fußball",
+      "blue Sport (CH)",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "18:00",
     "competition": "Serie A Femminile",
     "country": "Italien",
     "home": "Inter Mailand ♀",
@@ -3646,6 +2309,62 @@
   },
   {
     "date": "2026-10-18",
+    "time": "20:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Frankreich ♀ (U17)",
+    "away": "Venezuela ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "20:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Norwegen ♀ (U17)",
+    "away": "Ghana ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
     "time": "20:45",
     "competition": "Serie A",
     "country": "Italien",
@@ -3685,6 +2404,28 @@
       }
     ],
     "verifiedAt": "2026-10-12T05:31:19.789Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "21:00",
+    "competition": "Campeonato Brasileiro Série A",
+    "country": "Brasilien",
+    "home": "Fluminense Rio de Janeiro",
+    "away": "FC Santos",
+    "channels": [
+      "Sportdigital Fußball",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-18",
@@ -3775,6 +2516,28 @@
   {
     "date": "2026-10-18",
     "time": "23:00",
+    "competition": "Liga Profesional",
+    "country": "Argentinien",
+    "home": "Estudiantes de La Plata",
+    "away": "CA San Lorenzo",
+    "channels": [
+      "Sportdigital Fußball",
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "23:00",
     "competition": "Major League Soccer (MLS)",
     "country": "USA/Kanada",
     "home": "FC Cincinnati",
@@ -3792,6 +2555,27 @@
       }
     ],
     "verifiedAt": "2026-10-12T05:31:19.789Z"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "23:30",
+    "competition": "Campeonato Brasileiro Série A",
+    "country": "Brasilien",
+    "home": "EC Bahia",
+    "away": "Flamengo Rio de Janeiro",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-18",
+        "name": "fußballgucken.info – Tagesplan 18.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-19",
@@ -3859,6 +2643,62 @@
       }
     ],
     "verifiedAt": "2026-10-13T05:35:27.327Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Kenia ♀ (U17)",
+    "away": "China ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-19",
+        "name": "fußballgucken.info – Tagesplan 19.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Spanien ♀ (U17)",
+    "away": "Mexiko ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-19",
+        "name": "fußballgucken.info – Tagesplan 19.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-19",
@@ -3945,6 +2785,62 @@
       }
     ],
     "verifiedAt": "2026-10-13T05:35:27.327Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "20:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Australien ♀ (U17)",
+    "away": "Chile ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-19",
+        "name": "fußballgucken.info – Tagesplan 19.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "20:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "USA ♀ (U17)",
+    "away": "Samoa ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-19",
+        "name": "fußballgucken.info – Tagesplan 19.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-19",
@@ -4043,6 +2939,30 @@
     "verifiedAt": "2026-10-13T05:35:27.327Z"
   },
   {
+    "date": "2026-10-19",
+    "time": "21:15",
+    "competition": "Liga Portugal",
+    "country": "Portugal",
+    "home": "Sporting Braga",
+    "away": "Gil Vicente FC",
+    "channels": [
+      "blue Sport (CH)",
+      "OneFootball",
+      "Sportdigital Fußball 2",
+      "Sportdigital Fußball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-19",
+        "name": "fußballgucken.info – Tagesplan 19.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
     "date": "2026-10-20",
     "time": "14:00",
     "competition": "UEFA Youth League",
@@ -4095,6 +3015,34 @@
   {
     "date": "2026-10-20",
     "time": "16:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Argentinien ♀ (U17)",
+    "away": "Neuseeland ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-20",
+        "name": "fußballgucken.info – Tagesplan 20.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "16:00",
     "competition": "Regionalliga West",
     "country": "Deutschland",
     "home": "FC Schalke 04 II",
@@ -4116,6 +3064,34 @@
       }
     ],
     "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Nordkorea ♀ (U17)",
+    "away": "Polen ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-20",
+        "name": "fußballgucken.info – Tagesplan 20.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-20",
@@ -4172,6 +3148,62 @@
       }
     ],
     "verifiedAt": "2026-10-14T05:28:00Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "20:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Marokko ♀ (U17)",
+    "away": "Deutschland ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-20",
+        "name": "fußballgucken.info – Tagesplan 20.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "20:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Nigeria ♀ (U17)",
+    "away": "Puerto Rico",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-20",
+        "name": "fußballgucken.info – Tagesplan 20.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-20",
@@ -4434,6 +3466,62 @@
   },
   {
     "date": "2026-10-21",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Japan ♀ (U17)",
+    "away": "Frankreich ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-21",
+        "name": "fußballgucken.info – Tagesplan 21.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Kanada ♀ (U17)",
+    "away": "Norwegen ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-21",
+        "name": "fußballgucken.info – Tagesplan 21.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-21",
     "time": "18:45",
     "competition": "UEFA Champions League",
     "country": "Europa",
@@ -4487,6 +3575,81 @@
       }
     ],
     "verifiedAt": "2026-10-15T05:34:57.938Z"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "19:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Venezuela ♀ (U17)",
+    "away": "Sambia ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-21",
+        "name": "fußballgucken.info – Tagesplan 21.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "20:00",
+    "competition": "WSL Players Cup (England)",
+    "country": "England",
+    "home": "FC Liverpool ♀",
+    "away": "Manchester United ♀",
+    "channels": [],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-21",
+        "name": "fußballgucken.info – Tagesplan 21.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "20:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Ghana ♀ (U17)",
+    "away": "Brasilien ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-21",
+        "name": "fußballgucken.info – Tagesplan 21.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-21",
@@ -4723,6 +3886,62 @@
   },
   {
     "date": "2026-10-22",
+    "time": "16:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Spanien ♀ (U17)",
+    "away": "Australien ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-22",
+        "name": "fußballgucken.info – Tagesplan 22.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-22",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "China ♀ (U17)",
+    "away": "Samoa ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-22",
+        "name": "fußballgucken.info – Tagesplan 22.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-22",
     "time": "18:45",
     "competition": "UEFA Europa League",
     "country": "Europa",
@@ -4778,6 +3997,33 @@
       }
     ],
     "verifiedAt": "2026-10-16T05:36:53.205Z"
+  },
+  {
+    "date": "2026-10-22",
+    "time": "18:45",
+    "competition": "UEFA Conference League",
+    "country": "Europa",
+    "home": "FK Jablonec",
+    "away": "Brighton and Hove Albion",
+    "channels": [
+      "Sky Sport Austria (AT)",
+      "Sky Go (AT)",
+      "WOW (AT)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-22",
+        "name": "fußballgucken.info – Tagesplan 22.10.2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-2174cb200f25-b94693ddff4e-1000--2026-27-conference-league-league-phase-fixtures/",
+        "name": "UEFA – Conference-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-22",
@@ -5010,6 +4256,62 @@
     "channelLinks": {
       "RTL+": "https://plus.rtl.de/rtlplus-root/sturm-graz-olympique-marseille-main-root-service-f_267"
     }
+  },
+  {
+    "date": "2026-10-22",
+    "time": "20:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Chile ♀ (U17)",
+    "away": "Mexiko ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-22",
+        "name": "fußballgucken.info – Tagesplan 22.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-22",
+    "time": "20:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "USA ♀ (U17)",
+    "away": "Kenia ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-22",
+        "name": "fußballgucken.info – Tagesplan 22.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-22",
@@ -5327,6 +4629,162 @@
   },
   {
     "date": "2026-10-23",
+    "time": "12:00",
+    "competition": "Premjer Liha",
+    "country": "Ukraine",
+    "home": "Dynamo Kiew",
+    "away": "FC Kudrivka",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://upl.ua/en/tournaments/championship/451/calendar",
+        "name": "Ukrainian Premier League – Kalender"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "14:30",
+    "competition": "Premjer Liha",
+    "country": "Ukraine",
+    "home": "FC Veres Rivne",
+    "away": "Kolos Kowaliwka",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://upl.ua/en/tournaments/championship/451/calendar",
+        "name": "Ukrainian Premier League – Kalender"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "14:30",
+    "competition": "Premjer Liha",
+    "country": "Ukraine",
+    "home": "Polissya Schytomyr",
+    "away": "FC Obolon Kiew",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://upl.ua/en/tournaments/championship/451/calendar",
+        "name": "Ukrainian Premier League – Kalender"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Nigeria ♀ (U17)",
+    "away": "Nordkorea ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Puerto Rico",
+    "away": "Polen ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "17:00",
+    "competition": "Virslīga",
+    "country": "Lettland",
+    "home": "SK Super Nova",
+    "away": "Rigas FS",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://virsliga.lv/fixtures",
+        "name": "Virslīga – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
     "time": "18:00",
     "competition": "ÖFB Frauen Bundesliga",
     "country": "Österreich",
@@ -5361,6 +4819,58 @@
   {
     "date": "2026-10-23",
     "time": "18:30",
+    "competition": "2. Liga",
+    "country": "Österreich",
+    "home": "FC Hertha Wels",
+    "away": "ASK Voitsberg",
+    "channels": [
+      "LAOLA1",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.2liga.at/de/spielplan",
+        "name": "ADMIRAL 2. Liga – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "18:30",
+    "competition": "2. Liga",
+    "country": "Österreich",
+    "home": "KSV 1919",
+    "away": "SKN St. Pölten",
+    "channels": [
+      "LAOLA1",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.2liga.at/de/spielplan",
+        "name": "ADMIRAL 2. Liga – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "18:30",
     "competition": "Frauen-Bundesliga",
     "country": "Deutschland",
     "home": "RB Leipzig ♀",
@@ -5390,6 +4900,32 @@
       }
     ],
     "verifiedAt": "2026-10-17T05:34:17.226Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "18:30",
+    "competition": "2. Liga",
+    "country": "Österreich",
+    "home": "SKU Amstetten",
+    "away": "SK Rapid Wien II",
+    "channels": [
+      "LAOLA1",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.2liga.at/de/spielplan",
+        "name": "ADMIRAL 2. Liga – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-23",
@@ -5452,6 +4988,113 @@
       }
     ],
     "verifiedAt": "2026-10-17T05:34:17.226Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "18:30",
+    "competition": "2. Liga",
+    "country": "Österreich",
+    "home": "Young Violets Austria Wien",
+    "away": "SK Sturm Graz II",
+    "channels": [
+      "LAOLA1",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.2liga.at/de/spielplan",
+        "name": "ADMIRAL 2. Liga – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "19:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "1. FC Kaiserslautern II",
+    "away": "SC Freiburg II",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.dfb.de/datencenter/regionalliga-suedwest/spieltag",
+        "name": "DFB Datencenter – Regionalliga Südwest"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "19:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Argentinien ♀ (U17)",
+    "away": "Marokko ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "19:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "Kickers Offenbach",
+    "away": "SGV Freiberg",
+    "channels": [
+      "Leagues",
+      "OneFootball",
+      "OFC-Fanradio (Offenbach)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.dfb.de/datencenter/regionalliga-suedwest/spieltag",
+        "name": "DFB Datencenter – Regionalliga Südwest"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-23",
@@ -5558,6 +5201,34 @@
   },
   {
     "date": "2026-10-23",
+    "time": "20:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Neuseeland ♀ (U17)",
+    "away": "Deutschland ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
     "time": "20:15",
     "competition": "Challenge League",
     "country": "Schweiz",
@@ -5581,6 +5252,32 @@
       }
     ],
     "verifiedAt": "2026-10-17T05:34:17.226Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "20:30",
+    "competition": "2. Liga",
+    "country": "Österreich",
+    "home": "SV Austria Salzburg",
+    "away": "FC Blau Weiss Linz",
+    "channels": [
+      "LAOLA1",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.2liga.at/de/spielplan",
+        "name": "ADMIRAL 2. Liga – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   },
   {
     "date": "2026-10-23",
@@ -5615,6 +5312,31 @@
   },
   {
     "date": "2026-10-23",
+    "time": "20:45",
+    "competition": "Ligue 1",
+    "country": "Frankreich",
+    "home": "Stade Brest",
+    "away": "O.G.C. Nizza",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://ligue1.com/competitions/ligue1mcdonalds?tab=fixtures",
+        "name": "Ligue 1 – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-23",
     "time": "21:00",
     "competition": "EFL Championship",
     "country": "England",
@@ -5641,5 +5363,1837 @@
       }
     ],
     "verifiedAt": "2026-10-17T05:34:17.226Z"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "21:00",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "Ipswich Town",
+    "away": "Nottingham Forest",
+    "channels": [
+      "Sky Sport Premier League",
+      "Sky Sport Austria (AT)",
+      "Sky Go"
+    ],
+    "groups": [
+      "sky",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-23",
+        "name": "fußballgucken.info – Tagesplan 23.10.2026"
+      },
+      {
+        "url": "https://www.premierleague.com/en/football/fixtures",
+        "name": "Premier League – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "02:00",
+    "competition": "National Women’s Soccer League (NWSL)",
+    "country": "USA",
+    "home": "Chicago Red Stars ♀",
+    "away": "Houston Dash ♀",
+    "channels": [
+      "NWSL+"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.nwslsoccer.com/schedule",
+        "name": "NWSL – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "03:30",
+    "competition": "National Women’s Soccer League (NWSL)",
+    "country": "USA",
+    "home": "Utah Royals FC ♀",
+    "away": "OL Reign ♀",
+    "channels": [
+      "NWSL+"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.nwslsoccer.com/schedule",
+        "name": "NWSL – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "04:00",
+    "competition": "National Women’s Soccer League (NWSL)",
+    "country": "USA",
+    "home": "Portland Thorns ♀",
+    "away": "North Carolina Courage ♀",
+    "channels": [
+      "NWSL+"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.nwslsoccer.com/schedule",
+        "name": "NWSL – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "12:00",
+    "competition": "Premjer Liha",
+    "country": "Ukraine",
+    "home": "FC Livyi Bereh",
+    "away": "LNZ Tscherkassy",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://upl.ua/en/tournaments/championship/451/calendar",
+        "name": "Ukrainian Premier League – Kalender"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "12:00",
+    "competition": "Virslīga",
+    "country": "Lettland",
+    "home": "FK Liepaja",
+    "away": "FK Tukums 2000",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://virsliga.lv/fixtures",
+        "name": "Virslīga – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "12:00",
+    "competition": "Frauen-Bundesliga",
+    "country": "Deutschland",
+    "home": "VfL Wolfsburg ♀",
+    "away": "1. FC Köln ♀",
+    "channels": [
+      "DAZN",
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/datencenter/google-pixel-frauen-bundesliga/google-pixel-frauen-bundesliga-2026-2027/8",
+        "name": "DFB Datencenter – Frauen-Bundesliga, 8. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "13:00",
+    "competition": "2. Bundesliga",
+    "country": "Deutschland",
+    "home": "1. FC Heidenheim 1846",
+    "away": "Energie Cottbus",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "13:00",
+    "competition": "2. Bundesliga",
+    "country": "Deutschland",
+    "home": "1. FC Magdeburg",
+    "away": "Karlsruher SC",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "13:00",
+    "competition": "ÖFB Frauen Bundesliga",
+    "country": "Österreich",
+    "home": "FK Austria Wien ♀",
+    "away": "SCR Altach ♀",
+    "channels": [
+      "LAOLA1",
+      "ÖFB TV (AT)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News",
+        "name": "ÖFB – Frauen-Bundesliga-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "13:00",
+    "competition": "2. Bundesliga",
+    "country": "Deutschland",
+    "home": "Hertha BSC",
+    "away": "Arminia Bielefeld",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "13:00",
+    "competition": "Veikkausliiga",
+    "country": "Finnland",
+    "home": "Vaasan PS",
+    "away": "Inter Turku",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.veikkausliiga.com/tilastot/2026/veikkausliiga/ottelut/",
+        "name": "Veikkausliiga – Spielplan 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "13:30",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "Aston Villa",
+    "away": "Manchester City",
+    "channels": [
+      "Sky Sport Premier League",
+      "Sky Sport Austria (AT)",
+      "RTL+"
+    ],
+    "groups": [
+      "sky",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.premierleague.com/en/football/fixtures",
+        "name": "Premier League – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "Regionalliga Nordost",
+    "country": "Deutschland",
+    "home": "Chemnitzer FC",
+    "away": "1. FC Magdeburg II",
+    "channels": [
+      "Mediengruppe Mitteldeutschland",
+      "Gellert-Welle (Chemnitzer FC)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.nofv-online.de/index.php/regionalliga/spielplan.html",
+        "name": "NOFV – Regionalliga Nordost, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "Eimsbütteler TV",
+    "away": "SSV Jeddeloh II",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.nordfv.de/spielbetrieb/regionalliga-herren/spielplan",
+        "name": "Norddeutscher Fußball-Verband – Regionalliga Nord, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "Eintracht Trier",
+    "away": "Stuttgarter Kickers",
+    "channels": [
+      "Leagues",
+      "OneFootball",
+      "Waldauradio (Stu. Kickers)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.dfb.de/datencenter/regionalliga-suedwest/spieltag",
+        "name": "DFB Datencenter – Regionalliga Südwest"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "FC Astoria Walldorf",
+    "away": "KSV Hessen Kassel",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.dfb.de/datencenter/regionalliga-suedwest/spieltag",
+        "name": "DFB Datencenter – Regionalliga Südwest"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "ÖFB Frauen Bundesliga",
+    "country": "Österreich",
+    "home": "FC Blau Weiß Linz/Union Kleinmünchen ♀",
+    "away": "Red Bull Salzburg ♀",
+    "channels": [
+      "LAOLA1",
+      "ÖFB TV (AT)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News",
+        "name": "ÖFB – Frauen-Bundesliga-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "FC Ingolstadt 04",
+    "away": "MSV Duisburg",
+    "channels": [
+      "MagentaSport",
+      "OneFootball",
+      "BR",
+      "WDR Fernsehen"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/datencenter/3-liga/2026-2027/11",
+        "name": "DFB Datencenter – 3. Liga, 11. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "FC Viktoria Köln",
+    "away": "SC Verl",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/datencenter/3-liga/2026-2027/11",
+        "name": "DFB Datencenter – 3. Liga, 11. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "FSV Frankfurt",
+    "away": "Eintracht Frankfurt II",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.dfb.de/datencenter/regionalliga-suedwest/spieltag",
+        "name": "DFB Datencenter – Regionalliga Südwest"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "Virslīga",
+    "country": "Lettland",
+    "home": "Grobinas Sporta Centrs",
+    "away": "Riga FC",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://virsliga.lv/fixtures",
+        "name": "Virslīga – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "Hansa Rostock",
+    "away": "Fortuna Düsseldorf",
+    "channels": [
+      "MagentaSport",
+      "OneFootball",
+      "NDR Fernsehen"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/datencenter/3-liga/2026-2027/11",
+        "name": "DFB Datencenter – 3. Liga, 11. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "SG Barockstadt Fulda-Lehnerz",
+    "away": "1. FSV Mainz 05 II",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.dfb.de/datencenter/regionalliga-suedwest/spieltag",
+        "name": "DFB Datencenter – Regionalliga Südwest"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "ÖFB Frauen Bundesliga",
+    "country": "Österreich",
+    "home": "SKN St. Pölten ♀",
+    "away": "SK Rapid Wien ♀",
+    "channels": [
+      "LAOLA1",
+      "ÖFB TV (AT)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News",
+        "name": "ÖFB – Frauen-Bundesliga-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "SV Meppen",
+    "away": "FC Würzburger Kickers",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/datencenter/3-liga/2026-2027/11",
+        "name": "DFB Datencenter – 3. Liga, 11. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "SV Sandhausen",
+    "away": "VfR Aalen",
+    "channels": [
+      "Leagues",
+      "OneFootball",
+      "Hardtwald Hörfunk (Sandhausen)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.dfb.de/datencenter/regionalliga-suedwest/spieltag",
+        "name": "DFB Datencenter – Regionalliga Südwest"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "SV Wehen Wiesbaden",
+    "away": "SG Sonnenhof Großaspach",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/datencenter/3-liga/2026-2027/11",
+        "name": "DFB Datencenter – 3. Liga, 11. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "SV Werder Bremen II",
+    "away": "Kickers Emden",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.nordfv.de/spielbetrieb/regionalliga-herren/spielplan",
+        "name": "Norddeutscher Fußball-Verband – Regionalliga Nord, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "Regionalliga Südwest",
+    "country": "Deutschland",
+    "home": "TSV Steinbach Haiger",
+    "away": "VfR Mannheim",
+    "channels": [
+      "Leagues",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.dfb.de/datencenter/regionalliga-suedwest/spieltag",
+        "name": "DFB Datencenter – Regionalliga Südwest"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:00",
+    "competition": "Frauen-Bundesliga",
+    "country": "Deutschland",
+    "home": "VfB Stuttgart ♀",
+    "away": "Eintracht Frankfurt ♀",
+    "channels": [
+      "DAZN",
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/datencenter/google-pixel-frauen-bundesliga/google-pixel-frauen-bundesliga-2026-2027/8",
+        "name": "DFB Datencenter – Frauen-Bundesliga, 8. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "14:30",
+    "competition": "Premjer Liha",
+    "country": "Ukraine",
+    "home": "Epitsentr Kamianets-Podilskyi",
+    "away": "Metalist Charkiw",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://upl.ua/en/tournaments/championship/451/calendar",
+        "name": "Ukrainian Premier League – Kalender"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "15:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "1. FC Köln",
+    "away": "FC Schalke 04",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW",
+      "DAZN"
+    ],
+    "groups": [
+      "dazn",
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "15:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "1. FSV Mainz 05",
+    "away": "SV Werder Bremen",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW",
+      "DAZN"
+    ],
+    "groups": [
+      "dazn",
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "15:30",
+    "competition": "2. Liga",
+    "country": "Österreich",
+    "home": "FC Admira Wacker",
+    "away": "FC Wacker Innsbruck",
+    "channels": [
+      "LAOLA1",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.2liga.at/de/spielplan",
+        "name": "ADMIRAL 2. Liga – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "15:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "FC Augsburg",
+    "away": "1. FC Union Berlin",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW",
+      "DAZN"
+    ],
+    "groups": [
+      "dazn",
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "15:30",
+    "competition": "2. Liga",
+    "country": "Österreich",
+    "home": "FC Liefering",
+    "away": "Schwarz-Weiß Bregenz",
+    "channels": [
+      "LAOLA1",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.2liga.at/de/spielplan",
+        "name": "ADMIRAL 2. Liga – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "15:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "RB Leipzig",
+    "away": "SV Elversberg",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW",
+      "DAZN"
+    ],
+    "groups": [
+      "dazn",
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "15:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "SC Paderborn 07",
+    "away": "Hamburger SV",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW",
+      "DAZN"
+    ],
+    "groups": [
+      "dazn",
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "16:00",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "Coventry City",
+    "away": "FC Fulham",
+    "channels": [
+      "Sky Sport Mix",
+      "Sky Sport Mix HD",
+      "Sky Go",
+      "WOW",
+      "WOW (AT)"
+    ],
+    "groups": [
+      "sky",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.premierleague.com/en/football/fixtures",
+        "name": "Premier League – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "16:00",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "FC Arsenal",
+    "away": "FC Everton",
+    "channels": [
+      "Sky Sport Premier League",
+      "Sky Go",
+      "WOW",
+      "Sky (CH)"
+    ],
+    "groups": [
+      "sky",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.premierleague.com/en/football/fixtures",
+        "name": "Premier League – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "16:00",
+    "competition": "Besta deild karla (Island)",
+    "country": "Island",
+    "home": "FH Hafnarfjördur",
+    "away": "Thor Akureyri",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "16:00",
+    "competition": "Besta deild karla (Island)",
+    "country": "Island",
+    "home": "IA Akranes",
+    "away": "IF Keflavik",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "16:00",
+    "competition": "Veikkausliiga",
+    "country": "Finnland",
+    "home": "IF Gnistan",
+    "away": "AC Oulu",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.veikkausliiga.com/tilastot/2026/veikkausliiga/ottelut/",
+        "name": "Veikkausliiga – Spielplan 2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "16:00",
+    "competition": "Besta deild karla (Island)",
+    "country": "Island",
+    "home": "KA Akureyri",
+    "away": "IB Vestmannaeyjar",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "16:00",
+    "competition": "Besta deild karla (Island)",
+    "country": "Island",
+    "home": "KR Reykjavik",
+    "away": "Breidablik Kópavogur",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "16:00",
+    "competition": "Besta deild karla (Island)",
+    "country": "Island",
+    "home": "UMF Stjarnan",
+    "away": "Valur Reykjavik",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "16:00",
+    "competition": "Besta deild karla (Island)",
+    "country": "Island",
+    "home": "Vikingur Reykjavik",
+    "away": "Fram Reykjavik",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "16:30",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "VfB Stuttgart II",
+    "away": "Alemannia Aachen",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://datencenter.dfb.de/datencenter/3-liga/2026-2027/11",
+        "name": "DFB Datencenter – 3. Liga, 11. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Brasilien ♀ (U17)",
+    "away": "Norwegen ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "17:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Ghana ♀ (U17)",
+    "away": "Kanada ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "17:00",
+    "competition": "Premjer Liha",
+    "country": "Ukraine",
+    "home": "Schachtjor Donezk",
+    "away": "FK Sorja Luhansk",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://upl.ua/en/tournaments/championship/451/calendar",
+        "name": "Ukrainian Premier League – Kalender"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "17:00",
+    "competition": "Bundesliga",
+    "country": "Österreich",
+    "home": "WSG Tirol",
+    "away": "GAK 1902",
+    "channels": [
+      "Sky Sport Austria 1 (AT)",
+      "Sky Go (AT)",
+      "WOW (AT)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "17:15",
+    "competition": "Ligue 1",
+    "country": "Frankreich",
+    "home": "FC Toulouse",
+    "away": "ES Troyes AC",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://ligue1.com/competitions/ligue1mcdonalds?tab=fixtures",
+        "name": "Ligue 1 – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "18:00",
+    "competition": "Challenge League",
+    "country": "Schweiz",
+    "home": "FC Aarau",
+    "away": "Étoile Carouge FC",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://sfl.ch/de/match-center?tab=fixtures",
+        "name": "Swiss Football League – Match Center"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "18:00",
+    "competition": "Super League",
+    "country": "Schweiz",
+    "home": "FC Zürich",
+    "away": "FC Luzern",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://sfl.ch/de/match-center?tab=fixtures",
+        "name": "Swiss Football League – Match Center"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "18:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "SV Drochtersen/Assel",
+    "away": "SV Todesfelde",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.nordfv.de/spielbetrieb/regionalliga-herren/spielplan",
+        "name": "Norddeutscher Fußball-Verband – Regionalliga Nord, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "18:00",
+    "competition": "Super League",
+    "country": "Schweiz",
+    "home": "Servette Genf",
+    "away": "FC Vaduz",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://sfl.ch/de/match-center?tab=fixtures",
+        "name": "Swiss Football League – Match Center"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "18:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "VfB Oldenburg",
+    "away": "HSC Hannover",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.nordfv.de/spielbetrieb/regionalliga-herren/spielplan",
+        "name": "Norddeutscher Fußball-Verband – Regionalliga Nord, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "18:30",
+    "competition": "Bundesliga",
+    "country": "Deutschland",
+    "home": "Borussia Dortmund",
+    "away": "Eintracht Frankfurt",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW"
+    ],
+    "groups": [
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "18:30",
+    "competition": "Premier League",
+    "country": "England",
+    "home": "FC Chelsea",
+    "away": "Tottenham Hotspur",
+    "channels": [
+      "Sky Sport Premier League",
+      "Sky Go",
+      "WOW",
+      "Sky (CH)"
+    ],
+    "groups": [
+      "sky",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.premierleague.com/en/football/fixtures",
+        "name": "Premier League – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "19:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Venezuela ♀ (U17)",
+    "away": "Japan ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "19:30",
+    "competition": "Major League Soccer (MLS)",
+    "country": "USA",
+    "home": "Montreal Impact",
+    "away": "Nashville SC",
+    "channels": [
+      "Apple TV"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.mlssoccer.com/schedule/",
+        "name": "MLS – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "19:30",
+    "competition": "Bundesliga",
+    "country": "Österreich",
+    "home": "SK Rapid Wien",
+    "away": "SC Austria Lustenau",
+    "channels": [
+      "Sky Sport Austria 1 (AT)",
+      "Sky Go (AT)",
+      "WOW (AT)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "20:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Sambia ♀ (U17)",
+    "away": "Frankreich ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.fifa.com/en/articles/match-schedule-fixtures-results-kick-off-times",
+        "name": "FIFA – U-17-Frauen-WM 2026, Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "20:30",
+    "competition": "2. Bundesliga",
+    "country": "Deutschland",
+    "home": "1. FC Nürnberg",
+    "away": "1. FC Kaiserslautern",
+    "channels": [
+      "Sky Sport Bundesliga",
+      "Sky Go",
+      "WOW",
+      "NITRO",
+      "RTL+"
+    ],
+    "groups": [
+      "sky",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-zeitgenau-fans-24024",
+        "name": "Bundesliga – zeitgenaue Ansetzungen 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "20:30",
+    "competition": "Super League",
+    "country": "Schweiz",
+    "home": "BSC Young Boys",
+    "away": "FC St. Gallen",
+    "channels": [
+      "blue Sport (CH)",
+      "RSI LA 2 (CH)",
+      "RTS 2 (CH)",
+      "SRF zwei (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://sfl.ch/de/match-center?tab=fixtures",
+        "name": "Swiss Football League – Match Center"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "20:45",
+    "competition": "Ligue 1",
+    "country": "Frankreich",
+    "home": "RC Lens",
+    "away": "Paris FC",
+    "channels": [
+      "TV5 Monde Europe",
+      "DAZN"
+    ],
+    "groups": [
+      "dazn",
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://ligue1.com/competitions/ligue1mcdonalds?tab=fixtures",
+        "name": "Ligue 1 – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "21:30",
+    "competition": "Major League Soccer (MLS)",
+    "country": "USA",
+    "home": "Columbus Crew SC",
+    "away": "Toronto FC",
+    "channels": [
+      "Apple TV"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.mlssoccer.com/schedule/",
+        "name": "MLS – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "23:30",
+    "competition": "Major League Soccer (MLS)",
+    "country": "USA",
+    "home": "New York Red Bulls",
+    "away": "Inter Miami",
+    "channels": [
+      "Apple TV"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://www.mlssoccer.com/schedule/",
+        "name": "MLS – offizieller Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
   }
 ]
