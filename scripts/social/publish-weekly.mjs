@@ -110,7 +110,7 @@ const coverData=fs.readFileSync(cover);
 const displayDate=d=>d.slice(8,10)+"."+d.slice(5,7)+"."+d.slice(2,4);
 const dateText=displayDate(dates[0])+" - "+displayDate(dates.at(-1));
 const coverPage=await browser.newPage({viewport:{width:1080,height:1350},deviceScaleFactor:1});
-const coverHTML='<!doctype html><html><head><meta charset="utf-8"><style>*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden}body{background:#F2AFC0;position:relative}.visual{position:absolute;inset:0;width:1080px;height:1350px;object-fit:contain;mix-blend-mode:multiply}.pill{position:absolute;left:281px;top:1195px;width:518px;height:74px;border:4px solid #000;border-radius:100px;background:#F2AFC0;display:flex;align-items:center;justify-content:center;font:700 39px Arial,sans-serif;color:#000;letter-spacing:1px}</style></head><body><img class="visual" src="data:image/png;base64,'+coverData.toString("base64")+'"><div class="pill">'+dateText+'</div></body></html>';
+const coverHTML='<!doctype html><html><head><meta charset="utf-8"><style>*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden}body{background:#F2AFC0;position:relative}.visual{position:absolute;inset:0;width:1080px;height:1350px;object-fit:contain;mix-blend-mode:' + (mode === "women" ? "normal" : "multiply") + '}.pill{position:absolute;left:281px;top:1195px;width:518px;height:74px;border:4px solid #000;border-radius:100px;background:#F2AFC0;display:flex;align-items:center;justify-content:center;font:700 39px Arial,sans-serif;color:#000;letter-spacing:1px}</style></head><body><img class="visual" src="data:image/png;base64,'+coverData.toString("base64")+'"><div class="pill">'+dateText+'</div></body></html>';
 await coverPage.setContent(coverHTML,{waitUntil:"load"});
 await coverPage.screenshot({path:"social-output/weekly/00.jpg",type:"jpeg",quality:95});
 await coverPage.close();
@@ -122,7 +122,9 @@ const repost=process.env.WEEKLY_REPOST==="1";
 const finalRepost=process.env.WEEKLY_FINAL_REPOST==="1";
 if(repost&&finalRepost)throw Error("Repost modes are mutually exclusive");
 if((repost||finalRepost)&&(mode!=="free-tv"||localDate!=="2026-10-12"||process.env.GITHUB_EVENT_NAME!=="workflow_dispatch"))throw Error("Repost only authorized for 2026-10-12 free-tv");
-const suffix=finalRepost?"-full-week":repost?"-corrected":"";
+const womenColorRepost=process.env.WEEKLY_WOMEN_COLOR_REPOST==="1";
+if(womenColorRepost&&(mode!=="women"||localDate!=="2026-10-19"))throw Error("Women color repost only authorized for 2026-10-19");
+const suffix=womenColorRepost?"-color-corrected":finalRepost?"-full-week":repost?"-corrected":"";
 const publishedPath="social/published/"+mode+"-"+localDate+suffix+".json";
 if(fs.existsSync(publishedPath)){const state=JSON.parse(fs.readFileSync(publishedPath,"utf8"));if(state.id){console.log("Already published "+state.id);process.exit(0)}if(state.attempted)throw Error("Previous publish uncertain. Manual review required.");}
 if(process.env.WEEKLY_DRY_RUN==="1"){console.log(JSON.stringify({mode,dates,pages:pages.map(x=>x.days.map(d=>d.date)),slides:slideFiles},null,2));process.exit(0)}
