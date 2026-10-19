@@ -34,3 +34,36 @@ jobs:
           git commit -m "Render color-corrected women preview" || true
           git -c rebase.autoStash=true pull --rebase origin main
           git push origin HEAD:main
+          echo "IG_ASSET_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Publish reviewed correction
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/social/publish-weekly.mjs
+      - name: Verify actual Instagram media
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import {activeToken} from './scripts/social/instagram-token.mjs';
+          const token=activeToken();
+          const get=async(path,fields)=>{const u=new URL('https://graph.instagram.com/'+path);u.searchParams.set('fields',fields);u.searchParams.set('access_token',token);const r=await fetch(u);if(!r.ok)throw Error('Instagram verification HTTP '+r.status);return r.json()};
+          const p='social/published/women-2026-10-19-color-corrected.json';
+          const state=JSON.parse(fs.readFileSync(p));
+          const media=await get(state.id,'id,media_type,permalink,timestamp,caption,children{id,media_type,media_url}');
+          const me=await get('me','user_id,username');
+          const feed=await get((me.user_id||me.id)+'/media','id,permalink');
+          if(!media.permalink||!feed.data.some(x=>x.id===state.id)||media.children?.data?.length!==3)throw Error('Published media verification incomplete');
+          state.verification={account:me.username,checkedAt:new Date().toISOString(),inAccountFeed:true,...media};
+          fs.writeFileSync(p,JSON.stringify(state,null,2));
+          console.log('VERIFIED INSTAGRAM POST',me.username,media.id,media.permalink,media.children.data.length+' slides');
+          JS
+      - name: Save receipt even on failure
+        if: always()
+        run: |
+          git add social/published/
+          if ! git diff --cached --quiet; then
+            git commit -m "Record and verify corrected women Instagram post"
+            git -c rebase.autoStash=true pull --rebase origin main
+            git push origin HEAD:main
+          fi
