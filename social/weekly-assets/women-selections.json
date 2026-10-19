@@ -1,0 +1,74 @@
+{
+  "weekStart": "2026-10-19",
+  "weekEnd": "2026-10-25",
+  "checkedAt": "2026-10-19",
+  "matches": [
+    {
+      "date": "2026-10-19",
+      "time": "18:00",
+      "home": "FC Bayern München ♀",
+      "away": "VfB Stuttgart ♀",
+      "displayHome": "FC Bayern München",
+      "displayAway": "VfB Stuttgart",
+      "channels": [
+        "Sport1",
+        "MagentaSport",
+        "DAZN"
+      ],
+      "source": "https://fcbayern.com/frauen/de/news/vorberichte/2026/10/vorschau-bundesliga-fc-bayern-frauen---vfb-stuttgart"
+    },
+    {
+      "date": "2026-10-20",
+      "time": "20:00",
+      "home": "Marokko ♀ (U17)",
+      "away": "Deutschland ♀ (U17)",
+      "displayHome": "Marokko U17",
+      "displayAway": "Deutschland U17",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "source": "https://www.dfb.de/news/faq-alles-wichtige-zur-u-17-juniorinnen-wm-in-marokko"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "18:30",
+      "home": "RB Leipzig ♀",
+      "away": "FC Bayern München ♀",
+      "displayHome": "RB Leipzig",
+      "displayAway": "FC Bayern München",
+      "channels": [
+        "DF1",
+        "MagentaSport",
+        "DAZN"
+      ],
+      "source": "https://fussballimfreetv.de/live/20261023_bundesliga_frauen_rb_leipzig_-_bayern_muenchen.html"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "13:45",
+      "home": "Tottenham Hotspur ♀",
+      "away": "FC Arsenal WFC ♀",
+      "displayHome": "Tottenham Hotspur",
+      "displayAway": "Arsenal FC",
+      "channels": [
+        "Sportdigital1+"
+      ],
+      "source": "https://start.sportdigital.de/tvprogramm/sd1p/1000007539000000/Women%27s%2BSuper%2BLeague%2BLIVE%3A%2BTottenham%2BHotspur%2B-%2BArsenal%2BFC"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "17:00",
+      "home": "Hamburger SV ♀",
+      "away": "1. FC Union Berlin ♀",
+      "displayHome": "Hamburger SV",
+      "displayAway": "Union Berlin",
+      "channels": [
+        "Sport1",
+        "MagentaSport",
+        "DAZN"
+      ],
+      "source": "https://www.dfb.de/news/spieltage-7-bis-11-zeitgenau-angesetzt"
+    }
+  ]
+}
