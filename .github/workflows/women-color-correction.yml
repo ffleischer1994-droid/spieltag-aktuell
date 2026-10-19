@@ -1,0 +1,36 @@
+name: Women Color Correction 2026-10-19
+on:
+  push:
+    paths: ['.github/workflows/women-color-correction.yml']
+permissions:
+  contents: write
+concurrency:
+  group: instagram-weekly-carousels
+  cancel-in-progress: false
+jobs:
+  correction:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Berlin
+      WEEKLY_FORMAT: women
+      WEEKLY_WOMEN_COLOR_REPOST: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          test "$(TZ=Europe/Berlin date +%F)" = "2026-10-19"
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - run: WEEKLY_DRY_RUN=1 node scripts/social/publish-weekly.mjs
+      - name: Save corrected preview
+        run: |
+          for F in social-output/weekly/*.jpg; do cp "$F" "social/weekly-generated/women-2026-10-19-color-corrected-$(basename "$F")"; done
+          git config user.name spieltag-aktuell-bot
+          git config user.email actions@users.noreply.github.com
+          git add social/weekly-generated
+          git commit -m "Render color-corrected women preview" || true
+          git -c rebase.autoStash=true pull --rebase origin main
+          git push origin HEAD:main
