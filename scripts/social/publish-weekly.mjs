@@ -27,7 +27,7 @@ const allGames=JSON.parse(fs.readFileSync("games.json","utf8"));
 const womenCandidate=g=>/frauen|women|wfc|juniorinnen|femeni|féminin/i.test([g.home,g.away,g.competition].join(" "))||/♀/.test(g.home+" "+g.away);
 const womenScore=g=>{const t=(g.home+" "+g.away).toLowerCase();let score=0;if(/bayern/.test(t))score+=180;if(/deutschland/.test(t))score+=160;if(/wolfsburg|frankfurt|arsenal|chelsea|barcelona|manchester|lyon|union berlin|hsv|hamburger sv|leipzig/.test(t))score+=80;if(/bundesliga|champions league|wm|world cup|nationalmannschaft/i.test(g.competition||""))score+=55;return score};
 const curated=mode==="women"&&selections.weekStart===periodStart&&selections.weekEnd===plus(periodStart,6);
-const games=mode==="women"?(curated?selections.matches.map(g=>({...g,home:g.displayHome||g.home,away:g.displayAway||g.away})):allGames.filter(g=>womenCandidate(g)&&valid(g)).sort((a,b)=>womenScore(b)-womenScore(a)).slice(0,5)):allGames;
+const games=mode==="women"?(curated?selections.matches.map(g=>({...g,home:g.displayHome||g.home,away:g.displayAway||g.away})):allGames.filter(g=>dates.includes(g.date)&&womenCandidate(g)&&valid(g)).sort((a,b)=>womenScore(b)-womenScore(a)).slice(0,5)):allGames;
 // Only German-market free-to-air television and freely accessible official streams.
 // A "free" group can coexist with paid channels; never print the paid alternatives.
 const freeChannel=c=>{
