@@ -2,13 +2,14 @@ name: Instagram Weekly Carousels
 on:
   schedule:
     - cron: "0,20,40 15-17 * * 1"
+    - cron: "0,20,40 10-11 * * 1"
     - cron: "0,20,40 13-15 * * 5"
   workflow_dispatch:
     inputs:
       format:
         type: choice
         required: true
-        options: [free-tv, weekend]
+        options: [free-tv, weekend, women]
       dry_run:
         type: boolean
         default: true
@@ -53,6 +54,7 @@ jobs:
           if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
             FORMAT="$MANUAL_FORMAT"
             if [ "$MANUAL_DRY_RUN" = "true" ]; then echo "WEEKLY_DRY_RUN=1" >> "$GITHUB_ENV"; fi
+          elif [ "$DAY" = "1" ] && [ "$HOUR" -ge 12 ] && [ "$HOUR" -lt 14 ]; then FORMAT="women"
           elif [ "$DAY" = "1" ] && [ "$HOUR" -ge 17 ] && [ "$HOUR" -lt 19 ]; then FORMAT="free-tv"
           elif [ "$DAY" = "5" ] && [ "$HOUR" -ge 15 ] && [ "$HOUR" -lt 17 ]; then FORMAT="weekend"
           else echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; exit 0; fi
@@ -76,7 +78,7 @@ jobs:
           if [ "$MANUAL_REPOST" = "true" ]; then RECEIPT="social/published/$FORMAT-$DATE-corrected.json"; fi
           if [ "$MANUAL_FINAL" = "true" ]; then RECEIPT="social/published/$FORMAT-$DATE-full-week.json"; fi
           if [ "$MANUAL_DRY_RUN" != "true" ] && [ -f "$RECEIPT" ] && grep -q '"id"' "$RECEIPT"; then echo "::notice::Already published $FORMAT for $DATE; duplicate post blocked"; echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; fi
-          if [ "$FORMAT" = "weekend" ]; then COVER="social/weekly-assets/weekend-keyvisual (1).png"; else COVER="social/weekly-assets/free-tv-keyvisual.png"; fi
+          if [ "$FORMAT" = "weekend" ]; then COVER="social/weekly-assets/weekend-keyvisual (1).png"; elif [ "$FORMAT" = "women" ]; then COVER="social/weekly-assets/women-keyvisual.png"; else COVER="social/weekly-assets/free-tv-keyvisual.png"; fi
           if [ ! -f "$COVER" ]; then
             echo "::warning::Approved cover missing; publication safely skipped"
             echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"

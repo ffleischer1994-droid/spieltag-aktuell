@@ -2,11 +2,11 @@ import fs from "node:fs";
 import { chromium } from "playwright";
 import { activeToken } from "./instagram-token.mjs";
 const mode=process.env.WEEKLY_FORMAT;
-if(!["free-tv","weekend"].includes(mode))throw Error("Set WEEKLY_FORMAT to free-tv or weekend");
+if(!["free-tv","weekend","women"].includes(mode))throw Error("Set WEEKLY_FORMAT to free-tv or weekend");
 const zone="Europe/Berlin";
 const parts=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:zone,year:"numeric",month:"2-digit",day:"2-digit",weekday:"long",hour:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).map(x=>[x.type,x.value]));
 const localDate=parts.year+"-"+parts.month+"-"+parts.day;
-const desired=mode==="free-tv"?"Monday":"Friday",hour=mode==="free-tv"?17:15;
+const desired=mode==="weekend"?"Friday":"Monday",hour=mode==="free-tv"?17:mode==="women"?12:15;
 if(process.env.GITHUB_EVENT_NAME==="schedule"&&(parts.weekday!==desired||Number(parts.hour)<hour||Number(parts.hour)>=hour+2)){console.log("Outside Berlin publishing window");process.exit(0)}
 const plus=(day,n)=>{let d=new Date(day+"T12:00:00Z");d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)};
 // Always show Friday–Sunday for weekend posts, even when manually previewed earlier in the week.
@@ -18,10 +18,15 @@ const weekendFriday=()=>{
 };
 const periodStart=mode==="weekend"?weekendFriday():localDate;
 // Free-TV previews cover the entire calendar week (Monday through Sunday).
-const dates=Array.from({length:mode==="free-tv"?7:3},(_,i)=>plus(periodStart,i));
-const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-keyvisual.png":"weekend-keyvisual (1).png");
+const dates=Array.from({length:mode==="weekend"?3:7},(_,i)=>plus(periodStart,i));
+const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-keyvisual.png":mode==="women"?"women-keyvisual.png":"weekend-keyvisual (1).png");
 if(!fs.existsSync(cover))throw Error("Missing approved ORIGINAL cover: "+cover);
-const games=JSON.parse(fs.readFileSync("games.json","utf8"));
+const selections=mode==="women"?JSON.parse(fs.readFileSync("social/weekly-assets/women-selections.json","utf8")):null;
+const allGames=JSON.parse(fs.readFileSync("games.json","utf8"));
+const womenCandidate=g=>/frauen|women|wfc|juniorinnen|femeni|féminin/i.test([g.home,g.away,g.competition].join(" "))||/♀/.test(g.home+" "+g.away);
+const womenScore=g=>{const t=(g.home+" "+g.away).toLowerCase();let score=0;if(/bayern/.test(t))score+=180;if(/deutschland/.test(t))score+=160;if(/wolfsburg|frankfurt|arsenal|chelsea|barcelona|manchester|lyon|union berlin|hsv|hamburger sv|leipzig/.test(t))score+=80;if(/bundesliga|champions league|wm|world cup|nationalmannschaft/i.test(g.competition||""))score+=55;return score};
+const curated=mode==="women"&&selections.weekStart===periodStart&&selections.weekEnd===plus(periodStart,6);
+const games=mode==="women"?(curated?selections.matches.map(g=>({...g,home:g.displayHome||g.home,away:g.displayAway||g.away})):allGames.filter(g=>womenCandidate(g)&&valid(g)).sort((a,b)=>womenScore(b)-womenScore(a)).slice(0,5)):allGames;
 const valid=g=>g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/unbekannt|option|tba|noch offen/i.test(c));
 // Only German-market free-to-air television and freely accessible official streams.
 // A "free" group can coexist with paid channels; never print the paid alternatives.
@@ -48,14 +53,15 @@ const score=g=>{
  return s;
 };
 const byDate=dates.map(date=>{
- const candidates=games.filter(g=>g.date===date&&valid(g)&&(mode==="weekend"||isFree(g)));
+ const candidates=games.filter(g=>g.date===date&&valid(g)&&(mode==="weekend"||mode==="women"||isFree(g)));
  const selected=mode==="weekend"
  ?candidates.filter(g=>score(g)>=95).sort((a,b)=>score(b)-score(a)||a.time.localeCompare(b.time)).slice(0,5)
  :candidates.map(g=>({...g,channels:freeChannels(g)}));
  return {date,games:selected.sort((a,b)=>a.time.localeCompare(b.time))};
 });
 if(!byDate.some(d=>d.games.length))throw Error("No verified matches for "+mode+" "+localDate);
-const caption=mode==="free-tv"?"Fußball im Free-TV diese Woche":"Fußballhighlights am Wochenende";
+if(mode==="women"&&(byDate.reduce((n,d)=>n+d.games.length,0)<4||byDate.reduce((n,d)=>n+d.games.length,0)>5))throw Error("Women selection must contain 4-5 verified matches");
+const caption=mode==="women"?"Frauenfußball diese Woche":mode==="free-tv"?"Fußball im Free-TV diese Woche":"Fußballhighlights am Wochenende";
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const days=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
 const label=d=>{const v=new Date(d+"T12:00:00Z");return days[v.getUTCDay()]+", "+d.slice(8,10)+"."+d.slice(5,7)+"."};
@@ -65,7 +71,7 @@ const extra='.post{overflow:hidden}.content{justify-content:center;min-height:0;
 const row=g=>'<article class="game"><div class="time">'+esc(g.time)+' Uhr</div><div class="teams">'+esc(g.home)+' – '+esc(g.away)+'</div><div class="sender">'+esc(g.channels.join(" · "))+'</div></article>';
 const block=day=>'<section class="day-group"><div class="date">'+esc(label(day.date))+'</div><div class="games">'+day.games.map(row).join("")+'</div></section>';
 const daysWithGames=byDate.filter(d=>d.games.length);
-const fullHtml=(blocks,heading)=>'<!doctype html><html lang="de"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"><style>'+css+extra+'</style></head><body><main class="post"><img class="logo" src="'+logo+'"><section class="content">'+(heading?'<h1>'+ (mode==="free-tv"?"FREE-TV-<br>HIGHLIGHTS<br>DIESE WOCHE":"WOCHENEND-<br>HIGHLIGHTS")+'</h1>':"")+blocks.map(block).join("")+'</section><footer class="footer">SPIELTAGAKTUELL.DE</footer></main></body></html>';
+const fullHtml=(blocks,heading)=>'<!doctype html><html lang="de"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"><style>'+css+extra+'</style></head><body><main class="post"><img class="logo" src="'+logo+'"><section class="content">'+(heading?'<h1>'+ (mode==="women"?"FRAUENFUSSBALL<br>DIESE WOCHE":mode==="free-tv"?"FREE-TV-<br>HIGHLIGHTS<br>DIESE WOCHE":"WOCHENEND-<br>HIGHLIGHTS")+'</h1>':"")+blocks.map(block).join("")+'</section><footer class="footer">SPIELTAGAKTUELL.DE</footer></main></body></html>';
 fs.mkdirSync("social-output/weekly",{recursive:true});
 const browser=await chromium.launch({headless:true});
 const page=await browser.newPage({viewport:{width:1080,height:1350},deviceScaleFactor:1});
