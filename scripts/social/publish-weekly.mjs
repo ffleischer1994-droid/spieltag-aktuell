@@ -56,7 +56,7 @@ const byDate=dates.map(date=>{
  const candidates=games.filter(g=>g.date===date&&valid(g)&&(mode==="weekend"||mode==="women"||isFree(g)));
  const selected=mode==="weekend"
  ?candidates.filter(g=>score(g)>=95).sort((a,b)=>score(b)-score(a)||a.time.localeCompare(b.time)).slice(0,5)
- :candidates.map(g=>({...g,channels:freeChannels(g)}));
+ :mode==="women"?candidates:candidates.map(g=>({...g,channels:freeChannels(g)}));
  return {date,games:selected.sort((a,b)=>a.time.localeCompare(b.time))};
 });
 if(!byDate.some(d=>d.games.length))throw Error("No verified matches for "+mode+" "+localDate);
