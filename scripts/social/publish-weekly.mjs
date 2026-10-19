@@ -21,7 +21,12 @@ const periodStart=mode==="weekend"?weekendFriday():localDate;
 const dates=Array.from({length:mode==="weekend"?3:7},(_,i)=>plus(periodStart,i));
 const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-keyvisual.png":mode==="women"?"women-keyvisual.png":"weekend-keyvisual (1).png");
 if(!fs.existsSync(cover))throw Error("Missing approved ORIGINAL cover: "+cover);
-const games=mode==="women"?JSON.parse(fs.readFileSync("social/weekly-assets/women-selections.json","utf8")).matches.map(g=>({...g,home:g.displayHome||g.home,away:g.displayAway||g.away})):JSON.parse(fs.readFileSync("games.json","utf8"));
+const selections=mode==="women"?JSON.parse(fs.readFileSync("social/weekly-assets/women-selections.json","utf8")):null;
+const allGames=JSON.parse(fs.readFileSync("games.json","utf8"));
+const womenCandidate=g=>/frauen|women|wfc|juniorinnen|femeni|féminin/i.test([g.home,g.away,g.competition].join(" "))||/♀/.test(g.home+" "+g.away);
+const womenScore=g=>{const t=(g.home+" "+g.away).toLowerCase();let score=0;if(/bayern/.test(t))score+=180;if(/deutschland/.test(t))score+=160;if(/wolfsburg|frankfurt|arsenal|chelsea|barcelona|manchester|lyon|union berlin|hsv|hamburger sv|leipzig/.test(t))score+=80;if(/bundesliga|champions league|wm|world cup|nationalmannschaft/i.test(g.competition||""))score+=55;return score};
+const curated=mode==="women"&&selections.weekStart===periodStart&&selections.weekEnd===plus(periodStart,6);
+const games=mode==="women"?(curated?selections.matches.map(g=>({...g,home:g.displayHome||g.home,away:g.displayAway||g.away})):allGames.filter(g=>womenCandidate(g)&&valid(g)).sort((a,b)=>womenScore(b)-womenScore(a)).slice(0,5)):allGames;
 const valid=g=>g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/unbekannt|option|tba|noch offen/i.test(c));
 // Only German-market free-to-air television and freely accessible official streams.
 // A "free" group can coexist with paid channels; never print the paid alternatives.
@@ -55,6 +60,7 @@ const byDate=dates.map(date=>{
  return {date,games:selected.sort((a,b)=>a.time.localeCompare(b.time))};
 });
 if(!byDate.some(d=>d.games.length))throw Error("No verified matches for "+mode+" "+localDate);
+if(mode==="women"&&(byDate.reduce((n,d)=>n+d.games.length,0)<4||byDate.reduce((n,d)=>n+d.games.length,0)>5))throw Error("Women selection must contain 4-5 verified matches");
 const caption=mode==="women"?"Frauenfußball diese Woche":mode==="free-tv"?"Fußball im Free-TV diese Woche":"Fußballhighlights am Wochenende";
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const days=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
