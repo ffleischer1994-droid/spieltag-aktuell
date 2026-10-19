@@ -1,3 +1,4 @@
+import { excludedFromSocial } from "./editorial-exclusions.mjs";
 import fs from "node:fs";
 import { chromium } from "playwright";
 import { activeToken } from "./instagram-token.mjs";
@@ -21,7 +22,7 @@ const periodStart=mode==="weekend"?weekendFriday():localDate;
 const dates=Array.from({length:mode==="weekend"?3:7},(_,i)=>plus(periodStart,i));
 const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-keyvisual.png":mode==="women"?"women-keyvisual.png":"weekend-keyvisual (1).png");
 if(!fs.existsSync(cover))throw Error("Missing approved ORIGINAL cover: "+cover);
-const valid=g=>g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/unbekannt|option|tba|noch offen/i.test(c));
+const valid=g=>!excludedFromSocial(g)&&g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/unbekannt|option|tba|noch offen/i.test(c));
 const selections=mode==="women"?JSON.parse(fs.readFileSync("social/weekly-assets/women-selections.json","utf8")):null;
 const allGames=JSON.parse(fs.readFileSync("games.json","utf8"));
 const womenCandidate=g=>/frauen|women|wfc|juniorinnen|femeni|féminin/i.test([g.home,g.away,g.competition].join(" "))||/♀/.test(g.home+" "+g.away);
