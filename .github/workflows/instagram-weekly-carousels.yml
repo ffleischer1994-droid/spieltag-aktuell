@@ -1,5 +1,8 @@
 name: Instagram Weekly Carousels
 on:
+  push:
+    paths:
+      - "social/weekly-assets/women-trigger.txt"
   schedule:
     - cron: "0,20,40 15-17 * * 1"
     - cron: "0,20,40 10-11 * * 1"
@@ -51,7 +54,10 @@ jobs:
           DAY=$(TZ=Europe/Berlin date +%u)
           HOUR=$(TZ=Europe/Berlin date +%H)
           DATE=$(TZ=Europe/Berlin date +%F)
-          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+          if [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            FORMAT="women"
+            echo "WEEKLY_DRY_RUN=1" >> "$GITHUB_ENV"
+          elif [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
             FORMAT="$MANUAL_FORMAT"
             if [ "$MANUAL_DRY_RUN" = "true" ]; then echo "WEEKLY_DRY_RUN=1" >> "$GITHUB_ENV"; fi
           elif [ "$DAY" = "1" ] && [ "$HOUR" -ge 12 ] && [ "$HOUR" -lt 14 ]; then FORMAT="women"
