@@ -1243,31 +1243,6 @@
   {
     "date": "2026-10-22",
     "time": "18:45",
-    "competition": "UEFA Europa League",
-    "country": "Europa",
-    "home": "Ferencváros Budapest",
-    "away": "SC União Torreense",
-    "channels": [
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
-        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
-      },
-      {
-        "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/",
-        "name": "UEFA – Europa-League-Spielplan 2026/27"
-      }
-    ],
-    "verifiedAt": "2026-10-16T05:36:53.205Z"
-  },
-  {
-    "date": "2026-10-22",
-    "time": "18:45",
     "competition": "UEFA Conference League",
     "country": "Europa",
     "home": "FK Jablonec",
@@ -1291,6 +1266,31 @@
       }
     ],
     "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-22",
+    "time": "18:45",
+    "competition": "UEFA Europa League",
+    "country": "Europa",
+    "home": "Ferencváros Budapest",
+    "away": "SC União Torreense",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-alle-termine?date=2026-10-16",
+        "name": "fußballgucken.info – Wochenplan 16.–22. Oktober 2026"
+      },
+      {
+        "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/",
+        "name": "UEFA – Europa-League-Spielplan 2026/27"
+      }
+    ],
+    "verifiedAt": "2026-10-16T05:36:53.205Z"
   },
   {
     "date": "2026-10-22",
@@ -1610,34 +1610,6 @@
     "time": "21:00",
     "competition": "UEFA Conference League",
     "country": "Europa",
-    "home": "Ajax Amsterdam",
-    "away": "Atalanta Bergamo",
-    "channels": [
-      "RTL+"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-2174cb200f25-b94693ddff4e-1000--2026-27-conference-league-all-the-league-phase-fixtures/",
-        "name": "UEFA – Conference-League-Spielplan 2026/27"
-      },
-      {
-        "url": "https://plus.rtl.de/rtlplus-root/ajax-amsterdam-atalanta-bergamo-main-root-service-f_262",
-        "name": "RTL+ – Ajax Amsterdam gegen Atalanta Bergamo"
-      }
-    ],
-    "verifiedAt": "2026-10-16T05:36:53.205Z",
-    "channelLinks": {
-      "RTL+": "https://plus.rtl.de/rtlplus-root/ajax-amsterdam-atalanta-bergamo-main-root-service-f_262"
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "time": "21:00",
-    "competition": "UEFA Conference League",
-    "country": "Europa",
     "home": "AS Monaco",
     "away": "SC Freiburg",
     "channels": [
@@ -1659,6 +1631,34 @@
     "verifiedAt": "2026-10-16T05:36:53.205Z",
     "channelLinks": {
       "RTL+": "https://plus.rtl.de/rtlplus-root/as-monaco-sc-freiburg-main-root-service-f_260"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "time": "21:00",
+    "competition": "UEFA Conference League",
+    "country": "Europa",
+    "home": "Ajax Amsterdam",
+    "away": "Atalanta Bergamo",
+    "channels": [
+      "RTL+"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-2174cb200f25-b94693ddff4e-1000--2026-27-conference-league-all-the-league-phase-fixtures/",
+        "name": "UEFA – Conference-League-Spielplan 2026/27"
+      },
+      {
+        "url": "https://plus.rtl.de/rtlplus-root/ajax-amsterdam-atalanta-bergamo-main-root-service-f_262",
+        "name": "RTL+ – Ajax Amsterdam gegen Atalanta Bergamo"
+      }
+    ],
+    "verifiedAt": "2026-10-16T05:36:53.205Z",
+    "channelLinks": {
+      "RTL+": "https://plus.rtl.de/rtlplus-root/ajax-amsterdam-atalanta-bergamo-main-root-service-f_262"
     }
   },
   {
@@ -4454,54 +4454,6 @@
   {
     "date": "2026-10-24",
     "time": "18:00",
-    "competition": "Super League",
-    "country": "Schweiz",
-    "home": "Servette Genf",
-    "away": "FC Vaduz",
-    "channels": [
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
-        "name": "fußballgucken.info – Tagesplan 24.10.2026"
-      },
-      {
-        "url": "https://sfl.ch/de/match-center?tab=fixtures",
-        "name": "Swiss Football League – Match Center"
-      }
-    ],
-    "verifiedAt": "2026-10-18T05:40:29.667Z"
-  },
-  {
-    "date": "2026-10-24",
-    "time": "18:00",
-    "competition": "Chance Liga (Tschechien)",
-    "country": "Tschechien",
-    "home": "Slavia Prag",
-    "away": "FK Mladá Boleslav",
-    "channels": [
-      "Sportdigital Fußball",
-      "blue Sport (CH)",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
-        "name": "fußballgucken.info – Tagesplan 24.10.2026"
-      }
-    ],
-    "verifiedAt": "2026-10-19T05:38:14.718Z"
-  },
-  {
-    "date": "2026-10-24",
-    "time": "18:00",
     "competition": "Serie A",
     "country": "Italien",
     "home": "SSC Neapel",
@@ -4548,6 +4500,54 @@
       }
     ],
     "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "18:00",
+    "competition": "Super League",
+    "country": "Schweiz",
+    "home": "Servette Genf",
+    "away": "FC Vaduz",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      },
+      {
+        "url": "https://sfl.ch/de/match-center?tab=fixtures",
+        "name": "Swiss Football League – Match Center"
+      }
+    ],
+    "verifiedAt": "2026-10-18T05:40:29.667Z"
+  },
+  {
+    "date": "2026-10-24",
+    "time": "18:00",
+    "competition": "Chance Liga (Tschechien)",
+    "country": "Tschechien",
+    "home": "Slavia Prag",
+    "away": "FK Mladá Boleslav",
+    "channels": [
+      "Sportdigital Fußball",
+      "blue Sport (CH)",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-24",
+        "name": "fußballgucken.info – Tagesplan 24.10.2026"
+      }
+    ],
+    "verifiedAt": "2026-10-19T05:38:14.718Z"
   },
   {
     "date": "2026-10-24",
@@ -5869,27 +5869,6 @@
   {
     "date": "2026-10-25",
     "time": "14:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "Hannover 96 II",
-    "away": "Eintracht Norderstedt",
-    "channels": [
-      "Sender unbekannt"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-25",
-        "name": "fußballgucken.info – Tagesplan 25.10.2026"
-      }
-    ],
-    "verifiedAt": "2026-10-19T05:38:14.718Z"
-  },
-  {
-    "date": "2026-10-25",
-    "time": "14:00",
     "competition": "Veikkausliiga",
     "country": "Finnland",
     "home": "HJK Helsinki",
@@ -5911,10 +5890,10 @@
   {
     "date": "2026-10-25",
     "time": "14:00",
-    "competition": "ÖFB Frauen Bundesliga",
-    "country": "Österreich",
-    "home": "SpG Südburgenland/TSV Hartberg ♀",
-    "away": "First Vienna FC 1894 ♀",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "Hannover 96 II",
+    "away": "Eintracht Norderstedt",
     "channels": [
       "Sender unbekannt"
     ],
@@ -5975,6 +5954,27 @@
       {
         "url": "https://www.scfreiburg.com/teams/frauen/spielplan",
         "name": "SC Freiburg – offizieller Frauen-Spielplan"
+      }
+    ],
+    "verifiedAt": "2026-10-19T05:38:14.718Z"
+  },
+  {
+    "date": "2026-10-25",
+    "time": "14:00",
+    "competition": "ÖFB Frauen Bundesliga",
+    "country": "Österreich",
+    "home": "SpG Südburgenland/TSV Hartberg ♀",
+    "away": "First Vienna FC 1894 ♀",
+    "channels": [
+      "Sender unbekannt"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-25",
+        "name": "fußballgucken.info – Tagesplan 25.10.2026"
       }
     ],
     "verifiedAt": "2026-10-19T05:38:14.718Z"
@@ -6197,27 +6197,6 @@
   {
     "date": "2026-10-25",
     "time": "15:00",
-    "competition": "Serie C (Italien)",
-    "country": "Italien",
-    "home": "Catania Calcio",
-    "away": "Giugliano Calcio",
-    "channels": [
-      "Sender unbekannt"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-25",
-        "name": "fußballgucken.info – Tagesplan 25.10.2026"
-      }
-    ],
-    "verifiedAt": "2026-10-19T05:38:14.718Z"
-  },
-  {
-    "date": "2026-10-25",
-    "time": "15:00",
     "competition": "Serie A",
     "country": "Italien",
     "home": "CFC Genua",
@@ -6236,6 +6215,27 @@
       {
         "url": "https://www.legaseriea.it/serie-a/news/quando-si-gioca-anticipi-e-posticipi-fino-alla-12a-giornata",
         "name": "Lega Serie A – Ansetzungen bis zum 12. Spieltag"
+      }
+    ],
+    "verifiedAt": "2026-10-19T05:38:14.718Z"
+  },
+  {
+    "date": "2026-10-25",
+    "time": "15:00",
+    "competition": "Serie C (Italien)",
+    "country": "Italien",
+    "home": "Catania Calcio",
+    "away": "Giugliano Calcio",
+    "channels": [
+      "Sender unbekannt"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-25",
+        "name": "fußballgucken.info – Tagesplan 25.10.2026"
       }
     ],
     "verifiedAt": "2026-10-19T05:38:14.718Z"
