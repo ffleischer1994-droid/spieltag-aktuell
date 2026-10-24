@@ -22,7 +22,7 @@ const periodStart=mode==="weekend"?weekendFriday():localDate;
 const dates=Array.from({length:mode==="weekend"?3:7},(_,i)=>plus(periodStart,i));
 const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-keyvisual.png":mode==="women"?"women-keyvisual.png":"weekend-keyvisual (1).png");
 if(!fs.existsSync(cover))throw Error("Missing approved ORIGINAL cover: "+cover);
-const valid=g=>!excludedFromSocial(g)&&g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/unbekannt|option|tba|noch offen/i.test(c));
+const valid=g=>!excludedFromSocial(g)&&g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/\bunbekannt\b|\boption(?:al)?\b|\btba\b|noch offen/i.test(c));
 const selections=mode==="women"?JSON.parse(fs.readFileSync("social/weekly-assets/women-selections.json","utf8")):null;
 const allGames=JSON.parse(fs.readFileSync("games.json","utf8"));
 const womenCandidate=g=>/frauen|women|wfc|juniorinnen|femeni|féminin/i.test([g.home,g.away,g.competition].join(" "))||/♀/.test(g.home+" "+g.away);
@@ -51,6 +51,14 @@ const score=g=>{
  if(traditional.test(teams))s+=125;
  if(/Deutschland|Nationalmannschaft/i.test(teams))s+=90;
  if(/Saudi|Arabia|Al-Nassr|Al-Hilal/i.test(teams+" "+competition))s-=180;
+ // Bundesliga and major traditional fixtures should outrank routine early kick-offs.
+ if(competition==="Bundesliga"&&g.country==="Deutschland")s+=110;
+ if(traditional.test(g.home)&&traditional.test(g.away))s+=90;
+ if(/Borussia Dortmund|FC Schalke 04|1\. FC Köln|Hamburger SV|FC Bayern München|Eintracht Frankfurt|Werder Bremen/i.test(teams))s+=25;
+ if(/Nürnberg|Kaiserslautern/i.test(teams))s+=50;
+ // Explicit editorial priority: FC Bayern first teams, including women.
+ if([g.home,g.away].some(t=>/^FC Bayern München(?:\s*♀)?$/i.test(t.trim())))s+=450;
+ else if([g.home,g.away].some(t=>/^FC Bayern München II$/i.test(t.trim())))s+=100;
  return s;
 };
 const byDate=dates.map(date=>{
