@@ -6259,7 +6259,7 @@
     "home": "RW Oberhausen",
     "away": "SG Wattenscheid 09",
     "channels": [
-      "Sender unbekannt"
+      "LEAGUES"
     ],
     "groups": [
       "other"
@@ -6272,9 +6272,20 @@
       {
         "url": "https://wdfv.de/spielbetrieb/herren-regionalliga-west",
         "name": "WDFV – Regionalliga West"
+      },
+      {
+        "url": "https://www.rwo1904.de/aktuelles/livestream",
+        "name": "Rot-Weiß Oberhausen – offizielle Übertragungsbestätigung LEAGUES"
+      },
+      {
+        "url": "https://www.leagues.football/rwo",
+        "name": "LEAGUES – offizieller RWO-Livestream, Oberhausen gegen Wattenscheid"
       }
     ],
-    "verifiedAt": "2026-10-21T05:33:04.306Z"
+    "verifiedAt": "2026-10-25T04:56:46.963Z",
+    "channelLinks": {
+      "LEAGUES": "https://www.leagues.football/rwo"
+    }
   },
   {
     "date": "2026-10-25",
