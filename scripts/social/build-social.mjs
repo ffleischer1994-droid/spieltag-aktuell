@@ -30,7 +30,7 @@ const score=g=>{
   if((bayern.test(g.home)&&lions.test(g.away))||(lions.test(g.home)&&bayern.test(g.away)))value+=260;
   // FC Bayern's senior side has explicit editorial priority. Reserve/youth sides
   // retain their own relevance and do not inherit this automatic priority.
-  const seniorBayern=team=>/^(?:FC\\s*)?Bayern\\s*München(?:\\s*♀)?$/i.test(team.trim());
+  const seniorBayern=team=>/^(?:FC\s*)?Bayern\s*München(?:\s*♀)?$/i.test(team.trim());
   if(seniorBayern(g.home)||seniorBayern(g.away))value+=260;
   const pair=(a,b)=>(a.test(g.home)&&b.test(g.away))||(b.test(g.home)&&a.test(g.away));
   if(pair(/^(?:FC )?Barcelona(?: ♀)?$/i,/^Real Madrid(?: ♀)?$/i))value+=360;
