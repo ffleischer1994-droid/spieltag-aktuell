@@ -15,7 +15,8 @@ const score=g=>{
   let value=sourceConfidence(g);
   if(g.country==="Deutschland")value+=120;
   if(/Bundesliga|2\. Bundesliga|DFB-Pokal|Champions League|Europa League|Conference League/i.test(competition))value+=95;
-  if(/Frauen-Bundesliga/i.test(competition))value+=95;
+  // Frauen-Bundesliga already matches Bundesliga above; never award it twice.
+  if(/^(Premier League|La Liga|Serie A|Ligue 1)$/i.test(competition))value+=95;
   if(/Deutschland|FC Bayern München|Bayer(?: 04)? Leverkusen|Borussia Dortmund|Eintracht Frankfurt|VfB Stuttgart|RB Leipzig|Hamburger SV|FC Schalke 04|1\. FC Köln|Borussia Mönchengladbach|SV Werder Bremen|VfL Wolfsburg/i.test(teams))value+=75;
   if(/Deutschland/i.test(teams))value+=35;
   if((g.groups||[]).includes("free"))value+=20;
@@ -27,6 +28,13 @@ const score=g=>{
   const bayern=/(?:FC\s*)?Bayern\s*München(?:\s*(?:II|2|U23))?|Bayern\s*(?:II|2|U23)/i;
   const lions=/(?:TSV\s*)?1860\s*München|München\s*1860/i;
   if((bayern.test(g.home)&&lions.test(g.away))||(lions.test(g.home)&&bayern.test(g.away)))value+=260;
+  // FC Bayern's senior side has explicit editorial priority. Reserve/youth sides
+  // retain their own relevance and do not inherit this automatic priority.
+  const seniorBayern=team=>/^(?:FC\\s*)?Bayern\\s*München(?:\\s*♀)?$/i.test(team.trim());
+  if(seniorBayern(g.home)||seniorBayern(g.away))value+=260;
+  const pair=(a,b)=>(a.test(g.home)&&b.test(g.away))||(b.test(g.home)&&a.test(g.away));
+  if(pair(/^(?:FC )?Barcelona(?: ♀)?$/i,/^Real Madrid(?: ♀)?$/i))value+=360;
+  if(pair(/^(?:Eintracht )?Braunschweig(?: ♀)?$/i,/^Hannover 96(?: ♀)?$/i))value+=260;
   if(/Derby|Stadtduell|Stadtderby/i.test(g.title||g.description||""))value+=90;
   return value;
 };
