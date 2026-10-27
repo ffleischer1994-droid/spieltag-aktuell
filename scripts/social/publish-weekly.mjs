@@ -25,6 +25,19 @@ if(!fs.existsSync(cover))throw Error("Missing approved ORIGINAL cover: "+cover);
 const valid=g=>!excludedFromSocial(g)&&g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/\bunbekannt\b|\boption(?:al)?\b|\btba\b|noch offen/i.test(c));
 const selections=mode==="women"?JSON.parse(fs.readFileSync("social/weekly-assets/women-selections.json","utf8")):null;
 const allGames=JSON.parse(fs.readFileSync("games.json","utf8"));
+// A cover date range is not proof of a populated week. Never publish a
+// misleading Monday–Sunday carousel from a truncated editorial dataset.
+if(mode==="free-tv"){
+ const covered=dates.filter(date=>allGames.some(g=>g.date===date&&g.home&&g.away));
+ const missingWeekend=dates.slice(5).filter(date=>!covered.includes(date));
+ if(covered.length<5||missingWeekend.length){
+  throw Error("Free-TV publish blocked: incomplete games.json for "+dates[0]+" to "+dates.at(-1)+
+   ". Only "+covered.length+"/7 days have fixtures ("+covered.join(", ")+
+   "); missing weekend dates: "+(missingWeekend.join(", ")||"none")+
+   ". Update and verify the full week's broadcasts before publishing.");
+ }
+ console.log("Free-TV dataset coverage verified: "+covered.length+"/7 days, including Saturday and Sunday.");
+}
 const womenCandidate=g=>/frauen|women|wfc|juniorinnen|femeni|féminin/i.test([g.home,g.away,g.competition].join(" "))||/♀/.test(g.home+" "+g.away);
 const womenScore=g=>{const t=(g.home+" "+g.away).toLowerCase();let score=0;if(/bayern/.test(t))score+=180;if(/deutschland/.test(t))score+=160;if(/wolfsburg|frankfurt|arsenal|chelsea|barcelona|manchester|lyon|union berlin|hsv|hamburger sv|leipzig/.test(t))score+=80;if(/bundesliga|champions league|wm|world cup|nationalmannschaft/i.test(g.competition||""))score+=55;return score};
 const curated=mode==="women"&&selections.weekStart===periodStart&&selections.weekEnd===plus(periodStart,6);
@@ -35,7 +48,7 @@ const freeChannel=c=>{
  const name=String(c).trim();
  if(/RTL\+|DAZN|Sky|Magenta|Disney\+|Amazon|Prime Video|blue Sport|OneFootball/i.test(name))return false;
  if(/\((?:AT|CH)\)/i.test(name))return false;
- return /^(?:ARD|Das Erste|ARD Mediathek|ZDF|ZDFheute|ZDFmediathek|RTL(?: HD)?$|Nitro|Sat\.?1|ProSieben|Sport1|3sat|Arte|One(?:\s|$)|WDR|NDR|BR24?\b|BR24Sport|MDR|SWR|RBB|HR(?:\s|$)|DF1|DFB\.TV|DFB \(YouTube\)|DFB \(YouTube\)|DFB TV)(?:\b|$)/i.test(name);
+ return /^(?:ARD|Das Erste|ARD Mediathek|ZDF|ZDFheute|ZDFmediathek|RTL(?: HD)?$|Nitro|Sat\.?1|ProSieben|Sport1|3sat|Arte|One(?:\s|$)|WDR|NDR|BR(?:24(?:Sport)?| Fernsehen)?|MDR|SWR|RBB|HR(?:\s|$)|DF1|DFB\.TV|DFB \(YouTube\)|DFB \(YouTube\)|DFB TV)(?:\b|$)/i.test(name);
 };
 const freeChannels=g=>g.channels.filter(freeChannel);
 const isFree=g=>freeChannels(g).length>0;
