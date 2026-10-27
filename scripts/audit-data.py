@@ -109,6 +109,22 @@ def main():
     if not today_rows:
         errors.append(f"Keine Spiele für heute ({today.isoformat()}) im 7-Tage-Datenfenster")
 
+    # An empty future weekend is a strong signal that the editorial dataset
+    # ends early. The weekly Instagram publisher must not silently use it.
+    covered_dates={g.get("date") for g in window if g.get("home") and g.get("away")}
+    weekend_dates=[
+        (today+dt.timedelta(days=i)).isoformat()
+        for i in range(7)
+        if (today+dt.timedelta(days=i)).weekday() >= 5
+    ]
+    missing_weekend=[d for d in weekend_dates if d not in covered_dates]
+    if len(covered_dates)<5 or missing_weekend:
+        errors.append(
+            f"7-Tage-Datenfenster unvollständig: nur {len(covered_dates)}/7 Tage mit Spielen; "
+            f"Wochenendtage ohne Daten: {', '.join(missing_weekend) or 'keine'}. "
+            "Spiele und bestätigte Sender für die gesamte Woche nachpflegen."
+        )
+
     priority=[g for g in window if is_priority(g)]
     women=[g for g in window if is_women(g)]
     sourced=[g for g in priority if g.get("sources") or g.get("verifiedAt")]
