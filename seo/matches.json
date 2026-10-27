@@ -1,33 +1,4 @@
 {
-  "2026-10-26|FC Sevilla|CA Osasuna": {
-    "path": "spiel/fc-sevilla-ca-osasuna-2026-10-26",
-    "game": {
-      "date": "2026-10-26",
-      "time": "21:00",
-      "competition": "La Liga",
-      "country": "Spanien",
-      "home": "FC Sevilla",
-      "away": "CA Osasuna",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-26",
-          "name": "fußballgucken.info – Tagesplan 26.10.2026"
-        },
-        {
-          "url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10",
-          "name": "LaLiga – offizieller Spielplan, 10. Spieltag 2026/27"
-        }
-      ],
-      "verifiedAt": "2026-10-20T05:32:29.612Z"
-    },
-    "dataUpdated": "2026-10-25"
-  },
   "2026-10-27|Hamburger SV|Eintracht Frankfurt": {
     "path": "spiel/hamburger-sv-eintracht-frankfurt-2026-10-27",
     "game": {
