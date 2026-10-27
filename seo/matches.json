@@ -42,7 +42,7 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|Rot-Weiss Essen|RB Leipzig": {
     "path": "spiel/rot-weiss-essen-rb-leipzig-2026-10-27",
@@ -81,7 +81,7 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|SG Sonnenhof Großaspach|FC Augsburg": {
     "path": "spiel/sg-sonnenhof-grossaspach-fc-augsburg-2026-10-27",
@@ -120,7 +120,7 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|VfL Bochum|1. FSV Mainz 05": {
     "path": "spiel/vfl-bochum-1-fsv-mainz-05-2026-10-27",
@@ -159,7 +159,7 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|US Sassuolo Calcio|Lazio Rom": {
     "path": "spiel/us-sassuolo-calcio-lazio-rom-2026-10-27",
@@ -188,7 +188,7 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|1. FC Nürnberg II|FC Bayern München II": {
     "path": "spiel/1-fc-nuernberg-ii-fc-bayern-muenchen-ii-2026-10-27",
@@ -217,7 +217,7 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|SC Freiburg II|Eintracht Frankfurt II": {
     "path": "spiel/sc-freiburg-ii-eintracht-frankfurt-ii-2026-10-27",
@@ -243,7 +243,7 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|1. FC Köln|1. FC Union Berlin": {
     "path": "spiel/1-fc-koeln-1-fc-union-berlin-2026-10-27",
@@ -282,7 +282,7 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|AS Rom|Cagliari Calcio": {
     "path": "spiel/as-rom-cagliari-calcio-2026-10-27",
@@ -311,7 +311,7 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|Borussia Dortmund|SV Werder Bremen": {
     "path": "spiel/borussia-dortmund-sv-werder-bremen-2026-10-27",
@@ -363,7 +363,7 @@
         "ZDF": "https://www.zdf.de/video/kurzfassungen/saison-2026-27-fussball-livestreams-highlights-ergebnisse-100/dfb-pokal-2-runde---borussia-dortmund---sv-werder-bremen-100"
       }
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|Borussia Mönchengladbach|Karlsruher SC": {
     "path": "spiel/borussia-moenchengladbach-karlsruher-sc-2026-10-27",
@@ -402,7 +402,7 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|FC Turin|Como 1907": {
     "path": "spiel/fc-turin-como-1907-2026-10-27",
@@ -431,7 +431,7 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
   },
   "2026-10-27|SV Elversberg|SV Darmstadt 98": {
     "path": "spiel/sv-elversberg-sv-darmstadt-98-2026-10-27",
@@ -470,6 +470,32 @@
       ],
       "verifiedAt": "2026-10-21T05:33:04.306Z"
     },
-    "dataUpdated": "2026-10-25"
+    "dataUpdated": "2026-10-27"
+  },
+  "2026-10-28|FC Bayern München|1. FC Magdeburg": {
+    "path": "spiel/fc-bayern-muenchen-1-fc-magdeburg-2026-10-28",
+    "game": {
+      "date": "2026-10-28",
+      "time": "20:45",
+      "competition": "DFB-Pokal",
+      "country": "Deutschland",
+      "home": "FC Bayern München",
+      "away": "1. FC Magdeburg",
+      "channels": [
+        "ARD",
+        "Sky Sport"
+      ],
+      "groups": [
+        "free",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dfb.de/news/das-sind-die-zeitgenauen-ansetzungen-der-zweiten-pokalrunde",
+          "name": "DFB – Offizielle Ansetzung und ARD-/Sky-Übertragung der zweiten Pokalrunde"
+        }
+      ]
+    },
+    "dataUpdated": "2026-10-27"
   }
 }
