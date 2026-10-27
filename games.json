@@ -8625,5 +8625,27 @@
       }
     ],
     "verifiedAt": "2026-10-21T05:33:04.306Z"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "20:45",
+    "competition": "DFB-Pokal",
+    "country": "Deutschland",
+    "home": "FC Bayern München",
+    "away": "1. FC Magdeburg",
+    "channels": [
+      "ARD",
+      "Sky Sport"
+    ],
+    "groups": [
+      "free",
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://www.dfb.de/news/das-sind-die-zeitgenauen-ansetzungen-der-zweiten-pokalrunde",
+        "name": "DFB – Offizielle Ansetzung und ARD-/Sky-Übertragung der zweiten Pokalrunde"
+      }
+    ]
   }
 ]
