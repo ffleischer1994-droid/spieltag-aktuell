@@ -1,0 +1,89 @@
+name: Refresh and publish broadcast data
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - games.json
+      - scripts/refresh-games.py
+      - .github/workflows/broadcast-data.yml
+  schedule:
+    - cron: '15 */4 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: website-publish
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python -m pip install requests beautifulsoup4
+      - name: Refresh all seven days from broadcast schedules
+        if: github.event_name != 'push'
+        run: python scripts/refresh-games.py
+      - name: Validate data before publishing
+        run: python scripts/audit-data.py
+      - name: Save current broadcast dataset
+        if: github.event_name != 'push'
+        run: |
+          git config user.name 'spieltag-aktuell-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add games.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh rolling seven-day broadcast data'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Prepare website with current data
+        run: |
+          mkdir -p /tmp/broadcast-site
+          git ls-files -z | tar --null -T - -cf - | tar -xf - -C /tmp/broadcast-site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          name: broadcast-site
+          path: /tmp/broadcast-site
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
+        with:
+          artifact_name: broadcast-site
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Verify public today and tomorrow against committed data
+        shell: python
+        run: |
+          import collections, datetime, json, time, urllib.request
+          from zoneinfo import ZoneInfo
+          today = datetime.datetime.now(ZoneInfo('Europe/Berlin')).date()
+          expected = collections.Counter(g['date'] for g in json.load(open('games.json')))
+          dates = [(today + datetime.timedelta(days=i)).isoformat() for i in range(2)]
+          for attempt in range(6):
+              try:
+                  url = 'https://spieltagaktuell.de/games.json?verify=' + str(time.time_ns())
+                  with urllib.request.urlopen(url, timeout=30) as r:
+                      actual = collections.Counter(g['date'] for g in json.load(r))
+                  if all(actual[d] == expected[d] and actual[d] > 0 for d in dates):
+                      print('Public dataset verified:', {d: actual[d] for d in dates})
+                      break
+              except Exception as exc:
+                  print('Verification retry:', exc)
+              if attempt == 5:
+                  raise SystemExit('Public data does not match today/tomorrow after deployment')
+              time.sleep(10)
