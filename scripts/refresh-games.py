@@ -74,7 +74,7 @@ def groups_for(channels):
     groups = []
     for c in channels:
         if 'DAZN' in c: group = 'dazn'
-        elif re.search(r'Sky|WOW', c) and '(AT)' not in c and '(CH)' not in c: group = 'sky'
+        elif re.search(r'Sky|WOW', c, re.I) and '(AT)' not in c and '(CH)' not in c: group = 'sky'
         elif 'Prime' in c: group = 'prime'
         # Only explicit German public/free services, never infer from OneFootball.
         elif re.match(r'^(?:ARD|Das Erste|ZDF|BR24|BR \(|WDR|NDR|MDR|SWR|RBB|rbb|hr |SPORT1$|FIFA\+)', c): group = 'free'
