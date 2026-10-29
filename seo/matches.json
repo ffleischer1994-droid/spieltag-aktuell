@@ -1,102 +1,4 @@
 {
-  "2026-10-29|China ♀ (U17)|Frankreich ♀ (U17)": {
-    "path": "spiel/china-frauen-u17-frankreich-frauen-u17-2026-10-29",
-    "game": {
-      "date": "2026-10-29",
-      "time": "16:00",
-      "competition": "U17-WM (Frauen)",
-      "country": "International",
-      "home": "China ♀ (U17)",
-      "away": "Frankreich ♀ (U17)",
-      "channels": [
-        "DAZN",
-        "FIFA+"
-      ],
-      "groups": [
-        "dazn",
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-29",
-          "name": "fußballgucken.info – Tagesplan 2026-10-29"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197431/u17-wm-frauen/china-frauen-u17-frankreich-frauen-u17",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-29T17:40:38.206121+00:00"
-    },
-    "dataUpdated": "2026-10-29"
-  },
-  "2026-10-29|Nigeria ♀ (U17)|Mexiko ♀ (U17)": {
-    "path": "spiel/nigeria-frauen-u17-mexiko-frauen-u17-2026-10-29",
-    "game": {
-      "date": "2026-10-29",
-      "time": "16:00",
-      "competition": "U17-WM (Frauen)",
-      "country": "International",
-      "home": "Nigeria ♀ (U17)",
-      "away": "Mexiko ♀ (U17)",
-      "channels": [
-        "DAZN",
-        "FIFA+"
-      ],
-      "groups": [
-        "dazn",
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-29",
-          "name": "fußballgucken.info – Tagesplan 2026-10-29"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197432/u17-wm-frauen/nigeria-frauen-u17-mexiko-frauen-u17",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-29T17:40:38.086964+00:00"
-    },
-    "dataUpdated": "2026-10-29"
-  },
-  "2026-10-29|SV Werder Bremen ♀|1899 Hoffenheim ♀": {
-    "path": "spiel/sv-werder-bremen-frauen-1899-hoffenheim-frauen-2026-10-29",
-    "game": {
-      "date": "2026-10-29",
-      "time": "18:00",
-      "competition": "Frauen-Bundesliga",
-      "country": "Deutschland",
-      "home": "SV Werder Bremen ♀",
-      "away": "1899 Hoffenheim ♀",
-      "channels": [
-        "MagentaSport",
-        "DAZN",
-        "OneFootball"
-      ],
-      "groups": [
-        "other",
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-29",
-          "name": "fußballgucken.info – Tagesplan 2026-10-29"
-        },
-        {
-          "url": "https://fussballgucken.info/match/193969/frauen-bundesliga/sv-werder-bremen-frauen-1899-hoffenheim-frauen",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.dfb.de/news/nach-spielabsage-bremen-gegen-hoffenheim-neu-terminiert",
-          "name": "DFB – Neuansetzung und bestätigte Sender"
-        }
-      ],
-      "verifiedAt": "2026-10-29T17:40:38.284575+00:00"
-    },
-    "dataUpdated": "2026-10-29"
-  },
   "2026-10-29|Frosinone Calcio|US Lecce": {
     "path": "spiel/frosinone-calcio-us-lecce-2026-10-29",
     "game": {
@@ -122,7 +24,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:38.262435+00:00"
+      "verifiedAt": "2026-10-29T19:11:02.833003+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -153,7 +55,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:38.435610+00:00"
+      "verifiedAt": "2026-10-29T19:11:05.489040+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -184,7 +86,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:38.445316+00:00"
+      "verifiedAt": "2026-10-29T19:11:05.529221+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -213,7 +115,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:38.421207+00:00"
+      "verifiedAt": "2026-10-29T19:11:05.749441+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -243,7 +145,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:38.454773+00:00"
+      "verifiedAt": "2026-10-29T19:10:53.535430+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -263,9 +165,7 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "ARD Audiothek",
         "ASC-Livestream (Bielefeld)",
-        "sportschau.de (Audio)",
         "OneFootball"
       ],
       "groups": [
@@ -283,7 +183,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:37.826485+00:00"
+      "verifiedAt": "2026-10-29T19:10:56.652073+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -303,10 +203,7 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "ARD Audiothek",
         "EnergieFM",
-        "rbb24.de (Audio)",
-        "sportschau.de (Audio)",
         "OneFootball"
       ],
       "groups": [
@@ -324,7 +221,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:37.830346+00:00"
+      "verifiedAt": "2026-10-29T19:10:53.822320+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -354,7 +251,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:37.918753+00:00"
+      "verifiedAt": "2026-10-29T19:10:57.001134+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -384,7 +281,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:38.090461+00:00"
+      "verifiedAt": "2026-10-29T19:10:59.770530+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -414,7 +311,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:37.978241+00:00"
+      "verifiedAt": "2026-10-29T19:10:59.743592+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -443,7 +340,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:37.852770+00:00"
+      "verifiedAt": "2026-10-29T19:10:56.853449+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -472,7 +369,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:37.866786+00:00"
+      "verifiedAt": "2026-10-29T19:10:56.666145+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -503,7 +400,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:38.221254+00:00"
+      "verifiedAt": "2026-10-29T19:10:59.755932+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -533,7 +430,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:37.965376+00:00"
+      "verifiedAt": "2026-10-29T19:10:56.823084+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -555,10 +452,7 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "05er.fm",
-        "ARD Audiothek",
-        "sportschau.de (Audio)",
-        "WDR Event"
+        "05er.fm"
       ],
       "groups": [
         "sky",
@@ -579,7 +473,7 @@
           "name": "Sky – Ansetzung und Sender"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:38.404849+00:00"
+      "verifiedAt": "2026-10-29T19:11:02.972920+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -608,7 +502,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:38.586731+00:00"
+      "verifiedAt": "2026-10-29T19:11:05.515472+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -637,7 +531,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:38.617488+00:00"
+      "verifiedAt": "2026-10-29T19:11:05.559897+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -666,7 +560,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.391911+00:00"
+      "verifiedAt": "2026-10-29T19:11:14.230170+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -687,9 +581,6 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "ARD Audiothek",
-        "rbb24.de (Audio)",
-        "sportschau.de (Audio)",
         "OneFootball"
       ],
       "groups": [
@@ -707,7 +598,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.579215+00:00"
+      "verifiedAt": "2026-10-29T19:11:17.178386+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -737,7 +628,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.349221+00:00"
+      "verifiedAt": "2026-10-29T19:11:17.212846+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -766,7 +657,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.611212+00:00"
+      "verifiedAt": "2026-10-29T19:11:16.995483+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -796,7 +687,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.575275+00:00"
+      "verifiedAt": "2026-10-29T19:11:14.366707+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -817,8 +708,6 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "ARD Audiothek",
-        "sportschau.de (Audio)",
         "OneFootball"
       ],
       "groups": [
@@ -836,7 +725,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.653149+00:00"
+      "verifiedAt": "2026-10-29T19:11:17.207761+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -857,8 +746,6 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "ARD Audiothek",
-        "sportschau.de (Audio)",
         "OneFootball"
       ],
       "groups": [
@@ -876,7 +763,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.542273+00:00"
+      "verifiedAt": "2026-10-29T19:11:17.343469+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -910,7 +797,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.716488+00:00"
+      "verifiedAt": "2026-10-29T19:11:17.151963+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -940,7 +827,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.602742+00:00"
+      "verifiedAt": "2026-10-29T19:11:29.140928+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -969,7 +856,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.030199+00:00"
+      "verifiedAt": "2026-10-29T19:11:26.101108+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -998,7 +885,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.215686+00:00"
+      "verifiedAt": "2026-10-29T19:11:25.938124+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1027,7 +914,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.043515+00:00"
+      "verifiedAt": "2026-10-29T19:11:23.015485+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1057,7 +944,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.375211+00:00"
+      "verifiedAt": "2026-10-29T19:11:26.090819+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1088,7 +975,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.382945+00:00"
+      "verifiedAt": "2026-10-29T19:11:29.068463+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1118,7 +1005,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.174797+00:00"
+      "verifiedAt": "2026-10-29T19:11:26.051364+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1147,7 +1034,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.763208+00:00"
+      "verifiedAt": "2026-10-29T19:11:23.085876+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1177,7 +1064,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.341222+00:00"
+      "verifiedAt": "2026-10-29T19:11:29.249419+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1206,7 +1093,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.815564+00:00"
+      "verifiedAt": "2026-10-29T19:11:20.075547+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1235,7 +1122,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.166475+00:00"
+      "verifiedAt": "2026-10-29T19:11:23.242572+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1264,7 +1151,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.156819+00:00"
+      "verifiedAt": "2026-10-29T19:11:23.207726+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1293,7 +1180,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.998895+00:00"
+      "verifiedAt": "2026-10-29T19:11:23.036581+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1323,7 +1210,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.356233+00:00"
+      "verifiedAt": "2026-10-29T19:11:29.123772+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1359,7 +1246,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.376682+00:00"
+      "verifiedAt": "2026-10-29T19:11:28.995050+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1388,7 +1275,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.812984+00:00"
+      "verifiedAt": "2026-10-29T19:11:23.147523+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1418,7 +1305,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.342797+00:00"
+      "verifiedAt": "2026-10-29T19:11:26.231760+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1449,7 +1336,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.845913+00:00"
+      "verifiedAt": "2026-10-29T19:11:20.110722+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1479,7 +1366,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.235315+00:00"
+      "verifiedAt": "2026-10-29T19:11:28.880005+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1508,7 +1395,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.703546+00:00"
+      "verifiedAt": "2026-10-29T19:11:20.120806+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1537,7 +1424,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.274385+00:00"
+      "verifiedAt": "2026-10-29T19:11:19.925125+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1567,7 +1454,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.139786+00:00"
+      "verifiedAt": "2026-10-29T19:11:26.277051+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1602,7 +1489,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.579546+00:00"
+      "verifiedAt": "2026-10-29T19:11:31.797726+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1631,7 +1518,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.049619+00:00"
+      "verifiedAt": "2026-10-29T19:11:31.755753+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1649,10 +1536,7 @@
         "Sky Sport Bundesliga 5",
         "Sky (CH)",
         "WOW",
-        "WOW (AT)",
-        "ARD Audiothek",
-        "sportschau.de (Audio)",
-        "WDR Event"
+        "WOW (AT)"
       ],
       "groups": [
         "dazn",
@@ -1670,7 +1554,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.247261+00:00"
+      "verifiedAt": "2026-10-29T19:11:37.556852+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1688,10 +1572,7 @@
         "Sky Sport Bundesliga 3",
         "Sky (CH)",
         "WOW",
-        "WOW (AT)",
-        "ARD Audiothek",
-        "sportschau.de (Audio)",
-        "WDR Event"
+        "WOW (AT)"
       ],
       "groups": [
         "dazn",
@@ -1709,7 +1590,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.113118+00:00"
+      "verifiedAt": "2026-10-29T19:11:37.439302+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1728,10 +1609,7 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "ARD Audiothek",
-        "Sportclub live (SC Freiburg)",
-        "sportschau.de (Audio)",
-        "WDR Event"
+        "Sportclub live (SC Freiburg)"
       ],
       "groups": [
         "dazn",
@@ -1749,7 +1627,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.076589+00:00"
+      "verifiedAt": "2026-10-29T19:11:37.585978+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1767,14 +1645,10 @@
         "Sky Sport Bundesliga",
         "Sky Sport Bundesliga 1",
         "Sky Sport Top Event",
+        "Sky Sport Bundesliga UHD",
         "Sky (CH)",
         "WOW",
-        "WOW (AT)",
-        "ARD Audiothek",
-        "Bullenfunk",
-        "Knappen-Kommentar (Schalke)",
-        "sportschau.de (Audio)",
-        "WDR Event"
+        "WOW (AT)"
       ],
       "groups": [
         "dazn",
@@ -1792,7 +1666,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.990724+00:00"
+      "verifiedAt": "2026-10-29T19:11:37.423334+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1811,9 +1685,6 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "ARD Audiothek",
-        "sportschau.de (Audio)",
-        "WDR Event",
         "WerderFM"
       ],
       "groups": [
@@ -1832,7 +1703,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.025159+00:00"
+      "verifiedAt": "2026-10-29T19:11:37.462430+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1865,7 +1736,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.270940+00:00"
+      "verifiedAt": "2026-10-29T19:11:40.314857+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1899,7 +1770,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.111704+00:00"
+      "verifiedAt": "2026-10-29T19:11:40.606344+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1932,7 +1803,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.262054+00:00"
+      "verifiedAt": "2026-10-29T19:11:40.650747+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -1965,7 +1836,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.257384+00:00"
+      "verifiedAt": "2026-10-29T19:11:40.666897+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2004,7 +1875,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.113979+00:00"
+      "verifiedAt": "2026-10-29T19:11:40.615106+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2033,7 +1904,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.213704+00:00"
+      "verifiedAt": "2026-10-29T19:11:43.662481+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2063,7 +1934,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.513847+00:00"
+      "verifiedAt": "2026-10-29T19:11:43.622900+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2093,7 +1964,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.531856+00:00"
+      "verifiedAt": "2026-10-29T19:11:43.476056+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2122,7 +1993,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.340552+00:00"
+      "verifiedAt": "2026-10-29T19:11:43.528842+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2151,7 +2022,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.668426+00:00"
+      "verifiedAt": "2026-10-29T19:11:49.279108+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2180,7 +2051,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.532520+00:00"
+      "verifiedAt": "2026-10-29T19:11:46.340445+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2200,10 +2071,7 @@
         "Sky Sport Bundesliga UHD",
         "Sky (CH)",
         "WOW",
-        "WOW (AT)",
-        "ARD Audiothek",
-        "sportschau.de (Audio)",
-        "WDR Event"
+        "WOW (AT)"
       ],
       "groups": [
         "sky",
@@ -2220,7 +2088,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.722099+00:00"
+      "verifiedAt": "2026-10-29T19:11:49.336584+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2249,7 +2117,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.620391+00:00"
+      "verifiedAt": "2026-10-29T19:11:49.259553+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2282,7 +2150,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.580039+00:00"
+      "verifiedAt": "2026-10-29T19:11:49.295043+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2305,8 +2173,6 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "ARD Audiothek",
-        "sportschau.de (Audio)",
         "OneFootball",
         "NITRO (MagentaTV)",
         "NITRO HD (MagentaTV)",
@@ -2328,7 +2194,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.815568+00:00"
+      "verifiedAt": "2026-10-29T19:11:55.261759+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2357,7 +2223,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.118561+00:00"
+      "verifiedAt": "2026-10-29T19:11:58.409744+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2386,7 +2252,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.830114+00:00"
+      "verifiedAt": "2026-10-29T19:11:55.107732+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2415,7 +2281,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.172164+00:00"
+      "verifiedAt": "2026-10-29T19:11:58.358909+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2448,7 +2314,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:41.845831+00:00"
+      "verifiedAt": "2026-10-29T19:11:58.258171+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2481,7 +2347,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.252109+00:00"
+      "verifiedAt": "2026-10-29T19:11:58.297096+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2510,7 +2376,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.104403+00:00"
+      "verifiedAt": "2026-10-29T19:11:58.292390+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2539,7 +2405,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.059625+00:00"
+      "verifiedAt": "2026-10-29T19:11:14.336999+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2568,7 +2434,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.040872+00:00"
+      "verifiedAt": "2026-10-29T19:11:14.396579+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2597,7 +2463,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.015847+00:00"
+      "verifiedAt": "2026-10-29T19:11:14.182353+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2628,7 +2494,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.170791+00:00"
+      "verifiedAt": "2026-10-29T19:11:17.265090+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2649,8 +2515,6 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "ARD Audiothek",
-        "sportschau.de (Audio)",
         "OneFootball"
       ],
       "groups": [
@@ -2668,7 +2532,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.114622+00:00"
+      "verifiedAt": "2026-10-29T19:11:17.303068+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2689,8 +2553,6 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "ARD Audiothek",
-        "sportschau.de (Audio)",
         "OneFootball"
       ],
       "groups": [
@@ -2708,7 +2570,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.178614+00:00"
+      "verifiedAt": "2026-10-29T19:11:17.114376+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2729,8 +2591,6 @@
         "Sky (CH)",
         "WOW",
         "WOW (AT)",
-        "ARD Audiothek",
-        "sportschau.de (Audio)",
         "OneFootball"
       ],
       "groups": [
@@ -2748,7 +2608,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.180764+00:00"
+      "verifiedAt": "2026-10-29T19:11:17.322891+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2778,7 +2638,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.544490+00:00"
+      "verifiedAt": "2026-10-29T19:11:23.098359+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2808,7 +2668,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.644970+00:00"
+      "verifiedAt": "2026-10-29T19:11:22.922314+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2837,7 +2697,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.246784+00:00"
+      "verifiedAt": "2026-10-29T19:11:19.975454+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2866,7 +2726,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.220109+00:00"
+      "verifiedAt": "2026-10-29T19:11:19.910334+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2897,7 +2757,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.710791+00:00"
+      "verifiedAt": "2026-10-29T19:11:25.971124+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2926,7 +2786,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.390560+00:00"
+      "verifiedAt": "2026-10-29T19:11:23.188164+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2955,7 +2815,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.364864+00:00"
+      "verifiedAt": "2026-10-29T19:11:22.999087+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -2985,7 +2845,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.514896+00:00"
+      "verifiedAt": "2026-10-29T19:11:23.069976+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3014,7 +2874,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.286283+00:00"
+      "verifiedAt": "2026-10-29T19:11:20.186590+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3045,7 +2905,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.599987+00:00"
+      "verifiedAt": "2026-10-29T19:11:26.207008+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3079,7 +2939,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.338113+00:00"
+      "verifiedAt": "2026-10-29T19:11:32.008510+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3108,7 +2968,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.954972+00:00"
+      "verifiedAt": "2026-10-29T19:11:29.191239+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3137,7 +2997,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.799658+00:00"
+      "verifiedAt": "2026-10-29T19:11:29.207104+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3166,7 +3026,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.735518+00:00"
+      "verifiedAt": "2026-10-29T19:11:26.078685+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3195,7 +3055,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:39.965283+00:00"
+      "verifiedAt": "2026-10-29T19:11:29.056308+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3210,11 +3070,7 @@
       "away": "1. FC Köln",
       "channels": [
         "DAZN",
-        "Sky (CH)",
-        "ARD Audiothek",
-        "rbb24.de (Audio)",
-        "sportschau.de (Audio)",
-        "WDR Event"
+        "Sky (CH)"
       ],
       "groups": [
         "dazn",
@@ -3231,7 +3087,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.593803+00:00"
+      "verifiedAt": "2026-10-29T19:11:31.689089+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3260,7 +3116,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.032888+00:00"
+      "verifiedAt": "2026-10-29T19:11:31.646098+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3290,7 +3146,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.154754+00:00"
+      "verifiedAt": "2026-10-29T19:11:34.559602+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3320,7 +3176,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.171059+00:00"
+      "verifiedAt": "2026-10-29T19:11:34.463351+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3349,7 +3205,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.360854+00:00"
+      "verifiedAt": "2026-10-29T19:11:34.574331+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3365,10 +3221,7 @@
       "channels": [
         "DAZN",
         "Sky (CH)",
-        "ARD Audiothek",
-        "EintrachtFM",
-        "sportschau.de (Audio)",
-        "WDR Event"
+        "EintrachtFM"
       ],
       "groups": [
         "dazn",
@@ -3385,7 +3238,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.617049+00:00"
+      "verifiedAt": "2026-10-29T19:11:37.615299+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3422,7 +3275,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.321794+00:00"
+      "verifiedAt": "2026-10-29T19:11:37.307148+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3451,7 +3304,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.594895+00:00"
+      "verifiedAt": "2026-10-29T19:11:37.359084+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3480,7 +3333,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.517324+00:00"
+      "verifiedAt": "2026-10-29T19:11:37.248185+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3509,7 +3362,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.635072+00:00"
+      "verifiedAt": "2026-10-29T19:11:37.396631+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3538,7 +3391,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.554056+00:00"
+      "verifiedAt": "2026-10-29T19:11:37.577035+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3569,7 +3422,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.987564+00:00"
+      "verifiedAt": "2026-10-29T19:11:40.531758+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3598,7 +3451,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.712552+00:00"
+      "verifiedAt": "2026-10-29T19:11:40.560391+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3627,7 +3480,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.836549+00:00"
+      "verifiedAt": "2026-10-29T19:11:40.648128+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3656,7 +3509,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:40.753959+00:00"
+      "verifiedAt": "2026-10-29T19:11:43.427723+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3688,7 +3541,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.144198+00:00"
+      "verifiedAt": "2026-10-29T19:11:55.266459+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3717,7 +3570,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.202446+00:00"
+      "verifiedAt": "2026-10-29T19:11:58.105155+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3746,7 +3599,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.166532+00:00"
+      "verifiedAt": "2026-10-29T19:11:58.208462+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3775,7 +3628,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.249428+00:00"
+      "verifiedAt": "2026-10-29T19:11:58.375641+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3804,7 +3657,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.248351+00:00"
+      "verifiedAt": "2026-10-29T19:11:58.113363+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3839,7 +3692,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.229014+00:00"
+      "verifiedAt": "2026-10-29T19:11:58.220825+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3859,8 +3712,7 @@
         "Sky Sport Austria 3 (AT)",
         "TRT 1",
         "TRT 1 (Livestream)",
-        "WOW (AT)",
-        "sportschau.de (Audio)"
+        "WOW (AT)"
       ],
       "groups": [
         "other",
@@ -3876,7 +3728,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.373788+00:00"
+      "verifiedAt": "2026-10-29T19:12:05.446173+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3910,7 +3762,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.364170+00:00"
+      "verifiedAt": "2026-10-29T19:12:05.443108+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3929,7 +3781,6 @@
         "Sky Sport Austria 3 (AT)",
         "Amazon Prime Video",
         "WOW (AT)",
-        "sportschau.de (Audio)",
         "Amazon Prime Video (MagentaTV)"
       ],
       "groups": [
@@ -3946,7 +3797,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.643153+00:00"
+      "verifiedAt": "2026-10-29T19:12:09.632947+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -3980,7 +3831,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.618413+00:00"
+      "verifiedAt": "2026-10-29T19:12:09.477437+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4014,7 +3865,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.408788+00:00"
+      "verifiedAt": "2026-10-29T19:12:05.604498+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4048,7 +3899,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.602039+00:00"
+      "verifiedAt": "2026-10-29T19:12:09.511463+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4082,7 +3933,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.609779+00:00"
+      "verifiedAt": "2026-10-29T19:12:09.473998+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4116,7 +3967,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.582407+00:00"
+      "verifiedAt": "2026-10-29T19:12:09.653443+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4150,7 +4001,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.406106+00:00"
+      "verifiedAt": "2026-10-29T19:12:05.683401+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4184,7 +4035,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.683445+00:00"
+      "verifiedAt": "2026-10-29T19:12:09.574299+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4220,7 +4071,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.780054+00:00"
+      "verifiedAt": "2026-10-29T19:12:09.418341+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4244,7 +4095,6 @@
         "Play RSI (Livestream)",
         "Play SRF",
         "WOW (AT)",
-        "sportschau.de (Audio)",
         "SRF Sport (CH)"
       ],
       "groups": [
@@ -4261,7 +4111,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.786921+00:00"
+      "verifiedAt": "2026-10-29T19:12:12.678397+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4295,7 +4145,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.801433+00:00"
+      "verifiedAt": "2026-10-29T19:12:12.693411+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4329,7 +4179,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.769790+00:00"
+      "verifiedAt": "2026-10-29T19:12:12.728183+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4346,9 +4196,7 @@
         "blue Sport (CH)",
         "CANAL+",
         "DAZN",
-        "CANAL+ (Livestream)",
-        "Bullenfunk",
-        "sportschau.de (Audio)"
+        "CANAL+ (Livestream)"
       ],
       "groups": [
         "other",
@@ -4364,7 +4212,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.776703+00:00"
+      "verifiedAt": "2026-10-29T19:12:12.714282+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4398,7 +4246,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.761745+00:00"
+      "verifiedAt": "2026-10-29T19:12:12.548991+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4432,7 +4280,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.695763+00:00"
+      "verifiedAt": "2026-10-29T19:12:12.564657+00:00"
     },
     "dataUpdated": "2026-10-29"
   },
@@ -4466,7 +4314,104 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-10-29T17:40:42.717511+00:00"
+      "verifiedAt": "2026-10-29T19:12:09.492545+00:00"
+    },
+    "dataUpdated": "2026-10-29"
+  },
+  "2026-10-30|VfB Stuttgart (U19)|FC Bayern München (U19)": {
+    "path": "spiel/vfb-stuttgart-u19-fc-bayern-muenchen-u19-2026-10-30",
+    "game": {
+      "date": "2026-10-30",
+      "time": "19:00",
+      "competition": "U19-DFB-Nachwuchsliga",
+      "country": "Deutschland",
+      "home": "VfB Stuttgart (U19)",
+      "away": "FC Bayern München (U19)",
+      "channels": [
+        "skysport.de"
+      ],
+      "groups": [
+        "other",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-30",
+          "name": "fußballgucken.info – Tagesplan 2026-10-30"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197722/u19-dfb-nachwuchsliga/vfb-stuttgart-u19-fc-bayern-muenchen-u19",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-10-29T19:10:59.737439+00:00"
+    },
+    "dataUpdated": "2026-10-29"
+  },
+  "2026-10-31|1. FC Union Berlin (U17) ♀|1. FC Köln (U17) ♀": {
+    "path": "spiel/1-fc-union-berlin-u17-frauen-1-fc-koeln-u17-frauen-2026-10-31",
+    "game": {
+      "date": "2026-10-31",
+      "time": "11:00",
+      "competition": "DFB-Pokal der Juniorinnen",
+      "country": "Deutschland",
+      "home": "1. FC Union Berlin (U17) ♀",
+      "away": "1. FC Köln (U17) ♀",
+      "channels": [
+        "DFB.TV",
+        "DFB.TV+"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
+          "name": "fußballgucken.info – Tagesplan 2026-10-31"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197726/dfb-pokal-der-juniorinnen/1-fc-union-berlin-u17-frauen-1-fc-koeln-u17-frauen",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-10-29T19:11:14.571641+00:00"
+    },
+    "dataUpdated": "2026-10-29"
+  },
+  "2026-11-01|Eintracht Frankfurt (U19)|Dynamo Dresden (U19)": {
+    "path": "spiel/eintracht-frankfurt-u19-dynamo-dresden-u19-2026-11-01",
+    "game": {
+      "date": "2026-11-01",
+      "time": "11:00",
+      "competition": "U19-DFB-Nachwuchsliga",
+      "country": "Deutschland",
+      "home": "Eintracht Frankfurt (U19)",
+      "away": "Dynamo Dresden (U19)",
+      "channels": [
+        "Sky Sport Bundesliga",
+        "Sky Sport News",
+        "Sky Sport Top Event",
+        "Sky Sport (YouTube)",
+        "Sky Sport News HD (Livestream)",
+        "skysport.de",
+        "WOW",
+        "Sky Sport News HD (mobil)"
+      ],
+      "groups": [
+        "sky",
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
+          "name": "fußballgucken.info – Tagesplan 2026-11-01"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197723/u19-dfb-nachwuchsliga/eintracht-frankfurt-u19-dynamo-dresden-u19",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-10-29T19:11:14.401362+00:00"
     },
     "dataUpdated": "2026-10-29"
   }
