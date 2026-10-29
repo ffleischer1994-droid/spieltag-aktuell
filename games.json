@@ -1588,10 +1588,14 @@
     "home": "Casa Pia AC",
     "away": "Sporting Lissabon",
     "channels": [
-      "DAZN"
+      "DAZN",
+      "OneFootball",
+      "Sportdigital+",
+      "Sportdigital.de (Livestream)"
     ],
     "groups": [
-      "dazn"
+      "dazn",
+      "other"
     ],
     "sources": [
       {
@@ -1603,7 +1607,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-10-29T19:11:05.463235+00:00"
+    "verifiedAt": "2026-10-29T20:13:17.197Z"
   },
   {
     "date": "2026-10-31",
