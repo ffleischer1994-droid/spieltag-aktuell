@@ -41,7 +41,7 @@ def channels_from(element):
         label = a.get_text(' ', strip=True)
         li = a.find_parent('li')
         if li and li.select_one('.fg-icon-radio'): continue
-        if re.search(r'Radio|Hörfunk|Audiostream|Haching FM|LOKruf', label, re.I):
+        if re.search(r'Radio|Hörfunk|Audio|Haching FM|LOKruf|Bullenfunk|Knappen-Kommentar|WDR Event', label, re.I):
             continue
         label = re.sub(r' HD$', '', label)
         if label.startswith('Sky Go') or label == 'Sky Stream': continue
