@@ -740,6 +740,32 @@
   },
   {
     "date": "2026-10-30",
+    "time": "21:00",
+    "competition": "EFL Championship (England)",
+    "country": "England",
+    "home": "Sheffield United",
+    "away": "Wrexham A.F.C.",
+    "channels": [
+      "Sky Sport Premier League",
+      "Sky Sport (YouTube)"
+    ],
+    "groups": [
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-10-30",
+        "name": "fußballgucken.info – Tagesplan 2026-10-30"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197871/efl-championship-england/sheffield-united-wrexham-a-f-c",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-10-30T11:46:50.643100+00:00"
+  },
+  {
+    "date": "2026-10-30",
     "time": "21:05",
     "competition": "Ligue 1 (Frankreich)",
     "country": "Frankreich",
