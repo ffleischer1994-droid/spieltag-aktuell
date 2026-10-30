@@ -796,13 +796,11 @@
     "home": "Casa Pia AC",
     "away": "Sporting Lissabon",
     "channels": [
-      "DAZN",
       "OneFootball",
       "Sportdigital.de (Livestream)",
       "Sportdigital+"
     ],
     "groups": [
-      "dazn",
       "other"
     ],
     "sources": [
@@ -815,7 +813,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-10-30T15:01:52.713739+00:00"
+    "verifiedAt": "2026-10-30T16:13:09.025Z"
   },
   {
     "date": "2026-10-31",
@@ -5809,6 +5807,7 @@
     "home": "Sporting Braga",
     "away": "FC Famalicao",
     "channels": [
+      "DAZN",
       "blue Sport (CH)",
       "Sportdigital Fussball",
       "Sportdigital.de (Livestream)",
@@ -5833,7 +5832,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-10-30T15:02:02.675076+00:00"
+    "verifiedAt": "2026-10-30T16:13:09.026Z"
   },
   {
     "date": "2026-11-01",
