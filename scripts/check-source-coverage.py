@@ -4,6 +4,7 @@
 This is an audit, not an automatic importer: source discrepancies are reported
 so an authoritative club/league/provider source can decide the correction.
 """
+import importlib.util
 import argparse, datetime as dt, html as htmlmod, json, re, sys, unicodedata
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -15,6 +16,9 @@ from zoneinfo import ZoneInfo
 
 ROOT=Path(__file__).resolve().parent.parent
 BASE="https://fussballgucken.info"
+_spec=importlib.util.spec_from_file_location("broadcast_refresh", ROOT/"scripts"/"refresh-games.py")
+_refresh=importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_refresh)
 
 def norm(value):
     value=htmlmod.unescape(str(value or "")).replace("♀"," frauen ")
@@ -48,6 +52,8 @@ def parse_match(session,url,date):
         # Typical: Fußball live am 03.10.2026, Wettbewerb, Heim - Auswärts
         m=re.search(r"Fußball live am\s+\d{2}\.\d{2}\.\d{4},\s*(.*?),\s*(.+?)\s+-\s+(.+)$",title,re.I)
         if not m:return None
+        if re.search(r"Icon League",m.group(1),re.I):return None
+        if not any(_refresh.channels_from(section) for section in soup.select(".list-coverage")):return None
         text=" ".join(soup.stripped_strings)
         tm=re.search(r"\b([0-2]\d:[0-5]\d)\s*Uhr\b",text)
         if not tm:return None
