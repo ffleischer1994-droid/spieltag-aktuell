@@ -13,14 +13,11 @@ def url(p):return BASE+'/'+p.strip('/')+'/' if p else BASE+'/'
 def key(g):return '|'.join([g['date'],g['home'],g['away']])
 def valid(g):return bool(g.get('channels')) and not any(re.search('unbekannt|option',c,re.I) for c in g['channels'])
 def match_page_candidate(g):
- teams=g.get('home','')+' '+g.get('away','');comp=g.get('competition','');country=g.get('country','')
- if g.get('featuredPage') or re.search(r'\bDeutschland\b',teams,re.I):return True
- if not valid(g):return False
- if re.fullmatch(r'Bundesliga|2[.] Bundesliga|3[.] Liga|Frauen-Bundesliga|2[.] Frauen-Bundesliga',comp,re.I):return True
- if country=='Deutschland' and re.search(r'Regionalliga|DFB|Nachwuchs',comp,re.I):return True
- if re.search(r'UEFA (Champions|Europa|Conference) League|Premier League|La Liga|Serie A|Ligue 1',comp,re.I):return True
- if re.search(r"Women's Super League|Serie A Femminile|Women.?s Champions League|WM.*Frauen|EM.*Frauen|U17.*Frauen|U19.*Frauen|U23.*Frauen|Länderspiel.*Frauen",comp,re.I):return True
- return False
+ # Search intent is independent of league prestige and Instagram relevance.
+ # Every confirmed broadcast in the shared dataset deserves a useful match page,
+ # including youth internationals, reserve teams and lower/regional leagues.
+ if re.search(r'icon\s*league',g.get('competition',''),re.I):return False
+ return valid(g)
 def match_expired(g,now):
  try:
   start=dt.datetime.fromisoformat(g['date']+'T'+g['time']).replace(tzinfo=ZoneInfo('Europe/Berlin'))
@@ -54,7 +51,7 @@ def main():
    m=re.search(r'-(\d{4}-\d{2}-\d{2})$',d.name)
    if d.is_dir() and m and m.group(1)<today.isoformat():shutil.rmtree(d)
  known={key(g):g for g in window if match_page_candidate(g) and not match_expired(g,now)}
- # Create broad but relevant ephemeral search pages: Germany/DFB first, then major German, European and women's competitions.
+ # Cover every confirmed broadcast; never cap pages by league, gender or popularity.
  featured=sorted([g for g in window if g.get('featuredPage') and key(g) in known],key=lambda g:(g['date'],g['time']))
  regular=sorted([g for g in window if not g.get('featuredPage') and key(g) in known],key=lambda g:(g['date'],g['time']))
  selected=sorted(featured+regular,key=lambda g:(g['date'],g['time']))

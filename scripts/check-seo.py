@@ -28,3 +28,20 @@ for u in urls:
 home=(root/'index.html').read_text();assert '<div id="game-list"><div class="time-block">' in home or 'Für heute sind im aktuellen Datenstand' in home
 assert '/fussball-morgen/' in home and '/free-tv/wochenende/' in home
 print('PASS: static pages, links, canonical URLs, JSON-LD, sitemap and initial homepage data')
+
+# Keep obscure broadcasts discoverable after every dataset refresh.
+import datetime as dt, runpy
+from zoneinfo import ZoneInfo
+builder=runpy.run_path(str(root/'scripts/build-seo.py'))
+now=dt.datetime.now(ZoneInfo('Europe/Berlin'));today=now.date()
+registry=json.loads((root/'seo/matches.json').read_text())
+for g in json.loads((root/'games.json').read_text()):
+ if not today.isoformat()<=g['date']<=(today+dt.timedelta(days=6)).isoformat():continue
+ if not builder['match_page_candidate'](g) or builder['match_expired'](g,now):continue
+ k=builder['key'](g)
+ assert k in registry,('missing match page',k)
+ path=registry[k]['path'];target='/'+path+'/'
+ assert (root/path/'index.html').exists(),('missing match file',k)
+ assert 'https://spieltagaktuell.de'+target in urls,('missing sitemap entry',k)
+ assert target in home,('missing homepage match link',k)
+print('PASS: every current confirmed broadcast has a linked, indexable match page')

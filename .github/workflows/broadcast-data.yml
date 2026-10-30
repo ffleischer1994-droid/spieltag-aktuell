@@ -33,14 +33,18 @@ jobs:
         run: python scripts/refresh-games.py
       - name: Validate data before publishing
         run: python scripts/audit-data.py
-      - name: Save current broadcast dataset
-        if: github.event_name != 'push'
+      - name: Build and verify match pages with current broadcast data
+        run: |
+          python scripts/build-seo.py
+          python scripts/sync-static-shell.py
+          python scripts/check-seo.py
+      - name: Save current broadcast dataset and match pages
         run: |
           git config user.name 'spieltag-aktuell-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add games.json
+          git add games.json ':(glob)**/*.html' sitemap.xml seo/matches.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh rolling seven-day broadcast data'
+            git commit -m 'Refresh broadcast data and complete match pages'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
