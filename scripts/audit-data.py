@@ -4,6 +4,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT=Path(__file__).resolve().parent.parent
+AUDIO_RX=re.compile('|'.join(json.loads((ROOT/'scripts/broadcast-audio.json').read_text())),re.I)
 ALLOWED_GROUPS={"free","dazn","sky","prime","other"}
 PRIORITY_RX=re.compile(r"Bundesliga|2\. Bundesliga|3\. Liga|DFB-Pokal|Champions League|Europa League|Conference League|Nations League|Deutschland",re.I)
 WOMEN_RX=re.compile(r"♀|Frauen|Women|Femminile",re.I)
@@ -52,6 +53,10 @@ def main():
             errors.append(f"Zeile {i}: keine Sender")
         elif len(g["channels"])!=len(set(g["channels"])):
             errors.append(f"Zeile {i}: doppelte Sender")
+
+        for channel in g.get("channels",[]):
+            if AUDIO_RX.search(channel):
+                errors.append(f"Zeile {i}: Audioangebot in TV-/Videoliste: {channel}")
 
         groups=g.get("groups")
         if not isinstance(groups,list) or not groups:

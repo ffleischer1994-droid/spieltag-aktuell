@@ -101,7 +101,6 @@
       "Sky (CH)",
       "WOW",
       "WOW (AT)",
-      "ASC-Livestream (Bielefeld)",
       "OneFootball"
     ],
     "groups": [
@@ -134,7 +133,6 @@
       "Sky (CH)",
       "WOW",
       "WOW (AT)",
-      "EnergieFM",
       "OneFootball"
     ],
     "groups": [
@@ -668,8 +666,7 @@
       "Sky Sport Bundesliga UHD",
       "Sky (CH)",
       "WOW",
-      "WOW (AT)",
-      "05er.fm"
+      "WOW (AT)"
     ],
     "groups": [
       "sky",
@@ -1358,8 +1355,7 @@
     "away": "VfB Stuttgart II",
     "channels": [
       "MagentaSport",
-      "OneFootball",
-      "ZebraFM (MSV Duisburg)"
+      "OneFootball"
     ],
     "groups": [
       "other"
@@ -1619,8 +1615,7 @@
       "NDR",
       "BR (ARD Mediathek)",
       "NDR Livestream",
-      "OneFootball",
-      "Turmfunk (Jahn Regensburg)"
+      "OneFootball"
     ],
     "groups": [
       "other",
@@ -1855,12 +1850,10 @@
       "MDR",
       "MDR (ARD Mediathek)",
       "MDR Mediathek",
-      "Steigerfunk (Erzgebirge Aue)",
       "MDR+ Livestreams"
     ],
     "groups": [
-      "free",
-      "other"
+      "free"
     ],
     "sources": [
       {
@@ -2049,8 +2042,7 @@
       "Sky Sport Bundesliga 2",
       "Sky (CH)",
       "WOW",
-      "WOW (AT)",
-      "Sportclub live (SC Freiburg)"
+      "WOW (AT)"
     ],
     "groups": [
       "dazn",
@@ -2245,8 +2237,7 @@
       "Sky Sport Bundesliga 4",
       "Sky (CH)",
       "WOW",
-      "WOW (AT)",
-      "WerderFM"
+      "WOW (AT)"
     ],
     "groups": [
       "dazn",
@@ -4192,8 +4183,7 @@
     "away": "Waldhof Mannheim",
     "channels": [
       "MagentaSport",
-      "OneFootball",
-      "Waldhof Livestream (Mannheim)"
+      "OneFootball"
     ],
     "groups": [
       "other"
@@ -4530,8 +4520,7 @@
     "away": "BSG Chemie Leipzig",
     "channels": [
       "LVZ+",
-      "Mediengruppe Mitteldeutschland",
-      "Fünfeck.FM (Chemie Leipzig)"
+      "Mediengruppe Mitteldeutschland"
     ],
     "groups": [
       "other"
@@ -4685,8 +4674,7 @@
     "away": "Chemnitzer FC",
     "channels": [
       "Freie Presse (Livestream)",
-      "Mediengruppe Mitteldeutschland",
-      "Gellert-Welle (Chemnitzer FC)"
+      "Mediengruppe Mitteldeutschland"
     ],
     "groups": [
       "other"
@@ -5451,8 +5439,7 @@
     "away": "Hamburger SV",
     "channels": [
       "DAZN",
-      "Sky (CH)",
-      "EintrachtFM"
+      "Sky (CH)"
     ],
     "groups": [
       "dazn",
@@ -5647,8 +5634,7 @@
     "away": "SC Preußen Münster",
     "channels": [
       "MagentaSport",
-      "OneFootball",
-      "100,5 Alemannia Livestream (Aachen)"
+      "OneFootball"
     ],
     "groups": [
       "other"

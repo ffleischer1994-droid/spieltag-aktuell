@@ -32,7 +32,9 @@ jobs:
         if: github.event_name != 'push'
         run: python scripts/refresh-games.py
       - name: Validate data before publishing
-        run: python scripts/audit-data.py
+        run: |
+          python scripts/test-broadcast-channels.py
+          python scripts/audit-data.py
       - name: Build and verify match pages with current broadcast data
         run: |
           python scripts/build-seo.py

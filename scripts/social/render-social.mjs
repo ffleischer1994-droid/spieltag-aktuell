@@ -1,8 +1,10 @@
+import { assertVideoChannels } from "./broadcast-channels.mjs";
 import fs from "node:fs";
 import { chromium } from "playwright";
 if(!fs.existsSync("social-output/today.json")) process.exit(1);
 const {date,highlights}=JSON.parse(fs.readFileSync("social-output/today.json","utf8"));
 if(!highlights.length||highlights.length>4||highlights.some((g,i)=>g.date!==date||!g.channels?.length||g.channels.some(c=>/unbekannt|option/i.test(c))||(i>0&&g.time<highlights[i-1].time))) throw new Error("Invalid or unsorted highlights");
+assertVideoChannels(highlights);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const pretty=date.split("-").reverse().join(".");
 function hydrate(path){

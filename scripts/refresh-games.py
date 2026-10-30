@@ -16,6 +16,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = 'https://fussballgucken.info'
+AUDIO_RX = re.compile('|'.join(json.loads((ROOT/'scripts/broadcast-audio.json').read_text())), re.I)
 
 
 def fetch(url):
@@ -39,9 +40,12 @@ def channels_from(element):
     result = []
     for a in element.select('a[href^="/sender/"]'):
         label = a.get_text(' ', strip=True)
-        li = a.find_parent('li')
-        if li and li.select_one('.fg-icon-radio'): continue
-        if re.search(r'Radio|Hörfunk|Audio|Haching FM|LOKruf|Bullenfunk|Knappen-Kommentar|WDR Event', label, re.I):
+        # The radio icon belongs to the coverage box heading, not its list items.
+        box = a.find_parent(class_='box')
+        heading = box.find(['h2', 'h3', 'h4']) if box else None
+        if heading and (heading.select_one('.fg-icon-radio') or re.search(r'Radio|Hörfunk|Audio', heading.get_text(' ', strip=True), re.I)):
+            continue
+        if AUDIO_RX.search(label):
             continue
         label = re.sub(r' HD$', '', label)
         if label.startswith('Sky Go') or label == 'Sky Stream': continue

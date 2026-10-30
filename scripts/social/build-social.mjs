@@ -1,9 +1,10 @@
+import { videoOnly, assertVideoChannels } from "./broadcast-channels.mjs";
 import { excludedFromSocial } from "./editorial-exclusions.mjs";
 import fs from "node:fs";
 
 const games=JSON.parse(fs.readFileSync("games.json","utf8"));
 const today=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Berlin",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
-const day=games.filter(g=>!excludedFromSocial(g)&&g.date===today).sort((a,b)=>a.time.localeCompare(b.time));
+const day=games.map(videoOnly).filter(g=>!excludedFromSocial(g)&&g.date===today).sort((a,b)=>a.time.localeCompare(b.time));
 if(!day.length){console.log("No games today; nothing to publish.");process.exit(1)}
 
 const uncertain=g=>!(g.channels||[]).length||(g.channels||[]).some(c=>/unbekannt|option/i.test(c));
@@ -46,6 +47,7 @@ const highlights=candidates
   .sort((a,b)=>a.time.localeCompare(b.time))
   .map(({_score,...g})=>g);
 
+assertVideoChannels(highlights);
 if(!highlights.length)throw new Error("No verified highlights today");
 
 fs.mkdirSync("social-output",{recursive:true});

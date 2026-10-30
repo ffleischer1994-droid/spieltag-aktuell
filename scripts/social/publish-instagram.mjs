@@ -1,9 +1,11 @@
+import { assertVideoChannels } from "./broadcast-channels.mjs";
 import fs from "node:fs";
 import { activeToken } from './instagram-token.mjs';
 const token=activeToken();
 if(!token){console.error("IG_ACCESS_TOKEN missing");process.exit(1)}
 if(!fs.existsSync("social-output/today.json")){console.log("No social package today.");process.exit(0)}
-const {date}=JSON.parse(fs.readFileSync("social-output/today.json","utf8"));
+const {date,highlights}=JSON.parse(fs.readFileSync("social-output/today.json","utf8"));
+assertVideoChannels(highlights);
 const today=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Berlin"}).format(new Date());
 const preflight=JSON.parse(fs.readFileSync("social-output/preflight.json","utf8"));
 if(date!==today||preflight.date!==date||!preflight.passed)throw new Error("Stale or unchecked social package");
