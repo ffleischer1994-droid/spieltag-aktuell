@@ -1,927 +1,4 @@
 {
-  "2026-10-31|1. FC Kaiserslautern|Hertha BSC": {
-    "path": "spiel/1-fc-kaiserslautern-hertha-bsc-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "13:00",
-      "competition": "2. Bundesliga",
-      "country": "Deutschland",
-      "home": "1. FC Kaiserslautern",
-      "away": "Hertha BSC",
-      "channels": [
-        "Sky Sport Bundesliga 2",
-        "Sky Sport Bundesliga 5",
-        "Sky Sport Bundesliga 7",
-        "Sky Sport Top Event",
-        "Sky (CH)",
-        "WOW",
-        "WOW (AT)",
-        "OneFootball"
-      ],
-      "groups": [
-        "sky",
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/193832/2-bundesliga/1-fc-kaiserslautern-hertha-bsc",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:24.192375+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|1. FC Köln ♀|RB Leipzig ♀": {
-    "path": "spiel/1-fc-koeln-frauen-rb-leipzig-frauen-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "13:00",
-      "competition": "DFB-Pokal (Frauen)",
-      "country": "Deutschland",
-      "home": "1. FC Köln ♀",
-      "away": "RB Leipzig ♀",
-      "channels": [
-        "DFB.TV",
-        "DFB.TV+"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/195802/dfb-pokal-frauen/1-fc-koeln-frauen-rb-leipzig-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:23.863162+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|1. FC Magdeburg II|Hallescher FC": {
-    "path": "spiel/1-fc-magdeburg-ii-hallescher-fc-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "13:00",
-      "competition": "Regionalliga Nordost",
-      "country": "Deutschland",
-      "home": "1. FC Magdeburg II",
-      "away": "Hallescher FC",
-      "channels": [
-        "Mediengruppe Mitteldeutschland"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/194699/regionalliga-nordost/1-fc-magdeburg-ii-hallescher-fc",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:23.929655+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|Hamburger SV ♀|1. FC Union Berlin ♀": {
-    "path": "spiel/hamburger-sv-frauen-1-fc-union-berlin-frauen-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "13:00",
-      "competition": "DFB-Pokal (Frauen)",
-      "country": "Deutschland",
-      "home": "Hamburger SV ♀",
-      "away": "1. FC Union Berlin ♀",
-      "channels": [
-        "DFB.TV",
-        "DFB.TV+"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/195804/dfb-pokal-frauen/hamburger-sv-frauen-1-fc-union-berlin-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:23.884447+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|SV Darmstadt 98|1. FC Magdeburg": {
-    "path": "spiel/sv-darmstadt-98-1-fc-magdeburg-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "13:00",
-      "competition": "2. Bundesliga",
-      "country": "Deutschland",
-      "home": "SV Darmstadt 98",
-      "away": "1. FC Magdeburg",
-      "channels": [
-        "Sky Sport Bundesliga 2",
-        "Sky Sport Bundesliga 4",
-        "Sky Sport Bundesliga 7",
-        "Sky Sport Top Event",
-        "Sky (CH)",
-        "WOW",
-        "WOW (AT)",
-        "OneFootball"
-      ],
-      "groups": [
-        "sky",
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/193831/2-bundesliga/sv-darmstadt-98-1-fc-magdeburg",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:24.184845+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|VfL Wolfsburg|VfL Osnabrück": {
-    "path": "spiel/vfl-wolfsburg-vfl-osnabrueck-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "13:00",
-      "competition": "2. Bundesliga",
-      "country": "Deutschland",
-      "home": "VfL Wolfsburg",
-      "away": "VfL Osnabrück",
-      "channels": [
-        "Sky Sport Bundesliga 2",
-        "Sky Sport Bundesliga 3",
-        "Sky Sport Bundesliga 7",
-        "Sky Sport Top Event",
-        "Sky (CH)",
-        "WOW",
-        "WOW (AT)",
-        "OneFootball"
-      ],
-      "groups": [
-        "sky",
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/193828/2-bundesliga/vfl-wolfsburg-vfl-osnabrueck",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:24.123215+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|FC Chelsea|Manchester United": {
-    "path": "spiel/fc-chelsea-manchester-united-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "13:30",
-      "competition": "Premier League (England)",
-      "country": "England",
-      "home": "FC Chelsea",
-      "away": "Manchester United",
-      "channels": [
-        "Canal+ (via Blue Sport)",
-        "Sky Sport Austria 1 (AT)",
-        "Sky Sport Premier League",
-        "Sky (CH)",
-        "WOW",
-        "WOW (AT)"
-      ],
-      "groups": [
-        "other",
-        "sky"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/193504/premier-league-england/fc-chelsea-manchester-united",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:24.729613+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|1899 Hoffenheim II|FC Viktoria Köln": {
-    "path": "spiel/1899-hoffenheim-ii-fc-viktoria-koeln-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "3. Liga",
-      "country": "Deutschland",
-      "home": "1899 Hoffenheim II",
-      "away": "FC Viktoria Köln",
-      "channels": [
-        "MagentaSport",
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/194835/3-liga/1899-hoffenheim-ii-fc-viktoria-koeln",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:27.434510+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|Bonner SC|FC Schalke 04 II": {
-    "path": "spiel/bonner-sc-fc-schalke-04-ii-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "Bonner SC",
-      "away": "FC Schalke 04 II",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197303/regionalliga-west/bonner-sc-fc-schalke-04-ii",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.986819+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|Borussia Dortmund II|FC Gütersloh": {
-    "path": "spiel/borussia-dortmund-ii-fc-guetersloh-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "Borussia Dortmund II",
-      "away": "FC Gütersloh",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197304/regionalliga-west/borussia-dortmund-ii-fc-guetersloh",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.941148+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|Borussia Mönchengladbach II|VfB 03 Hilden": {
-    "path": "spiel/borussia-moenchengladbach-ii-vfb-03-hilden-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "Borussia Mönchengladbach II",
-      "away": "VfB 03 Hilden",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197311/regionalliga-west/borussia-moenchengladbach-ii-vfb-03-hilden",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.356673+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|KSV Hessen Kassel|SG Barockstadt Fulda-Lehnerz": {
-    "path": "spiel/ksv-hessen-kassel-sg-barockstadt-fulda-lehnerz-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga Südwest",
-      "country": "Deutschland",
-      "home": "KSV Hessen Kassel",
-      "away": "SG Barockstadt Fulda-Lehnerz",
-      "channels": [
-        "Leagues",
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196945/regionalliga-suedwest/ksv-hessen-kassel-sg-barockstadt-fulda-lehnerz",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:26.730211+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|MSV Duisburg|VfB Stuttgart II": {
-    "path": "spiel/msv-duisburg-vfb-stuttgart-ii-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "3. Liga",
-      "country": "Deutschland",
-      "home": "MSV Duisburg",
-      "away": "VfB Stuttgart II",
-      "channels": [
-        "MagentaSport",
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/194837/3-liga/msv-duisburg-vfb-stuttgart-ii",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:27.414313+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|SC Freiburg II|SSV Ulm": {
-    "path": "spiel/sc-freiburg-ii-ssv-ulm-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga Südwest",
-      "country": "Deutschland",
-      "home": "SC Freiburg II",
-      "away": "SSV Ulm",
-      "channels": [
-        "Leagues",
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196948/regionalliga-suedwest/sc-freiburg-ii-ssv-ulm",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:26.453699+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|SC Paderborn 07 II|Bergisch Gladbach 09": {
-    "path": "spiel/sc-paderborn-07-ii-bergisch-gladbach-09-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "SC Paderborn 07 II",
-      "away": "Bergisch Gladbach 09",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197309/regionalliga-west/sc-paderborn-07-ii-bergisch-gladbach-09",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.739374+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|SC Verl|SV Wehen Wiesbaden": {
-    "path": "spiel/sc-verl-sv-wehen-wiesbaden-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "3. Liga",
-      "country": "Deutschland",
-      "home": "SC Verl",
-      "away": "SV Wehen Wiesbaden",
-      "channels": [
-        "MagentaSport",
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/194839/3-liga/sc-verl-sv-wehen-wiesbaden",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:27.204366+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|SC Weiche Flensburg|Kickers Emden": {
-    "path": "spiel/sc-weiche-flensburg-kickers-emden-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga Nord",
-      "country": "Deutschland",
-      "home": "SC Weiche Flensburg",
-      "away": "Kickers Emden",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196940/regionalliga-nord/sc-weiche-flensburg-kickers-emden",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.311655+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|SC Wiedenbrück 2000|RW Oberhausen": {
-    "path": "spiel/sc-wiedenbrueck-2000-rw-oberhausen-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "SC Wiedenbrück 2000",
-      "away": "RW Oberhausen",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197305/regionalliga-west/sc-wiedenbrueck-2000-rw-oberhausen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.964625+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|SF Siegen|VfL Bochum II": {
-    "path": "spiel/sf-siegen-vfl-bochum-ii-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "SF Siegen",
-      "away": "VfL Bochum II",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197307/regionalliga-west/sf-siegen-vfl-bochum-ii",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.718726+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|SG Wattenscheid 09|Sportfreunde Lotte": {
-    "path": "spiel/sg-wattenscheid-09-sportfreunde-lotte-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "SG Wattenscheid 09",
-      "away": "Sportfreunde Lotte",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197306/regionalliga-west/sg-wattenscheid-09-sportfreunde-lotte",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.880315+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|SGV Freiberg|FC Astoria Walldorf": {
-    "path": "spiel/sgv-freiberg-fc-astoria-walldorf-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga Südwest",
-      "country": "Deutschland",
-      "home": "SGV Freiberg",
-      "away": "FC Astoria Walldorf",
-      "channels": [
-        "Leagues",
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196942/regionalliga-suedwest/sgv-freiberg-fc-astoria-walldorf",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:26.807268+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|SSV Jahn Regensburg|Hansa Rostock": {
-    "path": "spiel/ssv-jahn-regensburg-hansa-rostock-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "3. Liga",
-      "country": "Deutschland",
-      "home": "SSV Jahn Regensburg",
-      "away": "Hansa Rostock",
-      "channels": [
-        "BR",
-        "MagentaSport",
-        "NDR",
-        "BR (ARD Mediathek)",
-        "NDR Livestream",
-        "OneFootball"
-      ],
-      "groups": [
-        "other",
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/194840/3-liga/ssv-jahn-regensburg-hansa-rostock",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:27.151998+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|SV Rödinghausen|Westfalia Rhynern": {
-    "path": "spiel/sv-roedinghausen-westfalia-rhynern-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "SV Rödinghausen",
-      "away": "Westfalia Rhynern",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197310/regionalliga-west/sv-roedinghausen-westfalia-rhynern",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.443448+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|Stuttgarter Kickers|VfR Aalen": {
-    "path": "spiel/stuttgarter-kickers-vfr-aalen-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga Südwest",
-      "country": "Deutschland",
-      "home": "Stuttgarter Kickers",
-      "away": "VfR Aalen",
-      "channels": [
-        "Leagues",
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196946/regionalliga-suedwest/stuttgarter-kickers-vfr-aalen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:26.688668+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|TSV 1882 Landsberg|FC Bayern München II": {
-    "path": "spiel/tsv-1882-landsberg-fc-bayern-muenchen-ii-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga Bayern",
-      "country": "Deutschland",
-      "home": "TSV 1882 Landsberg",
-      "away": "FC Bayern München II",
-      "channels": [
-        "FC Bayern.tv plus",
-        "FC Bayern.tv plus (mobil)",
-        "FC Bayern.tv plus (MagentaTV)"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197325/regionalliga-bayern/tsv-1882-landsberg-fc-bayern-muenchen-ii",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:24.903818+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|TSV Havelse|FC Ingolstadt 04": {
-    "path": "spiel/tsv-havelse-fc-ingolstadt-04-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "3. Liga",
-      "country": "Deutschland",
-      "home": "TSV Havelse",
-      "away": "FC Ingolstadt 04",
-      "channels": [
-        "MagentaSport",
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/194842/3-liga/tsv-havelse-fc-ingolstadt-04",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:26.709745+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|UD Levante|Atletico Madrid": {
-    "path": "spiel/ud-levante-atletico-madrid-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "La Liga (Spanien)",
-      "country": "Spanien",
-      "home": "UD Levante",
-      "away": "Atletico Madrid",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196706/la-liga-spanien/ud-levante-atletico-madrid",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:24.741803+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|VfB Lübeck|SV Werder Bremen II": {
-    "path": "spiel/vfb-luebeck-sv-werder-bremen-ii-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga Nord",
-      "country": "Deutschland",
-      "home": "VfB Lübeck",
-      "away": "SV Werder Bremen II",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196936/regionalliga-nord/vfb-luebeck-sv-werder-bremen-ii",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.347637+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|VfR Mannheim|1. FC Kaiserslautern II": {
-    "path": "spiel/vfr-mannheim-1-fc-kaiserslautern-ii-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Regionalliga Südwest",
-      "country": "Deutschland",
-      "home": "VfR Mannheim",
-      "away": "1. FC Kaiserslautern II",
-      "channels": [
-        "Leagues",
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196950/regionalliga-suedwest/vfr-mannheim-1-fc-kaiserslautern-ii",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:26.399067+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|Erzgebirge Aue|Carl Zeiss Jena": {
-    "path": "spiel/erzgebirge-aue-carl-zeiss-jena-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:30",
-      "competition": "Regionalliga Nordost",
-      "country": "Deutschland",
-      "home": "Erzgebirge Aue",
-      "away": "Carl Zeiss Jena",
-      "channels": [
-        "MDR Fernsehen",
-        "MDR",
-        "MDR (ARD Mediathek)",
-        "MDR Mediathek",
-        "MDR+ Livestreams"
-      ],
-      "groups": [
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197262/regionalliga-nordost/erzgebirge-aue-carl-zeiss-jena",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:27.479799+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
   "2026-10-31|FC Bologna|AC Monza": {
     "path": "spiel/fc-bologna-ac-monza-2026-10-31",
     "game": {
@@ -3780,42 +2857,6 @@
     },
     "dataUpdated": "2026-10-31"
   },
-  "2026-10-31|LFC Everton ♀|Manchester United ♀": {
-    "path": "spiel/lfc-everton-frauen-manchester-united-frauen-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "13:45",
-      "competition": "WSL - Women's Super League (England)",
-      "country": "England",
-      "home": "LFC Everton ♀",
-      "away": "Manchester United ♀",
-      "channels": [
-        "blue Sport (CH)",
-        "Sportdigital1+",
-        "OneFootball",
-        "Sportdigital1+ (Livestream)",
-        "Sportdigital+",
-        "Sportdigital1+ HD (MagentaTV)",
-        "Sportdigital1+ HD (Sky)"
-      ],
-      "groups": [
-        "other",
-        "sky"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197744/wsl-women-s-super-league-england/lfc-everton-frauen-manchester-united-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:24.765577+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
   "2026-10-31|FC Luzern ♀|FC Aarau ♀": {
     "path": "spiel/fc-luzern-frauen-fc-aarau-frauen-2026-10-31",
     "game": {
@@ -4896,126 +3937,6 @@
         }
       ],
       "verifiedAt": "2026-10-31T14:30:40.944847+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|FC Obolon Kiew|Schachtjor Donezk": {
-    "path": "spiel/fc-obolon-kiew-schachtjor-donezk-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "13:00",
-      "competition": "Premjer Liha (Ukraine)",
-      "country": "Ukraine",
-      "home": "FC Obolon Kiew",
-      "away": "Schachtjor Donezk",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/195467/premjer-liha-ukraine/fc-obolon-kiew-schachtjor-donezk",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:23.430707+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|First Vienna FC 1894 ♀|FC Blau Weiß Linz/Union Kleinmünchen ♀": {
-    "path": "spiel/first-vienna-fc-1894-frauen-fc-blau-weiss-linz-union-kleinmuenchen-frauen-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "ÖFB Frauen Bundesliga",
-      "country": "Österreich",
-      "home": "First Vienna FC 1894 ♀",
-      "away": "FC Blau Weiß Linz/Union Kleinmünchen ♀",
-      "channels": [
-        "LAOLA1 (Livestream)",
-        "ÖFB TV",
-        "ÖFB TV (via ÖFB App)"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196608/oefb-frauen-bundesliga/first-vienna-fc-1894-frauen-fc-blau-weiss-linz-union-kleinmuenchen-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.227915+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|Red Bull Salzburg ♀|SK Sturm Graz ♀": {
-    "path": "spiel/red-bull-salzburg-frauen-sk-sturm-graz-frauen-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "ÖFB Frauen Bundesliga",
-      "country": "Österreich",
-      "home": "Red Bull Salzburg ♀",
-      "away": "SK Sturm Graz ♀",
-      "channels": [
-        "LAOLA1 (Livestream)",
-        "ÖFB TV",
-        "ÖFB TV (via ÖFB App)"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196607/oefb-frauen-bundesliga/red-bull-salzburg-frauen-sk-sturm-graz-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:25.152040+00:00"
-    },
-    "dataUpdated": "2026-10-31"
-  },
-  "2026-10-31|Stade de Reims|FC Sochaux": {
-    "path": "spiel/stade-de-reims-fc-sochaux-2026-10-31",
-    "game": {
-      "date": "2026-10-31",
-      "time": "14:00",
-      "competition": "Ligue 2 (Frankreich)",
-      "country": "Frankreich",
-      "home": "Stade de Reims",
-      "away": "FC Sochaux",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-10-31",
-          "name": "fußballgucken.info – Tagesplan 2026-10-31"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197224/ligue-2-frankreich/stade-de-reims-fc-sochaux",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-10-31T14:30:27.462460+00:00"
     },
     "dataUpdated": "2026-10-31"
   },
@@ -8935,6 +7856,162 @@
         }
       ],
       "verifiedAt": "2026-10-31T14:30:42.293637+00:00"
+    },
+    "dataUpdated": "2026-10-31"
+  },
+  "2026-11-01|Ghana ♀ (U17)|Japan ♀ (U17)": {
+    "path": "spiel/ghana-frauen-u17-japan-frauen-u17-2026-11-01",
+    "game": {
+      "date": "2026-11-01",
+      "time": "16:00",
+      "competition": "U17-WM (Frauen)",
+      "country": "International",
+      "home": "Ghana ♀ (U17)",
+      "away": "Japan ♀ (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
+          "name": "fußballgucken.info – Tagesplan 2026-11-01"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197890/u17-wm-frauen/ghana-frauen-u17-japan-frauen-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.fifa.com/articles/rabat-match-7-preview",
+          "name": "FIFA – kostenlose Übertragung aller Spiele auf FIFA+ via DAZN"
+        },
+        {
+          "url": "https://www.fifa.com/?app_v2=true%252F%252F%252Fformazioni%252F%252F",
+          "name": "FIFA – bestätigte Viertelfinalpaarungen am 1. November"
+        }
+      ],
+      "verifiedAt": "2026-10-31T16:38:34.351303+00:00"
+    },
+    "dataUpdated": "2026-10-31"
+  },
+  "2026-11-01|Nordkorea ♀ (U17)|USA ♀ (U17)": {
+    "path": "spiel/nordkorea-frauen-u17-usa-frauen-u17-2026-11-01",
+    "game": {
+      "date": "2026-11-01",
+      "time": "16:00",
+      "competition": "U17-WM (Frauen)",
+      "country": "International",
+      "home": "Nordkorea ♀ (U17)",
+      "away": "USA ♀ (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
+          "name": "fußballgucken.info – Tagesplan 2026-11-01"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197891/u17-wm-frauen/nordkorea-frauen-u17-usa-frauen-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.fifa.com/articles/rabat-match-7-preview",
+          "name": "FIFA – kostenlose Übertragung aller Spiele auf FIFA+ via DAZN"
+        },
+        {
+          "url": "https://www.fifa.com/?app_v2=true%252F%252F%252Fformazioni%252F%252F",
+          "name": "FIFA – bestätigte Viertelfinalpaarungen am 1. November"
+        }
+      ],
+      "verifiedAt": "2026-10-31T16:38:34.308867+00:00"
+    },
+    "dataUpdated": "2026-10-31"
+  },
+  "2026-11-01|China ♀ (U17)|Brasilien ♀ (U17)": {
+    "path": "spiel/china-frauen-u17-brasilien-frauen-u17-2026-11-01",
+    "game": {
+      "date": "2026-11-01",
+      "time": "19:00",
+      "competition": "U17-WM (Frauen)",
+      "country": "International",
+      "home": "China ♀ (U17)",
+      "away": "Brasilien ♀ (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
+          "name": "fußballgucken.info – Tagesplan 2026-11-01"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197892/u17-wm-frauen/china-frauen-u17-brasilien-frauen-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.fifa.com/articles/rabat-match-7-preview",
+          "name": "FIFA – kostenlose Übertragung aller Spiele auf FIFA+ via DAZN"
+        },
+        {
+          "url": "https://www.fifa.com/?app_v2=true%252F%252F%252Fformazioni%252F%252F",
+          "name": "FIFA – bestätigte Viertelfinalpaarungen am 1. November"
+        }
+      ],
+      "verifiedAt": "2026-10-31T16:38:42.383140+00:00"
+    },
+    "dataUpdated": "2026-10-31"
+  },
+  "2026-11-01|Nigeria ♀ (U17)|Venezuela ♀ (U17)": {
+    "path": "spiel/nigeria-frauen-u17-venezuela-frauen-u17-2026-11-01",
+    "game": {
+      "date": "2026-11-01",
+      "time": "19:00",
+      "competition": "U17-WM (Frauen)",
+      "country": "International",
+      "home": "Nigeria ♀ (U17)",
+      "away": "Venezuela ♀ (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
+          "name": "fußballgucken.info – Tagesplan 2026-11-01"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197893/u17-wm-frauen/nigeria-frauen-u17-venezuela-frauen-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.fifa.com/articles/rabat-match-7-preview",
+          "name": "FIFA – kostenlose Übertragung aller Spiele auf FIFA+ via DAZN"
+        },
+        {
+          "url": "https://www.fifa.com/?app_v2=true%252F%252F%252Fformazioni%252F%252F",
+          "name": "FIFA – bestätigte Viertelfinalpaarungen am 1. November"
+        }
+      ],
+      "verifiedAt": "2026-10-31T16:38:42.337507+00:00"
     },
     "dataUpdated": "2026-10-31"
   }
