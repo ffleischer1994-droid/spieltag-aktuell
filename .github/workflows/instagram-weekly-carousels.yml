@@ -3,7 +3,12 @@ on:
   schedule:
     - cron: "0,20,40 15-17 * * 1"
     - cron: "0,20,40 10-11 * * 1"
-    - cron: "0,20,40 13-15 * * 5"
+    # Avoid GitHub Actions top-of-hour congestion and retry into the evening.
+    - cron: "7,27,47 13-20 * * 5"
+  # Backup trigger: a successful broadcast-data refresh can rescue a delayed or dropped cron run.
+  workflow_run:
+    workflows: ["Refresh and publish broadcast data"]
+    types: [completed]
   workflow_dispatch:
     inputs:
       format:
@@ -47,17 +52,23 @@ jobs:
           MANUAL_DRY_RUN: ${{ inputs.dry_run }}
           MANUAL_REPOST: ${{ inputs.corrected_free_tv_repost }}
           MANUAL_FINAL: ${{ inputs.full_week_final_repost }}
+          UPSTREAM_RESULT: ${{ github.event.workflow_run.conclusion }}
         run: |
           DAY=$(TZ=Europe/Berlin date +%u)
           HOUR=$(TZ=Europe/Berlin date +%H)
           DATE=$(TZ=Europe/Berlin date +%F)
+          if [ "$GITHUB_EVENT_NAME" = "workflow_run" ] && { [ "$DAY" != "5" ] || [ "$UPSTREAM_RESULT" != "success" ]; }; then
+            echo "::notice::Backup trigger skipped: not Friday or upstream data refresh failed"
+            echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"
+            exit 0
+          fi
           if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
             FORMAT="$MANUAL_FORMAT"
             if [ "$MANUAL_DRY_RUN" = "true" ]; then echo "WEEKLY_DRY_RUN=1" >> "$GITHUB_ENV"; fi
           elif [ "$DAY" = "1" ] && [ "$HOUR" -ge 12 ] && [ "$HOUR" -lt 14 ]; then FORMAT="women"
           elif [ "$DAY" = "1" ] && [ "$HOUR" -ge 17 ] && [ "$HOUR" -lt 19 ]; then FORMAT="free-tv"
-          elif [ "$DAY" = "5" ] && [ "$HOUR" -ge 15 ] && [ "$HOUR" -lt 17 ]; then FORMAT="weekend"
-          else echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; exit 0; fi
+          elif [ "$DAY" = "5" ] && [ "$HOUR" -ge 15 ] && [ "$HOUR" -lt 22 ]; then FORMAT="weekend"
+          else echo "::notice::Outside scheduled publication window (Berlin: $DATE $HOUR:00)"; echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"; exit 0; fi
           if [ "$MANUAL_REPOST" = "true" ] && [ "$MANUAL_FINAL" = "true" ]; then echo "::error::Choose only one repost type"; exit 1; fi
           if [ "$MANUAL_FINAL" = "true" ]; then
             if [ "$GITHUB_EVENT_NAME" != "workflow_dispatch" ] || [ "$FORMAT" != "free-tv" ] || [ "$DATE" != "2026-10-12" ] || [ "$MANUAL_DRY_RUN" = "true" ]; then
