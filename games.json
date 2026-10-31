@@ -3389,10 +3389,15 @@
     "away": "Waldhof Mannheim",
     "channels": [
       "MagentaSport",
-      "OneFootball"
+      "OneFootball",
+      "SR (ARD Mediathek)",
+      "SR Fernsehen",
+      "SWR",
+      "SWR Mediathek"
     ],
     "groups": [
-      "other"
+      "other",
+      "free"
     ],
     "sources": [
       {
@@ -3404,7 +3409,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-10-31T05:35:40.344242+00:00"
+    "verifiedAt": "2026-10-31T06:35:00.954Z"
   },
   {
     "date": "2026-11-01",
