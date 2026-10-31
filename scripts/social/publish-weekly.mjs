@@ -7,13 +7,16 @@ const mode=process.env.WEEKLY_FORMAT;
 if(!["free-tv","weekend","women"].includes(mode))throw Error("Set WEEKLY_FORMAT to free-tv or weekend");
 const zone="Europe/Berlin";
 const parts=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:zone,year:"numeric",month:"2-digit",day:"2-digit",weekday:"long",hour:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).map(x=>[x.type,x.value]));
-const localDate=parts.year+"-"+parts.month+"-"+parts.day;
+const realLocalDate=parts.year+"-"+parts.month+"-"+parts.day;
+const recovery=process.env.WEEKLY_RECOVER_FRIDAY==="1";
+if(recovery&&(mode!=="weekend"||parts.weekday!=="Saturday"||!/^\\d{4}-\\d{2}-\\d{2}$/.test(process.env.WEEKLY_DATE_OVERRIDE||"")))throw Error("Friday recovery requires Saturday and a Friday date");
+const localDate=recovery?process.env.WEEKLY_DATE_OVERRIDE:realLocalDate;
 const desired=mode==="weekend"?"Friday":"Monday",hour=mode==="free-tv"?17:mode==="women"?12:15;
 // Scheduled and successful broadcast-refresh backup triggers must both respect Berlin publishing hours.
 // The Friday recovery window runs until 22:00 to tolerate delayed GitHub cron delivery.
 const automatedTrigger=["schedule","workflow_run"].includes(process.env.GITHUB_EVENT_NAME);
 const publishEnd=mode==="weekend"?22:hour+2;
-if(automatedTrigger&&(parts.weekday!==desired||Number(parts.hour)<hour||Number(parts.hour)>=publishEnd)){console.log("Outside Berlin publishing window: "+parts.weekday+" "+parts.hour+"h, expected "+desired+" "+hour+"-"+publishEnd+"h");process.exit(0)}
+if(automatedTrigger&&!recovery&&(parts.weekday!==desired||Number(parts.hour)<hour||Number(parts.hour)>=publishEnd)){console.log("Outside Berlin publishing window: "+parts.weekday+" "+parts.hour+"h, expected "+desired+" "+hour+"-"+publishEnd+"h");process.exit(0)}
 const plus=(day,n)=>{let d=new Date(day+"T12:00:00Z");d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)};
 // Always show Friday–Sunday for weekend posts, even when manually previewed earlier in the week.
 const weekendFriday=()=>{
