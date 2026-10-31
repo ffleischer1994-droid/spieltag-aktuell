@@ -5,6 +5,8 @@ on:
     - cron: "0,20,40 10-11 * * 1"
     # Avoid GitHub Actions top-of-hour congestion and retry into the evening.
     - cron: "7,27,47 13-20 * * 5"
+    # Saturday rescue if Friday publication did not produce a receipt.
+    - cron: "13,43 8-10 * * 6"
   # Backup trigger: a successful broadcast-data refresh can rescue a delayed or dropped cron run.
   workflow_run:
     workflows: ["Refresh and publish broadcast data"]
@@ -18,6 +20,10 @@ on:
       dry_run:
         type: boolean
         default: true
+      recover_friday:
+        description: "Versäumten Freitagspost am Samstag nachholen"
+        type: boolean
+        default: false
       corrected_free_tv_repost:
         description: "Einmalige korrigierte Free-TV-Veröffentlichung (nur 12.10.2026)"
         type: boolean
@@ -50,6 +56,7 @@ jobs:
         env:
           MANUAL_FORMAT: ${{ inputs.format }}
           MANUAL_DRY_RUN: ${{ inputs.dry_run }}
+          MANUAL_RECOVER: ${{ inputs.recover_friday }}
           MANUAL_REPOST: ${{ inputs.corrected_free_tv_repost }}
           MANUAL_FINAL: ${{ inputs.full_week_final_repost }}
           UPSTREAM_RESULT: ${{ github.event.workflow_run.conclusion }}
@@ -62,9 +69,13 @@ jobs:
             echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"
             exit 0
           fi
+          if [ "$MANUAL_RECOVER" = "true" ] && { [ "$GITHUB_EVENT_NAME" != "workflow_dispatch" ] || [ "$DAY" != "6" ] || [ "$MANUAL_FORMAT" != "weekend" ]; }; then
+            echo "::error::Friday recovery is only allowed on Saturday for the weekend format"; exit 1
+          fi
           if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
             FORMAT="$MANUAL_FORMAT"
             if [ "$MANUAL_DRY_RUN" = "true" ]; then echo "WEEKLY_DRY_RUN=1" >> "$GITHUB_ENV"; fi
+          elif [ "$DAY" = "6" ] && [ "$HOUR" -ge 9 ] && [ "$HOUR" -lt 12 ]; then FORMAT="weekend"; MANUAL_RECOVER="true"
           elif [ "$DAY" = "1" ] && [ "$HOUR" -ge 12 ] && [ "$HOUR" -lt 14 ]; then FORMAT="women"
           elif [ "$DAY" = "1" ] && [ "$HOUR" -ge 17 ] && [ "$HOUR" -lt 19 ]; then FORMAT="free-tv"
           elif [ "$DAY" = "5" ] && [ "$HOUR" -ge 15 ] && [ "$HOUR" -lt 22 ]; then FORMAT="weekend"
@@ -83,6 +94,13 @@ jobs:
             fi
             echo "WEEKLY_REPOST=1" >> "$GITHUB_ENV"
             echo "WEEKLY_ASSET_SUFFIX=-corrected" >> "$GITHUB_ENV"
+          fi
+          if [ "$MANUAL_RECOVER" = "true" ]; then
+            # Use Friday's date for assets and receipt; never write a Saturday receipt for Friday content.
+            DATE=$(TZ=Europe/Berlin date -d "$DATE - 1 day" +%F)
+            echo "WEEKLY_DATE_OVERRIDE=$DATE" >> "$GITHUB_ENV"
+            echo "WEEKLY_RECOVER_FRIDAY=1" >> "$GITHUB_ENV"
+            echo "::notice::Recovering weekend post for Friday $DATE"
           fi
           echo "WEEKLY_FORMAT=$FORMAT" >> "$GITHUB_ENV"
           RECEIPT="social/published/$FORMAT-$DATE.json"
@@ -105,7 +123,7 @@ jobs:
       - name: Commit carousel images
         if: env.SKIP_WEEKLY != '1' && env.WEEKLY_DRY_RUN != '1'
         run: |
-          DATE=$(TZ=Europe/Berlin date +%F)
+          DATE=${WEEKLY_DATE_OVERRIDE:-$(TZ=Europe/Berlin date +%F)}
           mkdir -p social/weekly-generated
           N=0
           for F in social-output/weekly/*.jpg; do
