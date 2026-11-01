@@ -1,91 +1,4 @@
 {
-  "2026-11-01|SV Meppen ♀|FC Ingolstadt 04 ♀": {
-    "path": "spiel/sv-meppen-frauen-fc-ingolstadt-04-frauen-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "11:00",
-      "competition": "2. Frauen-Bundesliga",
-      "country": "Deutschland",
-      "home": "SV Meppen ♀",
-      "away": "FC Ingolstadt 04 ♀",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197585/2-frauen-bundesliga/sv-meppen-frauen-fc-ingolstadt-04-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:32.222139+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|Como 1907|Venedig FC": {
-    "path": "spiel/como-1907-venedig-fc-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "12:30",
-      "competition": "Serie A (Italien)",
-      "country": "Italien",
-      "home": "Como 1907",
-      "away": "Venedig FC",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197438/serie-a-italien/como-1907-venedig-fc",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:33.597518+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|Inter Mailand ♀|Lazio Rom ♀": {
-    "path": "spiel/inter-mailand-frauen-lazio-rom-frauen-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "12:30",
-      "competition": "Serie A Femminile (Italien)",
-      "country": "Italien",
-      "home": "Inter Mailand ♀",
-      "away": "Lazio Rom ♀",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196626/serie-a-femminile-italien/inter-mailand-frauen-lazio-rom-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:33.233755+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
   "2026-11-01|1. FC Saarbrücken|Waldhof Mannheim": {
     "path": "spiel/1-fc-saarbruecken-waldhof-mannheim-2026-11-01",
     "game": {
@@ -117,7 +30,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:33.777036+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.998478+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -154,7 +67,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:34.310517+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.227256+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -191,7 +104,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:34.194874+00:00"
+      "verifiedAt": "2026-11-01T15:04:47.180616+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -228,7 +141,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:33.842704+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.957309+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -258,7 +171,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.044407+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.869315+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -288,7 +201,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.472777+00:00"
+      "verifiedAt": "2026-11-01T15:04:49.302490+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -317,7 +230,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:34.384271+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.254491+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -346,7 +259,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:34.868543+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.581040+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -376,7 +289,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.578328+00:00"
+      "verifiedAt": "2026-11-01T15:04:49.650897+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -405,7 +318,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:34.944748+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.781596+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -434,7 +347,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:34.929115+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.790879+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -464,7 +377,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.487049+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.852716+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -493,7 +406,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:34.912129+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.739416+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -523,7 +436,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.571176+00:00"
+      "verifiedAt": "2026-11-01T15:04:49.538860+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -558,7 +471,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.400030+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.476522+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -587,7 +500,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.947530+00:00"
+      "verifiedAt": "2026-11-01T15:04:50.976893+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -616,7 +529,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.921500+00:00"
+      "verifiedAt": "2026-11-01T15:04:50.960998+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -645,7 +558,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.303731+00:00"
+      "verifiedAt": "2026-11-01T15:04:50.280802+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -674,7 +587,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.235162+00:00"
+      "verifiedAt": "2026-11-01T15:04:50.902961+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -705,7 +618,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.622050+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.545381+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -734,7 +647,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.273534+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.149232+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -764,7 +677,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.758219+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.549904+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -794,7 +707,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.840429+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.604024+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -823,7 +736,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.808702+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.713337+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -854,7 +767,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:39.515546+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.081127+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -892,7 +805,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.939534+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.750345+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -921,7 +834,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:39.419170+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.132726+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -950,7 +863,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:39.555799+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.111885+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -979,7 +892,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:39.399560+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.242101+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1008,7 +921,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:39.495865+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.276538+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1038,7 +951,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.433336+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.855398+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1067,7 +980,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.188196+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.186877+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1096,7 +1009,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.551886+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.927405+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1125,7 +1038,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.227402+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.271707+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1158,7 +1071,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:32.992013+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.260969+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1187,7 +1100,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:32.955485+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.253852+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1216,7 +1129,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:33.017355+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.357512+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1245,7 +1158,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:33.292539+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.764470+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1274,7 +1187,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:33.312576+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.906286+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1310,7 +1223,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:33.332563+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.727193+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1346,7 +1259,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.170830+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.734867+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1380,7 +1293,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.241977+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.621043+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1415,7 +1328,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.942353+00:00"
+      "verifiedAt": "2026-11-01T15:04:49.588005+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1449,7 +1362,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.024771+00:00"
+      "verifiedAt": "2026-11-01T15:04:49.641560+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1483,7 +1396,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.231276+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.748959+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1517,7 +1430,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.024442+00:00"
+      "verifiedAt": "2026-11-01T15:04:49.518712+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1551,7 +1464,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.923240+00:00"
+      "verifiedAt": "2026-11-01T15:04:49.404047+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1585,7 +1498,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.988520+00:00"
+      "verifiedAt": "2026-11-01T15:04:49.382458+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1619,7 +1532,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.623095+00:00"
+      "verifiedAt": "2026-11-01T15:04:49.231065+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1653,7 +1566,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.903285+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.930882+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1689,7 +1602,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.882582+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.883123+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1729,7 +1642,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.547307+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.510196+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1763,7 +1676,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.564679+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.593160+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1797,7 +1710,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.525874+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.446351+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1830,7 +1743,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.994260+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.078735+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1864,7 +1777,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.965428+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.080307+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1898,7 +1811,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.935048+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.957899+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -1932,109 +1845,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.004790+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|Eintracht Frankfurt (U19)|Dynamo Dresden (U19)": {
-    "path": "spiel/eintracht-frankfurt-u19-dynamo-dresden-u19-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "11:00",
-      "competition": "U19-DFB-Nachwuchsliga",
-      "country": "Deutschland",
-      "home": "Eintracht Frankfurt (U19)",
-      "away": "Dynamo Dresden (U19)",
-      "channels": [
-        "Sky Sport Bundesliga",
-        "Sky Sport News",
-        "Sky Sport Top Event",
-        "Sky Sport (YouTube)",
-        "Sky Sport News HD (Livestream)",
-        "skysport.de",
-        "WOW",
-        "Sky Sport News HD (mobil)"
-      ],
-      "groups": [
-        "sky"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197723/u19-dfb-nachwuchsliga/eintracht-frankfurt-u19-dynamo-dresden-u19",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:32.444887+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|FC Arsenal WFC ♀|Aston Villa ♀": {
-    "path": "spiel/fc-arsenal-wfc-frauen-aston-villa-frauen-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "13:00",
-      "competition": "WSL - Women's Super League (England)",
-      "country": "England",
-      "home": "FC Arsenal WFC ♀",
-      "away": "Aston Villa ♀",
-      "channels": [
-        "blue Sport (CH)",
-        "Sportdigital1+",
-        "OneFootball",
-        "Sportdigital1+ (Livestream)",
-        "Sportdigital+",
-        "Sportdigital1+ HD (MagentaTV)",
-        "Sportdigital1+ HD (Sky)"
-      ],
-      "groups": [
-        "other",
-        "sky"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197745/wsl-women-s-super-league-england/fc-arsenal-wfc-frauen-aston-villa-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:33.695275+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|London City Lionesses ♀|Manchester City ♀": {
-    "path": "spiel/london-city-lionesses-frauen-manchester-city-frauen-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "13:00",
-      "competition": "WSL - Women's Super League (England)",
-      "country": "England",
-      "home": "London City Lionesses ♀",
-      "away": "Manchester City ♀",
-      "channels": [
-        "Sportdigital1+ (Livestream)",
-        "Sportdigital+"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197749/wsl-women-s-super-league-england/london-city-lionesses-frauen-manchester-city-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:33.668176+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.933098+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2065,7 +1876,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.849631+00:00"
+      "verifiedAt": "2026-11-01T15:04:50.348182+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2096,7 +1907,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.292019+00:00"
+      "verifiedAt": "2026-11-01T15:04:50.326299+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2127,7 +1938,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.237477+00:00"
+      "verifiedAt": "2026-11-01T15:04:50.387028+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2161,7 +1972,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.491750+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.445374+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2190,7 +2001,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.779303+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.579952+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2226,7 +2037,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.011259+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.596906+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2255,7 +2066,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:39.838565+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.865390+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2292,7 +2103,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.814094+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.569257+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2328,7 +2139,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.053659+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.797114+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2357,7 +2168,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.387960+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.433567+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2386,7 +2197,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.616454+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.428243+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2420,7 +2231,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.595809+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.372450+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2451,7 +2262,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.018053+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.946995+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2487,7 +2298,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:39.984273+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.823338+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2521,7 +2332,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.792585+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.564670+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2550,7 +2361,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:39.659533+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.981961+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2588,7 +2399,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.272525+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.781733+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2624,7 +2435,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.302957+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.155955+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2660,7 +2471,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:42.354452+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.770457+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2702,7 +2513,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:42.335457+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.714531+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2736,7 +2547,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.420915+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.214845+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2774,7 +2585,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:42.141678+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.680470+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2808,7 +2619,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.169817+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.901416+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2837,7 +2648,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.164400+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.071139+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2866,7 +2677,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.767197+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.640630+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2895,7 +2706,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.731160+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.532907+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2924,7 +2735,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.660583+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.181109+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -2964,240 +2775,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.452600+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|Auda Riga|FK Jelgava": {
-    "path": "spiel/auda-riga-fk-jelgava-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "12:00",
-      "competition": "Virsliga (Lettland)",
-      "country": "Lettland",
-      "home": "Auda Riga",
-      "away": "FK Jelgava",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197783/virsliga-lettland/auda-riga-fk-jelgava",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:32.905905+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|BFC Daugavpils|FK Tukums 2000": {
-    "path": "spiel/bfc-daugavpils-fk-tukums-2000-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "12:00",
-      "competition": "Virsliga (Lettland)",
-      "country": "Lettland",
-      "home": "BFC Daugavpils",
-      "away": "FK Tukums 2000",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197782/virsliga-lettland/bfc-daugavpils-fk-tukums-2000",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:32.918068+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|FK Liepaja|SK Super Nova": {
-    "path": "spiel/fk-liepaja-sk-super-nova-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "12:00",
-      "competition": "Virsliga (Lettland)",
-      "country": "Lettland",
-      "home": "FK Liepaja",
-      "away": "SK Super Nova",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197781/virsliga-lettland/fk-liepaja-sk-super-nova",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:32.972254+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|FK Ogre United|Riga FC": {
-    "path": "spiel/fk-ogre-united-riga-fc-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "12:00",
-      "competition": "Virsliga (Lettland)",
-      "country": "Lettland",
-      "home": "FK Ogre United",
-      "away": "Riga FC",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197779/virsliga-lettland/fk-ogre-united-riga-fc",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:33.088228+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|Kolos Kowaliwka|Polissya Schytomyr": {
-    "path": "spiel/kolos-kowaliwka-polissya-schytomyr-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "12:00",
-      "competition": "Premjer Liha (Ukraine)",
-      "country": "Ukraine",
-      "home": "Kolos Kowaliwka",
-      "away": "Polissya Schytomyr",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/195463/premjer-liha-ukraine/kolos-kowaliwka-polissya-schytomyr",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:32.236237+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|LNZ Tscherkassy|Metalist Charkiw": {
-    "path": "spiel/lnz-tscherkassy-metalist-charkiw-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "12:00",
-      "competition": "Premjer Liha (Ukraine)",
-      "country": "Ukraine",
-      "home": "LNZ Tscherkassy",
-      "away": "Metalist Charkiw",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/195466/premjer-liha-ukraine/lnz-tscherkassy-metalist-charkiw",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:32.371378+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|Rigas FS|Grobinas Sporta Centrs": {
-    "path": "spiel/rigas-fs-grobinas-sporta-centrs-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "12:00",
-      "competition": "Virsliga (Lettland)",
-      "country": "Lettland",
-      "home": "Rigas FS",
-      "away": "Grobinas Sporta Centrs",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197780/virsliga-lettland/rigas-fs-grobinas-sporta-centrs",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:32.947313+00:00"
-    },
-    "dataUpdated": "2026-11-01"
-  },
-  "2026-11-01|SCR Altach ♀|SKN St. Pölten ♀": {
-    "path": "spiel/scr-altach-frauen-skn-st-poelten-frauen-2026-11-01",
-    "game": {
-      "date": "2026-11-01",
-      "time": "12:30",
-      "competition": "ÖFB Frauen Bundesliga",
-      "country": "Österreich",
-      "home": "SCR Altach ♀",
-      "away": "SKN St. Pölten ♀",
-      "channels": [
-        "ORF Sport+ (AT)",
-        "ORF ON (AT)"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-01",
-          "name": "fußballgucken.info – Tagesplan 2026-11-01"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196129/oefb-frauen-bundesliga/scr-altach-frauen-skn-st-poelten-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-01T05:57:33.674724+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.223633+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3226,7 +2804,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:34.174285+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.219995+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3255,7 +2833,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:34.353386+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.152911+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3294,7 +2872,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.653136+00:00"
+      "verifiedAt": "2026-11-01T15:04:49.680673+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3323,7 +2901,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:34.401945+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.028737+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3354,7 +2932,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:34.810435+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.271245+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3383,7 +2961,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.152918+00:00"
+      "verifiedAt": "2026-11-01T15:04:49.622537+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3414,7 +2992,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.263583+00:00"
+      "verifiedAt": "2026-11-01T15:04:50.270070+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3445,7 +3023,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.220786+00:00"
+      "verifiedAt": "2026-11-01T15:04:50.195483+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3474,7 +3052,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.744104+00:00"
+      "verifiedAt": "2026-11-01T15:04:50.893231+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3504,7 +3082,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.386680+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.379675+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3533,7 +3111,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.779654+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.013472+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3562,7 +3140,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:36.720031+00:00"
+      "verifiedAt": "2026-11-01T15:04:50.923689+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3601,7 +3179,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.157574+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.984758+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3630,7 +3208,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.651390+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.567459+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3659,7 +3237,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.351838+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.130838+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3688,7 +3266,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.184940+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.156321+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3720,7 +3298,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.832202+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.690926+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3749,7 +3327,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.859257+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.707492+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3787,7 +3365,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:39.546313+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.294697+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3817,7 +3395,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.543649+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.741871+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3846,7 +3424,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.506208+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.949056+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3885,7 +3463,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.236757+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.501516+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3914,7 +3492,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.061066+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.459826+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3943,7 +3521,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.748889+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.724039+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -3972,7 +3550,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.041896+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.540993+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4001,7 +3579,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.087517+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.486463+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4030,7 +3608,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.782617+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.142416+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4059,7 +3637,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:42.417478+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.643863+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4088,7 +3666,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:42.447406+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.285617+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4117,7 +3695,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:42.432496+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.505661+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4146,7 +3724,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.802774+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.128730+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4175,7 +3753,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.694921+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.120320+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4204,7 +3782,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.813211+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.106833+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4233,7 +3811,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:41.688921+00:00"
+      "verifiedAt": "2026-11-01T15:04:54.872996+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4262,7 +3840,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:32.045388+00:00"
+      "verifiedAt": "2026-11-01T15:04:45.505753+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4291,7 +3869,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:32.065764+00:00"
+      "verifiedAt": "2026-11-01T15:04:45.561901+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4320,7 +3898,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:32.026670+00:00"
+      "verifiedAt": "2026-11-01T15:04:45.582066+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4349,7 +3927,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:32.192670+00:00"
+      "verifiedAt": "2026-11-01T15:04:45.409633+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4378,7 +3956,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:32.200148+00:00"
+      "verifiedAt": "2026-11-01T15:04:45.446259+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4413,7 +3991,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:32.142639+00:00"
+      "verifiedAt": "2026-11-01T15:04:45.606527+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4442,7 +4020,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:32.642969+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.064998+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4471,7 +4049,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:32.667522+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.337926+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4500,7 +4078,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:32.621375+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.049525+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4531,7 +4109,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:33.640618+00:00"
+      "verifiedAt": "2026-11-01T15:04:46.932605+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4560,7 +4138,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.004439+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.557990+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4593,7 +4171,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.192971+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.647953+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4628,7 +4206,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:35.185527+00:00"
+      "verifiedAt": "2026-11-01T15:04:48.666120+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4659,7 +4237,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.357237+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.249860+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4691,7 +4269,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.311447+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.297501+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4723,7 +4301,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.242505+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.352285+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4758,7 +4336,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.317847+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.329682+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4787,7 +4365,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.259822+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.223818+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4820,7 +4398,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:37.344323+00:00"
+      "verifiedAt": "2026-11-01T15:04:51.358691+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4859,7 +4437,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:42.529992+00:00"
+      "verifiedAt": "2026-11-01T15:04:55.747327+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4888,7 +4466,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:43.688249+00:00"
+      "verifiedAt": "2026-11-01T15:04:56.837571+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4917,7 +4495,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:43.670168+00:00"
+      "verifiedAt": "2026-11-01T15:04:56.780387+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4946,7 +4524,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:43.600194+00:00"
+      "verifiedAt": "2026-11-01T15:04:56.801337+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -4975,7 +4553,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:43.707944+00:00"
+      "verifiedAt": "2026-11-01T15:04:56.796588+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5010,7 +4588,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.327238+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.445060+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5045,7 +4623,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.190123+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.377779+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5082,7 +4660,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:43.823641+00:00"
+      "verifiedAt": "2026-11-01T15:04:56.966823+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5116,7 +4694,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:43.785279+00:00"
+      "verifiedAt": "2026-11-01T15:04:56.910224+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5148,7 +4726,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.359399+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.408908+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5178,7 +4756,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.405043+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.604967+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5208,7 +4786,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.378296+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.420947+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5237,7 +4815,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.776857+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.934705+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5266,7 +4844,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.799405+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.905413+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5296,7 +4874,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.965058+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.052014+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5325,7 +4903,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.902450+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.971823+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5355,7 +4933,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.878253+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.149625+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5385,7 +4963,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.403454+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.351214+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5415,7 +4993,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.326730+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.565332+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5452,7 +5030,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.444713+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.590949+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5481,7 +5059,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.533585+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.644221+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5510,7 +5088,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.517688+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.679408+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5540,7 +5118,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.048511+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.224869+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5573,7 +5151,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.934437+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.930613+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5602,7 +5180,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.971416+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.113546+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5631,7 +5209,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.567791+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.726816+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5670,7 +5248,7 @@
           "name": "FIFA – bestätigte Viertelfinalpaarungen am 1. November"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.116483+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.072226+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5709,7 +5287,7 @@
           "name": "FIFA – bestätigte Viertelfinalpaarungen am 1. November"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:38.138029+00:00"
+      "verifiedAt": "2026-11-01T15:04:52.052104+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5748,7 +5326,7 @@
           "name": "FIFA – bestätigte Viertelfinalpaarungen am 1. November"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.412090+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.689948+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5787,7 +5365,7 @@
           "name": "FIFA – bestätigte Viertelfinalpaarungen am 1. November"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:40.475265+00:00"
+      "verifiedAt": "2026-11-01T15:04:53.637981+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5819,7 +5397,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.055997+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.600297+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5848,7 +5426,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.000307+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.595250+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5877,7 +5455,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:43.910461+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.519610+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5909,7 +5487,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.043449+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.690379+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5947,7 +5525,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:43.932603+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.694973+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -5980,7 +5558,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.048199+00:00"
+      "verifiedAt": "2026-11-01T15:04:57.691924+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6016,7 +5594,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.653225+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.113443+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6052,7 +5630,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.580094+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.176725+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6088,7 +5666,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.537430+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.077945+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6122,7 +5700,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.753099+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.247879+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6151,7 +5729,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.558750+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.293313+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6183,7 +5761,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.851267+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.331882+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6212,7 +5790,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.189461+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.769628+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6241,7 +5819,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.256337+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.750286+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6272,7 +5850,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.072458+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.611304+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6305,7 +5883,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.585041+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.072812+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6334,7 +5912,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:44.687364+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.272093+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6363,7 +5941,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.251830+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.726193+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6393,7 +5971,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.771015+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.258371+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6422,7 +6000,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.089420+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.662317+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6456,7 +6034,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.785606+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.307745+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6486,7 +6064,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.659245+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.179300+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6515,7 +6093,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.166813+00:00"
+      "verifiedAt": "2026-11-01T15:04:58.713271+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6545,7 +6123,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:45.721567+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.216828+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6574,7 +6152,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.339028+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.758650+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6603,7 +6181,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.414917+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.776064+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6632,7 +6210,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.929047+00:00"
+      "verifiedAt": "2026-11-01T15:05:00.445316+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6661,7 +6239,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.319760+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.864976+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6690,7 +6268,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.768547+00:00"
+      "verifiedAt": "2026-11-01T15:05:00.368529+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6719,7 +6297,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.935598+00:00"
+      "verifiedAt": "2026-11-01T15:05:00.429814+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6748,7 +6326,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.285229+00:00"
+      "verifiedAt": "2026-11-01T15:04:59.900535+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6777,7 +6355,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.580499+00:00"
+      "verifiedAt": "2026-11-01T15:05:00.048117+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6812,7 +6390,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.989742+00:00"
+      "verifiedAt": "2026-11-01T15:05:00.502430+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6847,7 +6425,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:47.381983+00:00"
+      "verifiedAt": "2026-11-01T15:05:00.961188+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6882,7 +6460,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:47.181409+00:00"
+      "verifiedAt": "2026-11-01T15:05:00.615585+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6917,7 +6495,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:46.958357+00:00"
+      "verifiedAt": "2026-11-01T15:05:00.469962+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6946,7 +6524,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:47.435684+00:00"
+      "verifiedAt": "2026-11-01T15:05:01.044428+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -6975,7 +6553,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:47.554439+00:00"
+      "verifiedAt": "2026-11-01T15:05:01.130925+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7004,7 +6582,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:47.515556+00:00"
+      "verifiedAt": "2026-11-01T15:05:01.152159+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7034,7 +6612,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:47.574564+00:00"
+      "verifiedAt": "2026-11-01T15:05:01.157676+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7064,7 +6642,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:47.702327+00:00"
+      "verifiedAt": "2026-11-01T15:05:01.192805+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7093,7 +6671,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:47.971321+00:00"
+      "verifiedAt": "2026-11-01T15:05:01.609252+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7123,7 +6701,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.150040+00:00"
+      "verifiedAt": "2026-11-01T15:05:01.683547+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7152,7 +6730,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.274238+00:00"
+      "verifiedAt": "2026-11-01T15:05:01.915456+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7181,7 +6759,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.069914+00:00"
+      "verifiedAt": "2026-11-01T15:05:01.773946+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7210,7 +6788,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.086768+00:00"
+      "verifiedAt": "2026-11-01T15:05:01.759056+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7239,7 +6817,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.454975+00:00"
+      "verifiedAt": "2026-11-01T15:05:02.298761+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7268,7 +6846,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.129815+00:00"
+      "verifiedAt": "2026-11-01T15:05:01.704769+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7297,7 +6875,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.692605+00:00"
+      "verifiedAt": "2026-11-01T15:05:02.490993+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7330,7 +6908,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.642757+00:00"
+      "verifiedAt": "2026-11-01T15:05:02.441881+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7366,7 +6944,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.773642+00:00"
+      "verifiedAt": "2026-11-01T15:05:02.551587+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7404,7 +6982,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.753997+00:00"
+      "verifiedAt": "2026-11-01T15:05:02.527304+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7433,7 +7011,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.735646+00:00"
+      "verifiedAt": "2026-11-01T15:05:02.605236+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7463,7 +7041,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:48.937728+00:00"
+      "verifiedAt": "2026-11-01T15:05:02.960863+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7492,7 +7070,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:49.255188+00:00"
+      "verifiedAt": "2026-11-01T15:05:03.144600+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7527,7 +7105,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:49.300447+00:00"
+      "verifiedAt": "2026-11-01T15:05:03.201865+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7569,7 +7147,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:49.333002+00:00"
+      "verifiedAt": "2026-11-01T15:05:03.255642+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7598,7 +7176,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:49.385492+00:00"
+      "verifiedAt": "2026-11-01T15:05:03.308943+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7631,7 +7209,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:49.406540+00:00"
+      "verifiedAt": "2026-11-01T15:05:03.224899+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7660,7 +7238,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:49.860084+00:00"
+      "verifiedAt": "2026-11-01T15:05:03.786629+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7692,7 +7270,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:49.922295+00:00"
+      "verifiedAt": "2026-11-01T15:05:04.024998+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7721,7 +7299,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:49.568799+00:00"
+      "verifiedAt": "2026-11-01T15:05:03.657350+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7750,7 +7328,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:50.548792+00:00"
+      "verifiedAt": "2026-11-01T15:05:04.654154+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7779,7 +7357,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:50.434041+00:00"
+      "verifiedAt": "2026-11-01T15:05:04.626135+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7808,7 +7386,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:50.332782+00:00"
+      "verifiedAt": "2026-11-01T15:05:04.535205+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7837,7 +7415,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:50.389135+00:00"
+      "verifiedAt": "2026-11-01T15:05:04.584418+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7866,7 +7444,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:50.272885+00:00"
+      "verifiedAt": "2026-11-01T15:05:04.393176+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7895,7 +7473,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:50.041213+00:00"
+      "verifiedAt": "2026-11-01T15:05:04.246888+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7924,7 +7502,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:49.890092+00:00"
+      "verifiedAt": "2026-11-01T15:05:04.041186+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7953,7 +7531,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:49.909475+00:00"
+      "verifiedAt": "2026-11-01T15:05:04.036292+00:00"
     },
     "dataUpdated": "2026-11-01"
   },
@@ -7982,7 +7560,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-01T05:57:49.802096+00:00"
+      "verifiedAt": "2026-11-01T15:05:03.947050+00:00"
     },
     "dataUpdated": "2026-11-01"
   }
