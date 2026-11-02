@@ -19,6 +19,14 @@ BASE = 'https://fussballgucken.info'
 AUDIO_RX = re.compile('|'.join(json.loads((ROOT/'scripts/broadcast-audio.json').read_text())), re.I)
 
 
+# Official fixture confirmation takes precedence over a conflicting listing time.
+VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/198168/fa-cup-england/plymouth-parkway-berkhamsted-fc': (
+        '2026-11-09', '20:30',
+        'https://www.ppfc.co.uk/fa-cup-ticket-information/'),
+}
+
+
 def fetch(url):
     cache = Path(os.environ['SPIELTAG_SOURCE_CACHE']) / (hashlib.sha256(url.encode()).hexdigest()+'.html') if os.environ.get('SPIELTAG_SOURCE_CACHE') else None
     if cache and cache.exists(): return BeautifulSoup(cache.read_text(), 'html.parser')
@@ -81,7 +89,7 @@ def groups_for(channels):
         elif re.search(r'Sky|WOW', c, re.I) and '(AT)' not in c and '(CH)' not in c: group = 'sky'
         elif 'Prime' in c: group = 'prime'
         # Only explicit German public/free services, never infer from OneFootball.
-        elif re.match(r'^(?:ARD|Das Erste|ZDF|BR24|BR \(|WDR|NDR|MDR|SWR|RBB|rbb|hr |SPORT1$|RTL$|FIFA\+)', c): group = 'free'
+        elif re.match(r'^(?:ARD|Das Erste|ZDF|BR24|BR \(|WDR|NDR|MDR|SWR|RBB|rbb|hr |[Ss][Pp][Oo][Rr][Tt]1$|RTL$|FIFA\+)', c): group = 'free'
         else: group = 'other'
         if group not in groups: groups.append(group)
     return groups
@@ -111,13 +119,18 @@ def read_day(date):
         if not channels:
             print(f'{date}: skipping entry without confirmed video broadcast: {match_url}', flush=True)
             return None
+        kickoff = VERIFIED_KICKOFFS.get(match_url)
+        if kickoff and kickoff[0] == date:
+            time = kickoff[1]
         flag = item.select_one('.meta-flag a')
         country = flag.get('title', '').removeprefix('Länderseite ').strip() if flag else 'International'
         return dict(date=date, time=time, competition=competition, country=country or 'International',
                          home=home.get_text(' ', strip=True), away=away.get_text(' ', strip=True),
                          channels=channels, groups=groups_for(channels),
                          sources=[{'url':url,'name':f'fußballgucken.info – Tagesplan {date}'},
-                                  {'url':match_url,'name':'Übertragungsdetails'}],
+                                  {'url':match_url,'name':'Übertragungsdetails'}]
+                                 + ([{'url':kickoff[2], 'name':'Offizielle Anstoßzeit (Europe/Berlin)'}]
+                                    if kickoff and kickoff[0] == date else []),
                          verifiedAt=dt.datetime.now(dt.timezone.utc).isoformat())
     with ThreadPoolExecutor(max_workers=6) as pool:
         rows = [g for g in pool.map(parse_item, soup.select('.item.game')) if g]
