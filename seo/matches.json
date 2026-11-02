@@ -1,189 +1,4 @@
 {
-  "2026-11-02|VfL Wolfsburg ♀|1899 Hoffenheim ♀": {
-    "path": "spiel/vfl-wolfsburg-frauen-1899-hoffenheim-frauen-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "18:00",
-      "competition": "DFB-Pokal (Frauen)",
-      "country": "Deutschland",
-      "home": "VfL Wolfsburg ♀",
-      "away": "1899 Hoffenheim ♀",
-      "channels": [
-        "Sky Sport Mix",
-        "Sky Sport Top Event",
-        "WOW",
-        "WOW (AT)"
-      ],
-      "groups": [
-        "sky",
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/195799/dfb-pokal-frauen/vfl-wolfsburg-frauen-1899-hoffenheim-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:04.031537+00:00"
-    },
-    "dataUpdated": "2026-11-02"
-  },
-  "2026-11-02|US Sassuolo Calcio|AC Florenz": {
-    "path": "spiel/us-sassuolo-calcio-ac-florenz-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "18:30",
-      "competition": "Serie A (Italien)",
-      "country": "Italien",
-      "home": "US Sassuolo Calcio",
-      "away": "AC Florenz",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197443/serie-a-italien/us-sassuolo-calcio-ac-florenz",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:04.080350+00:00"
-    },
-    "dataUpdated": "2026-11-02"
-  },
-  "2026-11-02|AC Florenz ♀|Juventus Turin ♀": {
-    "path": "spiel/ac-florenz-frauen-juventus-turin-frauen-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "20:30",
-      "competition": "Serie A Femminile (Italien)",
-      "country": "Italien",
-      "home": "AC Florenz ♀",
-      "away": "Juventus Turin ♀",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196630/serie-a-femminile-italien/ac-florenz-frauen-juventus-turin-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:04.187513+00:00"
-    },
-    "dataUpdated": "2026-11-02"
-  },
-  "2026-11-02|Atalanta Bergamo|Parma Calcio 1913": {
-    "path": "spiel/atalanta-bergamo-parma-calcio-1913-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "20:45",
-      "competition": "Serie A (Italien)",
-      "country": "Italien",
-      "home": "Atalanta Bergamo",
-      "away": "Parma Calcio 1913",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197436/serie-a-italien/atalanta-bergamo-parma-calcio-1913",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:04.521191+00:00"
-    },
-    "dataUpdated": "2026-11-02"
-  },
-  "2026-11-02|Deportivo La Coruña|CA Osasuna": {
-    "path": "spiel/deportivo-la-coruna-ca-osasuna-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "21:00",
-      "competition": "La Liga (Spanien)",
-      "country": "Spanien",
-      "home": "Deportivo La Coruña",
-      "away": "CA Osasuna",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196702/la-liga-spanien/deportivo-la-coruna-ca-osasuna",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:04.739291+00:00"
-    },
-    "dataUpdated": "2026-11-02"
-  },
-  "2026-11-02|Newcastle United|FC Everton": {
-    "path": "spiel/newcastle-united-fc-everton-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "21:00",
-      "competition": "Premier League (England)",
-      "country": "England",
-      "home": "Newcastle United",
-      "away": "FC Everton",
-      "channels": [
-        "Canal+ (via Blue Sport)",
-        "Sky Sport Austria 1 (AT)",
-        "Sky Sport Premier League",
-        "Sky Sport Top Event",
-        "Sky (CH)",
-        "WOW",
-        "WOW (AT)"
-      ],
-      "groups": [
-        "other",
-        "sky"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/193509/premier-league-england/newcastle-united-fc-everton",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:04.758311+00:00"
-    },
-    "dataUpdated": "2026-11-02"
-  },
   "2026-11-03|Galatasaray Istanbul|VfB Stuttgart": {
     "path": "spiel/galatasaray-istanbul-vfb-stuttgart-2026-11-03",
     "game": {
@@ -218,7 +33,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:03.089849+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-03|Schachtjor Donezk|Sporting Lissabon": {
     "path": "spiel/schachtjor-donezk-sporting-lissabon-2026-11-03",
@@ -252,7 +67,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:03.074185+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-03|Atletico Madrid|FC Bayern München": {
     "path": "spiel/atletico-madrid-fc-bayern-muenchen-2026-11-03",
@@ -287,7 +102,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:03.931989+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-03|FC Barcelona|Aston Villa": {
     "path": "spiel/fc-barcelona-aston-villa-2026-11-03",
@@ -321,7 +136,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:03.968074+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-03|FC Villarreal|Paris St. Germain": {
     "path": "spiel/fc-villarreal-paris-st-germain-2026-11-03",
@@ -355,7 +170,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:03.027036+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-03|FK Bodø/Glimt|OSC Lille": {
     "path": "spiel/fk-bod-glimt-osc-lille-2026-11-03",
@@ -389,7 +204,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:03.946672+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-03|Feyenoord Rotterdam|Inter Mailand": {
     "path": "spiel/feyenoord-rotterdam-inter-mailand-2026-11-03",
@@ -423,7 +238,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:03.785109+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-03|Linzer ASK|Slovan Bratislava": {
     "path": "spiel/linzer-ask-slovan-bratislava-2026-11-03",
@@ -457,7 +272,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:03.769963+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-03|Manchester United|AS Rom": {
     "path": "spiel/manchester-united-as-rom-2026-11-03",
@@ -491,7 +306,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:03.612922+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|AEK Athen|Real Madrid": {
     "path": "spiel/aek-athen-real-madrid-2026-11-04",
@@ -525,7 +340,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.252240+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|Fenerbahçe Istanbul|FC Liverpool": {
     "path": "spiel/fenerbahce-istanbul-fc-liverpool-2026-11-04",
@@ -561,7 +376,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.151284+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|Borussia Dortmund|Real Betis Balompié": {
     "path": "spiel/borussia-dortmund-real-betis-balompie-2026-11-04",
@@ -601,7 +416,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.971390+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|FC Porto|SSC Neapel": {
     "path": "spiel/fc-porto-ssc-neapel-2026-11-04",
@@ -635,7 +450,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.918465+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|PSV Eindhoven|Club Brügge": {
     "path": "spiel/psv-eindhoven-club-bruegge-2026-11-04",
@@ -669,7 +484,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:07.001488+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|RB Leipzig|Manchester City": {
     "path": "spiel/rb-leipzig-manchester-city-2026-11-04",
@@ -702,7 +517,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.560663+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|RC Lens|Como 1907": {
     "path": "spiel/rc-lens-como-1907-2026-11-04",
@@ -736,7 +551,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.412079+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|Slavia Prag|FC Arsenal": {
     "path": "spiel/slavia-prag-fc-arsenal-2026-11-04",
@@ -770,7 +585,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.237120+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|Viking Stavanger FK|Sabah FK": {
     "path": "spiel/viking-stavanger-fk-sabah-fk-2026-11-04",
@@ -804,7 +619,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.222267+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|AC Mailand|Ferencvaros Budapest": {
     "path": "spiel/ac-mailand-ferencvaros-budapest-2026-11-05",
@@ -845,7 +660,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:07.696215+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Atalanta Bergamo|FK Qairat Almaty": {
     "path": "spiel/atalanta-bergamo-fk-qairat-almaty-2026-11-05",
@@ -874,7 +689,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.784711+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Crystal Palace|1899 Hoffenheim": {
     "path": "spiel/crystal-palace-1899-hoffenheim-2026-11-05",
@@ -916,7 +731,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:07.661329+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|FC Thun|Heart of Midlothian FC": {
     "path": "spiel/fc-thun-heart-of-midlothian-fc-2026-11-05",
@@ -952,7 +767,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.738612+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Levski Sofia|Jagiellonia Bialystok": {
     "path": "spiel/levski-sofia-jagiellonia-bialystok-2026-11-05",
@@ -981,7 +796,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:07.216746+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Lillestrøm SK|Viktoria Pilsen": {
     "path": "spiel/lillestrm-sk-viktoria-pilsen-2026-11-05",
@@ -1010,7 +825,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:07.344419+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|NEC Nijmegen|Omonia Nikosia": {
     "path": "spiel/nec-nijmegen-omonia-nikosia-2026-11-05",
@@ -1044,7 +859,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:07.506824+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|RSC Anderlecht|RB Salzburg": {
     "path": "spiel/rsc-anderlecht-rb-salzburg-2026-11-05",
@@ -1081,7 +896,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.952344+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Real Sociedad|Olympique Lyon": {
     "path": "spiel/real-sociedad-olympique-lyon-2026-11-05",
@@ -1117,7 +932,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.947695+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Sparta Prag|AFC Bournemouth": {
     "path": "spiel/sparta-prag-afc-bournemouth-2026-11-05",
@@ -1156,7 +971,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:07.683724+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Stade Rennes|Olympiakos Piräus": {
     "path": "spiel/stade-rennes-olympiakos-piraeus-2026-11-05",
@@ -1185,7 +1000,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:06.590381+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Trabzonspor Kulübü|SC Freiburg": {
     "path": "spiel/trabzonspor-kuluebue-sc-freiburg-2026-11-05",
@@ -1228,7 +1043,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:07.007135+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|AFC Sunderland|Dinamo Zagreb": {
     "path": "spiel/afc-sunderland-dinamo-zagreb-2026-11-05",
@@ -1269,7 +1084,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.228418+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|AZ Alkmaar|Juventus Turin": {
     "path": "spiel/az-alkmaar-juventus-turin-2026-11-05",
@@ -1310,7 +1125,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:09.389874+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Bayer Leverkusen|Olympique Marseille": {
     "path": "spiel/bayer-leverkusen-olympique-marseille-2026-11-05",
@@ -1352,7 +1167,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:09.245804+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Benfica Lissabon|Lech Posen": {
     "path": "spiel/benfica-lissabon-lech-posen-2026-11-05",
@@ -1386,7 +1201,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.570979+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Celtic Glasgow|Besiktas Istanbul": {
     "path": "spiel/celtic-glasgow-besiktas-istanbul-2026-11-05",
@@ -1429,7 +1244,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.887658+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|FC Getafe|Brighton and Hove Albion": {
     "path": "spiel/fc-getafe-brighton-and-hove-albion-2026-11-05",
@@ -1468,7 +1283,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:07.869208+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|FC Lugano|FK Kauno Zalgiris": {
     "path": "spiel/fc-lugano-fk-kauno-zalgiris-2026-11-05",
@@ -1497,7 +1312,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:07.902692+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Hapoel Beer Sheva FC|Ofi Crete": {
     "path": "spiel/hapoel-beer-sheva-fc-ofi-crete-2026-11-05",
@@ -1526,7 +1341,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.638641+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|R.C. Celta de Vigo|Royale Union Saint-Gilloise": {
     "path": "spiel/r-c-celta-de-vigo-royale-union-saint-gilloise-2026-11-05",
@@ -1555,7 +1370,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.772549+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|SC União Torreense|FC Ararat-Armenia Erewan": {
     "path": "spiel/sc-uniao-torreense-fc-ararat-armenia-erewan-2026-11-05",
@@ -1584,7 +1399,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.652569+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|SK Sturm Graz|NK Celje": {
     "path": "spiel/sk-sturm-graz-nk-celje-2026-11-05",
@@ -1624,38 +1439,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.787734+00:00"
     },
-    "dataUpdated": "2026-11-02"
-  },
-  "2026-11-02|Benfica Lissabon|FC Alverca": {
-    "path": "spiel/benfica-lissabon-fc-alverca-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "21:15",
-      "competition": "Liga Portugal",
-      "country": "Portugal",
-      "home": "Benfica Lissabon",
-      "away": "FC Alverca",
-      "channels": [
-        "OneFootball",
-        "Sportdigital.de (Livestream)",
-        "Sportdigital+"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197342/liga-portugal/benfica-lissabon-fc-alverca",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:04.859862+00:00"
-    },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-03|Manchester United (U19)|AS Rom (U19)": {
     "path": "spiel/manchester-united-u19-as-rom-u19-2026-11-03",
@@ -1684,7 +1468,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:02.906118+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-03|Atletico Madrid (U19)|FC Bayern München (U19)": {
     "path": "spiel/atletico-madrid-u19-fc-bayern-muenchen-u19-2026-11-03",
@@ -1717,7 +1501,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:03.041447+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-03|Al-Hilal Riad|Shabab Al-Ahli Dubai": {
     "path": "spiel/al-hilal-riad-shabab-al-ahli-dubai-2026-11-03",
@@ -1752,7 +1536,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:03.054950+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|SK Rapid Wien ♀|SKN St. Pölten ♀": {
     "path": "spiel/sk-rapid-wien-frauen-skn-st-poelten-frauen-2026-11-04",
@@ -1783,7 +1567,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:05.440562+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|Melbourne Victory|Persib Bandung": {
     "path": "spiel/melbourne-victory-persib-bandung-2026-11-04",
@@ -1815,7 +1599,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:05.448181+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|FC Seoul|Viettel FC": {
     "path": "spiel/fc-seoul-viettel-fc-2026-11-04",
@@ -1847,7 +1631,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:05.422444+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|Buriram United|Kashima Antlers": {
     "path": "spiel/buriram-united-kashima-antlers-2026-11-04",
@@ -1882,7 +1666,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:05.836408+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|RC Lens (U19)|Como 1907 (U19)": {
     "path": "spiel/rc-lens-u19-como-1907-u19-2026-11-04",
@@ -1911,7 +1695,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:05.461946+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-04|Borussia Dortmund (U19)|Real Betis Balompié (U19)": {
     "path": "spiel/borussia-dortmund-u19-real-betis-balompie-u19-2026-11-04",
@@ -1944,7 +1728,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:05.744147+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-05|Palmeiras Sao Paulo|Clube do Remo": {
     "path": "spiel/palmeiras-sao-paulo-clube-do-remo-2026-11-05",
@@ -1983,7 +1767,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:09.423117+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|FC Obolon Kiew|FC Livyi Bereh": {
     "path": "spiel/fc-obolon-kiew-fc-livyi-bereh-2026-11-06",
@@ -2012,7 +1796,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.857003+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|FC Schalke 04 II|Borussia Mönchengladbach II": {
     "path": "spiel/fc-schalke-04-ii-borussia-moenchengladbach-ii-2026-11-06",
@@ -2041,7 +1825,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.687848+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|Westfalia Rhynern|SC Paderborn 07 II": {
     "path": "spiel/westfalia-rhynern-sc-paderborn-07-ii-2026-11-06",
@@ -2070,7 +1854,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.673212+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|Polissya Schytomyr|FC Veres Rivne": {
     "path": "spiel/polissya-schytomyr-fc-veres-rivne-2026-11-06",
@@ -2099,7 +1883,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.836453+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|Dynamo Dresden|SpVgg Greuther Fürth": {
     "path": "spiel/dynamo-dresden-spvgg-greuther-fuerth-2026-11-06",
@@ -2134,7 +1918,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:09.418785+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|Eintracht Braunschweig|Energie Cottbus": {
     "path": "spiel/eintracht-braunschweig-energie-cottbus-2026-11-06",
@@ -2169,7 +1953,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:09.363512+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|Eintracht Frankfurt ♀|VfL Wolfsburg ♀": {
     "path": "spiel/eintracht-frankfurt-frauen-vfl-wolfsburg-frauen-2026-11-06",
@@ -2206,7 +1990,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.802706+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|FC Bayern München ♀|SV Werder Bremen ♀": {
     "path": "spiel/fc-bayern-muenchen-frauen-sv-werder-bremen-frauen-2026-11-06",
@@ -2240,7 +2024,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:08.819474+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|BSC Young Boys ♀|FC Basel ♀": {
     "path": "spiel/bsc-young-boys-frauen-fc-basel-frauen-2026-11-06",
@@ -2272,7 +2056,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:09.457648+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|BSG Chemie Leipzig|FC Rot-Weiß Erfurt": {
     "path": "spiel/bsg-chemie-leipzig-fc-rot-weiss-erfurt-2026-11-06",
@@ -2302,7 +2086,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:09.534192+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|FC Viktoria Köln|1. FC Saarbrücken": {
     "path": "spiel/fc-viktoria-koeln-1-fc-saarbruecken-2026-11-06",
@@ -2332,7 +2116,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:09.482267+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|FC Stade Nyonnais|FC Stade-Lausanne-Ouchy": {
     "path": "spiel/fc-stade-nyonnais-fc-stade-lausanne-ouchy-2026-11-06",
@@ -2361,7 +2145,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:10.014255+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|SC Kriens|FC Rapperswil-Jona": {
     "path": "spiel/sc-kriens-fc-rapperswil-jona-2026-11-06",
@@ -2390,7 +2174,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:10.061290+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|SK Rapid Wien|Wolfsberger AC": {
     "path": "spiel/sk-rapid-wien-wolfsberger-ac-2026-11-06",
@@ -2420,7 +2204,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:10.243906+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|VfB 03 Hilden|SV Rödinghausen": {
     "path": "spiel/vfb-03-hilden-sv-roedinghausen-2026-11-06",
@@ -2449,7 +2233,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:10.114697+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|FC Aarau|FC Wil": {
     "path": "spiel/fc-aarau-fc-wil-2026-11-06",
@@ -2479,7 +2263,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:10.750690+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|Ascoli Calcio|FC Palermo": {
     "path": "spiel/ascoli-calcio-fc-palermo-2026-11-06",
@@ -2509,7 +2293,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:10.764758+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|FC Admira Wacker|SKN St. Pölten": {
     "path": "spiel/fc-admira-wacker-skn-st-poelten-2026-11-06",
@@ -2539,7 +2323,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:10.822475+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|Hamburger SV|Borussia Mönchengladbach": {
     "path": "spiel/hamburger-sv-borussia-moenchengladbach-2026-11-06",
@@ -2576,7 +2360,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:10.800886+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|FC Toulouse|Racing Straßburg": {
     "path": "spiel/fc-toulouse-racing-strassburg-2026-11-06",
@@ -2605,7 +2389,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:10.891609+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|Venedig FC|Udinese Calcio": {
     "path": "spiel/venedig-fc-udinese-calcio-2026-11-06",
@@ -2634,7 +2418,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:10.961562+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|Derby County|Bolton Wanderers": {
     "path": "spiel/derby-county-bolton-wanderers-2026-11-06",
@@ -2664,7 +2448,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:11.558577+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|FC Everton|Coventry City": {
     "path": "spiel/fc-everton-coventry-city-2026-11-06",
@@ -2697,7 +2481,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:11.470673+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|FC Sevilla|Deportivo Alaves": {
     "path": "spiel/fc-sevilla-deportivo-alaves-2026-11-06",
@@ -2726,7 +2510,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:11.500454+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|Paris St. Germain ♀|Le Havre AC ♀": {
     "path": "spiel/paris-st-germain-frauen-le-havre-ac-frauen-2026-11-06",
@@ -2755,7 +2539,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:11.457352+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Karlsruher SC (U19)|1899 Hoffenheim (U19)": {
     "path": "spiel/karlsruher-sc-u19-1899-hoffenheim-u19-2026-11-07",
@@ -2787,7 +2571,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:11.423277+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Kudrivka|FC Chornomorets Odessa": {
     "path": "spiel/fc-kudrivka-fc-chornomorets-odessa-2026-11-07",
@@ -2816,7 +2600,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:11.448639+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Metalist Charkiw|Karpaty Lwiw": {
     "path": "spiel/metalist-charkiw-karpaty-lwiw-2026-11-07",
@@ -2845,7 +2629,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:11.354636+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|SC Freiburg ♀|1. FC Nürnberg ♀": {
     "path": "spiel/sc-freiburg-frauen-1-fc-nuernberg-frauen-2026-11-07",
@@ -2877,7 +2661,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:11.370012+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Arsenal|Hull City AFC": {
     "path": "spiel/fc-arsenal-hull-city-afc-2026-11-07",
@@ -2915,7 +2699,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:11.409441+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Fulham|Newcastle United": {
     "path": "spiel/fc-fulham-newcastle-united-2026-11-07",
@@ -2948,7 +2732,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:11.384527+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|1. FC Nürnberg|SV Darmstadt 98": {
     "path": "spiel/1-fc-nuernberg-sv-darmstadt-98-2026-11-07",
@@ -2984,7 +2768,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:12.097944+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Holstein Kiel|Arminia Bielefeld": {
     "path": "spiel/holstein-kiel-arminia-bielefeld-2026-11-07",
@@ -3020,7 +2804,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:12.082158+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|VfL Osnabrück|1. FC Kaiserslautern": {
     "path": "spiel/vfl-osnabrueck-1-fc-kaiserslautern-2026-11-07",
@@ -3056,7 +2840,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:12.020567+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Leeds United|Tottenham Hotspur": {
     "path": "spiel/leeds-united-tottenham-hotspur-2026-11-07",
@@ -3090,7 +2874,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:12.142732+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|1. FC Köln ♀ (U21)|Borussia Mönchengladbach ♀": {
     "path": "spiel/1-fc-koeln-frauen-u21-borussia-moenchengladbach-frauen-2026-11-07",
@@ -3119,7 +2903,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:12.128253+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Bayer Leverkusen ♀|Hamburger SV ♀": {
     "path": "spiel/bayer-leverkusen-frauen-hamburger-sv-frauen-2026-11-07",
@@ -3151,7 +2935,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.430423+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Bergisch Gladbach 09|1. FC Bocholt 1900": {
     "path": "spiel/bergisch-gladbach-09-1-fc-bocholt-1900-2026-11-07",
@@ -3180,7 +2964,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:12.684305+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Bonner SC|FC Gütersloh": {
     "path": "spiel/bonner-sc-fc-guetersloh-2026-11-07",
@@ -3209,7 +2993,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:12.765753+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Bayern München II|SpVgg Bayreuth": {
     "path": "spiel/fc-bayern-muenchen-ii-spvgg-bayreuth-2026-11-07",
@@ -3240,7 +3024,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:12.594485+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Ingolstadt 04|Fortuna Düsseldorf": {
     "path": "spiel/fc-ingolstadt-04-fortuna-duesseldorf-2026-11-07",
@@ -3273,7 +3057,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.205038+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Malaga|Racing Santander": {
     "path": "spiel/fc-malaga-racing-santander-2026-11-07",
@@ -3302,7 +3086,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:12.121021+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|HSC Montpellier|FC Metz": {
     "path": "spiel/hsc-montpellier-fc-metz-2026-11-07",
@@ -3361,7 +3145,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.381865+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|RW Oberhausen|Borussia Dortmund II": {
     "path": "spiel/rw-oberhausen-borussia-dortmund-ii-2026-11-07",
@@ -3390,7 +3174,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:12.612430+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Rot-Weiss Essen|Alemannia Aachen": {
     "path": "spiel/rot-weiss-essen-alemannia-aachen-2026-11-07",
@@ -3424,7 +3208,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.404066+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|SV Wehen Wiesbaden|TSV Havelse": {
     "path": "spiel/sv-wehen-wiesbaden-tsv-havelse-2026-11-07",
@@ -3454,7 +3238,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.287043+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Sportfreunde Lotte|SC Wiedenbrück 2000": {
     "path": "spiel/sportfreunde-lotte-sc-wiedenbrueck-2000-2026-11-07",
@@ -3483,7 +3267,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:12.711092+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Waldhof Mannheim|Fortuna Köln": {
     "path": "spiel/waldhof-mannheim-fortuna-koeln-2026-11-07",
@@ -3513,7 +3297,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.262760+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Epitsentr Kamianets-Podilskyi|Krywbas Krywyj Rih": {
     "path": "spiel/epitsentr-kamianets-podilskyi-krywbas-krywyj-rih-2026-11-07",
@@ -3542,7 +3326,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.965012+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|AC Mailand ♀|Inter Mailand ♀": {
     "path": "spiel/ac-mailand-frauen-inter-mailand-frauen-2026-11-07",
@@ -3571,7 +3355,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.992657+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Cagliari Calcio|Frosinone Calcio": {
     "path": "spiel/cagliari-calcio-frosinone-calcio-2026-11-07",
@@ -3600,7 +3384,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.692116+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Calcio Padova|FC Empoli": {
     "path": "spiel/calcio-padova-fc-empoli-2026-11-07",
@@ -3629,7 +3413,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.988890+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Cesena|US Catanzaro": {
     "path": "spiel/fc-cesena-us-catanzaro-2026-11-07",
@@ -3658,7 +3442,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.351354+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Turin|US Lecce": {
     "path": "spiel/fc-turin-us-lecce-2026-11-07",
@@ -3687,7 +3471,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.643066+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Pisa Sporting Club|FC Südtirol": {
     "path": "spiel/pisa-sporting-club-fc-suedtirol-2026-11-07",
@@ -3716,7 +3500,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.034563+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|SS Juve Stabia|US Arezzo": {
     "path": "spiel/ss-juve-stabia-us-arezzo-2026-11-07",
@@ -3745,7 +3529,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.082463+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|1. FSV Mainz 05|FC Bayern München": {
     "path": "spiel/1-fsv-mainz-05-fc-bayern-muenchen-2026-11-07",
@@ -3780,7 +3564,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.724344+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Borussia Dortmund|SV Elversberg": {
     "path": "spiel/borussia-dortmund-sv-elversberg-2026-11-07",
@@ -3815,7 +3599,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.008935+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|RB Leipzig|FC Augsburg": {
     "path": "spiel/rb-leipzig-fc-augsburg-2026-11-07",
@@ -3850,7 +3634,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.748722+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|SC Paderborn 07|Eintracht Frankfurt": {
     "path": "spiel/sc-paderborn-07-eintracht-frankfurt-2026-11-07",
@@ -3885,7 +3669,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.659317+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Borussia Dortmund (U19)|VfL Osnabrück (U19)": {
     "path": "spiel/borussia-dortmund-u19-vfl-osnabrueck-u19-2026-11-07",
@@ -3914,7 +3698,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.336316+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Espanyol Barcelona|Deportivo La Coruña": {
     "path": "spiel/espanyol-barcelona-deportivo-la-coruna-2026-11-07",
@@ -3943,7 +3727,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.306982+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Zürich ♀|Servette FC Chênois ♀": {
     "path": "spiel/fc-zuerich-frauen-servette-fc-chenois-frauen-2026-11-07",
@@ -3972,7 +3756,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.363730+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|SC Preußen Münster|MSV Duisburg": {
     "path": "spiel/sc-preussen-muenster-msv-duisburg-2026-11-07",
@@ -4002,7 +3786,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.383318+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|SC Austria Lustenau|GAK 1902": {
     "path": "spiel/sc-austria-lustenau-gak-1902-2026-11-07",
@@ -4032,7 +3816,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.471606+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|AJ Auxerre|Paris FC": {
     "path": "spiel/aj-auxerre-paris-fc-2026-11-07",
@@ -4061,7 +3845,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.675171+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Mantova 1911|Hellas Verona": {
     "path": "spiel/mantova-1911-hellas-verona-2026-11-07",
@@ -4091,7 +3875,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.010241+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Luzern|BSC Young Boys": {
     "path": "spiel/fc-luzern-bsc-young-boys-2026-11-07",
@@ -4120,7 +3904,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.145620+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Rapperswil-Jona ♀|FC Luzern ♀": {
     "path": "spiel/fc-rapperswil-jona-frauen-fc-luzern-frauen-2026-11-07",
@@ -4149,7 +3933,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.896237+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Vaduz|FC Sion": {
     "path": "spiel/fc-vaduz-fc-sion-2026-11-07",
@@ -4178,7 +3962,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.925411+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Winterthur|Étoile Carouge FC": {
     "path": "spiel/fc-winterthur-etoile-carouge-fc-2026-11-07",
@@ -4207,7 +3991,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.267510+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Parma Calcio 1913|FC Bologna": {
     "path": "spiel/parma-calcio-1913-fc-bologna-2026-11-07",
@@ -4236,7 +4020,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.018868+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|CA Osasuna|Athletic Bilbao": {
     "path": "spiel/ca-osasuna-athletic-bilbao-2026-11-07",
@@ -4265,7 +4049,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.592607+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Nottingham Forest|Manchester City": {
     "path": "spiel/nottingham-forest-manchester-city-2026-11-07",
@@ -4298,7 +4082,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.580674+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|VfB Stuttgart|SV Werder Bremen": {
     "path": "spiel/vfb-stuttgart-sv-werder-bremen-2026-11-07",
@@ -4334,7 +4118,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.694529+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Aberdeen|Hibernian FC Edinburgh": {
     "path": "spiel/fc-aberdeen-hibernian-fc-edinburgh-2026-11-07",
@@ -4372,7 +4156,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.670857+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Benevento Calcio|US Avellino 1912": {
     "path": "spiel/benevento-calcio-us-avellino-1912-2026-11-07",
@@ -4401,7 +4185,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.798555+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|SV Ried|Linzer ASK": {
     "path": "spiel/sv-ried-linzer-ask-2026-11-07",
@@ -4431,7 +4215,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.951417+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|AS St. Etienne|Stade Laval": {
     "path": "spiel/as-st-etienne-stade-laval-2026-11-07",
@@ -4460,7 +4244,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.253066+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Grasshopper Club Zürich|FC Lausanne-Sport": {
     "path": "spiel/grasshopper-club-zuerich-fc-lausanne-sport-2026-11-07",
@@ -4495,7 +4279,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.268068+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Hertha BSC|VfL Wolfsburg": {
     "path": "spiel/hertha-bsc-vfl-wolfsburg-2026-11-07",
@@ -4537,7 +4321,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.366637+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|AS Rom|US Sassuolo Calcio": {
     "path": "spiel/as-rom-us-sassuolo-calcio-2026-11-07",
@@ -4566,7 +4350,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.552575+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Paris St. Germain|ES Troyes AC": {
     "path": "spiel/paris-st-germain-es-troyes-ac-2026-11-07",
@@ -4599,7 +4383,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.387187+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Valencia|Real Madrid": {
     "path": "spiel/fc-valencia-real-madrid-2026-11-07",
@@ -4628,7 +4412,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.985823+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|St. Mirren FC|Glasgow Rangers": {
     "path": "spiel/st-mirren-fc-glasgow-rangers-2026-11-07",
@@ -4660,7 +4444,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.017508+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|US Saint-Malo ♀|Olympique Marseille ♀": {
     "path": "spiel/us-saint-malo-frauen-olympique-marseille-frauen-2026-11-07",
@@ -4689,7 +4473,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.634506+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Atletico Mineiro|Gremio Porto Alegre": {
     "path": "spiel/atletico-mineiro-gremio-porto-alegre-2026-11-07",
@@ -4718,7 +4502,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:19.022173+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Chicago Fire|Columbus Crew SC": {
     "path": "spiel/chicago-fire-columbus-crew-sc-2026-11-07",
@@ -4747,7 +4531,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.915252+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|D.C. United|New York City FC": {
     "path": "spiel/d-c-united-new-york-city-fc-2026-11-07",
@@ -4776,7 +4560,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.679946+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|FC Cincinnati|Nashville SC": {
     "path": "spiel/fc-cincinnati-nashville-sc-2026-11-07",
@@ -4805,7 +4589,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.608868+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Inter Miami|Charlotte FC": {
     "path": "spiel/inter-miami-charlotte-fc-2026-11-07",
@@ -4834,7 +4618,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.532178+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Montreal Impact|Vancouver Whitecaps": {
     "path": "spiel/montreal-impact-vancouver-whitecaps-2026-11-07",
@@ -4863,7 +4647,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.596702+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|New York Red Bulls|Atlanta United": {
     "path": "spiel/new-york-red-bulls-atlanta-united-2026-11-07",
@@ -4892,7 +4676,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.302789+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Orlando City SC|New England Revolution": {
     "path": "spiel/orlando-city-sc-new-england-revolution-2026-11-07",
@@ -4921,7 +4705,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.254340+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Philadelphia Union|Toronto FC": {
     "path": "spiel/philadelphia-union-toronto-fc-2026-11-07",
@@ -4950,73 +4734,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.902883+00:00"
     },
-    "dataUpdated": "2026-11-02"
-  },
-  "2026-11-02|Stade de Reims|FC Sochaux": {
-    "path": "spiel/stade-de-reims-fc-sochaux-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "20:45",
-      "competition": "Ligue 2 (Frankreich)",
-      "country": "Frankreich",
-      "home": "Stade de Reims",
-      "away": "FC Sochaux",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198163/ligue-2-frankreich/stade-de-reims-fc-sochaux",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.stade-de-reims.com/sdr-fcsm-le-match-reporte/",
-          "name": "Offizielle Bestätigung der Spielansetzung"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:04.608246+00:00"
-    },
-    "dataUpdated": "2026-11-02"
-  },
-  "2026-11-02|RCD Mallorca|FC Cádiz": {
-    "path": "spiel/rcd-mallorca-fc-cadiz-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "21:00",
-      "competition": "La Liga 2 (Spanien)",
-      "country": "Spanien",
-      "home": "RCD Mallorca",
-      "away": "FC Cádiz",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198165/la-liga-2-spanien/rcd-mallorca-fc-cadiz",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.laliga.com/clubes/cadiz-cf/proximos-partidos",
-          "name": "Offizielle Bestätigung der Spielansetzung"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:04.772788+00:00"
-    },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|HSC Montpellier|FC Metz": {
     "path": "spiel/hsc-montpellier-fc-metz-2026-11-06",
@@ -5049,7 +4767,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:10.289155+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-06|Oxford City FC|Leicester City": {
     "path": "spiel/oxford-city-fc-leicester-city-2026-11-06",
@@ -5082,7 +4800,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:11.436570+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-07|Peterborough United|FC Reading": {
     "path": "spiel/peterborough-united-fc-reading-2026-11-07",
@@ -5111,7 +4829,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.027584+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Austin FC|Portland Timbers": {
     "path": "spiel/austin-fc-portland-timbers-2026-11-08",
@@ -5140,7 +4858,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.864419+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|FC Dallas|Colorado Rapids": {
     "path": "spiel/fc-dallas-colorado-rapids-2026-11-08",
@@ -5169,7 +4887,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.356646+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Houston Dynamo|St. Louis City": {
     "path": "spiel/houston-dynamo-st-louis-city-2026-11-08",
@@ -5198,7 +4916,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.341653+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Minnesota United FC|San Jose Earthquakes": {
     "path": "spiel/minnesota-united-fc-san-jose-earthquakes-2026-11-08",
@@ -5227,7 +4945,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.508404+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Real Salt Lake City|LA Galaxy": {
     "path": "spiel/real-salt-lake-city-la-galaxy-2026-11-08",
@@ -5256,7 +4974,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.470384+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|San Diego FC|Sporting Kansas City": {
     "path": "spiel/san-diego-fc-sporting-kansas-city-2026-11-08",
@@ -5285,7 +5003,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.504524+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Seattle Sounders|Los Angeles FC": {
     "path": "spiel/seattle-sounders-los-angeles-fc-2026-11-08",
@@ -5314,7 +5032,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.320369+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|FK Jelgava|FK Ogre United": {
     "path": "spiel/fk-jelgava-fk-ogre-united-2026-11-08",
@@ -5343,7 +5061,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.551319+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|FK Sorja Luhansk|LNZ Tscherkassy": {
     "path": "spiel/fk-sorja-luhansk-lnz-tscherkassy-2026-11-08",
@@ -5372,7 +5090,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.020720+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|FK Tukums 2000|Auda Riga": {
     "path": "spiel/fk-tukums-2000-auda-riga-2026-11-08",
@@ -5401,7 +5119,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.183171+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Grobinas Sporta Centrs|FK Liepaja": {
     "path": "spiel/grobinas-sporta-centrs-fk-liepaja-2026-11-08",
@@ -5430,7 +5148,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.110160+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Riga FC|Rigas FS": {
     "path": "spiel/riga-fc-rigas-fs-2026-11-08",
@@ -5459,7 +5177,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:13.959725+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|SK Super Nova|BFC Daugavpils": {
     "path": "spiel/sk-super-nova-bfc-daugavpils-2026-11-08",
@@ -5488,7 +5206,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.204744+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|SSC Neapel|Lazio Rom": {
     "path": "spiel/ssc-neapel-lazio-rom-2026-11-08",
@@ -5517,7 +5235,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.683818+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Fortuna Köln ♀|Borussia Dortmund ♀": {
     "path": "spiel/fortuna-koeln-frauen-borussia-dortmund-frauen-2026-11-08",
@@ -5546,7 +5264,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.582691+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|1. FC Heidenheim 1846|Hannover 96": {
     "path": "spiel/1-fc-heidenheim-1846-hannover-96-2026-11-08",
@@ -5582,7 +5300,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.260767+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|1. FC Magdeburg|FC St. Pauli": {
     "path": "spiel/1-fc-magdeburg-fc-st-pauli-2026-11-08",
@@ -5618,7 +5336,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.889151+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|SV Meppen|SSV Jahn Regensburg": {
     "path": "spiel/sv-meppen-ssv-jahn-regensburg-2026-11-08",
@@ -5648,7 +5366,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.764092+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|VfL Bochum|Karlsruher SC": {
     "path": "spiel/vfl-bochum-karlsruher-sc-2026-11-08",
@@ -5684,7 +5402,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:14.905398+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|1. FC Köln II|SF Siegen": {
     "path": "spiel/1-fc-koeln-ii-sf-siegen-2026-11-08",
@@ -5713,7 +5431,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.399969+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|1. FC Union Berlin ♀|1899 Hoffenheim ♀": {
     "path": "spiel/1-fc-union-berlin-frauen-1899-hoffenheim-frauen-2026-11-08",
@@ -5745,7 +5463,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.556345+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|1899 Hoffenheim II ♀|Eintracht Frankfurt II ♀": {
     "path": "spiel/1899-hoffenheim-ii-frauen-eintracht-frankfurt-ii-frauen-2026-11-08",
@@ -5774,7 +5492,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.838139+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Elche C.F.|Real Betis Balompié": {
     "path": "spiel/elche-c-f-real-betis-balompie-2026-11-08",
@@ -5803,7 +5521,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.568682+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|FC St. Gallen|FC Lugano": {
     "path": "spiel/fc-st-gallen-fc-lugano-2026-11-08",
@@ -5832,7 +5550,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.852089+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|FC Viktoria Berlin ♀|Hertha BSC ♀": {
     "path": "spiel/fc-viktoria-berlin-frauen-hertha-bsc-frauen-2026-11-08",
@@ -5861,7 +5579,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.158584+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|FSV Zwickau|1. FC Lok Leipzig": {
     "path": "spiel/fsv-zwickau-1-fc-lok-leipzig-2026-11-08",
@@ -5891,7 +5609,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.840131+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Grasshopper Club Zürich ♀|St. Gallen ♀": {
     "path": "spiel/grasshopper-club-zuerich-frauen-st-gallen-frauen-2026-11-08",
@@ -5920,7 +5638,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.582070+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|HJK Helsinki|AC Oulu": {
     "path": "spiel/hjk-helsinki-ac-oulu-2026-11-08",
@@ -5949,7 +5667,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.416194+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|IF Gnistan|Vaasan PS": {
     "path": "spiel/if-gnistan-vaasan-ps-2026-11-08",
@@ -5978,7 +5696,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.267571+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Kuopion PS|Inter Turku": {
     "path": "spiel/kuopion-ps-inter-turku-2026-11-08",
@@ -6007,7 +5725,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.350193+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|SC Sand ♀|SGS Essen ♀": {
     "path": "spiel/sc-sand-frauen-sgs-essen-frauen-2026-11-08",
@@ -6036,7 +5754,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.881855+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|SG 99 Andernach ♀|1. FFC Turbine Potsdam ♀": {
     "path": "spiel/sg-99-andernach-frauen-1-ffc-turbine-potsdam-frauen-2026-11-08",
@@ -6065,7 +5783,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.122469+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|VfL Bochum II|SG Wattenscheid 09": {
     "path": "spiel/vfl-bochum-ii-sg-wattenscheid-09-2026-11-08",
@@ -6094,7 +5812,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.406852+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|VfL Bochum ♀|Carl Zeiss Jena ♀": {
     "path": "spiel/vfl-bochum-frauen-carl-zeiss-jena-frauen-2026-11-08",
@@ -6123,7 +5841,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:15.956205+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Bukowina Czernowitz|Kolos Kowaliwka": {
     "path": "spiel/bukowina-czernowitz-kolos-kowaliwka-2026-11-08",
@@ -6152,7 +5870,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.814634+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|FC Aarau ♀|Yverdon-Sport FC ♀": {
     "path": "spiel/fc-aarau-frauen-yverdon-sport-fc-frauen-2026-11-08",
@@ -6181,7 +5899,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:16.977106+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|TSV Hartberg|SCR Altach": {
     "path": "spiel/tsv-hartberg-scr-altach-2026-11-08",
@@ -6212,7 +5930,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.159343+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|WSG Tirol|FK Austria Wien": {
     "path": "spiel/wsg-tirol-fk-austria-wien-2026-11-08",
@@ -6243,7 +5961,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.119942+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|AC Monza|Atalanta Bergamo": {
     "path": "spiel/ac-monza-atalanta-bergamo-2026-11-08",
@@ -6272,7 +5990,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.868818+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|ACD Virtus Entella|Modena FC": {
     "path": "spiel/acd-virtus-entella-modena-fc-2026-11-08",
@@ -6301,7 +6019,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.854222+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|AFC Sunderland|FC Chelsea": {
     "path": "spiel/afc-sunderland-fc-chelsea-2026-11-08",
@@ -6335,7 +6053,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.586505+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Brighton and Hove Albion|Brentford FC": {
     "path": "spiel/brighton-and-hove-albion-brentford-fc-2026-11-08",
@@ -6369,7 +6087,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.829814+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|CFC Genua|AC Mailand": {
     "path": "spiel/cfc-genua-ac-mailand-2026-11-08",
@@ -6398,7 +6116,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.284330+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Crystal Palace|FC Liverpool": {
     "path": "spiel/crystal-palace-fc-liverpool-2026-11-08",
@@ -6431,7 +6149,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.650466+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Ipswich Town|AFC Bournemouth": {
     "path": "spiel/ipswich-town-afc-bournemouth-2026-11-08",
@@ -6465,7 +6183,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.601336+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|SC Eltersdorf|TSV 1860 München": {
     "path": "spiel/sc-eltersdorf-tsv-1860-muenchen-2026-11-08",
@@ -6496,7 +6214,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.311202+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Stade Rennes|OSC Lille": {
     "path": "spiel/stade-rennes-osc-lille-2026-11-08",
@@ -6525,7 +6243,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:17.203004+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|1. FC Köln|Bayer Leverkusen": {
     "path": "spiel/1-fc-koeln-bayer-leverkusen-2026-11-08",
@@ -6556,7 +6274,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.326254+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|1. FSV Mainz 05 ♀|VfB Stuttgart ♀": {
     "path": "spiel/1-fsv-mainz-05-frauen-vfb-stuttgart-frauen-2026-11-08",
@@ -6588,7 +6306,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.506516+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Real Sociedad|Rayo Vallecano": {
     "path": "spiel/real-sociedad-rayo-vallecano-2026-11-08",
@@ -6617,7 +6335,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.582641+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|FC Thun|FC Basel": {
     "path": "spiel/fc-thun-fc-basel-2026-11-08",
@@ -6646,7 +6364,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.564291+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Servette Genf|FC Zürich": {
     "path": "spiel/servette-genf-fc-zuerich-2026-11-08",
@@ -6675,7 +6393,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.855039+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|VfB Stuttgart II|SC Verl": {
     "path": "spiel/vfb-stuttgart-ii-sc-verl-2026-11-08",
@@ -6705,7 +6423,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:18.979019+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Yverdon-Sport FC|Neuchâtel Xamax": {
     "path": "spiel/yverdon-sport-fc-neuchatel-xamax-2026-11-08",
@@ -6734,7 +6452,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:19.025151+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|SK Sturm Graz|RB Salzburg": {
     "path": "spiel/sk-sturm-graz-rb-salzburg-2026-11-08",
@@ -6766,7 +6484,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:19.265074+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Schachtjor Donezk|Dynamo Kiew": {
     "path": "spiel/schachtjor-donezk-dynamo-kiew-2026-11-08",
@@ -6795,7 +6513,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:19.183018+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Carrarese Calcio|Sampdoria Genua": {
     "path": "spiel/carrarese-calcio-sampdoria-genua-2026-11-08",
@@ -6825,7 +6543,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:19.858454+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Le Havre AC|FC Lorient": {
     "path": "spiel/le-havre-ac-fc-lorient-2026-11-08",
@@ -6854,7 +6572,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:19.613378+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Le Mans FC|AS Monaco": {
     "path": "spiel/le-mans-fc-as-monaco-2026-11-08",
@@ -6883,7 +6601,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:19.333986+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|SCO Angers|O.G.C. Nizza": {
     "path": "spiel/sco-angers-o-g-c-nizza-2026-11-08",
@@ -6912,7 +6630,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:19.741829+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Stade Brest|Olympique Lyon": {
     "path": "spiel/stade-brest-olympique-lyon-2026-11-08",
@@ -6941,7 +6659,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:19.685633+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Manchester United|Aston Villa": {
     "path": "spiel/manchester-united-aston-villa-2026-11-08",
@@ -6975,7 +6693,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:20.008763+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|SC Freiburg|1. FC Union Berlin": {
     "path": "spiel/sc-freiburg-1-fc-union-berlin-2026-11-08",
@@ -7006,7 +6724,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:20.049205+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Inter Mailand|Como 1907": {
     "path": "spiel/inter-mailand-como-1907-2026-11-08",
@@ -7035,7 +6753,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:20.384307+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Lazio Rom ♀|SSC Neapel ♀": {
     "path": "spiel/lazio-rom-frauen-ssc-neapel-frauen-2026-11-08",
@@ -7064,7 +6782,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:20.341474+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Oldham Athletic|Sheffield Wednesday FC": {
     "path": "spiel/oldham-athletic-sheffield-wednesday-fc-2026-11-08",
@@ -7093,7 +6811,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:20.397803+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|FC Villarreal|FC Getafe": {
     "path": "spiel/fc-villarreal-fc-getafe-2026-11-08",
@@ -7122,7 +6840,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:20.547744+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|R.C. Celta de Vigo|UD Levante": {
     "path": "spiel/r-c-celta-de-vigo-ud-levante-2026-11-08",
@@ -7151,7 +6869,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:20.746326+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|1899 Hoffenheim|FC Schalke 04": {
     "path": "spiel/1899-hoffenheim-fc-schalke-04-2026-11-08",
@@ -7182,7 +6900,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:21.147456+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|FC Würzburger Kickers|1899 Hoffenheim II": {
     "path": "spiel/fc-wuerzburger-kickers-1899-hoffenheim-ii-2026-11-08",
@@ -7212,7 +6930,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:21.034859+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|L.R. Vicenza|US Cremonese": {
     "path": "spiel/l-r-vicenza-us-cremonese-2026-11-08",
@@ -7241,7 +6959,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:20.738710+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|AC Florenz|Juventus Turin": {
     "path": "spiel/ac-florenz-juventus-turin-2026-11-08",
@@ -7270,7 +6988,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:21.231031+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|RC Lens|Olympique Marseille": {
     "path": "spiel/rc-lens-olympique-marseille-2026-11-08",
@@ -7299,7 +7017,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:21.154752+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Atletico Madrid|FC Barcelona": {
     "path": "spiel/atletico-madrid-fc-barcelona-2026-11-08",
@@ -7328,7 +7046,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:21.433002+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|Vasco da Gama|Palmeiras Sao Paulo": {
     "path": "spiel/vasco-da-gama-palmeiras-sao-paulo-2026-11-08",
@@ -7357,7 +7075,7 @@
       ],
       "verifiedAt": "2026-11-02T18:18:21.403520+00:00"
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
   },
   "2026-11-08|RSV Eintracht 1949|Erzgebirge Aue": {
     "path": "spiel/rsv-eintracht-1949-erzgebirge-aue-2026-11-08",
@@ -7397,6 +7115,143 @@
         "Mediengruppe Mitteldeutschland": "https://mediathek.mediengruppe-mitteldeutschland.de/"
       }
     },
-    "dataUpdated": "2026-11-02"
+    "dataUpdated": "2026-11-03"
+  },
+  "2026-11-09|1. FC Köln ♀|RB Leipzig ♀": {
+    "path": "spiel/1-fc-koeln-frauen-rb-leipzig-frauen-2026-11-09",
+    "game": {
+      "date": "2026-11-09",
+      "time": "18:00",
+      "competition": "Frauen-Bundesliga",
+      "country": "Deutschland",
+      "home": "1. FC Köln ♀",
+      "away": "RB Leipzig ♀",
+      "channels": [
+        "MagentaSport",
+        "Sport1",
+        "DAZN",
+        "OneFootball",
+        "Sport1 Livestream",
+        "Sport1 App",
+        "Sport1 (Joyn)"
+      ],
+      "groups": [
+        "other",
+        "free",
+        "dazn"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-09",
+          "name": "fußballgucken.info – Tagesplan 2026-11-09"
+        },
+        {
+          "url": "https://fussballgucken.info/match/193985/frauen-bundesliga/1-fc-koeln-frauen-rb-leipzig-frauen",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-02T23:33:56.526945+00:00"
+    },
+    "dataUpdated": "2026-11-03"
+  },
+  "2026-11-09|Plymouth Parkway|Berkhamsted FC": {
+    "path": "spiel/plymouth-parkway-berkhamsted-fc-2026-11-09",
+    "game": {
+      "date": "2026-11-09",
+      "time": "20:30",
+      "competition": "FA Cup (England)",
+      "country": "England",
+      "home": "Plymouth Parkway",
+      "away": "Berkhamsted FC",
+      "channels": [
+        "DAZN"
+      ],
+      "groups": [
+        "dazn"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-09",
+          "name": "fußballgucken.info – Tagesplan 2026-11-09"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198168/fa-cup-england/plymouth-parkway-berkhamsted-fc",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.ppfc.co.uk/fa-cup-ticket-information/",
+          "name": "Offizielle Anstoßzeit (Europe/Berlin)"
+        }
+      ],
+      "verifiedAt": "2026-11-02T23:33:56.673692+00:00"
+    },
+    "dataUpdated": "2026-11-03"
+  },
+  "2026-11-09|Sabadell|Real Sociedad II": {
+    "path": "spiel/sabadell-real-sociedad-ii-2026-11-09",
+    "game": {
+      "date": "2026-11-09",
+      "time": "20:30",
+      "competition": "La Liga 2 (Spanien)",
+      "country": "Spanien",
+      "home": "Sabadell",
+      "away": "Real Sociedad II",
+      "channels": [
+        "DAZN"
+      ],
+      "groups": [
+        "dazn"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-09",
+          "name": "fußballgucken.info – Tagesplan 2026-11-09"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198166/la-liga-2-spanien/sabadell-real-sociedad-ii",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.laliga.com/es-US/partido/temporada-2026-2027-laliga-hypermotion-ce-sabadell-r-sociedad-b-13",
+          "name": "Offizieller Ligaspielplan"
+        }
+      ],
+      "verifiedAt": "2026-11-02T23:33:56.432791+00:00"
+    },
+    "dataUpdated": "2026-11-03"
+  },
+  "2026-11-09|AZ Picerno|SSC Bari": {
+    "path": "spiel/az-picerno-ssc-bari-2026-11-09",
+    "game": {
+      "date": "2026-11-09",
+      "time": "20:45",
+      "competition": "Serie C (Italien)",
+      "country": "Italien",
+      "home": "AZ Picerno",
+      "away": "SSC Bari",
+      "channels": [
+        "Rai Sport",
+        "Rai Sport (Livestream)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-09",
+          "name": "fußballgucken.info – Tagesplan 2026-11-09"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197480/serie-c-italien/az-picerno-ssc-bari",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.labaricalcio.it/2026/11/02/picerno-bari-fischio-di-inizio-alle-ore-2045-diretta-in-chiaro-su-rai-sport/",
+          "name": "Bestätigung aktualisierter Anstoßzeit und Rai Sport"
+        }
+      ],
+      "verifiedAt": "2026-11-02T23:33:56.644406+00:00"
+    },
+    "dataUpdated": "2026-11-03"
   }
 }
