@@ -1626,93 +1626,6 @@
     },
     "dataUpdated": "2026-11-02"
   },
-  "2026-11-02|Inter Turku|IF Gnistan": {
-    "path": "spiel/inter-turku-if-gnistan-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "17:00",
-      "competition": "Veikkausliiga (Finnland)",
-      "country": "Finnland",
-      "home": "Inter Turku",
-      "away": "IF Gnistan",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/195521/veikkausliiga-finnland/inter-turku-if-gnistan",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:03.809727+00:00"
-    },
-    "dataUpdated": "2026-11-02"
-  },
-  "2026-11-02|Karpaty Lwiw|FC Kudrivka": {
-    "path": "spiel/karpaty-lwiw-fc-kudrivka-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "17:00",
-      "competition": "Premjer Liha (Ukraine)",
-      "country": "Ukraine",
-      "home": "Karpaty Lwiw",
-      "away": "FC Kudrivka",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/195462/premjer-liha-ukraine/karpaty-lwiw-fc-kudrivka",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:03.994756+00:00"
-    },
-    "dataUpdated": "2026-11-02"
-  },
-  "2026-11-02|Vaasan PS|HJK Helsinki": {
-    "path": "spiel/vaasan-ps-hjk-helsinki-2026-11-02",
-    "game": {
-      "date": "2026-11-02",
-      "time": "17:00",
-      "competition": "Veikkausliiga (Finnland)",
-      "country": "Finnland",
-      "home": "Vaasan PS",
-      "away": "HJK Helsinki",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-02",
-          "name": "fußballgucken.info – Tagesplan 2026-11-02"
-        },
-        {
-          "url": "https://fussballgucken.info/match/195526/veikkausliiga-finnland/vaasan-ps-hjk-helsinki",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-02T18:18:03.952944+00:00"
-    },
-    "dataUpdated": "2026-11-02"
-  },
   "2026-11-02|Benfica Lissabon|FC Alverca": {
     "path": "spiel/benfica-lissabon-fc-alverca-2026-11-02",
     "game": {
@@ -7443,6 +7356,46 @@
         }
       ],
       "verifiedAt": "2026-11-02T18:18:21.403520+00:00"
+    },
+    "dataUpdated": "2026-11-02"
+  },
+  "2026-11-08|RSV Eintracht 1949|Erzgebirge Aue": {
+    "path": "spiel/rsv-eintracht-1949-erzgebirge-aue-2026-11-08",
+    "game": {
+      "date": "2026-11-08",
+      "time": "14:00",
+      "competition": "Regionalliga Nordost",
+      "country": "Deutschland",
+      "home": "RSV Eintracht 1949",
+      "away": "Erzgebirge Aue",
+      "channels": [
+        "Mediengruppe Mitteldeutschland"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-08",
+          "name": "fußballgucken.info – Tagesplan 2026-11-08"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197270/regionalliga-nordost/rsv-eintracht-1949-erzgebirge-aue",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://mediathek.mediengruppe-mitteldeutschland.de/",
+          "name": "Mediengruppe Mitteldeutschland – bestätigter Livestream"
+        },
+        {
+          "url": "https://datencenter.dfb.de/teams/erzgebirge-aue",
+          "name": "DFB – Spieltermin 8. November, 14 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-02T19:20:10.849833+00:00",
+      "channelLinks": {
+        "Mediengruppe Mitteldeutschland": "https://mediathek.mediengruppe-mitteldeutschland.de/"
+      }
     },
     "dataUpdated": "2026-11-02"
   }
