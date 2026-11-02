@@ -821,12 +821,17 @@
         "Sky Sport Austria 1 (AT)",
         "Sky Sport Austria 6 (AT)",
         "Sky Sport Mix",
+        "RTL+",
         "WOW",
-        "WOW (AT)"
+        "WOW (AT)",
+        "RTL+ (MagentaTV)",
+        "RTL+ (Prime Video)",
+        "RTL+ (Sky Q)"
       ],
       "groups": [
         "other",
-        "sky"
+        "sky",
+        "prime"
       ],
       "sources": [
         {
@@ -838,7 +843,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-02T05:57:18.931861+00:00"
+      "verifiedAt": "2026-11-02T13:54:12.647901+00:00"
     },
     "dataUpdated": "2026-11-02"
   },
@@ -887,12 +892,17 @@
         "Sky Sport Austria 3 (AT)",
         "Sky Sport Mix",
         "Sky Sport Top Event",
+        "RTL+",
         "WOW",
-        "WOW (AT)"
+        "WOW (AT)",
+        "RTL+ (MagentaTV)",
+        "RTL+ (Prime Video)",
+        "RTL+ (Sky Q)"
       ],
       "groups": [
         "other",
-        "sky"
+        "sky",
+        "prime"
       ],
       "sources": [
         {
@@ -904,7 +914,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-02T05:57:18.917224+00:00"
+      "verifiedAt": "2026-11-02T13:54:12.416301+00:00"
     },
     "dataUpdated": "2026-11-02"
   },
@@ -1048,10 +1058,16 @@
       "channels": [
         "blue Sport (CH)",
         "CANAL+",
-        "CANAL+ (Livestream)"
+        "CANAL+ (Livestream)",
+        "RTL+",
+        "RTL+ (MagentaTV)",
+        "RTL+ (Prime Video)",
+        "RTL+ (Sky Q)"
       ],
       "groups": [
-        "other"
+        "other",
+        "prime",
+        "sky"
       ],
       "sources": [
         {
@@ -1063,7 +1079,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-02T05:57:18.333159+00:00"
+      "verifiedAt": "2026-11-02T13:54:06.977181+00:00"
     },
     "dataUpdated": "2026-11-02"
   },
@@ -1117,11 +1133,16 @@
         "Sky Sport Austria 1 (AT)",
         "Sky Sport Austria 7 (AT)",
         "Sky Sport Mix",
-        "WOW (AT)"
+        "RTL+",
+        "WOW (AT)",
+        "RTL+ (MagentaTV)",
+        "RTL+ (Prime Video)",
+        "RTL+ (Sky Q)"
       ],
       "groups": [
         "other",
-        "sky"
+        "sky",
+        "prime"
       ],
       "sources": [
         {
@@ -1133,7 +1154,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-02T05:57:18.901607+00:00"
+      "verifiedAt": "2026-11-02T13:54:12.398762+00:00"
     },
     "dataUpdated": "2026-11-02"
   },
@@ -1182,13 +1203,18 @@
         "Sky Sport Austria 5 (AT)",
         "Sky Sport Mix",
         "TRT 1",
+        "RTL+",
         "TRT 1 (Livestream)",
         "WOW",
-        "WOW (AT)"
+        "WOW (AT)",
+        "RTL+ (MagentaTV)",
+        "RTL+ (Prime Video)",
+        "RTL+ (Sky Q)"
       ],
       "groups": [
         "other",
-        "sky"
+        "sky",
+        "prime"
       ],
       "sources": [
         {
@@ -1200,7 +1226,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-02T05:57:18.177877+00:00"
+      "verifiedAt": "2026-11-02T13:54:06.963623+00:00"
     },
     "dataUpdated": "2026-11-02"
   },
@@ -1219,12 +1245,17 @@
         "Sky Sport Austria 1 (AT)",
         "Sky Sport Austria 4 (AT)",
         "Sky Sport Mix",
+        "RTL+",
         "WOW",
-        "WOW (AT)"
+        "WOW (AT)",
+        "RTL+ (MagentaTV)",
+        "RTL+ (Prime Video)",
+        "RTL+ (Sky Q)"
       ],
       "groups": [
         "other",
-        "sky"
+        "sky",
+        "prime"
       ],
       "sources": [
         {
@@ -1236,7 +1267,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-02T05:57:19.421704+00:00"
+      "verifiedAt": "2026-11-02T13:54:17.511471+00:00"
     },
     "dataUpdated": "2026-11-02"
   },
@@ -1255,12 +1286,17 @@
         "Sky Sport Austria 1 (AT)",
         "Sky Sport Austria 5 (AT)",
         "Sky Sport Mix",
+        "RTL+",
         "WOW",
-        "WOW (AT)"
+        "WOW (AT)",
+        "RTL+ (MagentaTV)",
+        "RTL+ (Prime Video)",
+        "RTL+ (Sky Q)"
       ],
       "groups": [
         "other",
-        "sky"
+        "sky",
+        "prime"
       ],
       "sources": [
         {
@@ -1272,7 +1308,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-02T05:57:20.038847+00:00"
+      "verifiedAt": "2026-11-02T13:54:22.695985+00:00"
     },
     "dataUpdated": "2026-11-02"
   },
@@ -1368,13 +1404,18 @@
         "Sky Sport Austria 6 (AT)",
         "Sky Sport Mix",
         "TRT 1",
+        "RTL+",
         "TRT 1 (Livestream)",
         "WOW",
-        "WOW (AT)"
+        "WOW (AT)",
+        "RTL+ (MagentaTV)",
+        "RTL+ (Prime Video)",
+        "RTL+ (Sky Q)"
       ],
       "groups": [
         "other",
-        "sky"
+        "sky",
+        "prime"
       ],
       "sources": [
         {
@@ -1386,7 +1427,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-02T05:57:20.025304+00:00"
+      "verifiedAt": "2026-11-02T13:54:22.851473+00:00"
     },
     "dataUpdated": "2026-11-02"
   },
@@ -1404,11 +1445,16 @@
         "Sky Sport Austria 1 (AT)",
         "Sky Sport Austria 8 (AT)",
         "Sky Sport Mix",
-        "WOW (AT)"
+        "RTL+",
+        "WOW (AT)",
+        "RTL+ (MagentaTV)",
+        "RTL+ (Prime Video)",
+        "RTL+ (Sky Q)"
       ],
       "groups": [
         "other",
-        "sky"
+        "sky",
+        "prime"
       ],
       "sources": [
         {
@@ -1420,7 +1466,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-02T05:57:19.284411+00:00"
+      "verifiedAt": "2026-11-02T13:54:17.542454+00:00"
     },
     "dataUpdated": "2026-11-02"
   },
