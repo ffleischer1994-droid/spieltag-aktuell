@@ -499,7 +499,9 @@
         "blue Sport (CH)",
         "CANAL+",
         "DAZN",
-        "CANAL+ (Livestream)"
+        "CANAL+ (Livestream)",
+        "TV8",
+        "TV8 (Livestream)"
       ],
       "groups": [
         "other",
@@ -513,9 +515,17 @@
         {
           "url": "https://fussballgucken.info/match/192200/uefa-champions-league/rb-leipzig-manchester-city",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.tv8.it/",
+          "name": "TV8 – bestätigte Liveübertragung am 4. November 2026 (Italien)"
         }
       ],
-      "verifiedAt": "2026-11-03T02:16:37.526495+00:00"
+      "verifiedAt": "2026-11-03T10:21:50.588Z",
+      "channelLinks": {
+        "TV8": "https://www.tv8.it/",
+        "TV8 (Livestream)": "https://www.tv8.it/streaming"
+      }
     },
     "dataUpdated": "2026-11-03"
   },
