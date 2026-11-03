@@ -27,6 +27,16 @@ VERIFIED_KICKOFFS = {
 }
 
 
+# Researched video coverage missing from the listing; date-scoped and sourced.
+VERIFIED_BROADCASTS = {
+    ('2026-11-10', 'https://fussballgucken.info/match/197214/uefa-women-s-europa-cup/feyenoord-rotterdam-frauen-vfl-wolfsburg-frauen'): {
+        'channels': ['Feyenoord ONE (NL)'],
+        'url': 'https://one.feyenoord.nl/schedule?uid=16985837558',
+        'name': 'Feyenoord ONE – bestätigter Livestream (Niederlande)',
+    },
+}
+
+
 def fetch(url):
     cache = Path(os.environ['SPIELTAG_SOURCE_CACHE']) / (hashlib.sha256(url.encode()).hexdigest()+'.html') if os.environ.get('SPIELTAG_SOURCE_CACHE') else None
     if cache and cache.exists(): return BeautifulSoup(cache.read_text(), 'html.parser')
@@ -116,6 +126,11 @@ def read_day(date):
             raise ValueError(f'{date}: wrong date on match detail: {match_url}')
         coverage = detail.select('.list-coverage')
         channels = list(dict.fromkeys(c for section in coverage for c in channels_from(section)))
+        researched = VERIFIED_BROADCASTS.get((date, match_url))
+        if researched:
+            channels = list(dict.fromkeys(
+                [c for c in channels if 'unbekannt' not in c.lower()]
+                + researched['channels']))
         if not channels:
             print(f'{date}: skipping entry without confirmed video broadcast: {match_url}', flush=True)
             return None
@@ -130,7 +145,9 @@ def read_day(date):
                          sources=[{'url':url,'name':f'fußballgucken.info – Tagesplan {date}'},
                                   {'url':match_url,'name':'Übertragungsdetails'}]
                                  + ([{'url':kickoff[2], 'name':'Offizielle Anstoßzeit (Europe/Berlin)'}]
-                                    if kickoff and kickoff[0] == date else []),
+                                    if kickoff and kickoff[0] == date else [])
+                                 + ([{'url':researched['url'], 'name':researched['name']}]
+                                    if researched else []),
                          verifiedAt=dt.datetime.now(dt.timezone.utc).isoformat())
     with ThreadPoolExecutor(max_workers=6) as pool:
         rows = [g for g in pool.map(parse_item, soup.select('.item.game')) if g]
