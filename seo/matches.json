@@ -1552,7 +1552,7 @@
     "path": "spiel/sk-rapid-wien-frauen-skn-st-poelten-frauen-2026-11-04",
     "game": {
       "date": "2026-11-04",
-      "time": "00:00",
+      "time": "19:00",
       "competition": "ÖFB Frauen Bundesliga",
       "country": "Österreich",
       "home": "SK Rapid Wien ♀",
@@ -1573,9 +1573,17 @@
         {
           "url": "https://fussballgucken.info/match/191049/oefb-frauen-bundesliga/sk-rapid-wien-frauen-skn-st-poelten-frauen",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.skrapid.at/tickets/naechste-spiele-uebersicht/naechste-spiele-frauen/",
+          "name": "Offizieller Vereinsplan – 4. November 2026, 19 Uhr"
+        },
+        {
+          "url": "https://www.oefb.tv/de/live",
+          "name": "ÖFB TV – bestätigter Livestream um 19 Uhr"
         }
       ],
-      "verifiedAt": "2026-11-03T11:53:32.350873+00:00"
+      "verifiedAt": "2026-11-03T12:20:08.849574+00:00"
     },
     "dataUpdated": "2026-11-03"
   },
@@ -7301,6 +7309,39 @@
       "channelLinks": {
         "Mediengruppe Mitteldeutschland": "https://mediathek.mediengruppe-mitteldeutschland.de/"
       }
+    },
+    "dataUpdated": "2026-11-03"
+  },
+  "2026-11-07|Como 1907 ♀|AS Rom ♀": {
+    "path": "spiel/como-1907-frauen-as-rom-frauen-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "12:30",
+      "competition": "Serie A Femminile (Italien)",
+      "country": "Italien",
+      "home": "Como 1907 ♀",
+      "away": "AS Rom ♀",
+      "channels": [
+        "DAZN"
+      ],
+      "groups": [
+        "dazn"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197421/serie-a-femminile-italien/como-1907-frauen-as-rom-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.figc.it/it/serie-a-women/news/date-e-orari-dalla-4-alla-6-giornata-juventus-roma-sabato-24-ottobre-alle-1830-il-derby-di-milano-sabato-7-novembre-alle-15-iefuxgby",
+          "name": "FIGC – offizieller Spiel- und Übertragungsplan"
+        }
+      ],
+      "verifiedAt": "2026-11-03T12:18:58.028006+00:00"
     },
     "dataUpdated": "2026-11-03"
   }
