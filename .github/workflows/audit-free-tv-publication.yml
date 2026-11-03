@@ -1,0 +1,33 @@
+name: Audit Monday Free-TV Instagram publication
+on:
+  schedule:
+    - cron: "17 7 * * 2"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require verified Instagram publication receipt
+        shell: bash
+        run: |
+          set -euo pipefail
+          MONDAY=$(TZ=Europe/Berlin date -d 'last monday' +%F)
+          RECEIPT="social/published/free-tv-$MONDAY.json"
+          echo "Checking $RECEIPT"
+          if [ ! -f "$RECEIPT" ]; then
+            echo "::error::Free-TV Instagram post missing for $MONDAY: no publication receipt. Inspect weekly workflow and Instagram before retrying."
+            exit 1
+          fi
+          node - "$RECEIPT" <<'NODE'
+          const fs=require('fs');
+          const path=process.argv[2];
+          const state=JSON.parse(fs.readFileSync(path,'utf8'));
+          if(!/^\d{8,}$/.test(String(state.id||''))){
+            console.error('::error::Missing valid Instagram media ID in '+path);
+            process.exit(1);
+          }
+          console.log('Instagram publication receipt verified: '+state.id);
+          NODE
