@@ -4394,6 +4394,42 @@
   {
     "date": "2026-11-08",
     "time": "12:00",
+    "competition": "Frauen-Regionalliga Nordost",
+    "country": "Deutschland",
+    "home": "1. FC Magdeburg ♀",
+    "away": "1. FFV Erfurt ♀",
+    "channels": [
+      "Mediengruppe Mitteldeutschland"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-08",
+        "name": "fußballgucken.info – Tagesplan 2026-11-08"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198184/frauen-regionalliga-nordost/1-fc-magdeburg-frauen-1-ffv-erfurt-frauen",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://mediathek.mediengruppe-mitteldeutschland.de/",
+        "name": "Anbieter – bestätigter Livestream"
+      },
+      {
+        "url": "https://www.fussball.de/mannschaft/1-fc-magdeburg-1-fc-magdeburg-sachsen-anhalt/-/saison/2627/team-id/02PQCVMLGS000000VS5489B1VU7RM1AE",
+        "name": "Offizieller Spielplan – Anstoß am 8. November um 12 Uhr"
+      }
+    ],
+    "verifiedAt": "2026-11-03T11:47:12.827013+00:00",
+    "channelLinks": {
+      "Mediengruppe Mitteldeutschland": "https://mediathek.mediengruppe-mitteldeutschland.de/"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "time": "12:00",
     "competition": "Virsliga (Lettland)",
     "country": "Lettland",
     "home": "FK Jelgava",
