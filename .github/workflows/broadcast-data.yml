@@ -19,6 +19,8 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    outputs:
+      games_digest: ${{ steps.dataset.outputs.digest }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -50,6 +52,15 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+      - name: Record exact dataset for public verification
+        id: dataset
+        shell: python
+        run: |
+          import hashlib, json, os
+          data = json.load(open('games.json'))
+          digest = hashlib.sha256(json.dumps(data, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write('digest=' + digest + '\n')
       - name: Prepare website with current data
         run: |
           mkdir -p /tmp/broadcast-site
@@ -67,30 +78,37 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v4
         id: deployment
+        continue-on-error: true
         with:
           artifact_name: broadcast-site
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - name: Verify public today and tomorrow against committed data
+          timeout: 120000
+      - name: Verify complete public dataset even after a Pages timeout
+        env:
+          EXPECTED_DIGEST: ${{ needs.refresh.outputs.games_digest }}
+          DEPLOYMENT_OUTCOME: ${{ steps.deployment.outcome }}
         shell: python
         run: |
-          import collections, datetime, json, time, urllib.request
+          import collections, datetime, hashlib, json, os, time, urllib.request
           from zoneinfo import ZoneInfo
+          expected = os.environ['EXPECTED_DIGEST']
+          if not expected:
+              raise SystemExit('Missing expected dataset digest')
           today = datetime.datetime.now(ZoneInfo('Europe/Berlin')).date()
-          expected = collections.Counter(g['date'] for g in json.load(open('games.json')))
-          dates = [(today + datetime.timedelta(days=i)).isoformat() for i in range(2)]
-          for attempt in range(6):
+          dates = [(today + datetime.timedelta(days=i)).isoformat() for i in range(7)]
+          for attempt in range(12):
               try:
                   url = 'https://spieltagaktuell.de/games.json?verify=' + str(time.time_ns())
-                  with urllib.request.urlopen(url, timeout=30) as r:
-                      actual = collections.Counter(g['date'] for g in json.load(r))
-                  if all(actual[d] == expected[d] and actual[d] > 0 for d in dates):
-                      print('Public dataset verified:', {d: actual[d] for d in dates})
+                  with urllib.request.urlopen(url, timeout=30) as response:
+                      data = json.load(response)
+                  actual = hashlib.sha256(json.dumps(data, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+                  counts = collections.Counter(game['date'] for game in data)
+                  if actual == expected and all(counts[date] > 0 for date in dates):
+                      print('Complete public dataset verified:', {date: counts[date] for date in dates})
+                      if os.environ['DEPLOYMENT_OUTCOME'] != 'success':
+                          print('::warning::Pages reported a failure, but the exact complete dataset is publicly delivered.')
                       break
               except Exception as exc:
                   print('Verification retry:', exc)
-              if attempt == 5:
-                  raise SystemExit('Public data does not match today/tomorrow after deployment')
+              if attempt == 11:
+                  raise SystemExit('Complete public data does not match the generated dataset after deployment')
               time.sleep(10)
-
