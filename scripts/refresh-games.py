@@ -21,6 +21,9 @@ AUDIO_RX = re.compile('|'.join(json.loads((ROOT/'scripts/broadcast-audio.json').
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/193925/champions-league-frauen/fc-barcelona-frauen-fc-arsenal-wfc-frauen': (
+        '2026-11-12', '18:45',
+        'https://www.fcbarcelona.com/en/football/womens-football/news/4592187/fc-barcelona-statement'),
     'https://fussballgucken.info/match/197457/premiere-ligue-frankreich/fc-nantes-frauen-fc-toulouse-frauen': (
         '2026-11-06', '19:00',
         'https://www.toulousefc.com/play/blog/2026/11/le-match-des-violettes-face-au-fc-nantes-est-avance-au-vendredi'),
@@ -32,12 +35,34 @@ VERIFIED_KICKOFFS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-11', 'https://fussballgucken.info/match/197213/uefa-women-s-europa-cup/eintracht-frankfurt-frauen-psv-eindhoven-frauen'): {
+        'channels': ['EintrachtTV+'],
+        'url': 'https://frauen.eintracht.de/uefa-women-s-europa-cup/spielplan/eintracht-frankfurt-ladies-psv-women/vorschau/',
+        'name': 'Eintracht Frankfurt: Rückspiel am 11. November live auf EintrachtTV+',
+    },
     ('2026-11-10', 'https://fussballgucken.info/match/197214/uefa-women-s-europa-cup/feyenoord-rotterdam-frauen-vfl-wolfsburg-frauen'): {
         'channels': ['Feyenoord ONE (NL)'],
         'url': 'https://one.feyenoord.nl/schedule?uid=16985837558',
         'name': 'Feyenoord ONE – bestätigter Livestream (Niederlande)',
     },
 }
+
+
+# Confirmed fixtures not yet present in the daily listing.
+VERIFIED_ADDITIONAL_FIXTURES = [{
+    'date': '2026-11-11', 'time': '17:00',
+    'competition': 'Première Ligue (Frankreich)', 'country': 'Frankreich',
+    'home': 'FC Fleury 91 ♀', 'away': 'FC Toulouse ♀',
+    'channels': ['Arkema Première Ligue (YouTube)'],
+    'sources': [
+        {'url': 'https://www.toulousefc.com/equipes/feminines/resultats-calendrier',
+         'name': 'Offizieller Toulouse-Spielplan: Fleury am 11. November 17:00 Uhr'},
+        {'url': 'https://www.foottv.fr/equipes/toulouse-feminines',
+         'name': 'Bestätigte YouTube-Übertragung am 11. November'},
+        {'url': 'https://www.mon-match.com/matchs/fleury-91-f-vs-toulouse-f-24-10-2026',
+         'name': 'Weitere Bestätigung der YouTube-Übertragung und neuen Anstoßzeit'},
+    ],
+}]
 
 
 def fetch(url):
@@ -168,6 +193,15 @@ def main():
     dates = [(today + dt.timedelta(days=i)).isoformat() for i in range(7)]
     with ThreadPoolExecutor(max_workers=2) as pool:
         rows = [g for day in pool.map(read_day, dates) for g in day]
+    # Official rescheduling may move a listing beyond the rolling window.
+    rows = [g for g in rows if g['date'] in dates]
+    known = {(g['date'], g['home'], g['away']) for g in rows}
+    for fixture in VERIFIED_ADDITIONAL_FIXTURES:
+        key = (fixture['date'], fixture['home'], fixture['away'])
+        if fixture['date'] in dates and key not in known:
+            rows.append(dict(fixture, groups=groups_for(fixture['channels']),
+                             verifiedAt=dt.datetime.now(dt.timezone.utc).isoformat()))
+            known.add(key)
     rows.sort(key=lambda g:(g['date'],g['time'],g['home'],g['away']))
     keys = [(g['date'],g['time'],g['home'],g['away']) for g in rows]
     if len(keys) != len(set(keys)): raise ValueError('Duplicate source fixtures')
