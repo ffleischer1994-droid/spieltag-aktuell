@@ -81,7 +81,8 @@ jobs:
         continue-on-error: true
         with:
           artifact_name: broadcast-site
-          timeout: 120000
+          # Pages can remain deployment_queued for several minutes.
+          timeout: 600000
       - name: Verify complete public dataset even after a Pages timeout
         env:
           EXPECTED_DIGEST: ${{ needs.refresh.outputs.games_digest }}
