@@ -1,74 +1,4 @@
 {
-  "2026-11-04|AEK Athen|Real Madrid": {
-    "path": "spiel/aek-athen-real-madrid-2026-11-04",
-    "game": {
-      "date": "2026-11-04",
-      "time": "18:45",
-      "competition": "UEFA Champions League",
-      "country": "International",
-      "home": "AEK Athen",
-      "away": "Real Madrid",
-      "channels": [
-        "blue Sport (CH)",
-        "DAZN",
-        "Sky Sport Austria 1 (AT)",
-        "Sky Sport Austria 4 (AT)",
-        "WOW (AT)"
-      ],
-      "groups": [
-        "other",
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-04",
-          "name": "fußballgucken.info – Tagesplan 2026-11-04"
-        },
-        {
-          "url": "https://fussballgucken.info/match/192195/uefa-champions-league/aek-athen-real-madrid",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-04T19:42:58.939714+00:00"
-    },
-    "dataUpdated": "2026-11-04"
-  },
-  "2026-11-04|Fenerbahçe Istanbul|FC Liverpool": {
-    "path": "spiel/fenerbahce-istanbul-fc-liverpool-2026-11-04",
-    "game": {
-      "date": "2026-11-04",
-      "time": "18:45",
-      "competition": "UEFA Champions League",
-      "country": "International",
-      "home": "Fenerbahçe Istanbul",
-      "away": "FC Liverpool",
-      "channels": [
-        "blue Sport (CH)",
-        "DAZN",
-        "Sky Sport Austria 1 (AT)",
-        "Sky Sport Austria 3 (AT)",
-        "TRT 1",
-        "TRT 1 (Livestream)",
-        "WOW (AT)"
-      ],
-      "groups": [
-        "other",
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-04",
-          "name": "fußballgucken.info – Tagesplan 2026-11-04"
-        },
-        {
-          "url": "https://fussballgucken.info/match/192196/uefa-champions-league/fenerbahce-istanbul-fc-liverpool",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-04T19:42:58.900956+00:00"
-    },
-    "dataUpdated": "2026-11-04"
-  },
   "2026-11-04|Borussia Dortmund|Real Betis Balompié": {
     "path": "spiel/borussia-dortmund-real-betis-balompie-2026-11-04",
     "game": {
@@ -1139,45 +1069,6 @@
         }
       ],
       "verifiedAt": "2026-11-04T19:42:59.352658+00:00"
-    },
-    "dataUpdated": "2026-11-04"
-  },
-  "2026-11-04|SK Rapid Wien ♀|SKN St. Pölten ♀": {
-    "path": "spiel/sk-rapid-wien-frauen-skn-st-poelten-frauen-2026-11-04",
-    "game": {
-      "date": "2026-11-04",
-      "time": "19:00",
-      "competition": "ÖFB Frauen Bundesliga",
-      "country": "Österreich",
-      "home": "SK Rapid Wien ♀",
-      "away": "SKN St. Pölten ♀",
-      "channels": [
-        "LAOLA1 (Livestream)",
-        "ÖFB TV",
-        "ÖFB TV (via ÖFB App)"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-04",
-          "name": "fußballgucken.info – Tagesplan 2026-11-04"
-        },
-        {
-          "url": "https://fussballgucken.info/match/191049/oefb-frauen-bundesliga/sk-rapid-wien-frauen-skn-st-poelten-frauen",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.skrapid.at/tickets/naechste-spiele-uebersicht/naechste-spiele-frauen/",
-          "name": "Offizieller Vereinsplan – 4. November 2026, 19 Uhr"
-        },
-        {
-          "url": "https://www.oefb.tv/de/live",
-          "name": "ÖFB TV – bestätigter Livestream um 19 Uhr"
-        }
-      ],
-      "verifiedAt": "2026-11-04T19:42:59.066904+00:00"
     },
     "dataUpdated": "2026-11-04"
   },
@@ -8455,6 +8346,92 @@
         }
       ],
       "verifiedAt": "2026-11-04T19:43:06.744005+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|Nordkorea ♀ (U17)|Brasilien ♀ (U17)": {
+    "path": "spiel/nordkorea-frauen-u17-brasilien-frauen-u17-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "16:00",
+      "competition": "U17-WM (Frauen)",
+      "country": "International",
+      "home": "Nordkorea ♀ (U17)",
+      "away": "Brasilien ♀ (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198283/u17-wm-frauen/nordkorea-frauen-u17-brasilien-frauen-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.fifa.com/de/tournaments/womens/u17womensworldcup/morocco-2026/articles/u17-frauen-wm-2026-tag-13-halbfinale-spiele-vorschau",
+          "name": "FIFA: alle Turnierspiele kostenlos auf FIFA+"
+        },
+        {
+          "url": "https://www.cafonline.com/womens-football/news/nigeria-reach-fifa-u-17-women-s-world-cup-final-after-defeating-brazil/",
+          "name": "CAF: Nigeria besiegt Brasilien und trifft im Finale auf Japan"
+        },
+        {
+          "url": "https://www.fifa.com/en/tournaments/womens/u17womensworldcup/articles/u17-womens-world-cup-morocco-2026-match-schedule?searchOverlay=1",
+          "name": "FIFA: Finale und Spiel um Platz drei am 7. November"
+        }
+      ],
+      "verifiedAt": "2026-11-04T21:46:49.147075+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|Japan ♀ (U17)|Nigeria ♀ (U17)": {
+    "path": "spiel/japan-frauen-u17-nigeria-frauen-u17-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "19:30",
+      "competition": "U17-WM (Frauen)",
+      "country": "International",
+      "home": "Japan ♀ (U17)",
+      "away": "Nigeria ♀ (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198282/u17-wm-frauen/japan-frauen-u17-nigeria-frauen-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.fifa.com/de/tournaments/womens/u17womensworldcup/morocco-2026/articles/u17-frauen-wm-2026-tag-13-halbfinale-spiele-vorschau",
+          "name": "FIFA: alle Turnierspiele kostenlos auf FIFA+"
+        },
+        {
+          "url": "https://www.cafonline.com/womens-football/news/nigeria-reach-fifa-u-17-women-s-world-cup-final-after-defeating-brazil/",
+          "name": "CAF: Nigeria besiegt Brasilien und trifft im Finale auf Japan"
+        },
+        {
+          "url": "https://www.fifa.com/en/tournaments/womens/u17womensworldcup/articles/u17-womens-world-cup-morocco-2026-match-schedule?searchOverlay=1",
+          "name": "FIFA: Finale und Spiel um Platz drei am 7. November"
+        }
+      ],
+      "verifiedAt": "2026-11-04T21:47:07.129288+00:00"
     },
     "dataUpdated": "2026-11-04"
   }
