@@ -1181,39 +1181,6 @@
     },
     "dataUpdated": "2026-11-04"
   },
-  "2026-11-04|Borussia Dortmund (U19)|Real Betis Balompié (U19)": {
-    "path": "spiel/borussia-dortmund-u19-real-betis-balompie-u19-2026-11-04",
-    "game": {
-      "date": "2026-11-04",
-      "time": "16:00",
-      "competition": "UEFA Youth League",
-      "country": "International",
-      "home": "Borussia Dortmund (U19)",
-      "away": "Real Betis Balompié (U19)",
-      "channels": [
-        "Sky Sport Austria 1 (AT)",
-        "DAZN",
-        "UEFA.tv",
-        "WOW (AT)"
-      ],
-      "groups": [
-        "other",
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-04",
-          "name": "fußballgucken.info – Tagesplan 2026-11-04"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196083/uefa-youth-league/borussia-dortmund-u19-real-betis-balompie-u19",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-04T12:04:24.084391+00:00"
-    },
-    "dataUpdated": "2026-11-04"
-  },
   "2026-11-05|Palmeiras Sao Paulo|Clube do Remo": {
     "path": "spiel/palmeiras-sao-paulo-clube-do-remo-2026-11-05",
     "game": {
@@ -1380,6 +1347,7 @@
       "away": "SpVgg Greuther Fürth",
       "channels": [
         "Sky Sport Bundesliga 2",
+        "Sky Sport Bundesliga 3",
         "Sky Sport Top Event",
         "Sky (CH)",
         "WOW",
@@ -1398,9 +1366,13 @@
         {
           "url": "https://fussballgucken.info/match/193841/2-bundesliga/dynamo-dresden-spvgg-greuther-fuerth",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://sport.sky.de/fussball/artikel/2-bundesliga-heute-live-9-spieltag-im-tv-stream/12638324/34349",
+          "name": "Sky Sport: bestätigte Einzelkanäle am 6. November 2026"
         }
       ],
-      "verifiedAt": "2026-11-04T12:04:28.312757+00:00"
+      "verifiedAt": "2026-11-04T19:12:39.017594+00:00"
     },
     "dataUpdated": "2026-11-04"
   },
@@ -1415,6 +1387,7 @@
       "away": "Energie Cottbus",
       "channels": [
         "Sky Sport Bundesliga 2",
+        "Sky Sport Bundesliga 4",
         "Sky Sport Top Event",
         "Sky (CH)",
         "WOW",
@@ -1433,9 +1406,13 @@
         {
           "url": "https://fussballgucken.info/match/193844/2-bundesliga/eintracht-braunschweig-energie-cottbus",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://sport.sky.de/fussball/artikel/2-bundesliga-heute-live-9-spieltag-im-tv-stream/12638324/34349",
+          "name": "Sky Sport: bestätigte Einzelkanäle am 6. November 2026"
         }
       ],
-      "verifiedAt": "2026-11-04T12:04:28.333673+00:00"
+      "verifiedAt": "2026-11-04T19:12:38.865257+00:00"
     },
     "dataUpdated": "2026-11-04"
   },
@@ -6826,44 +6803,6 @@
         }
       ],
       "verifiedAt": "2026-11-04T12:04:29.417820+00:00"
-    },
-    "dataUpdated": "2026-11-04"
-  },
-  "2026-11-04|Stade Rennes|Olympiakos Piräus": {
-    "path": "spiel/stade-rennes-olympiakos-piraeus-2026-11-04",
-    "game": {
-      "date": "2026-11-04",
-      "time": "16:30",
-      "competition": "UEFA Europa League",
-      "country": "International",
-      "home": "Stade Rennes",
-      "away": "Olympiakos Piräus",
-      "channels": [
-        "blue Sport (CH)",
-        "Sky Sport Austria 2 (AT)",
-        "Sky Sport Mix",
-        "WOW",
-        "WOW (AT)"
-      ],
-      "groups": [
-        "other",
-        "sky"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-04",
-          "name": "fußballgucken.info – Tagesplan 2026-11-04"
-        },
-        {
-          "url": "https://fussballgucken.info/match/192696/uefa-europa-league/stade-rennes-olympiakos-piraeus",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21ed9f2ed2e9-6a5898dc1fb4-1000--change-of-date-and-kickoff-time-for-rennes-vs-olympiacos/",
-          "name": "UEFA – Vorverlegung auf 4. November, 16:30 Uhr"
-        }
-      ],
-      "verifiedAt": "2026-11-04T12:04:23.996690+00:00"
     },
     "dataUpdated": "2026-11-04"
   },
