@@ -21,6 +21,9 @@ AUDIO_RX = re.compile('|'.join(json.loads((ROOT/'scripts/broadcast-audio.json').
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/197457/premiere-ligue-frankreich/fc-nantes-frauen-fc-toulouse-frauen': (
+        '2026-11-06', '19:00',
+        'https://www.toulousefc.com/play/blog/2026/11/le-match-des-violettes-face-au-fc-nantes-est-avance-au-vendredi'),
     'https://fussballgucken.info/match/198168/fa-cup-england/plymouth-parkway-berkhamsted-fc': (
         '2026-11-09', '20:30',
         'https://www.ppfc.co.uk/fa-cup-ticket-information/'),
@@ -135,17 +138,18 @@ def read_day(date):
             print(f'{date}: skipping entry without confirmed video broadcast: {match_url}', flush=True)
             return None
         kickoff = VERIFIED_KICKOFFS.get(match_url)
-        if kickoff and kickoff[0] == date:
+        fixture_date = kickoff[0] if kickoff else date
+        if kickoff:
             time = kickoff[1]
         flag = item.select_one('.meta-flag a')
         country = flag.get('title', '').removeprefix('Länderseite ').strip() if flag else 'International'
-        return dict(date=date, time=time, competition=competition, country=country or 'International',
+        return dict(date=fixture_date, time=time, competition=competition, country=country or 'International',
                          home=home.get_text(' ', strip=True), away=away.get_text(' ', strip=True),
                          channels=channels, groups=groups_for(channels),
                          sources=[{'url':url,'name':f'fußballgucken.info – Tagesplan {date}'},
                                   {'url':match_url,'name':'Übertragungsdetails'}]
                                  + ([{'url':kickoff[2], 'name':'Offizielle Anstoßzeit (Europe/Berlin)'}]
-                                    if kickoff and kickoff[0] == date else [])
+                                    if kickoff else [])
                                  + ([{'url':researched['url'], 'name':researched['name']}]
                                     if researched else []),
                          verifiedAt=dt.datetime.now(dt.timezone.utc).isoformat())
