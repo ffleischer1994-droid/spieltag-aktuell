@@ -1181,38 +1181,6 @@
     },
     "dataUpdated": "2026-11-04"
   },
-  "2026-11-04|Melbourne Victory|Persib Bandung": {
-    "path": "spiel/melbourne-victory-persib-bandung-2026-11-04",
-    "game": {
-      "date": "2026-11-04",
-      "time": "08:45",
-      "competition": "AFC Champions League Two",
-      "country": "International",
-      "home": "Melbourne Victory",
-      "away": "Persib Bandung",
-      "channels": [
-        "blue Sport (CH)",
-        "Sportdigital Fussball 2",
-        "Sportdigital.de (Livestream)",
-        "Sportdigital+"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-04",
-          "name": "fußballgucken.info – Tagesplan 2026-11-04"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197778/afc-champions-league-two/melbourne-victory-persib-bandung",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-04T00:36:07.659853+00:00"
-    },
-    "dataUpdated": "2026-11-04"
-  },
   "2026-11-04|FC Seoul|Viettel FC": {
     "path": "spiel/fc-seoul-viettel-fc-2026-11-04",
     "game": {
@@ -1680,6 +1648,7 @@
       "home": "BSG Chemie Leipzig",
       "away": "FC Rot-Weiß Erfurt",
       "channels": [
+        "FUNKE Medien Thüringen",
         "LVZ+",
         "Mediengruppe Mitteldeutschland"
       ],
@@ -1694,9 +1663,13 @@
         {
           "url": "https://fussballgucken.info/match/197271/regionalliga-nordost/bsg-chemie-leipzig-fc-rot-weiss-erfurt",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.tlz.de/sport/article404402473/fussball-regionalliga-nordost-im-livestream.html",
+          "name": "FUNKE Medien Thüringen: bestätigter Livestream; Termin laut offiziellem Vereinsspielplan"
         }
       ],
-      "verifiedAt": "2026-11-04T00:36:12.066337+00:00"
+      "verifiedAt": "2026-11-04T11:25:59.419697+00:00"
     },
     "dataUpdated": "2026-11-04"
   },
@@ -2164,8 +2137,14 @@
       "away": "1899 Hoffenheim (U19)",
       "channels": [
         "blue Sport (CH)",
+        "Sky Sport Bundesliga",
+        "Sky Sport News",
+        "Sky Sport Top Event",
         "Sky Sport (YouTube)",
-        "skysport.de"
+        "Sky Sport News HD (Livestream)",
+        "skysport.de",
+        "WOW",
+        "Sky Sport News HD (mobil)"
       ],
       "groups": [
         "other",
@@ -2181,7 +2160,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-04T00:36:12.276705+00:00"
+      "verifiedAt": "2026-11-04T11:25:55.447599+00:00"
     },
     "dataUpdated": "2026-11-04"
   },
@@ -3153,15 +3132,17 @@
       "home": "1. FSV Mainz 05",
       "away": "FC Bayern München",
       "channels": [
-        "Sky Sport Bundesliga",
         "DAZN",
+        "Sky Sport Bundesliga",
+        "Sky Sport Top Event",
+        "Sky Sport Bundesliga UHD",
         "Sky (CH)",
         "WOW",
         "WOW (AT)"
       ],
       "groups": [
-        "sky",
         "dazn",
+        "sky",
         "other"
       ],
       "sources": [
@@ -3174,7 +3155,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-04T00:36:16.027246+00:00"
+      "verifiedAt": "2026-11-04T11:26:27.442156+00:00"
     },
     "dataUpdated": "2026-11-04"
   },
@@ -7166,6 +7147,679 @@
         }
       ],
       "verifiedAt": "2026-11-04T00:36:25.137388+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-06|Sydney FC|Central Coast Mariners": {
+    "path": "spiel/sydney-fc-central-coast-mariners-2026-11-06",
+    "game": {
+      "date": "2026-11-06",
+      "time": "09:40",
+      "competition": "A-League (Australien)",
+      "country": "Australien",
+      "home": "Sydney FC",
+      "away": "Central Coast Mariners",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "OneFootball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-06",
+          "name": "fußballgucken.info – Tagesplan 2026-11-06"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198200/a-league-australien/sydney-fc-central-coast-mariners",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://start.sportdigital.de/mediathek",
+          "name": "Offizieller SPORTDIGITAL-Spielplan und Livestreams"
+        },
+        {
+          "url": "https://start.sportdigital.de/tvprogramm/sdf/49884/Sydney%2BFC%2B-%2BCentral%2BCoast%2BMariners",
+          "name": "Offizielle SPORTDIGITAL-Liveübertragung"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:25:51.312759+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-06|Wisla Krakau|Cracovia Krakau": {
+    "path": "spiel/wisla-krakau-cracovia-krakau-2026-11-06",
+    "game": {
+      "date": "2026-11-06",
+      "time": "20:30",
+      "competition": "Ekstraklasa (Polen)",
+      "country": "Polen",
+      "home": "Wisla Krakau",
+      "away": "Cracovia Krakau",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "OneFootball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-06",
+          "name": "fußballgucken.info – Tagesplan 2026-11-06"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198241/ekstraklasa-polen/wisla-krakau-cracovia-krakau",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://start.sportdigital.de/mediathek",
+          "name": "Offizieller SPORTDIGITAL-Spielplan und Livestreams"
+        },
+        {
+          "url": "https://start.sportdigital.de/mediathek/36842/Wisla%2BKrakau%2B-%2BCracovia%2BKrakau",
+          "name": "SPORTDIGITAL+: bestätigter Livestream und Anstoßzeit"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:03.361248+00:00",
+      "channelLinks": {
+        "Sportdigital+": "https://start.sportdigital.de/mediathek/36842/Wisla%2BKrakau%2B-%2BCracovia%2BKrakau"
+      }
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|Melbourne City FC|Western Sydney Wanderers": {
+    "path": "spiel/melbourne-city-fc-western-sydney-wanderers-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "09:40",
+      "competition": "A-League (Australien)",
+      "country": "Australien",
+      "home": "Melbourne City FC",
+      "away": "Western Sydney Wanderers",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "OneFootball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198202/a-league-australien/melbourne-city-fc-western-sydney-wanderers",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://start.sportdigital.de/mediathek",
+          "name": "Offizieller SPORTDIGITAL-Spielplan und Livestreams"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:25:55.347942+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|Perth Glory FC|Newcastle United Jets": {
+    "path": "spiel/perth-glory-fc-newcastle-united-jets-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "11:45",
+      "competition": "A-League (Australien)",
+      "country": "Australien",
+      "home": "Perth Glory FC",
+      "away": "Newcastle United Jets",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "OneFootball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198203/a-league-australien/perth-glory-fc-newcastle-united-jets",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://start.sportdigital.de/mediathek",
+          "name": "Offizieller SPORTDIGITAL-Spielplan und Livestreams"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:25:55.515870+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|1. FC Kaiserslautern II|Stuttgarter Kickers": {
+    "path": "spiel/1-fc-kaiserslautern-ii-stuttgarter-kickers-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "14:00",
+      "competition": "Regionalliga Südwest",
+      "country": "Deutschland",
+      "home": "1. FC Kaiserslautern II",
+      "away": "Stuttgarter Kickers",
+      "channels": [
+        "Leagues",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198212/regionalliga-suedwest/1-fc-kaiserslautern-ii-stuttgarter-kickers",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.regionalliga-suedwest.de/",
+          "name": "Offizielle Liga: alle Spiele live auf LEAGUES"
+        },
+        {
+          "url": "https://ofc.de/mannschaften/spieltag-tabelle/?r=786",
+          "name": "Offizieller Spielplan: 15. Spieltag, 7. November 14:00 Uhr"
+        },
+        {
+          "url": "https://www.leagues.football/svk",
+          "name": "LEAGUES: bestätigter Livestream am 7. November 14:00 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:06.962329+00:00",
+      "channelLinks": {
+        "Leagues": "https://www.leagues.football/svk"
+      }
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|Chemnitzer FC|Greifswalder FC": {
+    "path": "spiel/chemnitzer-fc-greifswalder-fc-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "14:00",
+      "competition": "Regionalliga Nordost",
+      "country": "Deutschland",
+      "home": "Chemnitzer FC",
+      "away": "Greifswalder FC",
+      "channels": [
+        "MDR Fernsehen",
+        "MDR",
+        "MDR (ARD Mediathek)",
+        "MDR Mediathek",
+        "MDR+ Livestreams"
+      ],
+      "groups": [
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197268/regionalliga-nordost/chemnitzer-fc-greifswalder-fc",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.mdr.de/sport/ergebnisse/fussballmaenner-660~_gameplan-mannschaftfussball460.html",
+          "name": "MDR: Chemnitz–Greifswald am 7. November, Video Live"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:18.800553+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|Eintracht Trier|1. FSV Mainz 05 II": {
+    "path": "spiel/eintracht-trier-1-fsv-mainz-05-ii-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "14:00",
+      "competition": "Regionalliga Südwest",
+      "country": "Deutschland",
+      "home": "Eintracht Trier",
+      "away": "1. FSV Mainz 05 II",
+      "channels": [
+        "Leagues",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198209/regionalliga-suedwest/eintracht-trier-1-fsv-mainz-05-ii",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.regionalliga-suedwest.de/",
+          "name": "Offizielle Liga: alle Spiele live auf LEAGUES"
+        },
+        {
+          "url": "https://ofc.de/mannschaften/spieltag-tabelle/?r=786",
+          "name": "Offizieller Spielplan: 15. Spieltag, 7. November 14:00 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:10.613204+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|FC Astoria Walldorf|FC 08 Homburg": {
+    "path": "spiel/fc-astoria-walldorf-fc-08-homburg-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "14:00",
+      "competition": "Regionalliga Südwest",
+      "country": "Deutschland",
+      "home": "FC Astoria Walldorf",
+      "away": "FC 08 Homburg",
+      "channels": [
+        "Leagues",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198208/regionalliga-suedwest/fc-astoria-walldorf-fc-08-homburg",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.regionalliga-suedwest.de/",
+          "name": "Offizielle Liga: alle Spiele live auf LEAGUES"
+        },
+        {
+          "url": "https://ofc.de/mannschaften/spieltag-tabelle/?r=786",
+          "name": "Offizieller Spielplan: 15. Spieltag, 7. November 14:00 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:10.707182+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|FSV Frankfurt|SGV Freiberg": {
+    "path": "spiel/fsv-frankfurt-sgv-freiberg-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "14:00",
+      "competition": "Regionalliga Südwest",
+      "country": "Deutschland",
+      "home": "FSV Frankfurt",
+      "away": "SGV Freiberg",
+      "channels": [
+        "DFB.TV",
+        "DAZN",
+        "Leagues",
+        "OneFootball",
+        "DFB.TV+"
+      ],
+      "groups": [
+        "other",
+        "dazn"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198205/regionalliga-suedwest/fsv-frankfurt-sgv-freiberg",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.regionalliga-suedwest.de/",
+          "name": "Offizielle Liga: alle Spiele live auf LEAGUES"
+        },
+        {
+          "url": "https://ofc.de/mannschaften/spieltag-tabelle/?r=786",
+          "name": "Offizieller Spielplan: 15. Spieltag, 7. November 14:00 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:10.816238+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|Kickers Offenbach|SC Freiburg II": {
+    "path": "spiel/kickers-offenbach-sc-freiburg-ii-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "14:00",
+      "competition": "Regionalliga Südwest",
+      "country": "Deutschland",
+      "home": "Kickers Offenbach",
+      "away": "SC Freiburg II",
+      "channels": [
+        "Leagues",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198210/regionalliga-suedwest/kickers-offenbach-sc-freiburg-ii",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.regionalliga-suedwest.de/",
+          "name": "Offizielle Liga: alle Spiele live auf LEAGUES"
+        },
+        {
+          "url": "https://ofc.de/mannschaften/spieltag-tabelle/?r=786",
+          "name": "Offizieller Spielplan: 15. Spieltag, 7. November 14:00 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:10.688876+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|SG Barockstadt Fulda-Lehnerz|TSV Steinbach Haiger": {
+    "path": "spiel/sg-barockstadt-fulda-lehnerz-tsv-steinbach-haiger-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "14:00",
+      "competition": "Regionalliga Südwest",
+      "country": "Deutschland",
+      "home": "SG Barockstadt Fulda-Lehnerz",
+      "away": "TSV Steinbach Haiger",
+      "channels": [
+        "Leagues",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198207/regionalliga-suedwest/sg-barockstadt-fulda-lehnerz-tsv-steinbach-haiger",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.regionalliga-suedwest.de/",
+          "name": "Offizielle Liga: alle Spiele live auf LEAGUES"
+        },
+        {
+          "url": "https://ofc.de/mannschaften/spieltag-tabelle/?r=786",
+          "name": "Offizieller Spielplan: 15. Spieltag, 7. November 14:00 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:10.748474+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|SSV Ulm|VfR Mannheim": {
+    "path": "spiel/ssv-ulm-vfr-mannheim-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "14:00",
+      "competition": "Regionalliga Südwest",
+      "country": "Deutschland",
+      "home": "SSV Ulm",
+      "away": "VfR Mannheim",
+      "channels": [
+        "Leagues",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198204/regionalliga-suedwest/ssv-ulm-vfr-mannheim",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.regionalliga-suedwest.de/",
+          "name": "Offizielle Liga: alle Spiele live auf LEAGUES"
+        },
+        {
+          "url": "https://ofc.de/mannschaften/spieltag-tabelle/?r=786",
+          "name": "Offizieller Spielplan: 15. Spieltag, 7. November 14:00 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:14.755423+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|SV Sandhausen|Eintracht Frankfurt II": {
+    "path": "spiel/sv-sandhausen-eintracht-frankfurt-ii-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "14:00",
+      "competition": "Regionalliga Südwest",
+      "country": "Deutschland",
+      "home": "SV Sandhausen",
+      "away": "Eintracht Frankfurt II",
+      "channels": [
+        "Leagues",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198206/regionalliga-suedwest/sv-sandhausen-eintracht-frankfurt-ii",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.regionalliga-suedwest.de/",
+          "name": "Offizielle Liga: alle Spiele live auf LEAGUES"
+        },
+        {
+          "url": "https://ofc.de/mannschaften/spieltag-tabelle/?r=786",
+          "name": "Offizieller Spielplan: 15. Spieltag, 7. November 14:00 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:10.913635+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|VfR Aalen|KSV Hessen Kassel": {
+    "path": "spiel/vfr-aalen-ksv-hessen-kassel-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "14:00",
+      "competition": "Regionalliga Südwest",
+      "country": "Deutschland",
+      "home": "VfR Aalen",
+      "away": "KSV Hessen Kassel",
+      "channels": [
+        "Leagues",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198211/regionalliga-suedwest/vfr-aalen-ksv-hessen-kassel",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.regionalliga-suedwest.de/",
+          "name": "Offizielle Liga: alle Spiele live auf LEAGUES"
+        },
+        {
+          "url": "https://ofc.de/mannschaften/spieltag-tabelle/?r=786",
+          "name": "Offizieller Spielplan: 15. Spieltag, 7. November 14:00 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:06.932761+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|FC Farul Constanța|Rapid Bukarest": {
+    "path": "spiel/fc-farul-constanta-rapid-bukarest-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "16:30",
+      "competition": "SuperLiga (Rumänien)",
+      "country": "Rumänien",
+      "home": "FC Farul Constanța",
+      "away": "Rapid Bukarest",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198240/superliga-rumaenien/fc-farul-constanta-rapid-bukarest",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://start.sportdigital.de/mediathek",
+          "name": "Offizieller SPORTDIGITAL-Spielplan und Livestreams"
+        },
+        {
+          "url": "https://start.sportdigital.de/mediathek/36849/Farul%2BConstanta%2B-%2BRapid%2BBukarest",
+          "name": "SPORTDIGITAL+: bestätigter Livestream und Anstoßzeit"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:26:31.638164+00:00",
+      "channelLinks": {
+        "Sportdigital+": "https://start.sportdigital.de/mediathek/36849/Farul%2BConstanta%2B-%2BRapid%2BBukarest"
+      }
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-08|Viktoria Pilsen|Sparta Prag": {
+    "path": "spiel/viktoria-pilsen-sparta-prag-2026-11-08",
+    "game": {
+      "date": "2026-11-08",
+      "time": "18:00",
+      "competition": "Chance Liga (Tschechien)",
+      "country": "Tschechien",
+      "home": "Viktoria Pilsen",
+      "away": "Sparta Prag",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "OneFootball",
+        "Sportdigital Fussball 2",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-08",
+          "name": "fußballgucken.info – Tagesplan 2026-11-08"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198242/chance-liga-tschechien/viktoria-pilsen-sparta-prag",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://start.sportdigital.de/mediathek",
+          "name": "Offizieller SPORTDIGITAL-Spielplan und Livestreams"
+        },
+        {
+          "url": "https://start.sportdigital.de/mediathek/36857/Viktoria%2BPilsen%2B-%2BSparta%2BPrag",
+          "name": "SPORTDIGITAL+: bestätigter Livestream und Anstoßzeit"
+        }
+      ],
+      "verifiedAt": "2026-11-04T11:27:05.450036+00:00",
+      "channelLinks": {
+        "Sportdigital+": "https://start.sportdigital.de/mediathek/36857/Viktoria%2BPilsen%2B-%2BSparta%2BPrag"
+      }
     },
     "dataUpdated": "2026-11-04"
   }
