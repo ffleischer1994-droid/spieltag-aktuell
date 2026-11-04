@@ -2197,6 +2197,35 @@
   {
     "date": "2026-11-07",
     "time": "13:00",
+    "competition": "U19-DFB-Nachwuchsliga",
+    "country": "Deutschland",
+    "home": "Borussia Dortmund (U19)",
+    "away": "VfL Osnabrück (U19)",
+    "channels": [
+      "skysport.de"
+    ],
+    "groups": [
+      "sky"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197725/u19-dfb-nachwuchsliga/borussia-dortmund-u19-vfl-osnabrueck-u19",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.fussball.de/mannschaft/borussia-dortmund-borussia-dortmund-westfalen/-/saison/2627/team-id/011MIERNDO000000VTVG0001VTR8C1K7",
+        "name": "Offizieller Spielplan – 7. November 2026, 13 Uhr"
+      }
+    ],
+    "verifiedAt": "2026-11-04T10:14:40.486386+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "13:00",
     "competition": "2. Bundesliga",
     "country": "Deutschland",
     "home": "Holstein Kiel",
@@ -2953,31 +2982,6 @@
       }
     ],
     "verifiedAt": "2026-11-04T00:36:16.000798+00:00"
-  },
-  {
-    "date": "2026-11-07",
-    "time": "16:00",
-    "competition": "U19-DFB-Nachwuchsliga",
-    "country": "Deutschland",
-    "home": "Borussia Dortmund (U19)",
-    "away": "VfL Osnabrück (U19)",
-    "channels": [
-      "skysport.de"
-    ],
-    "groups": [
-      "sky"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
-        "name": "fußballgucken.info – Tagesplan 2026-11-07"
-      },
-      {
-        "url": "https://fussballgucken.info/match/197725/u19-dfb-nachwuchsliga/borussia-dortmund-u19-vfl-osnabrueck-u19",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-04T00:36:16.583886+00:00"
   },
   {
     "date": "2026-11-07",
