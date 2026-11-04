@@ -1598,6 +1598,43 @@
   {
     "date": "2026-11-06",
     "time": "19:00",
+    "competition": "Première Ligue (Frankreich)",
+    "country": "Frankreich",
+    "home": "FC Nantes ♀",
+    "away": "FC Toulouse ♀",
+    "channels": [
+      "Arkema Première Ligue (YouTube)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197457/premiere-ligue-frankreich/fc-nantes-frauen-fc-toulouse-frauen",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.lensois.com/arkema-pl-j8-rc-lens-lyon-est-desormais-fixe-le-programme-complet/",
+        "name": "Weitere Bestätigung der YouTube-Übertragung, Arkema Première Ligue J8"
+      },
+      {
+        "url": "https://www.toulousefc.com/play/blog/2026/11/le-match-des-violettes-face-au-fc-nantes-est-avance-au-vendredi",
+        "name": "Offizielle Verlegung auf Freitag, 6. November 19:00 Uhr und bestätigter YouTube-Livestream"
+      },
+      {
+        "url": "https://plus.fcnantes.com/feminines/20262027/calendrier_D1F.php",
+        "name": "Offizieller FC-Nantes-Spielplan mit YouTube-Übertragung"
+      }
+    ],
+    "verifiedAt": "2026-11-04T16:33:30.139738+00:00"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "19:00",
     "competition": "3. Liga",
     "country": "Deutschland",
     "home": "FC Viktoria Köln",
@@ -1620,6 +1657,39 @@
       }
     ],
     "verifiedAt": "2026-11-04T12:04:28.352884+00:00"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "19:00",
+    "competition": "Première Ligue (Frankreich)",
+    "country": "Frankreich",
+    "home": "Paris FC ♀",
+    "away": "HSC Montpellier ♀",
+    "channels": [
+      "Arkema Première Ligue (YouTube)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-06",
+        "name": "fußballgucken.info – Tagesplan 2026-11-06"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197459/premiere-ligue-frankreich/paris-fc-frauen-hsc-montpellier-frauen",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.lensois.com/arkema-pl-j8-rc-lens-lyon-est-desormais-fixe-le-programme-complet/",
+        "name": "Weitere Bestätigung der YouTube-Übertragung, Arkema Première Ligue J8"
+      },
+      {
+        "url": "https://parisfc.fr/match-center/women/119731/2026-11-06/paris-fc-vs-montpellier-arkema-premiere-ligue/",
+        "name": "Offizielle Anstoßzeit Paris FC–Montpellier"
+      }
+    ],
+    "verifiedAt": "2026-11-04T16:32:42.905592+00:00"
   },
   {
     "date": "2026-11-06",
@@ -2596,6 +2666,7 @@
     "home": "Manchester City ♀",
     "away": "West Ham United ♀",
     "channels": [
+      "blue Sport (CH)",
       "Sportdigital1+",
       "Sportdigital1+ (Livestream)",
       "Sportdigital+",
@@ -2616,7 +2687,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-04T12:04:30.167992+00:00"
+    "verifiedAt": "2026-11-04T16:32:54.123435+00:00"
   },
   {
     "date": "2026-11-07",
@@ -3870,6 +3941,35 @@
   {
     "date": "2026-11-07",
     "time": "18:00",
+    "competition": "Première Ligue (Frankreich)",
+    "country": "Frankreich",
+    "home": "FC Fleury 91 ♀",
+    "away": "Racing Straßburg ♀",
+    "channels": [
+      "Arkema Première Ligue (YouTube)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197456/premiere-ligue-frankreich/fc-fleury-91-frauen-racing-strassburg-frauen",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.lensois.com/arkema-pl-j8-rc-lens-lyon-est-desormais-fixe-le-programme-complet/",
+        "name": "Weitere Bestätigung der YouTube-Übertragung, Arkema Première Ligue J8"
+      }
+    ],
+    "verifiedAt": "2026-11-04T16:33:30.242933+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "18:00",
     "competition": "Super League (Schweiz)",
     "country": "Schweiz",
     "home": "FC Luzern",
@@ -3991,6 +4091,39 @@
       }
     ],
     "verifiedAt": "2026-11-04T12:04:35.856088+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "18:00",
+    "competition": "Première Ligue (Frankreich)",
+    "country": "Frankreich",
+    "home": "RC Lens ♀",
+    "away": "OL Lyonnes ♀",
+    "channels": [
+      "Arkema Première Ligue (YouTube)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197455/premiere-ligue-frankreich/rc-lens-frauen-ol-lyonnes-frauen",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.lensois.com/arkema-pl-j8-rc-lens-lyon-est-desormais-fixe-le-programme-complet/",
+        "name": "Weitere Bestätigung der YouTube-Übertragung, Arkema Première Ligue J8"
+      },
+      {
+        "url": "https://www.rclens.fr/fr/",
+        "name": "Offizieller Spielplan der Frauen: Lens–Lyon am 7. November 18:00 Uhr"
+      }
+    ],
+    "verifiedAt": "2026-11-04T16:33:30.400984+00:00"
   },
   {
     "date": "2026-11-07",
@@ -5127,6 +5260,7 @@
     "home": "FC Liverpool ♀",
     "away": "FC Arsenal WFC ♀",
     "channels": [
+      "blue Sport (CH)",
       "Sportdigital1+",
       "Sportdigital1+ (Livestream)",
       "Sportdigital+",
@@ -5147,7 +5281,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-04T12:04:34.896934+00:00"
+    "verifiedAt": "2026-11-04T16:33:21.231535+00:00"
   },
   {
     "date": "2026-11-08",
@@ -6241,6 +6375,7 @@
     "home": "London City Lionesses ♀",
     "away": "Birmingham City FC ♀",
     "channels": [
+      "blue Sport (CH)",
       "Sportdigital1+",
       "Sportdigital1+ (Livestream)",
       "Sportdigital+",
@@ -6261,7 +6396,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-04T12:04:40.110429+00:00"
+    "verifiedAt": "2026-11-04T16:33:55.180951+00:00"
   },
   {
     "date": "2026-11-08",
