@@ -1181,102 +1181,6 @@
     },
     "dataUpdated": "2026-11-04"
   },
-  "2026-11-04|FC Seoul|Viettel FC": {
-    "path": "spiel/fc-seoul-viettel-fc-2026-11-04",
-    "game": {
-      "date": "2026-11-04",
-      "time": "11:00",
-      "competition": "AFC Champions League Two",
-      "country": "International",
-      "home": "FC Seoul",
-      "away": "Viettel FC",
-      "channels": [
-        "blue Sport (CH)",
-        "Sportdigital Fussball 2",
-        "Sportdigital.de (Livestream)",
-        "Sportdigital+"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-04",
-          "name": "fußballgucken.info – Tagesplan 2026-11-04"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197777/afc-champions-league-two/fc-seoul-viettel-fc",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-04T12:04:23.920072+00:00"
-    },
-    "dataUpdated": "2026-11-04"
-  },
-  "2026-11-04|Buriram United|Kashima Antlers": {
-    "path": "spiel/buriram-united-kashima-antlers-2026-11-04",
-    "game": {
-      "date": "2026-11-04",
-      "time": "13:15",
-      "competition": "AFC Champions League Elite",
-      "country": "International",
-      "home": "Buriram United",
-      "away": "Kashima Antlers",
-      "channels": [
-        "blue Sport (CH)",
-        "Sportdigital1+",
-        "Sportdigital1+ (Livestream)",
-        "Sportdigital+",
-        "Sportdigital1+ HD (MagentaTV)",
-        "Sportdigital1+ HD (Sky)"
-      ],
-      "groups": [
-        "other",
-        "sky"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-04",
-          "name": "fußballgucken.info – Tagesplan 2026-11-04"
-        },
-        {
-          "url": "https://fussballgucken.info/match/197776/afc-champions-league-elite/buriram-united-kashima-antlers",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-04T12:04:24.001471+00:00"
-    },
-    "dataUpdated": "2026-11-04"
-  },
-  "2026-11-04|RC Lens (U19)|Como 1907 (U19)": {
-    "path": "spiel/rc-lens-u19-como-1907-u19-2026-11-04",
-    "game": {
-      "date": "2026-11-04",
-      "time": "14:00",
-      "competition": "UEFA Youth League",
-      "country": "International",
-      "home": "RC Lens (U19)",
-      "away": "Como 1907 (U19)",
-      "channels": [
-        "UEFA.tv"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-04",
-          "name": "fußballgucken.info – Tagesplan 2026-11-04"
-        },
-        {
-          "url": "https://fussballgucken.info/match/196592/uefa-youth-league/rc-lens-u19-como-1907-u19",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-04T12:04:23.806803+00:00"
-    },
-    "dataUpdated": "2026-11-04"
-  },
   "2026-11-04|Borussia Dortmund (U19)|Real Betis Balompié (U19)": {
     "path": "spiel/borussia-dortmund-u19-real-betis-balompie-u19-2026-11-04",
     "game": {
@@ -7902,6 +7806,7 @@
       "home": "Manchester City ♀",
       "away": "West Ham United ♀",
       "channels": [
+        "blue Sport (CH)",
         "Sportdigital1+",
         "Sportdigital1+ (Livestream)",
         "Sportdigital+",
@@ -7922,7 +7827,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-04T12:04:30.167992+00:00"
+      "verifiedAt": "2026-11-04T16:32:54.123435+00:00"
     },
     "dataUpdated": "2026-11-04"
   },
@@ -8042,6 +7947,7 @@
       "home": "FC Liverpool ♀",
       "away": "FC Arsenal WFC ♀",
       "channels": [
+        "blue Sport (CH)",
         "Sportdigital1+",
         "Sportdigital1+ (Livestream)",
         "Sportdigital+",
@@ -8062,7 +7968,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-04T12:04:34.896934+00:00"
+      "verifiedAt": "2026-11-04T16:33:21.231535+00:00"
     },
     "dataUpdated": "2026-11-04"
   },
@@ -8203,6 +8109,7 @@
       "home": "London City Lionesses ♀",
       "away": "Birmingham City FC ♀",
       "channels": [
+        "blue Sport (CH)",
         "Sportdigital1+",
         "Sportdigital1+ (Livestream)",
         "Sportdigital+",
@@ -8223,7 +8130,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-04T12:04:40.110429+00:00"
+      "verifiedAt": "2026-11-04T16:33:55.180951+00:00"
     },
     "dataUpdated": "2026-11-04"
   },
@@ -8450,6 +8357,154 @@
         }
       ],
       "verifiedAt": "2026-11-04T12:04:44.016650+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-06|FC Nantes ♀|FC Toulouse ♀": {
+    "path": "spiel/fc-nantes-frauen-fc-toulouse-frauen-2026-11-06",
+    "game": {
+      "date": "2026-11-06",
+      "time": "19:00",
+      "competition": "Première Ligue (Frankreich)",
+      "country": "Frankreich",
+      "home": "FC Nantes ♀",
+      "away": "FC Toulouse ♀",
+      "channels": [
+        "Arkema Première Ligue (YouTube)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197457/premiere-ligue-frankreich/fc-nantes-frauen-fc-toulouse-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.lensois.com/arkema-pl-j8-rc-lens-lyon-est-desormais-fixe-le-programme-complet/",
+          "name": "Weitere Bestätigung der YouTube-Übertragung, Arkema Première Ligue J8"
+        },
+        {
+          "url": "https://www.toulousefc.com/play/blog/2026/11/le-match-des-violettes-face-au-fc-nantes-est-avance-au-vendredi",
+          "name": "Offizielle Verlegung auf Freitag, 6. November 19:00 Uhr und bestätigter YouTube-Livestream"
+        },
+        {
+          "url": "https://plus.fcnantes.com/feminines/20262027/calendrier_D1F.php",
+          "name": "Offizieller FC-Nantes-Spielplan mit YouTube-Übertragung"
+        }
+      ],
+      "verifiedAt": "2026-11-04T16:33:30.139738+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-06|Paris FC ♀|HSC Montpellier ♀": {
+    "path": "spiel/paris-fc-frauen-hsc-montpellier-frauen-2026-11-06",
+    "game": {
+      "date": "2026-11-06",
+      "time": "19:00",
+      "competition": "Première Ligue (Frankreich)",
+      "country": "Frankreich",
+      "home": "Paris FC ♀",
+      "away": "HSC Montpellier ♀",
+      "channels": [
+        "Arkema Première Ligue (YouTube)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-06",
+          "name": "fußballgucken.info – Tagesplan 2026-11-06"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197459/premiere-ligue-frankreich/paris-fc-frauen-hsc-montpellier-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.lensois.com/arkema-pl-j8-rc-lens-lyon-est-desormais-fixe-le-programme-complet/",
+          "name": "Weitere Bestätigung der YouTube-Übertragung, Arkema Première Ligue J8"
+        },
+        {
+          "url": "https://parisfc.fr/match-center/women/119731/2026-11-06/paris-fc-vs-montpellier-arkema-premiere-ligue/",
+          "name": "Offizielle Anstoßzeit Paris FC–Montpellier"
+        }
+      ],
+      "verifiedAt": "2026-11-04T16:32:42.905592+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|FC Fleury 91 ♀|Racing Straßburg ♀": {
+    "path": "spiel/fc-fleury-91-frauen-racing-strassburg-frauen-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "18:00",
+      "competition": "Première Ligue (Frankreich)",
+      "country": "Frankreich",
+      "home": "FC Fleury 91 ♀",
+      "away": "Racing Straßburg ♀",
+      "channels": [
+        "Arkema Première Ligue (YouTube)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197456/premiere-ligue-frankreich/fc-fleury-91-frauen-racing-strassburg-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.lensois.com/arkema-pl-j8-rc-lens-lyon-est-desormais-fixe-le-programme-complet/",
+          "name": "Weitere Bestätigung der YouTube-Übertragung, Arkema Première Ligue J8"
+        }
+      ],
+      "verifiedAt": "2026-11-04T16:33:30.242933+00:00"
+    },
+    "dataUpdated": "2026-11-04"
+  },
+  "2026-11-07|RC Lens ♀|OL Lyonnes ♀": {
+    "path": "spiel/rc-lens-frauen-ol-lyonnes-frauen-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "18:00",
+      "competition": "Première Ligue (Frankreich)",
+      "country": "Frankreich",
+      "home": "RC Lens ♀",
+      "away": "OL Lyonnes ♀",
+      "channels": [
+        "Arkema Première Ligue (YouTube)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197455/premiere-ligue-frankreich/rc-lens-frauen-ol-lyonnes-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.lensois.com/arkema-pl-j8-rc-lens-lyon-est-desormais-fixe-le-programme-complet/",
+          "name": "Weitere Bestätigung der YouTube-Übertragung, Arkema Première Ligue J8"
+        },
+        {
+          "url": "https://www.rclens.fr/fr/",
+          "name": "Offizieller Spielplan der Frauen: Lens–Lyon am 7. November 18:00 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-04T16:33:30.400984+00:00"
     },
     "dataUpdated": "2026-11-04"
   }
