@@ -3759,6 +3759,45 @@
   },
   {
     "date": "2026-11-07",
+    "time": "16:00",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Nordkorea ♀ (U17)",
+    "away": "Brasilien ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198283/u17-wm-frauen/nordkorea-frauen-u17-brasilien-frauen-u17",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.fifa.com/de/tournaments/womens/u17womensworldcup/morocco-2026/articles/u17-frauen-wm-2026-tag-13-halbfinale-spiele-vorschau",
+        "name": "FIFA: alle Turnierspiele kostenlos auf FIFA+"
+      },
+      {
+        "url": "https://www.cafonline.com/womens-football/news/nigeria-reach-fifa-u-17-women-s-world-cup-final-after-defeating-brazil/",
+        "name": "CAF: Nigeria besiegt Brasilien und trifft im Finale auf Japan"
+      },
+      {
+        "url": "https://www.fifa.com/en/tournaments/womens/u17womensworldcup/articles/u17-womens-world-cup-morocco-2026-match-schedule?searchOverlay=1",
+        "name": "FIFA: Finale und Spiel um Platz drei am 7. November"
+      }
+    ],
+    "verifiedAt": "2026-11-04T21:46:49.147075+00:00"
+  },
+  {
+    "date": "2026-11-07",
     "time": "16:15",
     "competition": "La Liga (Spanien)",
     "country": "Spanien",
@@ -4286,6 +4325,45 @@
       }
     ],
     "verifiedAt": "2026-11-04T19:43:07.344563+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "19:30",
+    "competition": "U17-WM (Frauen)",
+    "country": "International",
+    "home": "Japan ♀ (U17)",
+    "away": "Nigeria ♀ (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198282/u17-wm-frauen/japan-frauen-u17-nigeria-frauen-u17",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.fifa.com/de/tournaments/womens/u17womensworldcup/morocco-2026/articles/u17-frauen-wm-2026-tag-13-halbfinale-spiele-vorschau",
+        "name": "FIFA: alle Turnierspiele kostenlos auf FIFA+"
+      },
+      {
+        "url": "https://www.cafonline.com/womens-football/news/nigeria-reach-fifa-u-17-women-s-world-cup-final-after-defeating-brazil/",
+        "name": "CAF: Nigeria besiegt Brasilien und trifft im Finale auf Japan"
+      },
+      {
+        "url": "https://www.fifa.com/en/tournaments/womens/u17womensworldcup/articles/u17-womens-world-cup-morocco-2026-match-schedule?searchOverlay=1",
+        "name": "FIFA: Finale und Spiel um Platz drei am 7. November"
+      }
+    ],
+    "verifiedAt": "2026-11-04T21:47:07.129288+00:00"
   },
   {
     "date": "2026-11-07",
