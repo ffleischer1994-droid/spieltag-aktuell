@@ -21,9 +21,9 @@ def match_page_candidate(g):
 def match_expired(g,now):
  try:
   start=dt.datetime.fromisoformat(g['date']+'T'+g['time']).replace(tzinfo=ZoneInfo('Europe/Berlin'))
-  return start+dt.timedelta(hours=3)<=now
+  return start+dt.timedelta(days=7,hours=3)<=now
  except (KeyError,ValueError):
-  return g.get('date','')<now.date().isoformat()
+  return g.get('date','')<(now.date()-dt.timedelta(days=7)).isoformat()
 CSS='''@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;500;700;900&display=swap');:root{--pink:#F2AFC0;--black:#000;--bg:var(--pink);--ink:var(--black);--r:16px}*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;background:var(--bg);color:var(--ink);font:16px Roboto,Arial,sans-serif}a{color:inherit}a[href],button{cursor:pointer}header{border-bottom:1px solid var(--ink);background:var(--bg);position:sticky;top:0;z-index:100}.head{max-width:1120px;margin:auto;padding:14px 22px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center}.head>a{grid-column:2;justify-self:center}.logo{width:270px;max-width:62vw;display:block}.theme{grid-column:3;justify-self:end;display:grid;place-items:center;padding:0;border:2px solid var(--ink);border-radius:999px;width:46px;height:46px;background:var(--bg);color:var(--ink);font-size:0}.theme .moon{width:22px;height:22px;border-radius:50%;background:var(--ink);position:relative;display:block}.theme .moon:after{content:"";position:absolute;width:18px;height:18px;border-radius:50%;background:var(--bg);left:7px;top:-3px}.theme .sun{display:none;font-size:28px;line-height:1;font-weight:900}.wrap{max-width:1120px;margin:auto;padding:30px 22px 65px}h1,h2,.teams{font-family:'Archivo Black',Arial,sans-serif}h1{font-size:clamp(32px,6vw,62px);line-height:1.06;margin:22px 0;overflow-wrap:anywhere}h2{font-size:clamp(23px,4vw,32px);line-height:1.15;overflow-wrap:anywhere}p{line-height:1.6}.intro{max-width:850px;font-size:18px}.status{font-size:14px;line-height:1.6}.links{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}.links a,.pill{border:1px solid var(--ink);border-radius:999px;padding:8px 12px;text-decoration:none;font-weight:900;font-size:13px;max-width:100%;overflow-wrap:anywhere;background:transparent}.links a:hover{background:var(--ink);color:var(--bg)}.game{display:grid;grid-template-columns:125px minmax(0,1fr);gap:18px;border-top:1px solid var(--ink);padding:22px 0}.game>div{min-width:0}.when{font-weight:900;line-height:1.6}.teams{font-size:23px;line-height:1.2;overflow-wrap:anywhere}.teams a{text-decoration-thickness:2px;text-underline-offset:3px}.meta{font-size:14px;line-height:1.5;margin-top:8px;overflow-wrap:anywhere}.providers{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}.badge{background:var(--ink);color:var(--bg);border:1px solid var(--ink);border-radius:999px;padding:7px 10px;font-size:13px;font-weight:900;text-decoration:none;display:inline-flex;align-items:center;max-width:100%;overflow-wrap:anywhere}.badge:hover{background:var(--bg);color:var(--ink)}.box{border:1px solid var(--ink);border-radius:18px;padding:22px;margin:22px 0;overflow-wrap:anywhere}.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.fact strong{display:block;font-size:22px;margin-top:7px;overflow-wrap:anywhere}.label{font-size:13px;font-weight:900}.footer{border-top:1px solid var(--ink);padding-top:20px;margin-top:36px}.source{font-size:14px;overflow-wrap:anywhere}body.dark-mode{--bg:#000;--ink:var(--pink)}body.dark-mode .logo{filter:brightness(0) saturate(100%) invert(83%) sepia(18%) saturate(1034%) hue-rotate(294deg) brightness(99%) contrast(92%)}body.dark-mode .theme .moon{display:none}body.dark-mode .theme .sun{display:block}body.dark-mode .badge{background:var(--pink);color:#000;border-color:var(--pink)}body.dark-mode .badge:hover{background:#000;color:var(--pink)}@media(max-width:850px){.logo{width:220px}}@media(max-width:560px){.head{padding:10px 12px;grid-template-columns:46px 1fr 46px}.logo{width:180px}.theme{width:46px;height:46px}.wrap{padding:24px 12px 45px}.game{grid-template-columns:1fr;gap:8px}.facts{grid-template-columns:1fr}.teams{font-size:21px}}'''
 CSS += '''.club-manager{display:grid;gap:14px}.club-search{width:100%;height:48px;border:1px solid var(--ink);border-radius:999px;background:var(--bg);color:var(--ink);padding:0 16px;font:700 16px Roboto,Arial,sans-serif}.club-list{display:grid;gap:8px}.club-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;border-top:1px solid var(--ink);padding:10px 0}.club-row:first-child{border-top:0}.club-row>a{font-weight:900;text-decoration:none;overflow-wrap:anywhere}.fav-team-btn{border:1px solid var(--ink);border-radius:999px;background:transparent;color:var(--ink);padding:8px 11px;font-weight:900;white-space:nowrap}.fav-team-btn.active{background:var(--ink);color:var(--bg)}body.dark-mode .fav-team-btn.active{background:var(--pink);color:#000}.ad-slot[hidden]{display:none}@media(max-width:560px){.club-row{grid-template-columns:minmax(0,1fr) auto}.fav-team-btn{font-size:12px;padding:7px 9px}}'''
 THEME="""(()=>{const b=document.querySelector('.theme');const sync=()=>{const dark=localStorage.getItem('sa-theme')==='dark';document.body.classList.toggle('dark-mode',dark);b.innerHTML=dark?'<span class="sun" aria-hidden="true">☀</span>':'<span class="moon" aria-hidden="true"></span>';b.setAttribute('aria-label',dark?'Light Mode aktivieren':'Dark Mode aktivieren');b.setAttribute('aria-pressed',String(dark));document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#000000':'#F2AFC0')};b.onclick=()=>{localStorage.setItem('sa-theme',document.body.classList.contains('dark-mode')?'light':'dark');sync()};sync()})()"""
@@ -38,7 +38,7 @@ def main():
   dt.date.fromisoformat(g['date']);dt.time.fromisoformat(g['time']);assert all(g.get(k) for k in ('home','away','competition','country','channels'))
  window=[g for g in games if today.isoformat()<=g['date']<=(today+dt.timedelta(days=6)).isoformat()]
  config=json.loads((ROOT/'seo/config.json').read_text());registry=json.loads((ROOT/'seo/matches.json').read_text()) if (ROOT/'seo/matches.json').exists() else {}
- # Match pages are intentionally ephemeral: remove them automatically after the fixture has finished.
+ # Preserve completed match pages for seven full days (plus a three-hour match window).
  for k,v in list(registry.items()):
   rg=v.get('game',{})
   if rg and match_expired(rg,now):
@@ -49,7 +49,7 @@ def main():
  if spiel_root.is_dir():
   for d in spiel_root.iterdir():
    m=re.search(r'-(\d{4}-\d{2}-\d{2})$',d.name)
-   if d.is_dir() and m and m.group(1)<today.isoformat():shutil.rmtree(d)
+   if d.is_dir() and m and m.group(1)<(today-dt.timedelta(days=7)).isoformat():shutil.rmtree(d)
  known={key(g):g for g in window if match_page_candidate(g) and not match_expired(g,now)}
  # Cover every confirmed broadcast; never cap pages by league, gender or popularity.
  featured=sorted([g for g in window if g.get('featuredPage') and key(g) in known],key=lambda g:(g['date'],g['time']))
@@ -164,7 +164,7 @@ def main():
   start=dt.datetime.fromisoformat(g['date']+'T'+g['time']).replace(tzinfo=ZoneInfo('Europe/Berlin')).isoformat()
   schema={'@context':'https://schema.org','@type':'SportsEvent','name':name,'startDate':start,'sport':'Fußball','url':url(v['path']),'homeTeam':{'@type':'SportsTeam','name':g['home']},'awayTeam':{'@type':'SportsTeam','name':g['away']}}
   if g.get('venue'):schema['location']={'@type':'Place','name':g['venue'].get('name',''),'address':{'@type':'PostalAddress','addressLocality':g['venue'].get('city',''),'addressCountry':g['venue'].get('country','')}}
-  page(v['path'],title,name+' am '+pretty(g['date'])+': Anstoß '+g['time']+' Uhr, TV- und Streaminganbieter sowie Informationen zum deutschen Free-TV.',body,schema,index=current)
+  page(v['path'],title,name+' am '+pretty(g['date'])+': Anstoß '+g['time']+' Uhr, TV- und Streaminganbieter sowie Informationen zum deutschen Free-TV.',body,schema,index=True)
  (ROOT/'seo/matches.json').write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
  # Add generated match links without altering the interactive application.
  p=ROOT/'index.html';text=p.read_text();text=re.sub(r'const MATCH_PAGES=\{[\s\S]*?\};','const MATCH_PAGES='+json.dumps({k:'/'+p+'/' for k,p in match_links.items()},ensure_ascii=False)+';',text)
@@ -185,7 +185,7 @@ def main():
  text=text.replace('heute und den nächsten 7 Tagen','heute und den nächsten sechs Tagen')
  if '/vereine/' not in text:text=text.replace('<a href="/ueber/">Über uns</a>','<a href="/vereine/">Vereine</a><a href="/sender/">Senderübersicht</a><a href="/ueber/">Über uns</a>',1)
  p.write_text(text)
- # Only publish indexable public pages; no social previews or expired fixtures.
+ # Publish retained, indexable match pages including the seven-day post-match archive.
  urls=[]
  for p in sorted(ROOT.rglob('index.html')):
   relative=p.relative_to(ROOT).as_posix()
