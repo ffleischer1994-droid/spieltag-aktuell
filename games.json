@@ -94,31 +94,6 @@
   },
   {
     "date": "2026-11-06",
-    "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "Westfalia Rhynern",
-    "away": "SC Paderborn 07 II",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-06",
-        "name": "fußballgucken.info – Tagesplan 2026-11-06"
-      },
-      {
-        "url": "https://fussballgucken.info/match/197315/regionalliga-west/westfalia-rhynern-sc-paderborn-07-ii",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-06T15:54:06.285546+00:00"
-  },
-  {
-    "date": "2026-11-06",
     "time": "14:30",
     "competition": "Premjer Liha (Ukraine)",
     "country": "Ukraine",
@@ -402,6 +377,31 @@
       }
     ],
     "verifiedAt": "2026-11-06T15:54:07.182975+00:00"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "19:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "Kickers Emden",
+    "away": "VfB Lübeck",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-06",
+        "name": "fußballgucken.info – Tagesplan 2026-11-06"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198356/regionalliga-nord/kickers-emden-vfb-luebeck",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-06T19:30:17.104888+00:00"
   },
   {
     "date": "2026-11-06",
@@ -1617,6 +1617,31 @@
   {
     "date": "2026-11-07",
     "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "Eimsbütteler TV",
+    "away": "SV Todesfelde",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198353/regionalliga-nord/eimsbuetteler-tv-sv-todesfelde",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-06T19:30:17.634456+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "14:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
     "home": "Eintracht Trier",
@@ -2080,6 +2105,31 @@
   {
     "date": "2026-11-07",
     "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "SV Werder Bremen II",
+    "away": "Bremer SV",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198350/regionalliga-nord/sv-werder-bremen-ii-bremer-sv",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-06T19:30:17.669452+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "14:00",
     "competition": "Regionalliga West",
     "country": "Deutschland",
     "home": "Sportfreunde Lotte",
@@ -2161,6 +2211,35 @@
       }
     ],
     "verifiedAt": "2026-11-06T15:54:09.920219+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "14:00",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "Westfalia Rhynern",
+    "away": "SC Paderborn 07 II",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197315/regionalliga-west/westfalia-rhynern-sc-paderborn-07-ii",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.westfalia-rhynern.de/matchcenter/spiel/1a212ac7-acc7-11f1-b8ef-0661027b5143",
+        "name": "Westfalia Rhynern – offizieller Spieltermin"
+      }
+    ],
+    "verifiedAt": "2026-11-06T19:30:17.707158+00:00"
   },
   {
     "date": "2026-11-07",
@@ -2315,6 +2394,31 @@
   {
     "date": "2026-11-07",
     "time": "15:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "Hannover 96 II",
+    "away": "SC Weiche Flensburg",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198354/regionalliga-nord/hannover-96-ii-sc-weiche-flensburg",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-06T19:30:18.142222+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "15:00",
     "competition": "Serie B (Italien)",
     "country": "Italien",
     "home": "Pisa Sporting Club",
@@ -2361,6 +2465,31 @@
       }
     ],
     "verifiedAt": "2026-11-06T15:54:11.114664+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "15:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "SV Atlas Delmenhorst",
+    "away": "FSV Schöningen",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198351/regionalliga-nord/sv-atlas-delmenhorst-fsv-schoeningen",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-06T19:30:18.178658+00:00"
   },
   {
     "date": "2026-11-07",
@@ -2914,6 +3043,31 @@
   },
   {
     "date": "2026-11-07",
+    "time": "18:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "VfB Oldenburg",
+    "away": "FC St. Pauli II",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198349/regionalliga-nord/vfb-oldenburg-fc-st-pauli-ii",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-06T19:30:18.616351+00:00"
+  },
+  {
+    "date": "2026-11-07",
     "time": "18:30",
     "competition": "La Liga (Spanien)",
     "country": "Spanien",
@@ -3008,6 +3162,7 @@
     "channels": [
       "blue Sport (CH)",
       "Sportdigital Fussball",
+      "OneFootball",
       "Sportdigital.de (Livestream)",
       "Sportdigital+",
       "Sportdigital Fussball (MagentaSport)",
@@ -3030,7 +3185,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-06T15:54:14.175324+00:00"
+    "verifiedAt": "2026-11-06T19:30:18.656753+00:00"
   },
   {
     "date": "2026-11-07",
@@ -3330,6 +3485,7 @@
     "away": "Glasgow Rangers",
     "channels": [
       "blue Sport (CH)",
+      "OneFootball",
       "Sportdigital Fussball 2",
       "Sportdigital.de (Livestream)",
       "Sportdigital+"
@@ -3347,7 +3503,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-06T15:54:15.371415+00:00"
+    "verifiedAt": "2026-11-06T19:30:19.007900+00:00"
   },
   {
     "date": "2026-11-07",
@@ -3384,6 +3540,7 @@
     "channels": [
       "blue Sport (CH)",
       "Sportdigital Fussball",
+      "OneFootball",
       "Sportdigital.de (Livestream)",
       "Sportdigital+",
       "Sportdigital Fussball (MagentaSport)",
@@ -3406,7 +3563,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-06T15:54:15.616786+00:00"
+    "verifiedAt": "2026-11-06T19:30:19.077397+00:00"
   },
   {
     "date": "2026-11-07",
@@ -4004,6 +4161,7 @@
     "channels": [
       "blue Sport (CH)",
       "Sportdigital Fussball",
+      "OneFootball",
       "Sportdigital.de (Livestream)",
       "Sportdigital+",
       "Sportdigital Fussball (MagentaSport)",
@@ -4026,7 +4184,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-06T15:54:12.373145+00:00"
+    "verifiedAt": "2026-11-06T19:30:19.300571+00:00"
   },
   {
     "date": "2026-11-08",
@@ -4313,6 +4471,31 @@
   {
     "date": "2026-11-08",
     "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "1. FC Phönix Lübeck",
+    "away": "Hamburger SV II",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-08",
+        "name": "fußballgucken.info – Tagesplan 2026-11-08"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198348/regionalliga-nord/1-fc-phoenix-luebeck-hamburger-sv-ii",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-06T19:30:19.832703+00:00"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "14:00",
     "competition": "Frauen-Bundesliga",
     "country": "Deutschland",
     "home": "1. FC Union Berlin ♀",
@@ -4362,6 +4545,31 @@
       }
     ],
     "verifiedAt": "2026-11-06T15:54:13.753072+00:00"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "Eintracht Norderstedt",
+    "away": "SV Drochtersen/Assel",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-08",
+        "name": "fußballgucken.info – Tagesplan 2026-11-08"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198352/regionalliga-nord/eintracht-norderstedt-sv-drochtersen-assel",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-06T19:30:19.927753+00:00"
   },
   {
     "date": "2026-11-08",
@@ -4525,6 +4733,31 @@
       }
     ],
     "verifiedAt": "2026-11-06T15:54:13.596040+00:00"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "HSC Hannover",
+    "away": "SSV Jeddeloh II",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-08",
+        "name": "fußballgucken.info – Tagesplan 2026-11-08"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198355/regionalliga-nord/hsc-hannover-ssv-jeddeloh-ii",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-06T19:30:19.742999+00:00"
   },
   {
     "date": "2026-11-08",
@@ -4806,6 +5039,7 @@
     "channels": [
       "blue Sport (CH)",
       "Sportdigital Fussball",
+      "OneFootball",
       "Sportdigital.de (Livestream)",
       "Sportdigital+",
       "Sportdigital Fussball (MagentaSport)",
@@ -4828,7 +5062,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-06T15:54:15.084451+00:00"
+    "verifiedAt": "2026-11-06T19:30:20.050079+00:00"
   },
   {
     "date": "2026-11-08",
@@ -5402,6 +5636,7 @@
     "home": "AZ Alkmaar",
     "away": "FC Groningen",
     "channels": [
+      "OneFootball",
       "Sportdigital.de (Livestream)",
       "Sportdigital+"
     ],
@@ -5418,7 +5653,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-06T15:54:17.503062+00:00"
+    "verifiedAt": "2026-11-06T19:30:20.587129+00:00"
   },
   {
     "date": "2026-11-08",
@@ -5430,6 +5665,7 @@
     "channels": [
       "blue Sport (CH)",
       "Sportdigital Fussball",
+      "OneFootball",
       "Sportdigital.de (Livestream)",
       "Sportdigital+",
       "Sportdigital Fussball (MagentaSport)",
@@ -5452,7 +5688,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-06T15:54:17.705525+00:00"
+    "verifiedAt": "2026-11-06T19:30:20.568320+00:00"
   },
   {
     "date": "2026-11-08",
@@ -5895,6 +6131,7 @@
     "home": "Vitoria Guimaraes",
     "away": "FC Porto",
     "channels": [
+      "OneFootball",
       "Sportdigital.de (Livestream)",
       "Sportdigital+"
     ],
@@ -5911,7 +6148,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-06T15:54:19.477574+00:00"
+    "verifiedAt": "2026-11-06T19:30:21.013024+00:00"
   },
   {
     "date": "2026-11-08",
@@ -6126,6 +6363,7 @@
     "channels": [
       "blue Sport (CH)",
       "Sportdigital Fussball",
+      "OneFootball",
       "Sportdigital.de (Livestream)",
       "Sportdigital+",
       "Sportdigital Fussball (MagentaSport)",
@@ -6148,7 +6386,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-06T15:54:20.854087+00:00"
+    "verifiedAt": "2026-11-06T19:30:21.109223+00:00"
   },
   {
     "date": "2026-11-08",
