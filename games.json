@@ -6911,6 +6911,35 @@
   },
   {
     "date": "2026-11-12",
+    "time": "16:00",
+    "competition": "Afrika-Cup",
+    "country": "International",
+    "home": "Ghana",
+    "away": "Somalia",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
+        "name": "fußballgucken.info – Tagesplan 2026-11-12"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198375/afrika-cup/ghana-somalia",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
+      }
+    ],
+    "verifiedAt": "2026-11-06T21:07:16.180470+00:00"
+  },
+  {
+    "date": "2026-11-12",
     "time": "18:00",
     "competition": "Nations League",
     "country": "International",
@@ -6989,6 +7018,93 @@
       }
     ],
     "verifiedAt": "2026-11-06T15:54:20.769292+00:00"
+  },
+  {
+    "date": "2026-11-12",
+    "time": "20:00",
+    "competition": "Afrika-Cup",
+    "country": "International",
+    "home": "Elfenbeinküste",
+    "away": "Gambia",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
+        "name": "fußballgucken.info – Tagesplan 2026-11-12"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198366/afrika-cup/elfenbeinkueste-gambia",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
+      }
+    ],
+    "verifiedAt": "2026-11-06T21:07:19.366475+00:00"
+  },
+  {
+    "date": "2026-11-12",
+    "time": "20:00",
+    "competition": "Afrika-Cup",
+    "country": "International",
+    "home": "Kamerun",
+    "away": "Namibia",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
+        "name": "fußballgucken.info – Tagesplan 2026-11-12"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198382/afrika-cup/kamerun-namibia",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
+      }
+    ],
+    "verifiedAt": "2026-11-06T21:07:16.063799+00:00"
+  },
+  {
+    "date": "2026-11-12",
+    "time": "20:00",
+    "competition": "Afrika-Cup",
+    "country": "International",
+    "home": "Senegal",
+    "away": "Sudan",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
+        "name": "fußballgucken.info – Tagesplan 2026-11-12"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198394/afrika-cup/senegal-sudan",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
+      }
+    ],
+    "verifiedAt": "2026-11-06T21:07:16.125384+00:00"
   },
   {
     "date": "2026-11-12",
