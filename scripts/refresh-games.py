@@ -35,6 +35,11 @@ VERIFIED_KICKOFFS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-12', 'https://fussballgucken.info/match/194697/nations-league/italien-frankreich'): {
+        'channels': ['DAZN'],
+        'url': 'https://couchultras.com/fussball/laenderspiele/italien-frankreich-85221',
+        'name': 'Italien – Frankreich: DAZN am 12. November um 20:45 Uhr',
+    },
     ('2026-11-11', 'https://fussballgucken.info/match/197213/uefa-women-s-europa-cup/eintracht-frankfurt-frauen-psv-eindhoven-frauen'): {
         'channels': ['EintrachtTV+'],
         'url': 'https://frauen.eintracht.de/uefa-women-s-europa-cup/spielplan/eintracht-frankfurt-ladies-psv-women/vorschau/',
