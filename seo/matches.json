@@ -4685,10 +4685,14 @@
       "home": "FC Viktoria Berlin ♀",
       "away": "Hertha BSC ♀",
       "channels": [
-        "Leagues"
+        "DFB.TV",
+        "DAZN",
+        "Leagues",
+        "DFB.TV+"
       ],
       "groups": [
-        "other"
+        "other",
+        "dazn"
       ],
       "sources": [
         {
@@ -4698,9 +4702,17 @@
         {
           "url": "https://fussballgucken.info/match/197583/2-frauen-bundesliga/fc-viktoria-berlin-frauen-hertha-bsc-frauen",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.dfb.de/news/dfb-tv-achtelfinale-im-dfb-pokal-der-frauen-live-und-in-konferenzen",
+          "name": "DFB: Liveübertragung ab 13:30 Uhr"
+        },
+        {
+          "url": "https://www.tvspielfilm.de/tv-programm/sendung/fussball-2-bundesliga-der-frauen%2C6ad8952b6b6f3b46dcc23059.html",
+          "name": "TV-Programm: Viktoria Berlin – Hertha BSC auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-06T06:36:15.970728+00:00"
+      "verifiedAt": "2026-11-06T15:49:52.757Z"
     },
     "dataUpdated": "2026-11-06"
   },
