@@ -1777,7 +1777,7 @@
     "path": "spiel/fc-arsenal-hull-city-afc-2026-11-07",
     "game": {
       "date": "2026-11-07",
-      "time": "12:30",
+      "time": "16:00",
       "competition": "Premier League (England)",
       "country": "England",
       "home": "FC Arsenal",
@@ -1805,9 +1805,17 @@
         {
           "url": "https://fussballgucken.info/match/193630/premier-league-england/fc-arsenal-hull-city-afc",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.premierleague.com/en/news/4725574",
+          "name": "Premier League – offizieller Spieltermin"
+        },
+        {
+          "url": "https://sport.sky.de/fussball/artikel/premier-league-live-auf-sky-fussball-uebertragung-im-tv-stream/12543485/34908",
+          "name": "Sky Sport – Anstoßzeit in Deutschland"
         }
       ],
-      "verifiedAt": "2026-11-06T21:28:28.866137+00:00"
+      "verifiedAt": "2026-11-06T21:57:45.706164+00:00"
     },
     "dataUpdated": "2026-11-06"
   },
