@@ -6642,10 +6642,15 @@
       "away": "FC Bayern München ♀",
       "channels": [
         "L'Équipe (FR)",
-        "Disney+"
+        "Disney+",
+        "ZDF-Streaming",
+        "ZDF-Streaming (iOS)",
+        "ZDF-Streaming (MagentaTV)",
+        "ZDF-Streaming (HbbTV)"
       ],
       "groups": [
-        "other"
+        "other",
+        "free"
       ],
       "sources": [
         {
@@ -6655,9 +6660,13 @@
         {
           "url": "https://fussballgucken.info/match/193913/champions-league-frauen/paris-st-germain-frauen-fc-bayern-muenchen-frauen",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.zdf.de/video/kurzfassungen/uefa-champions-league-der-frauen-highlights-100/paris-saint-germain-fc-bayern-livestream-spieltag-4-100",
+          "name": "ZDF – kostenloser Livestream"
         }
       ],
-      "verifiedAt": "2026-11-06T21:28:42.337472+00:00"
+      "verifiedAt": "2026-11-07T03:26:14.131908+00:00"
     },
     "dataUpdated": "2026-11-07"
   },
