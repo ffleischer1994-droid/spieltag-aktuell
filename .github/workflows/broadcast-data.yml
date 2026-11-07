@@ -96,7 +96,8 @@ jobs:
               raise SystemExit('Missing expected dataset digest')
           today = datetime.datetime.now(ZoneInfo('Europe/Berlin')).date()
           dates = [(today + datetime.timedelta(days=i)).isoformat() for i in range(7)]
-          for attempt in range(12):
+          # Public edge caches can retain a previous dataset for ten minutes.
+          for attempt in range(61):
               try:
                   url = 'https://spieltagaktuell.de/games.json?verify=' + str(time.time_ns())
                   with urllib.request.urlopen(url, timeout=30) as response:
@@ -110,6 +111,6 @@ jobs:
                       break
               except Exception as exc:
                   print('Verification retry:', exc)
-              if attempt == 11:
+              if attempt == 60:
                   raise SystemExit('Complete public data does not match the generated dataset after deployment')
               time.sleep(10)
