@@ -192,6 +192,9 @@ def read_day(date):
         fixture_date = kickoff[0] if kickoff else date
         if kickoff:
             time = kickoff[1]
+        # Sachsenpokal: BSC Freiberg, not the Southwest club SGV Freiberg.
+        if (date, match_url) == ('2026-11-14', 'https://fussballgucken.info/match/197298/landespokal-sachsen/sgv-freiberg-sg-taucha-99'):
+            home.string = 'BSC Freiberg'
         flag = item.select_one('.meta-flag a')
         country = flag.get('title', '').removeprefix('Länderseite ').strip() if flag else 'International'
         return dict(date=fixture_date, time=time, competition=competition, country=country or 'International',
