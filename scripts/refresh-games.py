@@ -21,6 +21,12 @@ AUDIO_RX = re.compile('|'.join(json.loads((ROOT/'scripts/broadcast-audio.json').
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/193634/premier-league-england/fc-fulham-newcastle-united': (
+        '2026-11-07', '16:00',
+        'https://www.premierleague.com/en/news/4725574'),
+    'https://fussballgucken.info/match/193630/premier-league-england/fc-arsenal-hull-city-afc': (
+        '2026-11-07', '16:00',
+        'https://www.premierleague.com/en/news/4725574'),
     'https://fussballgucken.info/match/193925/champions-league-frauen/fc-barcelona-frauen-fc-arsenal-wfc-frauen': (
         '2026-11-12', '18:45',
         'https://www.fcbarcelona.com/en/football/womens-football/news/4592187/fc-barcelona-statement'),

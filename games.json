@@ -220,35 +220,6 @@
   },
   {
     "date": "2026-11-07",
-    "time": "12:30",
-    "competition": "Premier League (England)",
-    "country": "England",
-    "home": "FC Fulham",
-    "away": "Newcastle United",
-    "channels": [
-      "Sky Sport 8",
-      "Sky (CH)",
-      "WOW",
-      "WOW (AT)"
-    ],
-    "groups": [
-      "sky",
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
-        "name": "fußballgucken.info – Tagesplan 2026-11-07"
-      },
-      {
-        "url": "https://fussballgucken.info/match/193634/premier-league-england/fc-fulham-newcastle-united",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-07T05:54:24.158300+00:00"
-  },
-  {
-    "date": "2026-11-07",
     "time": "13:00",
     "competition": "2. Bundesliga",
     "country": "Deutschland",
@@ -1751,6 +1722,39 @@
       }
     ],
     "verifiedAt": "2026-11-07T05:54:30.132676+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "16:00",
+    "competition": "Premier League (England)",
+    "country": "England",
+    "home": "FC Fulham",
+    "away": "Newcastle United",
+    "channels": [
+      "Sky Sport 8",
+      "Sky (CH)",
+      "WOW",
+      "WOW (AT)"
+    ],
+    "groups": [
+      "sky",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+        "name": "fußballgucken.info – Tagesplan 2026-11-07"
+      },
+      {
+        "url": "https://fussballgucken.info/match/193634/premier-league-england/fc-fulham-newcastle-united",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.premierleague.com/en/news/4725574",
+        "name": "Premier League – offizieller Spieltermin (15:00 GMT)"
+      }
+    ],
+    "verifiedAt": "2026-11-07T12:14:36.548543+00:00"
   },
   {
     "date": "2026-11-07",
