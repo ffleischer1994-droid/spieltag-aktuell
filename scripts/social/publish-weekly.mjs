@@ -9,7 +9,7 @@ const zone="Europe/Berlin";
 const parts=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:zone,year:"numeric",month:"2-digit",day:"2-digit",weekday:"long",hour:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).map(x=>[x.type,x.value]));
 const realLocalDate=parts.year+"-"+parts.month+"-"+parts.day;
 const recovery=process.env.WEEKLY_RECOVER_FRIDAY==="1";
-if(recovery&&(mode!=="weekend"||parts.weekday!=="Saturday"||!/^\\d{4}-\\d{2}-\\d{2}$/.test(process.env.WEEKLY_DATE_OVERRIDE||"")))throw Error("Friday recovery requires Saturday and a Friday date");
+if(recovery&&(mode!=="weekend"||parts.weekday!=="Saturday"||!/^\d{4}-\d{2}-\d{2}$/.test(process.env.WEEKLY_DATE_OVERRIDE||"")))throw Error("Friday recovery requires Saturday and a Friday date");
 const localDate=recovery?process.env.WEEKLY_DATE_OVERRIDE:realLocalDate;
 const desired=mode==="weekend"?"Friday":"Monday",hour=mode==="free-tv"?17:mode==="women"?12:15;
 // Scheduled and successful broadcast-refresh backup triggers must both respect Berlin publishing hours.
