@@ -9836,5 +9836,157 @@
       "verifiedAt": "2026-11-07T05:54:42.958602+00:00"
     },
     "dataUpdated": "2026-11-07"
+  },
+  "2026-11-07|FC Hertha Wels|SK Sturm Graz II": {
+    "path": "spiel/fc-hertha-wels-sk-sturm-graz-ii-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "15:30",
+      "competition": "2. Liga (Österreich)",
+      "country": "Österreich",
+      "home": "FC Hertha Wels",
+      "away": "SK Sturm Graz II",
+      "channels": [
+        "LAOLA1 (Livestream)",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198418/2-liga-oesterreich/fc-hertha-wels-sk-sturm-graz-ii",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.laola1.at/de/tvthek/sendungen/",
+          "name": "LAOLA1 – offizieller Livestream-Plan"
+        },
+        {
+          "url": "https://www.liga2.at/spielplan-tabelle.html",
+          "name": "2. Liga – offizieller Spielplan"
+        }
+      ],
+      "verifiedAt": "2026-11-07T09:37:52.175807+00:00"
+    },
+    "dataUpdated": "2026-11-07"
+  },
+  "2026-11-07|Schwarz-Weiß Bregenz|SK Rapid Wien II": {
+    "path": "spiel/schwarz-weiss-bregenz-sk-rapid-wien-ii-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "15:30",
+      "competition": "2. Liga (Österreich)",
+      "country": "Österreich",
+      "home": "Schwarz-Weiß Bregenz",
+      "away": "SK Rapid Wien II",
+      "channels": [
+        "LAOLA1 (Livestream)",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198419/2-liga-oesterreich/schwarz-weiss-bregenz-sk-rapid-wien-ii",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.laola1.at/de/tvthek/sendungen/",
+          "name": "LAOLA1 – offizieller Livestream-Plan"
+        },
+        {
+          "url": "https://www.liga2.at/spielplan-tabelle.html",
+          "name": "2. Liga – offizieller Spielplan"
+        }
+      ],
+      "verifiedAt": "2026-11-07T09:37:48.658007+00:00"
+    },
+    "dataUpdated": "2026-11-07"
+  },
+  "2026-11-07|FC Blau Weiss Linz|Floridsdorfer AC Wien": {
+    "path": "spiel/fc-blau-weiss-linz-floridsdorfer-ac-wien-2026-11-07",
+    "game": {
+      "date": "2026-11-07",
+      "time": "17:30",
+      "competition": "2. Liga (Österreich)",
+      "country": "Österreich",
+      "home": "FC Blau Weiss Linz",
+      "away": "Floridsdorfer AC Wien",
+      "channels": [
+        "LAOLA1 (Livestream)",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-07",
+          "name": "fußballgucken.info – Tagesplan 2026-11-07"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198414/2-liga-oesterreich/fc-blau-weiss-linz-floridsdorfer-ac-wien",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.laola1.at/de/tvthek/sendungen/",
+          "name": "LAOLA1 – offizieller Livestream-Plan"
+        },
+        {
+          "url": "https://www.liga2.at/spielplan-tabelle.html",
+          "name": "2. Liga – offizieller Spielplan"
+        }
+      ],
+      "verifiedAt": "2026-11-07T09:37:58.725947+00:00"
+    },
+    "dataUpdated": "2026-11-07"
+  },
+  "2026-11-08|ASK Voitsberg|KSV 1919": {
+    "path": "spiel/ask-voitsberg-ksv-1919-2026-11-08",
+    "game": {
+      "date": "2026-11-08",
+      "time": "10:30",
+      "competition": "2. Liga (Österreich)",
+      "country": "Österreich",
+      "home": "ASK Voitsberg",
+      "away": "KSV 1919",
+      "channels": [
+        "LAOLA1 (Livestream)",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-08",
+          "name": "fußballgucken.info – Tagesplan 2026-11-08"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198420/2-liga-oesterreich/ask-voitsberg-ksv-1919",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.laola1.at/de/tvthek/sendungen/",
+          "name": "LAOLA1 – offizieller Livestream-Plan"
+        },
+        {
+          "url": "https://www.liga2.at/spielplan-tabelle.html",
+          "name": "2. Liga – offizieller Spielplan"
+        }
+      ],
+      "verifiedAt": "2026-11-07T09:37:24.664560+00:00"
+    },
+    "dataUpdated": "2026-11-07"
   }
 }
