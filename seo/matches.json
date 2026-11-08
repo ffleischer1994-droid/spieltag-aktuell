@@ -11220,5 +11220,42 @@
       "verifiedAt": "2026-11-08T05:56:20.655464+00:00"
     },
     "dataUpdated": "2026-11-08"
+  },
+  "2026-11-12|Malta|Eswatini": {
+    "path": "spiel/malta-eswatini-2026-11-12",
+    "game": {
+      "date": "2026-11-12",
+      "time": "18:30",
+      "competition": "Länderspiel (Herren)",
+      "country": "International",
+      "home": "Malta",
+      "away": "Eswatini",
+      "channels": [
+        "DAZN"
+      ],
+      "groups": [
+        "dazn"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
+          "name": "fußballgucken.info – Tagesplan 2026-11-12"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198460/laenderspiel-herren/malta-eswatini",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.mfa.com.mt/news/national-teams/malta-to-face-eswatini-in-international-friendly-ahead-of-final-unl-fixture/",
+          "name": "Offizielle Anstoßzeit (Europe/Berlin)"
+        },
+        {
+          "url": "https://streamradar.soccer/nl/match/5823110/malta-vs-eswatini/",
+          "name": "DAZN Germany, Austria und Switzerland"
+        }
+      ],
+      "verifiedAt": "2026-11-08T10:55:59.556Z"
+    },
+    "dataUpdated": "2026-11-08"
   }
 }
