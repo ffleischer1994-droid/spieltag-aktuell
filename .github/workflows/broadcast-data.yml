@@ -8,6 +8,8 @@ on:
       - .github/workflows/broadcast-data.yml
   schedule:
     - cron: '15 */4 * * *'
+    # Midnight in Europe/Berlin: cover both CET and CEST with UTC schedules.
+    - cron: '5 22,23 * * *'
 permissions:
   contents: write
   pages: write
