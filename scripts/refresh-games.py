@@ -21,6 +21,9 @@ AUDIO_RX = re.compile('|'.join(json.loads((ROOT/'scripts/broadcast-audio.json').
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/198460/laenderspiel-herren/malta-eswatini': (
+        '2026-11-12', '18:30',
+        'https://www.mfa.com.mt/news/national-teams/malta-to-face-eswatini-in-international-friendly-ahead-of-final-unl-fixture/'),
     'https://fussballgucken.info/match/193634/premier-league-england/fc-fulham-newcastle-united': (
         '2026-11-07', '16:00',
         'https://www.premierleague.com/en/news/4725574'),
