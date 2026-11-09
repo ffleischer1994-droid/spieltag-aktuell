@@ -178,10 +178,12 @@
     "home": "Feyenoord Rotterdam ♀",
     "away": "VfL Wolfsburg ♀",
     "channels": [
-      "Feyenoord ONE (NL)"
+      "Feyenoord ONE (NL)",
+      "Wölfe TV"
     ],
     "groups": [
-      "other"
+      "other",
+      "free"
     ],
     "sources": [
       {
@@ -199,11 +201,16 @@
       {
         "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/rueckspiel-in-rotterdam-am-dienstagabend",
         "name": "VfL Wolfsburg – bestätigter Termin 10. November, 19 Uhr"
+      },
+      {
+        "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/vfl-frauen-wollen-welle-weiterreiten",
+        "name": "VfL Wolfsburg: kostenloser Wölfe-TV-Livestream des Rückspiels"
       }
     ],
-    "verifiedAt": "2026-11-09T06:18:51.264340+00:00",
+    "verifiedAt": "2026-11-09T17:47:09.518Z",
     "channelLinks": {
-      "Feyenoord ONE (NL)": "https://one.feyenoord.nl/schedule?uid=16985837558"
+      "Feyenoord ONE (NL)": "https://one.feyenoord.nl/schedule?uid=16985837558",
+      "Wölfe TV": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/vfl-frauen-wollen-welle-weiterreiten"
     }
   },
   {

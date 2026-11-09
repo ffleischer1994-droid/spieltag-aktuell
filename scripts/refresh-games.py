@@ -89,9 +89,13 @@ VERIFIED_BROADCASTS = {
         'name': 'Eintracht Frankfurt: Rückspiel am 11. November live auf EintrachtTV+',
     },
     ('2026-11-10', 'https://fussballgucken.info/match/197214/uefa-women-s-europa-cup/feyenoord-rotterdam-frauen-vfl-wolfsburg-frauen'): {
-        'channels': ['Feyenoord ONE (NL)'],
+        'channels': ['Feyenoord ONE (NL)', 'Wölfe TV'],
         'url': 'https://one.feyenoord.nl/schedule?uid=16985837558',
         'name': 'Feyenoord ONE – bestätigter Livestream (Niederlande)',
+        'additionalSources': [{'url': 'https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/vfl-frauen-wollen-welle-weiterreiten', 'name': 'VfL Wolfsburg: kostenloser Wölfe-TV-Livestream des Rückspiels'}],
+        'channelLinks': {'Feyenoord ONE (NL)': 'https://one.feyenoord.nl/schedule?uid=16985837558',
+                         'Wölfe TV': 'https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/vfl-frauen-wollen-welle-weiterreiten'},
+        'freeChannels': {'Wölfe TV'},
     },
 }
 
@@ -397,9 +401,12 @@ def read_day(date):
             home.string = 'BSC Freiberg'
         flag = item.select_one('.meta-flag a')
         country = flag.get('title', '').removeprefix('Länderseite ').strip() if flag else 'International'
+        groups = groups_for(channels)
+        if researched and researched.get('freeChannels', set()).intersection(channels) and 'free' not in groups:
+            groups.append('free')
         return dict(date=fixture_date, time=time, competition=competition, country=country or 'International',
                          home=home.get_text(' ', strip=True), away=away.get_text(' ', strip=True),
-                         channels=channels, groups=groups_for(channels),
+                         channels=channels, groups=groups,
                          sources=[{'url':url,'name':f'fußballgucken.info – Tagesplan {date}'},
                                   {'url':match_url,'name':'Übertragungsdetails'}]
                                  + ([{'url':kickoff[2], 'name':'Offizielle Anstoßzeit (Europe/Berlin)'}]
