@@ -119,6 +119,78 @@ EXCLUDED_BROADCASTS = {
 # Confirmed fixtures not yet present in the daily listing.
 VERIFIED_ADDITIONAL_FIXTURES = [{
     'date': '2026-11-11', 'time': '17:00',
+    'competition': "UEFA Women's Europa Cup", 'country': 'International',
+    'home': 'Czarni Sosnowiec ♀', 'away': 'SK Brann ♀',
+    'channels': ['VG+ Sport (NO)', 'BT.no (NO)'],
+    'sources': [
+        {'url': 'https://www.brann.no/nyheter/her-er-troppen-som-reiser-til-polen%202026',
+         'name': 'SK Brann: Anstoß und Übertragungen auf VG+ und BT.no'},
+        {'url': 'https://vglive.vg.no/fotball/event/czarni-sosnowiec-brann/775334',
+         'name': 'VG+ Sport: Übertragungsseite'},
+    ],
+    'channelLinks': {'VG+ Sport (NO)': 'https://vglive.vg.no/fotball/event/czarni-sosnowiec-brann/775334'},
+}, {
+    'date': '2026-11-11', 'time': '18:00',
+    'competition': "UEFA Women's Europa Cup", 'country': 'International',
+    'home': 'Brøndby IF ♀', 'away': 'Rosenborg BK ♀',
+    'channels': ['VG+ Sport (NO)'],
+    'sources': [
+        {'url': 'https://www.rbk.no/lag/a-lag-kvinner/import/tournament/uefa-womens-europa-cup-2026/season/fotballsesongen-2026/match/europa-cup-brondby-rosenborg',
+         'name': 'Rosenborg: offizieller Anstoß um 18:00 Uhr'},
+        {'url': 'https://vglive.vg.no/fotball/event/br%C3%B8ndby-if-rosenborg/775330',
+         'name': 'VG+ Sport: Übertragungsseite'},
+    ],
+    'channelLinks': {'VG+ Sport (NO)': 'https://vglive.vg.no/fotball/event/br%C3%B8ndby-if-rosenborg/775330'},
+}, {
+    'date': '2026-11-11', 'time': '18:00',
+    'competition': "UEFA Women's Europa Cup", 'country': 'International',
+    'home': 'Fenerbahçe Istanbul ♀', 'away': 'Real Sociedad ♀',
+    'channels': ['TRT Spor (TR)'],
+    'sources': [
+        {'url': 'https://www.realsociedad.eus/es/noticias/detalle/dos-grandes-citas-por-delante',
+         'name': 'Real Sociedad: offizieller Anstoß um 18:00 Uhr MEZ'},
+        {'url': 'https://www.sporekrani.com/home/match/497066/2026/11/11/fenerbahce-arsavev-real-sociedad-uefa-kadinlar-avrupa-sampiyonasi-hangi-kanalda',
+         'name': 'Spor Ekranı: Übertragung auf TRT Spor'},
+        {'url': 'https://www.aspor.com.tr/',
+         'name': 'A Spor: TV-Spielplan nennt TRT Spor'},
+    ],
+}, {
+    'date': '2026-11-11', 'time': '19:00',
+    'competition': "UEFA Women's Europa Cup", 'country': 'International',
+    'home': 'Hammarby IF ♀', 'away': 'Spartak Myjava ♀',
+    'channels': ['Sportbladet Play (SE)', 'STVR Šport (SK)'],
+    'sources': [
+        {'url': 'https://hammarby-if.se/nu-kokar-det-i-bajenland/',
+         'name': 'Hammarby: Anstoß um 19:00 Uhr und Sportbladet-Livestream'},
+        {'url': 'https://www.stvr.sk/program?date=2026-11-11',
+         'name': 'STVR Šport: offizieller Sendeplan'},
+    ],
+    'channelLinks': {'Sportbladet Play (SE)': 'https://tv.aftonbladet.se/video/408413/europa-cup-hammarby-spartak-myjava',
+                     'STVR Šport (SK)': 'https://www.stvr.sk/program?date=2026-11-11'},
+}, {
+    'date': '2026-11-11', 'time': '19:00',
+    'competition': "UEFA Women's Europa Cup", 'country': 'International',
+    'home': 'Malmö FF ♀', 'away': 'Ajax Amsterdam ♀',
+    'channels': ['MFF Play (SE)'],
+    'sources': [
+        {'url': 'https://www.mff.se/nyheter/se-malmo-ff-ajax-fc-pa-mff-play-2026-11-09/',
+         'name': 'Malmö FF: Anstoß um 19:00 Uhr und MFF-Play-Livestream'},
+    ],
+    'channelLinks': {'MFF Play (SE)': 'https://mffplay.se/mffplay/watch/malmoe-ff-afc-ajax'},
+}, {
+    'date': '2026-11-11', 'time': '19:00',
+    'competition': "UEFA Women's Europa Cup", 'country': 'International',
+    'home': 'SCU Torreense ♀', 'away': 'Sparta Prag ♀',
+    'channels': ['ČT sport Plus (CZ)'],
+    'sources': [
+        {'url': 'https://fortunaligazen.cz/clanek/304-sparta-zabojuje-v-portugalsku-o-postup-do-ctvrtfinale-europa-cupu',
+         'name': 'Fortuna liga: Anstoß um 19:00 Uhr und Livestream auf ČT sport Plus'},
+        {'url': 'https://www.ceskatelevize.cz/porady/17237185278-europa-cup-uefa/226471291123609/',
+         'name': 'Česká televize: offizieller Livestream'},
+    ],
+    'channelLinks': {'ČT sport Plus (CZ)': 'https://www.ceskatelevize.cz/porady/17237185278-europa-cup-uefa/226471291123609/'},
+}, {
+    'date': '2026-11-11', 'time': '17:00',
     'competition': 'Première Ligue (Frankreich)', 'country': 'Frankreich',
     'home': 'FC Fleury 91 ♀', 'away': 'FC Toulouse ♀',
     'channels': ['Arkema Première Ligue (YouTube)'],
