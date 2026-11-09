@@ -10094,7 +10094,9 @@
       "home": "BSG Stahl Riesa",
       "away": "FSV Zwickau",
       "channels": [
-        "LVZ+"
+        "LVZ+",
+        "Sächsische Zeitung",
+        "Torgauer Zeitung"
       ],
       "groups": [
         "other"
@@ -10107,9 +10109,18 @@
         {
           "url": "https://fussballgucken.info/match/197292/landespokal-sachsen/bsg-stahl-riesa-fsv-zwickau",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.lvz.de/sport/regional/regionalliga-nordost-und-sachsenpokal-live-diese-partien-uebertragen-wir-UIZKBOXN4JGLFN7JUL5Z4Y7AUY.html",
+          "name": "Offizieller Sachsenpokal-Sendeplan von LVZ und Sächsischer Zeitung"
         }
       ],
-      "verifiedAt": "2026-11-09T06:18:56.215674+00:00"
+      "verifiedAt": "2026-11-09T14:26:59.883Z",
+      "channelLinks": {
+        "LVZ+": "https://www.lvz.de/livesport",
+        "Sächsische Zeitung": "https://www.saechsische.de/livesport",
+        "Torgauer Zeitung": "https://www.torgauerzeitung.de/livesport"
+      }
     },
     "dataUpdated": "2026-11-09"
   },
@@ -11301,7 +11312,9 @@
       "home": "FC Eilenburg",
       "away": "Chemnitzer FC",
       "channels": [
-        "LVZ+"
+        "LVZ+",
+        "Sächsische Zeitung",
+        "Torgauer Zeitung"
       ],
       "groups": [
         "other"
@@ -11314,9 +11327,18 @@
         {
           "url": "https://fussballgucken.info/match/197294/landespokal-sachsen/fc-eilenburg-chemnitzer-fc",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.lvz.de/sport/regional/regionalliga-nordost-und-sachsenpokal-live-diese-partien-uebertragen-wir-UIZKBOXN4JGLFN7JUL5Z4Y7AUY.html",
+          "name": "Offizieller Sachsenpokal-Sendeplan von LVZ und Sächsischer Zeitung"
         }
       ],
-      "verifiedAt": "2026-11-09T06:18:59.356549+00:00"
+      "verifiedAt": "2026-11-09T14:26:59.883Z",
+      "channelLinks": {
+        "LVZ+": "https://www.lvz.de/livesport",
+        "Sächsische Zeitung": "https://www.saechsische.de/livesport",
+        "Torgauer Zeitung": "https://www.torgauerzeitung.de/livesport"
+      }
     },
     "dataUpdated": "2026-11-09"
   },
@@ -11889,6 +11911,38 @@
         }
       ],
       "verifiedAt": "2026-11-09T06:19:01.274726+00:00"
+    },
+    "dataUpdated": "2026-11-09"
+  },
+  "2026-11-12|RB Leipzig|FK Mladá Boleslav": {
+    "path": "spiel/rb-leipzig-fk-mlada-boleslav-2026-11-12",
+    "game": {
+      "date": "2026-11-12",
+      "time": "11:00",
+      "competition": "Testspiel (Vereine)",
+      "country": "Deutschland",
+      "home": "RB Leipzig",
+      "away": "FK Mladá Boleslav",
+      "channels": [
+        "RB Leipzig (Vereinsstream)"
+      ],
+      "sources": [
+        {
+          "url": "https://rbleipzig.com/en/news/rb-leipzig-friendly-fk-mlada-boleslav-12-november-2026",
+          "name": "RB Leipzig: Anstoß um 11 Uhr und bestätigter Vereinslivestream"
+        },
+        {
+          "url": "https://fkmb.cz/match/1215",
+          "name": "FK Mladá Boleslav: offizieller Spieltermin"
+        }
+      ],
+      "channelLinks": {
+        "RB Leipzig (Vereinsstream)": "https://rbleipzig.com/en/news/rb-leipzig-friendly-fk-mlada-boleslav-12-november-2026"
+      },
+      "groups": [
+        "other"
+      ],
+      "verifiedAt": "2026-11-09T14:26:59.883Z"
     },
     "dataUpdated": "2026-11-09"
   }
