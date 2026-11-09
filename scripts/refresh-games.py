@@ -177,6 +177,106 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
         {'url': 'https://datencenter.dfb.de/competitions/em-qualifikation-1231/seasons/2026-2027/teams/deutschland-u-19-m', 'name': 'DFB-Datencenter: Anstoß 18:00 Uhr'},
     ],
     'channelLinks': {'DFB.TV': 'https://watch.dfbtvplus.de/'},
+}, {
+    'date': '2026-11-11', 'time': '14:00',
+    'competition': 'Länderspiel (U16)', 'country': 'International',
+    'home': 'Tschechien (U16)', 'away': 'Österreich (U16)',
+    'channels': ['ÖFB TV (AT)'],
+    'sources': [
+        {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
+        {'url': 'https://www.oefb.at/oefb/News/MU16-CZEAUT-11112026-Kader', 'name': 'Offizieller Spielplan'},
+    ],
+    'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/live'},
+}, {
+    'date': '2026-11-11', 'time': '18:00',
+    'competition': 'U19-EM-Qualifikation', 'country': 'International',
+    'home': 'Österreich (U19)', 'away': 'Belarus (U19)',
+    'channels': ['ÖFB TV (AT)'],
+    'sources': [
+        {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
+        {'url': 'https://www.oefb.at/oefb/News/MU19-AUTBLR-11112026-Kader', 'name': 'Offizieller Spielplan'},
+    ],
+    'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/live'},
+}, {
+    'date': '2026-11-13', 'time': '18:00',
+    'competition': 'Frauen-Bundesliga (Österreich)', 'country': 'Österreich',
+    'home': 'SK Sturm Graz ♀', 'away': 'First Vienna FC 1894 ♀',
+    'channels': ['ORF SPORT+ (AT)'],
+    'sources': [
+        {'url': 'https://tv.orf.at/program/orfs/livefussba1788.html', 'name': 'ORF SPORT+: bestätigte Liveübertragung'},
+        {'url': 'https://sksturm.at/t/frauen/spielplan', 'name': 'Offizieller Spielplan'},
+    ],
+    'channelLinks': {'ORF SPORT+ (AT)': 'https://tv.orf.at/program/orfs/livefussba1788.html'},
+}, {
+    'date': '2026-11-14', 'time': '12:00',
+    'competition': 'Länderspiel (U16)', 'country': 'International',
+    'home': 'Österreich (U16)', 'away': 'Tschechien (U16)',
+    'channels': ['ÖFB TV (AT)'],
+    'sources': [
+        {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
+        {'url': 'https://www.oefb.at/oefb/News/MU16-CZEAUT-11112026-Kader', 'name': 'Offizieller Spielplan'},
+    ],
+    'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/live'},
+}, {
+    'date': '2026-11-14', 'time': '14:00',
+    'competition': 'Frauen-Bundesliga (Österreich)', 'country': 'Österreich',
+    'home': 'FC Blau-Weiß Linz/Kleinmünchen ♀', 'away': 'SpG Südburgenland / TSV Hartberg ♀',
+    'channels': ['ÖFB TV (AT)'],
+    'sources': [
+        {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
+        {'url': 'https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News', 'name': 'Offizieller Spielplan'},
+    ],
+    'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/live'},
+}, {
+    'date': '2026-11-14', 'time': '14:00',
+    'competition': 'Frauen-Bundesliga (Österreich)', 'country': 'Österreich',
+    'home': 'SKN St. Pölten ♀', 'away': 'LASK ♀',
+    'channels': ['ÖFB TV (AT)'],
+    'sources': [
+        {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
+        {'url': 'https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News', 'name': 'Offizieller Spielplan'},
+    ],
+    'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/live'},
+}, {
+    'date': '2026-11-14', 'time': '15:00',
+    'competition': 'Frauen-Bundesliga (Österreich)', 'country': 'Österreich',
+    'home': 'FC Red Bull Salzburg ♀', 'away': 'FK Austria Wien ♀',
+    'channels': ['ÖFB TV (AT)'],
+    'sources': [
+        {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
+        {'url': 'https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News', 'name': 'Offizieller Spielplan'},
+    ],
+    'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/live'},
+}, {
+    'date': '2026-11-14', 'time': '18:00',
+    'competition': 'U19-EM-Qualifikation', 'country': 'International',
+    'home': 'Österreich (U19)', 'away': 'Slowenien (U19)',
+    'channels': ['ÖFB TV (AT)'],
+    'sources': [
+        {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
+        {'url': 'https://www.oefb.at/oefb/News/MU19-AUTBLR-11112026-Kader', 'name': 'Offizieller Spielplan'},
+    ],
+    'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/live'},
+}, {
+    'date': '2026-11-15', 'time': '11:00',
+    'competition': 'Frauen-Bundesliga (Österreich)', 'country': 'Österreich',
+    'home': 'SCR Altach ♀', 'away': 'SK Rapid ♀',
+    'channels': ['ÖFB TV (AT)'],
+    'sources': [
+        {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
+        {'url': 'https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News', 'name': 'Offizieller Spielplan'},
+    ],
+    'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/live'},
+}, {
+    'date': '2026-11-15', 'time': '15:00',
+    'competition': '2. Frauen-Bundesliga (Österreich)', 'country': 'Österreich',
+    'home': 'FC Wacker Innsbruck ♀', 'away': 'SPG SV Zaunergroup Wallern/Krenglbach ♀',
+    'channels': ['ÖFB TV (AT)'],
+    'sources': [
+        {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
+        {'url': 'https://www.oefb.at/oefb/Bewerbe/Frauen/2-Frauen-Bundesliga', 'name': 'Offizieller Spielplan'},
+    ],
+    'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/live'},
 }]
 
 
