@@ -7,6 +7,7 @@ import os
 import hashlib
 import time
 import re
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import urljoin
@@ -47,6 +48,18 @@ VERIFIED_KICKOFFS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-14', 'https://fussballgucken.info/match/197292/landespokal-sachsen/bsg-stahl-riesa-fsv-zwickau'): {
+        'channels': ['LVZ+', 'Sächsische Zeitung', 'Torgauer Zeitung'],
+        'url': 'https://www.lvz.de/sport/regional/regionalliga-nordost-und-sachsenpokal-live-diese-partien-uebertragen-wir-UIZKBOXN4JGLFN7JUL5Z4Y7AUY.html',
+        'name': 'Offizieller Sachsenpokal-Sendeplan von LVZ und Sächsischer Zeitung',
+        'channelLinks': {'LVZ+': 'https://www.lvz.de/livesport', 'Sächsische Zeitung': 'https://www.saechsische.de/livesport', 'Torgauer Zeitung': 'https://www.torgauerzeitung.de/livesport'},
+    },
+    ('2026-11-15', 'https://fussballgucken.info/match/197294/landespokal-sachsen/fc-eilenburg-chemnitzer-fc'): {
+        'channels': ['LVZ+', 'Sächsische Zeitung', 'Torgauer Zeitung'],
+        'url': 'https://www.lvz.de/sport/regional/regionalliga-nordost-und-sachsenpokal-live-diese-partien-uebertragen-wir-UIZKBOXN4JGLFN7JUL5Z4Y7AUY.html',
+        'name': 'Offizieller Sachsenpokal-Sendeplan von LVZ und Sächsischer Zeitung',
+        'channelLinks': {'LVZ+': 'https://www.lvz.de/livesport', 'Sächsische Zeitung': 'https://www.saechsische.de/livesport', 'Torgauer Zeitung': 'https://www.torgauerzeitung.de/livesport'},
+    },
     ('2026-11-10', 'https://fussballgucken.info/match/193913/champions-league-frauen/paris-st-germain-frauen-fc-bayern-muenchen-frauen'): {
         'channels': ['ZDF-Streaming'],
         'url': 'https://www.zdf.de/video/kurzfassungen/uefa-champions-league-der-frauen-highlights-100/paris-saint-germain-fc-bayern-livestream-spieltag-4-100',
@@ -92,7 +105,25 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
         {'url': 'https://www.mon-match.com/matchs/fleury-91-f-vs-toulouse-f-24-10-2026',
          'name': 'Weitere Bestätigung der YouTube-Übertragung und neuen Anstoßzeit'},
     ],
+}, {
+    'date': '2026-11-12', 'time': '11:00',
+    'competition': 'Testspiel (Vereine)', 'country': 'Deutschland',
+    'home': 'RB Leipzig', 'away': 'FK Mladá Boleslav',
+    'channels': ['RB Leipzig (Vereinsstream)'],
+    'sources': [
+        {'url': 'https://rbleipzig.com/en/news/rb-leipzig-friendly-fk-mlada-boleslav-12-november-2026', 'name': 'RB Leipzig: Anstoß um 11 Uhr und bestätigter Vereinslivestream'},
+        {'url': 'https://fkmb.cz/match/1215', 'name': 'FK Mladá Boleslav: offizieller Spieltermin'},
+    ],
+    'channelLinks': {'RB Leipzig (Vereinsstream)': 'https://rbleipzig.com/en/news/rb-leipzig-friendly-fk-mlada-boleslav-12-november-2026'},
 }]
+
+
+def fixture_key(fixture):
+    def team_key(name):
+        normalized = ''.join(c for c in unicodedata.normalize('NFKD', name.casefold())
+                             if not unicodedata.combining(c))
+        return normalized.removeprefix('fk ')
+    return fixture['date'], team_key(fixture['home']), team_key(fixture['away'])
 
 
 def fetch(url):
@@ -212,7 +243,9 @@ def read_day(date):
                                     if kickoff else [])
                                  + ([{'url':researched['url'], 'name':researched['name']}]
                                     if researched else []),
-                         verifiedAt=dt.datetime.now(dt.timezone.utc).isoformat())
+                         verifiedAt=dt.datetime.now(dt.timezone.utc).isoformat(),
+                         **({'channelLinks': researched['channelLinks']}
+                            if researched and 'channelLinks' in researched else {}))
     with ThreadPoolExecutor(max_workers=6) as pool:
         rows = [g for g in pool.map(parse_item, soup.select('.item.game')) if g]
     if not rows: raise ValueError(f'{date}: empty source; retaining existing dataset')
@@ -230,13 +263,24 @@ def main():
         rows = [g for day in pool.map(read_day, dates) for g in day]
     # Official rescheduling may move a listing beyond the rolling window.
     rows = [g for g in rows if g['date'] in dates]
-    known = {(g['date'], g['home'], g['away']) for g in rows}
+    known = {fixture_key(g): g for g in rows}
     for fixture in VERIFIED_ADDITIONAL_FIXTURES:
-        key = (fixture['date'], fixture['home'], fixture['away'])
-        if fixture['date'] in dates and key not in known:
-            rows.append(dict(fixture, groups=groups_for(fixture['channels']),
-                             verifiedAt=dt.datetime.now(dt.timezone.utc).isoformat()))
-            known.add(key)
+        if fixture['date'] not in dates:
+            continue
+        key = fixture_key(fixture)
+        current = known.get(key)
+        if current is None:
+            current = dict(fixture, groups=groups_for(fixture['channels']),
+                           verifiedAt=dt.datetime.now(dt.timezone.utc).isoformat())
+            rows.append(current)
+            known[key] = current
+        else:
+            current['channels'] = list(dict.fromkeys(
+                [c for c in current['channels'] if 'unbekannt' not in c.lower()] + fixture['channels']))
+            current['groups'] = groups_for(current['channels'])
+            current['sources'] += [s for s in fixture['sources'] if s not in current['sources']]
+            if fixture.get('channelLinks'):
+                current['channelLinks'] = {**current.get('channelLinks', {}), **fixture['channelLinks']}
     rows.sort(key=lambda g:(g['date'],g['time'],g['home'],g['away']))
     keys = [(g['date'],g['time'],g['home'],g['away']) for g in rows]
     if len(keys) != len(set(keys)): raise ValueError('Duplicate source fixtures')
@@ -247,7 +291,9 @@ def main():
         previous = old.get((g['date'],g['home'],g['away']), {})
         if previous.get('time') == g['time']:
             g['sources'] += [s for s in previous.get('sources',[]) if s not in g['sources']]
-            if previous.get('channelLinks'): g['channelLinks'] = previous['channelLinks']
+            links = {**previous.get('channelLinks', {}), **g.get('channelLinks', {})}
+            if links:
+                g['channelLinks'] = {c: link for c, link in links.items() if c in g['channels']}
     temporary = target.with_suffix('.json.tmp')
     temporary.write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
     temporary.replace(target)
