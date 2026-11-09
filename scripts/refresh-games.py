@@ -21,6 +21,9 @@ AUDIO_RX = re.compile('|'.join(json.loads((ROOT/'scripts/broadcast-audio.json').
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/198373/afrika-cup/aegypten-malawi': (
+        '2026-11-13', '20:00',
+        'https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/'),
     'https://fussballgucken.info/match/198460/laenderspiel-herren/malta-eswatini': (
         '2026-11-12', '18:30',
         'https://www.mfa.com.mt/news/national-teams/malta-to-face-eswatini-in-international-friendly-ahead-of-final-unl-fixture/'),
