@@ -71,7 +71,11 @@ def main():
             warnings.append(f"DRINGEND: Deutsche Nationalmannschaft heute ohne bestätigten Sender: {g['home']} – {g['away']} ({g['time']})")
 
         channel_text=" ".join(g.get("channels",[]))
-        if re.search(r"DAZN",channel_text,re.I) and "dazn" not in groups:
+        german_dazn = any(
+            re.search(r"DAZN", c, re.I) and c not in {"DAZN (AT)", "DAZN (CH)"}
+            for c in g.get("channels", [])
+        )
+        if german_dazn and "dazn" not in groups:
             errors.append(f"Zeile {i}: DAZN-Sender ohne group=dazn")
         german_sky=any(
             re.search(r"Sky|WOW",c,re.I)

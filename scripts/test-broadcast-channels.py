@@ -14,6 +14,12 @@ class CoverageTests(unittest.TestCase):
  def test_label_fallback_without_source_markup(self):
   soup=BeautifulSoup('''<ul><li><a href="/sender/asc">ASC-Livestream (Bielefeld)</a></li><li><a href="/sender/fm">EnergieFM</a></li><li><a href="/sender/05">05er.fm</a></li><li><a href="/sender/dfb">DFB.TV</a></li><li><a href="/sender/laola">LAOLA1 (Livestream)</a></li></ul>''',"html.parser")
   self.assertEqual(refresh.channels_from(soup),['DFB.TV','LAOLA1 (Livestream)'])
+ def test_regional_dazn_offers_are_not_listed_as_german_dazn(self):
+  soup=BeautifulSoup('''<ul><li><a href="/sender/dazn-austria">DAZN (Austria)</a></li><li><a href="/sender/dazn-schweiz">DAZN (Schweiz)</a></li></ul>''',"html.parser")
+  channels=refresh.channels_from(soup)
+  self.assertEqual(channels,['DAZN (AT)','DAZN (CH)'])
+  self.assertEqual(refresh.groups_for(channels),['other'])
+
  def test_real_source_radio_heading(self):
   # Real source structure, including free icons that must not imply free video.
   soup=BeautifulSoup('''<div class="box white gap"><h3><i class="fg-icon fg-icon-radio fg-icon-x5"></i>(Web-)Radio</h3><div class="coverage"><ul class="list list-unstyled list-coverage"><li><a href="/sender/energiefm">EnergieFM</a><span class="fg-icon-free"></span></li></ul></div></div>''',"html.parser")

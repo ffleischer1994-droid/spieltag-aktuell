@@ -1,294 +1,5 @@
 [
   {
-    "date": "2026-11-09",
-    "time": "18:00",
-    "competition": "Frauen-Bundesliga",
-    "country": "Deutschland",
-    "home": "1. FC Köln ♀",
-    "away": "RB Leipzig ♀",
-    "channels": [
-      "DAZN",
-      "MagentaSport",
-      "Sport1",
-      "OneFootball",
-      "Sport1 Livestream",
-      "Sport1 App",
-      "Sport1 (Joyn)"
-    ],
-    "groups": [
-      "dazn",
-      "other",
-      "free"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-09",
-        "name": "fußballgucken.info – Tagesplan 2026-11-09"
-      },
-      {
-        "url": "https://fussballgucken.info/match/193985/frauen-bundesliga/1-fc-koeln-frauen-rb-leipzig-frauen",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-09T18:43:59.416250+00:00"
-  },
-  {
-    "date": "2026-11-09",
-    "time": "18:15",
-    "competition": "Baller League UK",
-    "country": "England",
-    "home": "Toma FC",
-    "away": "N5 FC",
-    "channels": [
-      "Baller League UK (YouTube)"
-    ],
-    "sources": [
-      {
-        "url": "https://ballerleague.uk/en/game/238",
-        "name": "Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)"
-      },
-      {
-        "url": "https://ballerleague.uk/en",
-        "name": "Baller League UK: YouTube-Livestream des 5. Spieltags"
-      }
-    ],
-    "channelLinks": {
-      "Baller League UK (YouTube)": "https://www.youtube.com/watch?v=ksD12WtlRv0"
-    },
-    "groups": [
-      "free"
-    ],
-    "verifiedAt": "2026-11-09T18:44:07.460252+00:00"
-  },
-  {
-    "date": "2026-11-09",
-    "time": "19:05",
-    "competition": "Baller League UK",
-    "country": "England",
-    "home": "Prime FC",
-    "away": "P17 FC",
-    "channels": [
-      "Baller League UK (YouTube)"
-    ],
-    "sources": [
-      {
-        "url": "https://ballerleague.uk/en/game/239",
-        "name": "Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)"
-      },
-      {
-        "url": "https://ballerleague.uk/en",
-        "name": "Baller League UK: YouTube-Livestream des 5. Spieltags"
-      }
-    ],
-    "channelLinks": {
-      "Baller League UK (YouTube)": "https://www.youtube.com/watch?v=ksD12WtlRv0"
-    },
-    "groups": [
-      "free"
-    ],
-    "verifiedAt": "2026-11-09T18:44:07.460259+00:00"
-  },
-  {
-    "date": "2026-11-09",
-    "time": "20:00",
-    "competition": "Baller League UK",
-    "country": "England",
-    "home": "Clutch FC",
-    "away": "Gold Devils",
-    "channels": [
-      "Baller League UK (YouTube)"
-    ],
-    "sources": [
-      {
-        "url": "https://ballerleague.uk/en/game/240",
-        "name": "Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)"
-      },
-      {
-        "url": "https://ballerleague.uk/en",
-        "name": "Baller League UK: YouTube-Livestream des 5. Spieltags"
-      }
-    ],
-    "channelLinks": {
-      "Baller League UK (YouTube)": "https://www.youtube.com/watch?v=ksD12WtlRv0"
-    },
-    "groups": [
-      "free"
-    ],
-    "verifiedAt": "2026-11-09T18:44:07.460266+00:00"
-  },
-  {
-    "date": "2026-11-09",
-    "time": "20:30",
-    "competition": "FA Cup (England)",
-    "country": "England",
-    "home": "Plymouth Parkway",
-    "away": "Berkhamsted FC",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-09",
-        "name": "fußballgucken.info – Tagesplan 2026-11-09"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198168/fa-cup-england/plymouth-parkway-berkhamsted-fc",
-        "name": "Übertragungsdetails"
-      },
-      {
-        "url": "https://www.ppfc.co.uk/fa-cup-ticket-information/",
-        "name": "Offizielle Anstoßzeit (Europe/Berlin)"
-      }
-    ],
-    "verifiedAt": "2026-11-09T18:43:59.288396+00:00"
-  },
-  {
-    "date": "2026-11-09",
-    "time": "20:30",
-    "competition": "La Liga 2 (Spanien)",
-    "country": "Spanien",
-    "home": "Sabadell",
-    "away": "Real Sociedad II",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-09",
-        "name": "fußballgucken.info – Tagesplan 2026-11-09"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198166/la-liga-2-spanien/sabadell-real-sociedad-ii",
-        "name": "Übertragungsdetails"
-      },
-      {
-        "url": "https://www.laliga.com/es-US/partido/temporada-2026-2027-laliga-hypermotion-ce-sabadell-r-sociedad-b-13",
-        "name": "Offizieller Ligaspielplan"
-      }
-    ],
-    "verifiedAt": "2026-11-09T18:43:59.292815+00:00"
-  },
-  {
-    "date": "2026-11-09",
-    "time": "20:45",
-    "competition": "Serie C (Italien)",
-    "country": "Italien",
-    "home": "AZ Picerno",
-    "away": "SSC Bari",
-    "channels": [
-      "Rai Sport",
-      "Rai Sport (Livestream)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-09",
-        "name": "fußballgucken.info – Tagesplan 2026-11-09"
-      },
-      {
-        "url": "https://fussballgucken.info/match/197480/serie-c-italien/az-picerno-ssc-bari",
-        "name": "Übertragungsdetails"
-      },
-      {
-        "url": "https://www.labaricalcio.it/2026/11/02/picerno-bari-fischio-di-inizio-alle-ore-2045-diretta-in-chiaro-su-rai-sport/",
-        "name": "Bestätigung aktualisierter Anstoßzeit und Rai Sport"
-      }
-    ],
-    "verifiedAt": "2026-11-09T18:43:59.352108+00:00"
-  },
-  {
-    "date": "2026-11-09",
-    "time": "21:05",
-    "competition": "Baller League UK",
-    "country": "England",
-    "home": "Deportrio",
-    "away": "VZN FC",
-    "channels": [
-      "Baller League UK (YouTube)"
-    ],
-    "sources": [
-      {
-        "url": "https://ballerleague.uk/en/game/241",
-        "name": "Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)"
-      },
-      {
-        "url": "https://ballerleague.uk/en",
-        "name": "Baller League UK: YouTube-Livestream des 5. Spieltags"
-      }
-    ],
-    "channelLinks": {
-      "Baller League UK (YouTube)": "https://www.youtube.com/watch?v=ksD12WtlRv0"
-    },
-    "groups": [
-      "free"
-    ],
-    "verifiedAt": "2026-11-09T18:44:07.460272+00:00"
-  },
-  {
-    "date": "2026-11-09",
-    "time": "22:00",
-    "competition": "Baller League UK",
-    "country": "England",
-    "home": "NDL FC",
-    "away": "RTG FC",
-    "channels": [
-      "Baller League UK (YouTube)"
-    ],
-    "sources": [
-      {
-        "url": "https://ballerleague.uk/en/game/242",
-        "name": "Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)"
-      },
-      {
-        "url": "https://ballerleague.uk/en",
-        "name": "Baller League UK: YouTube-Livestream des 5. Spieltags"
-      }
-    ],
-    "channelLinks": {
-      "Baller League UK (YouTube)": "https://www.youtube.com/watch?v=ksD12WtlRv0"
-    },
-    "groups": [
-      "free"
-    ],
-    "verifiedAt": "2026-11-09T18:44:07.460279+00:00"
-  },
-  {
-    "date": "2026-11-09",
-    "time": "22:50",
-    "competition": "Baller League UK",
-    "country": "England",
-    "home": "SDS FC",
-    "away": "Wembley Rangers",
-    "channels": [
-      "Baller League UK (YouTube)"
-    ],
-    "sources": [
-      {
-        "url": "https://ballerleague.uk/en/game/243",
-        "name": "Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)"
-      },
-      {
-        "url": "https://ballerleague.uk/en",
-        "name": "Baller League UK: YouTube-Livestream des 5. Spieltags"
-      }
-    ],
-    "channelLinks": {
-      "Baller League UK (YouTube)": "https://www.youtube.com/watch?v=ksD12WtlRv0"
-    },
-    "groups": [
-      "free"
-    ],
-    "verifiedAt": "2026-11-09T18:44:07.460286+00:00"
-  },
-  {
     "date": "2026-11-10",
     "time": "18:45",
     "competition": "Champions League (Frauen)",
@@ -1956,7 +1667,8 @@
     "away": "Deutschland",
     "channels": [
       "RTL",
-      "DAZN",
+      "DAZN (AT)",
+      "DAZN (CH)",
       "L'Équipe (FR)",
       "RTL+",
       "RTL+ (MagentaTV)",
@@ -1964,7 +1676,6 @@
     ],
     "groups": [
       "free",
-      "dazn",
       "other",
       "sky"
     ],
@@ -1978,7 +1689,11 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-09T18:44:04.300611+00:00"
+    "verifiedAt": "2026-11-09T23:00:28.040905+00:00",
+    "channelLinks": {
+      "DAZN (AT)": "https://www.dazn.com/de-AT/home",
+      "DAZN (CH)": "https://www.dazn.com/de-CH/home"
+    }
   },
   {
     "date": "2026-11-13",
@@ -4029,5 +3744,359 @@
       }
     ],
     "verifiedAt": "2026-11-09T18:44:07.403467+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "14:00",
+    "competition": "Afrika-Cup",
+    "country": "International",
+    "home": "Namibia",
+    "away": "Kamerun",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198389/afrika-cup/namibia-kamerun",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.080786+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "16:00",
+    "competition": "Nations League",
+    "country": "International",
+    "home": "Färöer Inseln",
+    "away": "Republik Moldau",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/195253/nations-league/faeroeer-inseln-republik-moldau",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.038044+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "16:00",
+    "competition": "Nations League",
+    "country": "International",
+    "home": "Kasachstan",
+    "away": "Slowakei",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/195251/nations-league/kasachstan-slowakei",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.056944+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "18:00",
+    "competition": "Nations League",
+    "country": "International",
+    "home": "Estland",
+    "away": "Bulgarien",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/195257/nations-league/estland-bulgarien",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.079156+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "18:00",
+    "competition": "Nations League",
+    "country": "International",
+    "home": "Island",
+    "away": "Luxemburg",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/195255/nations-league/island-luxemburg",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.109194+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "18:00",
+    "competition": "Nations League",
+    "country": "International",
+    "home": "Litauen",
+    "away": "Liechtenstein",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/195261/nations-league/litauen-liechtenstein",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.103001+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "18:00",
+    "competition": "Frauen-Bundesliga",
+    "country": "Deutschland",
+    "home": "VfB Stuttgart ♀",
+    "away": "Bayer Leverkusen ♀",
+    "channels": [
+      "DAZN",
+      "MagentaSport",
+      "Sport1",
+      "OneFootball",
+      "Sport1 Livestream",
+      "Sport1 App",
+      "Sport1 (Joyn)"
+    ],
+    "groups": [
+      "dazn",
+      "other",
+      "free"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/193992/frauen-bundesliga/vfb-stuttgart-frauen-bayer-leverkusen-frauen",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.056573+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "International",
+    "home": "Deutschland",
+    "away": "Niederlande",
+    "channels": [
+      "Das Erste",
+      "Das Erste Mediathek",
+      "DAZN (AT)",
+      "DAZN (CH)",
+      "L'Équipe (FR)",
+      "Das Erste (Joyn)",
+      "Das Erste (MagentaTV)",
+      "Das Erste HD (Joyn)",
+      "Das Erste HD (MagentaTV)"
+    ],
+    "groups": [
+      "free",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/186569/nations-league/deutschland-niederlande",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.169509+00:00",
+    "channelLinks": {
+      "DAZN (AT)": "https://www.dazn.com/de-AT/home",
+      "DAZN (CH)": "https://www.dazn.com/de-CH/home"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "International",
+    "home": "Gibraltar",
+    "away": "Malta",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/195259/nations-league/gibraltar-malta",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.125647+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "International",
+    "home": "Griechenland",
+    "away": "Serbien",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/195220/nations-league/griechenland-serbien",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.147868+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "International",
+    "home": "Nordmazedonien",
+    "away": "Slowenien",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/195232/nations-league/nordmazedonien-slowenien",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.130985+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "20:45",
+    "competition": "Serie C (Italien)",
+    "country": "Italien",
+    "home": "Perugia Calcio",
+    "away": "ASD Torres CF",
+    "channels": [
+      "Rai Sport",
+      "Rai Sport (Livestream)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197802/serie-c-italien/perugia-calcio-asd-torres-cf",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.167709+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "20:45",
+    "competition": "Nations League",
+    "country": "International",
+    "home": "Schweiz",
+    "away": "Schottland",
+    "channels": [
+      "DAZN",
+      "RSI LA 2 (CH)",
+      "RTS 2 (CH)",
+      "SRF zwei (CH)",
+      "Play RSI (Livestream)",
+      "Play SRF",
+      "SRF Sport (CH)"
+    ],
+    "groups": [
+      "dazn",
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-16",
+        "name": "fußballgucken.info – Tagesplan 2026-11-16"
+      },
+      {
+        "url": "https://fussballgucken.info/match/195230/nations-league/schweiz-schottland",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-09T23:00:29.138081+00:00"
   }
 ]

@@ -19,6 +19,12 @@ ROOT = Path(__file__).resolve().parent.parent
 BASE = 'https://fussballgucken.info'
 AUDIO_RX = re.compile('|'.join(json.loads((ROOT/'scripts/broadcast-audio.json').read_text())), re.I)
 
+DAZN_REGION_LABELS = {'DAZN (Austria)': 'DAZN (AT)', 'DAZN (Schweiz)': 'DAZN (CH)'}
+DAZN_REGION_LINKS = {
+    'DAZN (AT)': 'https://www.dazn.com/de-AT/home',
+    'DAZN (CH)': 'https://www.dazn.com/de-CH/home',
+}
+
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
@@ -468,7 +474,7 @@ def channels_from(element):
         if label.startswith('Swisscom'): label = 'blue Sport (CH)'
         if label.startswith('DFB.TV') and not label.startswith('DFB.TV+'): label = 'DFB.TV'
         if label.lower().startswith(("l'équipe", "l’équipe")): label = "L'Équipe (FR)"
-        if label.startswith('DAZN'): label = 'DAZN'
+        if label.startswith('DAZN'): label = DAZN_REGION_LABELS.get(label, 'DAZN')
         elif label.startswith('MagentaSport'): label = 'MagentaSport'
         elif label.startswith('OneFootball'): label = 'OneFootball'
         elif label.startswith('Disney+'): label = 'Disney+'
@@ -490,7 +496,7 @@ def channels_from(element):
 def groups_for(channels):
     groups = []
     for c in channels:
-        if 'DAZN' in c: group = 'dazn'
+        if 'DAZN' in c and c not in DAZN_REGION_LINKS: group = 'dazn'
         elif re.search(r'Sky|WOW', c, re.I) and '(AT)' not in c and '(CH)' not in c: group = 'sky'
         elif 'Prime' in c: group = 'prime'
         elif c in {'Pluto TV', 'DynamoTV (YouTube)', 'Baller League UK (YouTube)'}: group = 'free'
@@ -544,6 +550,9 @@ def read_day(date):
             home.string = 'BSC Freiberg'
         flag = item.select_one('.meta-flag a')
         country = flag.get('title', '').removeprefix('Länderseite ').strip() if flag else 'International'
+        channel_links = {c: DAZN_REGION_LINKS[c] for c in channels if c in DAZN_REGION_LINKS}
+        if researched:
+            channel_links.update(researched.get('channelLinks', {}))
         groups = groups_for(channels)
         if researched and researched.get('freeChannels', set()).intersection(channels) and 'free' not in groups:
             groups.append('free')
@@ -559,8 +568,7 @@ def read_day(date):
                                  + ([{'url':researched['url'], 'name':researched['name']}]
                                     + researched.get('additionalSources', []) if researched else []),
                          verifiedAt=dt.datetime.now(dt.timezone.utc).isoformat(),
-                         **({'channelLinks': researched['channelLinks']}
-                            if researched and 'channelLinks' in researched else {}))
+                         **({'channelLinks': channel_links} if channel_links else {}))
     with ThreadPoolExecutor(max_workers=6) as pool:
         rows = [g for g in pool.map(parse_item, soup.select('.item.game')) if g]
     if not rows: raise ValueError(f'{date}: empty source; retaining existing dataset')
