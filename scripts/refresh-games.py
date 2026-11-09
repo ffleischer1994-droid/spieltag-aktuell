@@ -46,6 +46,14 @@ VERIFIED_KICKOFFS = {
 }
 
 
+# Official competition labels for listings that conflate qualifiers and finals.
+VERIFIED_COMPETITIONS = {
+    ('2026-11-11', 'https://fussballgucken.info/match/198457/u17-em/deutschland-u17-aserbaidschan-u17'): (
+        'U17-EM-Qualifikation',
+        'https://datencenter.dfb.de/datencenter/em-qualifikation-1242/2026-27/gruppe-2/deutschland-u-17-m-aserbaidschan-u-17-2413487'),
+}
+
+
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
     ('2026-11-14', 'https://fussballgucken.info/match/197589/2-frauen-bundesliga/vfl-bochum-frauen-1899-hoffenheim-ii-frauen'): {
@@ -436,6 +444,9 @@ def read_day(date):
         if not re.fullmatch(r'\d{2}:\d{2}', time): raise ValueError(f'{date}: invalid time')
         link = item.select_one('a[href^="/match/"]')
         match_url = urljoin(BASE, link['href'])
+        competition_override = VERIFIED_COMPETITIONS.get((date, match_url))
+        if competition_override:
+            competition = competition_override[0]
         detail = fetch(match_url)
         expected_date = dt.date.fromisoformat(date).strftime('%d.%m.%Y')
         if not detail.h1 or expected_date not in detail.h1.get_text(' ', strip=True):
@@ -471,6 +482,8 @@ def read_day(date):
                                   {'url':match_url,'name':'Übertragungsdetails'}]
                                  + ([{'url':kickoff[2], 'name':'Offizielle Anstoßzeit (Europe/Berlin)'}]
                                     if kickoff else [])
+                                 + ([{'url':competition_override[1], 'name':'DFB: offizieller Wettbewerb'}]
+                                    if competition_override else [])
                                  + ([{'url':researched['url'], 'name':researched['name']}]
                                     + researched.get('additionalSources', []) if researched else []),
                          verifiedAt=dt.datetime.now(dt.timezone.utc).isoformat(),
