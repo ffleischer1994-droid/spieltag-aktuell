@@ -326,6 +326,34 @@
   },
   {
     "date": "2026-11-11",
+    "time": "14:00",
+    "competition": "U19-EM-Qualifikation",
+    "country": "International",
+    "home": "Deutschland (U19)",
+    "away": "Schweden (U19)",
+    "channels": [
+      "DFB.TV"
+    ],
+    "sources": [
+      {
+        "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
+        "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
+      },
+      {
+        "url": "https://datencenter.dfb.de/datencenter/em-qualifikation-1231/2026-2027/2-runde-gruppe-3/deutschland-u-19-m-schweden-u-19-2418434",
+        "name": "DFB-Datencenter: Anstoß 14:00 Uhr"
+      }
+    ],
+    "channelLinks": {
+      "DFB.TV": "https://watch.dfbtvplus.de/"
+    },
+    "groups": [
+      "other"
+    ],
+    "verifiedAt": "2026-11-09T15:33:12.827Z"
+  },
+  {
+    "date": "2026-11-11",
     "time": "17:00",
     "competition": "Première Ligue (Frankreich)",
     "country": "Frankreich",
@@ -971,6 +999,54 @@
   },
   {
     "date": "2026-11-13",
+    "time": "12:30",
+    "competition": "Testspiel (Vereine)",
+    "country": "Deutschland",
+    "home": "VfL Bochum",
+    "away": "SC Verl",
+    "channels": [
+      "VfL Bochum (Vereinsstream)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.vfl-bochum.de/aktuelles/2026/11/test-gegen-verl-unter-ausschluss-der-oeffentlichkeit/",
+        "name": "VfL Bochum: Vereinslivestream angekündigt, YouTube voraussichtlich"
+      }
+    ],
+    "channelLinks": {
+      "VfL Bochum (Vereinsstream)": "https://www.vfl-bochum.de/aktuelles/2026/11/test-gegen-verl-unter-ausschluss-der-oeffentlichkeit/"
+    },
+    "groups": [
+      "other"
+    ],
+    "verifiedAt": "2026-11-09T15:33:12.827Z"
+  },
+  {
+    "date": "2026-11-13",
+    "time": "13:00",
+    "competition": "Testspiel (Vereine)",
+    "country": "Deutschland",
+    "home": "Dynamo Dresden",
+    "away": "FK Dukla Prag",
+    "channels": [
+      "DynamoTV (YouTube)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.dynamo-dresden.de/aktuelles/news/profis/testspiel-gegen-dukla-prag-angesetzt/",
+        "name": "Dynamo Dresden: bestätigter Livestream auf dem Vereinskanal"
+      }
+    ],
+    "channelLinks": {
+      "DynamoTV (YouTube)": "https://www.youtube.com/channel/UCTRY6TKbFpRuPvAIDJVKuaA"
+    },
+    "groups": [
+      "free"
+    ],
+    "verifiedAt": "2026-11-09T15:33:12.827Z"
+  },
+  {
+    "date": "2026-11-13",
     "time": "17:00",
     "competition": "Afrika-Cup",
     "country": "International",
@@ -1554,6 +1630,40 @@
       }
     ],
     "verifiedAt": "2026-11-09T06:18:57.016302+00:00"
+  },
+  {
+    "date": "2026-11-14",
+    "time": "11:00",
+    "competition": "U17-EM-Qualifikation",
+    "country": "International",
+    "home": "Deutschland (U17)",
+    "away": "Litauen (U17)",
+    "channels": [
+      "DFB.TV",
+      "DAZN"
+    ],
+    "sources": [
+      {
+        "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
+        "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
+      },
+      {
+        "url": "https://www.dfb.de/maenner/nationalmannschaften/u-17/spiele-und-termine",
+        "name": "DFB: Anstoß um 11:00 Uhr"
+      },
+      {
+        "url": "https://www.livesoccertv.com/de/teams/germany/germany-u17/",
+        "name": "TV-Programm: DAZN Deutschland, Österreich und Schweiz"
+      }
+    ],
+    "channelLinks": {
+      "DFB.TV": "https://watch.dfbtvplus.de/"
+    },
+    "groups": [
+      "other",
+      "dazn"
+    ],
+    "verifiedAt": "2026-11-09T15:33:12.827Z"
   },
   {
     "date": "2026-11-14",
@@ -2197,7 +2307,8 @@
     "home": "VfL Bochum ♀",
     "away": "1899 Hoffenheim II ♀",
     "channels": [
-      "Leagues"
+      "Leagues",
+      "DFB.TV"
     ],
     "groups": [
       "other"
@@ -2210,9 +2321,16 @@
       {
         "url": "https://fussballgucken.info/match/197589/2-frauen-bundesliga/vfl-bochum-frauen-1899-hoffenheim-ii-frauen",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
+        "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
       }
     ],
-    "verifiedAt": "2026-11-09T06:18:56.803541+00:00"
+    "verifiedAt": "2026-11-09T15:33:12.827Z",
+    "channelLinks": {
+      "DFB.TV": "https://watch.dfbtvplus.de/"
+    }
   },
   {
     "date": "2026-11-14",
@@ -2453,6 +2571,34 @@
       }
     ],
     "verifiedAt": "2026-11-09T06:19:00.114937+00:00"
+  },
+  {
+    "date": "2026-11-14",
+    "time": "18:00",
+    "competition": "U19-EM-Qualifikation",
+    "country": "International",
+    "home": "Portugal (U19)",
+    "away": "Deutschland (U19)",
+    "channels": [
+      "DFB.TV"
+    ],
+    "sources": [
+      {
+        "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
+        "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
+      },
+      {
+        "url": "https://datencenter.dfb.de/competitions/em-qualifikation-1231/seasons/2026-2027/teams/deutschland-u-19-m",
+        "name": "DFB-Datencenter: Anstoß 18:00 Uhr"
+      }
+    ],
+    "channelLinks": {
+      "DFB.TV": "https://watch.dfbtvplus.de/"
+    },
+    "groups": [
+      "other"
+    ],
+    "verifiedAt": "2026-11-09T15:33:12.827Z"
   },
   {
     "date": "2026-11-14",
@@ -2931,9 +3077,12 @@
     "home": "Borussia Dortmund ♀",
     "away": "FC Schalke 04 ♀",
     "channels": [
-      "Pluto TV"
+      "Pluto TV",
+      "DFB.TV",
+      "Staige"
     ],
     "groups": [
+      "free",
       "other"
     ],
     "sources": [
@@ -2944,9 +3093,22 @@
       {
         "url": "https://fussballgucken.info/match/196207/frauen-regionalliga-west/borussia-dortmund-frauen-fc-schalke-04-frauen",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/Alle-BVB-Uebertragungen-auf-einen-Blick.html",
+        "name": "BVB: Pluto TV und Staige; DFB bestätigt zusätzlich DFB.TV"
+      },
+      {
+        "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
+        "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
       }
     ],
-    "verifiedAt": "2026-11-09T06:19:00.492632+00:00"
+    "verifiedAt": "2026-11-09T15:33:12.827Z",
+    "channelLinks": {
+      "DFB.TV": "https://watch.dfbtvplus.de/",
+      "Staige": "https://staige.tv/spiel/566137",
+      "Pluto TV": "https://pluto.tv/gsa/live-tv/66337ea1307fa300082c28a0"
+    }
   },
   {
     "date": "2026-11-15",

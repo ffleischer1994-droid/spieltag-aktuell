@@ -48,6 +48,19 @@ VERIFIED_KICKOFFS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-14', 'https://fussballgucken.info/match/197589/2-frauen-bundesliga/vfl-bochum-frauen-1899-hoffenheim-ii-frauen'): {
+        'channels': ['DFB.TV'],
+        'url': 'https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv',
+        'name': 'DFB: bestätigte Liveübertragung auf DFB.TV',
+        'channelLinks': {'DFB.TV': 'https://watch.dfbtvplus.de/'},
+    },
+    ('2026-11-15', 'https://fussballgucken.info/match/196207/frauen-regionalliga-west/borussia-dortmund-frauen-fc-schalke-04-frauen'): {
+        'channels': ['DFB.TV', 'Staige'],
+        'url': 'https://www.bvb.de/de/de/aktuelles/news/news.html/Alle-BVB-Uebertragungen-auf-einen-Blick.html',
+        'name': 'BVB: Pluto TV und Staige; DFB bestätigt zusätzlich DFB.TV',
+        'channelLinks': {'DFB.TV': 'https://watch.dfbtvplus.de/', 'Staige': 'https://staige.tv/spiel/566137', 'Pluto TV': 'https://pluto.tv/gsa/live-tv/66337ea1307fa300082c28a0'},
+        'additionalSources': [{'url': 'https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv', 'name': 'DFB: bestätigte Liveübertragung auf DFB.TV'}],
+    },
     ('2026-11-14', 'https://fussballgucken.info/match/197292/landespokal-sachsen/bsg-stahl-riesa-fsv-zwickau'): {
         'channels': ['LVZ+', 'Sächsische Zeitung', 'Torgauer Zeitung'],
         'url': 'https://www.lvz.de/sport/regional/regionalliga-nordost-und-sachsenpokal-live-diese-partien-uebertragen-wir-UIZKBOXN4JGLFN7JUL5Z4Y7AUY.html',
@@ -115,6 +128,55 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
         {'url': 'https://fkmb.cz/match/1215', 'name': 'FK Mladá Boleslav: offizieller Spieltermin'},
     ],
     'channelLinks': {'RB Leipzig (Vereinsstream)': 'https://rbleipzig.com/en/news/rb-leipzig-friendly-fk-mlada-boleslav-12-november-2026'},
+}, {
+    'date': '2026-11-11', 'time': '14:00',
+    'competition': 'U19-EM-Qualifikation', 'country': 'International',
+    'home': 'Deutschland (U19)', 'away': 'Schweden (U19)',
+    'channels': ['DFB.TV'],
+    'sources': [
+        {'url': 'https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv', 'name': 'DFB: bestätigte Liveübertragung auf DFB.TV'},
+        {'url': 'https://datencenter.dfb.de/datencenter/em-qualifikation-1231/2026-2027/2-runde-gruppe-3/deutschland-u-19-m-schweden-u-19-2418434', 'name': 'DFB-Datencenter: Anstoß 14:00 Uhr'},
+    ],
+    'channelLinks': {'DFB.TV': 'https://watch.dfbtvplus.de/'},
+}, {
+    'date': '2026-11-13', 'time': '12:30',
+    'competition': 'Testspiel (Vereine)', 'country': 'Deutschland',
+    'home': 'VfL Bochum', 'away': 'SC Verl',
+    'channels': ['VfL Bochum (Vereinsstream)'],
+    'sources': [
+        {'url': 'https://www.vfl-bochum.de/aktuelles/2026/11/test-gegen-verl-unter-ausschluss-der-oeffentlichkeit/', 'name': 'VfL Bochum: Vereinslivestream angekündigt, YouTube voraussichtlich'},
+    ],
+    'channelLinks': {'VfL Bochum (Vereinsstream)': 'https://www.vfl-bochum.de/aktuelles/2026/11/test-gegen-verl-unter-ausschluss-der-oeffentlichkeit/'},
+}, {
+    'date': '2026-11-13', 'time': '13:00',
+    'competition': 'Testspiel (Vereine)', 'country': 'Deutschland',
+    'home': 'Dynamo Dresden', 'away': 'FK Dukla Prag',
+    'channels': ['DynamoTV (YouTube)'],
+    'sources': [
+        {'url': 'https://www.dynamo-dresden.de/aktuelles/news/profis/testspiel-gegen-dukla-prag-angesetzt/', 'name': 'Dynamo Dresden: bestätigter Livestream auf dem Vereinskanal'},
+    ],
+    'channelLinks': {'DynamoTV (YouTube)': 'https://www.youtube.com/channel/UCTRY6TKbFpRuPvAIDJVKuaA'},
+}, {
+    'date': '2026-11-14', 'time': '11:00',
+    'competition': 'U17-EM-Qualifikation', 'country': 'International',
+    'home': 'Deutschland (U17)', 'away': 'Litauen (U17)',
+    'channels': ['DFB.TV', 'DAZN'],
+    'sources': [
+        {'url': 'https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv', 'name': 'DFB: bestätigte Liveübertragung auf DFB.TV'},
+        {'url': 'https://www.dfb.de/maenner/nationalmannschaften/u-17/spiele-und-termine', 'name': 'DFB: Anstoß um 11:00 Uhr'},
+        {'url': 'https://www.livesoccertv.com/de/teams/germany/germany-u17/', 'name': 'TV-Programm: DAZN Deutschland, Österreich und Schweiz'},
+    ],
+    'channelLinks': {'DFB.TV': 'https://watch.dfbtvplus.de/'},
+}, {
+    'date': '2026-11-14', 'time': '18:00',
+    'competition': 'U19-EM-Qualifikation', 'country': 'International',
+    'home': 'Portugal (U19)', 'away': 'Deutschland (U19)',
+    'channels': ['DFB.TV'],
+    'sources': [
+        {'url': 'https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv', 'name': 'DFB: bestätigte Liveübertragung auf DFB.TV'},
+        {'url': 'https://datencenter.dfb.de/competitions/em-qualifikation-1231/seasons/2026-2027/teams/deutschland-u-19-m', 'name': 'DFB-Datencenter: Anstoß 18:00 Uhr'},
+    ],
+    'channelLinks': {'DFB.TV': 'https://watch.dfbtvplus.de/'},
 }]
 
 
@@ -187,6 +249,7 @@ def groups_for(channels):
         if 'DAZN' in c: group = 'dazn'
         elif re.search(r'Sky|WOW', c, re.I) and '(AT)' not in c and '(CH)' not in c: group = 'sky'
         elif 'Prime' in c: group = 'prime'
+        elif c in {'Pluto TV', 'DynamoTV (YouTube)'}: group = 'free'
         # Only explicit German public/free services, never infer from OneFootball.
         elif re.match(r'^(?:ARD|Das Erste|ZDF|BR24|BR \(|WDR|NDR|MDR|SWR|RBB|rbb|hr |[Ss][Pp][Oo][Rr][Tt]1$|RTL$|FIFA\+)', c): group = 'free'
         else: group = 'other'
@@ -242,7 +305,7 @@ def read_day(date):
                                  + ([{'url':kickoff[2], 'name':'Offizielle Anstoßzeit (Europe/Berlin)'}]
                                     if kickoff else [])
                                  + ([{'url':researched['url'], 'name':researched['name']}]
-                                    if researched else []),
+                                    + researched.get('additionalSources', []) if researched else []),
                          verifiedAt=dt.datetime.now(dt.timezone.utc).isoformat(),
                          **({'channelLinks': researched['channelLinks']}
                             if researched and 'channelLinks' in researched else {}))
