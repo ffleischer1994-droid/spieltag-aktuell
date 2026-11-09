@@ -281,6 +281,66 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
         {'url': 'https://www.oefb.at/oefb/Bewerbe/Frauen/2-Frauen-Bundesliga', 'name': 'Offizieller Spielplan'},
     ],
     'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/live'},
+}, {
+    'date': '2026-11-09', 'time': '18:15',
+    'competition': 'Baller League UK', 'country': 'England',
+    'home': 'Toma FC', 'away': 'N5 FC',
+    'channels': ['Baller League UK (YouTube)'],
+    'sources': [
+        {'url': 'https://ballerleague.uk/en/game/238', 'name': 'Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)'},
+        {'url': 'https://ballerleague.uk/en', 'name': 'Baller League UK: YouTube-Livestream des 5. Spieltags'},
+    ],
+    'channelLinks': {'Baller League UK (YouTube)': 'https://www.youtube.com/watch?v=ksD12WtlRv0'},
+}, {
+    'date': '2026-11-09', 'time': '19:05',
+    'competition': 'Baller League UK', 'country': 'England',
+    'home': 'Prime FC', 'away': 'P17 FC',
+    'channels': ['Baller League UK (YouTube)'],
+    'sources': [
+        {'url': 'https://ballerleague.uk/en/game/239', 'name': 'Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)'},
+        {'url': 'https://ballerleague.uk/en', 'name': 'Baller League UK: YouTube-Livestream des 5. Spieltags'},
+    ],
+    'channelLinks': {'Baller League UK (YouTube)': 'https://www.youtube.com/watch?v=ksD12WtlRv0'},
+}, {
+    'date': '2026-11-09', 'time': '20:00',
+    'competition': 'Baller League UK', 'country': 'England',
+    'home': 'Clutch FC', 'away': 'Gold Devils',
+    'channels': ['Baller League UK (YouTube)'],
+    'sources': [
+        {'url': 'https://ballerleague.uk/en/game/240', 'name': 'Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)'},
+        {'url': 'https://ballerleague.uk/en', 'name': 'Baller League UK: YouTube-Livestream des 5. Spieltags'},
+    ],
+    'channelLinks': {'Baller League UK (YouTube)': 'https://www.youtube.com/watch?v=ksD12WtlRv0'},
+}, {
+    'date': '2026-11-09', 'time': '21:05',
+    'competition': 'Baller League UK', 'country': 'England',
+    'home': 'Deportrio', 'away': 'VZN FC',
+    'channels': ['Baller League UK (YouTube)'],
+    'sources': [
+        {'url': 'https://ballerleague.uk/en/game/241', 'name': 'Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)'},
+        {'url': 'https://ballerleague.uk/en', 'name': 'Baller League UK: YouTube-Livestream des 5. Spieltags'},
+    ],
+    'channelLinks': {'Baller League UK (YouTube)': 'https://www.youtube.com/watch?v=ksD12WtlRv0'},
+}, {
+    'date': '2026-11-09', 'time': '22:00',
+    'competition': 'Baller League UK', 'country': 'England',
+    'home': 'NDL FC', 'away': 'RTG FC',
+    'channels': ['Baller League UK (YouTube)'],
+    'sources': [
+        {'url': 'https://ballerleague.uk/en/game/242', 'name': 'Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)'},
+        {'url': 'https://ballerleague.uk/en', 'name': 'Baller League UK: YouTube-Livestream des 5. Spieltags'},
+    ],
+    'channelLinks': {'Baller League UK (YouTube)': 'https://www.youtube.com/watch?v=ksD12WtlRv0'},
+}, {
+    'date': '2026-11-09', 'time': '22:50',
+    'competition': 'Baller League UK', 'country': 'England',
+    'home': 'SDS FC', 'away': 'Wembley Rangers',
+    'channels': ['Baller League UK (YouTube)'],
+    'sources': [
+        {'url': 'https://ballerleague.uk/en/game/243', 'name': 'Baller League UK: offizielle Ansetzung (in Berliner Zeit umgerechnet)'},
+        {'url': 'https://ballerleague.uk/en', 'name': 'Baller League UK: YouTube-Livestream des 5. Spieltags'},
+    ],
+    'channelLinks': {'Baller League UK (YouTube)': 'https://www.youtube.com/watch?v=ksD12WtlRv0'},
 }]
 
 
@@ -353,7 +413,7 @@ def groups_for(channels):
         if 'DAZN' in c: group = 'dazn'
         elif re.search(r'Sky|WOW', c, re.I) and '(AT)' not in c and '(CH)' not in c: group = 'sky'
         elif 'Prime' in c: group = 'prime'
-        elif c in {'Pluto TV', 'DynamoTV (YouTube)'}: group = 'free'
+        elif c in {'Pluto TV', 'DynamoTV (YouTube)', 'Baller League UK (YouTube)'}: group = 'free'
         # Only explicit German public/free services, never infer from OneFootball.
         elif re.match(r'^(?:ARD|Das Erste|ZDF|BR24|BR \(|WDR|NDR|MDR|SWR|RBB|rbb|hr |[Ss][Pp][Oo][Rr][Tt]1$|RTL$|FIFA\+)', c): group = 'free'
         else: group = 'other'
