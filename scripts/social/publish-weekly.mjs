@@ -56,6 +56,9 @@ const freeChannel=c=>{
  const name=String(c).trim();
  if(/RTL\+|DAZN|Sky|Magenta|Disney\+|Amazon|Prime Video|blue Sport|OneFootball/i.test(name))return false;
  if(/\((?:AT|CH)\)/i.test(name))return false;
+ // Official free German streams: avoid paid platform-specific ZDF variants.
+ if(/^ZDF-Streaming$/i.test(name))return true;
+ if(/^BR \(ARD Mediathek\)$|^BR24 Sport \((?:Livestream|YouTube)\)$/i.test(name))return true;
  return /^(?:ARD|Das Erste|ARD Mediathek|ZDF|ZDFheute|ZDFmediathek|RTL(?: HD)?$|Nitro|Sat\.?1|ProSieben|Sport1|3sat|Arte|One(?:\s|$)|WDR|NDR|BR(?:24(?:Sport)?| Fernsehen)?|MDR|SWR|RBB|HR(?:\s|$)|DF1|DFB\.TV|DFB \(YouTube\)|DFB \(YouTube\)|DFB TV)(?:\b|$)/i.test(name);
 };
 const freeChannels=g=>g.channels.filter(freeChannel);
