@@ -14022,5 +14022,33 @@
       "verifiedAt": "2026-11-11T12:12:54.881603+00:00"
     },
     "dataUpdated": "2026-11-11"
+  },
+  "2026-11-12|SpVgg Greuther Fürth|Würzburger Kickers": {
+    "path": "spiel/spvgg-greuther-fuerth-wuerzburger-kickers-2026-11-12",
+    "game": {
+      "date": "2026-11-12",
+      "time": "14:00",
+      "competition": "Testspiel (Vereine)",
+      "country": "Deutschland",
+      "home": "SpVgg Greuther Fürth",
+      "away": "Würzburger Kickers",
+      "channels": [
+        "Greuther Fürth (YouTube)"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sgf1903.de/news/profis/testspiel-gegen-wuerzburg",
+          "name": "Greuther Fürth: Anstoß und YouTube-Livestream ab 14 Uhr"
+        }
+      ],
+      "channelLinks": {
+        "Greuther Fürth (YouTube)": "https://www.youtube.com/@DasKleeblattFuerth"
+      },
+      "groups": [
+        "free"
+      ],
+      "verifiedAt": "2026-11-11T12:52:52.599892+00:00"
+    },
+    "dataUpdated": "2026-11-11"
   }
 }
