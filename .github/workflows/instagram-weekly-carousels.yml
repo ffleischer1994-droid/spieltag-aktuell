@@ -64,8 +64,8 @@ jobs:
           DAY=$(TZ=Europe/Berlin date +%u)
           HOUR=$(TZ=Europe/Berlin date +%H)
           DATE=$(TZ=Europe/Berlin date +%F)
-          if [ "$GITHUB_EVENT_NAME" = "workflow_run" ] && { [ "$DAY" != "5" ] || [ "$UPSTREAM_RESULT" != "success" ]; }; then
-            echo "::notice::Backup trigger skipped: not Friday or upstream data refresh failed"
+          if [ "$GITHUB_EVENT_NAME" = "workflow_run" ] && { { [ "$DAY" != "1" ] && [ "$DAY" != "5" ]; } || [ "$UPSTREAM_RESULT" != "success" ]; }; then
+            echo "::notice::Backup trigger skipped: not Monday/Friday or upstream data refresh failed"
             echo "SKIP_WEEKLY=1" >> "$GITHUB_ENV"
             exit 0
           fi
