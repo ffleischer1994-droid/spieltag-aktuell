@@ -28,6 +28,9 @@ DAZN_REGION_LINKS = {
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/193937/champions-league-frauen/benfica-lissabon-frauen-fk-austria-wien-frauen': (
+        '2026-11-12', '21:00',
+        'https://www.uefa.com/news-media/news/02ab-2209e8267c40-cadb2ec0869e-1000--uefa-matches-in-portugal-postponed-due-to-storm-charles/'),
     'https://fussballgucken.info/match/198373/afrika-cup/aegypten-malawi': (
         '2026-11-13', '20:00',
         'https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/'),
@@ -52,6 +55,9 @@ VERIFIED_KICKOFFS = {
 }
 
 
+AFCON_QUALIFIER_SCHEDULE = 'https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/'
+
+
 # Official competition labels for listings that conflate qualifiers and finals.
 VERIFIED_COMPETITIONS = {
     ('2026-11-11', 'https://fussballgucken.info/match/198457/u17-em/deutschland-u17-aserbaidschan-u17'): (
@@ -62,6 +68,16 @@ VERIFIED_COMPETITIONS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-12', 'https://fussballgucken.info/match/198530/freundschaftsspiel/1-fc-moenchengladbach-standard-luettich'): {
+        'home': 'Borussia Mönchengladbach',
+        'channels': ['FohlenTV'],
+        'url': 'https://www.borussia.de/de/tickets',
+        'name': 'Borussia: Testspiel am 12. November um 14:00 Uhr auf FohlenTV',
+        'channelLinks': {'FohlenTV': 'https://tv.borussia.de/app.php/'},
+        'freeChannels': {'FohlenTV'},
+        'additionalSources': [{'url': 'https://www.90min.de/borussia-monchengladbach-gegen-standard-luttich-testspiel-live-im-kostenlosen-stream-12-11-2026',
+                               'name': 'FohlenTV: kostenlos nach Login'}],
+    },
     ('2026-11-14', 'https://fussballgucken.info/match/197589/2-frauen-bundesliga/vfl-bochum-frauen-1899-hoffenheim-ii-frauen'): {
         'channels': ['DFB.TV'],
         'url': 'https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv',
@@ -124,6 +140,24 @@ EXCLUDED_BROADCASTS = {
 
 # Confirmed fixtures not yet present in the daily listing.
 VERIFIED_ADDITIONAL_FIXTURES = [{
+    'date': '2026-11-16', 'time': '14:00',
+    'competition': 'Afrika-Cup-Qualifikation', 'country': 'International',
+    'home': 'Sudan', 'away': 'Senegal',
+    'channels': ['DAZN 2'],
+    'sources': [
+        {'url': AFCON_QUALIFIER_SCHEDULE, 'name': 'CAF – offizieller Spielplan der Qualifikation'},
+        {'url': 'https://www.prisma.de/tv-programm/Africa-Cup-of-Nations-Qualifikation-2027,58288200', 'name': 'DAZN 2: TV-Programm für Sudan gegen Senegal'},
+    ],
+}, {
+    'date': '2026-11-16', 'time': '16:00',
+    'competition': 'Afrika-Cup-Qualifikation', 'country': 'International',
+    'home': 'Somalia', 'away': 'Ghana',
+    'channels': ['DAZN 2'],
+    'sources': [
+        {'url': AFCON_QUALIFIER_SCHEDULE, 'name': 'CAF – offizieller Spielplan der Qualifikation'},
+        {'url': 'https://www.prisma.de/tv-programm/Africa-Cup-of-Nations-Qualifikation-2027,58288202', 'name': 'DAZN 2: TV-Programm für Somalia gegen Ghana'},
+    ],
+}, {
     'date': '2026-11-11', 'time': '17:00',
     'competition': "UEFA Women's Europa Cup", 'country': 'International',
     'home': 'Czarni Sosnowiec ♀', 'away': 'SK Brann ♀',
@@ -184,17 +218,12 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
     ],
     'channelLinks': {'MFF Play (SE)': 'https://mffplay.se/mffplay/watch/malmoe-ff-afc-ajax'},
 }, {
-    'date': '2026-11-11', 'time': '19:00',
+    'date': '2026-11-12', 'time': '18:00',
     'competition': "UEFA Women's Europa Cup", 'country': 'International',
     'home': 'SCU Torreense ♀', 'away': 'Sparta Prag ♀',
-    'channels': ['ČT sport Plus (CZ)'],
-    'sources': [
-        {'url': 'https://fortunaligazen.cz/clanek/304-sparta-zabojuje-v-portugalsku-o-postup-do-ctvrtfinale-europa-cupu',
-         'name': 'Fortuna liga: Anstoß um 19:00 Uhr und Livestream auf ČT sport Plus'},
-        {'url': 'https://www.ceskatelevize.cz/porady/17237185278-europa-cup-uefa/226471291123609/',
-         'name': 'Česká televize: offizieller Livestream'},
-    ],
-    'channelLinks': {'ČT sport Plus (CZ)': 'https://www.ceskatelevize.cz/porady/17237185278-europa-cup-uefa/226471291123609/'},
+    'channels': ['SENDER UNBEKANNT'],
+    'sources': [{'url': 'https://www.uefa.com/news-media/news/02ab-2209e8267c40-cadb2ec0869e-1000--uefa-matches-in-portugal-postponed-due-to-storm-charles/',
+                 'name': 'UEFA: wegen Sturm Charles auf Donnerstag um 18:00 Uhr MEZ verlegt'}],
 }, {
     'date': '2026-11-11', 'time': '17:00',
     'competition': 'Première Ligue (Frankreich)', 'country': 'Frankreich',
@@ -219,7 +248,7 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
     ],
     'channelLinks': {'RB Leipzig (Vereinsstream)': 'https://rbleipzig.com/en/news/rb-leipzig-friendly-fk-mlada-boleslav-12-november-2026'},
 }, {
-    'date': '2026-11-11', 'time': '14:00',
+    'date': '2026-11-12', 'time': '14:00',
     'competition': 'U19-EM-Qualifikation', 'country': 'International',
     'home': 'Deutschland (U19)', 'away': 'Schweden (U19)',
     'channels': ['DFB.TV'],
@@ -525,6 +554,9 @@ def read_day(date):
         competition_override = VERIFIED_COMPETITIONS.get((date, match_url))
         if competition_override:
             competition = competition_override[0]
+        afcon_qualifier = competition == 'Afrika-Cup' and '2026-11-12' <= date <= '2026-11-17'
+        if afcon_qualifier:
+            competition = 'Afrika-Cup-Qualifikation'
         detail = fetch(match_url)
         expected_date = dt.date.fromisoformat(date).strftime('%d.%m.%Y')
         if not detail.h1 or expected_date not in detail.h1.get_text(' ', strip=True):
@@ -535,6 +567,8 @@ def read_day(date):
         channels = [c for c in channels if c not in excluded]
         researched = VERIFIED_BROADCASTS.get((date, match_url))
         if researched:
+            if 'home' in researched:
+                home.string = researched['home']
             channels = list(dict.fromkeys(
                 [c for c in channels if 'unbekannt' not in c.lower()]
                 + researched['channels']))
@@ -563,6 +597,8 @@ def read_day(date):
                                   {'url':match_url,'name':'Übertragungsdetails'}]
                                  + ([{'url':kickoff[2], 'name':'Offizielle Anstoßzeit (Europe/Berlin)'}]
                                     if kickoff else [])
+                                 + ([{'url':AFCON_QUALIFIER_SCHEDULE, 'name':'CAF – offizieller Spielplan der Qualifikation'}]
+                                    if afcon_qualifier and (not kickoff or kickoff[2] != AFCON_QUALIFIER_SCHEDULE) else [])
                                  + ([{'url':competition_override[1], 'name':'DFB: offizieller Wettbewerb'}]
                                     if competition_override else [])
                                  + ([{'url':researched['url'], 'name':researched['name']}]

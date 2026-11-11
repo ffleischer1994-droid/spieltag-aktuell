@@ -34,34 +34,6 @@
   {
     "date": "2026-11-11",
     "time": "14:00",
-    "competition": "U19-EM-Qualifikation",
-    "country": "International",
-    "home": "Deutschland (U19)",
-    "away": "Schweden (U19)",
-    "channels": [
-      "DFB.TV"
-    ],
-    "sources": [
-      {
-        "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
-        "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
-      },
-      {
-        "url": "https://datencenter.dfb.de/datencenter/em-qualifikation-1231/2026-2027/2-runde-gruppe-3/deutschland-u-19-m-schweden-u-19-2418434",
-        "name": "DFB-Datencenter: Anstoß 14:00 Uhr"
-      }
-    ],
-    "channelLinks": {
-      "DFB.TV": "https://watch.dfbtvplus.de/"
-    },
-    "groups": [
-      "other"
-    ],
-    "verifiedAt": "2026-11-11T06:08:36.422328+00:00"
-  },
-  {
-    "date": "2026-11-11",
-    "time": "14:00",
     "competition": "Länderspiel (U16)",
     "country": "International",
     "home": "Tschechien (U16)",
@@ -347,34 +319,6 @@
   },
   {
     "date": "2026-11-11",
-    "time": "19:00",
-    "competition": "UEFA Women's Europa Cup",
-    "country": "International",
-    "home": "SCU Torreense ♀",
-    "away": "Sparta Prag ♀",
-    "channels": [
-      "ČT sport Plus (CZ)"
-    ],
-    "sources": [
-      {
-        "url": "https://fortunaligazen.cz/clanek/304-sparta-zabojuje-v-portugalsku-o-postup-do-ctvrtfinale-europa-cupu",
-        "name": "Fortuna liga: Anstoß um 19:00 Uhr und Livestream auf ČT sport Plus"
-      },
-      {
-        "url": "https://www.ceskatelevize.cz/porady/17237185278-europa-cup-uefa/226471291123609/",
-        "name": "Česká televize: offizieller Livestream"
-      }
-    ],
-    "channelLinks": {
-      "ČT sport Plus (CZ)": "https://www.ceskatelevize.cz/porady/17237185278-europa-cup-uefa/226471291123609/"
-    },
-    "groups": [
-      "other"
-    ],
-    "verifiedAt": "2026-11-11T06:08:36.422275+00:00"
-  },
-  {
-    "date": "2026-11-11",
     "time": "20:00",
     "competition": "WSL Players Cup (England)",
     "country": "England",
@@ -401,41 +345,6 @@
       }
     ],
     "verifiedAt": "2026-11-11T06:08:28.298539+00:00"
-  },
-  {
-    "date": "2026-11-11",
-    "time": "21:00",
-    "competition": "Champions League (Frauen)",
-    "country": "International",
-    "home": "Benfica Lissabon ♀",
-    "away": "FK Austria Wien ♀",
-    "channels": [
-      "ORF Sport+ (AT)",
-      "Disney+",
-      "ORF ON (AT)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-11",
-        "name": "fußballgucken.info – Tagesplan 2026-11-11"
-      },
-      {
-        "url": "https://fussballgucken.info/match/193937/champions-league-frauen/benfica-lissabon-frauen-fk-austria-wien-frauen",
-        "name": "Übertragungsdetails"
-      },
-      {
-        "url": "https://wheretowatch.uefa.com/",
-        "name": "UEFA: Disney+ in Deutschland, Österreich und der Schweiz"
-      },
-      {
-        "url": "https://tv.orf.at/program/orfs/livefussba1786.html",
-        "name": "ORF SPORT+: Benfica–Austria am 11. November ab 20:55 Uhr (AT)"
-      }
-    ],
-    "verifiedAt": "2026-11-11T06:08:28.450064+00:00"
   },
   {
     "date": "2026-11-11",
@@ -512,13 +421,14 @@
     "time": "14:00",
     "competition": "Freundschaftsspiel",
     "country": "International",
-    "home": "1. FC Mönchengladbach",
+    "home": "Borussia Mönchengladbach",
     "away": "Standard Lüttich",
     "channels": [
-      "SENDER UNBEKANNT"
+      "FohlenTV"
     ],
     "groups": [
-      "other"
+      "other",
+      "free"
     ],
     "sources": [
       {
@@ -528,9 +438,48 @@
       {
         "url": "https://fussballgucken.info/match/198530/freundschaftsspiel/1-fc-moenchengladbach-standard-luettich",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.borussia.de/de/tickets",
+        "name": "Borussia: Testspiel am 12. November um 14:00 Uhr auf FohlenTV"
+      },
+      {
+        "url": "https://www.90min.de/borussia-monchengladbach-gegen-standard-luttich-testspiel-live-im-kostenlosen-stream-12-11-2026",
+        "name": "FohlenTV: kostenlos nach Login"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:28.415325+00:00"
+    "verifiedAt": "2026-11-11T11:38:24.392621+00:00",
+    "channelLinks": {
+      "FohlenTV": "https://tv.borussia.de/app.php/"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "time": "14:00",
+    "competition": "U19-EM-Qualifikation",
+    "country": "International",
+    "home": "Deutschland (U19)",
+    "away": "Schweden (U19)",
+    "channels": [
+      "DFB.TV"
+    ],
+    "sources": [
+      {
+        "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
+        "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
+      },
+      {
+        "url": "https://datencenter.dfb.de/datencenter/em-qualifikation-1231/2026-2027/2-runde-gruppe-3/deutschland-u-19-m-schweden-u-19-2418434",
+        "name": "DFB-Datencenter: Anstoß 14:00 Uhr"
+      }
+    ],
+    "channelLinks": {
+      "DFB.TV": "https://watch.dfbtvplus.de/"
+    },
+    "groups": [
+      "other"
+    ],
+    "verifiedAt": "2026-11-11T11:38:26.465746+00:00"
   },
   {
     "date": "2026-11-12",
@@ -585,7 +534,7 @@
   {
     "date": "2026-11-12",
     "time": "16:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Ghana",
     "away": "Somalia",
@@ -609,7 +558,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:28.376911+00:00"
+    "verifiedAt": "2026-11-11T11:38:24.523697+00:00"
   },
   {
     "date": "2026-11-12",
@@ -635,6 +584,27 @@
       }
     ],
     "verifiedAt": "2026-11-11T06:08:28.495156+00:00"
+  },
+  {
+    "date": "2026-11-12",
+    "time": "18:00",
+    "competition": "UEFA Women's Europa Cup",
+    "country": "International",
+    "home": "SCU Torreense ♀",
+    "away": "Sparta Prag ♀",
+    "channels": [
+      "SENDER UNBEKANNT"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uefa.com/news-media/news/02ab-2209e8267c40-cadb2ec0869e-1000--uefa-matches-in-portugal-postponed-due-to-storm-charles/",
+        "name": "UEFA: wegen Sturm Charles auf Donnerstag um 18:00 Uhr MEZ verlegt"
+      }
+    ],
+    "groups": [
+      "other"
+    ],
+    "verifiedAt": "2026-11-11T11:38:26.465715+00:00"
   },
   {
     "date": "2026-11-12",
@@ -728,7 +698,7 @@
   {
     "date": "2026-11-12",
     "time": "20:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Elfenbeinküste",
     "away": "Gambia",
@@ -752,12 +722,12 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:28.969021+00:00"
+    "verifiedAt": "2026-11-11T11:38:24.435816+00:00"
   },
   {
     "date": "2026-11-12",
     "time": "20:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Kamerun",
     "away": "Namibia",
@@ -781,12 +751,12 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:28.981096+00:00"
+    "verifiedAt": "2026-11-11T11:38:24.416472+00:00"
   },
   {
     "date": "2026-11-12",
     "time": "20:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Senegal",
     "away": "Sudan",
@@ -810,7 +780,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:28.951467+00:00"
+    "verifiedAt": "2026-11-11T11:38:24.405368+00:00"
   },
   {
     "date": "2026-11-12",
@@ -987,6 +957,37 @@
     "verifiedAt": "2026-11-11T06:08:29.380992+00:00"
   },
   {
+    "date": "2026-11-12",
+    "time": "21:00",
+    "competition": "Champions League (Frauen)",
+    "country": "International",
+    "home": "Benfica Lissabon ♀",
+    "away": "FK Austria Wien ♀",
+    "channels": [
+      "ORF Sport+ (AT)",
+      "Disney+",
+      "ORF ON (AT)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
+        "name": "fußballgucken.info – Tagesplan 2026-11-12"
+      },
+      {
+        "url": "https://fussballgucken.info/match/193937/champions-league-frauen/benfica-lissabon-frauen-fk-austria-wien-frauen",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.uefa.com/news-media/news/02ab-2209e8267c40-cadb2ec0869e-1000--uefa-matches-in-portugal-postponed-due-to-storm-charles/",
+        "name": "Offizielle Anstoßzeit (Europe/Berlin)"
+      }
+    ],
+    "verifiedAt": "2026-11-11T11:38:24.523290+00:00"
+  },
+  {
     "date": "2026-11-13",
     "time": "12:30",
     "competition": "Testspiel (Vereine)",
@@ -1037,7 +1038,7 @@
   {
     "date": "2026-11-13",
     "time": "17:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Nigeria",
     "away": "Tansania",
@@ -1055,14 +1056,18 @@
       {
         "url": "https://fussballgucken.info/match/198380/afrika-cup/nigeria-tansania",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:30.150115+00:00"
+    "verifiedAt": "2026-11-11T11:38:24.715528+00:00"
   },
   {
     "date": "2026-11-13",
     "time": "17:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Tunesien",
     "away": "Libyen",
@@ -1080,9 +1085,13 @@
       {
         "url": "https://fussballgucken.info/match/198387/afrika-cup/tunesien-libyen",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:30.163234+00:00"
+    "verifiedAt": "2026-11-11T11:38:24.729113+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1340,7 +1349,7 @@
   {
     "date": "2026-11-13",
     "time": "20:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Mali",
     "away": "Ruanda",
@@ -1358,14 +1367,18 @@
       {
         "url": "https://fussballgucken.info/match/198384/afrika-cup/mali-ruanda",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:30.667335+00:00"
+    "verifiedAt": "2026-11-11T11:38:24.918928+00:00"
   },
   {
     "date": "2026-11-13",
     "time": "20:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Ägypten",
     "away": "Malawi",
@@ -1389,7 +1402,7 @@
         "name": "Offizielle Anstoßzeit (Europe/Berlin)"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:31.561335+00:00"
+    "verifiedAt": "2026-11-11T11:38:25.299306+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1640,7 +1653,7 @@
   {
     "date": "2026-11-13",
     "time": "21:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Marokko",
     "away": "Niger",
@@ -1658,9 +1671,13 @@
       {
         "url": "https://fussballgucken.info/match/198383/afrika-cup/marokko-niger",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:31.545436+00:00"
+    "verifiedAt": "2026-11-11T11:38:25.402340+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2685,7 +2702,7 @@
   {
     "date": "2026-11-14",
     "time": "17:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Uganda",
     "away": "Botsuana",
@@ -2703,9 +2720,13 @@
       {
         "url": "https://fussballgucken.info/match/198378/afrika-cup/uganda-botsuana",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:33.509664+00:00"
+    "verifiedAt": "2026-11-11T11:38:25.525691+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2905,7 +2926,7 @@
   {
     "date": "2026-11-14",
     "time": "20:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Algerien",
     "away": "Togo",
@@ -2923,9 +2944,13 @@
       {
         "url": "https://fussballgucken.info/match/198388/afrika-cup/algerien-togo",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:33.928982+00:00"
+    "verifiedAt": "2026-11-11T11:38:25.608721+00:00"
   },
   {
     "date": "2026-11-14",
@@ -3744,7 +3769,7 @@
   {
     "date": "2026-11-16",
     "time": "14:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Namibia",
     "away": "Kamerun",
@@ -3762,9 +3787,38 @@
       {
         "url": "https://fussballgucken.info/match/198389/afrika-cup/namibia-kamerun",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:35.332118+00:00"
+    "verifiedAt": "2026-11-11T11:38:26.080583+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "14:00",
+    "competition": "Afrika-Cup-Qualifikation",
+    "country": "International",
+    "home": "Sudan",
+    "away": "Senegal",
+    "channels": [
+      "DAZN 2"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
+      },
+      {
+        "url": "https://www.prisma.de/tv-programm/Africa-Cup-of-Nations-Qualifikation-2027,58288200",
+        "name": "DAZN 2: TV-Programm für Sudan gegen Senegal"
+      }
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "verifiedAt": "2026-11-11T11:38:26.465643+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3815,6 +3869,31 @@
       }
     ],
     "verifiedAt": "2026-11-11T06:08:35.369717+00:00"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "16:00",
+    "competition": "Afrika-Cup-Qualifikation",
+    "country": "International",
+    "home": "Somalia",
+    "away": "Ghana",
+    "channels": [
+      "DAZN 2"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
+      },
+      {
+        "url": "https://www.prisma.de/tv-programm/Africa-Cup-of-Nations-Qualifikation-2027,58288202",
+        "name": "DAZN 2: TV-Programm für Somalia gegen Ghana"
+      }
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "verifiedAt": "2026-11-11T11:38:26.465654+00:00"
   },
   {
     "date": "2026-11-16",
@@ -4098,7 +4177,7 @@
   {
     "date": "2026-11-17",
     "time": "14:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Malawi",
     "away": "Ägypten",
@@ -4116,14 +4195,18 @@
       {
         "url": "https://fussballgucken.info/match/198410/afrika-cup/malawi-aegypten",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:35.836668+00:00"
+    "verifiedAt": "2026-11-11T11:38:26.276361+00:00"
   },
   {
     "date": "2026-11-17",
     "time": "17:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Gambia",
     "away": "Elfenbeinküste",
@@ -4141,9 +4224,13 @@
       {
         "url": "https://fussballgucken.info/match/198390/afrika-cup/gambia-elfenbeinkueste",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:35.856507+00:00"
+    "verifiedAt": "2026-11-11T11:38:26.340257+00:00"
   },
   {
     "date": "2026-11-17",
@@ -4177,7 +4264,7 @@
   {
     "date": "2026-11-17",
     "time": "20:00",
-    "competition": "Afrika-Cup",
+    "competition": "Afrika-Cup-Qualifikation",
     "country": "International",
     "home": "Botsuana",
     "away": "Uganda",
@@ -4195,9 +4282,13 @@
       {
         "url": "https://fussballgucken.info/match/198409/afrika-cup/botsuana-uganda",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
+        "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-11T06:08:35.893789+00:00"
+    "verifiedAt": "2026-11-11T11:38:26.406063+00:00"
   },
   {
     "date": "2026-11-17",
