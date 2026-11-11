@@ -1,0 +1,29 @@
+name: Audit SEO discoverability
+on:
+  schedule:
+    - cron: "23 8,17 * * *"
+  workflow_run:
+    workflows: ["Refresh and publish broadcast data"]
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Validate sitemap, canonicals, robots and match pages
+        run: python3 scripts/audit-seo.py
+      - name: File critical SEO issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="SEO discovery audit failed"
+          URL="https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          NUMBER=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')
+          if [ -z "$NUMBER" ]; then gh issue create --title "$TITLE" --body "Sitemap, canonical URL, indexability or upcoming match-page audit failed. Inspect: $URL"; else gh issue comment "$NUMBER" --body "Additional failed SEO audit: $URL"; fi
