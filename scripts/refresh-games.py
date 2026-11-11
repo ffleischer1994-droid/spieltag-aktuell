@@ -140,6 +140,16 @@ EXCLUDED_BROADCASTS = {
 
 # Confirmed fixtures not yet present in the daily listing.
 VERIFIED_ADDITIONAL_FIXTURES = [{
+    'date': '2026-11-12', 'time': '14:00',
+    'competition': 'Testspiel (Vereine)', 'country': 'Deutschland',
+    'home': 'SpVgg Greuther Fürth', 'away': 'Würzburger Kickers',
+    'channels': ['Greuther Fürth (YouTube)'],
+    'sources': [
+        {'url': 'https://www.sgf1903.de/news/profis/testspiel-gegen-wuerzburg',
+         'name': 'Greuther Fürth: Anstoß und YouTube-Livestream ab 14 Uhr'},
+    ],
+    'channelLinks': {'Greuther Fürth (YouTube)': 'https://www.youtube.com/@DasKleeblattFuerth'},
+}, {
     'date': '2026-11-16', 'time': '14:00',
     'competition': 'Afrika-Cup-Qualifikation', 'country': 'International',
     'home': 'Sudan', 'away': 'Senegal',
@@ -531,7 +541,7 @@ def groups_for(channels):
         if 'DAZN' in c and c not in DAZN_REGION_LINKS: group = 'dazn'
         elif re.search(r'Sky|WOW', c, re.I) and '(AT)' not in c and '(CH)' not in c: group = 'sky'
         elif 'Prime' in c: group = 'prime'
-        elif c in {'Pluto TV', 'DynamoTV (YouTube)', 'Baller League UK (YouTube)'}: group = 'free'
+        elif c in {'Pluto TV', 'DynamoTV (YouTube)', 'Greuther Fürth (YouTube)', 'Baller League UK (YouTube)'}: group = 'free'
         # Only explicit German public/free services, never infer from OneFootball.
         elif re.match(r'^(?:ARD|Das Erste|ZDF|BR24|BR \(|WDR|NDR|MDR|SWR|RBB|rbb|hr |[Ss][Pp][Oo][Rr][Tt]1$|RTL$|FIFA\+)', c): group = 'free'
         else: group = 'other'
