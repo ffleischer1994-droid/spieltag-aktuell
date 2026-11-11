@@ -1,0 +1,81 @@
+name: Audit Instagram publication receipts
+on:
+  schedule:
+    # Repeated checks tolerate missed or delayed GitHub scheduled events.
+    - cron: "11,41 9-22 * * *"
+  workflow_run:
+    workflows: ["Refresh and publish broadcast data"]
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Check expected Instagram publication receipts
+        id: audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          NOW_DATE=$(TZ=Europe/Berlin date +%F)
+          DAY=$(TZ=Europe/Berlin date +%u)
+          HOUR=$(TZ=Europe/Berlin date +%H)
+          FAILED=0
+          check() {
+            local receipt="$1" type="$2"
+            if [ ! -f "$receipt" ]; then
+              echo "::error::$type missing receipt: $receipt"
+              FAILED=1
+              return
+            fi
+            if ! node - "$receipt" "$type" <<'NODE'
+          const fs = require('node:fs');
+          const [filename,kind] = process.argv.slice(2);
+          const s=JSON.parse(fs.readFileSync(filename,'utf8'));
+          const valid = id => /^\d{8,}$/.test(String(id||''));
+          const ok = kind==='daily' ? valid(s.feed?.id)&&valid(s.story?.id) : valid(s.id);
+          if (!ok) { console.error('::error::Missing verified Instagram media ids in '+filename); process.exit(1); }
+          console.log('Verified publication ids:',filename);
+          NODE
+            then FAILED=1; fi
+          }
+          # Do not wait for the next day to detect a missed morning publication.
+          if [ "$HOUR" -ge 12 ]; then
+            check "social/published/$NOW_DATE.json" daily
+          fi
+          if [ "$DAY" = 1 ] && [ "$HOUR" -ge 15 ]; then
+            check "social/published/women-$NOW_DATE.json" weekly
+          fi
+          if [ "$DAY" = 1 ] && [ "$HOUR" -ge 20 ]; then
+            check "social/published/free-tv-$NOW_DATE.json" weekly
+          fi
+          if [ "$DAY" = 5 ] && [ "$HOUR" -ge 22 ]; then
+            check "social/published/weekend-$NOW_DATE.json" weekly
+          fi
+          if [ "$DAY" = 6 ] && [ "$HOUR" -ge 12 ]; then
+            FRIDAY=$(TZ=Europe/Berlin date -d yesterday +%F)
+            check "social/published/weekend-$FRIDAY.json" weekly
+          fi
+          if [ "$FAILED" = 1 ]; then
+            echo "MISSING_PUBLICATION=1" >> "$GITHUB_ENV"
+            exit 1
+          fi
+      - name: Create one visible incident issue on missing publication
+        if: failure() && env.MISSING_PUBLICATION == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          DATE=$(TZ=Europe/Berlin date +%F)
+          TITLE="Instagram-Publikation fehlt: $DATE"
+          BODY="Die automatische Prüfung hat fehlende oder unvollständige Instagram-Publikationsbelege gefunden. Bitte prüfen: social/published, Social Media Daily und Instagram Weekly Carousels. Diese Prüfung zählt nur gespeicherte Instagram-Media-IDs, nicht grüne GitHub-Workflows.\n\nAudit: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          NUMBER=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')
+          if [ -z "$NUMBER" ]; then
+            gh issue create --title "$TITLE" --body "$BODY"
+          else
+            echo "::notice::Incident already open: #$NUMBER"
+          fi
