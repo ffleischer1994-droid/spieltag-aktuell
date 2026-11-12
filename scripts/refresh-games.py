@@ -142,6 +142,31 @@ EXCLUDED_BROADCASTS = {
 VERIFIED_ADDITIONAL_FIXTURES = [{
     'date': '2026-11-12', 'time': '14:00',
     'competition': 'Testspiel (Vereine)', 'country': 'Deutschland',
+    'home': 'FC Energie Cottbus', 'away': 'FC Erzgebirge Aue',
+    'channels': ['FCEnergieTV (YouTube)'],
+    'sources': [
+        {'url': 'https://www.fcenergie.de/testspiele.html', 'name': 'FC Energie Cottbus: offizieller Spieltermin'},
+        {'url': 'https://www.niederlausitz-aktuell.de/niederlausitz-aktuell/orte/cottbus/331923/testspiel-in-der-laenderspielpause-energie-cottbus-trifft-auf-aue.html',
+         'name': 'Niederlausitz aktuell: bestätigter Vereinslivestream'},
+    ],
+    'channelLinks': {'FCEnergieTV (YouTube)': 'https://www.youtube.com/@fcenergietv'},
+}, {
+    'date': '2026-11-15', 'time': '15:00',
+    'competition': 'Testspiel (Vereine)', 'country': 'Deutschland',
+    'home': 'Hamburger SV', 'away': 'HNK Hajduk Split',
+    'channels': ['Sky Sport News', 'Sky Sport Bundesliga', 'Sky Sport (Livestream)'],
+    'sources': [
+        {'url': 'https://www.hsv.de/news/44-444-tickets-fuer-die-44-vorfreude-auf-hajduk-test',
+         'name': 'Hamburger SV: offizieller Spieltermin'},
+        {'url': 'https://sport.sky.de/fussball/artikel/bundesliga-testspiele-live-auf-sky-sport/12129058/34089',
+         'name': 'Sky Sport: TV- und Streamübertragung ab 14:55 Uhr'},
+    ],
+    'channelLinks': {
+        'Sky Sport (Livestream)': 'https://sport.sky.de/fussball/artikel/bundesliga-testspiele-live-auf-sky-sport/12129058/34089',
+    },
+}, {
+    'date': '2026-11-12', 'time': '14:00',
+    'competition': 'Testspiel (Vereine)', 'country': 'Deutschland',
     'home': 'SpVgg Greuther Fürth', 'away': 'Würzburger Kickers',
     'channels': ['Greuther Fürth (YouTube)'],
     'sources': [
@@ -484,7 +509,7 @@ def fixture_key(fixture):
     def team_key(name):
         normalized = ''.join(c for c in unicodedata.normalize('NFKD', name.casefold())
                              if not unicodedata.combining(c))
-        return normalized.removeprefix('fk ')
+        return normalized.removeprefix('fk ').removeprefix('hnk ')
     return fixture['date'], team_key(fixture['home']), team_key(fixture['away'])
 
 
@@ -551,7 +576,7 @@ def groups_for(channels):
         if 'DAZN' in c and c not in DAZN_REGION_LINKS: group = 'dazn'
         elif re.search(r'Sky|WOW', c, re.I) and '(AT)' not in c and '(CH)' not in c: group = 'sky'
         elif 'Prime' in c: group = 'prime'
-        elif c in {'Pluto TV', 'DynamoTV (YouTube)', 'Greuther Fürth (YouTube)', 'Baller League UK (YouTube)'}: group = 'free'
+        elif c in {'Pluto TV', 'DynamoTV (YouTube)', 'Greuther Fürth (YouTube)', 'FCEnergieTV (YouTube)', 'Baller League UK (YouTube)'}: group = 'free'
         # Only explicit German public/free services, never infer from OneFootball.
         elif re.match(r'^(?:ARD|Das Erste|ZDF|BR24|BR \(|WDR|NDR|MDR|SWR|RBB|rbb|hr |[Ss][Pp][Oo][Rr][Tt]1$|RTL$|FIFA\+)', c): group = 'free'
         else: group = 'other'
