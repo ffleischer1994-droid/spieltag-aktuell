@@ -548,7 +548,10 @@ def channels_from(element):
         if label.startswith('Sky (Schweiz)'): label = 'Sky (CH)'
         if label.startswith('Swisscom'): label = 'blue Sport (CH)'
         if label.startswith('DFB.TV') and not label.startswith('DFB.TV+'): label = 'DFB.TV'
-        if label.lower().startswith(("l'équipe", "l’équipe")): label = "L'Équipe (FR)"
+        if label.casefold().replace("’", "'").startswith("l'équipe live foot"):
+            label = "L'Équipe Live Foot (FR)"
+        elif label.casefold().replace("’", "'").startswith("l'équipe"):
+            label = "L'Équipe (FR)"
         if label.startswith('DAZN'): label = DAZN_REGION_LABELS.get(label, 'DAZN')
         elif label.startswith('MagentaSport'): label = 'MagentaSport'
         elif label.startswith('OneFootball'): label = 'OneFootball'
