@@ -335,6 +335,7 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
     'home': 'SK Sturm Graz ♀', 'away': 'First Vienna FC 1894 ♀',
     'channels': ['ORF SPORT+ (AT)'],
     'sources': [
+        {'url': 'https://www.oefb.at/oefb/News/AFBL-26-27-Runde-13-Vorschau', 'name': 'ÖFB: offizielle Spieltagsvorschau und Liveübertragung'},
         {'url': 'https://tv.orf.at/program/orfs/livefussba1788.html', 'name': 'ORF SPORT+: bestätigte Liveübertragung'},
         {'url': 'https://sksturm.at/t/frauen/spielplan', 'name': 'Offizieller Spielplan'},
     ],
@@ -353,8 +354,9 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
     'date': '2026-11-14', 'time': '14:00',
     'competition': 'Frauen-Bundesliga (Österreich)', 'country': 'Österreich',
     'home': 'FC Blau-Weiß Linz/Kleinmünchen ♀', 'away': 'SpG Südburgenland / TSV Hartberg ♀',
-    'channels': ['ÖFB TV (AT)'],
+    'channels': ['ÖFB TV (AT)', 'LAOLA1 (Livestream)'],
     'sources': [
+        {'url': 'https://www.oefb.at/oefb/News/AFBL-26-27-Runde-13-Vorschau', 'name': 'ÖFB: offizielle Spieltagsvorschau und Liveübertragung'},
         {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
         {'url': 'https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News', 'name': 'Offizieller Spielplan'},
     ],
@@ -363,18 +365,9 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
     'date': '2026-11-14', 'time': '14:00',
     'competition': 'Frauen-Bundesliga (Österreich)', 'country': 'Österreich',
     'home': 'SKN St. Pölten ♀', 'away': 'LASK ♀',
-    'channels': ['ÖFB TV (AT)'],
+    'channels': ['ÖFB TV (AT)', 'LAOLA1 (Livestream)'],
     'sources': [
-        {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
-        {'url': 'https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News', 'name': 'Offizieller Spielplan'},
-    ],
-    'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/live'},
-}, {
-    'date': '2026-11-14', 'time': '15:00',
-    'competition': 'Frauen-Bundesliga (Österreich)', 'country': 'Österreich',
-    'home': 'FC Red Bull Salzburg ♀', 'away': 'FK Austria Wien ♀',
-    'channels': ['ÖFB TV (AT)'],
-    'sources': [
+        {'url': 'https://www.oefb.at/oefb/News/AFBL-26-27-Runde-13-Vorschau', 'name': 'ÖFB: offizielle Spieltagsvorschau und Liveübertragung'},
         {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
         {'url': 'https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News', 'name': 'Offizieller Spielplan'},
     ],
@@ -393,8 +386,9 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
     'date': '2026-11-15', 'time': '11:00',
     'competition': 'Frauen-Bundesliga (Österreich)', 'country': 'Österreich',
     'home': 'SCR Altach ♀', 'away': 'SK Rapid ♀',
-    'channels': ['ÖFB TV (AT)'],
+    'channels': ['ÖFB TV (AT)', 'LAOLA1 (Livestream)'],
     'sources': [
+        {'url': 'https://www.oefb.at/oefb/News/AFBL-26-27-Runde-13-Vorschau', 'name': 'ÖFB: offizielle Spieltagsvorschau und Liveübertragung'},
         {'url': 'https://www.oefb.tv/de/live', 'name': 'ÖFB TV: offizieller Livestream-Spielplan'},
         {'url': 'https://www.oefb.at/oefb/News/AFBL-Spielplan-2026-27-News', 'name': 'Offizieller Spielplan'},
     ],
@@ -472,6 +466,20 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
 }]
 
 
+AUSTRIAN_WOMEN_COMPETITION = 'Frauen-Bundesliga (Österreich)'
+AUSTRIAN_WOMEN_TEAM_NAMES = {
+    'FC Blau Weiß Linz/Union Kleinmünchen ♀': 'FC Blau-Weiß Linz/Kleinmünchen ♀',
+    'SpG Südburgenland/TSV Hartberg ♀': 'SpG Südburgenland / TSV Hartberg ♀',
+    'Linzer ASK ♀': 'LASK ♀',
+    'SK Rapid Wien ♀': 'SK Rapid ♀',
+}
+POSTPONED_FIXTURES = {
+    # ÖFB round 13 preview: https://www.oefb.at/oefb/News/AFBL-26-27-Runde-13-Vorschau
+    ('2026-11-14', 'https://fussballgucken.info/match/198554/oefb-frauen-bundesliga/'
+     'red-bull-salzburg-frauen-fk-austria-wien-frauen'),
+}
+
+
 def fixture_key(fixture):
     def team_key(name):
         normalized = ''.join(c for c in unicodedata.normalize('NFKD', name.casefold())
@@ -525,6 +533,8 @@ def channels_from(element):
         elif label.startswith('Sportdigital+'): label = 'Sportdigital+'
         elif label.startswith('blue Sport'): label = 'blue Sport (CH)'
         elif label.startswith('blue Zoom'): label = 'blue Zoom (CH)'
+        elif label in {'ÖFB TV', 'ÖFB TV (via ÖFB App)'}: label = 'ÖFB TV (AT)'
+        elif label.lower() == 'orf sport+': label = 'ORF SPORT+ (AT)'
         elif label.startswith(('ORF', 'Sky Sport Austria')) or '(Austria)' in label:
             label = re.sub(r' \(.*$', '', label) + ' (AT)'
         elif label.startswith(('SRF', 'RTS', 'RSI')):
@@ -564,6 +574,14 @@ def read_day(date):
         if not re.fullmatch(r'\d{2}:\d{2}', time): raise ValueError(f'{date}: invalid time')
         link = item.select_one('a[href^="/match/"]')
         match_url = urljoin(BASE, link['href'])
+        if (date, match_url) in POSTPONED_FIXTURES:
+            return None
+        home_name = home.get_text(' ', strip=True)
+        away_name = away.get_text(' ', strip=True)
+        if competition == 'ÖFB Frauen Bundesliga':
+            competition = AUSTRIAN_WOMEN_COMPETITION
+            home_name = AUSTRIAN_WOMEN_TEAM_NAMES.get(home_name, home_name)
+            away_name = AUSTRIAN_WOMEN_TEAM_NAMES.get(away_name, away_name)
         competition_override = VERIFIED_COMPETITIONS.get((date, match_url))
         if competition_override:
             competition = competition_override[0]
@@ -581,7 +599,7 @@ def read_day(date):
         researched = VERIFIED_BROADCASTS.get((date, match_url))
         if researched:
             if 'home' in researched:
-                home.string = researched['home']
+                home_name = researched['home']
             channels = list(dict.fromkeys(
                 [c for c in channels if 'unbekannt' not in c.lower()]
                 + researched['channels']))
@@ -594,7 +612,7 @@ def read_day(date):
             time = kickoff[1]
         # Sachsenpokal: BSC Freiberg, not the Southwest club SGV Freiberg.
         if (date, match_url) == ('2026-11-14', 'https://fussballgucken.info/match/197298/landespokal-sachsen/sgv-freiberg-sg-taucha-99'):
-            home.string = 'BSC Freiberg'
+            home_name = 'BSC Freiberg'
         flag = item.select_one('.meta-flag a')
         country = flag.get('title', '').removeprefix('Länderseite ').strip() if flag else 'International'
         channel_links = {c: DAZN_REGION_LINKS[c] for c in channels if c in DAZN_REGION_LINKS}
@@ -604,7 +622,7 @@ def read_day(date):
         if researched and researched.get('freeChannels', set()).intersection(channels) and 'free' not in groups:
             groups.append('free')
         return dict(date=fixture_date, time=time, competition=competition, country=country or 'International',
-                         home=home.get_text(' ', strip=True), away=away.get_text(' ', strip=True),
+                         home=home_name, away=away_name,
                          channels=channels, groups=groups,
                          sources=[{'url':url,'name':f'fußballgucken.info – Tagesplan {date}'},
                                   {'url':match_url,'name':'Übertragungsdetails'}]
