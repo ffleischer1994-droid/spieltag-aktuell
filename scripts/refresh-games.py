@@ -60,6 +60,12 @@ AFCON_QUALIFIER_SCHEDULE = 'https://www.cafonline.com/afcon2025/news/crucial-mat
 
 # Official competition labels for listings that conflate qualifiers and finals.
 VERIFIED_COMPETITIONS = {
+    ('2026-11-12', 'https://fussballgucken.info/match/198570/u19-em/deutschland-u19-schweden-u19'): (
+        'U19-EM-Qualifikation', 'https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine'),
+    ('2026-11-14', 'https://fussballgucken.info/match/198569/u19-em/portugal-u19-deutschland-u19'): (
+        'U19-EM-Qualifikation', 'https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine'),
+    ('2026-11-17', 'https://fussballgucken.info/match/198571/u19-em/litauen-u19-deutschland-u19'): (
+        'U19-EM-Qualifikation', 'https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine'),
     ('2026-11-11', 'https://fussballgucken.info/match/198457/u17-em/deutschland-u17-aserbaidschan-u17'): (
         'U17-EM-Qualifikation',
         'https://datencenter.dfb.de/datencenter/em-qualifikation-1242/2026-27/gruppe-2/deutschland-u-17-m-aserbaidschan-u-17-2413487'),
@@ -334,6 +340,16 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
         {'url': 'https://datencenter.dfb.de/competitions/em-qualifikation-1231/seasons/2026-2027/teams/deutschland-u-19-m', 'name': 'DFB-Datencenter: Anstoß 18:00 Uhr'},
     ],
     'channelLinks': {'DFB.TV': 'https://watch.dfbtvplus.de/'},
+}, {
+    'date': '2026-11-17', 'time': '16:00',
+    'competition': 'U19-EM-Qualifikation', 'country': 'International',
+    'home': 'Litauen (U19)', 'away': 'Deutschland (U19)',
+    'channels': ['DFB.TV', 'DFB.TV+'],
+    'sources': [
+        {'url': 'https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv', 'name': 'DFB: bestätigte Liveübertragung und Empfang über DFB.TV+'},
+        {'url': 'https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine', 'name': 'DFB: EM-Qualifikation, Anstoß um 16:00 Uhr'},
+    ],
+    'channelLinks': {'DFB.TV': 'https://watch.dfbtvplus.de/', 'DFB.TV+': 'https://watch.dfbtvplus.de/'},
 }, {
     'date': '2026-11-11', 'time': '14:00',
     'competition': 'Länderspiel (U16)', 'country': 'International',

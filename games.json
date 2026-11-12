@@ -30,7 +30,7 @@
         "name": "FK Mladá Boleslav: offizieller Spieltermin"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:22.918995+00:00",
+    "verifiedAt": "2026-11-12T19:16:21.271019+00:00",
     "channelLinks": {
       "RB Leipzig (Vereinsstream)": "https://rbleipzig.com/en/news/rb-leipzig-friendly-fk-mlada-boleslav-12-november-2026"
     }
@@ -67,7 +67,7 @@
         "name": "FohlenTV: kostenlos nach Login"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.016272+00:00",
+    "verifiedAt": "2026-11-12T19:16:21.289819+00:00",
     "channelLinks": {
       "FohlenTV": "https://tv.borussia.de/app.php/"
     }
@@ -80,9 +80,25 @@
     "home": "Deutschland (U19)",
     "away": "Schweden (U19)",
     "channels": [
-      "DFB.TV"
+      "DFB.TV",
+      "DFB.TV+"
+    ],
+    "groups": [
+      "other"
     ],
     "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
+        "name": "fußballgucken.info – Tagesplan 2026-11-12"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198570/u19-em/deutschland-u19-schweden-u19",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine",
+        "name": "DFB: offizieller Wettbewerb"
+      },
       {
         "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
         "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
@@ -92,13 +108,10 @@
         "name": "DFB-Datencenter: Anstoß 14:00 Uhr"
       }
     ],
+    "verifiedAt": "2026-11-12T19:16:21.347289+00:00",
     "channelLinks": {
       "DFB.TV": "https://watch.dfbtvplus.de/"
-    },
-    "groups": [
-      "other"
-    ],
-    "verifiedAt": "2026-11-12T16:47:33.715854+00:00"
+    }
   },
   {
     "date": "2026-11-12",
@@ -126,7 +139,7 @@
     "groups": [
       "free"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715761+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826339+00:00"
   },
   {
     "date": "2026-11-12",
@@ -151,7 +164,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:22.969707+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.248337+00:00"
   },
   {
     "date": "2026-11-12",
@@ -175,7 +188,7 @@
     "groups": [
       "free"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715799+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826363+00:00"
   },
   {
     "date": "2026-11-12",
@@ -200,7 +213,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.006130+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.338825+00:00"
   },
   {
     "date": "2026-11-12",
@@ -229,7 +242,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.028951+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.397107+00:00"
   },
   {
     "date": "2026-11-12",
@@ -256,7 +269,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:22.890197+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.384353+00:00"
   },
   {
     "date": "2026-11-12",
@@ -284,7 +297,7 @@
     "groups": [
       "other"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715827+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826381+00:00"
   },
   {
     "date": "2026-11-12",
@@ -311,7 +324,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.403759+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.625964+00:00"
   },
   {
     "date": "2026-11-12",
@@ -344,7 +357,7 @@
         "name": "DAZN Germany, Austria und Switzerland"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.516040+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.429129+00:00"
   },
   {
     "date": "2026-11-12",
@@ -377,7 +390,7 @@
         "name": "fußballgucken.info – Tagesplan 2026-11-11"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.599821+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.433437+00:00"
   },
   {
     "date": "2026-11-12",
@@ -406,7 +419,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.638811+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.550381+00:00"
   },
   {
     "date": "2026-11-12",
@@ -435,7 +448,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.540724+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.515068+00:00"
   },
   {
     "date": "2026-11-12",
@@ -464,7 +477,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.553248+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.536168+00:00"
   },
   {
     "date": "2026-11-12",
@@ -491,7 +504,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.157142+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.626673+00:00"
   },
   {
     "date": "2026-11-12",
@@ -518,7 +531,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.207049+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.612188+00:00"
   },
   {
     "date": "2026-11-12",
@@ -565,7 +578,7 @@
         "name": "Italien–Frankreich: Rai 1 und RaiPlay (Italien)"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.347880+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.626995+00:00"
   },
   {
     "date": "2026-11-12",
@@ -592,7 +605,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.958781+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.573635+00:00"
   },
   {
     "date": "2026-11-12",
@@ -619,7 +632,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.108663+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.522854+00:00"
   },
   {
     "date": "2026-11-12",
@@ -646,7 +659,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.173497+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.546198+00:00"
   },
   {
     "date": "2026-11-12",
@@ -677,7 +690,7 @@
         "name": "Offizielle Anstoßzeit (Europe/Berlin)"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.677991+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.592998+00:00"
   },
   {
     "date": "2026-11-13",
@@ -701,7 +714,7 @@
     "groups": [
       "other"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715863+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826408+00:00"
   },
   {
     "date": "2026-11-13",
@@ -725,7 +738,7 @@
     "groups": [
       "free"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715870+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826413+00:00"
   },
   {
     "date": "2026-11-13",
@@ -754,7 +767,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:22.838492+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.238041+00:00"
   },
   {
     "date": "2026-11-13",
@@ -783,7 +796,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:22.980610+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.257572+00:00"
   },
   {
     "date": "2026-11-13",
@@ -816,7 +829,7 @@
         "name": "DFB – offizieller Spieltermin und TV-Sender"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:22.875742+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.297729+00:00"
   },
   {
     "date": "2026-11-13",
@@ -841,7 +854,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:22.943711+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.318733+00:00"
   },
   {
     "date": "2026-11-13",
@@ -879,7 +892,7 @@
         "name": "Offizieller Spielplan"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:22.976139+00:00",
+    "verifiedAt": "2026-11-12T19:16:21.274382+00:00",
     "channelLinks": {
       "ORF SPORT+ (AT)": "https://tv.orf.at/program/orfs/livefussba1788.html"
     }
@@ -910,7 +923,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.048823+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.324456+00:00"
   },
   {
     "date": "2026-11-13",
@@ -936,7 +949,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.634119+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.410852+00:00"
   },
   {
     "date": "2026-11-13",
@@ -962,7 +975,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.428382+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.301223+00:00"
   },
   {
     "date": "2026-11-13",
@@ -989,7 +1002,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.378046+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.359097+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1014,7 +1027,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.577153+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.355909+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1039,7 +1052,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.622262+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.387438+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1068,7 +1081,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.663359+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.392078+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1097,7 +1110,7 @@
         "name": "Offizielle Anstoßzeit (Europe/Berlin)"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.916328+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.583408+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1122,7 +1135,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.999130+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.436798+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1147,7 +1160,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.257152+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.462781+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1172,7 +1185,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:23.981438+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.440516+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1197,7 +1210,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.123661+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.494565+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1224,7 +1237,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.540404+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.459093+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1249,7 +1262,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.568211+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.491486+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1282,7 +1295,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.875188+00:00",
+    "verifiedAt": "2026-11-12T19:16:21.519060+00:00",
     "channelLinks": {
       "DAZN (AT)": "https://www.dazn.com/de-AT/home",
       "DAZN (CH)": "https://www.dazn.com/de-CH/home"
@@ -1311,7 +1324,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.230962+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.575494+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1343,7 +1356,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.320793+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.528021+00:00"
   },
   {
     "date": "2026-11-13",
@@ -1372,7 +1385,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:24.892941+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.570057+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1405,7 +1418,7 @@
         "name": "Französischer TV-Spielplan: L’Équipe"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.215857+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.757184+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1439,7 +1452,7 @@
       "other",
       "dazn"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715878+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826418+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1467,7 +1480,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.318433+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.706248+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1495,7 +1508,7 @@
     "groups": [
       "other"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715914+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826452+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1520,7 +1533,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.218553+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.750984+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1549,7 +1562,7 @@
         "name": "Offizieller Sachsenpokal-Spielplan – BSC Freiberg"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.865482+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.847332+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1580,7 +1593,7 @@
         "name": "Offizieller Sachsenpokal-Sendeplan von LVZ und Sächsischer Zeitung"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.252656+00:00",
+    "verifiedAt": "2026-11-12T19:16:21.842258+00:00",
     "channelLinks": {
       "LVZ+": "https://www.lvz.de/livesport",
       "Sächsische Zeitung": "https://www.saechsische.de/livesport",
@@ -1610,7 +1623,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.237602+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.775652+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1635,7 +1648,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.177974+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.761494+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1660,7 +1673,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.777319+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.796336+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1685,7 +1698,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.747817+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.845290+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1710,7 +1723,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.826941+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.807408+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1736,7 +1749,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.113789+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.096808+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1762,7 +1775,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.095110+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.078453+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1787,7 +1800,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.498324+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.908351+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1825,7 +1838,7 @@
         "name": "Offizieller Spielplan"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.502334+00:00",
+    "verifiedAt": "2026-11-12T19:16:21.975756+00:00",
     "channelLinks": {
       "ÖFB TV (AT)": "https://www.oefb.tv/de/live"
     }
@@ -1853,7 +1866,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.469343+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.998176+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1878,7 +1891,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.007749+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.027106+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1904,7 +1917,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.513264+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.070294+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1929,7 +1942,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.034356+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.039241+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1955,7 +1968,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.478294+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.066407+00:00"
   },
   {
     "date": "2026-11-14",
@@ -1981,7 +1994,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.610698+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.110198+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2019,7 +2032,7 @@
         "name": "Offizieller Spielplan"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.881637+00:00",
+    "verifiedAt": "2026-11-12T19:16:21.926612+00:00",
     "channelLinks": {
       "ÖFB TV (AT)": "https://www.oefb.tv/de/live"
     }
@@ -2050,7 +2063,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.752450+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.198652+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2077,7 +2090,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.434334+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.905516+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2103,7 +2116,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.629304+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.121921+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2132,7 +2145,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.409328+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.929768+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2158,7 +2171,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.644845+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.168622+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2183,7 +2196,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.991993+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.034904+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2213,7 +2226,7 @@
         "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.452502+00:00",
+    "verifiedAt": "2026-11-12T19:16:21.892020+00:00",
     "channelLinks": {
       "DFB.TV": "https://watch.dfbtvplus.de/"
     }
@@ -2242,7 +2255,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.956230+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.031393+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2267,7 +2280,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:29.085191+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.173315+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2292,7 +2305,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:29.089350+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.133745+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2317,7 +2330,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:29.224271+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.263997+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2342,7 +2355,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:29.178517+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.283056+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2371,7 +2384,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:29.245197+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.207209+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2410,7 +2423,7 @@
         "name": "DFB – Anstoß 17:55 Uhr und ARD-Übertragung"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:29.362707+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.220512+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2435,7 +2448,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.030204+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.302097+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2460,7 +2473,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.045697+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.297873+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2470,9 +2483,25 @@
     "home": "Portugal (U19)",
     "away": "Deutschland (U19)",
     "channels": [
-      "DFB.TV"
+      "DFB.TV",
+      "DFB.TV+"
+    ],
+    "groups": [
+      "other"
     ],
     "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-14",
+        "name": "fußballgucken.info – Tagesplan 2026-11-14"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198569/u19-em/portugal-u19-deutschland-u19",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine",
+        "name": "DFB: offizieller Wettbewerb"
+      },
       {
         "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
         "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
@@ -2482,13 +2511,10 @@
         "name": "DFB-Datencenter: Anstoß 18:00 Uhr"
       }
     ],
+    "verifiedAt": "2026-11-12T19:16:22.246669+00:00",
     "channelLinks": {
       "DFB.TV": "https://watch.dfbtvplus.de/"
-    },
-    "groups": [
-      "other"
-    ],
-    "verifiedAt": "2026-11-12T16:47:33.715885+00:00"
+    }
   },
   {
     "date": "2026-11-14",
@@ -2513,7 +2539,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:29.711307+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.315757+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2538,7 +2564,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:29.680700+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.235979+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2566,7 +2592,7 @@
     "groups": [
       "other"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715952+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826477+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2595,7 +2621,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.011804+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.363552+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2620,7 +2646,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.562737+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.360005+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2647,7 +2673,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.533319+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.325626+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2672,7 +2698,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.436536+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.382287+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2697,7 +2723,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.003034+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.350812+00:00"
   },
   {
     "date": "2026-11-14",
@@ -2725,7 +2751,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.668298+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.349101+00:00"
   },
   {
     "date": "2026-11-15",
@@ -2763,7 +2789,7 @@
         "name": "Offizieller Spielplan"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.633180+00:00",
+    "verifiedAt": "2026-11-12T19:16:21.778514+00:00",
     "channelLinks": {
       "ÖFB TV (AT)": "https://www.oefb.tv/de/live"
     }
@@ -2791,7 +2817,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.600735+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.800028+00:00"
   },
   {
     "date": "2026-11-15",
@@ -2822,7 +2848,7 @@
         "name": "Offizieller Sachsenpokal-Sendeplan von LVZ und Sächsischer Zeitung"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.627090+00:00",
+    "verifiedAt": "2026-11-12T19:16:21.825022+00:00",
     "channelLinks": {
       "LVZ+": "https://www.lvz.de/livesport",
       "Sächsische Zeitung": "https://www.saechsische.de/livesport",
@@ -2852,7 +2878,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.593610+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.854305+00:00"
   },
   {
     "date": "2026-11-15",
@@ -2877,7 +2903,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:26.564425+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.952683+00:00"
   },
   {
     "date": "2026-11-15",
@@ -2902,7 +2928,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.043723+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.962358+00:00"
   },
   {
     "date": "2026-11-15",
@@ -2927,7 +2953,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.150077+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.921074+00:00"
   },
   {
     "date": "2026-11-15",
@@ -2952,7 +2978,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.211513+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.953722+00:00"
   },
   {
     "date": "2026-11-15",
@@ -2980,7 +3006,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.315750+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.980952+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3005,7 +3031,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.093128+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.872109+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3030,7 +3056,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.115705+00:00"
+    "verifiedAt": "2026-11-12T19:16:21.983063+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3069,7 +3095,7 @@
         "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.685425+00:00",
+    "verifiedAt": "2026-11-12T19:16:22.105002+00:00",
     "channelLinks": {
       "DFB.TV": "https://watch.dfbtvplus.de/",
       "Staige": "https://staige.tv/spiel/566137",
@@ -3099,7 +3125,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.571843+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.118858+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3127,7 +3153,7 @@
     "groups": [
       "other"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715974+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826491+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3157,7 +3183,7 @@
     "groups": [
       "sky"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715786+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826354+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3182,7 +3208,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.522011+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.035925+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3207,7 +3233,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.716177+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.130908+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3232,7 +3258,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.720890+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.328597+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3260,7 +3286,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:27.974536+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.299350+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3285,7 +3311,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.170921+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.210587+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3310,7 +3336,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.139286+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.239247+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3343,7 +3369,7 @@
         "name": "Rai: bestätigte Liveübertragung auf Rai 1 und RaiPlay"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.296144+00:00",
+    "verifiedAt": "2026-11-12T19:16:22.379642+00:00",
     "channelLinks": {
       "Rai 1 (RaiPlay)": "https://www.raiplay.it/dirette/rai1/Calcio-UEFA-Nations-League-2026-2027---Lega-A-Belgio---Italia---15112026-2c3e8552-64ae-4256-94d5-42a49013d84c.html"
     }
@@ -3376,7 +3402,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.496898+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.262924+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3401,7 +3427,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.279161+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.164740+00:00"
   },
   {
     "date": "2026-11-15",
@@ -3434,7 +3460,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:28.398681+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.202955+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3463,7 +3489,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.480501+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.428522+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3488,7 +3514,7 @@
     "groups": [
       "dazn"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715806+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826367+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3513,7 +3539,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.527421+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.447372+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3538,7 +3564,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.451949+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.466201+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3563,7 +3589,7 @@
     "groups": [
       "dazn"
     ],
-    "verifiedAt": "2026-11-12T16:47:33.715811+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.826371+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3588,7 +3614,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.496718+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.593059+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3613,7 +3639,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.921742+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.651587+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3638,7 +3664,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.566253+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.455549+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3671,7 +3697,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:30.585174+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.486104+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3706,7 +3732,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:31.316235+00:00",
+    "verifiedAt": "2026-11-12T19:16:22.637765+00:00",
     "channelLinks": {
       "DAZN (AT)": "https://www.dazn.com/de-AT/home",
       "DAZN (CH)": "https://www.dazn.com/de-CH/home"
@@ -3735,7 +3761,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:31.037400+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.596366+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3760,7 +3786,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:31.209627+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.627278+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3785,7 +3811,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:31.053295+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.578521+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3811,7 +3837,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:31.407269+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.655298+00:00"
   },
   {
     "date": "2026-11-16",
@@ -3843,7 +3869,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:31.158989+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.597164+00:00"
   },
   {
     "date": "2026-11-17",
@@ -3872,7 +3898,49 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:32.381137+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.489764+00:00"
+  },
+  {
+    "date": "2026-11-17",
+    "time": "16:00",
+    "competition": "U19-EM-Qualifikation",
+    "country": "International",
+    "home": "Litauen (U19)",
+    "away": "Deutschland (U19)",
+    "channels": [
+      "DFB.TV",
+      "DFB.TV+"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-17",
+        "name": "fußballgucken.info – Tagesplan 2026-11-17"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198571/u19-em/litauen-u19-deutschland-u19",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine",
+        "name": "DFB: offizieller Wettbewerb"
+      },
+      {
+        "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
+        "name": "DFB: bestätigte Liveübertragung und Empfang über DFB.TV+"
+      },
+      {
+        "url": "https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine",
+        "name": "DFB: EM-Qualifikation, Anstoß um 16:00 Uhr"
+      }
+    ],
+    "verifiedAt": "2026-11-12T19:16:22.658862+00:00",
+    "channelLinks": {
+      "DFB.TV": "https://watch.dfbtvplus.de/",
+      "DFB.TV+": "https://watch.dfbtvplus.de/"
+    }
   },
   {
     "date": "2026-11-17",
@@ -3901,7 +3969,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:32.344199+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.669018+00:00"
   },
   {
     "date": "2026-11-17",
@@ -3930,7 +3998,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:32.362701+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.654508+00:00"
   },
   {
     "date": "2026-11-17",
@@ -3959,7 +4027,7 @@
         "name": "CAF – offizieller Spielplan der Qualifikation"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:32.416000+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.589067+00:00"
   },
   {
     "date": "2026-11-17",
@@ -3984,7 +4052,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:32.432538+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.672527+00:00"
   },
   {
     "date": "2026-11-17",
@@ -4009,7 +4077,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.238314+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.703399+00:00"
   },
   {
     "date": "2026-11-17",
@@ -4034,7 +4102,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.072841+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.746985+00:00"
   },
   {
     "date": "2026-11-17",
@@ -4062,7 +4130,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.220810+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.746369+00:00"
   },
   {
     "date": "2026-11-17",
@@ -4087,7 +4155,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:32.420950+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.707754+00:00"
   },
   {
     "date": "2026-11-17",
@@ -4112,7 +4180,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:32.860584+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.737288+00:00"
   },
   {
     "date": "2026-11-17",
@@ -4137,7 +4205,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.105244+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.713310+00:00"
   },
   {
     "date": "2026-11-17",
@@ -4164,7 +4232,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.196559+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.712229+00:00"
   },
   {
     "date": "2026-11-18",
@@ -4197,7 +4265,7 @@
         "name": "Französischer TV-Spielplan: L’Équipe"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.160406+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.786226+00:00"
   },
   {
     "date": "2026-11-18",
@@ -4222,7 +4290,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.129517+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.778470+00:00"
   },
   {
     "date": "2026-11-18",
@@ -4247,7 +4315,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.117546+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.775283+00:00"
   },
   {
     "date": "2026-11-18",
@@ -4272,7 +4340,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.223394+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.805979+00:00"
   },
   {
     "date": "2026-11-18",
@@ -4297,7 +4365,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.180144+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.815444+00:00"
   },
   {
     "date": "2026-11-18",
@@ -4322,7 +4390,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.713812+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.825104+00:00"
   },
   {
     "date": "2026-11-18",
@@ -4347,6 +4415,6 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-12T16:47:33.141044+00:00"
+    "verifiedAt": "2026-11-12T19:16:22.812736+00:00"
   }
 ]
