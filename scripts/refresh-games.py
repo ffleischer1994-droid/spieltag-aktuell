@@ -146,6 +146,28 @@ EXCLUDED_BROADCASTS = {
 
 # Confirmed fixtures not yet present in the daily listing.
 VERIFIED_ADDITIONAL_FIXTURES = [{
+    'date': '2026-11-14', 'time': '18:00',
+    'competition': 'NWSL (Playoffs)', 'country': 'USA',
+    'home': 'Washington Spirit ♀', 'away': 'Utah Royals FC ♀',
+    'channels': ['Sportdigital1+', 'Sportdigital+'],
+    'sources': [
+        {'url': 'https://www.nwslsoccer.com/news/semifinal-round-set-for-2026-nwsl-playoffs-presented-by-google-pixel', 'name': 'NWSL: offizieller Halbfinalspielplan'},
+        {'url': 'https://start.sportdigital.de/ankuendigung/77/chelsea-gegen-man-city', 'name': 'Sportdigital: bestätigte Liveübertragung'},
+        {'url': 'https://start.sportdigital.de/mediathek/36882/Washington%2BSpirit%2B-%2BUtah%2BRoyals%2BFC', 'name': 'Sportdigital+: offizieller Livestream'},
+    ],
+    'channelLinks': {'Sportdigital+': 'https://start.sportdigital.de/mediathek/36882/Washington%2BSpirit%2B-%2BUtah%2BRoyals%2BFC'},
+}, {
+    'date': '2026-11-15', 'time': '21:00',
+    'competition': 'NWSL (Playoffs)', 'country': 'USA',
+    'home': 'Gotham FC ♀', 'away': 'Kansas City Current ♀',
+    'channels': ['Sportdigital1+', 'Sportdigital+'],
+    'sources': [
+        {'url': 'https://www.nwslsoccer.com/news/semifinal-round-set-for-2026-nwsl-playoffs-presented-by-google-pixel', 'name': 'NWSL: offizieller Halbfinalspielplan'},
+        {'url': 'https://start.sportdigital.de/ankuendigung/77/chelsea-gegen-man-city', 'name': 'Sportdigital: bestätigte Liveübertragung'},
+        {'url': 'https://start.sportdigital.de/mediathek/36890/Gotham%2BFC%2B-%2BKansas%2BCity%2BCurrent', 'name': 'Sportdigital+: offizieller Livestream'},
+    ],
+    'channelLinks': {'Sportdigital+': 'https://start.sportdigital.de/mediathek/36890/Gotham%2BFC%2B-%2BKansas%2BCity%2BCurrent'},
+}, {
     'date': '2026-11-12', 'time': '14:00',
     'competition': 'Testspiel (Vereine)', 'country': 'Deutschland',
     'home': 'FC Energie Cottbus', 'away': 'FC Erzgebirge Aue',
