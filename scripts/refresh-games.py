@@ -60,6 +60,14 @@ AFCON_QUALIFIER_SCHEDULE = 'https://www.cafonline.com/afcon2025/news/crucial-mat
 
 # Official competition labels for listings that conflate qualifiers and finals.
 VERIFIED_COMPETITIONS = {
+    ('2026-11-15', 'https://fussballgucken.info/match/198580/national-women-s-soccer-league-nwsl/nj-ny-gotham-fc-frauen-kansas-city-current-frauen'): (
+        'NWSL (Playoffs)', 'https://www.nwslsoccer.com/news/semifinal-round-set-for-2026-nwsl-playoffs-presented-by-google-pixel'),
+    ('2026-11-14', 'https://fussballgucken.info/match/198579/national-women-s-soccer-league-nwsl/washington-spirit-frauen-utah-royals-fc-frauen'): (
+        'NWSL (Playoffs)', 'https://www.nwslsoccer.com/news/semifinal-round-set-for-2026-nwsl-playoffs-presented-by-google-pixel'),
+    ('2026-11-14', 'https://fussballgucken.info/match/198590/u17-em/deutschland-u17-litauen-u17'): (
+        'U17-EM-Qualifikation', 'https://www.dfb.de/maenner/nationalmannschaften/u-17/spiele-und-termine'),
+    ('2026-11-17', 'https://fussballgucken.info/match/198591/u17-em/nordirland-u17-deutschland-u17'): (
+        'U17-EM-Qualifikation', 'https://www.dfb.de/maenner/nationalmannschaften/u-17/spiele-und-termine'),
     ('2026-11-12', 'https://fussballgucken.info/match/198570/u19-em/deutschland-u19-schweden-u19'): (
         'U19-EM-Qualifikation', 'https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine'),
     ('2026-11-14', 'https://fussballgucken.info/match/198569/u19-em/portugal-u19-deutschland-u19'): (
@@ -159,7 +167,7 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
 }, {
     'date': '2026-11-15', 'time': '21:00',
     'competition': 'NWSL (Playoffs)', 'country': 'USA',
-    'home': 'Gotham FC ♀', 'away': 'Kansas City Current ♀',
+    'home': 'NJ/NY Gotham FC ♀', 'away': 'Kansas City Current ♀',
     'channels': ['Sportdigital1+', 'Sportdigital+'],
     'sources': [
         {'url': 'https://www.nwslsoccer.com/news/semifinal-round-set-for-2026-nwsl-playoffs-presented-by-google-pixel', 'name': 'NWSL: offizieller Halbfinalspielplan'},
@@ -352,6 +360,17 @@ VERIFIED_ADDITIONAL_FIXTURES = [{
         {'url': 'https://www.livesoccertv.com/de/teams/germany/germany-u17/', 'name': 'TV-Programm: DAZN Deutschland, Österreich und Schweiz'},
     ],
     'channelLinks': {'DFB.TV': 'https://watch.dfbtvplus.de/'},
+}, {
+    'date': '2026-11-17', 'time': '11:00',
+    'competition': 'U17-EM-Qualifikation', 'country': 'International',
+    'home': 'Nordirland (U17)', 'away': 'Deutschland (U17)',
+    'channels': ['DFB.TV', 'DFB.TV+', 'DAZN'],
+    'sources': [
+        {'url': 'https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv', 'name': 'DFB: bestätigte Liveübertragung und Empfang über DFB.TV+'},
+        {'url': 'https://www.dfb.de/maenner/nationalmannschaften/u-17/spiele-und-termine', 'name': 'DFB: EM-Qualifikation, Anstoß um 11:00 Uhr'},
+        {'url': 'https://www.livesoccertv.com/de/teams/germany/germany-u17/', 'name': 'TV-Programm: DAZN Deutschland, Österreich und Schweiz'},
+    ],
+    'channelLinks': {'DFB.TV': 'https://watch.dfbtvplus.de/', 'DFB.TV+': 'https://watch.dfbtvplus.de/'},
 }, {
     'date': '2026-11-14', 'time': '18:00',
     'competition': 'U19-EM-Qualifikation', 'country': 'International',
@@ -696,7 +715,7 @@ def read_day(date):
                                     if kickoff else [])
                                  + ([{'url':AFCON_QUALIFIER_SCHEDULE, 'name':'CAF – offizieller Spielplan der Qualifikation'}]
                                     if afcon_qualifier and (not kickoff or kickoff[2] != AFCON_QUALIFIER_SCHEDULE) else [])
-                                 + ([{'url':competition_override[1], 'name':'DFB: offizieller Wettbewerb'}]
+                                 + ([{'url':competition_override[1], 'name':'Offizielle Wettbewerbszuordnung'}]
                                     if competition_override else [])
                                  + ([{'url':researched['url'], 'name':researched['name']}]
                                     + researched.get('additionalSources', []) if researched else []),
