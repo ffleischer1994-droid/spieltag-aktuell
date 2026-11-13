@@ -609,6 +609,12 @@ def channels_from(element):
             label = "L'Équipe Live Foot (FR)"
         elif label.casefold().replace("’", "'").startswith("l'équipe"):
             label = "L'Équipe (FR)"
+        if label in {'20', '20 (Mediaset)', '20 (Livestream)'}:
+            label = 'Mediaset Infinity (IT)' if label.endswith('(Livestream)') else 'Canale 20 (IT)'
+        elif label in {'TV8', 'Cielo'}:
+            label += ' (IT)'
+        elif label in {'TV8 (Livestream)', 'Cielo (Livestream)'}:
+            label = label.replace(' (Livestream)', ' (IT, Livestream)')
         if label.startswith('DAZN'): label = DAZN_REGION_LABELS.get(label, 'DAZN')
         elif label.startswith('MagentaSport'): label = 'MagentaSport'
         elif label.startswith('OneFootball'): label = 'OneFootball'
