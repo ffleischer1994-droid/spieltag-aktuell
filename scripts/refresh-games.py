@@ -28,6 +28,8 @@ DAZN_REGION_LINKS = {
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/194701/regionalliga-nordost/bfc-dynamo-hallescher-fc': (
+        '2026-11-22', '18:00', 'https://www.hallescherfc.de/news/spielverlegung-auswaertsspiel-gegen-bfc-dynamo'),
     'https://fussballgucken.info/match/193937/champions-league-frauen/benfica-lissabon-frauen-fk-austria-wien-frauen': (
         '2026-11-12', '21:00',
         'https://www.uefa.com/news-media/news/02ab-2209e8267c40-cadb2ec0869e-1000--uefa-matches-in-portugal-postponed-due-to-storm-charles/'),
@@ -154,6 +156,15 @@ EXCLUDED_BROADCASTS = {
 
 # Confirmed fixtures not yet present in the daily listing.
 VERIFIED_ADDITIONAL_FIXTURES = [{
+    'date': '2026-11-20', 'time': '19:00',
+    'competition': 'Regionalliga Nordost', 'country': 'Deutschland',
+    'home': '1. FC Magdeburg II', 'away': 'FSV Zwickau',
+    'channels': ['MDR (Livestream)'],
+    'sources': [
+        {'url': 'https://www.mdr.de/sport/live/livestreams/sport-livestreams-mdr-100.html', 'name': 'MDR: bestätigter Livestream'},
+    ],
+    'channelLinks': {'MDR (Livestream)': 'https://www.mdr.de/sport/live/livestreams/sport-livestreams-mdr-100.html'},
+}, {
     'date': '2026-11-14', 'time': '18:00',
     'competition': 'NWSL (Playoffs)', 'country': 'USA',
     'home': 'Washington Spirit ♀', 'away': 'Utah Royals FC ♀',
