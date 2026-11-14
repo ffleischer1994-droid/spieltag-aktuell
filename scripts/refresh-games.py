@@ -170,6 +170,16 @@ EXCLUDED_BROADCASTS = {
 
 # Confirmed fixtures not yet present in the daily listing.
 VERIFIED_ADDITIONAL_FIXTURES = [{
+    'date': '2026-11-21', 'time': '14:00',
+    'competition': 'Regionalliga Nordost', 'country': 'Deutschland',
+    'home': 'FC Erzgebirge Aue', 'away': 'SV Babelsberg 03',
+    'channels': ['MDR', 'MDR (Livestream)'],
+    'sources': [
+        {'url': 'https://www.mdr.de/sport/live/livestreams/sport-livestreams-mdr-100.html', 'name': 'MDR: bestätigte TV- und Liveübertragung'},
+        {'url': 'https://ostsport.tv/spielplan', 'name': 'OSTSPORT.TV: Spielplan der Regionalliga Nordost'},
+    ],
+    'channelLinks': {'MDR (Livestream)': 'https://www.mdr.de/sport/live/livestreams/sport-livestreams-mdr-100.html'},
+}, {
     'date': '2026-11-20', 'time': '19:00',
     'competition': 'Regionalliga Nordost', 'country': 'Deutschland',
     'home': '1. FC Magdeburg II', 'away': 'FSV Zwickau',
