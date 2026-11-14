@@ -84,6 +84,19 @@ VERIFIED_COMPETITIONS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-16', 'https://fussballgucken.info/match/198670/la-liga-2-spanien/albacete-balompie-r-c-celta-de-vigo-ii'): {
+        'away': 'RC Celta Fortuna',
+        'channels': ['LALIGA TV HYPERMOTION (ES)', 'DAZN (ES)'],
+        'url': 'https://www.laliga.com/clubes/albacete-bp/proximos-partidos',
+        'name': 'LALIGA: offizieller Spieltermin und spanischer TV-Sender',
+        'additionalSources': [{'url': 'https://www.futbolenlatv.es/equipo/albacete', 'name': 'Spanisches TV-Programm: DAZN'}],
+    },
+    ('2026-11-20', 'https://fussballgucken.info/match/198671/ekstraklasa-polen/pogon-szczecin-slask-wroclaw'): {
+        'channels': ['Sportdigital+'],
+        'url': 'https://start.sportdigital.de/mediathek/36935/Pogon%2BStettin%2B-%2BSlask%2BWroclaw',
+        'name': 'Sportdigital+: offizieller Livestream',
+        'channelLinks': {'Sportdigital+': 'https://start.sportdigital.de/mediathek/36935/Pogon%2BStettin%2B-%2BSlask%2BWroclaw'},
+    },
     ('2026-11-12', 'https://fussballgucken.info/match/198530/freundschaftsspiel/1-fc-moenchengladbach-standard-luettich'): {
         'home': 'Borussia Mönchengladbach',
         'channels': ['FohlenTV'],
@@ -148,6 +161,7 @@ VERIFIED_BROADCASTS = {
 
 # Match-specific listings contradicted by official broadcaster information.
 EXCLUDED_BROADCASTS = {
+    ('2026-11-16', 'https://fussballgucken.info/match/198670/la-liga-2-spanien/albacete-balompie-r-c-celta-de-vigo-ii'): ('DAZN',),
     ('2026-11-07', 'https://fussballgucken.info/match/193630/premier-league-england/fc-arsenal-hull-city-afc'): {'Sky Sport 8', 'Sky Sport 08'},
     # The club confirms EintrachtTV+, without a separate free broadcast.
     ('2026-11-11', 'https://fussballgucken.info/match/197213/uefa-women-s-europa-cup/eintracht-frankfurt-frauen-psv-eindhoven-frauen'): {'EintrachtTV (Frankfurt)'},
@@ -700,8 +714,8 @@ def read_day(date):
         channels = [c for c in channels if c not in excluded]
         researched = VERIFIED_BROADCASTS.get((date, match_url))
         if researched:
-            if 'home' in researched:
-                home_name = researched['home']
+            home_name = researched.get('home', home_name)
+            away_name = researched.get('away', away_name)
             channels = list(dict.fromkeys(
                 [c for c in channels if 'unbekannt' not in c.lower()]
                 + researched['channels']))
