@@ -170,6 +170,27 @@ EXCLUDED_BROADCASTS = {
 
 # Confirmed fixtures not yet present in the daily listing.
 VERIFIED_ADDITIONAL_FIXTURES = [{
+    'date': '2026-11-15', 'time': '15:00',
+    'competition': 'Freundschaftsspiel', 'country': 'International',
+    'home': 'Hamburger SV', 'away': 'Hajduk Split',
+    'channels': ['HSV (YouTube)', 'HSVtv'],
+    'sources': [
+        {'url': 'https://www.hsv.de/news/hsv-gegen-hajduk-split-im-livestream', 'name': 'HSV: bestätigte kostenlose Livestreams'},
+    ],
+    'channelLinks': {
+        'HSV (YouTube)': 'https://www.hsv.de/news/hsv-gegen-hajduk-split-im-livestream',
+        'HSVtv': 'https://tv.hsv.de/',
+    },
+}, {
+    'date': '2026-11-21', 'time': '20:45',
+    'competition': 'Ligue 1 (Frankreich)', 'country': 'Frankreich',
+    'home': 'OSC Lille', 'away': 'Olympique Lyon',
+    'channels': ['TV5 Monde Europe', 'TV5 Monde Europe (Livestream)', 'TV5 Monde Europe (MagentaTV)'],
+    'sources': [
+        {'url': 'https://europe.tv5monde.com/fr/guide-tv/sport/football-ligue-1-mcdonald-s-Saison-2026-1619190?page=1%2C0', 'name': 'TV5MONDE Europe: offizielles Programm'},
+        {'url': 'https://europe.tv5monde.com/de/empfangen/deutschland', 'name': 'TV5MONDE Europe: Empfang in Deutschland'},
+    ],
+}, {
     'date': '2026-11-15', 'time': '20:45',
     'competition': 'Nations League', 'country': 'International',
     'home': 'Spanien', 'away': 'England',
@@ -686,7 +707,7 @@ def groups_for(channels):
         if 'DAZN' in c and c not in DAZN_REGION_LINKS: group = 'dazn'
         elif re.search(r'Sky|WOW', c, re.I) and '(AT)' not in c and '(CH)' not in c: group = 'sky'
         elif 'Prime' in c: group = 'prime'
-        elif c in {'Pluto TV', 'DynamoTV (YouTube)', 'Greuther Fürth (YouTube)', 'FCEnergieTV (YouTube)', 'Baller League UK (YouTube)'}: group = 'free'
+        elif c in {'Pluto TV', 'DynamoTV (YouTube)', 'Greuther Fürth (YouTube)', 'HSV (YouTube)', 'FCEnergieTV (YouTube)', 'Baller League UK (YouTube)'}: group = 'free'
         # Only explicit German public/free services, never infer from OneFootball.
         elif re.match(r'^(?:ARD|Das Erste|ZDF|BR24|BR \(|WDR|NDR|MDR|SWR|RBB|rbb|hr |[Ss][Pp][Oo][Rr][Tt]1$|RTL$|FIFA\+)', c): group = 'free'
         else: group = 'other'
