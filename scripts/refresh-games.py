@@ -170,6 +170,15 @@ EXCLUDED_BROADCASTS = {
 
 # Confirmed fixtures not yet present in the daily listing.
 VERIFIED_ADDITIONAL_FIXTURES = [{
+    'date': '2026-11-15', 'time': '20:45',
+    'competition': 'Nations League', 'country': 'International',
+    'home': 'Spanien', 'away': 'England',
+    'channels': ['PULS 4', 'PULS 4 Livestream'],
+    'sources': [
+        {'url': 'https://www.ots.at/presseaussendung/OTS_20261111_OTS0040', 'name': 'ProSiebenSat.1 PULS 4: bestätigte TV- und Liveübertragung'},
+    ],
+    'channelLinks': {'PULS 4 Livestream': 'https://www.joyn.at/live-tv/puls4'},
+}, {
     'date': '2026-11-21', 'time': '14:00',
     'competition': 'Regionalliga Nordost', 'country': 'Deutschland',
     'home': 'FC Erzgebirge Aue', 'away': 'SV Babelsberg 03',
