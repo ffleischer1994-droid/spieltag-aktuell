@@ -631,6 +631,8 @@ def fixture_key(fixture):
     def team_key(name):
         normalized = ''.join(c for c in unicodedata.normalize('NFKD', name.casefold())
                              if not unicodedata.combining(c))
+        if normalized == 'fc erzgebirge aue':
+            return 'erzgebirge aue'
         return normalized.removeprefix('fk ').removeprefix('hnk ')
     return fixture['date'], team_key(fixture['home']), team_key(fixture['away'])
 
@@ -809,6 +811,26 @@ def main():
         rows = [g for day in pool.map(read_day, dates) for g in day]
     # Official rescheduling may move a listing beyond the rolling window.
     rows = [g for g in rows if g['date'] in dates]
+    # A source can list the same fixture separately for different broadcasters.
+    source_fixtures = {}
+    for row in rows:
+        key = (row['date'], row['time'], row['home'], row['away'])
+        current = source_fixtures.setdefault(key, row)
+        if current is row:
+            continue
+        if (current['competition'], current['country']) != (row['competition'], row['country']):
+            raise ValueError(f'Conflicting source fixtures: {key}')
+        current['channels'] = list(dict.fromkeys(current['channels'] + row['channels']))
+        if any('unbekannt' not in channel.lower() for channel in current['channels']):
+            current['channels'] = [channel for channel in current['channels'] if 'unbekannt' not in channel.lower()]
+        groups = groups_for(current['channels'])
+        if 'free' in current['groups'] or 'free' in row['groups']:
+            groups = list(dict.fromkeys(groups + ['free']))
+        current['groups'] = groups
+        current['sources'] += [source for source in row['sources'] if source not in current['sources']]
+        if row.get('channelLinks'):
+            current['channelLinks'] = {**current.get('channelLinks', {}), **row['channelLinks']}
+    rows = list(source_fixtures.values())
     known = {fixture_key(g): g for g in rows}
     for fixture in VERIFIED_ADDITIONAL_FIXTURES:
         if fixture['date'] not in dates:
