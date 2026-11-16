@@ -28,6 +28,8 @@ DAZN_REGION_LINKS = {
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/194002/frauen-bundesliga/fc-bayern-muenchen-frauen-1899-hoffenheim-frauen': (
+        '2026-11-23', '18:00', 'https://fcbayern.com/frauen/de/news/2026/09/zeitgenaue-ansetzung-der-spieltage-7-bis-11'),
     'https://fussballgucken.info/match/198841/major-league-soccer-mls/san-jose-earthquakes-houston-dynamo': (
         '2026-11-25', '04:00',
         'https://www.mlssoccer.com/news/mls-announces-schedule-for-audi-2026-mls-cup-playoffs-round-one-best-of-3-series'),
@@ -99,6 +101,21 @@ VERIFIED_COMPETITIONS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-21', 'https://fussballgucken.info/match/198864/u19-dfb-nachwuchsliga/1-fc-nuernberg-u19-spvgg-greuther-fuerth-u19'): {
+        'channels': ['skysport.de', 'Sky Sport App', 'Sky Sport (YouTube)'],
+        'freeChannels': {'skysport.de', 'Sky Sport App', 'Sky Sport (YouTube)'},
+        'channelLinks': {'skysport.de': 'https://videos.sport.sky.de/fussball/artikel/dfb-nachwuchsligen-live-alle-infos-zur-uebertragung-im-kostenlosen-stream/13183722/34240',
+                         'Sky Sport (YouTube)': 'https://www.youtube.com/watch?v=KYN-pEKe4B8'},
+        'url': 'https://videos.sport.sky.de/fussball/artikel/dfb-nachwuchsligen-live-alle-infos-zur-uebertragung-im-kostenlosen-stream/13183722/34240',
+        'name': 'Sky Sport – kostenloser Livestream',
+    },
+    ('2026-11-21', 'https://fussballgucken.info/match/198865/u19-dfb-nachwuchsliga/1-fc-koeln-u19-sv-darmstadt-98-u19'): {
+        'channels': ['skysport.de', 'Sky Sport App'],
+        'freeChannels': {'skysport.de', 'Sky Sport App'},
+        'channelLinks': {'skysport.de': 'https://videos.sport.sky.de/fussball/artikel/dfb-nachwuchsligen-live-alle-infos-zur-uebertragung-im-kostenlosen-stream/13183722/34240'},
+        'url': 'https://videos.sport.sky.de/fussball/artikel/dfb-nachwuchsligen-live-alle-infos-zur-uebertragung-im-kostenlosen-stream/13183722/34240',
+        'name': 'Sky Sport – kostenloser Livestream',
+    },
     ('2026-11-16', 'https://fussballgucken.info/match/198670/la-liga-2-spanien/albacete-balompie-r-c-celta-de-vigo-ii'): {
         'away': 'RC Celta Fortuna',
         'channels': ['LALIGA TV HYPERMOTION (ES)', 'DAZN (ES)'],
@@ -821,7 +838,7 @@ def main():
     ap.add_argument('--today')
     args = ap.parse_args()
     today = dt.date.fromisoformat(args.today) if args.today else dt.datetime.now(ZoneInfo('Europe/Berlin')).date()
-    dates = [(today + dt.timedelta(days=i)).isoformat() for i in range(7)]
+    dates = [(today + dt.timedelta(days=i)).isoformat() for i in range(8)]
     with ThreadPoolExecutor(max_workers=2) as pool:
         rows = [g for day in pool.map(read_day, dates) for g in day]
     # Official rescheduling may move a listing beyond the rolling window.

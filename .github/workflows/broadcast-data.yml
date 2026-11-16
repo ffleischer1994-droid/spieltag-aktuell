@@ -32,7 +32,7 @@ jobs:
         with:
           python-version: '3.x'
       - run: python -m pip install requests beautifulsoup4
-      - name: Refresh all seven days from broadcast schedules
+      - name: Refresh all eight days from broadcast schedules
         if: github.event_name != 'push'
         run: python scripts/refresh-games.py
       - name: Validate data before publishing
@@ -97,7 +97,7 @@ jobs:
           if not expected:
               raise SystemExit('Missing expected dataset digest')
           today = datetime.datetime.now(ZoneInfo('Europe/Berlin')).date()
-          dates = [(today + datetime.timedelta(days=i)).isoformat() for i in range(7)]
+          dates = [(today + datetime.timedelta(days=i)).isoformat() for i in range(8)]
           # Public edge caches can retain a previous dataset for ten minutes.
           for attempt in range(61):
               try:

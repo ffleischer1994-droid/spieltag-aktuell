@@ -25,7 +25,7 @@ def main():
     ap.add_argument("--report",default="data-quality-report.md")
     args=ap.parse_args()
     today=dt.date.fromisoformat(args.today) if args.today else dt.datetime.now(ZoneInfo("Europe/Berlin")).date()
-    end=today+dt.timedelta(days=6)
+    end=today+dt.timedelta(days=7)
 
     data=json.loads((ROOT/"games.json").read_text())
     errors=[]
@@ -123,7 +123,7 @@ def main():
     covered_dates={g.get("date") for g in window if g.get("home") and g.get("away")}
     weekend_dates=[
         (today+dt.timedelta(days=i)).isoformat()
-        for i in range(7)
+        for i in range(8)
         if (today+dt.timedelta(days=i)).weekday() >= 5
     ]
     missing_weekend=[d for d in weekend_dates if d not in covered_dates]
