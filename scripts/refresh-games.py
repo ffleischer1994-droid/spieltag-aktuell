@@ -28,6 +28,21 @@ DAZN_REGION_LINKS = {
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/198841/major-league-soccer-mls/san-jose-earthquakes-houston-dynamo': (
+        '2026-11-25', '04:00',
+        'https://www.mlssoccer.com/news/mls-announces-schedule-for-audi-2026-mls-cup-playoffs-round-one-best-of-3-series'),
+    'https://fussballgucken.info/match/198838/major-league-soccer-mls/st-louis-city-los-angeles-fc': (
+        '2026-11-24', '02:00',
+        'https://www.mlssoccer.com/news/mls-announces-schedule-for-audi-2026-mls-cup-playoffs-round-one-best-of-3-series'),
+    'https://fussballgucken.info/match/198826/major-league-soccer-mls/new-england-revolution-philadelphia-union': (
+        '2026-11-21', '20:00',
+        'https://www.mlssoccer.com/news/mls-announces-schedule-for-audi-2026-mls-cup-playoffs-round-one-best-of-3-series'),
+    'https://fussballgucken.info/match/198835/major-league-soccer-mls/fc-dallas-portland-timbers': (
+        '2026-11-21', '22:00',
+        'https://www.mlssoccer.com/news/mls-announces-schedule-for-audi-2026-mls-cup-playoffs-round-one-best-of-3-series'),
+    'https://fussballgucken.info/match/198823/major-league-soccer-mls/inter-miami-columbus-crew-sc': (
+        '2026-11-22', '00:00',
+        'https://www.mlssoccer.com/news/mls-announces-schedule-for-audi-2026-mls-cup-playoffs-round-one-best-of-3-series'),
     'https://fussballgucken.info/match/194701/regionalliga-nordost/bfc-dynamo-hallescher-fc': (
         '2026-11-22', '18:00', 'https://www.hallescherfc.de/news/spielverlegung-auswaertsspiel-gegen-bfc-dynamo'),
     'https://fussballgucken.info/match/193937/champions-league-frauen/benfica-lissabon-frauen-fk-austria-wien-frauen': (
