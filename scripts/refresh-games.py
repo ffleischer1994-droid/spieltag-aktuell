@@ -109,6 +109,11 @@ VERIFIED_COMPETITIONS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-22', 'https://fussballgucken.info/match/198752/serie-a-femminile-italien/ac-florenz-frauen-como-1907-frauen'): {
+        'channels': ['Rai 2', 'Rai 2 (RaiPlay)'],
+        'url': 'https://www.figc.it/it/serie-a-women/news/dopo-inter-juventus-anche-fiorentina-como-1907-in-diretta-su-rai2-wdzsvz24',
+        'name': 'FIGC – bestätigte Übertragung auf Rai 2 und RaiPlay',
+    },
     ('2026-11-24', 'https://fussballgucken.info/match/192204/uefa-champions-league/fk-bodo-glimt-linzer-ask'): {
         'channels': ['Sky Sport Austria 2 (AT)'],
         'url': 'https://www.sky.at/sport/fussball/uefa-champions-league/sendeplan-der-dienstag',
