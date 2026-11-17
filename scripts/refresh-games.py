@@ -109,6 +109,46 @@ VERIFIED_COMPETITIONS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-24', 'https://fussballgucken.info/match/192204/uefa-champions-league/fk-bodo-glimt-linzer-ask'): {
+        'channels': ['Sky Sport Austria 2 (AT)'],
+        'url': 'https://www.sky.at/sport/fussball/uefa-champions-league/sendeplan-der-dienstag',
+        'name': 'Sky Österreich – offizieller Sendeplan',
+    },
+    ('2026-11-24', 'https://fussballgucken.info/match/192205/uefa-champions-league/galatasaray-istanbul-aston-villa'): {
+        'channels': ['Sky Sport Austria 3 (AT)'],
+        'url': 'https://www.sky.at/sport/fussball/uefa-champions-league/sendeplan-der-dienstag',
+        'name': 'Sky Österreich – offizieller Sendeplan',
+    },
+    ('2026-11-24', 'https://fussballgucken.info/match/192207/uefa-champions-league/como-1907-aek-athen'): {
+        'channels': ['Sky Sport Austria 7 (AT)'],
+        'url': 'https://www.sky.at/sport/fussball/uefa-champions-league/sendeplan-der-dienstag',
+        'name': 'Sky Österreich – offizieller Sendeplan',
+    },
+    ('2026-11-24', 'https://fussballgucken.info/match/192206/uefa-champions-league/fc-arsenal-borussia-dortmund'): {
+        'channels': ['Sky Sport Austria 3 (AT)'],
+        'url': 'https://www.sky.at/sport/fussball/uefa-champions-league/sendeplan-der-dienstag',
+        'name': 'Sky Österreich – offizieller Sendeplan',
+    },
+    ('2026-11-24', 'https://fussballgucken.info/match/192209/uefa-champions-league/manchester-city-ssc-neapel'): {
+        'channels': ['Sky Sport Austria 4 (AT)'],
+        'url': 'https://www.sky.at/sport/fussball/uefa-champions-league/sendeplan-der-dienstag',
+        'name': 'Sky Österreich – offizieller Sendeplan',
+    },
+    ('2026-11-24', 'https://fussballgucken.info/match/192210/uefa-champions-league/rb-leipzig-rc-lens'): {
+        'channels': ['Sky Sport Austria 6 (AT)'],
+        'url': 'https://www.sky.at/sport/fussball/uefa-champions-league/sendeplan-der-dienstag',
+        'name': 'Sky Österreich – offizieller Sendeplan',
+    },
+    ('2026-11-24', 'https://fussballgucken.info/match/192211/uefa-champions-league/real-madrid-psv-eindhoven'): {
+        'channels': ['Sky Sport Austria 5 (AT)'],
+        'url': 'https://www.sky.at/sport/fussball/uefa-champions-league/sendeplan-der-dienstag',
+        'name': 'Sky Österreich – offizieller Sendeplan',
+    },
+    ('2026-11-24', 'https://fussballgucken.info/match/192212/uefa-champions-league/slovan-bratislava-real-betis-balompie'): {
+        'channels': ['Sky Sport Austria 8 (AT)'],
+        'url': 'https://www.sky.at/sport/fussball/uefa-champions-league/sendeplan-der-dienstag',
+        'name': 'Sky Österreich – offizieller Sendeplan',
+    },
     ('2026-11-17', 'https://fussballgucken.info/match/198869/u19-em/england-u19-oesterreich-u19'): {
         'channels': ['ORF SPORT+ (AT)', 'ÖFB TV (AT)'],
         'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/video/167181/livestream-u19-england-oesterreich'},
