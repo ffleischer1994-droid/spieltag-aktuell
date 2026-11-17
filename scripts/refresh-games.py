@@ -28,6 +28,12 @@ DAZN_REGION_LINKS = {
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/198445/la-liga-spanien/real-madrid-r-c-celta-de-vigo': (
+        '2026-11-21', '21:00', 'https://www.laliga.com/en-ES/clubs/real-madrid/next-matches'),
+    'https://fussballgucken.info/match/193780/bundesliga-oesterreich/gak-1902-sk-rapid-wien': (
+        '2026-11-21', '19:30', 'https://grazerak.at/aktuelles/saison-26-27-bundesliga-spielplan-bis-dezember'),
+    'https://fussballgucken.info/match/193782/bundesliga-oesterreich/wsg-tirol-sc-austria-lustenau': (
+        '2026-11-21', '17:00', 'https://www.wsg-fussball.at/de/aktuelles/meldungen/3158651629.php'),
     'https://fussballgucken.info/match/194002/frauen-bundesliga/fc-bayern-muenchen-frauen-1899-hoffenheim-frauen': (
         '2026-11-23', '18:00', 'https://fcbayern.com/frauen/de/news/2026/09/zeitgenaue-ansetzung-der-spieltage-7-bis-11'),
     'https://fussballgucken.info/match/198841/major-league-soccer-mls/san-jose-earthquakes-houston-dynamo': (
@@ -79,6 +85,8 @@ AFCON_QUALIFIER_SCHEDULE = 'https://www.cafonline.com/afcon2025/news/crucial-mat
 
 # Official competition labels for listings that conflate qualifiers and finals.
 VERIFIED_COMPETITIONS = {
+    ('2026-11-17', 'https://fussballgucken.info/match/198869/u19-em/england-u19-oesterreich-u19'): (
+        'U19-EM-Qualifikation', 'https://www.oefb.at/oefb/News/MU19-AUTBLR-11112026-Kader/'),
     ('2026-11-15', 'https://fussballgucken.info/match/198580/national-women-s-soccer-league-nwsl/nj-ny-gotham-fc-frauen-kansas-city-current-frauen'): (
         'NWSL (Playoffs)', 'https://www.nwslsoccer.com/news/semifinal-round-set-for-2026-nwsl-playoffs-presented-by-google-pixel'),
     ('2026-11-14', 'https://fussballgucken.info/match/198579/national-women-s-soccer-league-nwsl/washington-spirit-frauen-utah-royals-fc-frauen'): (
@@ -101,6 +109,14 @@ VERIFIED_COMPETITIONS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-17', 'https://fussballgucken.info/match/198869/u19-em/england-u19-oesterreich-u19'): {
+        'channels': ['ORF SPORT+ (AT)', 'ÖFB TV (AT)'],
+        'channelLinks': {'ÖFB TV (AT)': 'https://www.oefb.tv/de/video/167181/livestream-u19-england-oesterreich'},
+        'url': 'https://www.oefb.tv/de/video/167181/livestream-u19-england-oesterreich',
+        'name': 'ÖFB TV – offizieller Livestream',
+        'additionalSources': [{'url': 'https://tv.orf.at/orfs/livefussba1804.html',
+                                'name': 'ORF SPORT+ – bestätigte Liveübertragung'}],
+    },
     ('2026-11-21', 'https://fussballgucken.info/match/198864/u19-dfb-nachwuchsliga/1-fc-nuernberg-u19-spvgg-greuther-fuerth-u19'): {
         'channels': ['skysport.de', 'Sky Sport App', 'Sky Sport (YouTube)'],
         'freeChannels': {'skysport.de', 'Sky Sport App', 'Sky Sport (YouTube)'},
