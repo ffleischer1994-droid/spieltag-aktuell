@@ -2604,42 +2604,6 @@
     },
     "dataUpdated": "2026-11-14"
   },
-  "2026-11-11|Deutschland (U17)|Aserbaidschan (U17)": {
-    "path": "spiel/deutschland-u17-aserbaidschan-u17-2026-11-11",
-    "game": {
-      "date": "2026-11-11",
-      "time": "11:00",
-      "competition": "U17-EM-Qualifikation",
-      "country": "International",
-      "home": "Deutschland (U17)",
-      "away": "Aserbaidschan (U17)",
-      "channels": [
-        "DFB.TV",
-        "DAZN",
-        "DFB.TV+"
-      ],
-      "groups": [
-        "other",
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-11",
-          "name": "fußballgucken.info – Tagesplan 2026-11-11"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198457/u17-em/deutschland-u17-aserbaidschan-u17",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://datencenter.dfb.de/datencenter/em-qualifikation-1242/2026-27/gruppe-2/deutschland-u-17-m-aserbaidschan-u-17-2413487",
-          "name": "DFB: offizieller Wettbewerb"
-        }
-      ],
-      "verifiedAt": "2026-11-11T22:40:50.979408+00:00"
-    },
-    "dataUpdated": "2026-11-11"
-  },
   "2026-11-12|Malta|Eswatini": {
     "path": "spiel/malta-eswatini-2026-11-12",
     "game": {
@@ -3408,38 +3372,6 @@
     },
     "dataUpdated": "2026-11-12"
   },
-  "2026-11-11|Deutschland (U19)|Schweden (U19)": {
-    "path": "spiel/deutschland-u19-schweden-u19-2026-11-11",
-    "game": {
-      "date": "2026-11-11",
-      "time": "14:00",
-      "competition": "U19-EM-Qualifikation",
-      "country": "International",
-      "home": "Deutschland (U19)",
-      "away": "Schweden (U19)",
-      "channels": [
-        "DFB.TV"
-      ],
-      "sources": [
-        {
-          "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
-          "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
-        },
-        {
-          "url": "https://datencenter.dfb.de/datencenter/em-qualifikation-1231/2026-2027/2-runde-gruppe-3/deutschland-u-19-m-schweden-u-19-2418434",
-          "name": "DFB-Datencenter: Anstoß 14:00 Uhr"
-        }
-      ],
-      "channelLinks": {
-        "DFB.TV": "https://watch.dfbtvplus.de/"
-      },
-      "groups": [
-        "other"
-      ],
-      "verifiedAt": "2026-11-11T06:08:36.422328+00:00"
-    },
-    "dataUpdated": "2026-11-11"
-  },
   "2026-11-13|VfL Bochum|SC Verl": {
     "path": "spiel/vfl-bochum-sc-verl-2026-11-13",
     "game": {
@@ -3597,38 +3529,6 @@
       }
     },
     "dataUpdated": "2026-11-14"
-  },
-  "2026-11-11|Tschechien (U16)|Österreich (U16)": {
-    "path": "spiel/tschechien-u16-osterreich-u16-2026-11-11",
-    "game": {
-      "date": "2026-11-11",
-      "time": "14:00",
-      "competition": "Länderspiel (U16)",
-      "country": "International",
-      "home": "Tschechien (U16)",
-      "away": "Österreich (U16)",
-      "channels": [
-        "ÖFB TV (AT)"
-      ],
-      "sources": [
-        {
-          "url": "https://www.oefb.tv/de/live",
-          "name": "ÖFB TV: offizieller Livestream-Spielplan"
-        },
-        {
-          "url": "https://www.oefb.at/oefb/News/MU16-CZEAUT-11112026-Kader",
-          "name": "Offizieller Spielplan"
-        }
-      ],
-      "channelLinks": {
-        "ÖFB TV (AT)": "https://www.oefb.tv/de/live"
-      },
-      "groups": [
-        "other"
-      ],
-      "verifiedAt": "2026-11-11T22:41:00.499359+00:00"
-    },
-    "dataUpdated": "2026-11-11"
   },
   "2026-11-11|Österreich (U19)|Belarus (U19)": {
     "path": "spiel/osterreich-u19-belarus-u19-2026-11-11",
@@ -14467,6 +14367,138 @@
         }
       ],
       "verifiedAt": "2026-11-18T09:15:40.720816+00:00"
+    },
+    "dataUpdated": "2026-11-18"
+  },
+  "2026-11-21|RC Lens ♀|HSC Montpellier ♀": {
+    "path": "spiel/rc-lens-frauen-hsc-montpellier-frauen-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "16:00",
+      "competition": "Première Ligue (Frankreich)",
+      "country": "Frankreich",
+      "home": "RC Lens ♀",
+      "away": "HSC Montpellier ♀",
+      "channels": [
+        "Arkema Première Ligue (YouTube)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198946/premiere-ligue-frankreich/rc-lens-frauen-hsc-montpellier-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://ffftv.fff.fr/index.html",
+          "name": "FFF TV – offizielles Liveprogramm"
+        }
+      ],
+      "verifiedAt": "2026-11-18T16:46:47.008007+00:00"
+    },
+    "dataUpdated": "2026-11-18"
+  },
+  "2026-11-21|Le Havre AC ♀|FC Nantes ♀": {
+    "path": "spiel/le-havre-ac-frauen-fc-nantes-frauen-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "18:00",
+      "competition": "Première Ligue (Frankreich)",
+      "country": "Frankreich",
+      "home": "Le Havre AC ♀",
+      "away": "FC Nantes ♀",
+      "channels": [
+        "Arkema Première Ligue (YouTube)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198948/premiere-ligue-frankreich/le-havre-ac-frauen-fc-nantes-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://ffftv.fff.fr/index.html",
+          "name": "FFF TV – offizielles Liveprogramm"
+        }
+      ],
+      "verifiedAt": "2026-11-18T16:46:58.115626+00:00"
+    },
+    "dataUpdated": "2026-11-18"
+  },
+  "2026-11-22|OL Lyonnes ♀|Racing Straßburg ♀": {
+    "path": "spiel/ol-lyonnes-frauen-racing-strassburg-frauen-2026-11-22",
+    "game": {
+      "date": "2026-11-22",
+      "time": "15:00",
+      "competition": "Première Ligue (Frankreich)",
+      "country": "Frankreich",
+      "home": "OL Lyonnes ♀",
+      "away": "Racing Straßburg ♀",
+      "channels": [
+        "Arkema Première Ligue (YouTube)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+          "name": "fußballgucken.info – Tagesplan 2026-11-22"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198949/premiere-ligue-frankreich/ol-lyonnes-frauen-racing-strassburg-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://ffftv.fff.fr/index.html",
+          "name": "FFF TV – offizielles Liveprogramm"
+        }
+      ],
+      "verifiedAt": "2026-11-18T16:47:01.810071+00:00"
+    },
+    "dataUpdated": "2026-11-18"
+  },
+  "2026-11-22|Paris FC ♀|FC Fleury 91 ♀": {
+    "path": "spiel/paris-fc-frauen-fc-fleury-91-frauen-2026-11-22",
+    "game": {
+      "date": "2026-11-22",
+      "time": "15:00",
+      "competition": "Première Ligue (Frankreich)",
+      "country": "Frankreich",
+      "home": "Paris FC ♀",
+      "away": "FC Fleury 91 ♀",
+      "channels": [
+        "Arkema Première Ligue (YouTube)"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+          "name": "fußballgucken.info – Tagesplan 2026-11-22"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198947/premiere-ligue-frankreich/paris-fc-frauen-fc-fleury-91-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://ffftv.fff.fr/index.html",
+          "name": "FFF TV – offizielles Liveprogramm"
+        }
+      ],
+      "verifiedAt": "2026-11-18T16:47:01.834861+00:00"
     },
     "dataUpdated": "2026-11-18"
   }
