@@ -109,6 +109,11 @@ VERIFIED_COMPETITIONS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-19', 'https://fussballgucken.info/match/193916/champions-league-frauen/fk-austria-wien-frauen-fc-bayern-muenchen-frauen'): {
+        'channels': ['ORF 1 (AT)', 'ORF ON (AT)'],
+        'url': 'https://tv.orf.at/orf1/uefafrauen456.html',
+        'name': 'ORF 1 – offizieller Sendeplan',
+    },
     ('2026-11-22', 'https://fussballgucken.info/match/198752/serie-a-femminile-italien/ac-florenz-frauen-como-1907-frauen'): {
         'channels': ['Rai 2', 'Rai 2 (RaiPlay)'],
         'url': 'https://www.figc.it/it/serie-a-women/news/dopo-inter-juventus-anche-fiorentina-como-1907-in-diretta-su-rai2-wdzsvz24',
@@ -254,6 +259,7 @@ VERIFIED_BROADCASTS = {
 
 # Match-specific listings contradicted by official broadcaster information.
 EXCLUDED_BROADCASTS = {
+    ('2026-11-19', 'https://fussballgucken.info/match/193916/champions-league-frauen/fk-austria-wien-frauen-fc-bayern-muenchen-frauen'): ('ORF SPORT+ (AT)',),
     ('2026-11-16', 'https://fussballgucken.info/match/198670/la-liga-2-spanien/albacete-balompie-r-c-celta-de-vigo-ii'): ('DAZN',),
     ('2026-11-07', 'https://fussballgucken.info/match/193630/premier-league-england/fc-arsenal-hull-city-afc'): {'Sky Sport 8', 'Sky Sport 08'},
     # The club confirms EintrachtTV+, without a separate free broadcast.
