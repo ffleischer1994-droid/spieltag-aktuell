@@ -726,6 +726,54 @@ POSTPONED_FIXTURES = {
 }
 
 
+# FIFA schedule v8, 12 November. Qatar is two hours ahead of Europe/Berlin.
+U17_BROADCAST_SOURCES = [{'url': 'https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf',
+  'name': 'FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet'},
+ {'url': 'https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst',
+  'name': 'DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft'},
+ {'url': 'https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football',
+  'name': 'FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN'}]
+
+VERIFIED_ADDITIONAL_FIXTURES += [
+    dict(date=date, time=time, competition="U17-WM", country="International",
+         home=home, away=away, channels=["DAZN", "FIFA+"], sources=U17_BROADCAST_SOURCES)
+    for date, time, home, away in [
+        ('2026-11-23', '14:00', 'Usbekistan (U17)', 'Jamaika (U17)'),
+        ('2026-11-23', '16:00', 'Marokko (U17)', 'China (U17)'),
+        ('2026-11-23', '15:30', 'Italien (U17)', 'Elfenbeinküste (U17)'),
+        ('2026-11-23', '13:30', 'Spanien (U17)', 'Fidschi (U17)'),
+        ('2026-11-23', '14:30', 'Senegal (U17)', 'Kuba (U17)'),
+        ('2026-11-23', '16:30', 'Mali (U17)', 'Belgien (U17)'),
+        ('2026-11-23', '16:30', 'Vietnam (U17)', 'Neuseeland (U17)'),
+        ('2026-11-23', '13:30', 'Tadschikistan (U17)', 'Kroatien (U17)'),
+        ('2026-11-24', '14:00', 'Japan (U17)', 'Serbien (U17)'),
+        ('2026-11-24', '16:00', 'Brasilien (U17)', 'Tansania (U17)'),
+        ('2026-11-24', '15:30', 'Dominikanische Republik (U17)', 'Chile (U17)'),
+        ('2026-11-24', '13:30', 'Costa Rica (U17)', 'Irland (U17)'),
+        ('2026-11-24', '14:30', 'Mexiko (U17)', 'Kamerun (U17)'),
+        ('2026-11-24', '16:30', 'Algerien (U17)', 'Montenegro (U17)'),
+        ('2026-11-24', '16:30', 'Honduras (U17)', 'Kolumbien (U17)'),
+        ('2026-11-24', '13:30', 'Venezuela (U17)', 'Rumänien (U17)'),
+        ('2026-11-25', '14:30', 'Haiti (U17)', 'Saudi Arabien (U17)'),
+        ('2026-11-25', '15:30', 'Griechenland (U17)', 'Katar (U17)'),
+        ('2026-11-25', '15:30', 'Panama (U17)', 'Ägypten (U17)'),
+        ('2026-11-25', '13:30', 'Ecuador (U17)', 'Südkorea (U17)'),
+        ('2026-11-25', '14:30', 'Uruguay (U17)', 'Frankreich (U17)'),
+        ('2026-11-25', '16:30', 'Dänemark (U17)', 'Argentinien (U17)'),
+        ('2026-11-25', '16:30', 'Australien (U17)', 'Mosambik (U17)'),
+        ('2026-11-25', '13:30', 'Uganda (U17)', 'Neukaledonien (U17)'),
+        ('2026-11-26', '15:00', 'Jamaika (U17)', 'Elfenbeinküste (U17)'),
+        ('2026-11-26', '16:00', 'Marokko (U17)', 'Spanien (U17)'),
+        ('2026-11-26', '16:00', 'China (U17)', 'Fidschi (U17)'),
+        ('2026-11-26', '14:00', 'Neuseeland (U17)', 'Belgien (U17)'),
+        ('2026-11-26', '15:00', 'Usbekistan (U17)', 'Italien (U17)'),
+        ('2026-11-26', '17:00', 'Tadschikistan (U17)', 'Senegal (U17)'),
+        ('2026-11-26', '17:00', 'Kroatien (U17)', 'Kuba (U17)'),
+        ('2026-11-26', '14:00', 'Vietnam (U17)', 'Mali (U17)'),
+    ]
+]
+
+
 def fixture_key(fixture):
     def team_key(name):
         normalized = ''.join(c for c in unicodedata.normalize('NFKD', name.casefold())
