@@ -14800,9 +14800,21 @@
         {
           "url": "https://goalsat.com/match/5939-saudi-arabia-u-17-vs-uruguay-u-17",
           "name": "GoalSat – FIFA+ Übertragung"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-19T09:31:00.849170+00:00"
+      "verifiedAt": "2026-11-19T10:30:24.639138+00:00"
     },
     "dataUpdated": "2026-11-19"
   },
@@ -14972,6 +14984,2182 @@
         }
       ],
       "verifiedAt": "2026-11-19T09:32:14.977687+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-19|Frankreich (U17)|Haiti (U17)": {
+    "path": "spiel/frankreich-u17-haiti-u17-2026-11-19",
+    "game": {
+      "date": "2026-11-19",
+      "time": "14:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Frankreich (U17)",
+      "away": "Haiti (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-19",
+          "name": "fußballgucken.info – Tagesplan 2026-11-19"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198999/u17-wm/frankreich-u17-haiti-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:24.844820+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-19|Neukaledonien (U17)|Ecuador (U17)": {
+    "path": "spiel/neukaledonien-u17-ecuador-u17-2026-11-19",
+    "game": {
+      "date": "2026-11-19",
+      "time": "14:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Neukaledonien (U17)",
+      "away": "Ecuador (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-19",
+          "name": "fußballgucken.info – Tagesplan 2026-11-19"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198992/u17-wm/neukaledonien-u17-ecuador-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:24.597753+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-19|Südkorea (U17)|Uganda (U17)": {
+    "path": "spiel/suedkorea-u17-uganda-u17-2026-11-19",
+    "game": {
+      "date": "2026-11-19",
+      "time": "14:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Südkorea (U17)",
+      "away": "Uganda (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-19",
+          "name": "fußballgucken.info – Tagesplan 2026-11-19"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198993/u17-wm/suedkorea-u17-uganda-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:24.840319+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-19|Mosambik (U17)|Dänemark (U17)": {
+    "path": "spiel/mosambik-u17-daenemark-u17-2026-11-19",
+    "game": {
+      "date": "2026-11-19",
+      "time": "16:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Mosambik (U17)",
+      "away": "Dänemark (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-19",
+          "name": "fußballgucken.info – Tagesplan 2026-11-19"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198997/u17-wm/mosambik-u17-daenemark-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:24.776821+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-19|Katar (U17)|Panama (U17)": {
+    "path": "spiel/katar-u17-panama-u17-2026-11-19",
+    "game": {
+      "date": "2026-11-19",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Katar (U17)",
+      "away": "Panama (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-19",
+          "name": "fußballgucken.info – Tagesplan 2026-11-19"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198989/u17-wm/katar-u17-panama-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:29.494201+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-19|Argentinien (U17)|Australien (U17)": {
+    "path": "spiel/argentinien-u17-australien-u17-2026-11-19",
+    "game": {
+      "date": "2026-11-19",
+      "time": "17:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Argentinien (U17)",
+      "away": "Australien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-19",
+          "name": "fußballgucken.info – Tagesplan 2026-11-19"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198995/u17-wm/argentinien-u17-australien-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:29.617429+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-19|Ägypten (U17)|Griechenland (U17)": {
+    "path": "spiel/agypten-u17-griechenland-u17-2026-11-19",
+    "game": {
+      "date": "2026-11-19",
+      "time": "17:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Ägypten (U17)",
+      "away": "Griechenland (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-19",
+          "name": "fußballgucken.info – Tagesplan 2026-11-19"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198988/u17-wm/aegypten-u17-griechenland-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:29.477225+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-20|Belgien (U17)|Vietnam (U17)": {
+    "path": "spiel/belgien-u17-vietnam-u17-2026-11-20",
+    "game": {
+      "date": "2026-11-20",
+      "time": "14:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Belgien (U17)",
+      "away": "Vietnam (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+          "name": "fußballgucken.info – Tagesplan 2026-11-20"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199008/u17-wm/belgien-u17-vietnam-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:24.748399+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-20|Kuba (U17)|Tadschikistan (U17)": {
+    "path": "spiel/kuba-u17-tadschikistan-u17-2026-11-20",
+    "game": {
+      "date": "2026-11-20",
+      "time": "14:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Kuba (U17)",
+      "away": "Tadschikistan (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+          "name": "fußballgucken.info – Tagesplan 2026-11-20"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199006/u17-wm/kuba-u17-tadschikistan-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:29.600657+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-20|Mali (U17)|Neuseeland (U17)": {
+    "path": "spiel/mali-u17-neuseeland-u17-2026-11-20",
+    "game": {
+      "date": "2026-11-20",
+      "time": "14:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Mali (U17)",
+      "away": "Neuseeland (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+          "name": "fußballgucken.info – Tagesplan 2026-11-20"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199007/u17-wm/mali-u17-neuseeland-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:29.657225+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-20|Spanien (U17)|China (U17)": {
+    "path": "spiel/spanien-u17-china-u17-2026-11-20",
+    "game": {
+      "date": "2026-11-20",
+      "time": "15:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Spanien (U17)",
+      "away": "China (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+          "name": "fußballgucken.info – Tagesplan 2026-11-20"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199010/u17-wm/spanien-u17-china-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:29.710698+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-20|Italien (U17)|Jamaika (U17)": {
+    "path": "spiel/italien-u17-jamaika-u17-2026-11-20",
+    "game": {
+      "date": "2026-11-20",
+      "time": "16:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Italien (U17)",
+      "away": "Jamaika (U17)",
+      "channels": [
+        "Rai Sport",
+        "DAZN",
+        "FIFA+",
+        "Rai Sport (Livestream)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+          "name": "fußballgucken.info – Tagesplan 2026-11-20"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199003/u17-wm/italien-u17-jamaika-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:29.705456+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-20|Senegal (U17)|Kroatien (U17)": {
+    "path": "spiel/senegal-u17-kroatien-u17-2026-11-20",
+    "game": {
+      "date": "2026-11-20",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Senegal (U17)",
+      "away": "Kroatien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+          "name": "fußballgucken.info – Tagesplan 2026-11-20"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199005/u17-wm/senegal-u17-kroatien-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:29.552595+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-20|Elfenbeinküste (U17)|Usbekistan (U17)": {
+    "path": "spiel/elfenbeinkueste-u17-usbekistan-u17-2026-11-20",
+    "game": {
+      "date": "2026-11-20",
+      "time": "17:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Elfenbeinküste (U17)",
+      "away": "Usbekistan (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+          "name": "fußballgucken.info – Tagesplan 2026-11-20"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199004/u17-wm/elfenbeinkueste-u17-usbekistan-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:33.206366+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-20|Fidschi (U17)|Marokko (U17)": {
+    "path": "spiel/fidschi-u17-marokko-u17-2026-11-20",
+    "game": {
+      "date": "2026-11-20",
+      "time": "17:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Fidschi (U17)",
+      "away": "Marokko (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+          "name": "fußballgucken.info – Tagesplan 2026-11-20"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199009/u17-wm/fidschi-u17-marokko-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:33.100025+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|Japan (U17)|Kolumbien (U17)": {
+    "path": "spiel/japan-u17-kolumbien-u17-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "13:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Japan (U17)",
+      "away": "Kolumbien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199017/u17-wm/japan-u17-kolumbien-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:45.513317+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|Serbien (U17)|Honduras (U17)": {
+    "path": "spiel/serbien-u17-honduras-u17-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "13:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Serbien (U17)",
+      "away": "Honduras (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199018/u17-wm/serbien-u17-honduras-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:30:45.460145+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|Tansania (U17)|Costa Rica (U17)": {
+    "path": "spiel/tansania-u17-costa-rica-u17-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "14:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Tansania (U17)",
+      "away": "Costa Rica (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199012/u17-wm/tansania-u17-costa-rica-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:03.820368+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|Kamerun (U17)|Venezuela (U17)": {
+    "path": "spiel/kamerun-u17-venezuela-u17-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "14:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Kamerun (U17)",
+      "away": "Venezuela (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199016/u17-wm/kamerun-u17-venezuela-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:08.926449+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|Dominikanische Republik (U17)|Montenegro (U17)": {
+    "path": "spiel/dominikanische-republik-u17-montenegro-u17-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "15:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Dominikanische Republik (U17)",
+      "away": "Montenegro (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199013/u17-wm/dominikanische-republik-u17-montenegro-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:21.766735+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|Brasilien (U17)|Irland (U17)": {
+    "path": "spiel/brasilien-u17-irland-u17-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "16:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Brasilien (U17)",
+      "away": "Irland (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199011/u17-wm/brasilien-u17-irland-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:25.769804+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|Chile (U17)|Algerien (U17)": {
+    "path": "spiel/chile-u17-algerien-u17-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Chile (U17)",
+      "away": "Algerien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199014/u17-wm/chile-u17-algerien-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:29.784173+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|Mexiko (U17)|Rumänien (U17)": {
+    "path": "spiel/mexiko-u17-rumaenien-u17-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Mexiko (U17)",
+      "away": "Rumänien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199015/u17-wm/mexiko-u17-rumaenien-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:29.883715+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-22|Dänemark (U17)|Australien (U17)": {
+    "path": "spiel/daenemark-u17-australien-u17-2026-11-22",
+    "game": {
+      "date": "2026-11-22",
+      "time": "13:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Dänemark (U17)",
+      "away": "Australien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+          "name": "fußballgucken.info – Tagesplan 2026-11-22"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198998/u17-wm/daenemark-u17-australien-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:12.934612+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-22|Griechenland (U17)|Panama (U17)": {
+    "path": "spiel/griechenland-u17-panama-u17-2026-11-22",
+    "game": {
+      "date": "2026-11-22",
+      "time": "13:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Griechenland (U17)",
+      "away": "Panama (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+          "name": "fußballgucken.info – Tagesplan 2026-11-22"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198990/u17-wm/griechenland-u17-panama-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:13.002497+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-22|Ecuador (U17)|Uganda (U17)": {
+    "path": "spiel/ecuador-u17-uganda-u17-2026-11-22",
+    "game": {
+      "date": "2026-11-22",
+      "time": "14:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Ecuador (U17)",
+      "away": "Uganda (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+          "name": "fußballgucken.info – Tagesplan 2026-11-22"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198994/u17-wm/ecuador-u17-uganda-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:25.644570+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-22|Frankreich (U17)|Saudi Arabien (U17)": {
+    "path": "spiel/frankreich-u17-saudi-arabien-u17-2026-11-22",
+    "game": {
+      "date": "2026-11-22",
+      "time": "14:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Frankreich (U17)",
+      "away": "Saudi Arabien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+          "name": "fußballgucken.info – Tagesplan 2026-11-22"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199000/u17-wm/frankreich-u17-saudi-arabien-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:25.739260+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-22|Südkorea (U17)|Neukaledonien (U17)": {
+    "path": "spiel/suedkorea-u17-neukaledonien-u17-2026-11-22",
+    "game": {
+      "date": "2026-11-22",
+      "time": "15:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Südkorea (U17)",
+      "away": "Neukaledonien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+          "name": "fußballgucken.info – Tagesplan 2026-11-22"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198991/u17-wm/suedkorea-u17-neukaledonien-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:37.380278+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-22|Katar (U17)|Ägypten (U17)": {
+    "path": "spiel/katar-u17-agypten-u17-2026-11-22",
+    "game": {
+      "date": "2026-11-22",
+      "time": "16:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Katar (U17)",
+      "away": "Ägypten (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+          "name": "fußballgucken.info – Tagesplan 2026-11-22"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198987/u17-wm/katar-u17-aegypten-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:37.450717+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-22|Argentinien (U17)|Mosambik (U17)": {
+    "path": "spiel/argentinien-u17-mosambik-u17-2026-11-22",
+    "game": {
+      "date": "2026-11-22",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Argentinien (U17)",
+      "away": "Mosambik (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+          "name": "fußballgucken.info – Tagesplan 2026-11-22"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198996/u17-wm/argentinien-u17-mosambik-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:45.809900+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-22|Uruguay (U17)|Haiti (U17)": {
+    "path": "spiel/uruguay-u17-haiti-u17-2026-11-22",
+    "game": {
+      "date": "2026-11-22",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Uruguay (U17)",
+      "away": "Haiti (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+          "name": "fußballgucken.info – Tagesplan 2026-11-22"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199002/u17-wm/uruguay-u17-haiti-u17",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "verifiedAt": "2026-11-19T10:31:41.745166+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-23|Spanien (U17)|Fidschi (U17)": {
+    "path": "spiel/spanien-u17-fidschi-u17-2026-11-23",
+    "game": {
+      "date": "2026-11-23",
+      "time": "13:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Spanien (U17)",
+      "away": "Fidschi (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642825+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-23|Tadschikistan (U17)|Kroatien (U17)": {
+    "path": "spiel/tadschikistan-u17-kroatien-u17-2026-11-23",
+    "game": {
+      "date": "2026-11-23",
+      "time": "13:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Tadschikistan (U17)",
+      "away": "Kroatien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642847+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-23|Usbekistan (U17)|Jamaika (U17)": {
+    "path": "spiel/usbekistan-u17-jamaika-u17-2026-11-23",
+    "game": {
+      "date": "2026-11-23",
+      "time": "14:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Usbekistan (U17)",
+      "away": "Jamaika (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642796+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-23|Senegal (U17)|Kuba (U17)": {
+    "path": "spiel/senegal-u17-kuba-u17-2026-11-23",
+    "game": {
+      "date": "2026-11-23",
+      "time": "14:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Senegal (U17)",
+      "away": "Kuba (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642831+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-23|Italien (U17)|Elfenbeinküste (U17)": {
+    "path": "spiel/italien-u17-elfenbeinkueste-u17-2026-11-23",
+    "game": {
+      "date": "2026-11-23",
+      "time": "15:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Italien (U17)",
+      "away": "Elfenbeinküste (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642819+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-23|Marokko (U17)|China (U17)": {
+    "path": "spiel/marokko-u17-china-u17-2026-11-23",
+    "game": {
+      "date": "2026-11-23",
+      "time": "16:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Marokko (U17)",
+      "away": "China (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642810+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-23|Mali (U17)|Belgien (U17)": {
+    "path": "spiel/mali-u17-belgien-u17-2026-11-23",
+    "game": {
+      "date": "2026-11-23",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Mali (U17)",
+      "away": "Belgien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642836+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-23|Vietnam (U17)|Neuseeland (U17)": {
+    "path": "spiel/vietnam-u17-neuseeland-u17-2026-11-23",
+    "game": {
+      "date": "2026-11-23",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Vietnam (U17)",
+      "away": "Neuseeland (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642842+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-24|Costa Rica (U17)|Irland (U17)": {
+    "path": "spiel/costa-rica-u17-irland-u17-2026-11-24",
+    "game": {
+      "date": "2026-11-24",
+      "time": "13:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Costa Rica (U17)",
+      "away": "Irland (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642870+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-24|Venezuela (U17)|Rumänien (U17)": {
+    "path": "spiel/venezuela-u17-rumaenien-u17-2026-11-24",
+    "game": {
+      "date": "2026-11-24",
+      "time": "13:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Venezuela (U17)",
+      "away": "Rumänien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642892+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-24|Japan (U17)|Serbien (U17)": {
+    "path": "spiel/japan-u17-serbien-u17-2026-11-24",
+    "game": {
+      "date": "2026-11-24",
+      "time": "14:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Japan (U17)",
+      "away": "Serbien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642853+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-24|Mexiko (U17)|Kamerun (U17)": {
+    "path": "spiel/mexiko-u17-kamerun-u17-2026-11-24",
+    "game": {
+      "date": "2026-11-24",
+      "time": "14:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Mexiko (U17)",
+      "away": "Kamerun (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642876+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-24|Dominikanische Republik (U17)|Chile (U17)": {
+    "path": "spiel/dominikanische-republik-u17-chile-u17-2026-11-24",
+    "game": {
+      "date": "2026-11-24",
+      "time": "15:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Dominikanische Republik (U17)",
+      "away": "Chile (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642864+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-24|Brasilien (U17)|Tansania (U17)": {
+    "path": "spiel/brasilien-u17-tansania-u17-2026-11-24",
+    "game": {
+      "date": "2026-11-24",
+      "time": "16:00",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Brasilien (U17)",
+      "away": "Tansania (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642858+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-24|Algerien (U17)|Montenegro (U17)": {
+    "path": "spiel/algerien-u17-montenegro-u17-2026-11-24",
+    "game": {
+      "date": "2026-11-24",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Algerien (U17)",
+      "away": "Montenegro (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642881+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-24|Honduras (U17)|Kolumbien (U17)": {
+    "path": "spiel/honduras-u17-kolumbien-u17-2026-11-24",
+    "game": {
+      "date": "2026-11-24",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Honduras (U17)",
+      "away": "Kolumbien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642886+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-25|Ecuador (U17)|Südkorea (U17)": {
+    "path": "spiel/ecuador-u17-suedkorea-u17-2026-11-25",
+    "game": {
+      "date": "2026-11-25",
+      "time": "13:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Ecuador (U17)",
+      "away": "Südkorea (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642928+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-25|Uganda (U17)|Neukaledonien (U17)": {
+    "path": "spiel/uganda-u17-neukaledonien-u17-2026-11-25",
+    "game": {
+      "date": "2026-11-25",
+      "time": "13:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Uganda (U17)",
+      "away": "Neukaledonien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642951+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-25|Haiti (U17)|Saudi Arabien (U17)": {
+    "path": "spiel/haiti-u17-saudi-arabien-u17-2026-11-25",
+    "game": {
+      "date": "2026-11-25",
+      "time": "14:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Haiti (U17)",
+      "away": "Saudi Arabien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642898+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-25|Uruguay (U17)|Frankreich (U17)": {
+    "path": "spiel/uruguay-u17-frankreich-u17-2026-11-25",
+    "game": {
+      "date": "2026-11-25",
+      "time": "14:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Uruguay (U17)",
+      "away": "Frankreich (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642934+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-25|Griechenland (U17)|Katar (U17)": {
+    "path": "spiel/griechenland-u17-katar-u17-2026-11-25",
+    "game": {
+      "date": "2026-11-25",
+      "time": "15:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Griechenland (U17)",
+      "away": "Katar (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642903+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-25|Panama (U17)|Ägypten (U17)": {
+    "path": "spiel/panama-u17-agypten-u17-2026-11-25",
+    "game": {
+      "date": "2026-11-25",
+      "time": "15:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Panama (U17)",
+      "away": "Ägypten (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642922+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-25|Australien (U17)|Mosambik (U17)": {
+    "path": "spiel/australien-u17-mosambik-u17-2026-11-25",
+    "game": {
+      "date": "2026-11-25",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Australien (U17)",
+      "away": "Mosambik (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642945+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-25|Dänemark (U17)|Argentinien (U17)": {
+    "path": "spiel/daenemark-u17-argentinien-u17-2026-11-25",
+    "game": {
+      "date": "2026-11-25",
+      "time": "16:30",
+      "competition": "U17-WM",
+      "country": "International",
+      "home": "Dänemark (U17)",
+      "away": "Argentinien (U17)",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
+          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
+        },
+        {
+          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
+          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+        }
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-19T10:32:42.642940+00:00"
     },
     "dataUpdated": "2026-11-19"
   }
