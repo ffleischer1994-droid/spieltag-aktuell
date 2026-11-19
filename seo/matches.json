@@ -1,33 +1,4 @@
 {
-  "2026-11-12|SC Paderborn 07 II|VfL Bochum II": {
-    "path": "spiel/sc-paderborn-07-ii-vfl-bochum-ii-2026-11-12",
-    "game": {
-      "date": "2026-11-12",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "SC Paderborn 07 II",
-      "away": "VfL Bochum II",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
-          "name": "fußballgucken.info – Tagesplan 2026-11-12"
-        },
-        {
-          "url": "https://fussballgucken.info/match/195307/regionalliga-west/sc-paderborn-07-ii-vfl-bochum-ii",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-12T22:24:36.711503+00:00"
-    },
-    "dataUpdated": "2026-11-12"
-  },
   "2026-11-12|Armenien|Zypern": {
     "path": "spiel/armenien-zypern-2026-11-12",
     "game": {
@@ -3120,46 +3091,6 @@
     },
     "dataUpdated": "2026-11-15"
   },
-  "2026-11-12|RB Leipzig|FK Mladá Boleslav": {
-    "path": "spiel/rb-leipzig-fk-mlada-boleslav-2026-11-12",
-    "game": {
-      "date": "2026-11-12",
-      "time": "11:00",
-      "competition": "Freundschaftsspiel",
-      "country": "International",
-      "home": "RB Leipzig",
-      "away": "FK Mladá Boleslav",
-      "channels": [
-        "RB Leipzig (Vereinsstream)"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
-          "name": "fußballgucken.info – Tagesplan 2026-11-12"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198531/freundschaftsspiel/rb-leipzig-fk-mlada-boleslav",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://rbleipzig.com/en/news/rb-leipzig-friendly-fk-mlada-boleslav-12-november-2026",
-          "name": "RB Leipzig: Anstoß um 11 Uhr und bestätigter Vereinslivestream"
-        },
-        {
-          "url": "https://fkmb.cz/match/1215",
-          "name": "FK Mladá Boleslav: offizieller Spieltermin"
-        }
-      ],
-      "verifiedAt": "2026-11-12T22:24:36.698720+00:00",
-      "channelLinks": {
-        "RB Leipzig (Vereinsstream)": "https://rbleipzig.com/en/news/rb-leipzig-friendly-fk-mlada-boleslav-12-november-2026"
-      }
-    },
-    "dataUpdated": "2026-11-12"
-  },
   "2026-11-13|VfL Bochum|SC Verl": {
     "path": "spiel/vfl-bochum-sc-verl-2026-11-13",
     "game": {
@@ -4056,35 +3987,6 @@
     },
     "dataUpdated": "2026-11-16"
   },
-  "2026-11-12|VfL Wolfsburg|1. FC Union Berlin": {
-    "path": "spiel/vfl-wolfsburg-1-fc-union-berlin-2026-11-12",
-    "game": {
-      "date": "2026-11-12",
-      "time": "14:30",
-      "competition": "Freundschaftsspiel",
-      "country": "Deutschland",
-      "home": "VfL Wolfsburg",
-      "away": "1. FC Union Berlin",
-      "channels": [
-        "VfL Wolfsburg (YouTube)"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
-          "name": "fußballgucken.info – Tagesplan 2026-11-12"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198529/freundschaftsspiel/vfl-wolfsburg-1-fc-union-berlin",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-12T22:24:36.728166+00:00"
-    },
-    "dataUpdated": "2026-11-12"
-  },
   "2026-11-14|FC Blau Weiß Linz/Union Kleinmünchen ♀|SpG Südburgenland/TSV Hartberg ♀": {
     "path": "spiel/fc-blau-weiss-linz-union-kleinmuenchen-frauen-spg-suedburgenland-tsv-hartberg-frauen-2026-11-14",
     "game": {
@@ -4593,96 +4495,6 @@
     },
     "dataUpdated": "2026-11-17"
   },
-  "2026-11-12|Borussia Mönchengladbach|Standard Lüttich": {
-    "path": "spiel/borussia-moenchengladbach-standard-luettich-2026-11-12",
-    "game": {
-      "date": "2026-11-12",
-      "time": "14:00",
-      "competition": "Freundschaftsspiel",
-      "country": "International",
-      "home": "Borussia Mönchengladbach",
-      "away": "Standard Lüttich",
-      "channels": [
-        "FohlenTV"
-      ],
-      "groups": [
-        "other",
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
-          "name": "fußballgucken.info – Tagesplan 2026-11-12"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198530/freundschaftsspiel/1-fc-moenchengladbach-standard-luettich",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.borussia.de/de/tickets",
-          "name": "Borussia: Testspiel am 12. November um 14:00 Uhr auf FohlenTV"
-        },
-        {
-          "url": "https://www.90min.de/borussia-monchengladbach-gegen-standard-luttich-testspiel-live-im-kostenlosen-stream-12-11-2026",
-          "name": "FohlenTV: kostenlos nach Login"
-        }
-      ],
-      "verifiedAt": "2026-11-12T22:24:36.670535+00:00",
-      "channelLinks": {
-        "FohlenTV": "https://tv.borussia.de/app.php/"
-      }
-    },
-    "dataUpdated": "2026-11-12"
-  },
-  "2026-11-12|Deutschland (U19)|Schweden (U19)": {
-    "path": "spiel/deutschland-u19-schweden-u19-2026-11-12",
-    "game": {
-      "date": "2026-11-12",
-      "time": "14:00",
-      "competition": "U19-EM-Qualifikation",
-      "country": "International",
-      "home": "Deutschland (U19)",
-      "away": "Schweden (U19)",
-      "channels": [
-        "DFB.TV",
-        "DFB.TV+"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-12",
-          "name": "fußballgucken.info – Tagesplan 2026-11-12"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198570/u19-em/deutschland-u19-schweden-u19",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine",
-          "name": "Offizielle Wettbewerbszuordnung"
-        },
-        {
-          "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
-          "name": "DFB: bestätigte Liveübertragung auf DFB.TV"
-        },
-        {
-          "url": "https://datencenter.dfb.de/datencenter/em-qualifikation-1231/2026-2027/2-runde-gruppe-3/deutschland-u-19-m-schweden-u-19-2418434",
-          "name": "DFB-Datencenter: Anstoß 14:00 Uhr"
-        },
-        {
-          "url": "https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine",
-          "name": "DFB: offizieller Wettbewerb"
-        }
-      ],
-      "verifiedAt": "2026-11-12T22:24:36.764652+00:00",
-      "channelLinks": {
-        "DFB.TV": "https://watch.dfbtvplus.de/"
-      }
-    },
-    "dataUpdated": "2026-11-12"
-  },
   "2026-11-12|Benfica Lissabon ♀|FK Austria Wien ♀": {
     "path": "spiel/benfica-lissabon-frauen-fk-austria-wien-frauen-2026-11-12",
     "game": {
@@ -4823,34 +4635,6 @@
         "other"
       ],
       "verifiedAt": "2026-11-12T22:24:38.927887+00:00"
-    },
-    "dataUpdated": "2026-11-12"
-  },
-  "2026-11-12|SpVgg Greuther Fürth|Würzburger Kickers": {
-    "path": "spiel/spvgg-greuther-fuerth-wuerzburger-kickers-2026-11-12",
-    "game": {
-      "date": "2026-11-12",
-      "time": "14:00",
-      "competition": "Testspiel (Vereine)",
-      "country": "Deutschland",
-      "home": "SpVgg Greuther Fürth",
-      "away": "Würzburger Kickers",
-      "channels": [
-        "Greuther Fürth (YouTube)"
-      ],
-      "sources": [
-        {
-          "url": "https://www.sgf1903.de/news/profis/testspiel-gegen-wuerzburg",
-          "name": "Greuther Fürth: Anstoß und YouTube-Livestream ab 14 Uhr"
-        }
-      ],
-      "channelLinks": {
-        "Greuther Fürth (YouTube)": "https://www.youtube.com/@DasKleeblattFuerth"
-      },
-      "groups": [
-        "free"
-      ],
-      "verifiedAt": "2026-11-12T22:24:38.927865+00:00"
     },
     "dataUpdated": "2026-11-12"
   },
@@ -5027,38 +4811,6 @@
       "verifiedAt": "2026-11-18T17:13:33.866549+00:00"
     },
     "dataUpdated": "2026-11-18"
-  },
-  "2026-11-12|FC Energie Cottbus|FC Erzgebirge Aue": {
-    "path": "spiel/fc-energie-cottbus-fc-erzgebirge-aue-2026-11-12",
-    "game": {
-      "date": "2026-11-12",
-      "time": "14:00",
-      "competition": "Testspiel (Vereine)",
-      "country": "Deutschland",
-      "home": "FC Energie Cottbus",
-      "away": "FC Erzgebirge Aue",
-      "channels": [
-        "FCEnergieTV (YouTube)"
-      ],
-      "sources": [
-        {
-          "url": "https://www.fcenergie.de/testspiele.html",
-          "name": "FC Energie Cottbus: offizieller Spieltermin"
-        },
-        {
-          "url": "https://www.niederlausitz-aktuell.de/niederlausitz-aktuell/orte/cottbus/331923/testspiel-in-der-laenderspielpause-energie-cottbus-trifft-auf-aue.html",
-          "name": "Niederlausitz aktuell: bestätigter Vereinslivestream"
-        }
-      ],
-      "channelLinks": {
-        "FCEnergieTV (YouTube)": "https://www.youtube.com/@fcenergietv"
-      },
-      "groups": [
-        "free"
-      ],
-      "verifiedAt": "2026-11-12T22:24:38.927836+00:00"
-    },
-    "dataUpdated": "2026-11-12"
   },
   "2026-11-15|Hamburger SV|HNK Hajduk Split": {
     "path": "spiel/hamburger-sv-hnk-hajduk-split-2026-11-15",
@@ -6588,6 +6340,8 @@
       "home": "1. FC Magdeburg II",
       "away": "FSV Zwickau",
       "channels": [
+        "MDR Mediathek",
+        "MDR+ Livestreams",
         "MDR (Livestream)"
       ],
       "groups": [
@@ -6607,7 +6361,7 @@
           "name": "MDR: bestätigter Livestream"
         }
       ],
-      "verifiedAt": "2026-11-19T12:58:28.908878+00:00",
+      "verifiedAt": "2026-11-19T17:47:56.674522+00:00",
       "channelLinks": {
         "MDR (Livestream)": "https://www.mdr.de/sport/live/livestreams/sport-livestreams-mdr-100.html"
       }
@@ -7530,6 +7284,7 @@
       "home": "FSV 63 Luckenwalde",
       "away": "Chemnitzer FC",
       "channels": [
+        "Freie Presse (Livestream)",
         "Mediengruppe Mitteldeutschland"
       ],
       "groups": [
@@ -7543,9 +7298,13 @@
         {
           "url": "https://fussballgucken.info/match/197282/regionalliga-nordost/fsv-63-luckenwalde-chemnitzer-fc",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.freiepresse.de/sport/fussball/regionalliga-nordost-live",
+          "name": "Freie Presse – offizieller Livestream gegen Chemnitz am 21. November"
         }
       ],
-      "verifiedAt": "2026-11-19T12:58:32.164300+00:00"
+      "verifiedAt": "2026-11-19T17:48:09.284430+00:00"
     },
     "dataUpdated": "2026-11-19"
   },
@@ -8862,6 +8621,7 @@
       "home": "Greifswalder FC",
       "away": "Carl Zeiss Jena",
       "channels": [
+        "FUNKE Medien Thüringen",
         "LVZ+",
         "Mediengruppe Mitteldeutschland"
       ],
@@ -8876,9 +8636,13 @@
         {
           "url": "https://fussballgucken.info/match/197276/regionalliga-nordost/greifswalder-fc-carl-zeiss-jena",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.otz.de/fussball",
+          "name": "FUNKE/OTZ – offizieller Livestream Greifswald gegen Jena"
         }
       ],
-      "verifiedAt": "2026-11-19T12:58:38.562538+00:00"
+      "verifiedAt": "2026-11-19T17:48:41.376185+00:00"
     },
     "dataUpdated": "2026-11-19"
   },
@@ -17352,6 +17116,337 @@
         }
       ],
       "verifiedAt": "2026-11-19T12:58:48.920280+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-20|SG Wattenscheid 09|1. FC Köln II": {
+    "path": "spiel/sg-wattenscheid-09-1-fc-koeln-ii-2026-11-20",
+    "game": {
+      "date": "2026-11-20",
+      "time": "18:30",
+      "competition": "Regionalliga West",
+      "country": "Deutschland",
+      "home": "SG Wattenscheid 09",
+      "away": "1. FC Köln II",
+      "channels": [
+        "Leagues"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+          "name": "fußballgucken.info – Tagesplan 2026-11-20"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199063/regionalliga-west/sg-wattenscheid-09-1-fc-koeln-ii",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://wdfv.de/der-wdfv/aktuelles/1147/fc-guetersloh-kann-zurueck-an-die-tabellenspitze-springen",
+          "name": "WDFV – alle Spiele der Regionalliga West live bei LEAGUES"
+        }
+      ],
+      "verifiedAt": "2026-11-19T17:47:49.217740+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-20|Borussia Dortmund II|Sportfreunde Lotte": {
+    "path": "spiel/borussia-dortmund-ii-sportfreunde-lotte-2026-11-20",
+    "game": {
+      "date": "2026-11-20",
+      "time": "19:30",
+      "competition": "Regionalliga West",
+      "country": "Deutschland",
+      "home": "Borussia Dortmund II",
+      "away": "Sportfreunde Lotte",
+      "channels": [
+        "Leagues"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+          "name": "fußballgucken.info – Tagesplan 2026-11-20"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199061/regionalliga-west/borussia-dortmund-ii-sportfreunde-lotte",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://wdfv.de/der-wdfv/aktuelles/1147/fc-guetersloh-kann-zurueck-an-die-tabellenspitze-springen",
+          "name": "WDFV – alle Spiele der Regionalliga West live bei LEAGUES"
+        }
+      ],
+      "verifiedAt": "2026-11-19T17:47:59.604254+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-20|SC Wiedenbrück 2000|VfL Bochum II": {
+    "path": "spiel/sc-wiedenbrueck-2000-vfl-bochum-ii-2026-11-20",
+    "game": {
+      "date": "2026-11-20",
+      "time": "19:30",
+      "competition": "Regionalliga West",
+      "country": "Deutschland",
+      "home": "SC Wiedenbrück 2000",
+      "away": "VfL Bochum II",
+      "channels": [
+        "Leagues"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+          "name": "fußballgucken.info – Tagesplan 2026-11-20"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199062/regionalliga-west/sc-wiedenbrueck-2000-vfl-bochum-ii",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://wdfv.de/der-wdfv/aktuelles/1147/fc-guetersloh-kann-zurueck-an-die-tabellenspitze-springen",
+          "name": "WDFV – alle Spiele der Regionalliga West live bei LEAGUES"
+        }
+      ],
+      "verifiedAt": "2026-11-19T17:47:59.959232+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|1. FC Bocholt 1900|Westfalia Rhynern": {
+    "path": "spiel/1-fc-bocholt-1900-westfalia-rhynern-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "14:00",
+      "competition": "Regionalliga West",
+      "country": "Deutschland",
+      "home": "1. FC Bocholt 1900",
+      "away": "Westfalia Rhynern",
+      "channels": [
+        "Leagues"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199065/regionalliga-west/1-fc-bocholt-1900-westfalia-rhynern",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://wdfv.de/der-wdfv/aktuelles/1147/fc-guetersloh-kann-zurueck-an-die-tabellenspitze-springen",
+          "name": "WDFV – alle Spiele der Regionalliga West live bei LEAGUES"
+        }
+      ],
+      "verifiedAt": "2026-11-19T17:48:03.195590+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|Borussia Mönchengladbach II|Bonner SC": {
+    "path": "spiel/borussia-moenchengladbach-ii-bonner-sc-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "14:00",
+      "competition": "Regionalliga West",
+      "country": "Deutschland",
+      "home": "Borussia Mönchengladbach II",
+      "away": "Bonner SC",
+      "channels": [
+        "Leagues"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199068/regionalliga-west/borussia-moenchengladbach-ii-bonner-sc",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://wdfv.de/der-wdfv/aktuelles/1147/fc-guetersloh-kann-zurueck-an-die-tabellenspitze-springen",
+          "name": "WDFV – alle Spiele der Regionalliga West live bei LEAGUES"
+        }
+      ],
+      "verifiedAt": "2026-11-19T17:47:59.951620+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|SC Paderborn 07 II|VfB 03 Hilden": {
+    "path": "spiel/sc-paderborn-07-ii-vfb-03-hilden-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "14:00",
+      "competition": "Regionalliga West",
+      "country": "Deutschland",
+      "home": "SC Paderborn 07 II",
+      "away": "VfB 03 Hilden",
+      "channels": [
+        "Leagues"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199066/regionalliga-west/sc-paderborn-07-ii-vfb-03-hilden",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://wdfv.de/der-wdfv/aktuelles/1147/fc-guetersloh-kann-zurueck-an-die-tabellenspitze-springen",
+          "name": "WDFV – alle Spiele der Regionalliga West live bei LEAGUES"
+        }
+      ],
+      "verifiedAt": "2026-11-19T17:48:03.346530+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|SF Siegen|Bergisch Gladbach 09": {
+    "path": "spiel/sf-siegen-bergisch-gladbach-09-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "14:00",
+      "competition": "Regionalliga West",
+      "country": "Deutschland",
+      "home": "SF Siegen",
+      "away": "Bergisch Gladbach 09",
+      "channels": [
+        "Leagues"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199064/regionalliga-west/sf-siegen-bergisch-gladbach-09",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://wdfv.de/der-wdfv/aktuelles/1147/fc-guetersloh-kann-zurueck-an-die-tabellenspitze-springen",
+          "name": "WDFV – alle Spiele der Regionalliga West live bei LEAGUES"
+        }
+      ],
+      "verifiedAt": "2026-11-19T17:48:03.313964+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-21|SV Rödinghausen|FC Schalke 04 II": {
+    "path": "spiel/sv-roedinghausen-fc-schalke-04-ii-2026-11-21",
+    "game": {
+      "date": "2026-11-21",
+      "time": "14:00",
+      "competition": "Regionalliga West",
+      "country": "Deutschland",
+      "home": "SV Rödinghausen",
+      "away": "FC Schalke 04 II",
+      "channels": [
+        "Leagues"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+          "name": "fußballgucken.info – Tagesplan 2026-11-21"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199067/regionalliga-west/sv-roedinghausen-fc-schalke-04-ii",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://wdfv.de/der-wdfv/aktuelles/1147/fc-guetersloh-kann-zurueck-an-die-tabellenspitze-springen",
+          "name": "WDFV – alle Spiele der Regionalliga West live bei LEAGUES"
+        }
+      ],
+      "verifiedAt": "2026-11-19T17:47:59.924693+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-22|FC Gütersloh|RW Oberhausen": {
+    "path": "spiel/fc-guetersloh-rw-oberhausen-2026-11-22",
+    "game": {
+      "date": "2026-11-22",
+      "time": "18:00",
+      "competition": "Regionalliga West",
+      "country": "Deutschland",
+      "home": "FC Gütersloh",
+      "away": "RW Oberhausen",
+      "channels": [
+        "Leagues"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+          "name": "fußballgucken.info – Tagesplan 2026-11-22"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199060/regionalliga-west/fc-guetersloh-rw-oberhausen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://wdfv.de/der-wdfv/aktuelles/1147/fc-guetersloh-kann-zurueck-an-die-tabellenspitze-springen",
+          "name": "WDFV – alle Spiele der Regionalliga West live bei LEAGUES"
+        }
+      ],
+      "verifiedAt": "2026-11-19T17:48:47.566887+00:00"
+    },
+    "dataUpdated": "2026-11-19"
+  },
+  "2026-11-25|Eintracht Frankfurt II|1. FSV Mainz 05 II": {
+    "path": "spiel/eintracht-frankfurt-ii-1-fsv-mainz-05-ii-2026-11-25",
+    "game": {
+      "date": "2026-11-25",
+      "time": "19:00",
+      "competition": "Regionalliga Südwest",
+      "country": "Deutschland",
+      "home": "Eintracht Frankfurt II",
+      "away": "1. FSV Mainz 05 II",
+      "channels": [
+        "Leagues",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-25",
+          "name": "fußballgucken.info – Tagesplan 2026-11-25"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198219/regionalliga-suedwest/eintracht-frankfurt-ii-1-fsv-mainz-05-ii",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://hfv-online.de/regionalliga-suedwest-fsv-frankfurt-stoesst-den-bock-um/",
+          "name": "HFV – bestätigter Nachholtermin Frankfurt II gegen Mainz II"
+        }
+      ],
+      "verifiedAt": "2026-11-19T17:49:24.348688+00:00"
     },
     "dataUpdated": "2026-11-19"
   }
