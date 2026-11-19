@@ -36,6 +36,45 @@
   },
   {
     "date": "2026-11-19",
+    "time": "15:00",
+    "competition": "U17-WM",
+    "country": "International",
+    "home": "Saudi Arabien (U17)",
+    "away": "Uruguay (U17)",
+    "channels": [
+      "DAZN",
+      "FIFA+"
+    ],
+    "groups": [
+      "dazn",
+      "free"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-19",
+        "name": "fußballgucken.info – Tagesplan 2026-11-19"
+      },
+      {
+        "url": "https://fussballgucken.info/match/199001/u17-wm/saudi-arabien-u17-uruguay-u17",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://saff.com.sa/en/nationalteams.php?id=6&type=2",
+        "name": "Saudi Arabian Football Federation – offizieller Spielplan"
+      },
+      {
+        "url": "https://www.fotmob.com/de/tv-guide/de",
+        "name": "FotMob – DAZN Deutschland TV-Programm"
+      },
+      {
+        "url": "https://goalsat.com/match/5939-saudi-arabia-u-17-vs-uruguay-u-17",
+        "name": "GoalSat – FIFA+ Übertragung"
+      }
+    ],
+    "verifiedAt": "2026-11-19T09:31:00.849170+00:00"
+  },
+  {
+    "date": "2026-11-19",
     "time": "18:45",
     "competition": "Champions League (Frauen)",
     "country": "International",
@@ -347,7 +386,7 @@
   },
   {
     "date": "2026-11-20",
-    "time": "17:00",
+    "time": "18:00",
     "competition": "Frauen-Bundesliga (Österreich)",
     "country": "Österreich",
     "home": "SpG Südburgenland / TSV Hartberg ♀",
@@ -367,9 +406,13 @@
       {
         "url": "https://fussballgucken.info/match/198561/oefb-frauen-bundesliga/spg-suedburgenland-tsv-hartberg-frauen-sk-sturm-graz-frauen",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.oefb.at/oefb/News/AFBL-26-27-Runde-14-Vorschau/",
+        "name": "ÖFB – offizielle Anstoßzeiten und Sender der 14. Runde"
       }
     ],
-    "verifiedAt": "2026-11-19T02:57:43.029276+00:00"
+    "verifiedAt": "2026-11-19T09:31:04.127186+00:00"
   },
   {
     "date": "2026-11-20",
@@ -1120,6 +1163,35 @@
       }
     ],
     "verifiedAt": "2026-11-19T02:57:45.813646+00:00"
+  },
+  {
+    "date": "2026-11-20",
+    "time": "21:45",
+    "competition": "Taça de Portugal",
+    "country": "Portugal",
+    "home": "FC Porto",
+    "away": "USC Paredes",
+    "channels": [
+      "LAOLA1 (Livestream)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
+        "name": "fußballgucken.info – Tagesplan 2026-11-20"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198950/taca-de-portugal/fc-porto-usc-paredes",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.laola1.at/de/tvthek/livestreams/",
+        "name": "LAOLA1 – offizieller Livestream-Sendeplan"
+      }
+    ],
+    "verifiedAt": "2026-11-19T09:31:21.395581+00:00"
   },
   {
     "date": "2026-11-21",
@@ -2056,6 +2128,35 @@
   {
     "date": "2026-11-21",
     "time": "15:00",
+    "competition": "Taça de Portugal",
+    "country": "Portugal",
+    "home": "CD Mafra",
+    "away": "FC Arouca",
+    "channels": [
+      "LAOLA1 (Livestream)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+        "name": "fußballgucken.info – Tagesplan 2026-11-21"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198951/taca-de-portugal/cd-mafra-fc-arouca",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.laola1.at/de/tvthek/livestreams/",
+        "name": "LAOLA1 – offizieller Livestream-Sendeplan"
+      }
+    ],
+    "verifiedAt": "2026-11-19T09:31:42.621211+00:00"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "15:00",
     "competition": "Serie B (Italien)",
     "country": "Italien",
     "home": "Carrarese Calcio",
@@ -2152,32 +2253,6 @@
       }
     ],
     "verifiedAt": "2026-11-19T02:57:48.699567+00:00"
-  },
-  {
-    "date": "2026-11-21",
-    "time": "15:00",
-    "competition": "Frauen-Bundesliga (Österreich)",
-    "country": "Österreich",
-    "home": "LASK ♀",
-    "away": "SCR Altach ♀",
-    "channels": [
-      "LAOLA1 (Livestream)",
-      "ÖFB TV (AT)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-        "name": "fußballgucken.info – Tagesplan 2026-11-21"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198559/oefb-frauen-bundesliga/linzer-ask-frauen-scr-altach-frauen",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-19T02:57:48.512917+00:00"
   },
   {
     "date": "2026-11-21",
@@ -2912,6 +2987,36 @@
   {
     "date": "2026-11-21",
     "time": "17:00",
+    "competition": "Frauen-Bundesliga (Österreich)",
+    "country": "Österreich",
+    "home": "LASK ♀",
+    "away": "SCR Altach ♀",
+    "channels": [
+      "LAOLA1 (Livestream)",
+      "ÖFB TV (AT)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+        "name": "fußballgucken.info – Tagesplan 2026-11-21"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198559/oefb-frauen-bundesliga/linzer-ask-frauen-scr-altach-frauen",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.oefb.at/oefb/News/AFBL-26-27-Runde-14-Vorschau/",
+        "name": "ÖFB – offizielle Anstoßzeiten und Sender der 14. Runde"
+      }
+    ],
+    "verifiedAt": "2026-11-19T09:31:52.498096+00:00"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "17:00",
     "competition": "Bundesliga (Österreich)",
     "country": "Österreich",
     "home": "Linzer ASK",
@@ -3349,6 +3454,39 @@
       }
     ],
     "verifiedAt": "2026-11-19T02:57:52.144205+00:00"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "19:00",
+    "competition": "Taça de Portugal",
+    "country": "Portugal",
+    "home": "Sporting Lissabon",
+    "away": "UD Serra",
+    "channels": [
+      "LAOLA1 (Livestream)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+        "name": "fußballgucken.info – Tagesplan 2026-11-21"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198952/taca-de-portugal/sporting-lissabon-ud-serra",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.laola1.at/de/tvthek/livestreams/",
+        "name": "LAOLA1 – offizieller Livestream-Sendeplan"
+      },
+      {
+        "url": "https://sporting.pt/noticias/bilhetes-para-a-recepcao-a-uniao-d-serra",
+        "name": "Sporting CP – Anstoß 18 Uhr Portugal, 19 Uhr Europe/Berlin"
+      }
+    ],
+    "verifiedAt": "2026-11-19T09:32:04.320194+00:00"
   },
   {
     "date": "2026-11-21",
@@ -3809,6 +3947,35 @@
       }
     ],
     "verifiedAt": "2026-11-19T02:57:53.652809+00:00"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "21:30",
+    "competition": "Taça de Portugal",
+    "country": "Portugal",
+    "home": "Vitoria Guimaraes",
+    "away": "Sporting Braga",
+    "channels": [
+      "LAOLA1 (Livestream)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+        "name": "fußballgucken.info – Tagesplan 2026-11-21"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198953/taca-de-portugal/vitoria-guimaraes-sporting-braga",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.laola1.at/de/tvthek/livestreams/",
+        "name": "LAOLA1 – offizieller Livestream-Sendeplan"
+      }
+    ],
+    "verifiedAt": "2026-11-19T09:32:14.910807+00:00"
   },
   {
     "date": "2026-11-21",
@@ -5812,6 +5979,35 @@
   },
   {
     "date": "2026-11-22",
+    "time": "21:45",
+    "competition": "Taça de Portugal",
+    "country": "Portugal",
+    "home": "SC União Torreense",
+    "away": "Benfica Lissabon",
+    "channels": [
+      "LAOLA1 (Livestream)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+        "name": "fußballgucken.info – Tagesplan 2026-11-22"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198954/taca-de-portugal/sc-uniao-torreense-benfica-lissabon",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.laola1.at/de/tvthek/livestreams/",
+        "name": "LAOLA1 – offizieller Livestream-Sendeplan"
+      }
+    ],
+    "verifiedAt": "2026-11-19T09:32:14.977687+00:00"
+  },
+  {
+    "date": "2026-11-22",
     "time": "23:00",
     "competition": "Liga Profesional (Argentinien)",
     "country": "Argentinien",
@@ -5990,8 +6186,8 @@
     "home": "FK Austria Wien ♀",
     "away": "First Vienna FC 1894 ♀",
     "channels": [
-      "ORF SPORT+ (AT)",
-      "ORF ON (AT)"
+      "LAOLA1 (Livestream)",
+      "ÖFB TV (AT)"
     ],
     "groups": [
       "other"
@@ -6004,9 +6200,13 @@
       {
         "url": "https://fussballgucken.info/match/191055/oefb-frauen-bundesliga/fk-austria-wien-frauen-first-vienna-fc-1894-frauen",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.oefb.at/oefb/News/AFBL-26-27-Runde-14-Vorschau/",
+        "name": "ÖFB – offizielle Anstoßzeiten und Sender der 14. Runde"
       }
     ],
-    "verifiedAt": "2026-11-19T02:57:54.916061+00:00"
+    "verifiedAt": "2026-11-19T09:32:22.199591+00:00"
   },
   {
     "date": "2026-11-23",
