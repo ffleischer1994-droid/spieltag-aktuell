@@ -6951,6 +6951,35 @@
   },
   {
     "date": "2026-11-22",
+    "time": "22:00",
+    "competition": "Major League Soccer (MLS)",
+    "country": "USA",
+    "home": "Nashville SC",
+    "away": "FC Cincinnati",
+    "channels": [
+      "Apple TV"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+        "name": "fußballgucken.info – Tagesplan 2026-11-22"
+      },
+      {
+        "url": "https://fussballgucken.info/match/199084/major-league-soccer-mls/nashville-sc-fc-cincinnati",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.mlssoccer.com/playoffs/2026/news/evander-leads-fc-cincinnati-to-wild-card-win-over-orlando-city",
+        "name": "MLS – bestätigter Playoff-Gegner, Anstoßzeit und Apple-TV-Übertragung"
+      }
+    ],
+    "verifiedAt": "2026-11-20T10:10:23.021657+00:00"
+  },
+  {
+    "date": "2026-11-22",
     "time": "23:00",
     "competition": "Liga Profesional (Argentinien)",
     "country": "Argentinien",
@@ -7033,6 +7062,35 @@
       }
     ],
     "verifiedAt": "2026-11-20T07:08:48.135498+00:00"
+  },
+  {
+    "date": "2026-11-23",
+    "time": "02:30",
+    "competition": "Major League Soccer (MLS)",
+    "country": "USA",
+    "home": "Vancouver Whitecaps",
+    "away": "Real Salt Lake City",
+    "channels": [
+      "Apple TV"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-23",
+        "name": "fußballgucken.info – Tagesplan 2026-11-23"
+      },
+      {
+        "url": "https://fussballgucken.info/match/199082/major-league-soccer-mls/vancouver-whitecaps-real-salt-lake-city",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.mlssoccer.com/playoffs/2026/news/real-salt-lake-top-seattle-sounders-in-pks-for-wild-card-win",
+        "name": "MLS – bestätigter Playoff-Gegner, Anstoßzeit und Apple-TV-Übertragung"
+      }
+    ],
+    "verifiedAt": "2026-11-20T10:10:12.106231+00:00"
   },
   {
     "date": "2026-11-23",
