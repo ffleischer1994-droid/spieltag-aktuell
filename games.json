@@ -834,11 +834,15 @@
     "home": "Kickers Offenbach",
     "away": "VfR Mannheim",
     "channels": [
+      "DFB.TV",
+      "DAZN",
       "Leagues",
-      "OneFootball"
+      "OneFootball",
+      "DFB.TV+"
     ],
     "groups": [
-      "other"
+      "other",
+      "dazn"
     ],
     "sources": [
       {
@@ -848,9 +852,13 @@
       {
         "url": "https://fussballgucken.info/match/198229/regionalliga-suedwest/kickers-offenbach-vfr-mannheim",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.goal.com/de/meldungen/fussball-heute-im-tv-und-im-live-stream-top-spiele/5681oylra2dy1htomenl3fsww",
+        "name": "GOAL – zusätzliche Bestätigung DFB.TV / DAZN am 20.11.2026"
       }
     ],
-    "verifiedAt": "2026-11-20T07:08:36.126986+00:00"
+    "verifiedAt": "2026-11-20T14:23:18.612582+00:00"
   },
   {
     "date": "2026-11-20",
@@ -7767,6 +7775,39 @@
       }
     ],
     "verifiedAt": "2026-11-20T07:08:50.836448+00:00"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "14:00",
+    "competition": "UEFA Youth League",
+    "country": "International",
+    "home": "FC Arsenal (U19)",
+    "away": "Borussia Dortmund (U19)",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-24",
+        "name": "fußballgucken.info – Tagesplan 2026-11-24"
+      },
+      {
+        "url": "https://fussballgucken.info/match/199115/uefa-youth-league/fc-arsenal-u19-borussia-dortmund-u19",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://datencenter.dfb.de/datencenter/uefa-youth-league/2026-2027/spieltag/fc-arsenal-u-19-borussia-dortmund-u-19-2430208",
+        "name": "DFB – bestätigte Partie und Anstoßzeit"
+      },
+      {
+        "url": "https://www.fussball-im-tv.com/team/arsenal-academy",
+        "name": "Zusätzliche Bestätigung der DAZN-Übertragung"
+      }
+    ],
+    "verifiedAt": "2026-11-20T14:24:27.752144+00:00"
   },
   {
     "date": "2026-11-24",
