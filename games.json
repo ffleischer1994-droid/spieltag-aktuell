@@ -5561,10 +5561,12 @@
     "home": "Frankreich (U17)",
     "away": "Saudi Arabien (U17)",
     "channels": [
+      "L'Équipe (FR)",
       "DAZN",
       "FIFA+"
     ],
     "groups": [
+      "other",
       "dazn",
       "free"
     ],
@@ -5588,9 +5590,13 @@
       {
         "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
         "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+      },
+      {
+        "url": "https://tv-programme.com/football-coupe-du-monde-u17-sport/france-arabie-saoudite-e1176617",
+        "name": "Zusätzliche Bestätigung im TV-Programm"
       }
     ],
-    "verifiedAt": "2026-11-20T07:08:43.532965+00:00"
+    "verifiedAt": "2026-11-20T08:38:14.797271+00:00"
   },
   {
     "date": "2026-11-22",
@@ -7242,10 +7248,13 @@
     "home": "Italien (U17)",
     "away": "Elfenbeinküste (U17)",
     "channels": [
+      "Rai Sport",
       "DAZN",
-      "FIFA+"
+      "FIFA+",
+      "Rai Sport (Livestream)"
     ],
     "groups": [
+      "other",
       "dazn",
       "free"
     ],
@@ -7269,9 +7278,13 @@
       {
         "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
         "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+      },
+      {
+        "url": "https://www.tvpertutti.it/canali/raisport/lunedi",
+        "name": "Zusätzliche Bestätigung im TV-Programm"
       }
     ],
-    "verifiedAt": "2026-11-20T07:08:48.847608+00:00"
+    "verifiedAt": "2026-11-20T08:38:50.347336+00:00"
   },
   {
     "date": "2026-11-23",
@@ -8824,10 +8837,12 @@
     "home": "Uruguay (U17)",
     "away": "Frankreich (U17)",
     "channels": [
+      "L'Équipe (FR)",
       "DAZN",
       "FIFA+"
     ],
     "groups": [
+      "other",
       "dazn",
       "free"
     ],
@@ -8851,9 +8866,13 @@
       {
         "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
         "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+      },
+      {
+        "url": "https://www.canalplus.com/sport/uruguay-france/h/32381456_50201",
+        "name": "Zusätzliche Bestätigung im TV-Programm"
       }
     ],
-    "verifiedAt": "2026-11-20T07:08:52.235408+00:00"
+    "verifiedAt": "2026-11-20T08:39:11.830160+00:00"
   },
   {
     "date": "2026-11-25",
@@ -9388,7 +9407,9 @@
       "blue Sport (CH)",
       "CANAL+",
       "DAZN",
-      "CANAL+ (Livestream)"
+      "TV8 (IT)",
+      "CANAL+ (Livestream)",
+      "TV8 (IT, Livestream)"
     ],
     "groups": [
       "other",
@@ -9402,9 +9423,13 @@
       {
         "url": "https://fussballgucken.info/match/192219/uefa-champions-league/osc-lille-fc-bayern-muenchen",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.tv8.it/sport/uefa-champions-league-2026-2027/uefa-champions-league-lille-bayern-monaco",
+        "name": "Zusätzliche Bestätigung im TV-Programm"
       }
     ],
-    "verifiedAt": "2026-11-20T07:08:54.105754+00:00"
+    "verifiedAt": "2026-11-20T08:39:27.609579+00:00"
   },
   {
     "date": "2026-11-25",
@@ -9684,10 +9709,13 @@
     "home": "Usbekistan (U17)",
     "away": "Italien (U17)",
     "channels": [
+      "Rai Sport",
       "DAZN",
-      "FIFA+"
+      "FIFA+",
+      "Rai Sport (Livestream)"
     ],
     "groups": [
+      "other",
       "dazn",
       "free"
     ],
@@ -9711,9 +9739,13 @@
       {
         "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
         "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
+      },
+      {
+        "url": "https://www.stasera-intv.it/canale/rai-sport/2026-11-26",
+        "name": "Zusätzliche Bestätigung im TV-Programm"
       }
     ],
-    "verifiedAt": "2026-11-20T07:08:56.029829+00:00"
+    "verifiedAt": "2026-11-20T08:39:38.731261+00:00"
   },
   {
     "date": "2026-11-26",
