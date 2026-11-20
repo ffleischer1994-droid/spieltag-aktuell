@@ -28,6 +28,8 @@ DAZN_REGION_LINKS = {
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/197287/regionalliga-nordost/rsv-eintracht-1949-bfc-preussen': (
+        '2026-11-28', '13:00', 'https://www.rsv-eintracht-fussball.de/'),
     'https://fussballgucken.info/match/198445/la-liga-spanien/real-madrid-r-c-celta-de-vigo': (
         '2026-11-21', '21:00', 'https://www.laliga.com/en-ES/clubs/real-madrid/next-matches'),
     'https://fussballgucken.info/match/193780/bundesliga-oesterreich/gak-1902-sk-rapid-wien': (

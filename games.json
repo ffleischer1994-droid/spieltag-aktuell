@@ -681,6 +681,58 @@
   {
     "date": "2026-11-21",
     "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "Fortuna Düsseldorf",
+    "away": "SG Sonnenhof Großaspach",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+        "name": "fußballgucken.info – Tagesplan 2026-11-21"
+      },
+      {
+        "url": "https://fussballgucken.info/match/194856/3-liga/fortuna-duesseldorf-sg-sonnenhof-grossaspach",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:10:57.790987+00:00"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "14:00",
+    "competition": "3. Liga",
+    "country": "Deutschland",
+    "home": "Fortuna Köln",
+    "away": "SV Meppen",
+    "channels": [
+      "MagentaSport",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+        "name": "fußballgucken.info – Tagesplan 2026-11-21"
+      },
+      {
+        "url": "https://fussballgucken.info/match/194864/3-liga/fortuna-koeln-sv-meppen",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:10:57.279375+00:00"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "14:00",
     "competition": "Regionalliga Nordost",
     "country": "Deutschland",
     "home": "FSV 63 Luckenwalde",
@@ -733,58 +785,6 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:10:57.210270+00:00"
-  },
-  {
-    "date": "2026-11-21",
-    "time": "14:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "Fortuna Düsseldorf",
-    "away": "SG Sonnenhof Großaspach",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-        "name": "fußballgucken.info – Tagesplan 2026-11-21"
-      },
-      {
-        "url": "https://fussballgucken.info/match/194856/3-liga/fortuna-duesseldorf-sg-sonnenhof-grossaspach",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:10:57.790987+00:00"
-  },
-  {
-    "date": "2026-11-21",
-    "time": "14:00",
-    "competition": "3. Liga",
-    "country": "Deutschland",
-    "home": "Fortuna Köln",
-    "away": "SV Meppen",
-    "channels": [
-      "MagentaSport",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-        "name": "fußballgucken.info – Tagesplan 2026-11-21"
-      },
-      {
-        "url": "https://fussballgucken.info/match/194864/3-liga/fortuna-koeln-sv-meppen",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:10:57.279375+00:00"
   },
   {
     "date": "2026-11-21",
@@ -1007,6 +1007,31 @@
   {
     "date": "2026-11-21",
     "time": "14:00",
+    "competition": "Ligue 2 (Frankreich)",
+    "country": "Frankreich",
+    "home": "Stade Laval",
+    "away": "HSC Montpellier",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+        "name": "fußballgucken.info – Tagesplan 2026-11-21"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197229/ligue-2-frankreich/stade-laval-hsc-montpellier",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:10:58.307527+00:00"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "14:00",
     "competition": "Regionalliga West",
     "country": "Deutschland",
     "home": "SV Rödinghausen",
@@ -1032,31 +1057,6 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:10:56.175211+00:00"
-  },
-  {
-    "date": "2026-11-21",
-    "time": "14:00",
-    "competition": "Ligue 2 (Frankreich)",
-    "country": "Frankreich",
-    "home": "Stade Laval",
-    "away": "HSC Montpellier",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-        "name": "fußballgucken.info – Tagesplan 2026-11-21"
-      },
-      {
-        "url": "https://fussballgucken.info/match/197229/ligue-2-frankreich/stade-laval-hsc-montpellier",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:10:58.307527+00:00"
   },
   {
     "date": "2026-11-21",
@@ -1240,6 +1240,31 @@
   {
     "date": "2026-11-21",
     "time": "15:00",
+    "competition": "Serie B (Italien)",
+    "country": "Italien",
+    "home": "Carrarese Calcio",
+    "away": "ACD Virtus Entella",
+    "channels": [
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+        "name": "fußballgucken.info – Tagesplan 2026-11-21"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198613/serie-b-italien/carrarese-calcio-acd-virtus-entella",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:10:58.809657+00:00"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "15:00",
     "competition": "Taça de Portugal",
     "country": "Portugal",
     "home": "CD Mafra",
@@ -1265,31 +1290,6 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:10:59.227727+00:00"
-  },
-  {
-    "date": "2026-11-21",
-    "time": "15:00",
-    "competition": "Serie B (Italien)",
-    "country": "Italien",
-    "home": "Carrarese Calcio",
-    "away": "ACD Virtus Entella",
-    "channels": [
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-        "name": "fußballgucken.info – Tagesplan 2026-11-21"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198613/serie-b-italien/carrarese-calcio-acd-virtus-entella",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:10:58.809657+00:00"
   },
   {
     "date": "2026-11-21",
@@ -1419,31 +1419,6 @@
   {
     "date": "2026-11-21",
     "time": "15:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "SSV Jeddeloh II",
-    "away": "SC Weiche Flensburg",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-        "name": "fußballgucken.info – Tagesplan 2026-11-21"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198733/regionalliga-nord/ssv-jeddeloh-ii-sc-weiche-flensburg",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:10:59.213003+00:00"
-  },
-  {
-    "date": "2026-11-21",
-    "time": "15:00",
     "competition": "Serie B (Italien)",
     "country": "Italien",
     "home": "Sampdoria Genua",
@@ -1465,6 +1440,31 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:10:58.756260+00:00"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "15:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "SSV Jeddeloh II",
+    "away": "SC Weiche Flensburg",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+        "name": "fußballgucken.info – Tagesplan 2026-11-21"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198733/regionalliga-nord/ssv-jeddeloh-ii-sc-weiche-flensburg",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:10:59.213003+00:00"
   },
   {
     "date": "2026-11-21",
@@ -3068,31 +3068,6 @@
     "time": "20:45",
     "competition": "Ligue 1 (Frankreich)",
     "country": "Frankreich",
-    "home": "RC Lens",
-    "away": "FC Toulouse",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-        "name": "fußballgucken.info – Tagesplan 2026-11-21"
-      },
-      {
-        "url": "https://fussballgucken.info/match/197358/ligue-1-frankreich/rc-lens-fc-toulouse",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:11:04.012007+00:00"
-  },
-  {
-    "date": "2026-11-21",
-    "time": "20:45",
-    "competition": "Ligue 1 (Frankreich)",
-    "country": "Frankreich",
     "home": "Racing Straßburg",
     "away": "Stade Brest",
     "channels": [
@@ -3112,6 +3087,31 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:11:03.852624+00:00"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "20:45",
+    "competition": "Ligue 1 (Frankreich)",
+    "country": "Frankreich",
+    "home": "RC Lens",
+    "away": "FC Toulouse",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
+        "name": "fußballgucken.info – Tagesplan 2026-11-21"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197358/ligue-1-frankreich/rc-lens-fc-toulouse",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:11:04.012007+00:00"
   },
   {
     "date": "2026-11-21",
@@ -3964,31 +3964,6 @@
   {
     "date": "2026-11-22",
     "time": "14:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "HSC Hannover",
-    "away": "VfB Lübeck",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
-        "name": "fußballgucken.info – Tagesplan 2026-11-22"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198731/regionalliga-nord/hsc-hannover-vfb-luebeck",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:10:57.484739+00:00"
-  },
-  {
-    "date": "2026-11-22",
-    "time": "14:00",
     "competition": "2. Frauen-Bundesliga",
     "country": "Deutschland",
     "home": "Hertha BSC ♀",
@@ -4014,6 +3989,31 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:10:57.196209+00:00"
+  },
+  {
+    "date": "2026-11-22",
+    "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "HSC Hannover",
+    "away": "VfB Lübeck",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+        "name": "fußballgucken.info – Tagesplan 2026-11-22"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198731/regionalliga-nord/hsc-hannover-vfb-luebeck",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:10:57.484739+00:00"
   },
   {
     "date": "2026-11-22",
@@ -4583,31 +4583,6 @@
   {
     "date": "2026-11-22",
     "time": "15:00",
-    "competition": "Ligue 1 (Frankreich)",
-    "country": "Frankreich",
-    "home": "Paris FC",
-    "away": "SCO Angers",
-    "channels": [
-      "DAZN"
-    ],
-    "groups": [
-      "dazn"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
-        "name": "fußballgucken.info – Tagesplan 2026-11-22"
-      },
-      {
-        "url": "https://fussballgucken.info/match/197364/ligue-1-frankreich/paris-fc-sco-angers",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:10:58.608360+00:00"
-  },
-  {
-    "date": "2026-11-22",
-    "time": "15:00",
     "competition": "Première Ligue (Frankreich)",
     "country": "Frankreich",
     "home": "Paris FC ♀",
@@ -4633,6 +4608,31 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:10:58.621213+00:00"
+  },
+  {
+    "date": "2026-11-22",
+    "time": "15:00",
+    "competition": "Ligue 1 (Frankreich)",
+    "country": "Frankreich",
+    "home": "Paris FC",
+    "away": "SCO Angers",
+    "channels": [
+      "DAZN"
+    ],
+    "groups": [
+      "dazn"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-22",
+        "name": "fußballgucken.info – Tagesplan 2026-11-22"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197364/ligue-1-frankreich/paris-fc-sco-angers",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:10:58.608360+00:00"
   },
   {
     "date": "2026-11-22",
@@ -9148,31 +9148,6 @@
   {
     "date": "2026-11-26",
     "time": "21:00",
-    "competition": "UEFA Conference League",
-    "country": "International",
-    "home": "FK Borac Banja Luka",
-    "away": "Atalanta Bergamo",
-    "channels": [
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-26",
-        "name": "fußballgucken.info – Tagesplan 2026-11-26"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198663/uefa-conference-league/fk-borac-banja-luka-atalanta-bergamo",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:11:11.735728+00:00"
-  },
-  {
-    "date": "2026-11-26",
-    "time": "21:00",
     "competition": "UEFA Europa League",
     "country": "International",
     "home": "Ferencvaros Budapest",
@@ -9194,6 +9169,31 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:11:12.361944+00:00"
+  },
+  {
+    "date": "2026-11-26",
+    "time": "21:00",
+    "competition": "UEFA Conference League",
+    "country": "International",
+    "home": "FK Borac Banja Luka",
+    "away": "Atalanta Bergamo",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-26",
+        "name": "fußballgucken.info – Tagesplan 2026-11-26"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198663/uefa-conference-league/fk-borac-banja-luka-atalanta-bergamo",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:11:11.735728+00:00"
   },
   {
     "date": "2026-11-26",
@@ -9955,6 +9955,31 @@
     "time": "20:15",
     "competition": "Challenge League (Schweiz)",
     "country": "Schweiz",
+    "home": "Étoile Carouge FC",
+    "away": "FC Stade-Lausanne-Ouchy",
+    "channels": [
+      "blue Sport (CH)"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-27",
+        "name": "fußballgucken.info – Tagesplan 2026-11-27"
+      },
+      {
+        "url": "https://fussballgucken.info/match/195869/challenge-league-schweiz/Etoile-carouge-fc-fc-stade-lausanne-ouchy",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:11:12.205704+00:00"
+  },
+  {
+    "date": "2026-11-27",
+    "time": "20:15",
+    "competition": "Challenge League (Schweiz)",
+    "country": "Schweiz",
     "home": "FC Winterthur",
     "away": "FC Rapperswil-Jona",
     "channels": [
@@ -9975,31 +10000,6 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:11:12.231237+00:00"
-  },
-  {
-    "date": "2026-11-27",
-    "time": "20:15",
-    "competition": "Challenge League (Schweiz)",
-    "country": "Schweiz",
-    "home": "Étoile Carouge FC",
-    "away": "FC Stade-Lausanne-Ouchy",
-    "channels": [
-      "blue Sport (CH)"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-27",
-        "name": "fußballgucken.info – Tagesplan 2026-11-27"
-      },
-      {
-        "url": "https://fussballgucken.info/match/195869/challenge-league-schweiz/Etoile-carouge-fc-fc-stade-lausanne-ouchy",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:11:12.205704+00:00"
   },
   {
     "date": "2026-11-27",
@@ -10486,6 +10486,35 @@
   },
   {
     "date": "2026-11-28",
+    "time": "13:00",
+    "competition": "Regionalliga Nordost",
+    "country": "Deutschland",
+    "home": "RSV Eintracht 1949",
+    "away": "BFC Preussen",
+    "channels": [
+      "SENDER UNBEKANNT"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+        "name": "fußballgucken.info – Tagesplan 2026-11-28"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197287/regionalliga-nordost/rsv-eintracht-1949-bfc-preussen",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.rsv-eintracht-fussball.de/",
+        "name": "Offizielle Anstoßzeit (Europe/Berlin)"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:11:16.466249+00:00"
+  },
+  {
+    "date": "2026-11-28",
     "time": "14:00",
     "competition": "Regionalliga West",
     "country": "Deutschland",
@@ -10746,56 +10775,6 @@
   {
     "date": "2026-11-28",
     "time": "14:00",
-    "competition": "Regionalliga Nordost",
-    "country": "Deutschland",
-    "home": "RSV Eintracht 1949",
-    "away": "BFC Preussen",
-    "channels": [
-      "SENDER UNBEKANNT"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-        "name": "fußballgucken.info – Tagesplan 2026-11-28"
-      },
-      {
-        "url": "https://fussballgucken.info/match/197287/regionalliga-nordost/rsv-eintracht-1949-bfc-preussen",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:11:16.466249+00:00"
-  },
-  {
-    "date": "2026-11-28",
-    "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "RW Oberhausen",
-    "away": "Bonner SC",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-        "name": "fußballgucken.info – Tagesplan 2026-11-28"
-      },
-      {
-        "url": "https://fussballgucken.info/match/199069/regionalliga-west/rw-oberhausen-bonner-sc",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:11:15.510957+00:00"
-  },
-  {
-    "date": "2026-11-28",
-    "time": "14:00",
     "competition": "La Liga (Spanien)",
     "country": "Spanien",
     "home": "Real Betis Balompié",
@@ -10843,6 +10822,31 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:11:16.383489+00:00"
+  },
+  {
+    "date": "2026-11-28",
+    "time": "14:00",
+    "competition": "Regionalliga West",
+    "country": "Deutschland",
+    "home": "RW Oberhausen",
+    "away": "Bonner SC",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+        "name": "fußballgucken.info – Tagesplan 2026-11-28"
+      },
+      {
+        "url": "https://fussballgucken.info/match/199069/regionalliga-west/rw-oberhausen-bonner-sc",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:11:15.510957+00:00"
   },
   {
     "date": "2026-11-28",
@@ -11076,6 +11080,31 @@
   {
     "date": "2026-11-28",
     "time": "14:00",
+    "competition": "Regionalliga Nord",
+    "country": "Deutschland",
+    "home": "VfB Oldenburg",
+    "away": "SV Todesfelde",
+    "channels": [
+      "Leagues"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+        "name": "fußballgucken.info – Tagesplan 2026-11-28"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198742/regionalliga-nord/vfb-oldenburg-sv-todesfelde",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:11:14.600633+00:00"
+  },
+  {
+    "date": "2026-11-28",
+    "time": "14:00",
     "competition": "Regionalliga Nordost",
     "country": "Deutschland",
     "home": "VSG Altglienicke",
@@ -11101,31 +11130,6 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:11:16.499228+00:00"
-  },
-  {
-    "date": "2026-11-28",
-    "time": "14:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "VfB Oldenburg",
-    "away": "SV Todesfelde",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-        "name": "fußballgucken.info – Tagesplan 2026-11-28"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198742/regionalliga-nord/vfb-oldenburg-sv-todesfelde",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:11:14.600633+00:00"
   },
   {
     "date": "2026-11-28",
@@ -11384,32 +11388,6 @@
     "time": "15:30",
     "competition": "2. Liga (Österreich)",
     "country": "Österreich",
-    "home": "SK Rapid Wien II",
-    "away": "KSV 1919",
-    "channels": [
-      "LAOLA1 (Livestream)",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-        "name": "fußballgucken.info – Tagesplan 2026-11-28"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198433/2-liga-oesterreich/sk-rapid-wien-ii-ksv-1919",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-20T23:11:17.086866+00:00"
-  },
-  {
-    "date": "2026-11-28",
-    "time": "15:30",
-    "competition": "2. Liga (Österreich)",
-    "country": "Österreich",
     "home": "Schwarz-Weiß Bregenz",
     "away": "SV Austria Salzburg",
     "channels": [
@@ -11430,6 +11408,32 @@
       }
     ],
     "verifiedAt": "2026-11-20T23:11:17.081582+00:00"
+  },
+  {
+    "date": "2026-11-28",
+    "time": "15:30",
+    "competition": "2. Liga (Österreich)",
+    "country": "Österreich",
+    "home": "SK Rapid Wien II",
+    "away": "KSV 1919",
+    "channels": [
+      "LAOLA1 (Livestream)",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+        "name": "fußballgucken.info – Tagesplan 2026-11-28"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198433/2-liga-oesterreich/sk-rapid-wien-ii-ksv-1919",
+        "name": "Übertragungsdetails"
+      }
+    ],
+    "verifiedAt": "2026-11-20T23:11:17.086866+00:00"
   },
   {
     "date": "2026-11-28",
