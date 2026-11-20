@@ -15,7 +15,8 @@ permissions:
   pages: write
   id-token: write
 concurrency:
-  group: website-publish
+  # SEO runs must not cancel a queued broadcast-data deployment.
+  group: broadcast-data-publish
   cancel-in-progress: false
 jobs:
   refresh:
