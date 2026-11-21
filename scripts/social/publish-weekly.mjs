@@ -30,7 +30,7 @@ const periodStart=mode==="weekend"?weekendFriday():localDate;
 const dates=Array.from({length:mode==="weekend"?3:7},(_,i)=>plus(periodStart,i));
 const cover="social/weekly-assets/"+(mode==="free-tv"?"free-tv-keyvisual.png":mode==="women"?"women-keyvisual.png":"weekend-keyvisual (1).png");
 if(!fs.existsSync(cover))throw Error("Missing approved ORIGINAL cover: "+cover);
-const valid=g=>!excludedFromSocial(g)&&g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&!g.channels.some(c=>/\bunbekannt\b|\boption(?:al)?\b|\btba\b|noch offen/i.test(c));
+const valid=g=>!excludedFromSocial(g)&&g?.date&&g?.time&&g?.home&&g?.away&&Array.isArray(g.channels)&&g.channels.length&&g.channels.some(c=>!/^(?:Leagues|Leagues App)$/i.test(String(c).trim()))&&!g.channels.some(c=>/\bunbekannt\b|\boption(?:al)?\b|\btba\b|noch offen/i.test(c));
 const selections=mode==="women"?JSON.parse(fs.readFileSync("social/weekly-assets/women-selections.json","utf8")):null;
 const allGames=JSON.parse(fs.readFileSync("games.json","utf8")).map(videoOnly);
 // A cover date range is not proof of a populated week. Never publish a
