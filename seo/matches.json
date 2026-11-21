@@ -6118,10 +6118,14 @@
       "away": "Rot-Weiss Essen",
       "channels": [
         "MagentaSport",
-        "OneFootball"
+        "WDR Fernsehen",
+        "WDR",
+        "OneFootball",
+        "WDR Mediathek"
       ],
       "groups": [
-        "other"
+        "other",
+        "free"
       ],
       "sources": [
         {
@@ -6131,9 +6135,20 @@
         {
           "url": "https://fussballgucken.info/match/194855/3-liga/sc-verl-rot-weiss-essen",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.wdr.de/programmvorschau/wdrfernsehen/sendung/2026-11-21/13-55/whatson_12086797350527/sport-im-westen-live-fussball-3-liga-sc-verl-rot-weiss-essen.html",
+          "name": "WDR – bestätigte Liveübertragung ab 13:55 Uhr"
+        },
+        {
+          "url": "https://www1.wdr.de/sport/livestreams-sport-100.html",
+          "name": "WDR – Sport-Livestreams"
         }
       ],
-      "verifiedAt": "2026-11-21T03:00:22.825151+00:00"
+      "verifiedAt": "2026-11-21T09:16:57.185832+00:00",
+      "channelLinks": {
+        "WDR Mediathek": "https://www.ardmediathek.de/video/sport-im-westen/sc-verl-gegen-rot-weiss-essen/wdr/Y3JpZDovL3dkci5kZS9CZWl0cmFnLXNvcGhvcmEtMTMxNjQ5YTktNzlmNy00ODkyLWJmNDItYjI5ZjRjOTQwZjRk"
+      }
     },
     "dataUpdated": "2026-11-21"
   },
