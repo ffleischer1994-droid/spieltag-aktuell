@@ -28,6 +28,8 @@ DAZN_REGION_LINKS = {
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/198871/laenderspiel-frauen/peru-frauen-deutschland-frauen': (
+        '2026-12-04', '22:15', 'https://www.dfb.de/frauen/nationalmannschaften/nationalmannschaft/spiele-und-termine'),
     'https://fussballgucken.info/match/197287/regionalliga-nordost/rsv-eintracht-1949-bfc-preussen': (
         '2026-11-28', '13:00', 'https://www.rsv-eintracht-fussball.de/'),
     'https://fussballgucken.info/match/198445/la-liga-spanien/real-madrid-r-c-celta-de-vigo': (
@@ -111,6 +113,14 @@ VERIFIED_COMPETITIONS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-11-30', 'https://fussballgucken.info/match/192597/laenderspiel-u23-frauen/deutschland-frauen-u23-usa-frauen-u23'): {
+        'channels': ['DF1', 'DFB.TV'],
+        'freeChannels': {'DF1'},
+        'url': 'https://www.dfb.de/frauen/nationalmannschaften/u-23/spiele-und-termine',
+        'name': 'DFB: bestätigter Termin und Übertragung auf DF1 und DFB.TV',
+        'additionalSources': [{'url': 'https://de.linkedin.com/company/df1-medien-gmbh',
+                               'name': 'DF1: bestätigte kostenlose Liveübertragung der U23-Frauen'}],
+    },
     ('2026-11-19', 'https://fussballgucken.info/match/193916/champions-league-frauen/fk-austria-wien-frauen-fc-bayern-muenchen-frauen'): {
         'channels': ['ORF 1 (AT)', 'ORF ON (AT)'],
         'url': 'https://tv.orf.at/orf1/uefafrauen456.html',
