@@ -271,6 +271,20 @@ EXCLUDED_BROADCASTS = {
 
 # Confirmed fixtures not yet present in the daily listing.
 VERIFIED_ADDITIONAL_FIXTURES = [{
+    'date': '2026-11-28', 'time': '13:30',
+    'competition': 'Oberliga NOFV Süd', 'country': 'Deutschland',
+    'home': 'FC Einheit Wernigerode', 'away': 'SSC Weißenfels',
+    'channels': ['Mediengruppe Mitteldeutschland'],
+    'sources': [
+        {'url': 'https://mediathek.mediengruppe-mitteldeutschland.de/event/85820/fc-einheit-wernigerode-ssc-weissenfels',
+         'name': 'Mediengruppe Mitteldeutschland: bestätigter kostenpflichtiger Livestream'},
+        {'url': 'https://www.fussball.de/mannschaft/fc-einheit-wernigerode-fc-einheit-wernigerode-sachsen-anhalt/-/saison/2627/team-id/011MICMVNG000000VTVG0001VTR8C1K7',
+         'name': 'FUSSBALL.DE: bestätigter Spieltermin und Wettbewerb'},
+    ],
+    'channelLinks': {
+        'Mediengruppe Mitteldeutschland': 'https://mediathek.mediengruppe-mitteldeutschland.de/event/85820/fc-einheit-wernigerode-ssc-weissenfels',
+    },
+}, {
     'date': '2026-11-15', 'time': '15:00',
     'competition': 'Freundschaftsspiel', 'country': 'International',
     'home': 'Hamburger SV', 'away': 'Hajduk Split',
