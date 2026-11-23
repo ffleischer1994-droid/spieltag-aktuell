@@ -271,6 +271,9 @@ VERIFIED_BROADCASTS = {
 
 # Match-specific listings contradicted by official broadcaster information.
 EXCLUDED_BROADCASTS = {
+    # UEFA and Sky confirm German CL rights belong to DAZN/Prime, not Sky Sport 4.
+    # https://www.sky.de/sport/fussball/uefa-champions-league
+    ('2026-11-24', 'https://fussballgucken.info/match/192208/uefa-champions-league/feyenoord-rotterdam-fc-porto'): {'Sky Sport 4'},
     ('2026-11-19', 'https://fussballgucken.info/match/193916/champions-league-frauen/fk-austria-wien-frauen-fc-bayern-muenchen-frauen'): ('ORF SPORT+ (AT)',),
     ('2026-11-16', 'https://fussballgucken.info/match/198670/la-liga-2-spanien/albacete-balompie-r-c-celta-de-vigo-ii'): ('DAZN',),
     ('2026-11-07', 'https://fussballgucken.info/match/193630/premier-league-england/fc-arsenal-hull-city-afc'): {'Sky Sport 8', 'Sky Sport 08'},
