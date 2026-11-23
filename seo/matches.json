@@ -15733,10 +15733,16 @@
       "away": "Alemannia Aachen",
       "channels": [
         "MagentaSport",
-        "OneFootball"
+        "SR Fernsehen",
+        "WDR Fernsehen",
+        "WDR",
+        "OneFootball",
+        "SR (ARD Mediathek)",
+        "WDR Mediathek"
       ],
       "groups": [
-        "other"
+        "other",
+        "free"
       ],
       "sources": [
         {
@@ -15746,9 +15752,24 @@
         {
           "url": "https://fussballgucken.info/match/194873/3-liga/1-fc-saarbruecken-alemannia-aachen",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.wdr.de/programmvorschau/wdrfernsehen/sendung/2026-11-28/13-55/whatson_12086800654527/sport-im-westen-live-fussball-3-liga-1-fc-saarbruecken-alemannia-aachen.html",
+          "name": "WDR: bestätigte Liveübertragung am 28.11.2026"
+        },
+        {
+          "url": "https://www.ardmediathek.de/sr/programm/2026-11-28",
+          "name": "SR: offizieller Sendeplan"
+        },
+        {
+          "url": "https://www.ardmediathek.de/video/sportschau-3-liga/1-fc-saarbruecken-gegen-alemannia-aachen/das-erste/Y3JpZDovL3Nwb3J0c2NoYXUuZGUvNTExMzk1MjItODRhZi00MGYwLTg2MDQtOTU0ZjE5MjgyNmVh",
+          "name": "ARD Mediathek: bestätigter SR-Livestream"
         }
       ],
-      "verifiedAt": "2026-11-23T07:29:50.152654+00:00"
+      "verifiedAt": "2026-11-23T11:33:18.434024+00:00",
+      "channelLinks": {
+        "SR (ARD Mediathek)": "https://www.ardmediathek.de/video/sportschau-3-liga/1-fc-saarbruecken-gegen-alemannia-aachen/das-erste/Y3JpZDovL3Nwb3J0c2NoYXUuZGUvNTExMzk1MjItODRhZi00MGYwLTg2MDQtOTU0ZjE5MjgyNmVh"
+      }
     },
     "dataUpdated": "2026-11-23"
   },
