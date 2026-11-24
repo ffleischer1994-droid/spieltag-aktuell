@@ -1,70 +1,4 @@
 {
-  "2026-11-17|Malawi|Ägypten": {
-    "path": "spiel/malawi-agypten-2026-11-17",
-    "game": {
-      "date": "2026-11-17",
-      "time": "14:00",
-      "competition": "Afrika-Cup-Qualifikation",
-      "country": "International",
-      "home": "Malawi",
-      "away": "Ägypten",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-17",
-          "name": "fußballgucken.info – Tagesplan 2026-11-17"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198410/afrika-cup/malawi-aegypten",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
-          "name": "CAF – offizieller Spielplan der Qualifikation"
-        }
-      ],
-      "verifiedAt": "2026-11-17T21:41:39.699660+00:00"
-    },
-    "dataUpdated": "2026-11-17"
-  },
-  "2026-11-17|Gambia|Elfenbeinküste": {
-    "path": "spiel/gambia-elfenbeinkueste-2026-11-17",
-    "game": {
-      "date": "2026-11-17",
-      "time": "17:00",
-      "competition": "Afrika-Cup-Qualifikation",
-      "country": "International",
-      "home": "Gambia",
-      "away": "Elfenbeinküste",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-17",
-          "name": "fußballgucken.info – Tagesplan 2026-11-17"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198390/afrika-cup/gambia-elfenbeinkueste",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
-          "name": "CAF – offizieller Spielplan der Qualifikation"
-        }
-      ],
-      "verifiedAt": "2026-11-17T21:41:39.550701+00:00"
-    },
-    "dataUpdated": "2026-11-17"
-  },
   "2026-11-17|Kroatien (U21)|Deutschland (U21)": {
     "path": "spiel/kroatien-u21-deutschland-u21-2026-11-17",
     "game": {
@@ -594,110 +528,6 @@
     },
     "dataUpdated": "2026-11-18"
   },
-  "2026-11-17|Litauen (U19)|Deutschland (U19)": {
-    "path": "spiel/litauen-u19-deutschland-u19-2026-11-17",
-    "game": {
-      "date": "2026-11-17",
-      "time": "16:00",
-      "competition": "U19-EM-Qualifikation",
-      "country": "International",
-      "home": "Litauen (U19)",
-      "away": "Deutschland (U19)",
-      "channels": [
-        "DFB.TV",
-        "DAZN",
-        "DFB.TV+"
-      ],
-      "groups": [
-        "other",
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-17",
-          "name": "fußballgucken.info – Tagesplan 2026-11-17"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198571/u19-em/litauen-u19-deutschland-u19",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine",
-          "name": "Offizielle Wettbewerbszuordnung"
-        },
-        {
-          "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
-          "name": "DFB: bestätigte Liveübertragung und Empfang über DFB.TV+"
-        },
-        {
-          "url": "https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine",
-          "name": "DFB: EM-Qualifikation, Anstoß um 16:00 Uhr"
-        },
-        {
-          "url": "https://www.dfb.de/maenner/nationalmannschaften/u-19/spiele-und-termine",
-          "name": "DFB: offizieller Wettbewerb"
-        }
-      ],
-      "verifiedAt": "2026-11-17T21:41:39.528764+00:00",
-      "channelLinks": {
-        "DFB.TV": "https://watch.dfbtvplus.de/",
-        "DFB.TV+": "https://watch.dfbtvplus.de/"
-      }
-    },
-    "dataUpdated": "2026-11-17"
-  },
-  "2026-11-17|Nordirland (U17)|Deutschland (U17)": {
-    "path": "spiel/nordirland-u17-deutschland-u17-2026-11-17",
-    "game": {
-      "date": "2026-11-17",
-      "time": "11:00",
-      "competition": "U17-EM-Qualifikation",
-      "country": "International",
-      "home": "Nordirland (U17)",
-      "away": "Deutschland (U17)",
-      "channels": [
-        "DFB.TV",
-        "DAZN",
-        "DFB.TV+"
-      ],
-      "groups": [
-        "other",
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-17",
-          "name": "fußballgucken.info – Tagesplan 2026-11-17"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198591/u17-em/nordirland-u17-deutschland-u17",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.dfb.de/maenner/nationalmannschaften/u-17/spiele-und-termine",
-          "name": "Offizielle Wettbewerbszuordnung"
-        },
-        {
-          "url": "https://www.dfb.de/news/klopp-pk-und-u-teams-live-das-laeuft-diese-woche-auf-dfbtv",
-          "name": "DFB: bestätigte Liveübertragung und Empfang über DFB.TV+"
-        },
-        {
-          "url": "https://www.dfb.de/maenner/nationalmannschaften/u-17/spiele-und-termine",
-          "name": "DFB: EM-Qualifikation, Anstoß um 11:00 Uhr"
-        },
-        {
-          "url": "https://www.livesoccertv.com/de/teams/germany/germany-u17/",
-          "name": "TV-Programm: DAZN Deutschland, Österreich und Schweiz"
-        }
-      ],
-      "verifiedAt": "2026-11-17T21:41:39.625518+00:00",
-      "channelLinks": {
-        "DFB.TV": "https://watch.dfbtvplus.de/",
-        "DFB.TV+": "https://watch.dfbtvplus.de/"
-      }
-    },
-    "dataUpdated": "2026-11-17"
-  },
   "2026-11-19|FK Austria Wien ♀|FC Bayern München ♀": {
     "path": "spiel/fk-austria-wien-frauen-fc-bayern-muenchen-frauen-2026-11-19",
     "game": {
@@ -883,72 +713,6 @@
       "verifiedAt": "2026-11-19T12:58:26.817928+00:00"
     },
     "dataUpdated": "2026-11-19"
-  },
-  "2026-11-17|Libyen|Tunesien": {
-    "path": "spiel/libyen-tunesien-2026-11-17",
-    "game": {
-      "date": "2026-11-17",
-      "time": "17:00",
-      "competition": "Afrika-Cup-Qualifikation",
-      "country": "International",
-      "home": "Libyen",
-      "away": "Tunesien",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-17",
-          "name": "fußballgucken.info – Tagesplan 2026-11-17"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198402/afrika-cup/libyen-tunesien",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
-          "name": "CAF – offizieller Spielplan der Qualifikation"
-        }
-      ],
-      "verifiedAt": "2026-11-17T21:41:39.527892+00:00"
-    },
-    "dataUpdated": "2026-11-17"
-  },
-  "2026-11-17|Togo|Algerien": {
-    "path": "spiel/togo-algerien-2026-11-17",
-    "game": {
-      "date": "2026-11-17",
-      "time": "17:00",
-      "competition": "Afrika-Cup-Qualifikation",
-      "country": "International",
-      "home": "Togo",
-      "away": "Algerien",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-17",
-          "name": "fußballgucken.info – Tagesplan 2026-11-17"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198411/afrika-cup/togo-algerien",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race/",
-          "name": "CAF – offizieller Spielplan der Qualifikation"
-        }
-      ],
-      "verifiedAt": "2026-11-17T21:41:39.593554+00:00"
-    },
-    "dataUpdated": "2026-11-17"
   },
   "2026-11-17|Ruanda|Mali": {
     "path": "spiel/ruanda-mali-2026-11-17",
@@ -7429,52 +7193,6 @@
     },
     "dataUpdated": "2026-11-23"
   },
-  "2026-11-17|England (U19)|Österreich (U19)": {
-    "path": "spiel/england-u19-osterreich-u19-2026-11-17",
-    "game": {
-      "date": "2026-11-17",
-      "time": "14:00",
-      "competition": "U19-EM-Qualifikation",
-      "country": "International",
-      "home": "England (U19)",
-      "away": "Österreich (U19)",
-      "channels": [
-        "ORF SPORT+ (AT)",
-        "ORF ON (AT)",
-        "ÖFB TV (AT)"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-17",
-          "name": "fußballgucken.info – Tagesplan 2026-11-17"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198869/u19-em/england-u19-oesterreich-u19",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://www.oefb.at/oefb/News/MU19-AUTBLR-11112026-Kader/",
-          "name": "Offizielle Wettbewerbszuordnung"
-        },
-        {
-          "url": "https://www.oefb.tv/de/video/167181/livestream-u19-england-oesterreich",
-          "name": "ÖFB TV – offizieller Livestream"
-        },
-        {
-          "url": "https://tv.orf.at/orfs/livefussba1804.html",
-          "name": "ORF SPORT+ – bestätigte Liveübertragung"
-        }
-      ],
-      "verifiedAt": "2026-11-17T21:41:39.667962+00:00",
-      "channelLinks": {
-        "ÖFB TV (AT)": "https://www.oefb.tv/de/video/167181/livestream-u19-england-oesterreich"
-      }
-    },
-    "dataUpdated": "2026-11-17"
-  },
   "2026-11-21|WSG Tirol|SC Austria Lustenau": {
     "path": "spiel/wsg-tirol-sc-austria-lustenau-2026-11-21",
     "game": {
@@ -7610,7 +7328,7 @@
           "name": "fußballgucken.info – Tagesplan 2026-11-20"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.309892+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.214727+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -7639,7 +7357,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.263288+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.237743+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -7670,7 +7388,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.286595+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.876306+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -7708,7 +7426,7 @@
           "name": "Sky Österreich – offizieller Sendeplan"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.226384+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.480889+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -7748,7 +7466,7 @@
           "name": "Sky Österreich – offizieller Sendeplan"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.098430+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.493928+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -7777,7 +7495,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.014592+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.363344+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -7806,7 +7524,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.171205+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.562865+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -7835,7 +7553,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.785618+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.886343+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -7865,7 +7583,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.890658+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.033190+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -7894,7 +7612,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.661720+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.786020+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -7923,7 +7641,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.682095+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.907130+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -7961,7 +7679,7 @@
           "name": "Sky Österreich – offizieller Sendeplan"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.851151+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.582639+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8000,7 +7718,7 @@
           "name": "Sky Österreich – offizieller Sendeplan"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.873348+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.727597+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8033,7 +7751,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.641951+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.557713+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8072,7 +7790,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.102021+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.060436+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8110,7 +7828,7 @@
           "name": "Sky Österreich – offizieller Sendeplan"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.573862+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.456039+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8148,7 +7866,7 @@
           "name": "Sky Österreich – offizieller Sendeplan"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.455614+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.374175+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8186,7 +7904,7 @@
           "name": "Sky Österreich – offizieller Sendeplan"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.480393+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.347107+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8224,7 +7942,7 @@
           "name": "Sky Österreich – offizieller Sendeplan"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.072670+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.222127+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8264,7 +7982,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:05.346173+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.879256+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8303,7 +8021,7 @@
           "name": "Sportdigital – bestätigte Liveübertragung"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.990339+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.437046+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8343,7 +8061,7 @@
           "name": "Sportdigital – bestätigte Liveübertragung"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.291152+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.609914+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8898,7 +8616,7 @@
           "name": "fußballgucken.info – Tagesplan 2026-11-20"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.302912+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.163456+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8937,7 +8655,7 @@
           "name": "Sportdigital – bestätigte Liveübertragung"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.524239+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.422428+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -8966,7 +8684,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.477737+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.437055+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9002,7 +8720,7 @@
           "name": "Sportdigital – bestätigte Liveübertragung"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.380137+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.441656+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9031,7 +8749,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.051987+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.699609+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9064,7 +8782,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.408572+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.040241+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9094,7 +8812,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.043475+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.518226+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9128,7 +8846,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.136433+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.592343+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9162,7 +8880,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.277985+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.651420+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9192,7 +8910,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.256130+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.632146+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9221,7 +8939,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.763840+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.996880+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9250,7 +8968,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.996021+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.977902+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9279,7 +8997,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.963244+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.117136+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9309,7 +9027,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.939161+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.092485+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9343,7 +9061,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.894754+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.858011+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9377,7 +9095,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.717826+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.706001+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9417,7 +9135,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.743722+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.620186+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9456,7 +9174,7 @@
           "name": "Zusätzliche Bestätigung im TV-Programm"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.550810+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.499020+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9490,7 +9208,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.388268+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.427094+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9526,7 +9244,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.682423+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.537163+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -9560,7 +9278,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:04.126046+00:00"
+      "verifiedAt": "2026-11-24T19:29:09.230560+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11520,7 +11238,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.545177+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.341027+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11563,7 +11281,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.368965+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.259305+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11606,7 +11324,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.508253+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.389556+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11649,7 +11367,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.192821+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.790122+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11692,7 +11410,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.245288+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.811603+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11735,7 +11453,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.387159+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.893862+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11778,7 +11496,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.392165+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.034748+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11821,7 +11539,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.344128+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.974533+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11864,7 +11582,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.401494+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.356165+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11907,7 +11625,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.455482+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.458963+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11950,7 +11668,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.276918+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.954093+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -11999,7 +11717,7 @@
           "name": "Zusätzliche Bestätigung im TV-Programm"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.220274+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.052648+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12042,7 +11760,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.424706+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.994617+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12085,7 +11803,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.315956+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.989725+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12128,7 +11846,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:02.807671+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.311945+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12171,7 +11889,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.297004+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.534135+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12510,7 +12228,7 @@
           "name": "HFV – bestätigter Nachholtermin Frankfurt II gegen Mainz II"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:03.640920+00:00"
+      "verifiedAt": "2026-11-24T19:29:08.926973+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12549,7 +12267,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:06.586945+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.344885+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12581,7 +12299,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:06.468785+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.353281+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12624,7 +12342,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:06.511707+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.447080+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12667,7 +12385,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:06.522592+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.486550+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12710,7 +12428,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:06.548590+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.441882+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12760,7 +12478,7 @@
           "name": "Zusätzliche Bestätigung im TV-Programm"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:06.564866+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.920547+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12803,7 +12521,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.289882+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.931647+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12846,7 +12564,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.249110+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.948391+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12889,7 +12607,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.277304+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.992689+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12932,7 +12650,7 @@
           "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.392109+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.015153+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -12973,7 +12691,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.029135+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.584950+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13010,7 +12728,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.893010+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.217311+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13049,7 +12767,7 @@
           "name": "Sky Sport – offizieller Sendeplan 26. November"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.380617+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.522737+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13091,7 +12809,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.254162+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.888412+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13120,7 +12838,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.217352+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.968154+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13161,7 +12879,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.155894+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.615742+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13193,7 +12911,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.118419+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.538141+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13234,7 +12952,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.108409+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.455664+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13274,7 +12992,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.819713+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.131688+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13303,7 +13021,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.950625+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.378326+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13335,7 +13053,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.725615+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.006870+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13372,7 +13090,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.631656+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.692457+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13408,7 +13126,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.672163+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.716111+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13449,7 +13167,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:10.376004+00:00"
+      "verifiedAt": "2026-11-24T19:29:14.216141+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13478,7 +13196,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.406117+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.421208+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13507,7 +13225,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:10.162731+00:00"
+      "verifiedAt": "2026-11-24T19:29:14.182855+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13548,7 +13266,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:10.321350+00:00"
+      "verifiedAt": "2026-11-24T19:29:14.164463+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13577,7 +13295,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.841616+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.319755+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13609,7 +13327,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:10.128666+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.943956+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13638,7 +13356,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.506578+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.760314+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13670,7 +13388,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.677326+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.748198+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13716,7 +13434,7 @@
           "name": "Sky Sport – offizieller Sendeplan 26. November"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.866880+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.206894+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13745,7 +13463,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.484900+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.617367+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13774,7 +13492,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:10.241014+00:00"
+      "verifiedAt": "2026-11-24T19:29:14.141569+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13880,7 +13598,7 @@
           "name": "Zusätzliche Bestätigung der DAZN-Übertragung"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:01.451013+00:00"
+      "verifiedAt": "2026-11-24T19:29:07.454437+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13918,7 +13636,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.521239+00:00"
+      "verifiedAt": "2026-11-24T19:29:10.961664+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13947,7 +13665,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.515418+00:00"
+      "verifiedAt": "2026-11-24T19:29:10.987527+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -13978,7 +13696,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.489988+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.045536+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14009,7 +13727,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.443809+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.038217+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14040,7 +13758,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.418133+00:00"
+      "verifiedAt": "2026-11-24T19:29:10.983252+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14071,7 +13789,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:07.526819+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.050856+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14102,7 +13820,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.172608+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.492882+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14133,7 +13851,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.203125+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.603015+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14164,7 +13882,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.332516+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.534978+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14195,7 +13913,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.264806+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.596600+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14231,7 +13949,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.990961+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.079160+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14261,7 +13979,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.317531+00:00"
+      "verifiedAt": "2026-11-24T19:29:11.564918+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14297,7 +14015,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.324885+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.047560+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14326,7 +14044,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.120840+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.122651+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14356,7 +14074,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.006332+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.161210+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14386,7 +14104,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.917742+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.474729+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14417,7 +14135,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.953174+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.137522+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14447,7 +14165,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.725641+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.620948+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14476,7 +14194,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.526894+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.557220+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14506,7 +14224,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.714588+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.637727+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14535,7 +14253,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.775613+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.733079+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14567,7 +14285,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.862330+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.028116+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14604,7 +14322,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:09.798889+00:00"
+      "verifiedAt": "2026-11-24T19:29:12.682166+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14633,7 +14351,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:10.326204+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.107628+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14662,7 +14380,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:10.465109+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.227185+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14692,7 +14410,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:10.546937+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.277106+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14722,7 +14440,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:10.424337+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.452046+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14757,7 +14475,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:10.445832+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.282601+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14786,7 +14504,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:10.527037+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.251405+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14824,7 +14542,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:11.017937+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.652556+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14886,7 +14604,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.241218+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.213456+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14915,7 +14633,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.387607+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.273461+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14953,7 +14671,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.437030+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.288808+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -14982,7 +14700,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.402276+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.245548+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15011,7 +14729,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.426457+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.302903+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15047,7 +14765,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.001353+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.855198+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15083,7 +14801,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.119265+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.918898+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15119,7 +14837,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.971923+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.911842+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15148,7 +14866,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.404244+00:00"
+      "verifiedAt": "2026-11-24T19:29:17.205337+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15196,7 +14914,7 @@
           "name": "ARD Mediathek: bestätigter SR-Livestream"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.230750+00:00",
+      "verifiedAt": "2026-11-24T19:29:18.152452+00:00",
       "channelLinks": {
         "SR (ARD Mediathek)": "https://www.ardmediathek.de/video/sportschau-3-liga/1-fc-saarbruecken-gegen-alemannia-aachen/das-erste/Y3JpZDovL3Nwb3J0c2NoYXUuZGUvNTExMzk1MjItODRhZi00MGYwLTg2MDQtOTU0ZjE5MjgyNmVh"
       }
@@ -15228,7 +14946,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.177850+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.818776+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15257,7 +14975,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.674730+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.432066+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15287,7 +15005,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.999041+00:00"
+      "verifiedAt": "2026-11-24T19:29:17.978796+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15317,7 +15035,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.043527+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.089772+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15348,7 +15066,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.040259+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.320189+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15377,7 +15095,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.763012+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.769759+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15410,7 +15128,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.807471+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.604323+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15439,7 +15157,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.721958+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.711877+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15468,7 +15186,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.453514+00:00"
+      "verifiedAt": "2026-11-24T19:29:17.180887+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15497,7 +15215,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.152695+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.309180+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15527,7 +15245,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.758718+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.730545+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15557,7 +15275,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.019116+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.110597+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15587,7 +15305,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.836345+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.709349+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15616,7 +15334,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.664504+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.469105+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15645,7 +15363,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.266996+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.843108+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15674,7 +15392,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.326549+00:00"
+      "verifiedAt": "2026-11-24T19:29:17.130048+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15703,7 +15421,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.286513+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.885230+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15733,7 +15451,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.118077+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.095363+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15762,7 +15480,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.735815+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.749734+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15792,7 +15510,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.085537+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.075855+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15825,7 +15543,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.857036+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.719726+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15854,7 +15572,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.529770+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.411725+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15884,7 +15602,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.729942+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.561001+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15913,7 +15631,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.451335+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.093493+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15942,7 +15660,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.326728+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.999075+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15956,15 +15674,15 @@
       "home": "1. FC Köln",
       "away": "SV Elversberg",
       "channels": [
-        "Sky Sport Bundesliga 3",
         "DAZN",
+        "Sky Sport Bundesliga 3",
         "Sky (CH)",
         "WOW",
         "WOW (AT)"
       ],
       "groups": [
-        "sky",
         "dazn",
+        "sky",
         "other"
       ],
       "sources": [
@@ -15977,7 +15695,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.304428+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.618947+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -15991,15 +15709,15 @@
       "home": "1. FSV Mainz 05",
       "away": "1. FC Union Berlin",
       "channels": [
-        "Sky Sport Bundesliga 2",
         "DAZN",
+        "Sky Sport Bundesliga 2",
         "Sky (CH)",
         "WOW",
         "WOW (AT)"
       ],
       "groups": [
-        "sky",
         "dazn",
+        "sky",
         "other"
       ],
       "sources": [
@@ -16012,7 +15730,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.404607+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.794917+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16042,7 +15760,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.608926+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.305122+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16072,7 +15790,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.674360+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.515018+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16086,18 +15804,18 @@
       "home": "Hamburger SV",
       "away": "FC Bayern München",
       "channels": [
+        "DAZN",
         "Sky Sport Bundesliga",
         "Sky Sport Bundesliga 1",
         "Sky Sport Top Event",
         "Sky Sport Bundesliga UHD",
-        "DAZN",
         "Sky (CH)",
         "WOW",
         "WOW (AT)"
       ],
       "groups": [
-        "sky",
         "dazn",
+        "sky",
         "other"
       ],
       "sources": [
@@ -16110,7 +15828,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.338393+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.746014+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16124,15 +15842,15 @@
       "home": "SC Paderborn 07",
       "away": "FC Schalke 04",
       "channels": [
-        "Sky Sport Bundesliga 4",
         "DAZN",
+        "Sky Sport Bundesliga 4",
         "Sky (CH)",
         "WOW",
         "WOW (AT)"
       ],
       "groups": [
-        "sky",
         "dazn",
+        "sky",
         "other"
       ],
       "sources": [
@@ -16145,7 +15863,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.089581+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.582378+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16175,7 +15893,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.624935+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.310212+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16205,7 +15923,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.662348+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.246646+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16275,7 +15993,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.417471+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.027433+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16314,7 +16032,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.480137+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.877931+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16343,7 +16061,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.086990+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.121549+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16373,7 +16091,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.174113+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.260854+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16403,7 +16121,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.201576+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.377788+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16432,7 +16150,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.188769+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.418111+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16462,7 +16180,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.238401+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.532873+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16491,7 +16209,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.651170+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.642032+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16520,7 +16238,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.670916+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.564813+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16549,7 +16267,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.818435+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.824364+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16578,7 +16296,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.907316+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.767344+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16607,7 +16325,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.785984+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.790185+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16636,7 +16354,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.981203+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.980146+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16665,7 +16383,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:19.485833+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.247948+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16699,7 +16417,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:19.464560+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.141213+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16735,7 +16453,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:19.564372+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.337134+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16765,7 +16483,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:19.602664+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.590878+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16794,7 +16512,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:19.512210+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.571156+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16830,7 +16548,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:19.704230+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.716686+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16872,7 +16590,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:20.217788+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.830640+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16901,7 +16619,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:20.412975+00:00"
+      "verifiedAt": "2026-11-24T19:29:22.225894+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16930,7 +16648,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:20.344612+00:00"
+      "verifiedAt": "2026-11-24T19:29:22.063840+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16959,7 +16677,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:20.311417+00:00"
+      "verifiedAt": "2026-11-24T19:29:22.082404+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -16988,7 +16706,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:20.272707+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.998813+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17021,7 +16739,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:20.228736+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.881010+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17059,7 +16777,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:20.929597+00:00"
+      "verifiedAt": "2026-11-24T19:29:22.373834+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17088,7 +16806,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:20.942962+00:00"
+      "verifiedAt": "2026-11-24T19:29:22.307457+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17117,7 +16835,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:20.970950+00:00"
+      "verifiedAt": "2026-11-24T19:29:22.528364+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17149,7 +16867,7 @@
       "groups": [
         "other"
       ],
-      "verifiedAt": "2026-11-24T06:58:23.521945+00:00"
+      "verifiedAt": "2026-11-24T19:29:24.585006+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17178,7 +16896,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.760303+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.663423+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17207,7 +16925,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.797622+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.642588+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17236,7 +16954,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.777913+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.704214+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17266,7 +16984,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.932415+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.772856+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17280,9 +16998,11 @@
       "home": "Borussia Dortmund (U19)",
       "away": "Fortuna Düsseldorf (U19)",
       "channels": [
+        "DFB (YouTube)",
         "skysport.de"
       ],
       "groups": [
+        "other",
         "sky"
       ],
       "sources": [
@@ -17295,7 +17015,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.807789+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.748041+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17309,8 +17029,13 @@
       "home": "FC Bayern München (U19)",
       "away": "TSV 1860 München (U19)",
       "channels": [
+        "Sky Sport Bundesliga",
+        "Sky Sport News",
         "Sky Sport (YouTube)",
-        "skysport.de"
+        "Sky Sport News HD (Livestream)",
+        "skysport.de",
+        "WOW",
+        "Sky Sport News HD (mobil)"
       ],
       "groups": [
         "sky"
@@ -17325,7 +17050,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:12.908805+00:00"
+      "verifiedAt": "2026-11-24T19:29:15.931988+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17354,7 +17079,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.591841+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.186914+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17383,7 +17108,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.569909+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.196951+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17412,7 +17137,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.606646+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.384009+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17448,7 +17173,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.654883+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.396778+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17484,7 +17209,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.391078+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.957255+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17513,7 +17238,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.505604+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.450795+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17549,7 +17274,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.431981+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.927459+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17579,7 +17304,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.245337+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.690836+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17615,7 +17340,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.444479+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.798511+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17644,7 +17369,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:13.690944+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.401917+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17673,7 +17398,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.971534+00:00"
+      "verifiedAt": "2026-11-24T19:29:17.890121+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17703,7 +17428,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.635278+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.139079+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17732,7 +17457,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.317040+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.868073+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17761,7 +17486,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.878145+00:00"
+      "verifiedAt": "2026-11-24T19:29:17.914063+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17790,7 +17515,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.465320+00:00"
+      "verifiedAt": "2026-11-24T19:29:16.919692+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17820,7 +17545,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.826488+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.571266+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17849,7 +17574,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.065359+00:00"
+      "verifiedAt": "2026-11-24T19:29:17.935218+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17879,7 +17604,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.180034+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.100713+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17909,7 +17634,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.613202+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.459156+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17938,7 +17663,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:14.856831+00:00"
+      "verifiedAt": "2026-11-24T19:29:17.148264+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17968,7 +17693,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.217258+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.060922+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -17983,6 +17708,7 @@
       "away": "WSG Tirol",
       "channels": [
         "Sky Sport Austria 1 (AT)",
+        "Sky Sport Austria 2 (AT)",
         "WOW (AT)"
       ],
       "groups": [
@@ -17998,7 +17724,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.942695+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.676542+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18013,6 +17739,7 @@
       "away": "TSV Hartberg",
       "channels": [
         "Sky Sport Austria 1 (AT)",
+        "Sky Sport Austria 3 (AT)",
         "WOW (AT)"
       ],
       "groups": [
@@ -18028,7 +17755,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:15.918406+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.635429+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18057,7 +17784,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.306700+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.876492+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18086,7 +17813,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.429002+00:00"
+      "verifiedAt": "2026-11-24T19:29:18.943066+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18118,7 +17845,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.256026+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.018848+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18150,7 +17877,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.656638+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.173505+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18182,7 +17909,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.502132+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.043798+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18214,7 +17941,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:16.472072+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.063872+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18245,7 +17972,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.027294+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.349847+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18274,7 +18001,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.110613+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.441881+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18303,7 +18030,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.274992+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.556822+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18332,7 +18059,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.229083+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.699029+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18361,7 +18088,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.262972+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.535703+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18391,7 +18118,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.438638+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.871145+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18420,7 +18147,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.740523+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.970155+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18450,7 +18177,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.877000+00:00"
+      "verifiedAt": "2026-11-24T19:29:19.950234+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18479,7 +18206,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.015176+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.004244+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18510,7 +18237,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.070044+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.222910+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18546,7 +18273,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.057787+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.051000+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18575,7 +18302,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.233750+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.387435+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18604,7 +18331,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.732556+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.595978+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18633,7 +18360,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.465570+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.477780+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18664,7 +18391,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.854884+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.679462+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18694,7 +18421,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.756948+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.544969+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18723,7 +18450,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.990821+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.101345+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18752,7 +18479,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:18.844495+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.043395+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18781,7 +18508,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:19.215274+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.097450+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18819,7 +18546,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:19.518540+00:00"
+      "verifiedAt": "2026-11-24T19:29:21.120466+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18849,7 +18576,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:08.787406+00:00"
+      "verifiedAt": "2026-11-24T19:29:13.195342+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18882,7 +18609,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:17.854292+00:00"
+      "verifiedAt": "2026-11-24T19:29:20.145004+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18926,7 +18653,7 @@
           "name": "ZDF: bestätigter Livestream Argentinien–Deutschland"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:21.503283+00:00"
+      "verifiedAt": "2026-11-24T19:29:22.703225+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18955,7 +18682,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:21.498849+00:00"
+      "verifiedAt": "2026-11-24T19:29:22.747954+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -18984,7 +18711,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:21.409376+00:00"
+      "verifiedAt": "2026-11-24T19:29:22.737413+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -19000,12 +18727,14 @@
       "channels": [
         "DF1",
         "DFB.TV",
+        "DAZN",
         "DF1 (Livestream)",
         "DFB (YouTube)",
         "DFB.TV+"
       ],
       "groups": [
         "other",
+        "dazn",
         "free"
       ],
       "sources": [
@@ -19026,7 +18755,7 @@
           "name": "DF1: bestätigte kostenlose Liveübertragung der U23-Frauen"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:21.469661+00:00"
+      "verifiedAt": "2026-11-24T19:29:22.644267+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -19055,7 +18784,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:21.454521+00:00"
+      "verifiedAt": "2026-11-24T19:29:22.686621+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -19085,7 +18814,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:22.006014+00:00"
+      "verifiedAt": "2026-11-24T19:29:23.118221+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -19114,7 +18843,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:21.487370+00:00"
+      "verifiedAt": "2026-11-24T19:29:23.238489+00:00"
     },
     "dataUpdated": "2026-11-24"
   },
@@ -19143,7 +18872,528 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-24T06:58:22.237678+00:00"
+      "verifiedAt": "2026-11-24T19:29:23.200716+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-26|Atletico Mineiro|Corinthians Sao Paulo": {
+    "path": "spiel/atletico-mineiro-corinthians-sao-paulo-2026-11-26",
+    "game": {
+      "date": "2026-11-26",
+      "time": "00:00",
+      "competition": "Campeonato Brasileiro Série A (Brasilien)",
+      "country": "Brasilien",
+      "home": "Atletico Mineiro",
+      "away": "Corinthians Sao Paulo",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball 2",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-26",
+          "name": "fußballgucken.info – Tagesplan 2026-11-26"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199403/campeonato-brasileiro-serie-a-brasilien/atletico-mineiro-corinthians-sao-paulo",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:11.306619+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-27|Al-Ittihad|Neom SC": {
+    "path": "spiel/al-ittihad-neom-sc-2026-11-27",
+    "game": {
+      "date": "2026-11-27",
+      "time": "18:30",
+      "competition": "Saudi Professional League",
+      "country": "Saudi-Arabien",
+      "home": "Al-Ittihad",
+      "away": "Neom SC",
+      "channels": [
+        "Sportdigital Fussball 2",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-27",
+          "name": "fußballgucken.info – Tagesplan 2026-11-27"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199427/saudi-professional-league/al-ittihad-neom-sc",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:11.513146+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-28|Fluminense Rio de Janeiro|Cruzeiro Belo Horizonte": {
+    "path": "spiel/fluminense-rio-de-janeiro-cruzeiro-belo-horizonte-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "00:00",
+      "competition": "Campeonato Brasileiro Série A (Brasilien)",
+      "country": "Brasilien",
+      "home": "Fluminense Rio de Janeiro",
+      "away": "Cruzeiro Belo Horizonte",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199404/campeonato-brasileiro-serie-a-brasilien/fluminense-rio-de-janeiro-cruzeiro-belo-horizonte",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:15.323420+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-28|Al-Hazem|Al-Nassr FC": {
+    "path": "spiel/al-hazem-al-nassr-fc-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "13:15",
+      "competition": "Saudi Professional League",
+      "country": "Saudi-Arabien",
+      "home": "Al-Hazem",
+      "away": "Al-Nassr FC",
+      "channels": [
+        "Sportdigital Fussball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199428/saudi-professional-league/al-hazem-al-nassr-fc",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:15.834438+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-28|Preston North End|Norwich City": {
+    "path": "spiel/preston-north-end-norwich-city-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "13:30",
+      "competition": "EFL Championship (England)",
+      "country": "England",
+      "home": "Preston North End",
+      "away": "Norwich City",
+      "channels": [
+        "Sky Sport Premier League",
+        "WOW"
+      ],
+      "groups": [
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199538/efl-championship-england/preston-north-end-norwich-city",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:15.860966+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-28|Al-Ettifaq|Al-Hilal Riad": {
+    "path": "spiel/al-ettifaq-al-hilal-riad-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "15:20",
+      "competition": "Saudi Professional League",
+      "country": "Saudi-Arabien",
+      "home": "Al-Ettifaq",
+      "away": "Al-Hilal Riad",
+      "channels": [
+        "Sportdigital Fussball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199425/saudi-professional-league/al-ettifaq-al-hilal-riad",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:19.142700+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-28|Deutschland ♀ (U19)|Slowenien ♀ (U19)": {
+    "path": "spiel/deutschland-frauen-u19-slowenien-frauen-u19-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "18:00",
+      "competition": "U19-EM (Frauen)",
+      "country": "International",
+      "home": "Deutschland ♀ (U19)",
+      "away": "Slowenien ♀ (U19)",
+      "channels": [
+        "DFB.TV",
+        "DFB.TV+"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199522/u19-em-frauen/deutschland-frauen-u19-slowenien-frauen-u19",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:21.067565+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-28|Motherwell FC|Hibernian FC Edinburgh": {
+    "path": "spiel/motherwell-fc-hibernian-fc-edinburgh-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "18:45",
+      "competition": "Scottish Premiership",
+      "country": "Schottland",
+      "home": "Motherwell FC",
+      "away": "Hibernian FC Edinburgh",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball 2",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199477/scottish-premiership/motherwell-fc-hibernian-fc-edinburgh",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:21.314111+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-28|PSV Eindhoven|Go Ahead Eagles Deventer": {
+    "path": "spiel/psv-eindhoven-go-ahead-eagles-deventer-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "18:45",
+      "competition": "Eredivisie (Niederlande)",
+      "country": "Niederlande",
+      "home": "PSV Eindhoven",
+      "away": "Go Ahead Eagles Deventer",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199453/eredivisie-niederlande/psv-eindhoven-go-ahead-eagles-deventer",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:21.524906+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-29|Feyenoord Rotterdam|Ajax Amsterdam": {
+    "path": "spiel/feyenoord-rotterdam-ajax-amsterdam-2026-11-29",
+    "game": {
+      "date": "2026-11-29",
+      "time": "14:30",
+      "competition": "Eredivisie (Niederlande)",
+      "country": "Niederlande",
+      "home": "Feyenoord Rotterdam",
+      "away": "Ajax Amsterdam",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-29",
+          "name": "fußballgucken.info – Tagesplan 2026-11-29"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199451/eredivisie-niederlande/feyenoord-rotterdam-ajax-amsterdam",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:18.619969+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-29|Heart of Midlothian FC|Celtic Glasgow": {
+    "path": "spiel/heart-of-midlothian-fc-celtic-glasgow-2026-11-29",
+    "game": {
+      "date": "2026-11-29",
+      "time": "16:00",
+      "competition": "Scottish Premiership",
+      "country": "Schottland",
+      "home": "Heart of Midlothian FC",
+      "away": "Celtic Glasgow",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "Sportdigital Fussball 2",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-29",
+          "name": "fußballgucken.info – Tagesplan 2026-11-29"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199476/scottish-premiership/heart-of-midlothian-fc-celtic-glasgow",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:19.479437+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-29|FC Fastav Zlin|Sparta Prag": {
+    "path": "spiel/fc-fastav-zlin-sparta-prag-2026-11-29",
+    "game": {
+      "date": "2026-11-29",
+      "time": "18:00",
+      "competition": "Chance Liga (Tschechien)",
+      "country": "Tschechien",
+      "home": "FC Fastav Zlin",
+      "away": "Sparta Prag",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-29",
+          "name": "fußballgucken.info – Tagesplan 2026-11-29"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199492/chance-liga-tschechien/fc-fastav-zlin-sparta-prag",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:20.467325+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-29|Coritiba FC|Flamengo Rio de Janeiro": {
+    "path": "spiel/coritiba-fc-flamengo-rio-de-janeiro-2026-11-29",
+    "game": {
+      "date": "2026-11-29",
+      "time": "20:00",
+      "competition": "Campeonato Brasileiro Série A (Brasilien)",
+      "country": "Brasilien",
+      "home": "Coritiba FC",
+      "away": "Flamengo Rio de Janeiro",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball 2",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-29",
+          "name": "fußballgucken.info – Tagesplan 2026-11-29"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199411/campeonato-brasileiro-serie-a-brasilien/coritiba-fc-flamengo-rio-de-janeiro",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:20.844376+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-30|CS Universitatea Craiova|Dynamo Bukarest": {
+    "path": "spiel/cs-universitatea-craiova-dynamo-bukarest-2026-11-30",
+    "game": {
+      "date": "2026-11-30",
+      "time": "19:00",
+      "competition": "SuperLiga (Rumänien)",
+      "country": "Rumänien",
+      "home": "CS Universitatea Craiova",
+      "away": "Dynamo Bukarest",
+      "channels": [
+        "blue Sport (CH)",
+        "Sportdigital Fussball",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+",
+        "Sportdigital Fussball (MagentaSport)",
+        "Sportdigital Fussball (MagentaTV)",
+        "Sportdigital Fussball (via DAZN)",
+        "Sportdigital Fussball HD (Sky)"
+      ],
+      "groups": [
+        "other",
+        "dazn",
+        "sky"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-30",
+          "name": "fußballgucken.info – Tagesplan 2026-11-30"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199495/superliga-rumaenien/cs-universitatea-craiova-dynamo-bukarest",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:22.743638+00:00"
+    },
+    "dataUpdated": "2026-11-24"
+  },
+  "2026-11-30|Casa Pia AC|Sporting Braga": {
+    "path": "spiel/casa-pia-ac-sporting-braga-2026-11-30",
+    "game": {
+      "date": "2026-11-30",
+      "time": "21:15",
+      "competition": "Liga Portugal",
+      "country": "Portugal",
+      "home": "Casa Pia AC",
+      "away": "Sporting Braga",
+      "channels": [
+        "Sportdigital Fussball 2",
+        "Sportdigital.de (Livestream)",
+        "Sportdigital+"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-30",
+          "name": "fußballgucken.info – Tagesplan 2026-11-30"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198764/liga-portugal/casa-pia-ac-sporting-braga",
+          "name": "Übertragungsdetails"
+        }
+      ],
+      "verifiedAt": "2026-11-24T19:29:23.137194+00:00"
     },
     "dataUpdated": "2026-11-24"
   }
