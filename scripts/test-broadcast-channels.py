@@ -20,6 +20,10 @@ class CoverageTests(unittest.TestCase):
   self.assertEqual(channels,['DAZN (AT)','DAZN (CH)'])
   self.assertEqual(refresh.groups_for(channels),['other'])
 
+ def test_nitro_free_tv_does_not_make_rtl_plus_free(self):
+  self.assertEqual(refresh.groups_for(['NITRO']),['free'])
+  self.assertEqual(refresh.groups_for(['NITRO (via RTL+)','RTL+']),['other'])
+
  def test_real_source_radio_heading(self):
   # Real source structure, including free icons that must not imply free video.
   soup=BeautifulSoup('''<div class="box white gap"><h3><i class="fg-icon fg-icon-radio fg-icon-x5"></i>(Web-)Radio</h3><div class="coverage"><ul class="list list-unstyled list-coverage"><li><a href="/sender/energiefm">EnergieFM</a><span class="fg-icon-free"></span></li></ul></div></div>''',"html.parser")
