@@ -28,6 +28,10 @@ DAZN_REGION_LINKS = {
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/199522/u19-em-frauen/deutschland-frauen-u19-slowenien-frauen-u19': (
+        '2026-11-28', '19:00', 'https://www.dfb.de/news/dfbtv-frauen-nationalmannschaften-machen-das-programm'),
+    'https://fussballgucken.info/match/199539/u19-em-frauen/deutschland-frauen-u19-norwegen-frauen-u19': (
+        '2026-12-01', '19:00', 'https://www.dfb.de/news/dfbtv-frauen-nationalmannschaften-machen-das-programm'),
     'https://fussballgucken.info/match/198871/laenderspiel-frauen/peru-frauen-deutschland-frauen': (
         '2026-12-04', '22:15', 'https://www.dfb.de/frauen/nationalmannschaften/nationalmannschaft/spiele-und-termine'),
     'https://fussballgucken.info/match/197287/regionalliga-nordost/rsv-eintracht-1949-bfc-preussen': (
@@ -89,6 +93,12 @@ AFCON_QUALIFIER_SCHEDULE = 'https://www.cafonline.com/afcon2025/news/crucial-mat
 
 # Official competition labels for listings that conflate qualifiers and finals.
 VERIFIED_COMPETITIONS = {
+    ('2026-11-28', 'https://fussballgucken.info/match/199522/u19-em-frauen/deutschland-frauen-u19-slowenien-frauen-u19'): (
+        'U19-EM-Qualifikation (Frauen)', 'https://www.dfb.de/news/dfbtv-frauen-nationalmannschaften-machen-das-programm'),
+    ('2026-12-01', 'https://fussballgucken.info/match/199539/u19-em-frauen/deutschland-frauen-u19-norwegen-frauen-u19'): (
+        'U19-EM-Qualifikation (Frauen)', 'https://www.dfb.de/news/dfbtv-frauen-nationalmannschaften-machen-das-programm'),
+    ('2026-12-04', 'https://fussballgucken.info/match/199540/u19-em-frauen/niederlande-frauen-u19-deutschland-frauen-u19'): (
+        'U19-EM-Qualifikation (Frauen)', 'https://www.dfb.de/news/dfbtv-frauen-nationalmannschaften-machen-das-programm'),
     ('2026-11-17', 'https://fussballgucken.info/match/198869/u19-em/england-u19-oesterreich-u19'): (
         'U19-EM-Qualifikation', 'https://www.oefb.at/oefb/News/MU19-AUTBLR-11112026-Kader/'),
     ('2026-11-15', 'https://fussballgucken.info/match/198580/national-women-s-soccer-league-nwsl/nj-ny-gotham-fc-frauen-kansas-city-current-frauen'): (
@@ -113,6 +123,12 @@ VERIFIED_COMPETITIONS = {
 
 # Researched video coverage missing from the listing; date-scoped and sourced.
 VERIFIED_BROADCASTS = {
+    ('2026-12-04', 'https://fussballgucken.info/match/199540/u19-em-frauen/niederlande-frauen-u19-deutschland-frauen-u19'): {
+        'channels': ['DFB.TV+'],
+        'url': 'https://www.dfb.de/news/dfbtv-frauen-nationalmannschaften-machen-das-programm',
+        'name': 'DFB: U19-EM-Qualifikation am 4. Dezember um 17 Uhr exklusiv in der kostenpflichtigen App DFB.TV+',
+        'channelLinks': {'DFB.TV+': 'https://watch.dfbtvplus.de/'},
+    },
     ('2026-11-30', 'https://fussballgucken.info/match/192597/laenderspiel-u23-frauen/deutschland-frauen-u23-usa-frauen-u23'): {
         'channels': ['DF1', 'DFB.TV'],
         'freeChannels': {'DF1'},
@@ -284,6 +300,21 @@ EXCLUDED_BROADCASTS = {
 
 # Confirmed fixtures not yet present in the daily listing.
 VERIFIED_ADDITIONAL_FIXTURES = [{
+    'date': '2026-12-04', 'time': '19:00',
+    'competition': 'Regionalliga Nordost', 'country': 'Deutschland',
+    'home': '1. FC Magdeburg II', 'away': '1. FC Lok Leipzig',
+    'channels': ['LVZ+', 'Mediengruppe Mitteldeutschland'],
+    'sources': [
+        {'url': 'https://mediathek.mediengruppe-mitteldeutschland.de/event/89424/1-fc-magdeburg-ii-lok-leipzig',
+         'name': 'Mediengruppe Mitteldeutschland: bestätigter kostenpflichtiger Livestream'},
+        {'url': 'https://www.lvz.de/sport/regional/regionalliga-nordost-und-sachsenpokal-live-diese-partien-uebertragen-wir-UIZKBOXN4JGLFN7JUL5Z4Y7AUY.html',
+         'name': 'LVZ: bestätigte Übertragung am 4. Dezember um 19 Uhr'},
+    ],
+    'channelLinks': {
+        'Mediengruppe Mitteldeutschland': 'https://mediathek.mediengruppe-mitteldeutschland.de/event/89424/1-fc-magdeburg-ii-lok-leipzig',
+        'LVZ+': 'https://www.lvz.de/livesport',
+    },
+}, {
     'date': '2026-11-28', 'time': '13:30',
     'competition': 'Oberliga NOFV Süd', 'country': 'Deutschland',
     'home': 'FC Einheit Wernigerode', 'away': 'SSC Weißenfels',
