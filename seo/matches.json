@@ -4924,45 +4924,6 @@
     },
     "dataUpdated": "2026-11-22"
   },
-  "2026-11-20|Western Sydney Wanderers|Adelaide United": {
-    "path": "spiel/western-sydney-wanderers-adelaide-united-2026-11-20",
-    "game": {
-      "date": "2026-11-20",
-      "time": "09:40",
-      "competition": "A-League (Australien)",
-      "country": "Australien",
-      "home": "Western Sydney Wanderers",
-      "away": "Adelaide United",
-      "channels": [
-        "blue Sport (CH)",
-        "Sportdigital Fussball",
-        "OneFootball",
-        "Sportdigital.de (Livestream)",
-        "Sportdigital+",
-        "Sportdigital Fussball (MagentaSport)",
-        "Sportdigital Fussball (MagentaTV)",
-        "Sportdigital Fussball (via DAZN)",
-        "Sportdigital Fussball HD (Sky)"
-      ],
-      "groups": [
-        "other",
-        "dazn",
-        "sky"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
-          "name": "fußballgucken.info – Tagesplan 2026-11-20"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198757/a-league-australien/western-sydney-wanderers-adelaide-united",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-20T16:56:18.695265+00:00"
-    },
-    "dataUpdated": "2026-11-20"
-  },
   "2026-11-21|Brisbane Roar|Sydney FC": {
     "path": "spiel/brisbane-roar-sydney-fc-2026-11-21",
     "game": {
@@ -13743,35 +13704,6 @@
     },
     "dataUpdated": "2026-11-27"
   },
-  "2026-11-28|FC Gütersloh|Sportfreunde Lotte": {
-    "path": "spiel/fc-guetersloh-sportfreunde-lotte-2026-11-28",
-    "game": {
-      "date": "2026-11-28",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "FC Gütersloh",
-      "away": "Sportfreunde Lotte",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-          "name": "fußballgucken.info – Tagesplan 2026-11-28"
-        },
-        {
-          "url": "https://fussballgucken.info/match/199076/regionalliga-west/fc-guetersloh-sportfreunde-lotte",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-27T05:04:40.258810+00:00"
-    },
-    "dataUpdated": "2026-11-27"
-  },
   "2026-11-28|FC Würzburger Kickers|Fortuna Düsseldorf": {
     "path": "spiel/fc-wuerzburger-kickers-fortuna-duesseldorf-2026-11-28",
     "game": {
@@ -13979,35 +13911,6 @@
         }
       ],
       "verifiedAt": "2026-11-27T05:04:39.520952+00:00"
-    },
-    "dataUpdated": "2026-11-27"
-  },
-  "2026-11-28|SC Wiedenbrück 2000|1. FC Köln II": {
-    "path": "spiel/sc-wiedenbrueck-2000-1-fc-koeln-ii-2026-11-28",
-    "game": {
-      "date": "2026-11-28",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "SC Wiedenbrück 2000",
-      "away": "1. FC Köln II",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-          "name": "fußballgucken.info – Tagesplan 2026-11-28"
-        },
-        {
-          "url": "https://fussballgucken.info/match/199074/regionalliga-west/sc-wiedenbrueck-2000-1-fc-koeln-ii",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-27T05:04:40.438115+00:00"
     },
     "dataUpdated": "2026-11-27"
   },
