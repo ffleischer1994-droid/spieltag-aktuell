@@ -28,6 +28,16 @@ DAZN_REGION_LINKS = {
 
 # Official fixture confirmation takes precedence over a conflicting listing time.
 VERIFIED_KICKOFFS = {
+    'https://fussballgucken.info/match/193673/premier-league-england/fc-chelsea-fc-liverpool': (
+        '2026-12-05', '13:30', 'https://www.chelseafc.com/en/news/article/four-chelsea-december-fixtures-moved-for-tv?ssoc=1'),
+    'https://fussballgucken.info/match/193678/premier-league-england/nottingham-forest-brighton-and-hove-albion': (
+        '2026-12-05', '18:30', 'https://www.nottinghamforest.co.uk/news/2026/october/19/december-fixture-changes---three-games-adjusted'),
+    'https://fussballgucken.info/match/193674/premier-league-england/fc-everton-fc-fulham': (
+        '2026-12-06', '15:00', 'https://www.evertonfc.com/news/2026/october/19/three-everton-fixtures-/'),
+    'https://fussballgucken.info/match/193677/premier-league-england/newcastle-united-afc-sunderland': (
+        '2026-12-06', '15:00', 'https://help.asksafc.com/hc/en-us/articles/52875544522641-NEWCASTLE-UNITED-A-SOLD-OUT'),
+    'https://fussballgucken.info/match/193679/premier-league-england/tottenham-hotspur-fc-arsenal': (
+        '2026-12-06', '17:30', 'https://www.tottenhamhotspur.com/news/1179123/fixture-changes-december'),
     'https://fussballgucken.info/match/199522/u19-em-frauen/deutschland-frauen-u19-slowenien-frauen-u19': (
         '2026-11-28', '19:00', 'https://www.dfb.de/news/dfbtv-frauen-nationalmannschaften-machen-das-programm'),
     'https://fussballgucken.info/match/199539/u19-em-frauen/deutschland-frauen-u19-norwegen-frauen-u19': (
@@ -302,6 +312,20 @@ EXCLUDED_BROADCASTS = {
 
 # Confirmed fixtures not yet present in the daily listing.
 VERIFIED_ADDITIONAL_FIXTURES = [{
+    'date': '2026-12-05', 'time': '13:00',
+    'competition': 'Verbandsliga Sachsen-Anhalt', 'country': 'Deutschland',
+    'home': 'SV Blau-Weiß Zorbau', 'away': 'VfB Ottersleben',
+    'channels': ['Mediengruppe Mitteldeutschland'],
+    'sources': [
+        {'url': 'https://mediathek.mediengruppe-mitteldeutschland.de/event/85821/sv-blau-weiss-zorbau-vfb-ottersleben',
+         'name': 'Mediengruppe Mitteldeutschland: bestätigter Livestream am 5. Dezember um 13 Uhr'},
+        {'url': 'https://www.fussball.de/mannschaft/sv-blau-weiss-zorbau-sv-blau-weiss-zorbau-sachsen-anhalt/-/saison/2627/team-id/011MIAF08K000000VTVG0001VTR8C1K7',
+         'name': 'FUSSBALL.DE: bestätigter Spieltermin und Wettbewerb'},
+    ],
+    'channelLinks': {
+        'Mediengruppe Mitteldeutschland': 'https://mediathek.mediengruppe-mitteldeutschland.de/event/85821/sv-blau-weiss-zorbau-vfb-ottersleben',
+    },
+}, {
     'date': '2026-12-04', 'time': '19:00',
     'competition': 'Regionalliga Nordost', 'country': 'Deutschland',
     'home': '1. FC Magdeburg II', 'away': '1. FC Lok Leipzig',
