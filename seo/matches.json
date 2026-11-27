@@ -8437,95 +8437,6 @@
     },
     "dataUpdated": "2026-11-22"
   },
-  "2026-11-20|Italien (U17)|Jamaika (U17)": {
-    "path": "spiel/italien-u17-jamaika-u17-2026-11-20",
-    "game": {
-      "date": "2026-11-20",
-      "time": "16:00",
-      "competition": "U17-WM",
-      "country": "International",
-      "home": "Italien (U17)",
-      "away": "Jamaika (U17)",
-      "channels": [
-        "Rai Sport",
-        "DAZN",
-        "FIFA+",
-        "Rai Sport (Livestream)"
-      ],
-      "groups": [
-        "other",
-        "dazn",
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
-          "name": "fußballgucken.info – Tagesplan 2026-11-20"
-        },
-        {
-          "url": "https://fussballgucken.info/match/199003/u17-wm/italien-u17-jamaika-u17",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
-          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
-        },
-        {
-          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
-          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
-        },
-        {
-          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
-          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
-        }
-      ],
-      "verifiedAt": "2026-11-20T16:56:19.308530+00:00"
-    },
-    "dataUpdated": "2026-11-20"
-  },
-  "2026-11-20|Senegal (U17)|Kroatien (U17)": {
-    "path": "spiel/senegal-u17-kroatien-u17-2026-11-20",
-    "game": {
-      "date": "2026-11-20",
-      "time": "16:30",
-      "competition": "U17-WM",
-      "country": "International",
-      "home": "Senegal (U17)",
-      "away": "Kroatien (U17)",
-      "channels": [
-        "DAZN",
-        "FIFA+"
-      ],
-      "groups": [
-        "dazn",
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
-          "name": "fußballgucken.info – Tagesplan 2026-11-20"
-        },
-        {
-          "url": "https://fussballgucken.info/match/199005/u17-wm/senegal-u17-kroatien-u17",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
-          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
-        },
-        {
-          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
-          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
-        },
-        {
-          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
-          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
-        }
-      ],
-      "verifiedAt": "2026-11-20T16:56:19.342914+00:00"
-    },
-    "dataUpdated": "2026-11-20"
-  },
   "2026-11-20|Elfenbeinküste (U17)|Usbekistan (U17)": {
     "path": "spiel/elfenbeinkueste-u17-usbekistan-u17-2026-11-20",
     "game": {
@@ -12411,36 +12322,6 @@
     },
     "dataUpdated": "2026-11-27"
   },
-  "2026-11-27|SKU Amstetten|SKN St. Pölten": {
-    "path": "spiel/sku-amstetten-skn-st-poelten-2026-11-27",
-    "game": {
-      "date": "2026-11-27",
-      "time": "18:30",
-      "competition": "2. Liga (Österreich)",
-      "country": "Österreich",
-      "home": "SKU Amstetten",
-      "away": "SKN St. Pölten",
-      "channels": [
-        "LAOLA1 (Livestream)",
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-27",
-          "name": "fußballgucken.info – Tagesplan 2026-11-27"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198431/2-liga-oesterreich/sku-amstetten-skn-st-poelten",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-27T13:48:14.410520+00:00"
-    },
-    "dataUpdated": "2026-11-27"
-  },
   "2026-11-27|VfL Bochum|SV Darmstadt 98": {
     "path": "spiel/vfl-bochum-sv-darmstadt-98-2026-11-27",
     "game": {
@@ -12487,6 +12368,7 @@
       "home": "BFC Dynamo",
       "away": "FC Rot-Weiß Erfurt",
       "channels": [
+        "FUNKE Medien Thüringen",
         "Mediengruppe Mitteldeutschland"
       ],
       "groups": [
@@ -12500,9 +12382,16 @@
         {
           "url": "https://fussballgucken.info/match/197289/regionalliga-nordost/bfc-dynamo-fc-rot-weiss-erfurt",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.thueringer-allgemeine.de/sport/article404402473/fussball-regionalliga-nordost-im-livestream.html",
+          "name": "FUNKE Medien Thüringen: BFC Dynamo gegen Rot-Weiß Erfurt am 27. November im kostenpflichtigen Livestream"
         }
       ],
-      "verifiedAt": "2026-11-27T13:48:14.931332+00:00"
+      "verifiedAt": "2026-11-27T18:47:46.419304+00:00",
+      "channelLinks": {
+        "FUNKE Medien Thüringen": "https://www.thueringer-allgemeine.de/sport/article404402473/fussball-regionalliga-nordost-im-livestream.html"
+      }
     },
     "dataUpdated": "2026-11-27"
   },
@@ -17415,6 +17304,7 @@
       "channels": [
         "blue Sport (CH)",
         "Sportdigital Fussball",
+        "DAZN",
         "OneFootball",
         "Sportdigital.de (Livestream)",
         "Sportdigital+",
@@ -17438,7 +17328,7 @@
           "name": "Übertragungsdetails"
         }
       ],
-      "verifiedAt": "2026-11-27T13:48:20.100007+00:00"
+      "verifiedAt": "2026-11-27T18:48:39.731131+00:00"
     },
     "dataUpdated": "2026-11-27"
   },
@@ -20362,6 +20252,77 @@
         "Sportdigital+": "https://start.sportdigital.de/mediathek/37034/Boca%2BJuniors%2B-%2BGimnasia%2BLa%2BPlata",
         "Sportdigital.de (Livestream)": "https://start.sportdigital.de/mediathek/37034/Boca%2BJuniors%2B-%2BGimnasia%2BLa%2BPlata"
       }
+    },
+    "dataUpdated": "2026-11-27"
+  },
+  "2026-11-28|1. FC Lok Leipzig|FSV 63 Luckenwalde": {
+    "path": "spiel/1-fc-lok-leipzig-fsv-63-luckenwalde-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "14:00",
+      "competition": "Regionalliga Nordost",
+      "country": "Deutschland",
+      "home": "1. FC Lok Leipzig",
+      "away": "FSV 63 Luckenwalde",
+      "channels": [
+        "MDR Fernsehen",
+        "MDR",
+        "MDR (ARD Mediathek)",
+        "MDR Mediathek",
+        "MDR+ Livestreams"
+      ],
+      "groups": [
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/197283/regionalliga-nordost/1-fc-lok-leipzig-fsv-63-luckenwalde",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.mdr.de/tv/programm?date=2026-11-28",
+          "name": "MDR: bestätigte Free-TV-Übertragung am 28. November ab 14 Uhr"
+        }
+      ],
+      "verifiedAt": "2026-11-27T18:48:03.246119+00:00"
+    },
+    "dataUpdated": "2026-11-27"
+  },
+  "2026-11-28|SKU Amstetten|SKN St. Pölten": {
+    "path": "spiel/sku-amstetten-skn-st-poelten-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "15:30",
+      "competition": "2. Liga (Österreich)",
+      "country": "Österreich",
+      "home": "SKU Amstetten",
+      "away": "SKN St. Pölten",
+      "channels": [
+        "LAOLA1 (Livestream)",
+        "OneFootball"
+      ],
+      "groups": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/198431/2-liga-oesterreich/sku-amstetten-skn-st-poelten",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.2liga.at/de/news/artikel/spielverschiebung-in-der-14-runde-sku-skn",
+          "name": "ADMIRAL 2. Liga: witterungsbedingte Verlegung auf 28.11.2026, 15:30 Uhr; live auf LAOLA1"
+        }
+      ],
+      "verifiedAt": "2026-11-27T18:48:09.253599+00:00"
     },
     "dataUpdated": "2026-11-27"
   }
