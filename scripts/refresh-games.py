@@ -93,6 +93,8 @@ AFCON_QUALIFIER_SCHEDULE = 'https://www.cafonline.com/afcon2025/news/crucial-mat
 
 # Official competition labels for listings that conflate qualifiers and finals.
 VERIFIED_COMPETITIONS = {
+    ('2026-12-02', 'https://fussballgucken.info/match/198724/landespokal-niederrhein/vfb-oldenburg-tsv-havelse'): (
+        'Landespokal Niedersachsen', 'https://www.fussball.de/mannschaft/vfb-oldenburg-vfb-oldenburg-niedersachsen/-/saison/2627/team-id/011MIB9PBS000000VTVG0001VTR8C1K7'),
     ('2026-11-28', 'https://fussballgucken.info/match/199522/u19-em-frauen/deutschland-frauen-u19-slowenien-frauen-u19'): (
         'U19-EM-Qualifikation (Frauen)', 'https://www.dfb.de/news/dfbtv-frauen-nationalmannschaften-machen-das-programm'),
     ('2026-12-01', 'https://fussballgucken.info/match/199539/u19-em-frauen/deutschland-frauen-u19-norwegen-frauen-u19'): (
@@ -780,6 +782,17 @@ AUSTRIAN_WOMEN_TEAM_NAMES = {
     'SK Rapid Wien ♀': 'SK Rapid ♀',
 }
 POSTPONED_FIXTURES = {
+    # https://www.fsv-schoeningen.com/vorbericht/116873/spielabsage
+    ('2026-11-28', 'https://fussballgucken.info/match/198735/regionalliga-nord/fsv-schoeningen-sv-werder-bremen-ii'),
+    # https://www.vfb-oldenburg.de/artikel/116933/heimspiel-faellt-aus
+    ('2026-11-28', 'https://fussballgucken.info/match/198742/regionalliga-nord/vfb-oldenburg-sv-todesfelde'),
+    # https://wdfv.de/der-wdfv/aktuelles/1203/herren-regionalliga-west-spielabsage
+    ('2026-11-28', 'https://fussballgucken.info/match/199077/regionalliga-west/sv-roedinghausen-borussia-moenchengladbach-ii'),
+    # Official cancellations override stale broadcaster/day-plan listings.
+    # https://www.fc-erzgebirge.de/neues/2026/spiel-bei-altglienicke-abgesagt
+    ('2026-11-28', 'https://fussballgucken.info/match/197285/regionalliga-nordost/vsg-altglienicke-erzgebirge-aue'),
+    # https://www.fc-carlzeiss-jena.de/news/club-profis/details/spiel-in-zwickau-wird-abgesagt.html.html
+    ('2026-11-29', 'https://fussballgucken.info/match/197284/regionalliga-nordost/fsv-zwickau-carl-zeiss-jena'),
     # ÖFB round 13 preview: https://www.oefb.at/oefb/News/AFBL-26-27-Runde-13-Vorschau
     ('2026-11-14', 'https://fussballgucken.info/match/198554/oefb-frauen-bundesliga/'
      'red-bull-salzburg-frauen-fk-austria-wien-frauen'),

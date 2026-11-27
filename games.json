@@ -1521,31 +1521,6 @@
   {
     "date": "2026-11-28",
     "time": "14:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "FSV Schöningen",
-    "away": "SV Werder Bremen II",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-        "name": "fußballgucken.info – Tagesplan 2026-11-28"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198735/regionalliga-nord/fsv-schoeningen-sv-werder-bremen-ii",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-27T05:04:40.403502+00:00"
-  },
-  {
-    "date": "2026-11-28",
-    "time": "14:00",
     "competition": "Regionalliga West",
     "country": "Deutschland",
     "home": "RW Oberhausen",
@@ -1800,31 +1775,6 @@
   {
     "date": "2026-11-28",
     "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "SV Rödinghausen",
-    "away": "Borussia Mönchengladbach II",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-        "name": "fußballgucken.info – Tagesplan 2026-11-28"
-      },
-      {
-        "url": "https://fussballgucken.info/match/199077/regionalliga-west/sv-roedinghausen-borussia-moenchengladbach-ii",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-27T05:04:40.392188+00:00"
-  },
-  {
-    "date": "2026-11-28",
-    "time": "14:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
     "home": "TSV Steinbach Haiger",
@@ -1847,60 +1797,6 @@
       }
     ],
     "verifiedAt": "2026-11-27T05:04:41.758364+00:00"
-  },
-  {
-    "date": "2026-11-28",
-    "time": "14:00",
-    "competition": "Regionalliga Nordost",
-    "country": "Deutschland",
-    "home": "VSG Altglienicke",
-    "away": "Erzgebirge Aue",
-    "channels": [
-      "MDR Fernsehen",
-      "MDR",
-      "MDR (ARD Mediathek)",
-      "MDR Mediathek",
-      "MDR+ Livestreams"
-    ],
-    "groups": [
-      "free"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-        "name": "fußballgucken.info – Tagesplan 2026-11-28"
-      },
-      {
-        "url": "https://fussballgucken.info/match/197285/regionalliga-nordost/vsg-altglienicke-erzgebirge-aue",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-27T05:04:42.514218+00:00"
-  },
-  {
-    "date": "2026-11-28",
-    "time": "14:00",
-    "competition": "Regionalliga Nord",
-    "country": "Deutschland",
-    "home": "VfB Oldenburg",
-    "away": "SV Todesfelde",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-        "name": "fußballgucken.info – Tagesplan 2026-11-28"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198742/regionalliga-nord/vfb-oldenburg-sv-todesfelde",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-27T05:04:39.494954+00:00"
   },
   {
     "date": "2026-11-28",
@@ -3893,32 +3789,6 @@
       }
     ],
     "verifiedAt": "2026-11-27T05:04:45.813424+00:00"
-  },
-  {
-    "date": "2026-11-29",
-    "time": "14:00",
-    "competition": "Regionalliga Nordost",
-    "country": "Deutschland",
-    "home": "FSV Zwickau",
-    "away": "Carl Zeiss Jena",
-    "channels": [
-      "LVZ+",
-      "Mediengruppe Mitteldeutschland"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-29",
-        "name": "fußballgucken.info – Tagesplan 2026-11-29"
-      },
-      {
-        "url": "https://fussballgucken.info/match/197284/regionalliga-nordost/fsv-zwickau-carl-zeiss-jena",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-27T05:04:47.262074+00:00"
   },
   {
     "date": "2026-11-29",
@@ -6072,7 +5942,7 @@
   {
     "date": "2026-12-02",
     "time": "18:30",
-    "competition": "Landespokal Niederrhein",
+    "competition": "Landespokal Niedersachsen",
     "country": "Deutschland",
     "home": "VfB Oldenburg",
     "away": "TSV Havelse",
@@ -6090,9 +5960,13 @@
       {
         "url": "https://fussballgucken.info/match/198724/landespokal-niederrhein/vfb-oldenburg-tsv-havelse",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.fussball.de/mannschaft/vfb-oldenburg-vfb-oldenburg-niedersachsen/-/saison/2627/team-id/011MIB9PBS000000VTVG0001VTR8C1K7",
+        "name": "Offizieller Spielplan: bestätigter Wettbewerb"
       }
     ],
-    "verifiedAt": "2026-11-27T05:04:54.510097+00:00"
+    "verifiedAt": "2026-11-27T10:52:21.410566+00:00"
   },
   {
     "date": "2026-12-02",

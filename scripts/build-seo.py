@@ -36,12 +36,15 @@ def main():
  games=json.loads((ROOT/'games.json').read_text());games=sorted(games,key=lambda g:(g['date'],g['time'],g['home'],g['away']))
  for g in games:
   dt.date.fromisoformat(g['date']);dt.time.fromisoformat(g['time']);assert all(g.get(k) for k in ('home','away','competition','country','channels'))
- window=[g for g in games if today.isoformat()<=g['date']<=(today+dt.timedelta(days=6)).isoformat()]
+ window=[g for g in games if today.isoformat()<=g['date']<=(today+dt.timedelta(days=7)).isoformat()]
  config=json.loads((ROOT/'seo/config.json').read_text());registry=json.loads((ROOT/'seo/matches.json').read_text()) if (ROOT/'seo/matches.json').exists() else {}
+ current_keys={key(g) for g in window if match_page_candidate(g)}
+ # Remove withdrawn future fixtures as well as expired archive entries.
  # Preserve completed match pages for seven full days (plus a three-hour match window).
  for k,v in list(registry.items()):
   rg=v.get('game',{})
-  if rg and match_expired(rg,now):
+  withdrawn=rg and today.isoformat()<=rg.get('date','')<=(today+dt.timedelta(days=7)).isoformat() and k not in current_keys
+  if rg and (match_expired(rg,now) or withdrawn):
    target=ROOT/v.get('path','')
    if target.is_dir():shutil.rmtree(target)
    del registry[k]
