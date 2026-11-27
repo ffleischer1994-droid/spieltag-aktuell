@@ -1715,32 +1715,6 @@
   {
     "date": "2026-11-28",
     "time": "14:00",
-    "competition": "Regionalliga Südwest",
-    "country": "Deutschland",
-    "home": "TSV Steinbach Haiger",
-    "away": "SV Sandhausen",
-    "channels": [
-      "Leagues",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-        "name": "fußballgucken.info – Tagesplan 2026-11-28"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198233/regionalliga-suedwest/tsv-steinbach-haiger-sv-sandhausen",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-27T13:48:15.469010+00:00"
-  },
-  {
-    "date": "2026-11-28",
-    "time": "14:00",
     "competition": "3. Liga",
     "country": "Deutschland",
     "home": "Waldhof Mannheim",
