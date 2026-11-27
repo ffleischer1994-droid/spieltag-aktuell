@@ -1674,31 +1674,6 @@
   {
     "date": "2026-11-28",
     "time": "14:00",
-    "competition": "Regionalliga West",
-    "country": "Deutschland",
-    "home": "SG Wattenscheid 09",
-    "away": "Bergisch Gladbach 09",
-    "channels": [
-      "Leagues"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-        "name": "fußballgucken.info – Tagesplan 2026-11-28"
-      },
-      {
-        "url": "https://fussballgucken.info/match/199073/regionalliga-west/sg-wattenscheid-09-bergisch-gladbach-09",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-27T13:48:14.938652+00:00"
-  },
-  {
-    "date": "2026-11-28",
-    "time": "14:00",
     "competition": "Regionalliga Südwest",
     "country": "Deutschland",
     "home": "SGV Freiberg",

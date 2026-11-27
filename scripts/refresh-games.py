@@ -782,6 +782,8 @@ AUSTRIAN_WOMEN_TEAM_NAMES = {
     'SK Rapid Wien ♀': 'SK Rapid ♀',
 }
 POSTPONED_FIXTURES = {
+    # https://wdfv.de/der-wdfv/aktuelles/1210/herren-regionalliga-west-spielabsage
+    ('2026-11-28', 'https://fussballgucken.info/match/199073/regionalliga-west/sg-wattenscheid-09-bergisch-gladbach-09'),
     # https://wdfv.de/der-wdfv/aktuelles/1207/herren-regionalliga-west-spielabsage
     ('2026-11-28', 'https://fussballgucken.info/match/199074/regionalliga-west/sc-wiedenbrueck-2000-1-fc-koeln-ii'),
     # https://wdfv.de/der-wdfv/aktuelles/1208/herren-regionalliga-west-spielabsage
