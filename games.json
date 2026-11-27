@@ -362,32 +362,6 @@
   {
     "date": "2026-11-27",
     "time": "18:30",
-    "competition": "2. Liga (Österreich)",
-    "country": "Österreich",
-    "home": "SKU Amstetten",
-    "away": "SKN St. Pölten",
-    "channels": [
-      "LAOLA1 (Livestream)",
-      "OneFootball"
-    ],
-    "groups": [
-      "other"
-    ],
-    "sources": [
-      {
-        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-27",
-        "name": "fußballgucken.info – Tagesplan 2026-11-27"
-      },
-      {
-        "url": "https://fussballgucken.info/match/198431/2-liga-oesterreich/sku-amstetten-skn-st-poelten",
-        "name": "Übertragungsdetails"
-      }
-    ],
-    "verifiedAt": "2026-11-27T13:48:14.410520+00:00"
-  },
-  {
-    "date": "2026-11-27",
-    "time": "18:30",
     "competition": "2. Bundesliga",
     "country": "Deutschland",
     "home": "VfL Bochum",
@@ -425,6 +399,7 @@
     "home": "BFC Dynamo",
     "away": "FC Rot-Weiß Erfurt",
     "channels": [
+      "FUNKE Medien Thüringen",
       "Mediengruppe Mitteldeutschland"
     ],
     "groups": [
@@ -438,9 +413,16 @@
       {
         "url": "https://fussballgucken.info/match/197289/regionalliga-nordost/bfc-dynamo-fc-rot-weiss-erfurt",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.thueringer-allgemeine.de/sport/article404402473/fussball-regionalliga-nordost-im-livestream.html",
+        "name": "FUNKE Medien Thüringen: BFC Dynamo gegen Rot-Weiß Erfurt am 27. November im kostenpflichtigen Livestream"
       }
     ],
-    "verifiedAt": "2026-11-27T13:48:14.931332+00:00"
+    "verifiedAt": "2026-11-27T18:47:46.419304+00:00",
+    "channelLinks": {
+      "FUNKE Medien Thüringen": "https://www.thueringer-allgemeine.de/sport/article404402473/fussball-regionalliga-nordost-im-livestream.html"
+    }
   },
   {
     "date": "2026-11-27",
@@ -1291,6 +1273,39 @@
   {
     "date": "2026-11-28",
     "time": "14:00",
+    "competition": "Regionalliga Nordost",
+    "country": "Deutschland",
+    "home": "1. FC Lok Leipzig",
+    "away": "FSV 63 Luckenwalde",
+    "channels": [
+      "MDR Fernsehen",
+      "MDR",
+      "MDR (ARD Mediathek)",
+      "MDR Mediathek",
+      "MDR+ Livestreams"
+    ],
+    "groups": [
+      "free"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+        "name": "fußballgucken.info – Tagesplan 2026-11-28"
+      },
+      {
+        "url": "https://fussballgucken.info/match/197283/regionalliga-nordost/1-fc-lok-leipzig-fsv-63-luckenwalde",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.mdr.de/tv/programm?date=2026-11-28",
+        "name": "MDR: bestätigte Free-TV-Übertragung am 28. November ab 14 Uhr"
+      }
+    ],
+    "verifiedAt": "2026-11-27T18:48:03.246119+00:00"
+  },
+  {
+    "date": "2026-11-28",
+    "time": "14:00",
     "competition": "3. Liga",
     "country": "Deutschland",
     "home": "1. FC Saarbrücken",
@@ -2125,6 +2140,36 @@
       }
     ],
     "verifiedAt": "2026-11-27T13:48:16.911727+00:00"
+  },
+  {
+    "date": "2026-11-28",
+    "time": "15:30",
+    "competition": "2. Liga (Österreich)",
+    "country": "Österreich",
+    "home": "SKU Amstetten",
+    "away": "SKN St. Pölten",
+    "channels": [
+      "LAOLA1 (Livestream)",
+      "OneFootball"
+    ],
+    "groups": [
+      "other"
+    ],
+    "sources": [
+      {
+        "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+        "name": "fußballgucken.info – Tagesplan 2026-11-28"
+      },
+      {
+        "url": "https://fussballgucken.info/match/198431/2-liga-oesterreich/sku-amstetten-skn-st-poelten",
+        "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.2liga.at/de/news/artikel/spielverschiebung-in-der-14-runde-sku-skn",
+        "name": "ADMIRAL 2. Liga: witterungsbedingte Verlegung auf 28.11.2026, 15:30 Uhr; live auf LAOLA1"
+      }
+    ],
+    "verifiedAt": "2026-11-27T18:48:09.253599+00:00"
   },
   {
     "date": "2026-11-28",
@@ -3923,6 +3968,7 @@
     "channels": [
       "blue Sport (CH)",
       "Sportdigital Fussball",
+      "DAZN",
       "OneFootball",
       "Sportdigital.de (Livestream)",
       "Sportdigital+",
@@ -3946,7 +3992,7 @@
         "name": "Übertragungsdetails"
       }
     ],
-    "verifiedAt": "2026-11-27T13:48:20.100007+00:00"
+    "verifiedAt": "2026-11-27T18:48:39.731131+00:00"
   },
   {
     "date": "2026-11-29",
