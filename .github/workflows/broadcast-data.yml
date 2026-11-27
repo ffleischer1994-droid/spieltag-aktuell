@@ -55,8 +55,17 @@ jobs:
           git add games.json ':(glob)**/*.html' sitemap.xml seo/matches.json
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh broadcast data and complete match pages'
-            git pull --rebase origin main
-            git push origin HEAD:main
+            # Another publisher may advance main between pull and push.
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                break
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                exit 1
+              fi
+              sleep 2
+            done
           fi
       - name: Record exact dataset for public verification
         id: dataset
