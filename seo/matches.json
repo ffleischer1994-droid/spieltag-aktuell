@@ -7051,35 +7051,6 @@
     },
     "dataUpdated": "2026-11-24"
   },
-  "2026-11-20|Schachtjor Donezk|FC Livyi Bereh": {
-    "path": "spiel/schachtjor-donezk-fc-livyi-bereh-2026-11-20",
-    "game": {
-      "date": "2026-11-20",
-      "time": "17:00",
-      "competition": "Premjer Liha (Ukraine)",
-      "country": "Ukraine",
-      "home": "Schachtjor Donezk",
-      "away": "FC Livyi Bereh",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
-          "name": "fußballgucken.info – Tagesplan 2026-11-20"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198945/premjer-liha-ukraine/schachtjor-donezk-fc-livyi-bereh",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-20T16:56:19.462627+00:00"
-    },
-    "dataUpdated": "2026-11-20"
-  },
   "2026-11-21|Kolos Kowaliwka|Metalist Charkiw": {
     "path": "spiel/kolos-kowaliwka-metalist-charkiw-2026-11-21",
     "game": {
@@ -8436,92 +8407,6 @@
       "verifiedAt": "2026-11-22T21:48:12.117832+00:00"
     },
     "dataUpdated": "2026-11-22"
-  },
-  "2026-11-20|Elfenbeinküste (U17)|Usbekistan (U17)": {
-    "path": "spiel/elfenbeinkueste-u17-usbekistan-u17-2026-11-20",
-    "game": {
-      "date": "2026-11-20",
-      "time": "17:00",
-      "competition": "U17-WM",
-      "country": "International",
-      "home": "Elfenbeinküste (U17)",
-      "away": "Usbekistan (U17)",
-      "channels": [
-        "DAZN",
-        "FIFA+"
-      ],
-      "groups": [
-        "dazn",
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
-          "name": "fußballgucken.info – Tagesplan 2026-11-20"
-        },
-        {
-          "url": "https://fussballgucken.info/match/199004/u17-wm/elfenbeinkueste-u17-usbekistan-u17",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
-          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
-        },
-        {
-          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
-          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
-        },
-        {
-          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
-          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
-        }
-      ],
-      "verifiedAt": "2026-11-20T16:56:19.440959+00:00"
-    },
-    "dataUpdated": "2026-11-20"
-  },
-  "2026-11-20|Fidschi (U17)|Marokko (U17)": {
-    "path": "spiel/fidschi-u17-marokko-u17-2026-11-20",
-    "game": {
-      "date": "2026-11-20",
-      "time": "17:00",
-      "competition": "U17-WM",
-      "country": "International",
-      "home": "Fidschi (U17)",
-      "away": "Marokko (U17)",
-      "channels": [
-        "DAZN",
-        "FIFA+"
-      ],
-      "groups": [
-        "dazn",
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
-          "name": "fußballgucken.info – Tagesplan 2026-11-20"
-        },
-        {
-          "url": "https://fussballgucken.info/match/199009/u17-wm/fidschi-u17-marokko-u17",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
-          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
-        },
-        {
-          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
-          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
-        },
-        {
-          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
-          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
-        }
-      ],
-      "verifiedAt": "2026-11-20T16:56:19.448138+00:00"
-    },
-    "dataUpdated": "2026-11-20"
   },
   "2026-11-21|Japan (U17)|Kolumbien (U17)": {
     "path": "spiel/japan-u17-kolumbien-u17-2026-11-21",
@@ -15916,7 +15801,9 @@
       "channels": [
         "Canal+ (via Blue Sport)",
         "Sky Sport Premier League",
-        "Sky (CH)"
+        "Sky (CH)",
+        "WOW",
+        "WOW (AT)"
       ],
       "groups": [
         "other",
@@ -15930,9 +15817,20 @@
         {
           "url": "https://fussballgucken.info/match/193659/premier-league-england/afc-sunderland-tottenham-hotspur",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.sky.de/sport/fussball/premier-league/sendeplan",
+          "name": "Sky: bestätigte Senderzuordnung für den 29. November; Sunderland als Goal-Rush-Hauptspiel"
+        },
+        {
+          "url": "https://sport.sky.de/fussball/artikel/premier-league-live-im-tv-stream-bei-sky-und-wow/12543485/34942",
+          "name": "Sky: 12. Spieltag, Anstoßzeiten und Übertragung über WOW"
         }
       ],
-      "verifiedAt": "2026-11-27T13:48:20.733974+00:00"
+      "verifiedAt": "2026-11-27T19:48:21.557489+00:00",
+      "channelLinks": {
+        "WOW": "https://www.wowtv.de/live-sport"
+      }
     },
     "dataUpdated": "2026-11-27"
   },
@@ -15947,8 +15845,11 @@
       "away": "Newcastle United",
       "channels": [
         "Canal+ (via Blue Sport)",
+        "Sky Sport 6",
         "Sky Sport Premier League",
-        "Sky (CH)"
+        "Sky (CH)",
+        "WOW",
+        "WOW (AT)"
       ],
       "groups": [
         "other",
@@ -15962,9 +15863,20 @@
         {
           "url": "https://fussballgucken.info/match/193651/premier-league-england/brighton-and-hove-albion-newcastle-united",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.sky.de/sport/fussball/premier-league/sendeplan",
+          "name": "Sky: bestätigte Senderzuordnung für den 29. November; Sunderland als Goal-Rush-Hauptspiel"
+        },
+        {
+          "url": "https://sport.sky.de/fussball/artikel/premier-league-live-im-tv-stream-bei-sky-und-wow/12543485/34942",
+          "name": "Sky: 12. Spieltag, Anstoßzeiten und Übertragung über WOW"
         }
       ],
-      "verifiedAt": "2026-11-27T13:48:21.031712+00:00"
+      "verifiedAt": "2026-11-27T19:48:30.858582+00:00",
+      "channelLinks": {
+        "WOW": "https://www.wowtv.de/live-sport"
+      }
     },
     "dataUpdated": "2026-11-27"
   },
@@ -15979,8 +15891,11 @@
       "away": "Hull City AFC",
       "channels": [
         "Canal+ (via Blue Sport)",
+        "Sky Sport 8",
         "Sky Sport Premier League",
-        "Sky (CH)"
+        "Sky (CH)",
+        "WOW",
+        "WOW (AT)"
       ],
       "groups": [
         "other",
@@ -15994,9 +15909,20 @@
         {
           "url": "https://fussballgucken.info/match/193652/premier-league-england/crystal-palace-hull-city-afc",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.sky.de/sport/fussball/premier-league/sendeplan",
+          "name": "Sky: bestätigte Senderzuordnung für den 29. November; Sunderland als Goal-Rush-Hauptspiel"
+        },
+        {
+          "url": "https://sport.sky.de/fussball/artikel/premier-league-live-im-tv-stream-bei-sky-und-wow/12543485/34942",
+          "name": "Sky: 12. Spieltag, Anstoßzeiten und Übertragung über WOW"
         }
       ],
-      "verifiedAt": "2026-11-27T13:48:20.880686+00:00"
+      "verifiedAt": "2026-11-27T19:48:30.990206+00:00",
+      "channelLinks": {
+        "WOW": "https://www.wowtv.de/live-sport"
+      }
     },
     "dataUpdated": "2026-11-27"
   },
@@ -16011,8 +15937,11 @@
       "away": "AFC Bournemouth",
       "channels": [
         "Canal+ (via Blue Sport)",
+        "Sky Sport 7",
         "Sky Sport Premier League",
-        "Sky (CH)"
+        "Sky (CH)",
+        "WOW",
+        "WOW (AT)"
       ],
       "groups": [
         "other",
@@ -16026,9 +15955,20 @@
         {
           "url": "https://fussballgucken.info/match/193654/premier-league-england/fc-fulham-afc-bournemouth",
           "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.sky.de/sport/fussball/premier-league/sendeplan",
+          "name": "Sky: bestätigte Senderzuordnung für den 29. November; Sunderland als Goal-Rush-Hauptspiel"
+        },
+        {
+          "url": "https://sport.sky.de/fussball/artikel/premier-league-live-im-tv-stream-bei-sky-und-wow/12543485/34942",
+          "name": "Sky: 12. Spieltag, Anstoßzeiten und Übertragung über WOW"
         }
       ],
-      "verifiedAt": "2026-11-27T13:48:20.722516+00:00"
+      "verifiedAt": "2026-11-27T19:48:31.041004+00:00",
+      "channelLinks": {
+        "WOW": "https://www.wowtv.de/live-sport"
+      }
     },
     "dataUpdated": "2026-11-27"
   },
