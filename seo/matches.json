@@ -8437,92 +8437,6 @@
     },
     "dataUpdated": "2026-11-22"
   },
-  "2026-11-20|Belgien (U17)|Vietnam (U17)": {
-    "path": "spiel/belgien-u17-vietnam-u17-2026-11-20",
-    "game": {
-      "date": "2026-11-20",
-      "time": "14:00",
-      "competition": "U17-WM",
-      "country": "International",
-      "home": "Belgien (U17)",
-      "away": "Vietnam (U17)",
-      "channels": [
-        "DAZN",
-        "FIFA+"
-      ],
-      "groups": [
-        "dazn",
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
-          "name": "fußballgucken.info – Tagesplan 2026-11-20"
-        },
-        {
-          "url": "https://fussballgucken.info/match/199008/u17-wm/belgien-u17-vietnam-u17",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
-          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
-        },
-        {
-          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
-          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
-        },
-        {
-          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
-          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
-        }
-      ],
-      "verifiedAt": "2026-11-20T16:56:18.773403+00:00"
-    },
-    "dataUpdated": "2026-11-20"
-  },
-  "2026-11-20|Kuba (U17)|Tadschikistan (U17)": {
-    "path": "spiel/kuba-u17-tadschikistan-u17-2026-11-20",
-    "game": {
-      "date": "2026-11-20",
-      "time": "14:00",
-      "competition": "U17-WM",
-      "country": "International",
-      "home": "Kuba (U17)",
-      "away": "Tadschikistan (U17)",
-      "channels": [
-        "DAZN",
-        "FIFA+"
-      ],
-      "groups": [
-        "dazn",
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-20",
-          "name": "fußballgucken.info – Tagesplan 2026-11-20"
-        },
-        {
-          "url": "https://fussballgucken.info/match/199006/u17-wm/kuba-u17-tadschikistan-u17",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://files.figc.it/version/c%3ANWU5M2Q1NzUtZGFlYS00%3AMjFjODc3ZGQtYjVhMi00/fu17wc2026%20match%20schedule_v8_12112026.pdf",
-          "name": "FIFA – offizieller U17-WM-Spielplan, Zeiten nach Europe/Berlin umgerechnet"
-        },
-        {
-          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
-          "name": "DAZN Deutschland – FIFA+ und U17-Weltmeisterschaft"
-        },
-        {
-          "url": "https://tickets.fifa.com/organisation/media-releases/fifa-plus-dazn-global-home-of-football",
-          "name": "FIFA – bestätigte FIFA+ Übertragung der U17-WM 2026 auf DAZN"
-        }
-      ],
-      "verifiedAt": "2026-11-20T16:56:18.739362+00:00"
-    },
-    "dataUpdated": "2026-11-20"
-  },
   "2026-11-20|Mali (U17)|Neuseeland (U17)": {
     "path": "spiel/mali-u17-neuseeland-u17-2026-11-20",
     "game": {
@@ -13940,35 +13854,6 @@
         }
       ],
       "verifiedAt": "2026-11-27T13:48:15.087097+00:00"
-    },
-    "dataUpdated": "2026-11-27"
-  },
-  "2026-11-28|SG Wattenscheid 09|Bergisch Gladbach 09": {
-    "path": "spiel/sg-wattenscheid-09-bergisch-gladbach-09-2026-11-28",
-    "game": {
-      "date": "2026-11-28",
-      "time": "14:00",
-      "competition": "Regionalliga West",
-      "country": "Deutschland",
-      "home": "SG Wattenscheid 09",
-      "away": "Bergisch Gladbach 09",
-      "channels": [
-        "Leagues"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
-          "name": "fußballgucken.info – Tagesplan 2026-11-28"
-        },
-        {
-          "url": "https://fussballgucken.info/match/199073/regionalliga-west/sg-wattenscheid-09-bergisch-gladbach-09",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-27T13:48:14.938652+00:00"
     },
     "dataUpdated": "2026-11-27"
   },
