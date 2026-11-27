@@ -782,6 +782,10 @@ AUSTRIAN_WOMEN_TEAM_NAMES = {
     'SK Rapid Wien ♀': 'SK Rapid ♀',
 }
 POSTPONED_FIXTURES = {
+    # https://wdfv.de/der-wdfv/aktuelles/1207/herren-regionalliga-west-spielabsage
+    ('2026-11-28', 'https://fussballgucken.info/match/199074/regionalliga-west/sc-wiedenbrueck-2000-1-fc-koeln-ii'),
+    # https://wdfv.de/der-wdfv/aktuelles/1208/herren-regionalliga-west-spielabsage
+    ('2026-11-28', 'https://fussballgucken.info/match/199076/regionalliga-west/fc-guetersloh-sportfreunde-lotte'),
     # https://www.fsv-schoeningen.com/vorbericht/116873/spielabsage
     ('2026-11-28', 'https://fussballgucken.info/match/198735/regionalliga-nord/fsv-schoeningen-sv-werder-bremen-ii'),
     # https://www.vfb-oldenburg.de/artikel/116933/heimspiel-faellt-aus
