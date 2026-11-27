@@ -782,6 +782,8 @@ AUSTRIAN_WOMEN_TEAM_NAMES = {
     'SK Rapid Wien ♀': 'SK Rapid ♀',
 }
 POSTPONED_FIXTURES = {
+    # https://www.fussball.de/spiel/rsv-eintracht-1949-bfc-preussen/-/spiel/031DEIC870000000VS5489BUVUR5FS5A
+    ('2026-11-28', 'https://fussballgucken.info/match/197287/regionalliga-nordost/rsv-eintracht-1949-bfc-preussen'),
     # https://hfv-online.de/regionalliga-suedwest-steinbach-spiel-abgesagt/
     ('2026-11-28', 'https://fussballgucken.info/match/198233/regionalliga-suedwest/tsv-steinbach-haiger-sv-sandhausen'),
     # https://wdfv.de/der-wdfv/aktuelles/1210/herren-regionalliga-west-spielabsage
