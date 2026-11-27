@@ -4166,7 +4166,9 @@
     "channels": [
       "Canal+ (via Blue Sport)",
       "Sky Sport Premier League",
-      "Sky (CH)"
+      "Sky (CH)",
+      "WOW",
+      "WOW (AT)"
     ],
     "groups": [
       "other",
@@ -4180,9 +4182,20 @@
       {
         "url": "https://fussballgucken.info/match/193659/premier-league-england/afc-sunderland-tottenham-hotspur",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.sky.de/sport/fussball/premier-league/sendeplan",
+        "name": "Sky: bestätigte Senderzuordnung für den 29. November; Sunderland als Goal-Rush-Hauptspiel"
+      },
+      {
+        "url": "https://sport.sky.de/fussball/artikel/premier-league-live-im-tv-stream-bei-sky-und-wow/12543485/34942",
+        "name": "Sky: 12. Spieltag, Anstoßzeiten und Übertragung über WOW"
       }
     ],
-    "verifiedAt": "2026-11-27T13:48:20.733974+00:00"
+    "verifiedAt": "2026-11-27T19:48:21.557489+00:00",
+    "channelLinks": {
+      "WOW": "https://www.wowtv.de/live-sport"
+    }
   },
   {
     "date": "2026-11-29",
@@ -4193,8 +4206,11 @@
     "away": "Newcastle United",
     "channels": [
       "Canal+ (via Blue Sport)",
+      "Sky Sport 6",
       "Sky Sport Premier League",
-      "Sky (CH)"
+      "Sky (CH)",
+      "WOW",
+      "WOW (AT)"
     ],
     "groups": [
       "other",
@@ -4208,9 +4224,20 @@
       {
         "url": "https://fussballgucken.info/match/193651/premier-league-england/brighton-and-hove-albion-newcastle-united",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.sky.de/sport/fussball/premier-league/sendeplan",
+        "name": "Sky: bestätigte Senderzuordnung für den 29. November; Sunderland als Goal-Rush-Hauptspiel"
+      },
+      {
+        "url": "https://sport.sky.de/fussball/artikel/premier-league-live-im-tv-stream-bei-sky-und-wow/12543485/34942",
+        "name": "Sky: 12. Spieltag, Anstoßzeiten und Übertragung über WOW"
       }
     ],
-    "verifiedAt": "2026-11-27T13:48:21.031712+00:00"
+    "verifiedAt": "2026-11-27T19:48:30.858582+00:00",
+    "channelLinks": {
+      "WOW": "https://www.wowtv.de/live-sport"
+    }
   },
   {
     "date": "2026-11-29",
@@ -4221,8 +4248,11 @@
     "away": "Hull City AFC",
     "channels": [
       "Canal+ (via Blue Sport)",
+      "Sky Sport 8",
       "Sky Sport Premier League",
-      "Sky (CH)"
+      "Sky (CH)",
+      "WOW",
+      "WOW (AT)"
     ],
     "groups": [
       "other",
@@ -4236,9 +4266,20 @@
       {
         "url": "https://fussballgucken.info/match/193652/premier-league-england/crystal-palace-hull-city-afc",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.sky.de/sport/fussball/premier-league/sendeplan",
+        "name": "Sky: bestätigte Senderzuordnung für den 29. November; Sunderland als Goal-Rush-Hauptspiel"
+      },
+      {
+        "url": "https://sport.sky.de/fussball/artikel/premier-league-live-im-tv-stream-bei-sky-und-wow/12543485/34942",
+        "name": "Sky: 12. Spieltag, Anstoßzeiten und Übertragung über WOW"
       }
     ],
-    "verifiedAt": "2026-11-27T13:48:20.880686+00:00"
+    "verifiedAt": "2026-11-27T19:48:30.990206+00:00",
+    "channelLinks": {
+      "WOW": "https://www.wowtv.de/live-sport"
+    }
   },
   {
     "date": "2026-11-29",
@@ -4249,8 +4290,11 @@
     "away": "AFC Bournemouth",
     "channels": [
       "Canal+ (via Blue Sport)",
+      "Sky Sport 7",
       "Sky Sport Premier League",
-      "Sky (CH)"
+      "Sky (CH)",
+      "WOW",
+      "WOW (AT)"
     ],
     "groups": [
       "other",
@@ -4264,9 +4308,20 @@
       {
         "url": "https://fussballgucken.info/match/193654/premier-league-england/fc-fulham-afc-bournemouth",
         "name": "Übertragungsdetails"
+      },
+      {
+        "url": "https://www.sky.de/sport/fussball/premier-league/sendeplan",
+        "name": "Sky: bestätigte Senderzuordnung für den 29. November; Sunderland als Goal-Rush-Hauptspiel"
+      },
+      {
+        "url": "https://sport.sky.de/fussball/artikel/premier-league-live-im-tv-stream-bei-sky-und-wow/12543485/34942",
+        "name": "Sky: 12. Spieltag, Anstoßzeiten und Übertragung über WOW"
       }
     ],
-    "verifiedAt": "2026-11-27T13:48:20.722516+00:00"
+    "verifiedAt": "2026-11-27T19:48:31.041004+00:00",
+    "channelLinks": {
+      "WOW": "https://www.wowtv.de/live-sport"
+    }
   },
   {
     "date": "2026-11-29",
