@@ -1,147 +1,4 @@
 {
-  "2026-11-21|Eintracht Frankfurt ♀|Hamburger SV ♀": {
-    "path": "spiel/eintracht-frankfurt-frauen-hamburger-sv-frauen-2026-11-21",
-    "game": {
-      "date": "2026-11-21",
-      "time": "12:00",
-      "competition": "Frauen-Bundesliga",
-      "country": "Deutschland",
-      "home": "Eintracht Frankfurt ♀",
-      "away": "Hamburger SV ♀",
-      "channels": [
-        "DAZN",
-        "MagentaSport",
-        "OneFootball"
-      ],
-      "groups": [
-        "dazn",
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-          "name": "fußballgucken.info – Tagesplan 2026-11-21"
-        },
-        {
-          "url": "https://fussballgucken.info/match/194000/frauen-bundesliga/eintracht-frankfurt-frauen-hamburger-sv-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-21T21:37:50.271953+00:00"
-    },
-    "dataUpdated": "2026-11-21"
-  },
-  "2026-11-21|1. FC Nürnberg|Eintracht Braunschweig": {
-    "path": "spiel/1-fc-nuernberg-eintracht-braunschweig-2026-11-21",
-    "game": {
-      "date": "2026-11-21",
-      "time": "13:00",
-      "competition": "2. Bundesliga",
-      "country": "Deutschland",
-      "home": "1. FC Nürnberg",
-      "away": "Eintracht Braunschweig",
-      "channels": [
-        "Sky Sport Bundesliga 2",
-        "Sky Sport Bundesliga 5",
-        "Sky Sport Bundesliga 7",
-        "Sky Sport Top Event",
-        "Sky (CH)",
-        "WOW",
-        "WOW (AT)",
-        "OneFootball"
-      ],
-      "groups": [
-        "sky",
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-          "name": "fußballgucken.info – Tagesplan 2026-11-21"
-        },
-        {
-          "url": "https://fussballgucken.info/match/193851/2-bundesliga/1-fc-nuernberg-eintracht-braunschweig",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-21T21:37:50.847168+00:00"
-    },
-    "dataUpdated": "2026-11-21"
-  },
-  "2026-11-21|Hannover 96|SpVgg Greuther Fürth": {
-    "path": "spiel/hannover-96-spvgg-greuther-fuerth-2026-11-21",
-    "game": {
-      "date": "2026-11-21",
-      "time": "13:00",
-      "competition": "2. Bundesliga",
-      "country": "Deutschland",
-      "home": "Hannover 96",
-      "away": "SpVgg Greuther Fürth",
-      "channels": [
-        "Sky Sport Bundesliga 2",
-        "Sky Sport Bundesliga 4",
-        "Sky Sport Bundesliga 7",
-        "Sky Sport Top Event",
-        "Sky (CH)",
-        "WOW",
-        "WOW (AT)",
-        "OneFootball"
-      ],
-      "groups": [
-        "sky",
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-          "name": "fußballgucken.info – Tagesplan 2026-11-21"
-        },
-        {
-          "url": "https://fussballgucken.info/match/193848/2-bundesliga/hannover-96-spvgg-greuther-fuerth",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-21T21:37:50.972186+00:00"
-    },
-    "dataUpdated": "2026-11-21"
-  },
-  "2026-11-21|VfL Wolfsburg|Holstein Kiel": {
-    "path": "spiel/vfl-wolfsburg-holstein-kiel-2026-11-21",
-    "game": {
-      "date": "2026-11-21",
-      "time": "13:00",
-      "competition": "2. Bundesliga",
-      "country": "Deutschland",
-      "home": "VfL Wolfsburg",
-      "away": "Holstein Kiel",
-      "channels": [
-        "Sky Sport Bundesliga 2",
-        "Sky Sport Bundesliga 3",
-        "Sky Sport Bundesliga 7",
-        "Sky Sport Top Event",
-        "Sky (CH)",
-        "WOW",
-        "WOW (AT)",
-        "OneFootball"
-      ],
-      "groups": [
-        "sky",
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-          "name": "fußballgucken.info – Tagesplan 2026-11-21"
-        },
-        {
-          "url": "https://fussballgucken.info/match/193846/2-bundesliga/vfl-wolfsburg-holstein-kiel",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-21T21:37:51.027165+00:00"
-    },
-    "dataUpdated": "2026-11-21"
-  },
   "2026-11-21|Manchester City|FC Fulham": {
     "path": "spiel/manchester-city-fc-fulham-2026-11-21",
     "game": {
@@ -4051,74 +3908,6 @@
     },
     "dataUpdated": "2026-11-22"
   },
-  "2026-11-21|Brisbane Roar|Sydney FC": {
-    "path": "spiel/brisbane-roar-sydney-fc-2026-11-21",
-    "game": {
-      "date": "2026-11-21",
-      "time": "09:40",
-      "competition": "A-League (Australien)",
-      "country": "Australien",
-      "home": "Brisbane Roar",
-      "away": "Sydney FC",
-      "channels": [
-        "blue Sport (CH)",
-        "Sportdigital Fussball",
-        "OneFootball",
-        "Sportdigital.de (Livestream)",
-        "Sportdigital+",
-        "Sportdigital Fussball (MagentaSport)",
-        "Sportdigital Fussball (MagentaTV)",
-        "Sportdigital Fussball (via DAZN)",
-        "Sportdigital Fussball HD (Sky)"
-      ],
-      "groups": [
-        "other",
-        "dazn",
-        "sky"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-          "name": "fußballgucken.info – Tagesplan 2026-11-21"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198758/a-league-australien/brisbane-roar-sydney-fc",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-21T21:37:50.185346+00:00"
-    },
-    "dataUpdated": "2026-11-21"
-  },
-  "2026-11-21|Parma Calcio 1913 ♀|SSC Neapel ♀": {
-    "path": "spiel/parma-calcio-1913-frauen-ssc-neapel-frauen-2026-11-21",
-    "game": {
-      "date": "2026-11-21",
-      "time": "12:30",
-      "competition": "Serie A Femminile (Italien)",
-      "country": "Italien",
-      "home": "Parma Calcio 1913 ♀",
-      "away": "SSC Neapel ♀",
-      "channels": [
-        "DAZN"
-      ],
-      "groups": [
-        "dazn"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-          "name": "fußballgucken.info – Tagesplan 2026-11-21"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198755/serie-a-femminile-italien/parma-calcio-1913-frauen-ssc-neapel-frauen",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-21T21:37:50.290440+00:00"
-    },
-    "dataUpdated": "2026-11-21"
-  },
   "2026-11-21|Dundee FC|Heart of Midlothian FC": {
     "path": "spiel/dundee-fc-heart-of-midlothian-fc-2026-11-21",
     "game": {
@@ -4675,51 +4464,6 @@
       "verifiedAt": "2026-11-22T21:48:02.951533+00:00"
     },
     "dataUpdated": "2026-11-22"
-  },
-  "2026-11-21|1. FC Nürnberg (U19)|SpVgg Greuther Fürth (U19)": {
-    "path": "spiel/1-fc-nuernberg-u19-spvgg-greuther-fuerth-u19-2026-11-21",
-    "game": {
-      "date": "2026-11-21",
-      "time": "10:30",
-      "competition": "U19-DFB-Nachwuchsliga",
-      "country": "Deutschland",
-      "home": "1. FC Nürnberg (U19)",
-      "away": "SpVgg Greuther Fürth (U19)",
-      "channels": [
-        "Sky Sport Bundesliga",
-        "Sky Sport News",
-        "Sky Sport (YouTube)",
-        "Sky Sport News HD (Livestream)",
-        "skysport.de",
-        "WOW",
-        "Sky Sport News HD (mobil)",
-        "Sky Sport App"
-      ],
-      "groups": [
-        "sky",
-        "free"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-          "name": "fußballgucken.info – Tagesplan 2026-11-21"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198864/u19-dfb-nachwuchsliga/1-fc-nuernberg-u19-spvgg-greuther-fuerth-u19",
-          "name": "Übertragungsdetails"
-        },
-        {
-          "url": "https://videos.sport.sky.de/fussball/artikel/dfb-nachwuchsligen-live-alle-infos-zur-uebertragung-im-kostenlosen-stream/13183722/34240",
-          "name": "Sky Sport – kostenloser Livestream"
-        }
-      ],
-      "verifiedAt": "2026-11-21T21:37:50.338837+00:00",
-      "channelLinks": {
-        "skysport.de": "https://videos.sport.sky.de/fussball/artikel/dfb-nachwuchsligen-live-alle-infos-zur-uebertragung-im-kostenlosen-stream/13183722/34240",
-        "Sky Sport (YouTube)": "https://www.youtube.com/watch?v=KYN-pEKe4B8"
-      }
-    },
-    "dataUpdated": "2026-11-21"
   },
   "2026-11-21|Como 1907|Cagliari Calcio": {
     "path": "spiel/como-1907-cagliari-calcio-2026-11-21",
@@ -6148,64 +5892,6 @@
       "verifiedAt": "2026-11-24T19:29:08.609914+00:00"
     },
     "dataUpdated": "2026-11-24"
-  },
-  "2026-11-21|Kolos Kowaliwka|Metalist Charkiw": {
-    "path": "spiel/kolos-kowaliwka-metalist-charkiw-2026-11-21",
-    "game": {
-      "date": "2026-11-21",
-      "time": "12:00",
-      "competition": "Premjer Liha (Ukraine)",
-      "country": "Ukraine",
-      "home": "Kolos Kowaliwka",
-      "away": "Metalist Charkiw",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-          "name": "fußballgucken.info – Tagesplan 2026-11-21"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198933/premjer-liha-ukraine/kolos-kowaliwka-metalist-charkiw",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-21T21:37:50.325812+00:00"
-    },
-    "dataUpdated": "2026-11-21"
-  },
-  "2026-11-21|Krywbas Krywyj Rih|FC Kudrivka": {
-    "path": "spiel/krywbas-krywyj-rih-fc-kudrivka-2026-11-21",
-    "game": {
-      "date": "2026-11-21",
-      "time": "12:00",
-      "competition": "Premjer Liha (Ukraine)",
-      "country": "Ukraine",
-      "home": "Krywbas Krywyj Rih",
-      "away": "FC Kudrivka",
-      "channels": [
-        "OneFootball"
-      ],
-      "groups": [
-        "other"
-      ],
-      "sources": [
-        {
-          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-21",
-          "name": "fußballgucken.info – Tagesplan 2026-11-21"
-        },
-        {
-          "url": "https://fussballgucken.info/match/198934/premjer-liha-ukraine/krywbas-krywyj-rih-fc-kudrivka",
-          "name": "Übertragungsdetails"
-        }
-      ],
-      "verifiedAt": "2026-11-21T21:37:50.282124+00:00"
-    },
-    "dataUpdated": "2026-11-21"
   },
   "2026-11-21|Karpaty Lwiw|FK Sorja Luhansk": {
     "path": "spiel/karpaty-lwiw-fk-sorja-luhansk-2026-11-21",
@@ -20948,6 +20634,452 @@
         }
       ],
       "verifiedAt": "2026-11-28T07:42:12.463551+00:00"
+    },
+    "dataUpdated": "2026-11-28"
+  },
+  "2026-11-28|Taiwan ♀|Südafrika ♀": {
+    "path": "spiel/taiwan-frauen-suedafrika-frauen-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "15:00",
+      "competition": "WM-Qualifikation (Frauen, Playoffs)",
+      "country": "International",
+      "home": "Taiwan ♀",
+      "away": "Südafrika ♀",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199761/wm-2027-frauen/taiwan-frauen-suedafrika-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/qualifiers/play-off-tournament/articles/play-off-tournament-matchday-one-preview",
+          "name": "FIFA: alle Spiele der Playoff-Vorrunde live auf FIFA+/DAZN"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland: FIFA+ kostenlos nach Registrierung"
+        },
+        {
+          "url": "https://digitalhub.fifa.com/asset/f43e2903-5610-4a24-93b2-62d2d209c6e1/FIFA-Women-s-World-Cup-2027-Play-Off-Tournament-preliminary-phase-Match-Schedule.pdf",
+          "name": "FIFA: Paarungen und Spieltage der Playoff-Vorrunde"
+        },
+        {
+          "url": "https://football.goobnet.net/",
+          "name": "Aktueller Spielplan: Anstoßzeiten in UTC, nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.forescore.io/tv-guide/",
+          "name": "TV-Spielplan: FIFA-Playoffs am 5. Dezember um 17 Uhr UTC"
+        }
+      ],
+      "verifiedAt": "2026-11-28T15:05:17.168164+00:00",
+      "channelLinks": {
+        "FIFA+": "https://www.dazn.com/fifaplus"
+      }
+    },
+    "dataUpdated": "2026-11-28"
+  },
+  "2026-11-28|Usbekistan ♀|Papua-Neuguinea ♀": {
+    "path": "spiel/usbekistan-frauen-papua-neuguinea-frauen-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "17:30",
+      "competition": "WM-Qualifikation (Frauen, Playoffs)",
+      "country": "International",
+      "home": "Usbekistan ♀",
+      "away": "Papua-Neuguinea ♀",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199760/wm-2027-frauen/usbekistan-frauen-papua-neuguinea-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/qualifiers/play-off-tournament/articles/play-off-tournament-matchday-one-preview",
+          "name": "FIFA: alle Spiele der Playoff-Vorrunde live auf FIFA+/DAZN"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland: FIFA+ kostenlos nach Registrierung"
+        },
+        {
+          "url": "https://digitalhub.fifa.com/asset/f43e2903-5610-4a24-93b2-62d2d209c6e1/FIFA-Women-s-World-Cup-2027-Play-Off-Tournament-preliminary-phase-Match-Schedule.pdf",
+          "name": "FIFA: Paarungen und Spieltage der Playoff-Vorrunde"
+        },
+        {
+          "url": "https://football.goobnet.net/",
+          "name": "Aktueller Spielplan: Anstoßzeiten in UTC, nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.forescore.io/tv-guide/",
+          "name": "TV-Spielplan: FIFA-Playoffs am 5. Dezember um 17 Uhr UTC"
+        }
+      ],
+      "verifiedAt": "2026-11-28T15:05:38.426082+00:00",
+      "channelLinks": {
+        "FIFA+": "https://www.dazn.com/fifaplus"
+      }
+    },
+    "dataUpdated": "2026-11-28"
+  },
+  "2026-11-28|Ghana ♀|Ecuador ♀": {
+    "path": "spiel/ghana-frauen-ecuador-frauen-2026-11-28",
+    "game": {
+      "date": "2026-11-28",
+      "time": "20:00",
+      "competition": "WM-Qualifikation (Frauen, Playoffs)",
+      "country": "International",
+      "home": "Ghana ♀",
+      "away": "Ecuador ♀",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-11-28",
+          "name": "fußballgucken.info – Tagesplan 2026-11-28"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199762/wm-2027-frauen/ghana-frauen-ecuador-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/qualifiers/play-off-tournament/articles/play-off-tournament-matchday-one-preview",
+          "name": "FIFA: alle Spiele der Playoff-Vorrunde live auf FIFA+/DAZN"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland: FIFA+ kostenlos nach Registrierung"
+        },
+        {
+          "url": "https://digitalhub.fifa.com/asset/f43e2903-5610-4a24-93b2-62d2d209c6e1/FIFA-Women-s-World-Cup-2027-Play-Off-Tournament-preliminary-phase-Match-Schedule.pdf",
+          "name": "FIFA: Paarungen und Spieltage der Playoff-Vorrunde"
+        },
+        {
+          "url": "https://football.goobnet.net/",
+          "name": "Aktueller Spielplan: Anstoßzeiten in UTC, nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.forescore.io/tv-guide/",
+          "name": "TV-Spielplan: FIFA-Playoffs am 5. Dezember um 17 Uhr UTC"
+        }
+      ],
+      "verifiedAt": "2026-11-28T15:05:48.235574+00:00",
+      "channelLinks": {
+        "FIFA+": "https://www.dazn.com/fifaplus"
+      }
+    },
+    "dataUpdated": "2026-11-28"
+  },
+  "2026-12-01|Papua-Neuguinea ♀|Taiwan ♀": {
+    "path": "spiel/papua-neuguinea-frauen-taiwan-frauen-2026-12-01",
+    "game": {
+      "date": "2026-12-01",
+      "time": "15:00",
+      "competition": "WM-Qualifikation (Frauen, Playoffs)",
+      "country": "International",
+      "home": "Papua-Neuguinea ♀",
+      "away": "Taiwan ♀",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "sources": [
+        {
+          "url": "https://fussballgucken.info/fussball-heute?date=2026-12-01",
+          "name": "fußballgucken.info – Tagesplan 2026-12-01"
+        },
+        {
+          "url": "https://fussballgucken.info/match/199759/wm-2027-frauen/papua-neuguinea-frauen-taiwan-frauen",
+          "name": "Übertragungsdetails"
+        },
+        {
+          "url": "https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/qualifiers/play-off-tournament/articles/play-off-tournament-matchday-one-preview",
+          "name": "FIFA: alle Spiele der Playoff-Vorrunde live auf FIFA+/DAZN"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland: FIFA+ kostenlos nach Registrierung"
+        },
+        {
+          "url": "https://digitalhub.fifa.com/asset/f43e2903-5610-4a24-93b2-62d2d209c6e1/FIFA-Women-s-World-Cup-2027-Play-Off-Tournament-preliminary-phase-Match-Schedule.pdf",
+          "name": "FIFA: Paarungen und Spieltage der Playoff-Vorrunde"
+        },
+        {
+          "url": "https://football.goobnet.net/",
+          "name": "Aktueller Spielplan: Anstoßzeiten in UTC, nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.forescore.io/tv-guide/",
+          "name": "TV-Spielplan: FIFA-Playoffs am 5. Dezember um 17 Uhr UTC"
+        }
+      ],
+      "verifiedAt": "2026-11-28T15:06:10.787551+00:00",
+      "channelLinks": {
+        "FIFA+": "https://www.dazn.com/fifaplus"
+      }
+    },
+    "dataUpdated": "2026-11-28"
+  },
+  "2026-12-01|Usbekistan ♀|Ghana ♀": {
+    "path": "spiel/usbekistan-frauen-ghana-frauen-2026-12-01",
+    "game": {
+      "date": "2026-12-01",
+      "time": "17:30",
+      "competition": "WM-Qualifikation (Frauen, Playoffs)",
+      "country": "International",
+      "home": "Usbekistan ♀",
+      "away": "Ghana ♀",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/qualifiers/play-off-tournament/articles/play-off-tournament-matchday-one-preview",
+          "name": "FIFA: alle Spiele der Playoff-Vorrunde live auf FIFA+/DAZN"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland: FIFA+ kostenlos nach Registrierung"
+        },
+        {
+          "url": "https://digitalhub.fifa.com/asset/f43e2903-5610-4a24-93b2-62d2d209c6e1/FIFA-Women-s-World-Cup-2027-Play-Off-Tournament-preliminary-phase-Match-Schedule.pdf",
+          "name": "FIFA: Paarungen und Spieltage der Playoff-Vorrunde"
+        },
+        {
+          "url": "https://football.goobnet.net/",
+          "name": "Aktueller Spielplan: Anstoßzeiten in UTC, nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.forescore.io/tv-guide/",
+          "name": "TV-Spielplan: FIFA-Playoffs am 5. Dezember um 17 Uhr UTC"
+        }
+      ],
+      "channelLinks": {
+        "FIFA+": "https://www.dazn.com/fifaplus"
+      },
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-28T15:10:24.969161+00:00"
+    },
+    "dataUpdated": "2026-11-28"
+  },
+  "2026-12-01|Südafrika ♀|Ecuador ♀": {
+    "path": "spiel/suedafrika-frauen-ecuador-frauen-2026-12-01",
+    "game": {
+      "date": "2026-12-01",
+      "time": "20:00",
+      "competition": "WM-Qualifikation (Frauen, Playoffs)",
+      "country": "International",
+      "home": "Südafrika ♀",
+      "away": "Ecuador ♀",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/qualifiers/play-off-tournament/articles/play-off-tournament-matchday-one-preview",
+          "name": "FIFA: alle Spiele der Playoff-Vorrunde live auf FIFA+/DAZN"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland: FIFA+ kostenlos nach Registrierung"
+        },
+        {
+          "url": "https://digitalhub.fifa.com/asset/f43e2903-5610-4a24-93b2-62d2d209c6e1/FIFA-Women-s-World-Cup-2027-Play-Off-Tournament-preliminary-phase-Match-Schedule.pdf",
+          "name": "FIFA: Paarungen und Spieltage der Playoff-Vorrunde"
+        },
+        {
+          "url": "https://football.goobnet.net/",
+          "name": "Aktueller Spielplan: Anstoßzeiten in UTC, nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.forescore.io/tv-guide/",
+          "name": "TV-Spielplan: FIFA-Playoffs am 5. Dezember um 17 Uhr UTC"
+        }
+      ],
+      "channelLinks": {
+        "FIFA+": "https://www.dazn.com/fifaplus"
+      },
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-28T15:10:24.969173+00:00"
+    },
+    "dataUpdated": "2026-11-28"
+  },
+  "2026-12-05|Papua-Neuguinea ♀|Ghana ♀": {
+    "path": "spiel/papua-neuguinea-frauen-ghana-frauen-2026-12-05",
+    "game": {
+      "date": "2026-12-05",
+      "time": "18:00",
+      "competition": "WM-Qualifikation (Frauen, Playoffs)",
+      "country": "International",
+      "home": "Papua-Neuguinea ♀",
+      "away": "Ghana ♀",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/qualifiers/play-off-tournament/articles/play-off-tournament-matchday-one-preview",
+          "name": "FIFA: alle Spiele der Playoff-Vorrunde live auf FIFA+/DAZN"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland: FIFA+ kostenlos nach Registrierung"
+        },
+        {
+          "url": "https://digitalhub.fifa.com/asset/f43e2903-5610-4a24-93b2-62d2d209c6e1/FIFA-Women-s-World-Cup-2027-Play-Off-Tournament-preliminary-phase-Match-Schedule.pdf",
+          "name": "FIFA: Paarungen und Spieltage der Playoff-Vorrunde"
+        },
+        {
+          "url": "https://football.goobnet.net/",
+          "name": "Aktueller Spielplan: Anstoßzeiten in UTC, nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.forescore.io/tv-guide/",
+          "name": "TV-Spielplan: FIFA-Playoffs am 5. Dezember um 17 Uhr UTC"
+        }
+      ],
+      "channelLinks": {
+        "FIFA+": "https://www.dazn.com/fifaplus"
+      },
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-28T15:10:24.969180+00:00"
+    },
+    "dataUpdated": "2026-11-28"
+  },
+  "2026-12-05|Südafrika ♀|Usbekistan ♀": {
+    "path": "spiel/suedafrika-frauen-usbekistan-frauen-2026-12-05",
+    "game": {
+      "date": "2026-12-05",
+      "time": "18:00",
+      "competition": "WM-Qualifikation (Frauen, Playoffs)",
+      "country": "International",
+      "home": "Südafrika ♀",
+      "away": "Usbekistan ♀",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/qualifiers/play-off-tournament/articles/play-off-tournament-matchday-one-preview",
+          "name": "FIFA: alle Spiele der Playoff-Vorrunde live auf FIFA+/DAZN"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland: FIFA+ kostenlos nach Registrierung"
+        },
+        {
+          "url": "https://digitalhub.fifa.com/asset/f43e2903-5610-4a24-93b2-62d2d209c6e1/FIFA-Women-s-World-Cup-2027-Play-Off-Tournament-preliminary-phase-Match-Schedule.pdf",
+          "name": "FIFA: Paarungen und Spieltage der Playoff-Vorrunde"
+        },
+        {
+          "url": "https://football.goobnet.net/",
+          "name": "Aktueller Spielplan: Anstoßzeiten in UTC, nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.forescore.io/tv-guide/",
+          "name": "TV-Spielplan: FIFA-Playoffs am 5. Dezember um 17 Uhr UTC"
+        }
+      ],
+      "channelLinks": {
+        "FIFA+": "https://www.dazn.com/fifaplus"
+      },
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-28T15:10:24.969177+00:00"
+    },
+    "dataUpdated": "2026-11-28"
+  },
+  "2026-12-05|Taiwan ♀|Ecuador ♀": {
+    "path": "spiel/taiwan-frauen-ecuador-frauen-2026-12-05",
+    "game": {
+      "date": "2026-12-05",
+      "time": "18:00",
+      "competition": "WM-Qualifikation (Frauen, Playoffs)",
+      "country": "International",
+      "home": "Taiwan ♀",
+      "away": "Ecuador ♀",
+      "channels": [
+        "DAZN",
+        "FIFA+"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/qualifiers/play-off-tournament/articles/play-off-tournament-matchday-one-preview",
+          "name": "FIFA: alle Spiele der Playoff-Vorrunde live auf FIFA+/DAZN"
+        },
+        {
+          "url": "https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst",
+          "name": "DAZN Deutschland: FIFA+ kostenlos nach Registrierung"
+        },
+        {
+          "url": "https://digitalhub.fifa.com/asset/f43e2903-5610-4a24-93b2-62d2d209c6e1/FIFA-Women-s-World-Cup-2027-Play-Off-Tournament-preliminary-phase-Match-Schedule.pdf",
+          "name": "FIFA: Paarungen und Spieltage der Playoff-Vorrunde"
+        },
+        {
+          "url": "https://football.goobnet.net/",
+          "name": "Aktueller Spielplan: Anstoßzeiten in UTC, nach Europe/Berlin umgerechnet"
+        },
+        {
+          "url": "https://www.forescore.io/tv-guide/",
+          "name": "TV-Spielplan: FIFA-Playoffs am 5. Dezember um 17 Uhr UTC"
+        }
+      ],
+      "channelLinks": {
+        "FIFA+": "https://www.dazn.com/fifaplus"
+      },
+      "groups": [
+        "dazn",
+        "free"
+      ],
+      "verifiedAt": "2026-11-28T15:10:24.969178+00:00"
     },
     "dataUpdated": "2026-11-28"
   }
