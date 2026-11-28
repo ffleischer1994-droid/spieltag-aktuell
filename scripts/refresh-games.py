@@ -995,6 +995,9 @@ def read_day(date):
             home_name = AUSTRIAN_WOMEN_TEAM_NAMES.get(home_name, home_name)
             away_name = AUSTRIAN_WOMEN_TEAM_NAMES.get(away_name, away_name)
         competition_override = VERIFIED_COMPETITIONS.get((date, match_url))
+        if any((date, home_name, away_name) == (d, h, a)
+               for d, _time, h, a in WOMENS_PLAYOFF_FIXTURES):
+            competition_override = ('WM-Qualifikation (Frauen, Playoffs)', WOMENS_PLAYOFF_SOURCES[0]['url'])
         if competition_override:
             competition = competition_override[0]
         afcon_qualifier = competition == 'Afrika-Cup' and '2026-11-12' <= date <= '2026-11-17'
@@ -1053,6 +1056,19 @@ def read_day(date):
     if not rows: raise ValueError(f'{date}: empty source; retaining existing dataset')
     print(f'{date}: {len(rows)} games', flush=True)
     return rows
+
+
+
+# FIFA confirms every match of the nine-game preliminary phase on FIFA+/DAZN.
+# Current UTC fixture/TV listings take precedence over the PDF local-time label.
+WOMENS_PLAYOFF_FIXTURES = [('2026-11-28', '15:00', 'Taiwan ♀', 'Südafrika ♀'), ('2026-11-28', '17:30', 'Usbekistan ♀', 'Papua-Neuguinea ♀'), ('2026-11-28', '20:00', 'Ghana ♀', 'Ecuador ♀'), ('2026-12-01', '15:00', 'Papua-Neuguinea ♀', 'Taiwan ♀'), ('2026-12-01', '17:30', 'Usbekistan ♀', 'Ghana ♀'), ('2026-12-01', '20:00', 'Südafrika ♀', 'Ecuador ♀'), ('2026-12-05', '18:00', 'Südafrika ♀', 'Usbekistan ♀'), ('2026-12-05', '18:00', 'Taiwan ♀', 'Ecuador ♀'), ('2026-12-05', '18:00', 'Papua-Neuguinea ♀', 'Ghana ♀')]
+WOMENS_PLAYOFF_SOURCES = [{'url': 'https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/qualifiers/play-off-tournament/articles/play-off-tournament-matchday-one-preview', 'name': 'FIFA: alle Spiele der Playoff-Vorrunde live auf FIFA+/DAZN'}, {'url': 'https://www.dazn.com/de-DE/help/articles/36029102113053-fifa-auf-dazn-alles-was-du-wissen-musst', 'name': 'DAZN Deutschland: FIFA+ kostenlos nach Registrierung'}, {'url': 'https://digitalhub.fifa.com/asset/f43e2903-5610-4a24-93b2-62d2d209c6e1/FIFA-Women-s-World-Cup-2027-Play-Off-Tournament-preliminary-phase-Match-Schedule.pdf', 'name': 'FIFA: Paarungen und Spieltage der Playoff-Vorrunde'}, {'url': 'https://football.goobnet.net/', 'name': 'Aktueller Spielplan: Anstoßzeiten in UTC, nach Europe/Berlin umgerechnet'}, {'url': 'https://www.forescore.io/tv-guide/', 'name': 'TV-Spielplan: FIFA-Playoffs am 5. Dezember um 17 Uhr UTC'}]
+VERIFIED_ADDITIONAL_FIXTURES += [
+    dict(date=date, time=time, competition='WM-Qualifikation (Frauen, Playoffs)', country="International",
+         home=home, away=away, channels=["DAZN", "FIFA+"],
+         sources=WOMENS_PLAYOFF_SOURCES, channelLinks={"FIFA+": "https://www.dazn.com/fifaplus"})
+    for date, time, home, away in WOMENS_PLAYOFF_FIXTURES
+]
 
 
 def main():
