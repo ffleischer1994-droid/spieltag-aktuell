@@ -806,6 +806,19 @@ AUSTRIAN_WOMEN_TEAM_NAMES = {
     'SK Rapid Wien ♀': 'SK Rapid ♀',
 }
 POSTPONED_FIXTURES = {
+    # https://www.fussball.de/spiel/eimsbuetteler-tv-fc-eintracht-norderstedt/-/spiel/031D409KTO000000VS5489BTVUS470OH
+    ('2026-11-28', 'https://fussballgucken.info/match/198738/regionalliga-nord/eimsbuetteler-tv-eintracht-norderstedt'),
+    # https://weiche-liga.de/
+    ('2026-11-28', 'https://fussballgucken.info/match/198740/regionalliga-nord/sc-weiche-flensburg-hsc-hannover'),
+    # https://www.fussball.de/spiel/sv-atlas-delmenhorst-ssv-jeddeloh/-/spiel/031D409KJ0000000VS5489BTVUS470OH
+    ('2026-11-28', 'https://fussballgucken.info/match/198734/regionalliga-nord/sv-atlas-delmenhorst-ssv-jeddeloh-ii'),
+    # https://vfb-luebeck.de/spiel-beim-bremer-sv-witterungsbedingt-abgesagt/
+    ('2026-11-29', 'https://fussballgucken.info/match/198737/regionalliga-nord/bremer-sv-vfb-luebeck'),
+    # https://www.fussball.de/spiel/fc-st-pauli-ii-hannover-96-ii-u23/-/spiel/031D409L0C000000VS5489BTVUS470OH
+    ('2026-11-29', 'https://fussballgucken.info/match/198739/regionalliga-nord/fc-st-pauli-ii-hannover-96-ii'),
+    # https://www.fussball.de/spiel/sv-drochtersen-assel-hamburger-sv-ii/-/spiel/031D409L64000000VS5489BTVUS470OH
+    ('2026-11-29', 'https://fussballgucken.info/match/198741/regionalliga-nord/sv-drochtersen-assel-hamburger-sv-ii'),
+
     # https://www.fussball.de/spiel/rsv-eintracht-1949-bfc-preussen/-/spiel/031DEIC870000000VS5489BUVUR5FS5A
     ('2026-11-28', 'https://fussballgucken.info/match/197287/regionalliga-nordost/rsv-eintracht-1949-bfc-preussen'),
     # https://hfv-online.de/regionalliga-suedwest-steinbach-spiel-abgesagt/
@@ -980,6 +993,9 @@ def read_day(date):
     def parse_item(item):
         home, away = item.select_one('.team-home'), item.select_one('.team-guest')
         if not home or not away: return None
+        # Cancellation badges override stale detail-page broadcast providers.
+        if item.select_one('.item-coverage a[href="/abgesagte-verschobene-spiele"]'):
+            return None
         competition = item.select_one('.meta-competition').get_text(' ', strip=True)
         if re.search(r'Icon League', competition, re.I): return None
         time = item.select_one('.meta-time').get_text(strip=True)
